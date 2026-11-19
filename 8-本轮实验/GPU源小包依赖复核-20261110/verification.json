@@ -1,0 +1,13 @@
+{
+  "status": "PASS_ARCHIVE_790_CRC_CHECKS_PRIOR_17_UNCHANGED_NO_NEW_RECOVERY",
+  "archive_files_crc_verified": 790,
+  "prior_experiment_files_sha_verified": 17,
+  "official_small_source_files_sha_verified": 4,
+  "new_binding_matches": 0,
+  "total_binding_matches": 32,
+  "remaining_unmatched": 18,
+  "physical_identity": "HOLD",
+  "archive_audit_sha256": "3dcc5805b3286866d6572c6836b55c291e09197fa6e9049d5b1c854797d2551c",
+  "dependency_checklist_sha256": "3851ad2021577929833a7a9d56a40eeb765f10ed06c36a8e7856dd144c46908d",
+  "report_sha256": "1ab2794884d6eab2e81f1af7da198600f8cd9b892b977f9f1b3bfa1f25e584ec"
+}

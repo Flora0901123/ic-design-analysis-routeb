@@ -1,0 +1,9 @@
+{
+  "status": "ZIP_GPU_FULL_1000_EXACT_REPLAY_PASS",
+  "expected": 1000,
+  "passed": 1000,
+  "archive_sha256": "4f01d04c6770433b920ca68e383156f85925269f3e695531c6fce08babc94a5b",
+  "script_sha256": "6b28989f5c4884090581c675574265f1471ca389eeb02eacc0675fe2b52102a8",
+  "scope": "RTLSIM baseline target program, input and runtime extracted from ZIP; existing locked host toolchain",
+  "fault_records": 30
+}

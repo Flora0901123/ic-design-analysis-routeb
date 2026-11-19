@@ -1,0 +1,15 @@
+{
+  "status": "LOCAL_VERIFICATION_PASS_WHOLE_GPU_HOLD",
+  "source_status_address_fix_sha256": "be1bfa47470ecf242547e7b3a497a6384e2b69e34d041904de04d0e194e1d131",
+  "locked_adapter_cases": 120,
+  "mutation_defects_detected": 8,
+  "local_induction_passed_modules": 2,
+  "whole_dma_records_passed": 0,
+  "whole_dma_records_not_executed": 30,
+  "physical_identity": "NOT_ESTABLISHED",
+  "hashed_files": 102,
+  "scripts_parse": true,
+  "panorama_links_valid": true,
+  "ui_behavior_change": false,
+  "note": "Original failed attempts retained; local proof does not satisfy original whole-platform 32-step/coverage gate."
+}

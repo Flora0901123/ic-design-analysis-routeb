@@ -1,0 +1,2 @@
+FATAL: /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU适配器协议-20261105/tb.sv:15: reset did not flush state
+       Time: 36  Scope: tb.reset_all

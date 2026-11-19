@@ -1,0 +1,34 @@
+{
+  "exit_code": -9,
+  "router_returned": false,
+  "router_drc_counts": [],
+  "physical_signoff": false,
+  "source_inputs": {
+    "global-route.odb": "b18e43564542db2e5dc627bd256c9f574857c2788cd630502efe44f20c81753f",
+    "openroad.log": "428075fab107e9004f06c753a333099066ad80dbd5957af86de7358af015e916",
+    "q1.route.guide": "2644d9bda6b97a8ae3e237698cb24a8280e6894ab9208ba4f4be8bf5f304e712",
+    "run.tcl": "768984d2ab4f50d08d1678a8e35a3fb89affab1b2c3101e712cd01d36b11e8c8",
+    "constraint.sdc": "604ab14d42e2266c3c5d3c0dd1778e2617bed0ab6b1b7123584125acecd83e0e"
+  },
+  "openroad_sha256": "fcd7dcfc37d329bd43a7ede75805319a2e70e6879da11d42b4fd1c2e50e645c3",
+  "elapsed_seconds": 780.0817546110001,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794924633.3424804,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1512560830\nuser_usec 1492168261\nsystem_usec 20392569\nnice_usec 0\nnr_periods 7819\nnr_throttled 1220\nthrottled_usec 1367746\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "3702452224",
+      "memory.peak": "7727890432",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 1\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "302\n411\n412\n459"
+    }
+  },
+  "outputs": {
+    "openroad.log": "7fb609ba088200977693bc55b7b793171cdcd152bfc8d2d5f7bd8a8158beba98",
+    "run.tcl": "6c756ab1a107da0a645285ad58171e8f68821a85eb516700b36554e99ee31376"
+  }
+}

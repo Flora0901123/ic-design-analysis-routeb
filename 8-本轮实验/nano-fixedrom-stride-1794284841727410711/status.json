@@ -1,0 +1,62 @@
+{
+  "status": "ABORTED_IMPLEMENTATION_REVISED",
+  "variant": "stride",
+  "requested_variant": "stride",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "一加一等于几",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "rom_capacity_bytes": 131072,
+  "resource_before": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794284841.9796314,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1821687734\nuser_usec 1776873078\nsystem_usec 44814656\nnice_usec 0\nnr_periods 11010\nnr_throttled 165\nthrottled_usec 69736\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "713265152",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n5105\n5158\n5212"
+    }
+  },
+  "comparison_policy": "fresh baseline and candidate on exactly one newly compiled 128KiB ROM RTL model; no historical cycles used",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "4fdb8b32de4422223fb4109e2614761eb3288935ea049de984d82e432a79e9a9",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "verilator_path": "/root/.cache/routeb-protocol-tools/verilator-5.040/bin/verilator",
+  "verilator_launcher_sha256": "491c95e1a949a3df1f370c9d39318e159d08b246edf4363fb42d05ea88f74dbe",
+  "verilator_version": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "target_fp_flags": [
+    "-ffp-contract=off",
+    "-fno-fast-math"
+  ],
+  "build_jobs": 2,
+  "bios_size_bytes": 46036,
+  "bios_sha256": "9e094228ce13ebc768a99dbb184e6fc8b0b185908adf4ebd93ec727b4d644913",
+  "rom_init_words": 11509,
+  "simulator_sha256": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "rtl_sha256": "22d767a8d31205243d368e261821c4c02abb057ca910f6d7cabb09aeaf1bb5fc",
+  "resource_after_build": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794284921.71104,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1980450180\nuser_usec 1929857024\nsystem_usec 50593156\nnice_usec 0\nnr_periods 11896\nnr_throttled 165\nthrottled_usec 69736\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "754491392",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n5212\n5400\n5673"
+    }
+  },
+  "build_script_sha256": "2f8546b8a2786a2040f9f03c16062611ce1df745410d7556825583d9b80d8166",
+  "error": "Pointer recurrence revised before acceptance: unconditional final p+=stride can form a C pointer beyond a tensor one-past bound; no result accepted. Next implementation increments only when another element remains."
+}

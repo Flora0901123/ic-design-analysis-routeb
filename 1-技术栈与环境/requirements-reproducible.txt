@@ -1,0 +1,20 @@
+# 可复现 Python 依赖（pip freeze 锁定，2026-10-15 实测）
+# 用法：python3 -m pip install -r requirements-reproducible.txt
+numpy==2.3.5
+ml_dtypes==0.5.4
+pytest==9.0.3
+cocotb==2.1.0
+cocotb-test==0.2.6
+litex==2024.12
+migen==0.10.0
+litedram==2024.12
+liteeth==2024.12
+liteiclink==2025.4
+litescope==2024.12
+meson==1.12.1
+pythondata-cpu-vexriscv==1.0.1.post407
+pythondata-software-picolibc==1.7.9.post181
+pythondata-software-compiler-rt==0.0.post6206
+pythondata-misc-tapcfg==0.0.post517
+pyyaml==6.0.3
+requests==2.34.2

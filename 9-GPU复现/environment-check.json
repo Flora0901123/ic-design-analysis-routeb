@@ -1,0 +1,28 @@
+{
+  "relocations": [
+    {
+      "icd_relocation": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/tools/pocl/etc/OpenCL/vendors/pocl.icd",
+      "before": "b4f8102db08fea7df64f2655a2e52b16c1f36fc6d3e74005b94a46c59660e518",
+      "after": "dcf1af2225ad0f796ac7d86aa60c4d8787f0d6e1965f3c09f0accb1b7f4300d9",
+      "library_sha256": "c9cbeaf7c92ab72757315d94d70f3217fc471439ff856e3b664167c6eea59814"
+    }
+  ],
+  "versions": {
+    "clang": {
+      "exit_code": 0,
+      "stdout": "clang version 20.1.8 (https://github.com/vortexgpgpu/llvm.git 4c836512a60c0b965bb298104e084cd0f07ca962)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\nInstalledDir: /mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/tools/llvm-vortex/bin\n",
+      "stderr": ""
+    },
+    "riscv32-g++": {
+      "exit_code": 0,
+      "stdout": "riscv32-unknown-elf-g++ (g2ee5e430018-dirty) 12.2.0\nCopyright (C) 2022 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "stderr": ""
+    },
+    "verilator": {
+      "exit_code": 0,
+      "stdout": "Verilator 5.050 2026-07-01 rev v5.050\n",
+      "stderr": ""
+    }
+  },
+  "platform_execution": false
+}

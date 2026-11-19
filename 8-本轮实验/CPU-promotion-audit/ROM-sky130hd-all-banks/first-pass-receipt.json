@@ -1,0 +1,219 @@
+{
+  "status": "MAPPING_FAILED",
+  "physical_signoff": false,
+  "liberty_sha256": "8725d472becbb2d016ee59cdc0207e1102f24a5c6f5fb4ed194cecc278372575",
+  "yosys_version": "Yosys 0.33 (git sha1 2584903a060)",
+  "bank_mappings": [
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_00",
+      "area_um2": 10194.7776,
+      "source_sha256": "c47b0f60049a414114447774a89ee7b3c45f1527a46074fb638502bc24fd267c",
+      "mapped_sha256": "7ceadf5767d045473c731741da52dd382cc722fa0c28049fa6ed613ebe394597",
+      "log_sha256": "e8a2f181940b744854a760567a76212ddb8006416471328939de95f0e89aca79",
+      "seconds": 0.35302549200000044,
+      "bank_0_mapping_reused": true
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_01",
+      "area_um2": 10583.9008,
+      "source_sha256": "f20b88b539c05732bae246572e0900518807ae5662c3c4e2d643c3b15e7015a1",
+      "mapped_sha256": "9ef171d30f1388336e088b0af093501123e9bf29b1c764e6d0ed63106a7d478d",
+      "log_sha256": "75d0e6cadd9bdd09c2bcdf2b6210fb44043e11d4ab108b3fa388e5cfe74bf753",
+      "seconds": 4.968702754,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_02",
+      "area_um2": 10551.3696,
+      "source_sha256": "0c20923e813f4ebb02343a2c939cc212b4579a69a242f5ecdb903c1b9681f81b",
+      "mapped_sha256": "7d8c7c03888d9eef2ba981a75f357cbc2fa1da8ed0cc30132a27fbb2faf6dd7b",
+      "log_sha256": "3ae3332b69c5d1a5a5da54482a6b1ff24dfa69d4d85d44e9ac5bbff6e8b7188f",
+      "seconds": 5.020325296000001,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_03",
+      "area_um2": 10012.1024,
+      "source_sha256": "bf2d8ad9982e3c57b725050c92849bb41f672eea6370cdef8bd7852bd4789e3a",
+      "mapped_sha256": "f91655590bfbec70e8a0dfc36b8c633891db35b0c3e3a41a1191c40f3dbce47e",
+      "log_sha256": "1dce5b16d3abe9ef1345a812c038252f163f00bae0d8007e1dd26e1e4e0cb7db",
+      "seconds": 4.946925297,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_04",
+      "area_um2": 10806.6144,
+      "source_sha256": "23538140f01022d2f3af71a2f921b346ea90a32435a14ad48ca227735abae5dd",
+      "mapped_sha256": "4843ebfd2b49821159cb2ffa1a4dd38f78abfeebb2f8fa7629f94e4e188a2d13",
+      "log_sha256": "355cec60e7dc2f3e6d35603cf8f0f72238d30944942939c9f431f822604591fe",
+      "seconds": 5.1548131139999995,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_05",
+      "area_um2": 10907.9616,
+      "source_sha256": "8c377e86ebecea10433eef919b4f549e9907b0149273859158542ec4a3be3538",
+      "mapped_sha256": "7d971c0156219503ef492a5a2fb3a87914465e6b37070b8aa203b8266284a8e0",
+      "log_sha256": "aec5aaa97780de24f61af42965eabf25a4045c4beb1603b75a65ad88abf88438",
+      "seconds": 5.0065378219999985,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_06",
+      "area_um2": 10411.2352,
+      "source_sha256": "348b688d62bc1520858bab72f6b975e47db70752a231fd7d31d243a7b8335bdf",
+      "mapped_sha256": "16b0c784475802f824f9feef555bd0344b030b0d782ca93c2a61f466c0dca065",
+      "log_sha256": "1036472480b793dcc93061f973d238d020f655b37c93d790d9a4d5075c02e07d",
+      "seconds": 5.194639080999998,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_07",
+      "area_um2": 11130.6752,
+      "source_sha256": "81c982a528ab4d3a6537229e7a28ee25d58d51578a055c84fb4624743ab3e65c",
+      "mapped_sha256": "b8b6bc53ef640b2cea7a223ceb8aa7cb091a27c9fd35b2bbb745632aa3027913",
+      "log_sha256": "aae8891b5ff0845d41603d831407f8780ff3a4eefc7139952b5d35eec2fa1299",
+      "seconds": 5.065505338999998,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_08",
+      "area_um2": 11128.1728,
+      "source_sha256": "73330395484f0dacd626d62007d1ff7676a9ec1cc56f4fbc4b7f068e6a10a9a6",
+      "mapped_sha256": "2a5f9852afcc08a48903fe0c6dd8cb7539ff0caeb550300a1c889fb6656b6d15",
+      "log_sha256": "a41f470920e5dc2fe98f832b8b3fe0b14e749a2e3856e2de583e9c773588ae4f",
+      "seconds": 5.114708172,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_09",
+      "area_um2": 11191.984,
+      "source_sha256": "21bb4c72ee7abfc834a60277b4016617af12c4ce616e494cc45eea7fa34602c3",
+      "mapped_sha256": "a5ca92042197aed86612e956c0382ca449ffd90af9feb019ed372b44c64c69c6",
+      "log_sha256": "60870815ae9e8c4e6e71992fe46d534e4c4037501b997dc0ca02aa61950ff84d",
+      "seconds": 5.118180845999998,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_10",
+      "area_um2": 11307.0944,
+      "source_sha256": "7667ca7a207f80acb3d28ed582f8517d2888725ed6c0dbce46ac2e4215e9c003",
+      "mapped_sha256": "876d762d994dbd83551b0fb489f82c83ad42667def922f47d00106fe72a207fa",
+      "log_sha256": "08760879a0163b5e0eeb4ed388da7a1287d2fe20b03ed2d10580a4d95ab8da21",
+      "seconds": 5.116126357999999,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_11",
+      "area_um2": 9769.3696,
+      "source_sha256": "f3e57c479038c145a4e4af3984f94ba029f149b735b121c2aa6335b728166cbe",
+      "mapped_sha256": "0cd70f78ed84ea03acdaae516e8551847663a50b11382841e05382a7cf63ad18",
+      "log_sha256": "aa0fca36a8d9ec3b03963c384a62f9f530858c0354060cb9384a1ffb6686f5ae",
+      "seconds": 4.9081763749999965,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_12",
+      "area_um2": 10951.7536,
+      "source_sha256": "12a1b2c44ce159d5989f8dd5db51ec36bbfeea3d89ece45dcc3d7137b0b8bd81",
+      "mapped_sha256": "1917633e0e97aeae290a1589c80123c3af3264beb6508499057fc5adb9c2be52",
+      "log_sha256": "0ab98baaa7f4bed434837ce590062dc19f35669d5cb644cae2f1b6cadd565982",
+      "seconds": 4.911023160999996,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_13",
+      "area_um2": 10865.4208,
+      "source_sha256": "fb23be42857dd4fa053f18a177d764435a14b7770143518d237ed1784b3abe50",
+      "mapped_sha256": "a18ae0b4cd3e4ec090554286acc74b94a9dfdb5e6186ee67ff26ca685ac75184",
+      "log_sha256": "d0b764cb89f71f8000b22ea4ee06683de6c626c109f3b71b68471f13bbb36953",
+      "seconds": 5.011247757,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_14",
+      "area_um2": 11532.3104,
+      "source_sha256": "c22cfa401bb30c1466a2c593a847b13a99234d389853d47ee294b078f35042d8",
+      "mapped_sha256": "08761a0c42f1642330d2ebaff4996c4d31a48bc8269ddf9b5cc781a5c6f117dc",
+      "log_sha256": "85c1f3d05e1c05bdc9c0bab442aaadd6ab3ce5cacb0ebbf3b90aa0de4bdebcce",
+      "seconds": 5.0662296459999965,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_15",
+      "area_um2": 10651.4656,
+      "source_sha256": "c99296469bac38121cf5440e40237b859affb5ef6e501b10dead7a93bfcae6c1",
+      "mapped_sha256": "787bd3babb237397c6077d74134f440f7967949fc872f0907f076114c558bb1f",
+      "log_sha256": "545b639453957cd35cabc39736c2976cb2da4aeaea599fe3a5499482c0d22d07",
+      "seconds": 5.106423755000002,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_16",
+      "area_um2": 4443.0112,
+      "source_sha256": "51f8ae0700d1f74d89bee9c657c512e8aa6a0d6118b84b7aff03ac2889d1ee92",
+      "mapped_sha256": "9544e78a36cf543dc5a66f64897b5fd8882d820cad96ee4aeb23eeae150f0411",
+      "log_sha256": "9f0bf52872b1373d3e082d9a30ba0a8e8218d57ee22bf3d3c4f0f03ad924d9ad",
+      "seconds": 4.3457017190000045,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_17",
+      "area_um2": 4410.48,
+      "source_sha256": "4f2518a494bbb5a5b02095d08ae40927ab98e2e82959fcb752331d9d236e2231",
+      "mapped_sha256": "73a8912fe534e4645635ef8160f6057c19db7a046a5ee1c0601b96c6f1bd36bf",
+      "log_sha256": "52c2d70f3bc913122dfca0e7dabfa2c651892b046f9e6f24079edad545cc3871",
+      "seconds": 4.301159703000003,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_18",
+      "area_um2": 5510.2848,
+      "source_sha256": "cbbdc135643e2ca0649deac18af2984eab806bde1f0942c5fd2f192acb2e16b7",
+      "mapped_sha256": "2364ffa6c658fb25009c3a10984b4292af1c301f9b17cda653fe875f2d1ecef4",
+      "log_sha256": "8647034b78ed7680739bb359031c32e8fb106efaf46b127aa4a040940a727121",
+      "seconds": 4.367674066999996,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_19",
+      "area_um2": 3420.7808,
+      "source_sha256": "97ba7bc8fb4a00567d3665737697ec9c987c630eac498f86c85e570aabbb86c6",
+      "mapped_sha256": "dd84e47b7680b5336ee8748256dea390a5d186e24046f2855c771a1cc6bdc1ee",
+      "log_sha256": "456e7093c7ecf65cfadc37ca303f2e711eef9afeb28d07dcc8712740bb982ad0",
+      "seconds": 4.366836051,
+      "bank_0_mapping_reused": false
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_20",
+      "area_um2": 3250.6176,
+      "source_sha256": "c23044dafb2150294110526669d5f7465cade0a2f71bea3d60994086175f7172",
+      "mapped_sha256": "36bd0d8202b2c7b6def8a5614a9d8949689a9a5b4831a4c13cc8cc25fe76461c",
+      "log_sha256": "37ee7b13894949b890a47df5e2dfb72353b50b16ea4f344a3aeac238b1e32bf1",
+      "seconds": 4.125485237999996,
+      "bank_0_mapping_reused": false
+    }
+  ],
+  "error": "AssertionError(PosixPath('/mnt/d/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/CPU-promotion-audit/ROM-bank-rebuild-preflight-155439/parent/student_mini_cpu_rom_bank_21.v'))"
+}

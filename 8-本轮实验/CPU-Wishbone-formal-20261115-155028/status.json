@@ -1,0 +1,34 @@
+{
+  "status": "RUNNING",
+  "scope": "32-cycle bounded full-word Wishbone CSR adapter, not whole SoC",
+  "harness_origin": "new local independent scoreboard, historical harness missing in provided package",
+  "source_sha256": "cd68949a826b3ecc29c10e108fe8e2fa7ca26f3eb6fb2079f75c52c9ae8246b5",
+  "harness_sha256": "d6494263c07ce7c980f525ec502e1863ee8f1303c80893a3f1f0e39cf9c87a6b",
+  "jobs": [
+    {
+      "name": "baseline",
+      "mode": "bmc",
+      "accepted": false,
+      "expected": "PASSED",
+      "log_sha256": "897a50dd6e2a17ad620fbe201760890e7fc32f466b6806817a12978968945da6",
+      "covers_reached": 0
+    }
+  ],
+  "gateware_binding": {
+    "parent": {
+      "path": "student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim.v",
+      "sha256": "4ee3f961e62b826573e195d39ba7e0d73dcd8c2a05b1fdcb94a2b615706c1532",
+      "embedded_module_equals_formal_source": false
+    },
+    "candidate": {
+      "path": "student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/b6c6d99e4d0554083c76eb25bb77554ff73cca312ce942cd90dc2bc8a063ce68/soc/gateware/sim.v",
+      "sha256": "b613fe0af4dcb226b1c17fac34adaa9a6e898b9137dbb10845f58dfa66cf157b",
+      "embedded_module_equals_formal_source": false
+    }
+  },
+  "tool_hashes": {
+    "yosys": "88c0a12bb814a1a8716b1ae10b482e35d3005ed558e1f5f626b3dc983ea3abd0",
+    "yosys-smtbmc": "f80da935829097fa2ecd77d9b90fc3cb49da148be6f70e1af40bf4c4370d5c2d",
+    "z3": "c05be002097e2f2106efeeac03e58032e3f5cca10104f95d7a0ddc0bd3f907cb"
+  }
+}

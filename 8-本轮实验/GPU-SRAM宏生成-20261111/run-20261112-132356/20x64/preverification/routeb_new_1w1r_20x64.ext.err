@@ -1,0 +1,68 @@
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 19: section version:
+	Error:  Magic version 8.3.306 is required by this techfile, but this version of magic is 8.3.105.
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 4847: section extract:
+	Illegal keyword.  Legal keywords are:
+	 areacap contact cscale defaultareacap defaultoverlap defaultperimeter defaultsideoverlap defaultsidewall device fet fetresist height antenna model tiedown lambda overlap perimc planeorder noplaneordering resist rscale sidehalo sideoverlap sidewall step style substrate units variants
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5121: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5137: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5158: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5186: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5219: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5256: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5332: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5338: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5354: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5375: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5403: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5436: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5473: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5549: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5555: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5571: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5592: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5620: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5653: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+/root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech: line 5690: section extract:
+	Malformed line for keyword defaultsidewall.  Correct usage:
+	defaultsidewall types plane capacitance
+The following sections of /root/.cache/routeb-openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech contained errors:
+    version
+Segmentation fault (core dumped)

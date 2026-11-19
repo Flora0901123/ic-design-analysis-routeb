@@ -1,0 +1,27 @@
+{
+  "status": "RUNNING",
+  "question": "一加一等于几？",
+  "scope": "full-model locked baseline experiment, no per-token timing instrumentation",
+  "image_sha256": "6c51d6680ed34474bfe9a2267ecddeca2c492724faa857044ab1ee9d6067f5f5",
+  "host_sha256": "35fc43bf9f29814548e79d98cf66ea5dc5a252cc93e4c7d3786ce2ab7e23c131",
+  "rtlsim_libs": {
+    "libvortex.so": "997e66b8a88dddb21160929d99b388cfb7566dd50e6a3997ef4d0757d2232d12",
+    "libvortex-rtlsim.so": "9a55437cacc1e60a231dac5da1b9d07a455ba00797f1dd375f372e38642c5b35",
+    "librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  },
+  "physical_signoff": false,
+  "environment": {
+    "OCL_ICD_VENDORS": "/root/.cache/routeb-dma-rebuild/locked-tools/pocl/etc/OpenCL/vendors",
+    "LD_LIBRARY_PATH": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU同硬件全1000-20261108/replay-source-and-binary:/usr/lib/x86_64-linux-gnu:/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/lib:/root/.cache/routeb-dma-rebuild/locked-tools/pocl/lib:/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime:/root/.cache/routeb-dma-rebuild/locked-tools/llvm-vortex/lib",
+    "POCL_IGNORE_CL_STD": "1",
+    "POCL_VORTEX_XLEN": "32",
+    "LLVM_PREFIX": "/root/.cache/routeb-dma-rebuild/locked-tools/llvm-vortex",
+    "POCL_PATH_LLVM_SPIRV": "/root/.cache/routeb-dma-rebuild/locked-tools/llvm-vortex/bin/llvm-spirv",
+    "POCL_VORTEX_BINTOOL": "OBJCOPY=/root/.cache/routeb-dma-rebuild/locked-tools/llvm-vortex/bin/llvm-objcopy /root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sw/kernel/scripts/vxbin.py",
+    "POCL_VORTEX_CFLAGS": "-O2 -ffp-contract=off -I/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw --target=riscv32-unknown-elf -O3 -mcmodel=medany --sysroot=/root/.cache/routeb-dma-rebuild/locked-tools/riscv32-gnu-toolchain/riscv32-unknown-elf --gcc-toolchain=/root/.cache/routeb-dma-rebuild/locked-tools/riscv32-gnu-toolchain -fno-rtti -fno-exceptions -nostartfiles -nostdlib -fdata-sections -ffunction-sections -I/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw -I/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/hw -I/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sw/kernel/include -DVX_CFG_XLEN=32 -DVX_CFG_XLEN_32 -DNDEBUG -D__VORTEX__ -Xclang -target-feature -Xclang +xvortex -Xclang -target-feature -Xclang +zicond -mllvm -disable-loop-idiom-all -march=rv32imaf -mabi=ilp32f",
+    "POCL_VORTEX_LDFLAGS": "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/device_compat.o -fuse-ld=lld -Wl,-z,norelro -Wl,-Bstatic,--gc-sections,-T/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sw/kernel/scripts/link32.ld,--defsym=STARTUP_ADDR=0x80000000 /root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/kernel_compat/libvortex2.a -L/root/.cache/routeb-dma-rebuild/locked-tools/libc32/lib -lm -lc /root/.cache/routeb-dma-rebuild/locked-tools/libcrt32/lib/baremetal/libclang_rt.builtins-riscv32.a",
+    "VORTEX_DRIVER": "rtlsim",
+    "VORTEX_CP_POLL_TIMEOUT_S": "7200",
+    "VORTEX_PROFILING": "1"
+  }
+}

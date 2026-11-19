@@ -1,0 +1,31 @@
+{
+  "status": "EXTRACTED_TOP_WRITE_CONTROL_CONNECTIVITY_CHECKED",
+  "physical_signoff": false,
+  "8x128": {
+    "schematic_control_to_din": {
+      "p_en_bar0": [],
+      "w_en0": []
+    },
+    "extracted_control_to_din": {
+      "p_en_bar0": [
+        7
+      ],
+      "w_en0": [
+        1
+      ]
+    },
+    "schematic_sha256": "80f1f5539303cfc5fe506f0f417240fa5ff6585baabfee7c6046bec43a60f280",
+    "extracted_sha256": "55bb74781990b5ddd7a51af20670d6f77a04c1ea9fe914e9309f98694a9725ad"
+  },
+  "20x64": {
+    "extracted_control_to_din": {
+      "p_en_bar0": [
+        5
+      ],
+      "w_en0": [
+        6
+      ]
+    },
+    "extracted_sha256": "58306d4c109ae04e8a26958c7ef5cdccaef8d4fb7a2d1cbe0a96cebf8d0460b9"
+  }
+}

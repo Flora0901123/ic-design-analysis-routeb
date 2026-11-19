@@ -1,0 +1,83 @@
+make: Entering directory '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b'
+Makefile:18: warning: overriding recipe for target '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/kernel_compat/libvortex2.a'
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/tests/hip/common.mk:130: warning: ignoring old recipe for target '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/kernel_compat/libvortex2.a'
+make: Warning: File 'Makefile' has modification time 1.2 s in the future
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/riscv32-gnu-toolchain/bin/riscv32-unknown-elf-g++ -march=rv32imaf -mabi=ilp32f -O2 -ffreestanding -fno-builtin -fno-exceptions -fno-rtti -c device_compat.cc -o device_compat.o
+mkdir -p /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/kernel_compat
+cp /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/kernel/libvortex2.a /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/kernel_compat/libvortex2.a
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/riscv32-gnu-toolchain/bin/riscv32-unknown-elf-gcc-ar rcs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/kernel_compat/libvortex2.a device_compat.o
+CONFIGS="-DVX_CFG_NUM_CORES=1 -DVX_CFG_NUM_WARPS=2 -DVX_CFG_NUM_THREADS=4 -DVX_CFG_FPU_TYPE=STD"   make -C /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime/stub DESTDIR=/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime
+make[1]: Entering directory '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime/stub'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime/stub'
+HIP_CLANG_PATH=/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/llvm-vortex/bin LD_LIBRARY_PATH=/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/llvm-vortex/lib: /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/bin/cucc -O2 -ffp-contract=off -fno-fast-math -fno-builtin -fno-builtin-abs -fno-builtin-labs -std=c++17 -DVX_CFG_NUM_CORES=1 -DVX_CFG_NUM_WARPS=2 -DVX_CFG_NUM_THREADS=4 -DVX_CFG_FPU_TYPE=STD --offload-pointer-width=32 --hip-path=/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar -L/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/lib -Wl,-rpath,/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/lib -Wl,-rpath-link,/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime -Wl,-rpath-link,/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/pocl/lib -Wl,-rpath-link,/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/llvm-vortex/lib -O2 -I. /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu -o native_nano
+warning: cucc is a work-in-progress. It is incomplete and may behave incorrectly.
+Please, report issues at https://github.com/CHIP-SPV/chipStar/issues.
+In file included from <built-in>:2:
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/cuspv/cuda_runtime.h:817:4: warning: "cudaFreeAsync is mapped to hipFree" [-W#warnings]
+  817 |   #warning "cudaFreeAsync is mapped to hipFree"
+      |    ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/cuspv/cuda_runtime.h:868:4: warning: "cudaMallocAsync is mapped to hipMalloc" [-W#warnings]
+  868 |   #warning "cudaMallocAsync is mapped to hipMalloc"
+      |    ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/cuspv/cuda_runtime.h:1408:10: warning: 'hipGetTextureReference' is deprecated: This API is marked as deprecated and might not be supported in future releases. For more details please refer https://github.com/ROCm/HIP/blob/develop/docs/reference/deprecated_api_list.md [-Wdeprecated-declarations]
+ 1408 |   return hipGetTextureReference(texref, symbol);
+      |          ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/hip/hip_runtime_api.h:7506:1: note: 'hipGetTextureReference' has been explicitly marked deprecated here
+ 7506 | HIP_DEPRECATED(HIP_DEPRECATED_MSG)
+      | ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/hip/hip_runtime_api.h:680:44: note: expanded from macro 'HIP_DEPRECATED'
+  680 | #define HIP_DEPRECATED(msg) __attribute__((deprecated(msg)))
+      |                                            ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:5: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |     ^~~~~~~~ ~~~
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:19: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |                   ^~~~~~~~ ~~~~
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:34: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |                                  ^~~~~~~~ ~~~~~~~~~~~~
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:57: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |                                                         ^~~~~~~~ ~~~~~~~~~~~~~
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:81: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |                                                                                 ^~~~~~~~ ~~~~~~~~~~~~~
+8 warnings generated when compiling for .
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/llvm-vortex/bin/opt: WARNING: failed to create target machine for 'spirv32': unable to get target for 'spirv32', see --version and --triple.
+In file included from <built-in>:2:
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/cuspv/cuda_runtime.h:817:4: warning: "cudaFreeAsync is mapped to hipFree" [-W#warnings]
+  817 |   #warning "cudaFreeAsync is mapped to hipFree"
+      |    ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/cuspv/cuda_runtime.h:868:4: warning: "cudaMallocAsync is mapped to hipMalloc" [-W#warnings]
+  868 |   #warning "cudaMallocAsync is mapped to hipMalloc"
+      |    ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/cuspv/cuda_runtime.h:1408:10: warning: 'hipGetTextureReference' is deprecated: This API is marked as deprecated and might not be supported in future releases. For more details please refer https://github.com/ROCm/HIP/blob/develop/docs/reference/deprecated_api_list.md [-Wdeprecated-declarations]
+ 1408 |   return hipGetTextureReference(texref, symbol);
+      |          ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/hip/hip_runtime_api.h:7506:1: note: 'hipGetTextureReference' has been explicitly marked deprecated here
+ 7506 | HIP_DEPRECATED(HIP_DEPRECATED_MSG)
+      | ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/chipstar/include/hip/hip_runtime_api.h:680:44: note: expanded from macro 'HIP_DEPRECATED'
+  680 | #define HIP_DEPRECATED(msg) __attribute__((deprecated(msg)))
+      |                                            ^
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:5: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |     ^~~~~~~~ ~~~
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:19: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |                   ^~~~~~~~ ~~~~
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:34: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |                                  ^~~~~~~~ ~~~~~~~~~~~~
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:57: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |                                                         ^~~~~~~~ ~~~~~~~~~~~~~
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b/native_nano.cu:627:81: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  627 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_result);cudaFree(device_status);
+      |                                                                                 ^~~~~~~~ ~~~~~~~~~~~~~
+8 warnings generated when compiling for host.
+
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Leaving directory '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b'

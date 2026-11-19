@@ -1,0 +1,1440 @@
+{
+  "pageDate": "2026-11-08",
+  "experimentDate": "2026-11-08",
+  "completion": 71.875,
+  "counts": {
+    "done": 8,
+    "partial": 7,
+    "todo": 1
+  },
+  "milestones": [
+    {
+      "title": "环境与参考来源整理",
+      "status": "done",
+      "detail": "独立副本、环境记录及参考包核对具备。",
+      "evidence": "reference"
+    },
+    {
+      "title": "CPU算子全量数值回归",
+      "status": "done",
+      "detail": "baseline与Top-K各100案例×10seed，1000条匹配。",
+      "evidence": "cpuop"
+    },
+    {
+      "title": "GPU算子全量数值回归",
+      "status": "partial",
+      "detail": "四组各970条匹配；30条DMA故障注入不支持。",
+      "evidence": "gpuall"
+    },
+    {
+      "title": "CPU Nano真实执行",
+      "status": "done",
+      "detail": "真实RTL输出和逐token中间值已记录。",
+      "evidence": "cpu"
+    },
+    {
+      "title": "GPU Nano真实执行",
+      "status": "done",
+      "detail": "根号3已在SimX整模型真实执行；质量另验。",
+      "evidence": "qa"
+    },
+    {
+      "title": "Top-K与RNE实现及退化审计",
+      "status": "done",
+      "detail": "实现、等价检查与失败决策具备；独立Nano Top-K尚无提速，默认回退基线。",
+      "evidence": "topkfix"
+    },
+    {
+      "title": "开发消融与机制验证",
+      "status": "done",
+      "detail": "CPU四组、反汇编及GPU四组开发探针完成。",
+      "evidence": "gpu"
+    },
+    {
+      "title": "CPU各100次独立重复",
+      "status": "done",
+      "detail": "基线与组合各100次，完整输出及周期一致。",
+      "evidence": "repeat"
+    },
+    {
+      "title": "GPU完整RTL性能板",
+      "status": "partial",
+      "detail": "已测4案例×seed1，完整case×seed及回退板待补。",
+      "evidence": "gpu"
+    },
+    {
+      "title": "适配器与新DMA功能验证",
+      "status": "partial",
+      "detail": "适配器120探针、局部归纳及新边界DMA30/30+3正常控制已完成；原协议安全/12项覆盖/8项突变已通过；整机背压恢复及物理身份未闭合。",
+      "evidence": "dma"
+    },
+    {
+      "title": "锁定版本与物理来源绑定",
+      "status": "partial",
+      "detail": "5.040已安装并用于新整机；原5.050性能结果不追认，原物理身份仍待验。",
+      "evidence": "physical"
+    },
+    {
+      "title": "资源、流量及能耗",
+      "status": "partial",
+      "detail": "有部分CPU计数；匹配硬件的面积和能耗待补。",
+      "evidence": "cpuop"
+    },
+    {
+      "title": "Nano覆盖与回答质量",
+      "status": "partial",
+      "detail": "12个问题仅主机预检；根号3目标实测答错。",
+      "evidence": "host"
+    },
+    {
+      "title": "完整优化晋升门槛",
+      "status": "todo",
+      "detail": "当前HOLD，各项正式验收条件尚未闭环。",
+      "evidence": "progress"
+    },
+    {
+      "title": "报告与证据导航",
+      "status": "done",
+      "detail": "贡献、失败记录、原始日志及SHA可追溯。",
+      "evidence": "report"
+    },
+    {
+      "title": "最终封装与复现验收",
+      "status": "partial",
+      "detail": "有脚本和本机证据，最终包及干净环境仍待验。",
+      "evidence": "setup"
+    }
+  ],
+  "evidence": {
+    "report": {
+      "title": "技术报告",
+      "path": "5-技术报告/技术报告.md",
+      "note": "目标、贡献、结果和边界",
+      "sha256": "a870d998c93f7460b577a808ece9c8d3ef63bec08dfad8960e6c78fa0576d75d"
+    },
+    "rubric": {
+      "title": "老师100分规则",
+      "path": "7-审计与验收/老师网页合同快照/rubric.json",
+      "note": "20 / 40 / 20 / 20；人工审核",
+      "sha256": "9df3c357c76848455be52969fc70da470227b62dd74bd4ed0c101cd28b007d25"
+    },
+    "full": {
+      "title": "双后端全量回归",
+      "path": "8-本轮实验/全100案例双后端验收结果/summary.json",
+      "note": "CPU1000匹配；GPU970匹配",
+      "sha256": "9393a818c5956441145ba17aeee8feeaaabad7a12a210b380ca60b16283c9ca7"
+    },
+    "cpuop": {
+      "title": "CPU算子优化对照",
+      "path": "8-本轮实验/CPU完整优化对照/summary.json",
+      "note": "baseline与Top-K各1000条",
+      "sha256": "d9cfb21ee1555576ef845a10364244ec732fcf62eeea0cd76d1d8bbf657a5a9f"
+    },
+    "gpuall": {
+      "title": "GPU四组完整功能回归",
+      "path": "8-本轮实验/GPU四组优化汇总/功能逐条核对摘要.json",
+      "note": "四组各1000条，970匹配、30不支持",
+      "sha256": "5f115a574ab2ac57a3759d780813145b0ecf5cc4da784d1e1f53cd827f5b9a19"
+    },
+    "cpu": {
+      "title": "CPU Nano四组消融",
+      "path": "8-本轮实验/CPU-Nano四组消融/summary.json",
+      "note": "逐token/hidden/logits一致",
+      "sha256": "6bb97639f93aa8749130e2bbb692e8e8e006483d80f8abd4dce3d1ee4e1aeae0"
+    },
+    "repeat": {
+      "title": "200次独立RTL会话",
+      "path": "8-本轮实验/Nano基线组合100次重复/summary.json",
+      "note": "baseline与组合各100次",
+      "sha256": "319adbc899445ac962f77de83e77aaf77c6a50b24b0e8e043679be2992ef2ba0"
+    },
+    "gpu": {
+      "title": "GPU四组RTLSIM记录",
+      "path": "8-本轮实验/GPU-RTLSIM四组消融/status.json",
+      "note": "4案例×seed1×4变体，共16次",
+      "sha256": "36852ec49d1733af4f1f938c6a77ce7d758d70a5f870c338d10f14a4ce9e70f9"
+    },
+    "rne": {
+      "title": "RNE主机组件等价验证",
+      "path": "8-本轮实验/RNE独立等价检查/result.json",
+      "note": "462233组，主机组件证据",
+      "sha256": "7ff6af5daab6088e50ba70cb2e560c8cbea4637ec3c4f9796fd3691ba65a9b9d"
+    },
+    "qa": {
+      "title": "根号3真实提问",
+      "path": "8-本轮实验/根号3提问结果/result.json",
+      "note": "两端执行一致；本题回答错误",
+      "sha256": "a5485405a93d2bf660ae9eaf05c12f25a2bf68acceaaacb207b2b9fa318fd944"
+    },
+    "host": {
+      "title": "12个冻结问题主机预检",
+      "path": "8-本轮实验/Nano冻结问题主机预检/result.json",
+      "note": "12/12，不替代目标端执行",
+      "sha256": "4d5e53a98ccaa525e492b88cd1c6e25bf96d1709ca19943935e8c4e448cea256"
+    },
+    "asm": {
+      "title": "RISC-V反汇编",
+      "path": "8-本轮实验/CPU-Nano四组消融/rne-attention-rne.disasm",
+      "note": "rne15与动态除法的调用边界",
+      "sha256": "8cf480ad2568d169ed19d063498ae523ed30712c2e9f0d0cb5af443540a1637c"
+    },
+    "version": {
+      "title": "RTLSIM构建与版本",
+      "path": "9-GPU复现/rtlsim-optimization/status.json",
+      "note": "5.050与锁定5.040不同",
+      "sha256": "505bb9a1008fd9e014a24249c5f2cf9b589a327c468bab1b7dcb3337831d607a"
+    },
+    "reference": {
+      "title": "独立参考包校验",
+      "path": "8-本轮实验/20261029T062637452237Z-verify-reference-baseline/status.json",
+      "note": "离线完整性，不是目标实跑",
+      "sha256": "31a53093b15d84100860d0cb1350c713535162fabe8a17f815f4f360ad3505c7"
+    },
+    "progress": {
+      "title": "完善与验收状态",
+      "path": "7-审计与验收/完善进度.md",
+      "note": "已完成事实与剩余门槛",
+      "sha256": "45d0c2dcd43b7fa835565045051a1b83566df530050332088e5d145899ebe963"
+    },
+    "setup": {
+      "title": "环境准备入口",
+      "path": "setup.sh",
+      "note": "工作副本环境准备",
+      "sha256": "1d2f7b1a281ee0ac1bd1be70106afd503e28798fa595a74c70ab71fc245e1d31"
+    },
+    "dma": {
+      "title": "新重建GPU DMA验收",
+      "path": "9-GPU复现/整机DMA重建/验收报告.md",
+      "note": "30/30故障+3正常控制；独立硬件身份",
+      "sha256": "7e1fa38da94ac9bad496e7989881441b82124853ed6d0b43045e2f9aa6405875"
+    },
+    "dmaevents": {
+      "title": "DMA逐条事件与握手",
+      "path": "9-GPU复现/整机DMA重建/dma-event-qualification.json",
+      "note": "真实错误响应、空数值结果、无错误后payload请求",
+      "sha256": "c8e1f9de9f260907c74915af617ad94fc2394a83a5c8906e0e8b926e0d4e49c7"
+    },
+    "adapter": {
+      "title": "5.040适配器复验",
+      "path": "8-本轮实验/GPU锁定版适配器-20261107/status.json",
+      "note": "120探针、0断言违规",
+      "sha256": "e51471a2a6869382d807c254ab32ae05416b30f3cd33468af8e9b623d2cf60c7"
+    },
+    "formal": {
+      "title": "适配器局部安全归纳",
+      "path": "8-本轮实验/GPU适配器局部契约-20261107/completion.json",
+      "note": "2个全位宽模块局部性质通过",
+      "sha256": "34563d9515286672fa4592d1f434c55c8d891adad09a077bb260f7ccb3e1d56f"
+    },
+    "physical": {
+      "title": "物理来源审计",
+      "path": "8-本轮实验/GPU来源与锁定环境-20261105/physical-source-audit.json",
+      "note": "12/50精确匹配，38缺失；原物理身份未建立",
+      "sha256": "d9cd883a520e7c312b3fbd647960d1711dd12286b0810e6330e33fb2cbf8b78b"
+    },
+    "topkfix": {
+      "title": "Top-K退化修补决策",
+      "path": "8-本轮实验/TopK修补-20261105/修补说明.md",
+      "note": "v2/v3拒绝，默认回退baseline",
+      "sha256": "de85629de066b2e56ae7c7649617ab6206562ee4258ad62e936d7aa232b6f7e5"
+    },
+    "atlas": {
+      "title": "工程全景图",
+      "path": "工程生产流程全景图.html",
+      "note": "26模块、49关联及真实计时",
+      "sha256": "6b4d219ddbb7a19af0f363e206dbbef34c95b58690c006e1756a13aa23117076"
+    }
+  },
+  "rubric": [
+    {
+      "id": "report",
+      "title": "技术报告与交付表达",
+      "points": 20,
+      "question": "别人能看懂、找到、检查你的工作吗？",
+      "items": [
+        {
+          "title": "叙述清晰",
+          "points": 5,
+          "platform": "",
+          "status": "done",
+          "have": "报告已交代目标、实现、结果与限制。",
+          "gap": "表达质量仍由老师审核。",
+          "evidence": "report",
+          "requirement": "问题、工作、结论容易找到，不规定章节或页数。"
+        },
+        {
+          "title": "条件与结果表述",
+          "points": 5,
+          "platform": "",
+          "status": "done",
+          "have": "平台、单位、版本差异和测量边界已标注。",
+          "gap": "准确披露版本差异，不代表已修复合规缺口。",
+          "evidence": "version",
+          "requirement": "SPEC、平台、版本、单位和实验条件准确区分。"
+        },
+        {
+          "title": "图表与证据导航",
+          "points": 5,
+          "platform": "",
+          "status": "done",
+          "have": "结论可定位源码差异、日志与SHA。",
+          "gap": "最终封包时再核验链接。",
+          "evidence": "gpu",
+          "requirement": "图表服务解释，每个结论可定位原始数据，而非只展示漂亮截图。"
+        },
+        {
+          "title": "交付说明与引用",
+          "points": 5,
+          "platform": "",
+          "status": "partial",
+          "have": "贡献和引用有说明，已有运行脚本。",
+          "gap": "最终包、统一入口及复现说明需收尾。",
+          "evidence": "setup",
+          "requirement": "运行入口、个人贡献、引用和未完成事项明确。"
+        }
+      ]
+    },
+    {
+      "id": "correctness",
+      "title": "合规与正确性",
+      "points": 40,
+      "question": "算对了吗？遵守约定吗？结果真实可复现吗？",
+      "items": [
+        {
+          "title": "SPEC 合规",
+          "points": 8,
+          "platform": "",
+          "status": "partial",
+          "have": "数值格式、RNE与边界有验证；版本有记录。",
+          "gap": "已补5.040和新宏绑定硬件；功能模型无原OpenRAM物理视图，原物理身份未建立。",
+          "evidence": "rne",
+          "requirement": "数据类型、数值范围、舍入/饱和、硬件/模型/测试版本，各 2 分。"
+        },
+        {
+          "title": "算子正确性",
+          "points": 16,
+          "platform": "",
+          "status": "partial",
+          "have": "CPU两组各1000匹配；GPU四组各970匹配。",
+          "gap": "新硬件DMA30/30和3条控制通过，适配器120探针/局部归纳具备；不能与旧SimX970条拼成同一正式1000条。原协议32步安全、12覆盖、8突变已通过；整机协议与硬件身份仍待齐。",
+          "evidence": "full",
+          "requirement": "基本功能、数值边界、布局/非法输入、协议/恢复，各 4 分。每类先按冻结 case×seed 通过率计算，再对六个 baseline 等权平均。缺项按失败，不准增加简单题稀释失败。"
+        },
+        {
+          "title": "Nano 正确性与真实性",
+          "points": 10,
+          "platform": "",
+          "status": "partial",
+          "have": "双平台真实输出，CPU四组及200次重复一致。",
+          "gap": "根号3答错；目标端冻结问题覆盖与回答质量待补。",
+          "evidence": "qa",
+          "requirement": "两平台各 5 分：回答合理性 2、事实诚实性 2、真实执行及来源 1。天气不能编造；所有问题都回答不知道也不能拿合理性满分。冻结模型的 token 一致性与开放表达的质量分别检查。"
+        },
+        {
+          "title": "可复现性",
+          "points": 6,
+          "platform": "",
+          "status": "partial",
+          "have": "输入、seed、脚本、日志与SHA已保存。",
+          "gap": "最终封装和干净环境复现待验；当前仅有本机已实测证据。",
+          "evidence": "repeat",
+          "requirement": "环境与命令、seed 与完整输入、原始证据与 SHA，各 2 分。"
+        }
+      ]
+    },
+    {
+      "id": "understanding",
+      "title": "项目理解与研究能力",
+      "points": 20,
+      "question": "为什么会这样？你的证据排除了什么解释？",
+      "items": [
+        {
+          "title": "原理理解",
+          "points": 5,
+          "platform": "",
+          "status": "done",
+          "have": "解释P1/P2/P3、数值舍入与平台差异。",
+          "gap": "原理说明对应实际代码，老师人工评价。",
+          "evidence": "report",
+          "requirement": "解释 P1/P2/P3、数值处理、数据流及平台差异。"
+        },
+        {
+          "title": "瓶颈判断",
+          "points": 5,
+          "platform": "",
+          "status": "partial",
+          "have": "有CPU计数、反汇编和GPU开发RTL计数。",
+          "gap": "GPU完整性能板、流量及资源分析不足。",
+          "evidence": "cpuop",
+          "requirement": "依据周期、访存、流水线或关键路径，不靠感觉。"
+        },
+        {
+          "title": "实验设计",
+          "points": 5,
+          "platform": "",
+          "status": "done",
+          "have": "同输入、同模型、四组消融、控制案例及200次重复。",
+          "gap": "开发探针和正式性能板分开判断。",
+          "evidence": "gpu",
+          "requirement": "控制变量，公平比较，检查替代解释和测量边界。"
+        },
+        {
+          "title": "反思与迁移",
+          "points": 5,
+          "platform": "",
+          "status": "done",
+          "have": "保留退化、弱收益、模型答错和替代解释。",
+          "gap": "资源代价仍作为未完成项保留。",
+          "evidence": "cpu",
+          "requirement": "解释失败、资源代价、适用范围，并提出可验证预测。"
+        }
+      ]
+    },
+    {
+      "id": "optimization",
+      "title": "优化晋升与交互性能",
+      "points": 20,
+      "question": "真的更快了吗？为什么？付出了什么代价？",
+      "items": [
+        {
+          "title": "算子实测收益",
+          "points": 3,
+          "platform": "CPU",
+          "status": "partial",
+          "have": "全量Top-K对照，P1探索性等权加速比1.073982。",
+          "gap": "非正式冻结性能板统计；完整正确性及来源门槛未齐。",
+          "evidence": "cpuop",
+          "requirement": "冻结性能板加权加速比提升：不足 2% 得 0；2%–不足 5% 得 1；5%–不足 15% 得 2；至少 15% 得 3。"
+        },
+        {
+          "title": "算子实测收益",
+          "points": 3,
+          "platform": "GPU",
+          "status": "partial",
+          "have": "两个P1开发RTL探针组合周期减少2.802%/2.912%。",
+          "gap": "只测4案例×seed1，不外推正式板或收益分。",
+          "evidence": "gpu",
+          "requirement": "冻结性能板加权加速比提升：不足 2% 得 0；2%–不足 5% 得 1；5%–不足 15% 得 2；至少 15% 得 3。"
+        },
+        {
+          "title": "有效晋升与父链",
+          "points": 2,
+          "platform": "CPU",
+          "status": "todo",
+          "have": "父SHA、源码差异和HOLD状态已保存。",
+          "gap": "待补门槛的HOLD不等于“完整正确但收益不足”的有效HOLD。",
+          "evidence": "progress",
+          "requirement": "缺失/无效 0；完整正确但收益不足的 HOLD 1；通过全部门槛且直接父链有效的 PROMOTE 2。"
+        },
+        {
+          "title": "有效晋升与父链",
+          "points": 2,
+          "platform": "GPU",
+          "status": "todo",
+          "have": "父子版本功能回归及开发RTL计数已具备。",
+          "gap": "已补5.040新DMA与适配器证据；原适配器协议门已通过；整机协议、物理、完整性能与资源门槛未齐。",
+          "evidence": "progress",
+          "requirement": "缺失/无效 0；完整正确但收益不足的 HOLD 1；通过全部门槛且直接父链有效的 PROMOTE 2。"
+        },
+        {
+          "title": "优化因果解释",
+          "points": 2,
+          "platform": "CPU",
+          "status": "partial",
+          "have": "RNE等价、四组消融与反汇编具备。",
+          "gap": "P3周期变化仍保留布局/缓存等替代解释。",
+          "evidence": "asm",
+          "requirement": "只有结论 0；机制与计数相符 1；有消融/对照排除替代解释 2。不用理解总分再次限制本项。"
+        },
+        {
+          "title": "优化因果解释",
+          "points": 2,
+          "platform": "GPU",
+          "status": "partial",
+          "have": "四组RTL探针及P2/P3控制案例具备。",
+          "gap": "启动与代码生成效应未完全排除，需完整计数。",
+          "evidence": "gpu",
+          "requirement": "只有结论 0；机制与计数相符 1；有消融/对照排除替代解释 2。不用理解总分再次限制本项。"
+        },
+        {
+          "title": "Nano 交互收益",
+          "points": 2,
+          "platform": "CPU",
+          "status": "gap",
+          "have": "P1首token减少0.792%，会话减少1.513%。",
+          "gap": "主指标不足2%；不改用decode的2.350%追认主指标。",
+          "evidence": "repeat",
+          "requirement": "优化前确定主指标：P1 首 token、P2 每 token 解码、P3 完整会话。提升不足 2% 得 0；2%–不足 10% 得 1；至少 10% 得 2。所有三个指标仍需报告。"
+        },
+        {
+          "title": "Nano 交互收益",
+          "points": 2,
+          "platform": "GPU",
+          "status": "todo",
+          "have": "有整模型真实执行证据。",
+          "gap": "没有GPU Nano优化前后的交互性能对照。",
+          "evidence": "qa",
+          "requirement": "优化前确定主指标：P1 首 token、P2 每 token 解码、P3 完整会话。提升不足 2% 得 0；2%–不足 10% 得 1；至少 10% 得 2。所有三个指标仍需报告。"
+        },
+        {
+          "title": "资源与副作用",
+          "points": 1,
+          "platform": "CPU",
+          "status": "partial",
+          "have": "已有部分指令和I/D-bus流量对照。",
+          "gap": "面积、功耗/能耗和硬件对应关系待补。",
+          "evidence": "cpuop",
+          "requirement": "完整报告面积、功耗/能耗、流量和回退，并满足约束得 1。"
+        },
+        {
+          "title": "资源与副作用",
+          "points": 1,
+          "platform": "GPU",
+          "status": "todo",
+          "have": "已有开发RTL周期和指令计数。",
+          "gap": "尚无完整流量、面积、能耗与资源约束验收。",
+          "evidence": "version",
+          "requirement": "完整报告面积、功耗/能耗、流量和回退，并满足约束得 1。"
+        }
+      ]
+    }
+  ],
+  "cpu": {
+    "baseline": {
+      "run": "nano-baseline-1793253668984369265",
+      "source_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+      "metrics": {
+        "ttft_cycles": 3859315,
+        "per_token_decode_cycles": 831250.5,
+        "session_cycles": 7184546
+      },
+      "operator_cycles": {
+        "1": 293328,
+        "2": 342286,
+        "3": 1264956
+      },
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "functions_and_calls": {
+        "00002e84 <rne_div>:": [
+          "__udivdi3",
+          "__umoddi3"
+        ],
+        "0000339c <mini_native_scalar_attention.part.0>:": [
+          "course_int32_scale_to_q5_11",
+          "memset",
+          "rne_div",
+          "__floatsisf",
+          "__mulsf3",
+          "__mulsf3",
+          "course_bf16_rne_bits",
+          "course_int32_scale_to_q5_11",
+          "course_exp_neg_q15",
+          "course_exp_neg_q15",
+          "rne_div",
+          "rne_div"
+        ]
+      },
+      "single_trial": true,
+      "reduction_pct_vs_baseline": {
+        "ttft_cycles": 0.0,
+        "per_token_decode_cycles": 0.0,
+        "session_cycles": 0.0
+      },
+      "hidden_logits_token_identical_to_baseline": true
+    },
+    "topk": {
+      "run": "nano-baseline-1793253668984369265",
+      "source_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+      "metrics": {
+        "ttft_cycles": 3859315,
+        "per_token_decode_cycles": 831250.5,
+        "session_cycles": 7184546
+      },
+      "operator_cycles": {
+        "1": 293328,
+        "2": 342286,
+        "3": 1264956
+      },
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "functions_and_calls": {
+        "00002e84 <rne_div>:": [
+          "__udivdi3",
+          "__umoddi3"
+        ],
+        "0000339c <mini_native_scalar_attention.part.0>:": [
+          "course_int32_scale_to_q5_11",
+          "memset",
+          "rne_div",
+          "__floatsisf",
+          "__mulsf3",
+          "__mulsf3",
+          "course_bf16_rne_bits",
+          "course_int32_scale_to_q5_11",
+          "course_exp_neg_q15",
+          "course_exp_neg_q15",
+          "rne_div",
+          "rne_div"
+        ]
+      },
+      "single_trial": true,
+      "reduction_pct_vs_baseline": {
+        "ttft_cycles": 0.0,
+        "per_token_decode_cycles": 0.0,
+        "session_cycles": 0.0
+      },
+      "hidden_logits_token_identical_to_baseline": true,
+      "selection_note": "verified baseline fallback; zero standalone Top-K gain"
+    },
+    "rne": {
+      "run": "nano-rne-1793800891379470871",
+      "source_sha256": "4118bad108b87377676f012de5393e601634dfc1f6ee9f21fa7505d698ea255e",
+      "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+      "metrics": {
+        "ttft_cycles": 3851571,
+        "per_token_decode_cycles": 811830.25,
+        "session_cycles": 7099120
+      },
+      "operator_cycles": {
+        "1": 197977,
+        "2": 156299,
+        "3": 1234348
+      },
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "functions_and_calls": {
+        "00002e84 <rne15>:": [],
+        "000032fc <mini_native_scalar_attention.part.0>:": [
+          "course_int32_scale_to_q5_11",
+          "memset",
+          "__udivdi3",
+          "__umoddi3",
+          "__floatsisf",
+          "__mulsf3",
+          "__mulsf3",
+          "course_bf16_rne_bits",
+          "course_int32_scale_to_q5_11",
+          "course_exp_neg_q15",
+          "course_exp_neg_q15",
+          "rne15",
+          "rne15"
+        ]
+      },
+      "single_trial": true,
+      "reduction_pct_vs_baseline": {
+        "ttft_cycles": 0.2006573705437364,
+        "per_token_decode_cycles": 2.3362692714169797,
+        "session_cycles": 1.189024330834544
+      },
+      "hidden_logits_token_identical_to_baseline": true
+    },
+    "combined": {
+      "run": "nano-combined-1793254628177918766",
+      "source_sha256": "c6839a596d090db206fa4520e2877079d83dd23c69ceb33602c1d561316f7f4e",
+      "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+      "metrics": {
+        "ttft_cycles": 3828746,
+        "per_token_decode_cycles": 811714.25,
+        "session_cycles": 7075832
+      },
+      "operator_cycles": {
+        "1": 206233,
+        "2": 164012,
+        "3": 1150360
+      },
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "functions_and_calls": {
+        "00002e84 <rne15>:": [],
+        "000032fc <mini_native_scalar_attention.part.0>:": [
+          "memset",
+          "__udivdi3",
+          "__umoddi3",
+          "__floatsisf",
+          "__mulsf3",
+          "__mulsf3",
+          "course_bf16_rne_bits",
+          "course_int32_scale_to_q5_11",
+          "course_int32_scale_to_q5_11",
+          "course_exp_neg_q15",
+          "course_exp_neg_q15",
+          "rne15",
+          "rne15"
+        ]
+      },
+      "single_trial": true,
+      "reduction_pct_vs_baseline": {
+        "ttft_cycles": 0.7920835692344367,
+        "per_token_decode_cycles": 2.3502241502411128,
+        "session_cycles": 1.5131645061497274
+      },
+      "hidden_logits_token_identical_to_baseline": true
+    }
+  },
+  "gpu": {
+    "status": "COMPLETE",
+    "formal_eligible": false,
+    "primary_operator": "p1",
+    "selected_ordinals": [
+      0,
+      100,
+      330,
+      660
+    ],
+    "ablation_variants": [
+      "baseline",
+      "topk",
+      "rne",
+      "combined"
+    ],
+    "selection_rule": "predeclared development probe: P1 minimum and random-maximum, P2/P3 minimum controls; seed 1 each",
+    "measurement_boundary": "whole one-case process command including bootstrap and heap initialization; final per-device RTL MPM report; not frozen weighted performance board",
+    "variants": {},
+    "records": [
+      {
+        "variant": "baseline",
+        "ordinal": 0,
+        "case_id": "P1-MINI-01",
+        "seed": 1,
+        "instructions": 8893,
+        "cycles": 94890,
+        "golden_match": true,
+        "log": "baseline-0000.log",
+        "log_sha256": "a292460c3f2aed7dee0b496e91be5be29ed10f2c492e51eadaf8117dce8a66c1",
+        "wall_seconds_diagnostic_only": 11.488687162000133
+      },
+      {
+        "variant": "topk",
+        "ordinal": 0,
+        "case_id": "P1-MINI-01",
+        "seed": 1,
+        "instructions": 8870,
+        "cycles": 94380,
+        "golden_match": true,
+        "log": "topk-0000.log",
+        "log_sha256": "894ab4d8af5ff60239cfd036f56fa5ac4e2fa5bfa19cd06ece1bb32888459cad",
+        "wall_seconds_diagnostic_only": 13.258939174999796
+      },
+      {
+        "variant": "rne",
+        "ordinal": 0,
+        "case_id": "P1-MINI-01",
+        "seed": 1,
+        "instructions": 8712,
+        "cycles": 92851,
+        "golden_match": true,
+        "log": "rne-0000.log",
+        "log_sha256": "4d1ff28c239a87b5be047bd97c7ac788463957d8a8861ede5f59378fae018b25",
+        "wall_seconds_diagnostic_only": 12.498078730000088
+      },
+      {
+        "variant": "combined",
+        "ordinal": 0,
+        "case_id": "P1-MINI-01",
+        "seed": 1,
+        "instructions": 8703,
+        "cycles": 92231,
+        "golden_match": true,
+        "log": "combined-0000.log",
+        "log_sha256": "ac3dc7b6a7030542a0b178026f6796ac119360cd529b9fbd59a15458419e423d",
+        "wall_seconds_diagnostic_only": 18.45811328500008
+      },
+      {
+        "variant": "baseline",
+        "ordinal": 100,
+        "case_id": "P1-MINI-11",
+        "seed": 1,
+        "instructions": 23733,
+        "cycles": 239562,
+        "golden_match": true,
+        "log": "baseline-0100.log",
+        "log_sha256": "2a68d9cd9c9e62963d21452f8084e9a5c36461b5c680d8c8906fbb072248472d",
+        "wall_seconds_diagnostic_only": 12.29904323400001
+      },
+      {
+        "variant": "topk",
+        "ordinal": 100,
+        "case_id": "P1-MINI-11",
+        "seed": 1,
+        "instructions": 23692,
+        "cycles": 238121,
+        "golden_match": true,
+        "log": "topk-0100.log",
+        "log_sha256": "c093534f5fdb18fa402cabee4398ddfcc8d03aac28818a51e9c94ecb73248940",
+        "wall_seconds_diagnostic_only": 12.750891291000016
+      },
+      {
+        "variant": "rne",
+        "ordinal": 100,
+        "case_id": "P1-MINI-11",
+        "seed": 1,
+        "instructions": 23363,
+        "cycles": 234489,
+        "golden_match": true,
+        "log": "rne-0100.log",
+        "log_sha256": "fc3be244be17477276b5c0c338db72982e0453988a6ab65efe73dac86492cb0c",
+        "wall_seconds_diagnostic_only": 22.56737480600009
+      },
+      {
+        "variant": "combined",
+        "ordinal": 100,
+        "case_id": "P1-MINI-11",
+        "seed": 1,
+        "instructions": 23332,
+        "cycles": 232587,
+        "golden_match": true,
+        "log": "combined-0100.log",
+        "log_sha256": "c7776fb41bc561a58a764a0a8f9084c14e1a9aeac2fe5e1d918631a9a70e70f5",
+        "wall_seconds_diagnostic_only": 20.790934558000117
+      },
+      {
+        "variant": "baseline",
+        "ordinal": 330,
+        "case_id": "P2-MINI-01",
+        "seed": 1,
+        "instructions": 9659,
+        "cycles": 102107,
+        "golden_match": true,
+        "log": "baseline-0330.log",
+        "log_sha256": "6b759c5f918a1664bff40a5c6762d5b68380857f64b637bda5e015ed068ead0e",
+        "wall_seconds_diagnostic_only": 12.215040814000076
+      },
+      {
+        "variant": "topk",
+        "ordinal": 330,
+        "case_id": "P2-MINI-01",
+        "seed": 1,
+        "instructions": 9636,
+        "cycles": 101614,
+        "golden_match": true,
+        "log": "topk-0330.log",
+        "log_sha256": "0dea2baf9c32698f5aea366c406580ede0ce68163af17e5e2dd550b22f70c32f",
+        "wall_seconds_diagnostic_only": 11.763769962000197
+      },
+      {
+        "variant": "rne",
+        "ordinal": 330,
+        "case_id": "P2-MINI-01",
+        "seed": 1,
+        "instructions": 9480,
+        "cycles": 100128,
+        "golden_match": true,
+        "log": "rne-0330.log",
+        "log_sha256": "78e2f96b4f12c0d9164cdd569213a7bf92e221585531c23fdd8d2e50eed9cb31",
+        "wall_seconds_diagnostic_only": 18.29440201200009
+      },
+      {
+        "variant": "combined",
+        "ordinal": 330,
+        "case_id": "P2-MINI-01",
+        "seed": 1,
+        "instructions": 9468,
+        "cycles": 99474,
+        "golden_match": true,
+        "log": "combined-0330.log",
+        "log_sha256": "ae16b461ef1893e3f8b0dc67d4b1f324f5197e7cd91e433c83e4e35432bbe6de",
+        "wall_seconds_diagnostic_only": 20.88526366799988
+      },
+      {
+        "variant": "baseline",
+        "ordinal": 660,
+        "case_id": "P3-MINI-01",
+        "seed": 1,
+        "instructions": 18818,
+        "cycles": 193233,
+        "golden_match": true,
+        "log": "baseline-0660.log",
+        "log_sha256": "91a455a941dabfc56312778a0e1d6d399b246803dac19c424b361dd91c50a0e5",
+        "wall_seconds_diagnostic_only": 17.58745249200001
+      },
+      {
+        "variant": "topk",
+        "ordinal": 660,
+        "case_id": "P3-MINI-01",
+        "seed": 1,
+        "instructions": 18831,
+        "cycles": 193192,
+        "golden_match": true,
+        "log": "topk-0660.log",
+        "log_sha256": "4358bc3af664e2364307e5356a77fffac2bea97c9e15dfe03cdd4154be64b9ad",
+        "wall_seconds_diagnostic_only": 18.751494094999998
+      },
+      {
+        "variant": "rne",
+        "ordinal": 660,
+        "case_id": "P3-MINI-01",
+        "seed": 1,
+        "instructions": 18833,
+        "cycles": 193494,
+        "golden_match": true,
+        "log": "rne-0660.log",
+        "log_sha256": "b113413c96d6f67d5431f4d6549a8d43d779662ee75e7abd048971dd462ab712",
+        "wall_seconds_diagnostic_only": 19.405905113000017
+      },
+      {
+        "variant": "combined",
+        "ordinal": 660,
+        "case_id": "P3-MINI-01",
+        "seed": 1,
+        "instructions": 18817,
+        "cycles": 192828,
+        "golden_match": true,
+        "log": "combined-0660.log",
+        "log_sha256": "586f6889683c9273060953335bea18d0c44f448c72a5a9830448672bfef67127",
+        "wall_seconds_diagnostic_only": 15.224454900999945
+      }
+    ],
+    "comparison": [
+      {
+        "case_id": "P1-MINI-01",
+        "seed": 1,
+        "variant": "topk",
+        "baseline_cycles": 94890,
+        "candidate_cycles": 94380,
+        "speedup": 1.005403687221869,
+        "cycle_reduction_pct": 0.5374644325007893,
+        "baseline_instructions": 8893,
+        "candidate_instructions": 8870
+      },
+      {
+        "case_id": "P1-MINI-01",
+        "seed": 1,
+        "variant": "rne",
+        "baseline_cycles": 94890,
+        "candidate_cycles": 92851,
+        "speedup": 1.0219599142712519,
+        "cycle_reduction_pct": 2.148803878174732,
+        "baseline_instructions": 8893,
+        "candidate_instructions": 8712
+      },
+      {
+        "case_id": "P1-MINI-01",
+        "seed": 1,
+        "variant": "combined",
+        "baseline_cycles": 94890,
+        "candidate_cycles": 92231,
+        "speedup": 1.028829786080602,
+        "cycle_reduction_pct": 2.8021920118031396,
+        "baseline_instructions": 8893,
+        "candidate_instructions": 8703
+      },
+      {
+        "case_id": "P1-MINI-11",
+        "seed": 1,
+        "variant": "topk",
+        "baseline_cycles": 239562,
+        "candidate_cycles": 238121,
+        "speedup": 1.006051545222807,
+        "cycle_reduction_pct": 0.6015144305023368,
+        "baseline_instructions": 23733,
+        "candidate_instructions": 23692
+      },
+      {
+        "case_id": "P1-MINI-11",
+        "seed": 1,
+        "variant": "rne",
+        "baseline_cycles": 239562,
+        "candidate_cycles": 234489,
+        "speedup": 1.0216342770876246,
+        "cycle_reduction_pct": 2.1176146467302814,
+        "baseline_instructions": 23733,
+        "candidate_instructions": 23363
+      },
+      {
+        "case_id": "P1-MINI-11",
+        "seed": 1,
+        "variant": "combined",
+        "baseline_cycles": 239562,
+        "candidate_cycles": 232587,
+        "speedup": 1.0299887783926014,
+        "cycle_reduction_pct": 2.911563603576528,
+        "baseline_instructions": 23733,
+        "candidate_instructions": 23332
+      },
+      {
+        "case_id": "P2-MINI-01",
+        "seed": 1,
+        "variant": "topk",
+        "baseline_cycles": 102107,
+        "candidate_cycles": 101614,
+        "speedup": 1.0048516936642589,
+        "cycle_reduction_pct": 0.48282683851254005,
+        "baseline_instructions": 9659,
+        "candidate_instructions": 9636
+      },
+      {
+        "case_id": "P2-MINI-01",
+        "seed": 1,
+        "variant": "rne",
+        "baseline_cycles": 102107,
+        "candidate_cycles": 100128,
+        "speedup": 1.0197647011824864,
+        "cycle_reduction_pct": 1.9381629075381657,
+        "baseline_instructions": 9659,
+        "candidate_instructions": 9480
+      },
+      {
+        "case_id": "P2-MINI-01",
+        "seed": 1,
+        "variant": "combined",
+        "baseline_cycles": 102107,
+        "candidate_cycles": 99474,
+        "speedup": 1.0264692281400165,
+        "cycle_reduction_pct": 2.5786674762748873,
+        "baseline_instructions": 9659,
+        "candidate_instructions": 9468
+      },
+      {
+        "case_id": "P3-MINI-01",
+        "seed": 1,
+        "variant": "topk",
+        "baseline_cycles": 193233,
+        "candidate_cycles": 193192,
+        "speedup": 1.0002122241086588,
+        "cycle_reduction_pct": 0.021217907914283796,
+        "baseline_instructions": 18818,
+        "candidate_instructions": 18831
+      },
+      {
+        "case_id": "P3-MINI-01",
+        "seed": 1,
+        "variant": "rne",
+        "baseline_cycles": 193233,
+        "candidate_cycles": 193494,
+        "speedup": 0.9986511209649912,
+        "cycle_reduction_pct": -0.1350700967226004,
+        "baseline_instructions": 18818,
+        "candidate_instructions": 18833
+      },
+      {
+        "case_id": "P3-MINI-01",
+        "seed": 1,
+        "variant": "combined",
+        "baseline_cycles": 193233,
+        "candidate_cycles": 192828,
+        "speedup": 1.0021003173812932,
+        "cycle_reduction_pct": 0.2095915293971573,
+        "baseline_instructions": 18818,
+        "candidate_instructions": 18817
+      }
+    ],
+    "promotion": "HOLD: diagnostic subset, version/physical/protocol/weights gates pending"
+  },
+  "topk_history": {
+    "run": "nano-topk-1793255650650794953",
+    "source_sha256": "2e18a8362b1b9cc66ef8f14bcacb2f89598144f02da31bd2fcbda242bdf8dc8c",
+    "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+    "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+    "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+    "metrics": {
+      "ttft_cycles": 3919990,
+      "per_token_decode_cycles": 844703.5,
+      "session_cycles": 7299047
+    },
+    "operator_cycles": {
+      "1": 291906,
+      "2": 337966,
+      "3": 1286625
+    },
+    "tokens": [
+      92,
+      16,
+      15,
+      8,
+      4
+    ],
+    "functions_and_calls": {
+      "00002e84 <rne_div>:": [
+        "__udivdi3",
+        "__umoddi3"
+      ],
+      "0000339c <mini_native_scalar_attention.part.0>:": [
+        "memset",
+        "rne_div",
+        "__floatsisf",
+        "__mulsf3",
+        "__mulsf3",
+        "course_bf16_rne_bits",
+        "course_int32_scale_to_q5_11",
+        "course_int32_scale_to_q5_11",
+        "course_exp_neg_q15",
+        "course_exp_neg_q15",
+        "rne_div",
+        "rne_div"
+      ]
+    },
+    "single_trial": true,
+    "reduction_pct_vs_baseline": {
+      "ttft_cycles": -1.5721701908240193,
+      "per_token_decode_cycles": -1.6184050415608773,
+      "session_cycles": -1.5937123932396007
+    },
+    "hidden_logits_token_identical_to_baseline": true
+  },
+  "rubric_readiness": {
+    "done": {
+      "items": 6,
+      "weight": 30
+    },
+    "partial": {
+      "items": 11,
+      "weight": 61
+    },
+    "todo": {
+      "items": 4,
+      "weight": 7
+    },
+    "gap": {
+      "items": 1,
+      "weight": 2
+    }
+  },
+  "protocol32": {
+    "status": "ADAPTER_PROTOCOL_STAGE_PASS",
+    "depth": 32,
+    "ports": 2,
+    "data_width": 512,
+    "address_width": 26,
+    "tag_width": 10,
+    "formal_baseline": false,
+    "partition_method": "Disjoint original command/memory assertion blocks, all reset and producer-stability assumptions retained; shared reset remains arbitrary with identical initial-reset assumption in each partition. Both physical port indices checked independently.",
+    "scope": "Original generic command and memory adapters only; not Vortex core, actual fault adapters, DMA replay or physical signoff",
+    "bindings": {
+      "shared/rtl/vortex_command_adapter.sv": "b6f5e100a52fd1c2de34b33e7454e24c0cfb2c5cd0722b9d57f87cd239015bb5",
+      "shared/rtl/vortex_memory_adapter.sv": "a9194cff7a6ae984b834c21a8bb7fa75042d4c78458e14431da9914ff5003514",
+      "shared/formal/student_mini_gpu_adapters_harness.sv": "094e8a487129ab872e205b886d9905429aecbbc82d716f21d77ecb434c3f2de2"
+    },
+    "tool_versions": {
+      "yosys": "Yosys 0.33 (git sha1 2584903a060)",
+      "z3": "Z3 version 4.8.12 - 64 bit"
+    },
+    "records": [
+      {
+        "name": "baseline-command",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.42524884400006613,
+        "log_sha256": "ddf09657672d490c8ba0ab7e5566ec773db02b0f80f5eb001c08d245c8e09989"
+      },
+      {
+        "name": "baseline-command",
+        "stage": "bmc",
+        "exit_code": 0,
+        "seconds": 9.66548914100008,
+        "log_sha256": "7d7149e2d485ba8ce51bad09e91655fe27cfafef8cc2db8821b50cd983d8a49a"
+      },
+      {
+        "name": "baseline-command",
+        "stage": "cover",
+        "exit_code": 0,
+        "seconds": 0.6425646379999534,
+        "log_sha256": "383e3b515e0fa269508be853855736acc71d1291114d9349e53ba86a22449fe0"
+      },
+      {
+        "name": "baseline-memory0",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.8887271889999511,
+        "log_sha256": "0491a2f0b6f24977bf148ba07bd99bca162edfd4e355fde9559e248846d7c721"
+      },
+      {
+        "name": "baseline-memory0",
+        "stage": "bmc",
+        "exit_code": 0,
+        "seconds": 2.7479744870000786,
+        "log_sha256": "72face344010f85bfe867b1053a4483e9597741626cbcf9c290c78f55bbe36d4"
+      },
+      {
+        "name": "baseline-memory0",
+        "stage": "induction",
+        "exit_code": 0,
+        "seconds": 7.791105640000069,
+        "log_sha256": "9500f540b5759eeb47f61fc5fe189692e5550a114930b8b5eb57828e0f1ff5a5"
+      },
+      {
+        "name": "baseline-memory0",
+        "stage": "cover",
+        "exit_code": 0,
+        "seconds": 2.382345892999979,
+        "log_sha256": "b280f0f50356b39f87f3032208e54dc7f723f9d17704b31de05de2777e5dd5a1"
+      },
+      {
+        "name": "baseline-memory1",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.7894550769999569,
+        "log_sha256": "a0be93ae21225353adb99aeebce4e02690575a997b7eff541c9e00fbd8bb3ec2"
+      },
+      {
+        "name": "baseline-memory1",
+        "stage": "bmc",
+        "exit_code": 0,
+        "seconds": 3.1071172780000325,
+        "log_sha256": "d021b931dc2a6829098a22873bcfc8c565109bdc5e1066c643868c9bceca3fe2"
+      },
+      {
+        "name": "baseline-memory1",
+        "stage": "induction",
+        "exit_code": 0,
+        "seconds": 8.245757893000018,
+        "log_sha256": "cf7d3babb5ecc6e21817d9876c59fe307e6652e4e8ce7cf7467b15bdeb5af5c9"
+      },
+      {
+        "name": "baseline-memory1",
+        "stage": "cover",
+        "exit_code": 0,
+        "seconds": 2.4883764219999875,
+        "log_sha256": "b280f0f50356b39f87f3032208e54dc7f723f9d17704b31de05de2777e5dd5a1"
+      },
+      {
+        "name": "request-address-memory0",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.8044889389999526,
+        "log_sha256": "c7a4459f549dd422dafc7cf5c4f08c76ae2e98c9e51fde1e0969d0151677b2ee"
+      },
+      {
+        "name": "request-address-memory0",
+        "stage": "bmc",
+        "exit_code": 1,
+        "seconds": 0.25553158100001383,
+        "log_sha256": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279"
+      },
+      {
+        "name": "request-data-memory0",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.746311768000055,
+        "log_sha256": "fbadc0b0174ce021ca9951fd0780d252d4386cc1cd1c53948a15279d3ff75301"
+      },
+      {
+        "name": "request-data-memory0",
+        "stage": "bmc",
+        "exit_code": 1,
+        "seconds": 0.2628693749999229,
+        "log_sha256": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279"
+      },
+      {
+        "name": "request-mask-memory0",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.8707085720000123,
+        "log_sha256": "12c09eeb95eb58e13150b29a5055f9c97bf09a41ed263ac56e390d5cbb84f153"
+      },
+      {
+        "name": "request-mask-memory0",
+        "stage": "bmc",
+        "exit_code": 1,
+        "seconds": 0.257466069999964,
+        "log_sha256": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279"
+      },
+      {
+        "name": "response-tag-memory0",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.8538963869999634,
+        "log_sha256": "eede85cb02cc3f69e240967d477f4b0e976ae9a977b697f8ae3dfc37b94c370c"
+      },
+      {
+        "name": "response-tag-memory0",
+        "stage": "bmc",
+        "exit_code": 1,
+        "seconds": 0.41747596900006556,
+        "log_sha256": "076ef7d2d28190329e970f9f33bc344488ce92e06c7eceb0099d968998e390cb"
+      },
+      {
+        "name": "busy-start-command",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.4344256539999378,
+        "log_sha256": "1d6274ad4bdf142948dda054b45960c9a54211b910de867fe61d13b1298f1cc8"
+      },
+      {
+        "name": "busy-start-command",
+        "stage": "bmc",
+        "exit_code": 1,
+        "seconds": 0.637439932999996,
+        "log_sha256": "fac9717d41c0aa41ff48c0800680890f5b6c77226fc90b394e2fbdde5d2e36cf"
+      },
+      {
+        "name": "missing-error-command",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.43686645699995097,
+        "log_sha256": "6bcf4233493edbf8a1a97fe59bb9d73e0f42f379b53ce44e3311663776407067"
+      },
+      {
+        "name": "missing-error-command",
+        "stage": "bmc",
+        "exit_code": 1,
+        "seconds": 0.6490689449999536,
+        "log_sha256": "d817b470d40e8cfbb4eca78ced94aec95c12e28a9a5328efff4a45e0c12fad82"
+      },
+      {
+        "name": "unstable-response-command",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.3663222010000027,
+        "log_sha256": "cf2a0a2ba146fc6092d6481ce6e19f87da109bb6c0194a18975209d57be6fba3"
+      },
+      {
+        "name": "unstable-response-command",
+        "stage": "bmc",
+        "exit_code": 1,
+        "seconds": 0.6875835250000364,
+        "log_sha256": "883ba2ea11ee5783842e5f32b0ef4185ab80c264154a021530141239327c0602"
+      },
+      {
+        "name": "dcr-address-command",
+        "stage": "prepare",
+        "exit_code": 0,
+        "seconds": 0.4296878420000212,
+        "log_sha256": "b7e988d48e8ca216c700de7daaa93481a54d78a491e2eee6004173ed626edc60"
+      },
+      {
+        "name": "dcr-address-command",
+        "stage": "bmc",
+        "exit_code": 1,
+        "seconds": 0.6593619480000825,
+        "log_sha256": "397046f54367a09e3e0c969120fab0f29d610d8eef58b695126546996d451dd1"
+      }
+    ],
+    "elapsed_seconds": 54.89087953599994,
+    "covers_reached": 12,
+    "baseline_32_step_safety_pass": true,
+    "proof_method": "Command: explicit 32-step BMC. Each full-width memory port: initial four-step BMC plus successful temporal induction (unbounded), entails all 32 steps. All original covers reachable within 32 steps.",
+    "mutations_killed": 8,
+    "physical_signoff": false,
+    "artifacts": {
+      "baseline-command/bmc.log": "7d7149e2d485ba8ce51bad09e91655fe27cfafef8cc2db8821b50cd983d8a49a",
+      "baseline-command/cover.log": "383e3b515e0fa269508be853855736acc71d1291114d9349e53ba86a22449fe0",
+      "baseline-command/cover0.vcd": "d8d343e501fa7dea328064f2777c21b7032a5d857aea1b672eb0a90a2be57230",
+      "baseline-command/cover1.vcd": "d3a674971d565120c7a94b302131b079c77770ca0a83566979771e1285bf7e5b",
+      "baseline-command/cover2.vcd": "75119dd0a4665b4f9768217eaf012702d9ad24b388881122ee44427f3355144c",
+      "baseline-command/cover3.vcd": "588cd1affd29f12efd06ebb2d010ff1d90978d830487e604432438011885c247",
+      "baseline-command/prepare.log": "ddf09657672d490c8ba0ab7e5566ec773db02b0f80f5eb001c08d245c8e09989",
+      "baseline-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+      "baseline-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+      "baseline-command/vortex_command_adapter.sv": "b6f5e100a52fd1c2de34b33e7454e24c0cfb2c5cd0722b9d57f87cd239015bb5",
+      "baseline-memory0/bmc.log": "72face344010f85bfe867b1053a4483e9597741626cbcf9c290c78f55bbe36d4",
+      "baseline-memory0/cover.log": "b280f0f50356b39f87f3032208e54dc7f723f9d17704b31de05de2777e5dd5a1",
+      "baseline-memory0/cover0.vcd": "6bb71388fdca43cb1b687be25d61cfd1221332a167f381a73959b7b72844c0d8",
+      "baseline-memory0/cover1.vcd": "e27fa7f9f39896b22678a71a6bb10954d89f1e8b467100a7d7a011dec5a9d08a",
+      "baseline-memory0/cover2.vcd": "9d52e20b84aba1c494b0ab4a7c7cdfbce5092a8c00cab86e09d5405cc3cb8245",
+      "baseline-memory0/cover3.vcd": "d662333d8113e7e03b07fdf1a3ce3a2a0730df976c71e672a90630a7a007a3bb",
+      "baseline-memory0/induction.log": "9500f540b5759eeb47f61fc5fe189692e5550a114930b8b5eb57828e0f1ff5a5",
+      "baseline-memory0/prepare.log": "0491a2f0b6f24977bf148ba07bd99bca162edfd4e355fde9559e248846d7c721",
+      "baseline-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+      "baseline-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+      "baseline-memory0/vortex_memory_adapter.sv": "a9194cff7a6ae984b834c21a8bb7fa75042d4c78458e14431da9914ff5003514",
+      "baseline-memory1/bmc.log": "d021b931dc2a6829098a22873bcfc8c565109bdc5e1066c643868c9bceca3fe2",
+      "baseline-memory1/cover.log": "b280f0f50356b39f87f3032208e54dc7f723f9d17704b31de05de2777e5dd5a1",
+      "baseline-memory1/cover0.vcd": "4cf98be659a391908d3908d77a26260b98d93e2ae0ccd8cb162132f3cb4ace86",
+      "baseline-memory1/cover1.vcd": "6f7191080d8871afe8b57aa9fde76766cd241c24e7da4d0f920406ab6aad787d",
+      "baseline-memory1/cover2.vcd": "510432ee651d8102c7d354b43e5d807c38ddbee9073977bac52af4774674a658",
+      "baseline-memory1/cover3.vcd": "95d7586e8389169232545857eb01cb4f8e3ca194f5ead99917443b6ca81f17d8",
+      "baseline-memory1/induction.log": "cf7d3babb5ecc6e21817d9876c59fe307e6652e4e8ce7cf7467b15bdeb5af5c9",
+      "baseline-memory1/prepare.log": "a0be93ae21225353adb99aeebce4e02690575a997b7eff541c9e00fbd8bb3ec2",
+      "baseline-memory1/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+      "baseline-memory1/student_mini_gpu_adapters_harness.sv": "b99e02f53b7214bdb132305b33444364e6788be59ff1272fb7af7f6e12f6f7a3",
+      "baseline-memory1/vortex_memory_adapter.sv": "a9194cff7a6ae984b834c21a8bb7fa75042d4c78458e14431da9914ff5003514",
+      "busy-start-command/bmc.log": "fac9717d41c0aa41ff48c0800680890f5b6c77226fc90b394e2fbdde5d2e36cf",
+      "busy-start-command/counterexample.vcd": "ac741a2da6b9a860f3cab7f0c61a816b09aa70fb14cbbf2fdd732124402023c9",
+      "busy-start-command/prepare.log": "1d6274ad4bdf142948dda054b45960c9a54211b910de867fe61d13b1298f1cc8",
+      "busy-start-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+      "busy-start-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+      "busy-start-command/vortex_command_adapter.sv": "59a625f86a613bb8aa17d2e2f1f1649fade846cd64eb1534ad00db93c04b033d",
+      "dcr-address-command/bmc.log": "397046f54367a09e3e0c969120fab0f29d610d8eef58b695126546996d451dd1",
+      "dcr-address-command/counterexample.vcd": "982a82fc93ca33af7172d4be9b6d22aeb26c8b0f8c8005e088c21a4d04b0fb7e",
+      "dcr-address-command/prepare.log": "b7e988d48e8ca216c700de7daaa93481a54d78a491e2eee6004173ed626edc60",
+      "dcr-address-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+      "dcr-address-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+      "dcr-address-command/vortex_command_adapter.sv": "24719dec2fa782e768a6990d3f6c272a71caa26b666cb317e5c8dad47b613f66",
+      "missing-error-command/bmc.log": "d817b470d40e8cfbb4eca78ced94aec95c12e28a9a5328efff4a45e0c12fad82",
+      "missing-error-command/counterexample.vcd": "6e9b67bd9685c76ba03a751447818959025d9c99d7c3bf6ffd3b3e4788eea7d2",
+      "missing-error-command/prepare.log": "6bcf4233493edbf8a1a97fe59bb9d73e0f42f379b53ce44e3311663776407067",
+      "missing-error-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+      "missing-error-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+      "missing-error-command/vortex_command_adapter.sv": "68cf50d6f0c52d69ce804294a348e697c097d135bf431a413c43db136b925dcf",
+      "request-address-memory0/bmc.log": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279",
+      "request-address-memory0/counterexample.vcd": "21f1594435baa51f8a8582d7dd25d16ea4ac34f03fa8fd268bd16430d7ec0b81",
+      "request-address-memory0/prepare.log": "c7a4459f549dd422dafc7cf5c4f08c76ae2e98c9e51fde1e0969d0151677b2ee",
+      "request-address-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+      "request-address-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+      "request-address-memory0/vortex_memory_adapter.sv": "effe221c239def766e7c6f342520b74444643308fd4701108d92dc1d147e2fee",
+      "request-data-memory0/bmc.log": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279",
+      "request-data-memory0/counterexample.vcd": "bdfb65b923e1fad54356331b33dc9c7305eb0fdbdd70c88996454a3aa9d44c01",
+      "request-data-memory0/prepare.log": "fbadc0b0174ce021ca9951fd0780d252d4386cc1cd1c53948a15279d3ff75301",
+      "request-data-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+      "request-data-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+      "request-data-memory0/vortex_memory_adapter.sv": "ef1f0a71bb5d09e5eb3975ac9b81e625764a418eb108db638bfa78b6190752ad",
+      "request-mask-memory0/bmc.log": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279",
+      "request-mask-memory0/counterexample.vcd": "6e70c954a93006fb6f755f104e40c2366a785cc6e649b485abd800f1d793ffa9",
+      "request-mask-memory0/prepare.log": "12c09eeb95eb58e13150b29a5055f9c97bf09a41ed263ac56e390d5cbb84f153",
+      "request-mask-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+      "request-mask-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+      "request-mask-memory0/vortex_memory_adapter.sv": "22578107ee36fd95170a03f6d684de70958d4ba57d57d6d2d09f1899a0135169",
+      "response-tag-memory0/bmc.log": "076ef7d2d28190329e970f9f33bc344488ce92e06c7eceb0099d968998e390cb",
+      "response-tag-memory0/counterexample.vcd": "4f60c25dbd13acf5119f1753cdd07dd29c6309263aabb9653a940e33a4e3edda",
+      "response-tag-memory0/prepare.log": "eede85cb02cc3f69e240967d477f4b0e976ae9a977b697f8ae3dfc37b94c370c",
+      "response-tag-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+      "response-tag-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+      "response-tag-memory0/vortex_memory_adapter.sv": "5107abfecfe21d11e714a4494f0cc8c5d5ac0353e7ed21c4c404a0b212d161b0",
+      "unstable-response-command/bmc.log": "883ba2ea11ee5783842e5f32b0ef4185ab80c264154a021530141239327c0602",
+      "unstable-response-command/counterexample.vcd": "2c12abfe1ede73d9cd459a95465b0704e412983f4397a39d5c3c6383ee1d9573",
+      "unstable-response-command/prepare.log": "cf2a0a2ba146fc6092d6481ce6e19f87da109bb6c0194a18975209d57be6fba3",
+      "unstable-response-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+      "unstable-response-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+      "unstable-response-command/vortex_command_adapter.sv": "ad7bd237b5ae54c1c611fff18fcea31a64997c8e037a8d84b1faf71b948295bf"
+    }
+  },
+  "dma": {
+    "status": "RECONSTRUCTED_GPU_DMA_FUNCTIONAL_PASS",
+    "date": "2026-11-08",
+    "dma_cases": 3,
+    "dma_seeds_per_case": 10,
+    "dma_records_passed": 30,
+    "normal_controls_golden_matched": 3,
+    "sram_functional_model_shapes": 4,
+    "reachable_sram_instances": 37,
+    "sram_model_checks": 2272,
+    "hardware_scope": "fresh SRAM-macro-bound Vortex core + real command/memory fault adapters + external memory bridge",
+    "teacher_physical_identity": false,
+    "physical_signoff": false,
+    "formal_baseline": false,
+    "overall_release": "HOLD",
+    "evidence": "dma-event-qualification.json",
+    "no_mixing_with_old_simx": "Old 970/1000 SimX results are not combined with these 30 records into a formal baseline."
+  }
+}

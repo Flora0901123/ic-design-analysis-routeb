@@ -1,0 +1,13 @@
+{
+  "status": "ADAPTER_RTL_PASS",
+  "scope": "ADAPTER_ONLY",
+  "not_full_gpu_case_qualification": true,
+  "verilator": "Verilator 5.050 2026-07-01 rev v5.050",
+  "bindings": {
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u9002\u914d\u5668\u534f\u8bae-20261105/tb.sv": "815e5efb6ed3bd40d9db7afc61a6f06c5fb264e5333027afa7290d6afcf18f1a",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_fault_memory_adapter.sv": "5ef56b0c67bc08c9e3629b6bdbd0b0fe443f084a413075e9e0210f36ab402663",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_status_command_adapter.sv": "9709855410d00767ed0dec79d2ae0d71971a51187ecdb7d400397f22b2b41f04"
+  },
+  "cases": 120,
+  "stability_violations": 0
+}

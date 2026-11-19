@@ -1,0 +1,36 @@
+{
+  "status": "GDS_RECORDS_COMPARED",
+  "physical_signoff": false,
+  "records": {
+    "8x128": {
+      "prior": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-SRAM\u5b8f\u751f\u6210-20261111/run-20261112-135027/8x128/layout-diagnostics/routeb_new_1w1r_8x128.gds",
+      "current": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-SRAM\u5b8f\u751f\u6210-20261111/run-20261112-175857/8x128/routeb_new_1w1r_8x128.gds",
+      "prior_hashes": {
+        "sha256": "1cda0a1c53f0f321672be08dc8c75a570ff14a8826b28f2aa99542afafd9fbd1",
+        "without_gds_timestamp_sha256": "9f61c9748f38c8a23573e538010d052902a276408ac2e0c568450edbdac9ab3f",
+        "timestamp_records": 123
+      },
+      "current_hashes": {
+        "sha256": "e627a067388a483bc0eab70090effd0557eabf04b352aac3b4d8ebca62d13f03",
+        "without_gds_timestamp_sha256": "100e8047a62235c5741503c8465319cbbbd37e5b253561b8dcf73653e0280b7d",
+        "timestamp_records": 123
+      },
+      "identical_except_timestamp": false
+    },
+    "20x64": {
+      "prior": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-SRAM\u5b8f\u751f\u6210-20261111/run-20261112-132356/20x64/preverification/routeb_new_1w1r_20x64.gds",
+      "current": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-SRAM\u5b8f\u751f\u6210-20261111/run-20261112-175857/20x64/routeb_new_1w1r_20x64.gds",
+      "prior_hashes": {
+        "sha256": "f5ce54b61df1d6fde8f535fb5aeacab7c68d2ce9082cdc71ce819c84d71f857e",
+        "without_gds_timestamp_sha256": "50eac3e895d9f27fca7c2d250b7b2c86b02e9cda917886a0e732bf5f3f0ce0fd",
+        "timestamp_records": 124
+      },
+      "current_hashes": {
+        "sha256": "5ce3ba97110c15558cabfb955842e43dc20d17601534f2be0a419fd1677bdd9a",
+        "without_gds_timestamp_sha256": "78e4fb41ed12beef8587761578c7116eb86848a6e8cf75d0114b718837e90139",
+        "timestamp_records": 124
+      },
+      "identical_except_timestamp": false
+    }
+  }
+}

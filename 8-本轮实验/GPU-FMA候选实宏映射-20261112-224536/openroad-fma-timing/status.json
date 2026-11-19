@@ -1,0 +1,38 @@
+{
+  "status": "FMA_PREPLACEMENT_TIMING_MEASURED",
+  "physical_signoff": false,
+  "clock_ns": 10,
+  "reference": {
+    "max": -11.95,
+    "min": 0.31
+  },
+  "candidate_before_repair": {
+    "max": -326.61,
+    "min": 0.31
+  },
+  "candidate_after_repair": {
+    "max": -7.42,
+    "min": 0.31
+  },
+  "setup_improvement_ns": 4.529999999999999,
+  "ten_ns_met_at_this_stage": false,
+  "reference_status_sha256": "ed1796c0a253833a5b579eaa18504ba659adaa65c9ad716f369951742aed5597",
+  "link_status_sha256": "85b9f92e1621be9e79d5f7812bd776896426557ce5859baae0cda4567cd03023",
+  "common_tcl_sha256": "654d1184503777fdc13a66b5f13fca2ff59d86a26651e78539f87a650cddf3af",
+  "log_sha256": "1dc5b2068d2d01f473cbebf17d9c423bdb876f4c57304de493d9b1e1cd341564",
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794495396.1516247,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1128150733\nuser_usec 1098970490\nsystem_usec 29180243\nnice_usec 0\nnr_periods 6641\nnr_throttled 568\nthrottled_usec 462154\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1158127616",
+      "memory.peak": "4695502848",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "412\n414\n1035\n1037\n1067"
+    }
+  }
+}

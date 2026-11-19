@@ -1,0 +1,16 @@
+{
+  "status": "DELIVERY_SELECTION_EXPANDED_SIZE_AND_EVIDENCE_PASS",
+  "selected_files": 9739,
+  "expanded_bytes_at_plan": 1966716964,
+  "expanded_limit_bytes": 3221225472,
+  "omitted_cache_bytes": 8406834487,
+  "workspace_files_deleted": 0,
+  "report_evidence_entries_retained": 26,
+  "actual_simulator_and_target_binaries_omitted": 0,
+  "raw_target_logs_omitted": 0,
+  "archive_built": false,
+  "compressed_size_verified": false,
+  "clean_reproduction_verified": false,
+  "note": "Selection qualifies below expanded-size cap; final ZIP/CRC/SHA and clean replay are pending. Working source/caches were not deleted.",
+  "plan_sha256": "7265ffe59aea3f9436cce55926c3c9fe81fa62a07d3a0cd69b7d9c090caad34a"
+}

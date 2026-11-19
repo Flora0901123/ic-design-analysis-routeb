@@ -1,0 +1,32 @@
+{
+  "status": "GPU_CLEAN_RELOCATED_PLATFORM_SIX_PASS",
+  "cases": [
+    {
+      "ordinal": 0,
+      "log_sha256": "75754043962cc1398b83b66da2ea0dacc81fe14cdbf2bffb7945e4c9d48d938d"
+    },
+    {
+      "ordinal": 330,
+      "log_sha256": "1b1a08b3f97d71beca5b1d6a0ca4fd9ddc28d785037dcd09e728bf2b166640a1"
+    },
+    {
+      "ordinal": 660,
+      "log_sha256": "d688b63aae65ac8184b6654c895be2da5638091bf104da322f692bda6cd1a19e"
+    },
+    {
+      "ordinal": 290,
+      "log_sha256": "ade965872ecde25893369d47ecc9632faece92d72bf526b060dd10cf7c55cd2f"
+    },
+    {
+      "ordinal": 620,
+      "log_sha256": "73c203556c3110db9f9164d004f25413df243b376d863a6cd25dc57da5738d6e"
+    },
+    {
+      "ordinal": 950,
+      "log_sha256": "a0a63d7f81022f22328e2fbc2c9099516aa4cd65af5a2e37e460dc7fcd173c28"
+    }
+  ],
+  "platform_input_count": 37,
+  "ramulator_sha256": "8ebfe0d7ec93f72a5b79c8a9f1a51002f33a3933b93f4490101f972e76a05986",
+  "physical_signoff": false
+}

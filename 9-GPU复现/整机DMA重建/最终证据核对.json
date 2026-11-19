@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "fresh reconstructed GPU DMA functional evidence audit; not physical signoff",
+  "dma": 30,
+  "controls": 3,
+  "evidence_files_hashed": 150,
+  "event_checks": true,
+  "panorama_links": true
+}

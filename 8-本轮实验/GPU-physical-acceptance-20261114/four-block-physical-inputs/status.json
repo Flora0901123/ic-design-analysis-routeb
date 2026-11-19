@@ -1,0 +1,80 @@
+{
+  "status": "FOUR_BLOCK_INPUTS_LINKED_MACROS_AND_PINS_PLACED",
+  "physical_signoff": false,
+  "source_equivalent_export_status_sha256": "5f7b618f0e5bcc835eba652d5a8a22c0c59eeebc305ffd1d284953c65dfd8991",
+  "source_export_sha256": "8a0df62cd84faa1499630b87d0120cc823a9ce80d16a91cc9124cb91b9f73494",
+  "records": {
+    "0": {
+      "macros": 20,
+      "signal_ports": 6687,
+      "placed_input_ports": true,
+      "source_block_sha256": "e8f9bbb9d76016d4a2dacd4a79ae7a91de729b954f1d7e29f8219103f5719634"
+    },
+    "1": {
+      "macros": 16,
+      "signal_ports": 8056,
+      "placed_input_ports": true,
+      "source_block_sha256": "2e4d119d5cdcf2e367f93e339223ec3c60eecff1ffe5573ca5b4017f46219958"
+    },
+    "2": {
+      "macros": 64,
+      "signal_ports": 6033,
+      "placed_input_ports": true,
+      "source_block_sha256": "8ea707638dff436bd79e7fbe2993ebf782f1b11c0d400426ab7219958fa8d2a1"
+    },
+    "3": {
+      "macros": 64,
+      "signal_ports": 7350,
+      "placed_input_ports": true,
+      "source_block_sha256": "f26af918de8cec88a50125913e5054fa840af30c71370eb6f3b565bfa79ea478"
+    }
+  },
+  "elapsed_seconds": 91.704636445,
+  "outputs": {
+    "common.mk": "0f2908b87b64fd8b5f75410f829abdff990e57c26020c1c68d49930a1021b09b",
+    "prepare.log": "e229f1d06856e935a245a2ac2455f89f9ea8194a8a8321024381793219febe59",
+    "prepare.py": "e1c2c7b334c031def1ad150a4762994997e01b61c45b6e51b11d001484e1bee6",
+    "summary.json": "d0d20cfad9aba8f9ce3d9809516845119bad715e755e3b73ac1c3d9805863cb5",
+    "top.v": "aea878b5c3f4b4c1a99cbc4178af70467547dcdc9408b61c815f137c5fda3897",
+    "q0_LL/block-floorplan.odb": "be5639f26e845beaaaf05efc1317808fdf4524e1d49ee80bfe32011c097b2561",
+    "q0_LL/block.v": "e8f9bbb9d76016d4a2dacd4a79ae7a91de729b954f1d7e29f8219103f5719634",
+    "q0_LL/budgets.json": "0da19d33464a39620e29e1d8ab8ecd13fbd0f617189b1f05bdc07e788fc071d5",
+    "q0_LL/chip_pins.json": "924269d9f7a922c3a4b96188d8219b99bb99bdff94818bb88e73a391b5cee44d",
+    "q0_LL/config.mk": "44dbb3e2902305166e5b5532e2519acc4877f59372fb54120454a349a1879605",
+    "q0_LL/constraint.sdc": "743d0c231713d9b7c90bbb90230835f789e08bb7b7a35e543ed8c5e6058634aa",
+    "q0_LL/floorplan.log": "eb547b214ac534fc7d9474668bf9e1fdf880c752e4569fe257b9a997c02130d4",
+    "q0_LL/floorplan.tcl": "51e79f784c46e529f840466cf380490601ec76189768786b302c3090fbea4230",
+    "q0_LL/io.tcl": "ff612ca5d596c3bdd424a8b1f98410d6e953c20e46bf37db2c25a6e7ad7a8e3e",
+    "q0_LL/macro-placement.tcl": "dddb7cb84a6107b707043f0cb74c3e609a7aeab7683c362e5eeb845969083745",
+    "q1_LR/block-floorplan.odb": "d9b49765d2dfddc09aef5a319600c4fcea7252f1ddee7fafe181ee82222992ff",
+    "q1_LR/block.v": "2e4d119d5cdcf2e367f93e339223ec3c60eecff1ffe5573ca5b4017f46219958",
+    "q1_LR/budgets.json": "7ff4134e8de2c2072d3297b82c2aea8f581ee5456a200f0338d8d46710a9e262",
+    "q1_LR/chip_pins.json": "b8f3f8926eacd7f22d38f6a9d3ddf4a4f0ec4e6136c6c9c44e8d30233b85bc2c",
+    "q1_LR/config.mk": "26e7431688aa299562b2cc2e6cb4b70ae3278bd0ae5663ca69e2a17302e71eda",
+    "q1_LR/constraint.sdc": "604ab14d42e2266c3c5d3c0dd1778e2617bed0ab6b1b7123584125acecd83e0e",
+    "q1_LR/floorplan.log": "3ef48abc724df1f38c23a16ae573ca6a0ed7133bbcced48e5ddc272117d13263",
+    "q1_LR/floorplan.tcl": "51e79f784c46e529f840466cf380490601ec76189768786b302c3090fbea4230",
+    "q1_LR/io.tcl": "1a5ecc84618cb50b1c9d7c33231d024d2a53ef870fbae8bd1fefaacbb9b35ff2",
+    "q1_LR/macro-placement.tcl": "74544b08012ffde77d63bd88e2818bbd79428375709a15cb6726c8ce67d45e88",
+    "q2_UL/block-floorplan.odb": "11b3c06e400903b1ab8216b90b631e399ab67083593d9d72b20ccbc66d552c41",
+    "q2_UL/block.v": "8ea707638dff436bd79e7fbe2993ebf782f1b11c0d400426ab7219958fa8d2a1",
+    "q2_UL/budgets.json": "786fbbd8ec4702218d7cea171ffb64a70ef7e693ebf88404a4586fa7c6725493",
+    "q2_UL/chip_pins.json": "9373abda8d4552628fe56cb7d54ee77b205226ee5eeeb80254669744c0abc11e",
+    "q2_UL/config.mk": "f6a951a3b9632e2dd093d1ec3fd2b0d0bf167815e195dae9dba4e6a9dcf48288",
+    "q2_UL/constraint.sdc": "11fac782aacc37a2e206f08d88b960450fc85825ff269dd4ff7d54547d90503f",
+    "q2_UL/floorplan.log": "1a2bfd67d086257171b6c0c5066f93559f7e635ae95d3fd4e2b1b8340899c761",
+    "q2_UL/floorplan.tcl": "51e79f784c46e529f840466cf380490601ec76189768786b302c3090fbea4230",
+    "q2_UL/io.tcl": "532844a7672241f2576c42964cb061a3c5d8fbde6b8c52bbfcb625976a6b6547",
+    "q2_UL/macro-placement.tcl": "bee9b995b2320e80f9c4359251d99cd2856a922c1ae58d39a55145b63cb28572",
+    "q3_UR/block-floorplan.odb": "9752dc7c927ac9fdf51ccf5d8e90cd554a3468fb0fa1055c5a9afcd43d1de4a9",
+    "q3_UR/block.v": "f26af918de8cec88a50125913e5054fa840af30c71370eb6f3b565bfa79ea478",
+    "q3_UR/budgets.json": "9847cef068cf30f345427dbb4c728f4f9d836f2e6ff31e7a47ffdcc728488e09",
+    "q3_UR/chip_pins.json": "6b2e040d2e54affd357b3ee39dd2a7ff0df60c78926df058db40a271760fb017",
+    "q3_UR/config.mk": "c8f8d4061aa5b9d30bd528de3dd36491b495d68354838c3512dc72f6a40f3d6a",
+    "q3_UR/constraint.sdc": "1ea01f11192584e20f596fe1ea0da5f682bd971b3aca6b7192d8f9ed13f71476",
+    "q3_UR/floorplan.log": "caa6d6652eca955e071118f28e06e3b3b24c955a585d643b1a31f5db30301f54",
+    "q3_UR/floorplan.tcl": "51e79f784c46e529f840466cf380490601ec76189768786b302c3090fbea4230",
+    "q3_UR/io.tcl": "a7c5c1b8e5c12f706238f84dc0861eccf751c2bcf0e752a3cc844e64168d1821",
+    "q3_UR/macro-placement.tcl": "f250f7be8ad26c1eceb1b1ab6f77495f57caf992bee9f9526b257bace42f1630"
+  }
+}

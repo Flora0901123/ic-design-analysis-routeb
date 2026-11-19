@@ -1,0 +1,99 @@
+
+RESUME 2026-11-07T14:10:24.954284+00:00 ['make', 'install-all', 'VL_INST_PUBLIC_BIN_FILES=verilator_bin']
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/bin
+pod2man bin/verilator verilator.1
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share
+pod2man bin/verilator_coverage verilator_coverage.1
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator
+help2man --no-info --no-discard-stderr --version-string=- \
+	-n "Create Gantt chart of Verilator multi-threaded execution" bin/verilator_gantt -o verilator_gantt.1
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/bin
+help2man --no-info --no-discard-stderr --version-string=- \
+	-n "Read gprof report created with Verilator --prof-cfuncs" bin/verilator_profcfunc -o verilator_profcfunc.1
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/include/gtkwave
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin
+
+Installed binaries to /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin/verilator
+Installed man to /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/man/man1
+Installed examples to /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/include
+
+For documentation see 'man verilator' or 'verilator --help'
+For forums and to report bugs see https://verilator.org
+
+cd ./bin; \
+for p in verilator verilator_coverage verilator_gantt verilator_profcfunc  ; do \
+  /usr/bin/install -c $p /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin/$p; \
+done
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/include/gtkwave
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/include/vltstd
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/include/vltstd
+for p in include/verilated_config.h include/verilated.mk  ; do \
+  /usr/bin/install -c -m 644 $p /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/$p; \
+done
+perl -p -i -e 'use File::Spec;' \
+           -e' $path = File::Spec->abs2rel("/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator", "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin");' \
+           -e 's/my \$verilator_pkgdatadir_relpath = .*/my \$verilator_pkgdatadir_relpath = "$path";/g' \
+           -- "//mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin/verilator"
+cd bin; \
+for p in verilator_bin ; do \
+  /usr/bin/install -c $p /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin/$p; \
+done
+cd . \
+; for p in include/*.[chv]* include/*.vlt include/*.sv include/gtkwave/*.[chv]* include/vltstd/*.[chv]*  ; do \
+  /usr/bin/install -c -m 644 $p /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/$p; \
+done
+cd ./bin; \
+for p in verilator_ccache_report verilator_includer  ; do \
+  /usr/bin/install -c $p /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/bin/$p; \
+done
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/man/man1
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/man
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/man/man1
+for p in verilator.1 verilator_coverage.1 verilator_gantt.1 verilator_profcfunc.1 ; do \
+  /usr/bin/install -c -m 644 $p /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/man/man1/$p; \
+done
+cp ./bin/redirect ./bin/redirect.tmp
+perl -p -i -e 'use File::Spec;' \
+           -e' $path = File::Spec->abs2rel("/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin", "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/bin");' \
+           -e 's/RELPATH.*/"$path";/g' -- "./bin/redirect.tmp"
+cd ./bin; \
+for p in verilator verilator_coverage verilator_gantt verilator_profcfunc  verilator_bin ; do \
+  /usr/bin/install -c redirect.tmp /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/bin/$p; \
+done
+rm ./bin/redirect.tmp
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_hello_binary
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_hello_binary
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_hello_c
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_hello_c
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_hello_sc
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_hello_sc
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_tracing_c
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_tracing_c
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_tracing_sc
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_tracing_sc
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_protect_lib
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/make_protect_lib
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_hello_c
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_hello_c
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_hello_sc
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_hello_sc
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_tracing_c
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_tracing_c
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_tracing_sc
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_tracing_sc
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_protect_lib
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/cmake_protect_lib
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/json_py
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/examples/json_py
+cd . \
+; for p in examples/*/*.[chv]* examples/*/CMakeLists.txt examples/*/Makefile* examples/*/vl_*  ; do \
+  /usr/bin/install -c -m 644 $p /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator/$p; \
+done
+/bin/sh ./src/mkinstalldirs /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/pkgconfig
+mkdir /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/pkgconfig
+/usr/bin/install -c -m 644 verilator.pc /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/pkgconfig
+/usr/bin/install -c -m 644 verilator-config.cmake /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator
+/usr/bin/install -c -m 644 verilator-config-version.cmake /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/share/verilator

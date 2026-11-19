@@ -1,0 +1,17 @@
+read_liberty -lib 32x256.lib
+read_liberty -lib 8x1024.lib
+read_liberty -lib 20x64.lib
+read_liberty -lib 8x128.lib
+read_verilog -sv snapshot/project-physical.v snapshot/gpu_fault_physical_top.sv snapshot/gpu_status_command_adapter.sv snapshot/gpu_fault_memory_adapter.sv snapshot/vortex_banked_large_sram_wrappers.sv rtl/openram_wrappers.v 32x256-adapter.sv 8x1024-adapter.sv
+hierarchy -check -top vortex_physical_top
+synth -flatten -top vortex_physical_top
+write_rtlil generic-checkpoint.il
+read_liberty -lib sky130.lib
+techmap -map latch-map.v
+dfflibmap -liberty sky130.lib
+abc -liberty sky130.lib
+clean
+hierarchy -check -top vortex_physical_top
+check -assert
+tee -o stat.json stat -json -liberty sky130.lib
+write_verilog -noattr -noexpr gpu-sram-mapped.v

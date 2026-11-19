@@ -1,0 +1,10 @@
+{
+  "status": "GEOMETRY_REPAIR_20X64_MODEL_PASS",
+  "physical_signoff": false,
+  "transactions": 667,
+  "model_sha256": "36de38f9ad43c2f279f79922fed5dc54229c315626cff87a93a5aec03ec9d2bf",
+  "wrapper_sha256": "556f077d43bc7a68811e928cc334f4a8cdd67685f9a93716bab56b5ff61cbc5d",
+  "bench_sha256": "557451230331810201c617fb1eb9375dffb00cfb0230ef3a02bdf593b574546b",
+  "vectors_sha256": "a63cc002f9149c3fdd043511e3492efdc73dbe9483746fb59962e5f1cb061cf3",
+  "log_sha256": "2a8127b94f9a3b66321fcf6d193e08a77d9444de0646e22728a00ffba36e3312"
+}

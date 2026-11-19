@@ -1,0 +1,36 @@
+ROUTEB_STA_CONSTRAINTS_LOADED
+worst slack max -2121.78
+worst slack min 0.31
+tns max -357416768.00
+Startpoint: core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/reg_s0/_283_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[0].data_store/g_asic.sp_ram_asic/g_vortex_sp_32x256_w1.u_macro/_22824_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/reg_s0/_283_/CLK (sky130_fd_sc_hd__dfxtp_1)
+1221.86 1221.86 ^ core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/reg_s0/_283_/Q (sky130_fd_sc_hd__dfxtp_1)
+ 736.92 1958.78 v core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[0].data_store/g_asic.sp_ram_asic/g_vortex_sp_32x256_w1.u_macro/_11463_/Y (sky130_fd_sc_hd__nor4_1)
+ 170.40 2129.17 v core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[0].data_store/g_asic.sp_ram_asic/g_vortex_sp_32x256_w1.u_macro/_11464_/X (sky130_fd_sc_hd__mux2_1)
+   0.00 2129.17 v core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[0].data_store/g_asic.sp_ram_asic/g_vortex_sp_32x256_w1.u_macro/_22824_/D (sky130_fd_sc_hd__dfxtp_1)
+        2129.17   data arrival time
+
+  10.00   10.00   clock core_clock (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[0].data_store/g_asic.sp_ram_asic/g_vortex_sp_32x256_w1.u_macro/_22824_/CLK (sky130_fd_sc_hd__dfxtp_1)
+  -2.61    7.39   library setup time
+           7.39   data required time
+---------------------------------------------------------
+           7.39   data required time
+        -2129.17   data arrival time
+---------------------------------------------------------
+        -2121.78   slack (VIOLATED)
+
+
+ROUTEB_STA_ANALYSIS_COMPLETE

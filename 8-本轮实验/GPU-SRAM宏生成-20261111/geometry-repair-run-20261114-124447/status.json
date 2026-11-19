@@ -1,0 +1,68 @@
+{
+  "status": "LAYOUT_VIEWS_GENERATED_NEEDS_INDEPENDENT_CHECK",
+  "records": [
+    {
+      "shape": "8x128",
+      "status": "LAYOUT_VIEWS_GENERATED",
+      "base_config_sha256": "8989e48d748900fc508d449cbb0fcf1ad36e5f7efafa146a8e7b2fc3cdff1d46",
+      "config_sha256": "0b5376dedcb4dd686cd5010e1c3efbd60e9138c96800dcaf642703a70602a5db",
+      "files": {
+        "datasheet.info": "0c4fb46c3ec968a5489bd42803f32ec497c568a8c8875876cabb2e87b50d2ad8",
+        "run_lvs.sh": "05ab56855042fdc4878062a5e8471df78b27ee079a53bd3f1c041e91be57531e",
+        "routeb_new_1w1r_8x128_TT_1p8V_25C.lib": "ad57d2dbd56c11b0c2e47202acc8c7ed4408b8a82bad4783a8a300a71ed2ca6d",
+        "routeb_new_1w1r_8x128.log": "d8b9c8500956b1a81074c05b39307f4643e6b35c0903005cd301a17cb76345ca",
+        "routeb_new_1w1r_8x128.py": "0b5376dedcb4dd686cd5010e1c3efbd60e9138c96800dcaf642703a70602a5db",
+        "routeb_new_1w1r_8x128.lvs.sp": "f2f0ca8ba74996d6df8eabcacdb45b77e67634883bc4101fd0a7df4bfa372f84",
+        "sram.sp": "2c1988895d609613bf4473d5c768f412d821d13f7438d53c883e1604f7f77b50",
+        "routeb_new_1w1r_8x128.lef": "35264ae67062facd59d1e72fbf8333cc90d988cc41ef10398ade2dc507e62b93",
+        "delay_stim.sp": "64a7e9006a9020e692ed2243cda4746855836f1544f234ee29d3df764d675f48",
+        ".magicrc": "f717a54ec62b7df3e77426c38c6fbe925b4872b57a193b66d4d336e56e1fb88b",
+        "routeb_new_1w1r_8x128.html": "e34266af83447a50dd363acf0c5f798ac00596caffb09880a843521942fbd521",
+        "routeb_new_1w1r_8x128.gds": "4ac149c148aa778dbf70c865dbf784d7d12748d471b13a4f34e689a747cf2c46",
+        "run_ext.sh": "8db82ce7684d0217a4a92855046a398ca6e16e3f0b35a1b930d60b8e2bd78cc7",
+        "delay_meas.sp": "17e688844ec7787e6a0a238e4be7b2f3a87d764115e8cebc412164740dbf6350",
+        "trimmed.sp": "46a95aa695142489f4bf55f7d0015f40dbf5e6f18f2ad6ba84690bbe00d3b132",
+        "setup.tcl": "84cb9d3193951823187cdf82597b953918a02c3201800ba2664be9f74574db8d",
+        "routeb_new_1w1r_8x128.sp": "2c1988895d609613bf4473d5c768f412d821d13f7438d53c883e1604f7f77b50",
+        "functional_stim.sp": "90948e1f3d4a45dc536dd358e8b15a3fbb7a9cc8a1c2fe35a014d01155ae0c7d",
+        "routeb_new_1w1r_8x128.v": "f651f1bbad6bd6faac442b1924b2818d31139ccf080ec51d609fb78d40390641",
+        "functional_meas.sp": "b127a59c0cebe9f3f532d12ca519b8289eb70bb5629d39d70fbba74608e7b503",
+        "run_drc.sh": "d6399b16d2a4caf99899c348611634c3cd7e937b4c547ba527814f813bcde578"
+      },
+      "seconds": 1679.631396824
+    }
+  ],
+  "physical_signoff": false,
+  "layout_view_mode": "analytical Liberty",
+  "layout_verification_requested": true,
+  "source_pins": {
+    "openram": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+    "bitcells": "dd64256961317205343a3fd446908b42bafba388",
+    "hd_latch": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1"
+  },
+  "inputs": {
+    "8-本轮实验/GPU-SRAM宏生成-20261111/macro-pdk-ready.json": "6ae22e5dbc70c11acade41552da1dc5f0eba302c7e848e75b114ea5abe6a9b0a",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/magic-8.3.306-v4/status.json": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v1/status.json": "7cbb9bd9e2e16478e2abf559ae96e2c141aa1f9eeff7d406ca8cb45ec4c894c0",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.gds": "d7f91d31f0a3f51ce42522a0089e052a615109a3b08b94561198d8c5cfc86b38",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.spice": "97d2a2fad044ddd1cb4601b885f34af026c46ea5394ab1dea127f7579e334209",
+    "9-GPU复现/downloads/openram-b2b069c/OpenRAM-source.tar.gz": "bbbdf2bc13cf779b1b11fd485d52a39494b79cdc7b37861c025874cdb8bc0cd3",
+    "9-GPU复现/downloads/openram-b2b069c/Sky130-SRAM-bitcells.tar.gz": "4a9b8adf7c3ca65a97b2715aa7589149d6aacc5ed9fcff832d046d43bc1d87e9",
+    "7-审计与验收/generate_sram_geometry_repair.py": "b117f66a00b22958b54ab750ee5f8054014e502be6b281c7e2050addd5295056"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794633034.2253764,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2849676733\nuser_usec 2827684996\nsystem_usec 21991737\nnice_usec 0\nnr_periods 17033\nnr_throttled 7\nthrottled_usec 3552\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "902094848",
+      "memory.peak": "1962287104",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "446\n1527\n1528\n1615\n1617"
+    }
+  }
+}

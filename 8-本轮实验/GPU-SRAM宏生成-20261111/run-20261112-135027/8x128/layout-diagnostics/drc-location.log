@@ -1,0 +1,28 @@
+Thu Nov 12 15:51:00 CST 2026: Starting DRC using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic
+
+Magic 8.3 revision 306 - Compiled on Thu Nov 12 13:42:28 CST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.291-63-ge829452
+routeb_new_1w1r_8x128: 10000 rects
+Finished loading cell routeb_new_1w1r_8x128
+Scaled magic input cell routeb_new_1w1r_8x128_contact_33 geometry by factor of 2
+routeb_new_1w1r_8x128_wordline_driver_array: 10000 rects
+routeb_new_1w1r_8x128_hierarchical_decoder: 10000 rects
+Processing timestamp mismatches: sky130_fd_bd_sram__openram_dp_cell, sky130_fd_bd_sram__openram_dp_cell_dummy, sky130_fd_bd_sram__openram_dp_cell_replica.
+Finished expanding
+Finished drc check
+Loading DRC CIF style.
+Finished drc catchup
+Total DRC errors found: 14
+ROUTEB_DRC_DETAILS {Metal3 spacing < 0.3um (met3.2)} {{13317 7307 13323 7317} {13323 7307 13387 7317} {13387 7315 13393 7317} {13387 7307 20160 7315} {13257 7369 13323 7377} {13257 7367 13323 7369} {13323 7369 13387 7377} {13323 7367 13387 7369} {13387 7369 13453 7377} {13387 7367 13453 7369} {13257 7369 13317 7377} {13257 7367 13317 7369} {13393 7369 13453 7377} {13393 7367 13453 7369} {13393 7369 20160 7375} {13393 7367 20160 7369} {20160 7307 20466 7315} {20406 7304 20466 7315} {20406 7304 20592 7315} {20532 7304 20592 7315} {20160 7369 20471 7375} {20471 7369 20527 7375} {20527 7369 20532 7375} {20160 7367 20532 7369} {20466 7364 20532 7367}} {Deep N-well spacing to N-well < 4.5um (nwell.7)} {{39788 10258 40320 11158} {39788 7430 40320 8330} {39788 4602 40320 5502} {39788 2459 40320 3359} {40108 70897 40320 71797} {39872 64563 40320 65463} {48098 60321 48998 60480} {45286 60480 46186 60763}}
+Thu Nov 12 15:51:07 CST 2026: Finished (0) DRC using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic

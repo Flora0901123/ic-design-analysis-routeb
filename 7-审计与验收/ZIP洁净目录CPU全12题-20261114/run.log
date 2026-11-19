@@ -1,0 +1,20 @@
+{'passed': 1, 'requested': 12}
+{'passed': 2, 'requested': 12}
+{'passed': 3, 'requested': 12}
+{'passed': 4, 'requested': 12}
+{'passed': 5, 'requested': 12}
+{'passed': 6, 'requested': 12}
+{'passed': 7, 'requested': 12}
+{'passed': 8, 'requested': 12}
+{'passed': 9, 'requested': 12}
+{'passed': 10, 'requested': 12}
+{'passed': 11, 'requested': 12}
+{'passed': 12, 'requested': 12}
+{
+  "status": "PORTABLE_CPU_REPLAY_PASS",
+  "scope": "same-host copied-binary replay in newly created directories",
+  "different_computer": false,
+  "full_clean_toolchain_install": false,
+  "expected_questions": 12,
+  "compared_steps": 81
+}

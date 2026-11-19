@@ -1,0 +1,537 @@
+make  all-am
+make[1]: Entering directory '/root/.cache/routeb-opensta-20261110/cudd'
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddAbs.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddAbs.Tpo -c -o cudd/libcudd_la-cuddAddAbs.lo `test -f 'cudd/cuddAddAbs.c' || echo './'`cudd/cuddAddAbs.c
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddApply.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddApply.Tpo -c -o cudd/libcudd_la-cuddAddApply.lo `test -f 'cudd/cuddAddApply.c' || echo './'`cudd/cuddAddApply.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddAbs.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddAbs.Tpo -c cudd/cuddAddAbs.c -o cudd/libcudd_la-cuddAddAbs.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddApply.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddApply.Tpo -c cudd/cuddAddApply.c -o cudd/libcudd_la-cuddAddApply.o
+mv -f cudd/.deps/libcudd_la-cuddAddApply.Tpo cudd/.deps/libcudd_la-cuddAddApply.Plo
+mv -f cudd/.deps/libcudd_la-cuddAddAbs.Tpo cudd/.deps/libcudd_la-cuddAddAbs.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddFind.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddFind.Tpo -c -o cudd/libcudd_la-cuddAddFind.lo `test -f 'cudd/cuddAddFind.c' || echo './'`cudd/cuddAddFind.c
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddInv.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddInv.Tpo -c -o cudd/libcudd_la-cuddAddInv.lo `test -f 'cudd/cuddAddInv.c' || echo './'`cudd/cuddAddInv.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddFind.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddFind.Tpo -c cudd/cuddAddFind.c -o cudd/libcudd_la-cuddAddFind.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddInv.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddInv.Tpo -c cudd/cuddAddInv.c -o cudd/libcudd_la-cuddAddInv.o
+mv -f cudd/.deps/libcudd_la-cuddAddInv.Tpo cudd/.deps/libcudd_la-cuddAddInv.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddIte.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddIte.Tpo -c -o cudd/libcudd_la-cuddAddIte.lo `test -f 'cudd/cuddAddIte.c' || echo './'`cudd/cuddAddIte.c
+mv -f cudd/.deps/libcudd_la-cuddAddFind.Tpo cudd/.deps/libcudd_la-cuddAddFind.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddNeg.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddNeg.Tpo -c -o cudd/libcudd_la-cuddAddNeg.lo `test -f 'cudd/cuddAddNeg.c' || echo './'`cudd/cuddAddNeg.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddIte.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddIte.Tpo -c cudd/cuddAddIte.c -o cudd/libcudd_la-cuddAddIte.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddNeg.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddNeg.Tpo -c cudd/cuddAddNeg.c -o cudd/libcudd_la-cuddAddNeg.o
+cudd/cuddAddIte.c: In function 'Cudd_addLeq':
+cudd/cuddAddIte.c:377:31: warning: cast between incompatible function types from 'int (*)(DdManager *, DdNode *, DdNode *)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  377 |     tmp = cuddCacheLookup2(dd,(DD_CTFP)Cudd_addLeq,f,g);
+      |                               ^
+cudd/cuddAddIte.c:399:25: warning: cast between incompatible function types from 'int (*)(DdManager *, DdNode *, DdNode *)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  399 |     cuddCacheInsert2(dd,(DD_CTFP) Cudd_addLeq,f,g,
+      |                         ^
+cudd/cuddAddNeg.c: In function 'cuddAddRoundOffRecur':
+cudd/cuddAddNeg.c:238:15: warning: cast between incompatible function types from 'DdNode * (*)(DdManager *, DdNode *, int)' to 'DdNode * (*)(DdManager *, DdNode *)' [-Wcast-function-type]
+  238 |     cacheOp = (DD_CTFP1) Cudd_addRoundOff;
+      |               ^
+mv -f cudd/.deps/libcudd_la-cuddAddNeg.Tpo cudd/.deps/libcudd_la-cuddAddNeg.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddWalsh.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddWalsh.Tpo -c -o cudd/libcudd_la-cuddAddWalsh.lo `test -f 'cudd/cuddAddWalsh.c' || echo './'`cudd/cuddAddWalsh.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAddWalsh.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAddWalsh.Tpo -c cudd/cuddAddWalsh.c -o cudd/libcudd_la-cuddAddWalsh.o
+mv -f cudd/.deps/libcudd_la-cuddAddIte.Tpo cudd/.deps/libcudd_la-cuddAddIte.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAndAbs.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAndAbs.Tpo -c -o cudd/libcudd_la-cuddAndAbs.lo `test -f 'cudd/cuddAndAbs.c' || echo './'`cudd/cuddAndAbs.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAndAbs.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAndAbs.Tpo -c cudd/cuddAndAbs.c -o cudd/libcudd_la-cuddAndAbs.o
+mv -f cudd/.deps/libcudd_la-cuddAddWalsh.Tpo cudd/.deps/libcudd_la-cuddAddWalsh.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAnneal.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAnneal.Tpo -c -o cudd/libcudd_la-cuddAnneal.lo `test -f 'cudd/cuddAnneal.c' || echo './'`cudd/cuddAnneal.c
+mv -f cudd/.deps/libcudd_la-cuddAndAbs.Tpo cudd/.deps/libcudd_la-cuddAndAbs.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddApa.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddApa.Tpo -c -o cudd/libcudd_la-cuddApa.lo `test -f 'cudd/cuddApa.c' || echo './'`cudd/cuddApa.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAnneal.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAnneal.Tpo -c cudd/cuddAnneal.c -o cudd/libcudd_la-cuddAnneal.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddApa.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddApa.Tpo -c cudd/cuddApa.c -o cudd/libcudd_la-cuddApa.o
+mv -f cudd/.deps/libcudd_la-cuddAnneal.Tpo cudd/.deps/libcudd_la-cuddAnneal.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAPI.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAPI.Tpo -c -o cudd/libcudd_la-cuddAPI.lo `test -f 'cudd/cuddAPI.c' || echo './'`cudd/cuddAPI.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddAPI.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddAPI.Tpo -c cudd/cuddAPI.c -o cudd/libcudd_la-cuddAPI.o
+mv -f cudd/.deps/libcudd_la-cuddApa.Tpo cudd/.deps/libcudd_la-cuddApa.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddApprox.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddApprox.Tpo -c -o cudd/libcudd_la-cuddApprox.lo `test -f 'cudd/cuddApprox.c' || echo './'`cudd/cuddApprox.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddApprox.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddApprox.Tpo -c cudd/cuddApprox.c -o cudd/libcudd_la-cuddApprox.o
+mv -f cudd/.deps/libcudd_la-cuddAPI.Tpo cudd/.deps/libcudd_la-cuddAPI.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddBddAbs.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddBddAbs.Tpo -c -o cudd/libcudd_la-cuddBddAbs.lo `test -f 'cudd/cuddBddAbs.c' || echo './'`cudd/cuddBddAbs.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddBddAbs.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddBddAbs.Tpo -c cudd/cuddBddAbs.c -o cudd/libcudd_la-cuddBddAbs.o
+cudd/cuddBddAbs.c: In function 'Cudd_bddVarIsDependent':
+cudd/cuddBddAbs.c:329:15: warning: cast between incompatible function types from 'int (*)(DdManager *, DdNode *, DdNode *)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  329 |     cacheOp = (DD_CTFP) Cudd_bddVarIsDependent;
+      |               ^
+mv -f cudd/.deps/libcudd_la-cuddApprox.Tpo cudd/.deps/libcudd_la-cuddApprox.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddBddCorr.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddBddCorr.Tpo -c -o cudd/libcudd_la-cuddBddCorr.lo `test -f 'cudd/cuddBddCorr.c' || echo './'`cudd/cuddBddCorr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddBddCorr.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddBddCorr.Tpo -c cudd/cuddBddCorr.c -o cudd/libcudd_la-cuddBddCorr.o
+mv -f cudd/.deps/libcudd_la-cuddBddAbs.Tpo cudd/.deps/libcudd_la-cuddBddAbs.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddBddIte.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddBddIte.Tpo -c -o cudd/libcudd_la-cuddBddIte.lo `test -f 'cudd/cuddBddIte.c' || echo './'`cudd/cuddBddIte.c
+mv -f cudd/.deps/libcudd_la-cuddBddCorr.Tpo cudd/.deps/libcudd_la-cuddBddCorr.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddBddIte.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddBddIte.Tpo -c cudd/cuddBddIte.c -o cudd/libcudd_la-cuddBddIte.o
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddBridge.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddBridge.Tpo -c -o cudd/libcudd_la-cuddBridge.lo `test -f 'cudd/cuddBridge.c' || echo './'`cudd/cuddBridge.c
+cudd/cuddBddIte.c: In function 'Cudd_bddLeq':
+cudd/cuddBddIte.c:662:35: warning: cast between incompatible function types from 'int (*)(DdManager *, DdNode *, DdNode *)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  662 |         tmp = cuddCacheLookup2(dd,(DD_CTFP)Cudd_bddLeq,f,g);
+      |                                   ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddBridge.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddBridge.Tpo -c cudd/cuddBridge.c -o cudd/libcudd_la-cuddBridge.o
+cudd/cuddBddIte.c:695:29: warning: cast between incompatible function types from 'int (*)(DdManager *, DdNode *, DdNode *)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  695 |         cuddCacheInsert2(dd,(DD_CTFP)Cudd_bddLeq,f,g,(res ? one : zero));
+      |                             ^
+mv -f cudd/.deps/libcudd_la-cuddBridge.Tpo cudd/.deps/libcudd_la-cuddBridge.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddCache.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddCache.Tpo -c -o cudd/libcudd_la-cuddCache.lo `test -f 'cudd/cuddCache.c' || echo './'`cudd/cuddCache.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddCache.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddCache.Tpo -c cudd/cuddCache.c -o cudd/libcudd_la-cuddCache.o
+mv -f cudd/.deps/libcudd_la-cuddBddIte.Tpo cudd/.deps/libcudd_la-cuddBddIte.Plo
+mv -f cudd/.deps/libcudd_la-cuddCache.Tpo cudd/.deps/libcudd_la-cuddCache.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddCheck.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddCheck.Tpo -c -o cudd/libcudd_la-cuddCheck.lo `test -f 'cudd/cuddCheck.c' || echo './'`cudd/cuddCheck.c
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddClip.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddClip.Tpo -c -o cudd/libcudd_la-cuddClip.lo `test -f 'cudd/cuddClip.c' || echo './'`cudd/cuddClip.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddCheck.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddCheck.Tpo -c cudd/cuddCheck.c -o cudd/libcudd_la-cuddCheck.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddClip.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddClip.Tpo -c cudd/cuddClip.c -o cudd/libcudd_la-cuddClip.o
+cudd/cuddClip.c: In function 'cuddBddClippingAndRecur':
+cudd/cuddClip.c:285:15: warning: cast between incompatible function types from 'DdNode * (*)(DdManager *, DdNode *, DdNode *, int,  int)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  285 |     cacheOp = (DD_CTFP)
+      |               ^
+mv -f cudd/.deps/libcudd_la-cuddClip.Tpo cudd/.deps/libcudd_la-cuddClip.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddCof.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddCof.Tpo -c -o cudd/libcudd_la-cuddCof.lo `test -f 'cudd/cuddCof.c' || echo './'`cudd/cuddCof.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddCof.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddCof.Tpo -c cudd/cuddCof.c -o cudd/libcudd_la-cuddCof.o
+mv -f cudd/.deps/libcudd_la-cuddCheck.Tpo cudd/.deps/libcudd_la-cuddCheck.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddCompose.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddCompose.Tpo -c -o cudd/libcudd_la-cuddCompose.lo `test -f 'cudd/cuddCompose.c' || echo './'`cudd/cuddCompose.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddCompose.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddCompose.Tpo -c cudd/cuddCompose.c -o cudd/libcudd_la-cuddCompose.o
+mv -f cudd/.deps/libcudd_la-cuddCof.Tpo cudd/.deps/libcudd_la-cuddCof.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddDecomp.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddDecomp.Tpo -c -o cudd/libcudd_la-cuddDecomp.lo `test -f 'cudd/cuddDecomp.c' || echo './'`cudd/cuddDecomp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddDecomp.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddDecomp.Tpo -c cudd/cuddDecomp.c -o cudd/libcudd_la-cuddDecomp.o
+mv -f cudd/.deps/libcudd_la-cuddCompose.Tpo cudd/.deps/libcudd_la-cuddCompose.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddEssent.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddEssent.Tpo -c -o cudd/libcudd_la-cuddEssent.lo `test -f 'cudd/cuddEssent.c' || echo './'`cudd/cuddEssent.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddEssent.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddEssent.Tpo -c cudd/cuddEssent.c -o cudd/libcudd_la-cuddEssent.o
+mv -f cudd/.deps/libcudd_la-cuddDecomp.Tpo cudd/.deps/libcudd_la-cuddDecomp.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddExact.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddExact.Tpo -c -o cudd/libcudd_la-cuddExact.lo `test -f 'cudd/cuddExact.c' || echo './'`cudd/cuddExact.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddExact.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddExact.Tpo -c cudd/cuddExact.c -o cudd/libcudd_la-cuddExact.o
+mv -f cudd/.deps/libcudd_la-cuddEssent.Tpo cudd/.deps/libcudd_la-cuddEssent.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddExport.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddExport.Tpo -c -o cudd/libcudd_la-cuddExport.lo `test -f 'cudd/cuddExport.c' || echo './'`cudd/cuddExport.c
+mv -f cudd/.deps/libcudd_la-cuddExact.Tpo cudd/.deps/libcudd_la-cuddExact.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddGenCof.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddGenCof.Tpo -c -o cudd/libcudd_la-cuddGenCof.lo `test -f 'cudd/cuddGenCof.c' || echo './'`cudd/cuddGenCof.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddExport.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddExport.Tpo -c cudd/cuddExport.c -o cudd/libcudd_la-cuddExport.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddGenCof.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddGenCof.Tpo -c cudd/cuddGenCof.c -o cudd/libcudd_la-cuddGenCof.o
+mv -f cudd/.deps/libcudd_la-cuddExport.Tpo cudd/.deps/libcudd_la-cuddExport.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddGenetic.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddGenetic.Tpo -c -o cudd/libcudd_la-cuddGenetic.lo `test -f 'cudd/cuddGenetic.c' || echo './'`cudd/cuddGenetic.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddGenetic.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddGenetic.Tpo -c cudd/cuddGenetic.c -o cudd/libcudd_la-cuddGenetic.o
+mv -f cudd/.deps/libcudd_la-cuddGenCof.Tpo cudd/.deps/libcudd_la-cuddGenCof.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddGroup.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddGroup.Tpo -c -o cudd/libcudd_la-cuddGroup.lo `test -f 'cudd/cuddGroup.c' || echo './'`cudd/cuddGroup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddGroup.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddGroup.Tpo -c cudd/cuddGroup.c -o cudd/libcudd_la-cuddGroup.o
+mv -f cudd/.deps/libcudd_la-cuddGenetic.Tpo cudd/.deps/libcudd_la-cuddGenetic.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddHarwell.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddHarwell.Tpo -c -o cudd/libcudd_la-cuddHarwell.lo `test -f 'cudd/cuddHarwell.c' || echo './'`cudd/cuddHarwell.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddHarwell.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddHarwell.Tpo -c cudd/cuddHarwell.c -o cudd/libcudd_la-cuddHarwell.o
+mv -f cudd/.deps/libcudd_la-cuddHarwell.Tpo cudd/.deps/libcudd_la-cuddHarwell.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddInit.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddInit.Tpo -c -o cudd/libcudd_la-cuddInit.lo `test -f 'cudd/cuddInit.c' || echo './'`cudd/cuddInit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddInit.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddInit.Tpo -c cudd/cuddInit.c -o cudd/libcudd_la-cuddInit.o
+mv -f cudd/.deps/libcudd_la-cuddGroup.Tpo cudd/.deps/libcudd_la-cuddGroup.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddInteract.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddInteract.Tpo -c -o cudd/libcudd_la-cuddInteract.lo `test -f 'cudd/cuddInteract.c' || echo './'`cudd/cuddInteract.c
+mv -f cudd/.deps/libcudd_la-cuddInit.Tpo cudd/.deps/libcudd_la-cuddInit.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddLCache.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddLCache.Tpo -c -o cudd/libcudd_la-cuddLCache.lo `test -f 'cudd/cuddLCache.c' || echo './'`cudd/cuddLCache.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddInteract.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddInteract.Tpo -c cudd/cuddInteract.c -o cudd/libcudd_la-cuddInteract.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddLCache.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddLCache.Tpo -c cudd/cuddLCache.c -o cudd/libcudd_la-cuddLCache.o
+mv -f cudd/.deps/libcudd_la-cuddInteract.Tpo cudd/.deps/libcudd_la-cuddInteract.Plo
+mv -f cudd/.deps/libcudd_la-cuddLCache.Tpo cudd/.deps/libcudd_la-cuddLCache.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddLevelQ.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddLevelQ.Tpo -c -o cudd/libcudd_la-cuddLevelQ.lo `test -f 'cudd/cuddLevelQ.c' || echo './'`cudd/cuddLevelQ.c
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddLinear.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddLinear.Tpo -c -o cudd/libcudd_la-cuddLinear.lo `test -f 'cudd/cuddLinear.c' || echo './'`cudd/cuddLinear.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddLinear.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddLinear.Tpo -c cudd/cuddLinear.c -o cudd/libcudd_la-cuddLinear.o
+mv -f cudd/.deps/libcudd_la-cuddLevelQ.Tpo cudd/.deps/libcudd_la-cuddLevelQ.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddLiteral.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddLiteral.Tpo -c -o cudd/libcudd_la-cuddLiteral.lo `test -f 'cudd/cuddLiteral.c' || echo './'`cudd/cuddLiteral.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddLiteral.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddLiteral.Tpo -c cudd/cuddLiteral.c -o cudd/libcudd_la-cuddLiteral.o
+mv -f cudd/.deps/libcudd_la-cuddLiteral.Tpo cudd/.deps/libcudd_la-cuddLiteral.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddMatMult.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddMatMult.Tpo -c -o cudd/libcudd_la-cuddMatMult.lo `test -f 'cudd/cuddMatMult.c' || echo './'`cudd/cuddMatMult.c
+mv -f cudd/.deps/libcudd_la-cuddLinear.Tpo cudd/.deps/libcudd_la-cuddLinear.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddPriority.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddPriority.Tpo -c -o cudd/libcudd_la-cuddPriority.lo `test -f 'cudd/cuddPriority.c' || echo './'`cudd/cuddPriority.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddMatMult.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddMatMult.Tpo -c cudd/cuddMatMult.c -o cudd/libcudd_la-cuddMatMult.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddPriority.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddPriority.Tpo -c cudd/cuddPriority.c -o cudd/libcudd_la-cuddPriority.o
+cudd/cuddMatMult.c: In function 'addMMRecur':
+cudd/cuddMatMult.c:379:15: warning: cast between incompatible function types from 'DdNode * (*)(DdManager *, DdNode *, DdNode *, int,  int *)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  379 |     cacheOp = (DD_CTFP) addMMRecur;
+      |               ^
+cudd/cuddPriority.c: In function 'cuddBddClosestCube':
+cudd/cuddPriority.c:1637:35: warning: cast between incompatible function types from 'DdNode * (*)(DdManager *, DdNode *, DdNode *, int *)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+ 1637 |         res = cuddCacheLookup2(dd,(DD_CTFP) Cudd_bddClosestCube, f, g);
+      |                                   ^
+cudd/cuddPriority.c:1789:29: warning: cast between incompatible function types from 'DdNode * (*)(DdManager *, DdNode *, DdNode *, int *)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+ 1789 |         cuddCacheInsert2(dd,(DD_CTFP) Cudd_bddClosestCube, f, g, res);
+      |                             ^
+mv -f cudd/.deps/libcudd_la-cuddMatMult.Tpo cudd/.deps/libcudd_la-cuddMatMult.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddRead.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddRead.Tpo -c -o cudd/libcudd_la-cuddRead.lo `test -f 'cudd/cuddRead.c' || echo './'`cudd/cuddRead.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddRead.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddRead.Tpo -c cudd/cuddRead.c -o cudd/libcudd_la-cuddRead.o
+mv -f cudd/.deps/libcudd_la-cuddRead.Tpo cudd/.deps/libcudd_la-cuddRead.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddRef.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddRef.Tpo -c -o cudd/libcudd_la-cuddRef.lo `test -f 'cudd/cuddRef.c' || echo './'`cudd/cuddRef.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddRef.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddRef.Tpo -c cudd/cuddRef.c -o cudd/libcudd_la-cuddRef.o
+mv -f cudd/.deps/libcudd_la-cuddPriority.Tpo cudd/.deps/libcudd_la-cuddPriority.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddReorder.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddReorder.Tpo -c -o cudd/libcudd_la-cuddReorder.lo `test -f 'cudd/cuddReorder.c' || echo './'`cudd/cuddReorder.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddReorder.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddReorder.Tpo -c cudd/cuddReorder.c -o cudd/libcudd_la-cuddReorder.o
+mv -f cudd/.deps/libcudd_la-cuddRef.Tpo cudd/.deps/libcudd_la-cuddRef.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSat.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSat.Tpo -c -o cudd/libcudd_la-cuddSat.lo `test -f 'cudd/cuddSat.c' || echo './'`cudd/cuddSat.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSat.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSat.Tpo -c cudd/cuddSat.c -o cudd/libcudd_la-cuddSat.o
+cudd/cuddSat.c: In function 'Cudd_Decreasing':
+cudd/cuddSat.c:420:15: warning: cast between incompatible function types from 'DdNode * (*)(DdManager *, DdNode *, int)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  420 |     cacheOp = (DD_CTFP) Cudd_Decreasing;
+      |               ^
+cudd/cuddSat.c: In function 'Cudd_EqualSupNorm':
+cudd/cuddSat.c:798:29: warning: cast between incompatible function types from 'int (*)(DdManager *, DdNode *, DdNode *, CUDD_VALUE_TYPE,  int)' {aka 'int (*)(DdManager *, DdNode *, DdNode *, double,  int)'} to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  798 |     r = cuddCacheLookup2(dd,(DD_CTFP)Cudd_EqualSupNorm,f,g);
+      |                             ^
+cudd/cuddSat.c:813:25: warning: cast between incompatible function types from 'int (*)(DdManager *, DdNode *, DdNode *, CUDD_VALUE_TYPE,  int)' {aka 'int (*)(DdManager *, DdNode *, DdNode *, double,  int)'} to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  813 |     cuddCacheInsert2(dd,(DD_CTFP)Cudd_EqualSupNorm,f,g,DD_ONE(dd));
+      |                         ^
+mv -f cudd/.deps/libcudd_la-cuddReorder.Tpo cudd/.deps/libcudd_la-cuddReorder.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSign.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSign.Tpo -c -o cudd/libcudd_la-cuddSign.lo `test -f 'cudd/cuddSign.c' || echo './'`cudd/cuddSign.c
+mv -f cudd/.deps/libcudd_la-cuddSat.Tpo cudd/.deps/libcudd_la-cuddSat.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSolve.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSolve.Tpo -c -o cudd/libcudd_la-cuddSolve.lo `test -f 'cudd/cuddSolve.c' || echo './'`cudd/cuddSolve.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSign.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSign.Tpo -c cudd/cuddSign.c -o cudd/libcudd_la-cuddSign.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSolve.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSolve.Tpo -c cudd/cuddSolve.c -o cudd/libcudd_la-cuddSolve.o
+mv -f cudd/.deps/libcudd_la-cuddSign.Tpo cudd/.deps/libcudd_la-cuddSign.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSplit.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSplit.Tpo -c -o cudd/libcudd_la-cuddSplit.lo `test -f 'cudd/cuddSplit.c' || echo './'`cudd/cuddSplit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSplit.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSplit.Tpo -c cudd/cuddSplit.c -o cudd/libcudd_la-cuddSplit.o
+mv -f cudd/.deps/libcudd_la-cuddSolve.Tpo cudd/.deps/libcudd_la-cuddSolve.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSubsetHB.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSubsetHB.Tpo -c -o cudd/libcudd_la-cuddSubsetHB.lo `test -f 'cudd/cuddSubsetHB.c' || echo './'`cudd/cuddSubsetHB.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSubsetHB.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSubsetHB.Tpo -c cudd/cuddSubsetHB.c -o cudd/libcudd_la-cuddSubsetHB.o
+mv -f cudd/.deps/libcudd_la-cuddSplit.Tpo cudd/.deps/libcudd_la-cuddSplit.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSubsetSP.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSubsetSP.Tpo -c -o cudd/libcudd_la-cuddSubsetSP.lo `test -f 'cudd/cuddSubsetSP.c' || echo './'`cudd/cuddSubsetSP.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSubsetSP.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSubsetSP.Tpo -c cudd/cuddSubsetSP.c -o cudd/libcudd_la-cuddSubsetSP.o
+mv -f cudd/.deps/libcudd_la-cuddSubsetHB.Tpo cudd/.deps/libcudd_la-cuddSubsetHB.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSymmetry.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSymmetry.Tpo -c -o cudd/libcudd_la-cuddSymmetry.lo `test -f 'cudd/cuddSymmetry.c' || echo './'`cudd/cuddSymmetry.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddSymmetry.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddSymmetry.Tpo -c cudd/cuddSymmetry.c -o cudd/libcudd_la-cuddSymmetry.o
+mv -f cudd/.deps/libcudd_la-cuddSubsetSP.Tpo cudd/.deps/libcudd_la-cuddSubsetSP.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddTable.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddTable.Tpo -c -o cudd/libcudd_la-cuddTable.lo `test -f 'cudd/cuddTable.c' || echo './'`cudd/cuddTable.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddTable.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddTable.Tpo -c cudd/cuddTable.c -o cudd/libcudd_la-cuddTable.o
+mv -f cudd/.deps/libcudd_la-cuddSymmetry.Tpo cudd/.deps/libcudd_la-cuddSymmetry.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddUtil.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddUtil.Tpo -c -o cudd/libcudd_la-cuddUtil.lo `test -f 'cudd/cuddUtil.c' || echo './'`cudd/cuddUtil.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddUtil.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddUtil.Tpo -c cudd/cuddUtil.c -o cudd/libcudd_la-cuddUtil.o
+mv -f cudd/.deps/libcudd_la-cuddTable.Tpo cudd/.deps/libcudd_la-cuddTable.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddWindow.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddWindow.Tpo -c -o cudd/libcudd_la-cuddWindow.lo `test -f 'cudd/cuddWindow.c' || echo './'`cudd/cuddWindow.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddWindow.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddWindow.Tpo -c cudd/cuddWindow.c -o cudd/libcudd_la-cuddWindow.o
+cudd/cuddWindow.c: In function 'ddPermuteWindow3':
+cudd/cuddWindow.c:386:18: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  386 |     case BCA: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |                  ^
+cudd/cuddWindow.c:387:5: note: here
+  387 |     case CBA: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:387:18: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  387 |     case CBA: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                  ^
+cudd/cuddWindow.c:388:5: note: here
+  388 |     case ABC: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:390:18: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  390 |     case BAC: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |                  ^
+cudd/cuddWindow.c:391:5: note: here
+  391 |     case CAB: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c: In function 'ddPermuteWindow4':
+cudd/cuddWindow.c:759:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  759 |     case DBCA: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |                   ^
+cudd/cuddWindow.c:760:5: note: here
+  760 |     case BDCA: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:760:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  760 |     case BDCA: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                   ^
+cudd/cuddWindow.c:761:5: note: here
+  761 |     case CDBA: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:761:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  761 |     case CDBA: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |                   ^
+cudd/cuddWindow.c:762:5: note: here
+  762 |     case ADBC: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:762:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  762 |     case ADBC: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |                   ^
+cudd/cuddWindow.c:763:5: note: here
+  763 |     case ABDC: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:763:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  763 |     case ABDC: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                   ^
+cudd/cuddWindow.c:764:5: note: here
+  764 |     case ACDB: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:766:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  766 |     case DCBA: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |                   ^
+cudd/cuddWindow.c:767:5: note: here
+  767 |     case BCDA: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:767:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  767 |     case BCDA: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                   ^
+cudd/cuddWindow.c:768:5: note: here
+  768 |     case CBDA: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:772:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  772 |     case DBAC: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                   ^
+cudd/cuddWindow.c:773:5: note: here
+  773 |     case DCAB: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:773:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  773 |     case DCAB: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |                   ^
+cudd/cuddWindow.c:774:5: note: here
+  774 |     case DACB: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:774:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  774 |     case DACB: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |                   ^
+cudd/cuddWindow.c:775:5: note: here
+  775 |     case BACD: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:775:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  775 |     case BACD: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                   ^
+cudd/cuddWindow.c:776:5: note: here
+  776 |     case CABD: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:778:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  778 |     case DABC: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |                   ^
+cudd/cuddWindow.c:779:5: note: here
+  779 |     case BADC: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:779:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  779 |     case BADC: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                   ^
+cudd/cuddWindow.c:780:5: note: here
+  780 |     case CADB: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:783:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  783 |     case BDAC: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                   ^
+cudd/cuddWindow.c:784:5: note: here
+  784 |     case CDAB: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:784:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  784 |     case CDAB: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |                   ^
+cudd/cuddWindow.c:785:5: note: here
+  785 |     case ADCB: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:785:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  785 |     case ADCB: if (!cuddSwapInPlace(table,y,z)) return(0);
+      |                   ^
+cudd/cuddWindow.c:786:5: note: here
+  786 |     case ABCD: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |     ^~~~
+cudd/cuddWindow.c:788:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  788 |     case BCAD: if (!cuddSwapInPlace(table,x,y)) return(0);
+      |                   ^
+cudd/cuddWindow.c:789:5: note: here
+  789 |     case CBAD: if (!cuddSwapInPlace(table,w,x)) return(0);
+      |     ^~~~
+mv -f cudd/.deps/libcudd_la-cuddWindow.Tpo cudd/.deps/libcudd_la-cuddWindow.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddCount.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddCount.Tpo -c -o cudd/libcudd_la-cuddZddCount.lo `test -f 'cudd/cuddZddCount.c' || echo './'`cudd/cuddZddCount.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddCount.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddCount.Tpo -c cudd/cuddZddCount.c -o cudd/libcudd_la-cuddZddCount.o
+mv -f cudd/.deps/libcudd_la-cuddZddCount.Tpo cudd/.deps/libcudd_la-cuddZddCount.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddFuncs.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddFuncs.Tpo -c -o cudd/libcudd_la-cuddZddFuncs.lo `test -f 'cudd/cuddZddFuncs.c' || echo './'`cudd/cuddZddFuncs.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddFuncs.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddFuncs.Tpo -c cudd/cuddZddFuncs.c -o cudd/libcudd_la-cuddZddFuncs.o
+mv -f cudd/.deps/libcudd_la-cuddUtil.Tpo cudd/.deps/libcudd_la-cuddUtil.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddGroup.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddGroup.Tpo -c -o cudd/libcudd_la-cuddZddGroup.lo `test -f 'cudd/cuddZddGroup.c' || echo './'`cudd/cuddZddGroup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddGroup.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddGroup.Tpo -c cudd/cuddZddGroup.c -o cudd/libcudd_la-cuddZddGroup.o
+mv -f cudd/.deps/libcudd_la-cuddZddGroup.Tpo cudd/.deps/libcudd_la-cuddZddGroup.Plo
+mv -f cudd/.deps/libcudd_la-cuddZddFuncs.Tpo cudd/.deps/libcudd_la-cuddZddFuncs.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddIsop.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddIsop.Tpo -c -o cudd/libcudd_la-cuddZddIsop.lo `test -f 'cudd/cuddZddIsop.c' || echo './'`cudd/cuddZddIsop.c
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddLin.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddLin.Tpo -c -o cudd/libcudd_la-cuddZddLin.lo `test -f 'cudd/cuddZddLin.c' || echo './'`cudd/cuddZddLin.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddIsop.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddIsop.Tpo -c cudd/cuddZddIsop.c -o cudd/libcudd_la-cuddZddIsop.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddLin.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddLin.Tpo -c cudd/cuddZddLin.c -o cudd/libcudd_la-cuddZddLin.o
+cudd/cuddZddIsop.c: In function 'cuddZddIsop':
+cudd/cuddZddIsop.c:256:15: warning: cast between incompatible function types from 'DdNode * (*)(DdManager *, DdNode *, DdNode *, DdNode **)' to 'DdNode * (*)(DdManager *, DdNode *, DdNode *)' [-Wcast-function-type]
+  256 |     cacheOp = (DD_CTFP) cuddZddIsop;
+      |               ^
+mv -f cudd/.deps/libcudd_la-cuddZddIsop.Tpo cudd/.deps/libcudd_la-cuddZddIsop.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddMisc.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddMisc.Tpo -c -o cudd/libcudd_la-cuddZddMisc.lo `test -f 'cudd/cuddZddMisc.c' || echo './'`cudd/cuddZddMisc.c
+mv -f cudd/.deps/libcudd_la-cuddZddLin.Tpo cudd/.deps/libcudd_la-cuddZddLin.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddPort.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddPort.Tpo -c -o cudd/libcudd_la-cuddZddPort.lo `test -f 'cudd/cuddZddPort.c' || echo './'`cudd/cuddZddPort.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddMisc.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddMisc.Tpo -c cudd/cuddZddMisc.c -o cudd/libcudd_la-cuddZddMisc.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddPort.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddPort.Tpo -c cudd/cuddZddPort.c -o cudd/libcudd_la-cuddZddPort.o
+mv -f cudd/.deps/libcudd_la-cuddZddMisc.Tpo cudd/.deps/libcudd_la-cuddZddMisc.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddReord.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddReord.Tpo -c -o cudd/libcudd_la-cuddZddReord.lo `test -f 'cudd/cuddZddReord.c' || echo './'`cudd/cuddZddReord.c
+mv -f cudd/.deps/libcudd_la-cuddZddPort.Tpo cudd/.deps/libcudd_la-cuddZddPort.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddSetop.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddSetop.Tpo -c -o cudd/libcudd_la-cuddZddSetop.lo `test -f 'cudd/cuddZddSetop.c' || echo './'`cudd/cuddZddSetop.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddReord.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddReord.Tpo -c cudd/cuddZddReord.c -o cudd/libcudd_la-cuddZddReord.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddSetop.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddSetop.Tpo -c cudd/cuddZddSetop.c -o cudd/libcudd_la-cuddZddSetop.o
+mv -f cudd/.deps/libcudd_la-cuddZddReord.Tpo cudd/.deps/libcudd_la-cuddZddReord.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddSymm.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddSymm.Tpo -c -o cudd/libcudd_la-cuddZddSymm.lo `test -f 'cudd/cuddZddSymm.c' || echo './'`cudd/cuddZddSymm.c
+mv -f cudd/.deps/libcudd_la-cuddZddSetop.Tpo cudd/.deps/libcudd_la-cuddZddSetop.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddUtil.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddUtil.Tpo -c -o cudd/libcudd_la-cuddZddUtil.lo `test -f 'cudd/cuddZddUtil.c' || echo './'`cudd/cuddZddUtil.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddSymm.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddSymm.Tpo -c cudd/cuddZddSymm.c -o cudd/libcudd_la-cuddZddSymm.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT cudd/libcudd_la-cuddZddUtil.lo -MD -MP -MF cudd/.deps/libcudd_la-cuddZddUtil.Tpo -c cudd/cuddZddUtil.c -o cudd/libcudd_la-cuddZddUtil.o
+mv -f cudd/.deps/libcudd_la-cuddZddSymm.Tpo cudd/.deps/libcudd_la-cuddZddSymm.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-cpu_stats.lo -MD -MP -MF util/.deps/cudd_libcudd_la-cpu_stats.Tpo -c -o util/cudd_libcudd_la-cpu_stats.lo `test -f 'util/cpu_stats.c' || echo './'`util/cpu_stats.c
+mv -f cudd/.deps/libcudd_la-cuddZddUtil.Tpo cudd/.deps/libcudd_la-cuddZddUtil.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-cpu_time.lo -MD -MP -MF util/.deps/cudd_libcudd_la-cpu_time.Tpo -c -o util/cudd_libcudd_la-cpu_time.lo `test -f 'util/cpu_time.c' || echo './'`util/cpu_time.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-cpu_stats.lo -MD -MP -MF util/.deps/cudd_libcudd_la-cpu_stats.Tpo -c util/cpu_stats.c -o util/cudd_libcudd_la-cpu_stats.o
+In file included from /usr/include/assert.h:35,
+                 from util/util.h:70,
+                 from util/cpu_stats.c:66:
+/usr/include/features.h:196:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  196 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-cpu_time.lo -MD -MP -MF util/.deps/cudd_libcudd_la-cpu_time.Tpo -c util/cpu_time.c -o util/cudd_libcudd_la-cpu_time.o
+mv -f util/.deps/cudd_libcudd_la-cpu_time.Tpo util/.deps/cudd_libcudd_la-cpu_time.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-cstringstream.lo -MD -MP -MF util/.deps/cudd_libcudd_la-cstringstream.Tpo -c -o util/cudd_libcudd_la-cstringstream.lo `test -f 'util/cstringstream.c' || echo './'`util/cstringstream.c
+mv -f util/.deps/cudd_libcudd_la-cpu_stats.Tpo util/.deps/cudd_libcudd_la-cpu_stats.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-datalimit.lo -MD -MP -MF util/.deps/cudd_libcudd_la-datalimit.Tpo -c -o util/cudd_libcudd_la-datalimit.lo `test -f 'util/datalimit.c' || echo './'`util/datalimit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-cstringstream.lo -MD -MP -MF util/.deps/cudd_libcudd_la-cstringstream.Tpo -c util/cstringstream.c -o util/cudd_libcudd_la-cstringstream.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-datalimit.lo -MD -MP -MF util/.deps/cudd_libcudd_la-datalimit.Tpo -c util/datalimit.c -o util/cudd_libcudd_la-datalimit.o
+mv -f util/.deps/cudd_libcudd_la-datalimit.Tpo util/.deps/cudd_libcudd_la-datalimit.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-pathsearch.lo -MD -MP -MF util/.deps/cudd_libcudd_la-pathsearch.Tpo -c -o util/cudd_libcudd_la-pathsearch.lo `test -f 'util/pathsearch.c' || echo './'`util/pathsearch.c
+util/cstringstream.c: In function 'appendStringStringStream':
+util/cstringstream.c:143:3: warning: '__builtin_strncpy' output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  143 |   strncpy(ss->data + ss->inUse - len, s, len);
+      |   ^
+util/cstringstream.c:140:16: note: length computed here
+  140 |   size_t len = strlen(s);
+      |                ^~~~~~~~~
+util/cstringstream.c: In function 'appendIntStringStream':
+util/cstringstream.c:143:3: warning: '__builtin_strncpy' output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  143 |   strncpy(ss->data + ss->inUse - len, s, len);
+      |   ^
+In function 'appendStringStringStream',
+    inlined from 'appendIntStringStream' at util/cstringstream.c:151:10:
+util/cstringstream.c:140:16: note: length computed here
+  140 |   size_t len = strlen(s);
+      |                ^~~~~~~~~
+util/cstringstream.c: In function 'appendUnsignedStringStream':
+util/cstringstream.c:143:3: warning: '__builtin_strncpy' output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  143 |   strncpy(ss->data + ss->inUse - len, s, len);
+      |   ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-pathsearch.lo -MD -MP -MF util/.deps/cudd_libcudd_la-pathsearch.Tpo -c util/pathsearch.c -o util/cudd_libcudd_la-pathsearch.o
+In function 'appendStringStringStream',
+    inlined from 'appendUnsignedStringStream' at util/cstringstream.c:158:10:
+util/cstringstream.c:140:16: note: length computed here
+  140 |   size_t len = strlen(s);
+      |                ^~~~~~~~~
+util/cstringstream.c: In function 'appendLongStringStream':
+util/cstringstream.c:143:3: warning: '__builtin_strncpy' output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  143 |   strncpy(ss->data + ss->inUse - len, s, len);
+      |   ^
+In function 'appendStringStringStream',
+    inlined from 'appendLongStringStream' at util/cstringstream.c:165:10:
+util/cstringstream.c:140:16: note: length computed here
+  140 |   size_t len = strlen(s);
+      |                ^~~~~~~~~
+util/cstringstream.c: In function 'appendUnsignedLongStringStream':
+util/cstringstream.c:143:3: warning: '__builtin_strncpy' output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  143 |   strncpy(ss->data + ss->inUse - len, s, len);
+      |   ^
+In function 'appendStringStringStream',
+    inlined from 'appendUnsignedLongStringStream' at util/cstringstream.c:172:10:
+util/cstringstream.c:140:16: note: length computed here
+  140 |   size_t len = strlen(s);
+      |                ^~~~~~~~~
+util/cstringstream.c: In function 'appendDoubleStringStream':
+util/cstringstream.c:143:3: warning: '__builtin_strncpy' output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  143 |   strncpy(ss->data + ss->inUse - len, s, len);
+      |   ^
+In function 'appendStringStringStream',
+    inlined from 'appendDoubleStringStream' at util/cstringstream.c:179:10:
+util/cstringstream.c:140:16: note: length computed here
+  140 |   size_t len = strlen(s);
+      |                ^~~~~~~~~
+mv -f util/.deps/cudd_libcudd_la-pathsearch.Tpo util/.deps/cudd_libcudd_la-pathsearch.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-pipefork.lo -MD -MP -MF util/.deps/cudd_libcudd_la-pipefork.Tpo -c -o util/cudd_libcudd_la-pipefork.lo `test -f 'util/pipefork.c' || echo './'`util/pipefork.c
+mv -f util/.deps/cudd_libcudd_la-cstringstream.Tpo util/.deps/cudd_libcudd_la-cstringstream.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-prtime.lo -MD -MP -MF util/.deps/cudd_libcudd_la-prtime.Tpo -c -o util/cudd_libcudd_la-prtime.lo `test -f 'util/prtime.c' || echo './'`util/prtime.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-pipefork.lo -MD -MP -MF util/.deps/cudd_libcudd_la-pipefork.Tpo -c util/pipefork.c -o util/cudd_libcudd_la-pipefork.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-prtime.lo -MD -MP -MF util/.deps/cudd_libcudd_la-prtime.Tpo -c util/prtime.c -o util/cudd_libcudd_la-prtime.o
+mv -f util/.deps/cudd_libcudd_la-pipefork.Tpo util/.deps/cudd_libcudd_la-pipefork.Plo
+mv -f util/.deps/cudd_libcudd_la-prtime.Tpo util/.deps/cudd_libcudd_la-prtime.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-safe_mem.lo -MD -MP -MF util/.deps/cudd_libcudd_la-safe_mem.Tpo -c -o util/cudd_libcudd_la-safe_mem.lo `test -f 'util/safe_mem.c' || echo './'`util/safe_mem.c
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-strsav.lo -MD -MP -MF util/.deps/cudd_libcudd_la-strsav.Tpo -c -o util/cudd_libcudd_la-strsav.lo `test -f 'util/strsav.c' || echo './'`util/strsav.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-strsav.lo -MD -MP -MF util/.deps/cudd_libcudd_la-strsav.Tpo -c util/strsav.c -o util/cudd_libcudd_la-strsav.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-safe_mem.lo -MD -MP -MF util/.deps/cudd_libcudd_la-safe_mem.Tpo -c util/safe_mem.c -o util/cudd_libcudd_la-safe_mem.o
+mv -f util/.deps/cudd_libcudd_la-strsav.Tpo util/.deps/cudd_libcudd_la-strsav.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-texpand.lo -MD -MP -MF util/.deps/cudd_libcudd_la-texpand.Tpo -c -o util/cudd_libcudd_la-texpand.lo `test -f 'util/texpand.c' || echo './'`util/texpand.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-texpand.lo -MD -MP -MF util/.deps/cudd_libcudd_la-texpand.Tpo -c util/texpand.c -o util/cudd_libcudd_la-texpand.o
+mv -f util/.deps/cudd_libcudd_la-safe_mem.Tpo util/.deps/cudd_libcudd_la-safe_mem.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-ucbqsort.lo -MD -MP -MF util/.deps/cudd_libcudd_la-ucbqsort.Tpo -c -o util/cudd_libcudd_la-ucbqsort.lo `test -f 'util/ucbqsort.c' || echo './'`util/ucbqsort.c
+mv -f util/.deps/cudd_libcudd_la-texpand.Tpo util/.deps/cudd_libcudd_la-texpand.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT st/cudd_libcudd_la-st.lo -MD -MP -MF st/.deps/cudd_libcudd_la-st.Tpo -c -o st/cudd_libcudd_la-st.lo `test -f 'st/st.c' || echo './'`st/st.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT util/cudd_libcudd_la-ucbqsort.lo -MD -MP -MF util/.deps/cudd_libcudd_la-ucbqsort.Tpo -c util/ucbqsort.c -o util/cudd_libcudd_la-ucbqsort.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT st/cudd_libcudd_la-st.lo -MD -MP -MF st/.deps/cudd_libcudd_la-st.Tpo -c st/st.c -o st/cudd_libcudd_la-st.o
+mv -f util/.deps/cudd_libcudd_la-ucbqsort.Tpo util/.deps/cudd_libcudd_la-ucbqsort.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT epd/cudd_libcudd_la-epd.lo -MD -MP -MF epd/.deps/cudd_libcudd_la-epd.Tpo -c -o epd/cudd_libcudd_la-epd.lo `test -f 'epd/epd.c' || echo './'`epd/epd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT epd/cudd_libcudd_la-epd.lo -MD -MP -MF epd/.deps/cudd_libcudd_la-epd.Tpo -c epd/epd.c -o epd/cudd_libcudd_la-epd.o
+mv -f st/.deps/cudd_libcudd_la-st.Tpo st/.deps/cudd_libcudd_la-st.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT mtr/cudd_libcudd_la-mtrBasic.lo -MD -MP -MF mtr/.deps/cudd_libcudd_la-mtrBasic.Tpo -c -o mtr/cudd_libcudd_la-mtrBasic.lo `test -f 'mtr/mtrBasic.c' || echo './'`mtr/mtrBasic.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT mtr/cudd_libcudd_la-mtrBasic.lo -MD -MP -MF mtr/.deps/cudd_libcudd_la-mtrBasic.Tpo -c mtr/mtrBasic.c -o mtr/cudd_libcudd_la-mtrBasic.o
+mv -f mtr/.deps/cudd_libcudd_la-mtrBasic.Tpo mtr/.deps/cudd_libcudd_la-mtrBasic.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./cudd -I./st -I./epd -I./mtr -I./util   -Wall -Wextra -g -O3 -MT mtr/cudd_libcudd_la-mtrGroup.lo -MD -MP -MF mtr/.deps/cudd_libcudd_la-mtrGroup.Tpo -c -o mtr/cudd_libcudd_la-mtrGroup.lo `test -f 'mtr/mtrGroup.c' || echo './'`mtr/mtrGroup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./cudd -I./st -I./epd -I./mtr -I./util -Wall -Wextra -g -O3 -MT mtr/cudd_libcudd_la-mtrGroup.lo -MD -MP -MF mtr/.deps/cudd_libcudd_la-mtrGroup.Tpo -c mtr/mtrGroup.c -o mtr/cudd_libcudd_la-mtrGroup.o
+mv -f epd/.deps/cudd_libcudd_la-epd.Tpo epd/.deps/cudd_libcudd_la-epd.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpBinary.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpBinary.Tpo -c -o dddmp/libdddmp_la-dddmpBinary.lo `test -f 'dddmp/dddmpBinary.c' || echo './'`dddmp/dddmpBinary.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpBinary.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpBinary.Tpo -c dddmp/dddmpBinary.c -o dddmp/libdddmp_la-dddmpBinary.o
+mv -f mtr/.deps/cudd_libcudd_la-mtrGroup.Tpo mtr/.deps/cudd_libcudd_la-mtrGroup.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpConvert.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpConvert.Tpo -c -o dddmp/libdddmp_la-dddmpConvert.lo `test -f 'dddmp/dddmpConvert.c' || echo './'`dddmp/dddmpConvert.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpConvert.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpConvert.Tpo -c dddmp/dddmpConvert.c -o dddmp/libdddmp_la-dddmpConvert.o
+mv -f dddmp/.deps/libdddmp_la-dddmpBinary.Tpo dddmp/.deps/libdddmp_la-dddmpBinary.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpDbg.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpDbg.Tpo -c -o dddmp/libdddmp_la-dddmpDbg.lo `test -f 'dddmp/dddmpDbg.c' || echo './'`dddmp/dddmpDbg.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpDbg.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpDbg.Tpo -c dddmp/dddmpDbg.c -o dddmp/libdddmp_la-dddmpDbg.o
+mv -f dddmp/.deps/libdddmp_la-dddmpConvert.Tpo dddmp/.deps/libdddmp_la-dddmpConvert.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpLoad.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpLoad.Tpo -c -o dddmp/libdddmp_la-dddmpLoad.lo `test -f 'dddmp/dddmpLoad.c' || echo './'`dddmp/dddmpLoad.c
+mv -f dddmp/.deps/libdddmp_la-dddmpDbg.Tpo dddmp/.deps/libdddmp_la-dddmpDbg.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpLoadCnf.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpLoadCnf.Tpo -c -o dddmp/libdddmp_la-dddmpLoadCnf.lo `test -f 'dddmp/dddmpLoadCnf.c' || echo './'`dddmp/dddmpLoadCnf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpLoad.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpLoad.Tpo -c dddmp/dddmpLoad.c -o dddmp/libdddmp_la-dddmpLoad.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpLoadCnf.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpLoadCnf.Tpo -c dddmp/dddmpLoadCnf.c -o dddmp/libdddmp_la-dddmpLoadCnf.o
+mv -f dddmp/.deps/libdddmp_la-dddmpLoadCnf.Tpo dddmp/.deps/libdddmp_la-dddmpLoadCnf.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpNodeAdd.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpNodeAdd.Tpo -c -o dddmp/libdddmp_la-dddmpNodeAdd.lo `test -f 'dddmp/dddmpNodeAdd.c' || echo './'`dddmp/dddmpNodeAdd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpNodeAdd.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpNodeAdd.Tpo -c dddmp/dddmpNodeAdd.c -o dddmp/libdddmp_la-dddmpNodeAdd.o
+mv -f dddmp/.deps/libdddmp_la-dddmpLoad.Tpo dddmp/.deps/libdddmp_la-dddmpLoad.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpNodeBdd.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpNodeBdd.Tpo -c -o dddmp/libdddmp_la-dddmpNodeBdd.lo `test -f 'dddmp/dddmpNodeBdd.c' || echo './'`dddmp/dddmpNodeBdd.c
+mv -f dddmp/.deps/libdddmp_la-dddmpNodeAdd.Tpo dddmp/.deps/libdddmp_la-dddmpNodeAdd.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpNodeCnf.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpNodeCnf.Tpo -c -o dddmp/libdddmp_la-dddmpNodeCnf.lo `test -f 'dddmp/dddmpNodeCnf.c' || echo './'`dddmp/dddmpNodeCnf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpNodeBdd.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpNodeBdd.Tpo -c dddmp/dddmpNodeBdd.c -o dddmp/libdddmp_la-dddmpNodeBdd.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpNodeCnf.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpNodeCnf.Tpo -c dddmp/dddmpNodeCnf.c -o dddmp/libdddmp_la-dddmpNodeCnf.o
+mv -f dddmp/.deps/libdddmp_la-dddmpNodeBdd.Tpo dddmp/.deps/libdddmp_la-dddmpNodeBdd.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpStoreAdd.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpStoreAdd.Tpo -c -o dddmp/libdddmp_la-dddmpStoreAdd.lo `test -f 'dddmp/dddmpStoreAdd.c' || echo './'`dddmp/dddmpStoreAdd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpStoreAdd.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpStoreAdd.Tpo -c dddmp/dddmpStoreAdd.c -o dddmp/libdddmp_la-dddmpStoreAdd.o
+mv -f dddmp/.deps/libdddmp_la-dddmpNodeCnf.Tpo dddmp/.deps/libdddmp_la-dddmpNodeCnf.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpStoreBdd.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpStoreBdd.Tpo -c -o dddmp/libdddmp_la-dddmpStoreBdd.lo `test -f 'dddmp/dddmpStoreBdd.c' || echo './'`dddmp/dddmpStoreBdd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpStoreBdd.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpStoreBdd.Tpo -c dddmp/dddmpStoreBdd.c -o dddmp/libdddmp_la-dddmpStoreBdd.o
+mv -f dddmp/.deps/libdddmp_la-dddmpStoreAdd.Tpo dddmp/.deps/libdddmp_la-dddmpStoreAdd.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpStoreCnf.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpStoreCnf.Tpo -c -o dddmp/libdddmp_la-dddmpStoreCnf.lo `test -f 'dddmp/dddmpStoreCnf.c' || echo './'`dddmp/dddmpStoreCnf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpStoreCnf.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpStoreCnf.Tpo -c dddmp/dddmpStoreCnf.c -o dddmp/libdddmp_la-dddmpStoreCnf.o
+mv -f dddmp/.deps/libdddmp_la-dddmpStoreBdd.Tpo dddmp/.deps/libdddmp_la-dddmpStoreBdd.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpStoreMisc.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpStoreMisc.Tpo -c -o dddmp/libdddmp_la-dddmpStoreMisc.lo `test -f 'dddmp/dddmpStoreMisc.c' || echo './'`dddmp/dddmpStoreMisc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpStoreMisc.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpStoreMisc.Tpo -c dddmp/dddmpStoreMisc.c -o dddmp/libdddmp_la-dddmpStoreMisc.o
+In file included from dddmp/dddmpInt.h:39,
+                 from dddmp/dddmpStoreCnf.c:29:
+dddmp/dddmpStoreCnf.c: In function 'DddmpCuddBddArrayStoreCnf':
+dddmp/dddmp.h:242:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  242 |     fflush (stderr); \
+      |     ^~~~~~~~~~~~~~~
+dddmp/dddmpStoreCnf.c:599:7: note: in expansion of macro 'Dddmp_Warning'
+  599 |       Dddmp_Warning (1, "Wrong DDDMP Store Mode. Force DDDMP_MODE_BEST.");
+      |       ^~~~~~~~~~~~~
+dddmp/dddmpStoreCnf.c:600:5: note: here
+  600 |     case DDDMP_CNF_MODE_BEST:
+      |     ^~~~
+dddmp/dddmp.h:242:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  242 |     fflush (stderr); \
+      |     ^~~~~~~~~~~~~~~
+dddmp/dddmpStoreCnf.c:645:7: note: in expansion of macro 'Dddmp_Warning'
+  645 |       Dddmp_Warning (1, "Wrong DDDMP Store Mode. Force DDDMP_MODE_BEST.");
+      |       ^~~~~~~~~~~~~
+dddmp/dddmpStoreCnf.c:646:5: note: here
+  646 |     case DDDMP_CNF_MODE_BEST:
+      |     ^~~~
+mv -f dddmp/.deps/libdddmp_la-dddmpStoreMisc.Tpo dddmp/.deps/libdddmp_la-dddmpStoreMisc.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./util -I./mtr -I./epd -I./cudd -I./st   -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpUtil.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpUtil.Tpo -c -o dddmp/libdddmp_la-dddmpUtil.lo `test -f 'dddmp/dddmpUtil.c' || echo './'`dddmp/dddmpUtil.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./util -I./mtr -I./epd -I./cudd -I./st -Wall -Wextra -g -O3 -MT dddmp/libdddmp_la-dddmpUtil.lo -MD -MP -MF dddmp/.deps/libdddmp_la-dddmpUtil.Tpo -c dddmp/dddmpUtil.c -o dddmp/libdddmp_la-dddmpUtil.o
+mv -f dddmp/.deps/libdddmp_la-dddmpStoreCnf.Tpo dddmp/.deps/libdddmp_la-dddmpStoreCnf.Plo
+/bin/bash ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I./cudd -I./mtr -I./epd -I./st   -Wall -Wextra -std=c++0x -g -O3 -MT cplusplus/libobj_la-cuddObj.lo -MD -MP -MF cplusplus/.deps/libobj_la-cuddObj.Tpo -c -o cplusplus/libobj_la-cuddObj.lo `test -f 'cplusplus/cuddObj.cc' || echo './'`cplusplus/cuddObj.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I./cudd -I./mtr -I./epd -I./st -Wall -Wextra -std=c++0x -g -O3 -MT cplusplus/libobj_la-cuddObj.lo -MD -MP -MF cplusplus/.deps/libobj_la-cuddObj.Tpo -c cplusplus/cuddObj.cc -o cplusplus/libobj_la-cuddObj.o
+mv -f dddmp/.deps/libdddmp_la-dddmpUtil.Tpo dddmp/.deps/libdddmp_la-dddmpUtil.Plo
+/bin/bash ./libtool  --tag=CXX   --mode=link g++  -Wall -Wextra -std=c++0x -g -O3 -release 3.0.0 -version-info 0:0:0 -no-undefined  -o cudd/libcudd.la -rpath /root/.cache/routeb-opensta-20261110/cudd-install/lib cudd/libcudd_la-cuddAddAbs.lo cudd/libcudd_la-cuddAddApply.lo cudd/libcudd_la-cuddAddFind.lo cudd/libcudd_la-cuddAddInv.lo cudd/libcudd_la-cuddAddIte.lo cudd/libcudd_la-cuddAddNeg.lo cudd/libcudd_la-cuddAddWalsh.lo cudd/libcudd_la-cuddAndAbs.lo cudd/libcudd_la-cuddAnneal.lo cudd/libcudd_la-cuddApa.lo cudd/libcudd_la-cuddAPI.lo cudd/libcudd_la-cuddApprox.lo cudd/libcudd_la-cuddBddAbs.lo cudd/libcudd_la-cuddBddCorr.lo cudd/libcudd_la-cuddBddIte.lo cudd/libcudd_la-cuddBridge.lo cudd/libcudd_la-cuddCache.lo cudd/libcudd_la-cuddCheck.lo cudd/libcudd_la-cuddClip.lo cudd/libcudd_la-cuddCof.lo cudd/libcudd_la-cuddCompose.lo cudd/libcudd_la-cuddDecomp.lo cudd/libcudd_la-cuddEssent.lo cudd/libcudd_la-cuddExact.lo cudd/libcudd_la-cuddExport.lo cudd/libcudd_la-cuddGenCof.lo cudd/libcudd_la-cuddGenetic.lo cudd/libcudd_la-cuddGroup.lo cudd/libcudd_la-cuddHarwell.lo cudd/libcudd_la-cuddInit.lo cudd/libcudd_la-cuddInteract.lo cudd/libcudd_la-cuddLCache.lo cudd/libcudd_la-cuddLevelQ.lo cudd/libcudd_la-cuddLinear.lo cudd/libcudd_la-cuddLiteral.lo cudd/libcudd_la-cuddMatMult.lo cudd/libcudd_la-cuddPriority.lo cudd/libcudd_la-cuddRead.lo cudd/libcudd_la-cuddRef.lo cudd/libcudd_la-cuddReorder.lo cudd/libcudd_la-cuddSat.lo cudd/libcudd_la-cuddSign.lo cudd/libcudd_la-cuddSolve.lo cudd/libcudd_la-cuddSplit.lo cudd/libcudd_la-cuddSubsetHB.lo cudd/libcudd_la-cuddSubsetSP.lo cudd/libcudd_la-cuddSymmetry.lo cudd/libcudd_la-cuddTable.lo cudd/libcudd_la-cuddUtil.lo cudd/libcudd_la-cuddWindow.lo cudd/libcudd_la-cuddZddCount.lo cudd/libcudd_la-cuddZddFuncs.lo cudd/libcudd_la-cuddZddGroup.lo cudd/libcudd_la-cuddZddIsop.lo cudd/libcudd_la-cuddZddLin.lo cudd/libcudd_la-cuddZddMisc.lo cudd/libcudd_la-cuddZddPort.lo cudd/libcudd_la-cuddZddReord.lo cudd/libcudd_la-cuddZddSetop.lo cudd/libcudd_la-cuddZddSymm.lo cudd/libcudd_la-cuddZddUtil.lo util/cudd_libcudd_la-cpu_stats.lo util/cudd_libcudd_la-cpu_time.lo util/cudd_libcudd_la-cstringstream.lo util/cudd_libcudd_la-datalimit.lo util/cudd_libcudd_la-pathsearch.lo util/cudd_libcudd_la-pipefork.lo util/cudd_libcudd_la-prtime.lo util/cudd_libcudd_la-safe_mem.lo util/cudd_libcudd_la-strsav.lo util/cudd_libcudd_la-texpand.lo util/cudd_libcudd_la-ucbqsort.lo st/cudd_libcudd_la-st.lo epd/cudd_libcudd_la-epd.lo mtr/cudd_libcudd_la-mtrBasic.lo mtr/cudd_libcudd_la-mtrGroup.lo    -lm 
+libtool: link: ar cr cudd/.libs/libcudd.a  cudd/libcudd_la-cuddAddAbs.o cudd/libcudd_la-cuddAddApply.o cudd/libcudd_la-cuddAddFind.o cudd/libcudd_la-cuddAddInv.o cudd/libcudd_la-cuddAddIte.o cudd/libcudd_la-cuddAddNeg.o cudd/libcudd_la-cuddAddWalsh.o cudd/libcudd_la-cuddAndAbs.o cudd/libcudd_la-cuddAnneal.o cudd/libcudd_la-cuddApa.o cudd/libcudd_la-cuddAPI.o cudd/libcudd_la-cuddApprox.o cudd/libcudd_la-cuddBddAbs.o cudd/libcudd_la-cuddBddCorr.o cudd/libcudd_la-cuddBddIte.o cudd/libcudd_la-cuddBridge.o cudd/libcudd_la-cuddCache.o cudd/libcudd_la-cuddCheck.o cudd/libcudd_la-cuddClip.o cudd/libcudd_la-cuddCof.o cudd/libcudd_la-cuddCompose.o cudd/libcudd_la-cuddDecomp.o cudd/libcudd_la-cuddEssent.o cudd/libcudd_la-cuddExact.o cudd/libcudd_la-cuddExport.o cudd/libcudd_la-cuddGenCof.o cudd/libcudd_la-cuddGenetic.o cudd/libcudd_la-cuddGroup.o cudd/libcudd_la-cuddHarwell.o cudd/libcudd_la-cuddInit.o cudd/libcudd_la-cuddInteract.o cudd/libcudd_la-cuddLCache.o cudd/libcudd_la-cuddLevelQ.o cudd/libcudd_la-cuddLinear.o cudd/libcudd_la-cuddLiteral.o cudd/libcudd_la-cuddMatMult.o cudd/libcudd_la-cuddPriority.o cudd/libcudd_la-cuddRead.o cudd/libcudd_la-cuddRef.o cudd/libcudd_la-cuddReorder.o cudd/libcudd_la-cuddSat.o cudd/libcudd_la-cuddSign.o cudd/libcudd_la-cuddSolve.o cudd/libcudd_la-cuddSplit.o cudd/libcudd_la-cuddSubsetHB.o cudd/libcudd_la-cuddSubsetSP.o cudd/libcudd_la-cuddSymmetry.o cudd/libcudd_la-cuddTable.o cudd/libcudd_la-cuddUtil.o cudd/libcudd_la-cuddWindow.o cudd/libcudd_la-cuddZddCount.o cudd/libcudd_la-cuddZddFuncs.o cudd/libcudd_la-cuddZddGroup.o cudd/libcudd_la-cuddZddIsop.o cudd/libcudd_la-cuddZddLin.o cudd/libcudd_la-cuddZddMisc.o cudd/libcudd_la-cuddZddPort.o cudd/libcudd_la-cuddZddReord.o cudd/libcudd_la-cuddZddSetop.o cudd/libcudd_la-cuddZddSymm.o cudd/libcudd_la-cuddZddUtil.o util/cudd_libcudd_la-cpu_stats.o util/cudd_libcudd_la-cpu_time.o util/cudd_libcudd_la-cstringstream.o util/cudd_libcudd_la-datalimit.o util/cudd_libcudd_la-pathsearch.o util/cudd_libcudd_la-pipefork.o util/cudd_libcudd_la-prtime.o util/cudd_libcudd_la-safe_mem.o util/cudd_libcudd_la-strsav.o util/cudd_libcudd_la-texpand.o util/cudd_libcudd_la-ucbqsort.o st/cudd_libcudd_la-st.o epd/cudd_libcudd_la-epd.o mtr/cudd_libcudd_la-mtrBasic.o mtr/cudd_libcudd_la-mtrGroup.o
+libtool: link: ranlib cudd/.libs/libcudd.a
+libtool: link: ( cd "cudd/.libs" && rm -f "libcudd.la" && ln -s "../libcudd.la" "libcudd.la" )
+/bin/bash ./libtool  --tag=CC   --mode=link gcc  -Wall -Wextra -g -O3   -o dddmp/libdddmp.la  dddmp/libdddmp_la-dddmpBinary.lo dddmp/libdddmp_la-dddmpConvert.lo dddmp/libdddmp_la-dddmpDbg.lo dddmp/libdddmp_la-dddmpLoad.lo dddmp/libdddmp_la-dddmpLoadCnf.lo dddmp/libdddmp_la-dddmpNodeAdd.lo dddmp/libdddmp_la-dddmpNodeBdd.lo dddmp/libdddmp_la-dddmpNodeCnf.lo dddmp/libdddmp_la-dddmpStoreAdd.lo dddmp/libdddmp_la-dddmpStoreBdd.lo dddmp/libdddmp_la-dddmpStoreCnf.lo dddmp/libdddmp_la-dddmpStoreMisc.lo dddmp/libdddmp_la-dddmpUtil.lo  -lm 
+libtool: link: ar cr dddmp/.libs/libdddmp.a  dddmp/libdddmp_la-dddmpBinary.o dddmp/libdddmp_la-dddmpConvert.o dddmp/libdddmp_la-dddmpDbg.o dddmp/libdddmp_la-dddmpLoad.o dddmp/libdddmp_la-dddmpLoadCnf.o dddmp/libdddmp_la-dddmpNodeAdd.o dddmp/libdddmp_la-dddmpNodeBdd.o dddmp/libdddmp_la-dddmpNodeCnf.o dddmp/libdddmp_la-dddmpStoreAdd.o dddmp/libdddmp_la-dddmpStoreBdd.o dddmp/libdddmp_la-dddmpStoreCnf.o dddmp/libdddmp_la-dddmpStoreMisc.o dddmp/libdddmp_la-dddmpUtil.o
+libtool: link: ranlib dddmp/.libs/libdddmp.a
+libtool: link: ( cd "dddmp/.libs" && rm -f "libdddmp.la" && ln -s "../libdddmp.la" "libdddmp.la" )
+mv -f cplusplus/.deps/libobj_la-cuddObj.Tpo cplusplus/.deps/libobj_la-cuddObj.Plo
+/bin/bash ./libtool  --tag=CXX   --mode=link g++  -Wall -Wextra -std=c++0x -g -O3   -o cplusplus/libobj.la  cplusplus/libobj_la-cuddObj.lo  -lm 
+libtool: link: ar cr cplusplus/.libs/libobj.a  cplusplus/libobj_la-cuddObj.o
+libtool: link: ranlib cplusplus/.libs/libobj.a
+libtool: link: ( cd "cplusplus/.libs" && rm -f "libobj.la" && ln -s "../libobj.la" "libobj.la" )
+make[1]: Leaving directory '/root/.cache/routeb-opensta-20261110/cudd'

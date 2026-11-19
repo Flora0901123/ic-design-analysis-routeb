@@ -1,0 +1,36 @@
+{
+  "status": "MIGRATION_VERIFIED_COMPLETE",
+  "destinations": [
+    "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付",
+    "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析"
+  ],
+  "physical_files_moved": 53277,
+  "physical_file_bytes": 16551850535,
+  "reparse_points_verified": 198,
+  "old_C_paths": "NTFS directory junctions to D, no duplicate project data",
+  "verification": "all file sizes and modification times matched pre-move inventory; link types/tags checked; 80 protocol evidence SHA checks passed; WSL old/new access and lib64 resolution passed",
+  "migration_records": "D:\\RouteB迁移记录-20261108",
+  "interrupted_experiments": [
+    {
+      "task": "GPU同硬件全1000-20261108",
+      "records_preserved": 150,
+      "status": "INTERRUPTED_FOR_STORAGE_MIGRATION"
+    },
+    {
+      "task": "GPU整机协议-20261108",
+      "records_preserved": 53,
+      "status": "INTERRUPTED_FOR_STORAGE_MIGRATION"
+    },
+    {
+      "task": "Nano冻结问题CPU目标-20261108",
+      "records_preserved": 7,
+      "status": "INTERRUPTED_FOR_STORAGE_MIGRATION"
+    },
+    {
+      "task": "Nano冻结问题GPU目标-20261108",
+      "records_preserved": 12,
+      "status": "FROZEN_GPU_SIMX_12_PASS"
+    }
+  ],
+  "teacher_materials_content_modified": false
+}

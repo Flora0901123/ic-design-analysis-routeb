@@ -1,0 +1,15 @@
+{
+  "DPI": 0,
+  "import": 0,
+  "real": 0,
+  "shortreal": 0,
+  "blackbox": 0,
+  "system_calls": [
+    "$clog2",
+    "$countones",
+    "$signed",
+    "$unsigned"
+  ],
+  "scope": "Comment-stripped current project; no synthesis performed.",
+  "existing_elaboration": "arithmetic-elaboration-existing-evidence.json"
+}

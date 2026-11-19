@@ -1,0 +1,128 @@
+[
+  {
+    "path": "chipstar/ubuntu/focal/chipstar.tar.bz2",
+    "git_blob": "de2f38fddfd23ed19cfcd75292d26de3a77d6140",
+    "sha256": "77f35070a3982ef1ce584d8283ffd3cb38c155572a02863f7e636759e8e6d05d",
+    "bytes": 13212921
+  },
+  {
+    "path": "libc32/libc32.tar.bz2",
+    "git_blob": "68b57f6e6546a7643bd3e5b7675275f538540384",
+    "sha256": "b7c8dfb18443db801f87520664a90e658552934de073c6bf2d69866f62d0e079",
+    "bytes": 841452
+  },
+  {
+    "path": "libcrt32/libcrt32.tar.bz2",
+    "git_blob": "4104790753a33fe573baa8bd7b5eb5db96f604bb",
+    "sha256": "305c7f3703c3ea8137fac465486d726b66b8a178ffb0a6793d12946da8ee5855",
+    "bytes": 74000
+  },
+  {
+    "path": "llvm-vortex/ubuntu/focal/llvm-vortex.tar.bz2.partaa",
+    "git_blob": "086d1e340410548854961affe834d35186a183a9",
+    "sha256": "c9d201da7eca768a225fcad2b526b2b029b02028bb6a4410e5170593f5df83a9",
+    "bytes": 52428800
+  },
+  {
+    "path": "llvm-vortex/ubuntu/focal/llvm-vortex.tar.bz2.partab",
+    "git_blob": "0f6639eba13068072789b6a1bb9ca957403e7bf7",
+    "sha256": "5ae01975888ea531591aaad351e0867868c8df72aebee6a137db0cc9459aec15",
+    "bytes": 52428800
+  },
+  {
+    "path": "llvm-vortex/ubuntu/focal/llvm-vortex.tar.bz2.partac",
+    "git_blob": "38723c86a4e9e18f22243b05f4cb58edc0d42c22",
+    "sha256": "cc93d8ece31f6deeed07b1c63b2d5aba60f1239f1b063ad19c938b8268c7efbd",
+    "bytes": 3788398
+  },
+  {
+    "path": "pocl/ubuntu/focal/pocl.tar.bz2",
+    "git_blob": "21a0b1aef90b4d3d5f1bda1fd26284c13ffb0e02",
+    "sha256": "07182b08f49f678de40f30d9969e8a8bfda6ad9ba9a639a9f8c4a9ac4dc19061",
+    "bytes": 4259368
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partaa",
+    "git_blob": "c3f956c83a36ed38e25644ea16b5155cdac58fea",
+    "sha256": "8cd479b9bc50883ff7ef945731bded98ea58ca3193db3a750ad5625e9063d793",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partab",
+    "git_blob": "ef0f25a0990d5d8eec862b055ed2275b9cd44086",
+    "sha256": "102c8c9bc17e4fc7a1fb5565b62a4e858bfe41568e7ae1722bf4aa6658f82212",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partac",
+    "git_blob": "2e8182421ee3f51de4290437ff24510dc0b50bc0",
+    "sha256": "fac3e502bfef6330745e9b7b04dea62cc59248011e8b2d7f64b06f01638ff919",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partad",
+    "git_blob": "a444d5fc5d2373bd4f340dbd839cb957a3ecf4e2",
+    "sha256": "271c3507f2f4b5b09068226d8f9fd50f79044f319882704ab664c01b376cbbfe",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partae",
+    "git_blob": "5af70ccc097f189a9f92be04dfc9ed24e9a3b97e",
+    "sha256": "d28c56680796b4a97d03db903220410e6bcc679d411a7a5ba2a2cf1f498314a3",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partaf",
+    "git_blob": "bc836074c44cc268444a010cdac2cf86cfea7d93",
+    "sha256": "9de8c769321d01b4ebe46ad9d4793ecd91b58c4fcdb7d524a3e3c255fddbcf1b",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partag",
+    "git_blob": "c434294370c23a7560fe674b1f28fc0cfaeb2337",
+    "sha256": "f47e1855434285899e47aa1cc486c106a857dd556c047301abdd703ebb76e66f",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partah",
+    "git_blob": "dc735040bd60612fa3934ff2f6fc1ad6775feb53",
+    "sha256": "8992ab576215d89ec1393c90d9e541de79a6c8d4f32cda512792ff8072feb750",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partai",
+    "git_blob": "a9d9a3a966b07c48337987f012b7a331bd44f704",
+    "sha256": "6b6d6ab42e2c6ce7e6460274f850b808bafd6557540308bae7fa3f50bf24c37e",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partaj",
+    "git_blob": "030742f41635b5647970d9459111ea9d90d2cb4d",
+    "sha256": "bc853a8ed89aa998cdb0d6fff85dce9595c7cf18c0f8263e17d72fc0ddf17821",
+    "bytes": 52428800
+  },
+  {
+    "path": "riscv32-gnu-toolchain/ubuntu/focal/riscv32-gnu-toolchain.tar.bz2.partak",
+    "git_blob": "9751d809aab7b91a9d093fadfec139de24ce44bf",
+    "sha256": "9427b7b7c134509eddfa444c5fb372098b60da67e8098ec3d9172f0ee2a5e7a0",
+    "bytes": 11010801
+  },
+  {
+    "path": "verilator/ubuntu/focal/verilator.tar.bz2.partaa",
+    "git_blob": "200a4537bdf4e0966573db04450516e172adcf9e",
+    "sha256": "86c4c27d0bd3a3c9a15cbaedb8fe9300a7d1bdb2832ea0a09e05119013145107",
+    "bytes": 52428800
+  },
+  {
+    "path": "verilator/ubuntu/focal/verilator.tar.bz2.partab",
+    "git_blob": "adc21c845102aee3a57c91ba6840730467349776",
+    "sha256": "18a5b91e268cdbe1b9bf4952d99ce44413d862d639ad6cce6d1687d7b5dfee76",
+    "bytes": 52428800
+  },
+  {
+    "path": "verilator/ubuntu/focal/verilator.tar.bz2.partac",
+    "git_blob": "b0e3c51d9e3c820ae661aada62e55fe9fc30a44d",
+    "sha256": "afc602c835532b7d350cbd6ce9fa2005b4fcd28e95de8dde252ad1375c751fae",
+    "bytes": 9023495
+  }
+]

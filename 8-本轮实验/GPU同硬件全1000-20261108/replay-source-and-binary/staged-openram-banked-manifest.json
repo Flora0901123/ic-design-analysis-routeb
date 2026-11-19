@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "status": "FUNCTIONAL_MODELS_GENERATED_PENDING_VALIDATION",
+  "physical_qualification": false,
+  "teacher_model_identity": false,
+  "model_semantics": "single-clock-compatible 1R1W synchronous read, per-slice write enable, explicit write-through collision",
+  "macros": [
+    {
+      "macro_name": "vortex_dp_80x64_w4",
+      "data_width": 80,
+      "depth": 64,
+      "write_enable_width": 4,
+      "artifacts": {
+        "vortex_dp_80x64_w4.v": {
+          "path": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/\u6574\u673aDMA\u91cd\u5efa/models/vortex_dp_80x64_w4.v",
+          "sha256": "5b229233daab7817b78c4c8d83eed4b68282de8792303a4612efa5b5d35076f2"
+        }
+      }
+    },
+    {
+      "macro_name": "vortex_sp_32x256_w1",
+      "data_width": 32,
+      "depth": 256,
+      "write_enable_width": 1,
+      "artifacts": {
+        "vortex_sp_32x256_w1.v": {
+          "path": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/\u6574\u673aDMA\u91cd\u5efa/models/vortex_sp_32x256_w1.v",
+          "sha256": "018178236a0d17eaebfcca0cf9cf371a0fae003fb655b323b122f478060aaf97"
+        }
+      }
+    },
+    {
+      "macro_name": "vortex_sp_32x1024_w4",
+      "data_width": 32,
+      "depth": 1024,
+      "write_enable_width": 4,
+      "artifacts": {
+        "vortex_sp_32x1024_w4.v": {
+          "path": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/\u6574\u673aDMA\u91cd\u5efa/models/vortex_sp_32x1024_w4.v",
+          "sha256": "9e770b8215f111b047fe0eb2ee10e8ede8245c375daadf311f2b868b6e06d8af"
+        }
+      }
+    },
+    {
+      "macro_name": "vortex_sp_64x128_w8",
+      "data_width": 64,
+      "depth": 128,
+      "write_enable_width": 8,
+      "artifacts": {
+        "vortex_sp_64x128_w8.v": {
+          "path": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/\u6574\u673aDMA\u91cd\u5efa/models/vortex_sp_64x128_w8.v",
+          "sha256": "4347947a95a474b55819fe4d0c35804a6a20df7c65da5e81f44287fbac2ce717"
+        }
+      }
+    }
+  ]
+}

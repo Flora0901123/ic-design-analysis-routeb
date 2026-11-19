@@ -1,0 +1,52 @@
+{
+  "status": "PORTABLE_CPU_REPLAY_PASS",
+  "scope": "same-host copied-binary replay in newly created directories",
+  "different_computer": false,
+  "full_clean_toolchain_install": false,
+  "expected_questions": 1,
+  "records": [
+    {
+      "index": 0,
+      "question": "你好呀",
+      "target_steps": 4,
+      "token_hidden_logits_and_target_counts_identical": true,
+      "raw_log_sha256": "59cce78d7df60eda95f27f46fd82e37510b0da61f6bef6ab07703df9d0462bc2",
+      "seconds": 15.682623319999948,
+      "libraries_loaded": [
+        "1993:\tcalling init: /lib64/ld-linux-x86-64.so.2",
+        "1993:\tcalling init: /lib/x86_64-linux-gnu/libc.so.6",
+        "1993:\tcalling init: /lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "1993:\tcalling init: /lib/x86_64-linux-gnu/libm.so.6",
+        "1993:\tcalling init: /lib/x86_64-linux-gnu/libatomic.so.1",
+        "1993:\tcalling init: /lib/x86_64-linux-gnu/libevent-2.1.so.7",
+        "1993:\tcalling init: /lib/x86_64-linux-gnu/libstdc++.so.6",
+        "1993:\tcalling init: /lib/x86_64-linux-gnu/libz.so.1",
+        "1993:\tcalling init: /lib/x86_64-linux-gnu/libjson-c.so.5",
+        "1993:\tcalling init: ./modules/clocker.so",
+        "1993:\tcalling init: ./modules/ethernet.so",
+        "1993:\tcalling init: ./modules/gmii_ethernet.so",
+        "1993:\tcalling init: ./modules/jtagremote.so",
+        "1993:\tcalling init: ./modules/serial2console.so",
+        "1993:\tcalling init: ./modules/serial2tcp.so",
+        "1993:\tcalling init: ./modules/spdeeprom.so",
+        "1993:\tcalling init: ./modules/xgmii_ethernet.so"
+      ]
+    }
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794633610.3595366,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2929067339\nuser_usec 2905432219\nsystem_usec 23635119\nnice_usec 0\nnr_periods 18128\nnr_throttled 7\nthrottled_usec 3552\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "8888320",
+      "memory.peak": "1962287104",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "1992"
+    }
+  },
+  "compared_steps": 4
+}

@@ -1,0 +1,70 @@
+{
+  "status": "ADAPTER_MUTATION_REGRESSION_PASS",
+  "scope": "dynamic adapter RTL regression and test sensitivity, not formal proof or whole-GPU qualification",
+  "records": [
+    {
+      "name": "baseline",
+      "accepted": true,
+      "exit_code": 0,
+      "outcome": "baseline passes",
+      "transcript_sha256": "7c65c4f736f5afb45fc94700d90f5f0085b54f4497498757bc367f7a19906600"
+    },
+    {
+      "name": "request-address",
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "ed949ed9fc64f8dbee9eaefce3485e3c8a859d2481c97dad60157ca6349339ee"
+    },
+    {
+      "name": "request-data",
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "ed949ed9fc64f8dbee9eaefce3485e3c8a859d2481c97dad60157ca6349339ee"
+    },
+    {
+      "name": "request-mask",
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "ed949ed9fc64f8dbee9eaefce3485e3c8a859d2481c97dad60157ca6349339ee"
+    },
+    {
+      "name": "response-tag",
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "100cadf929a99ed1bc0b75d256381383ab7d4de3cd54ef394b12dfbfdb61df31"
+    },
+    {
+      "name": "busy-start",
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "a510ce2fd87cccccf55ecd7651398166b9b6ad3fc86a62918d4ca932dcf73aed"
+    },
+    {
+      "name": "unstable-response",
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "9c11224a373801b5f2e89510694f90b1bd95f03cbde2d2092bd05e5d97a25184"
+    },
+    {
+      "name": "missing-fault",
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "ed2018e70c297712596afc2682f8f9351c40d78b084f2e641ee16bee92964674"
+    },
+    {
+      "name": "reset-not-flushed",
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "dba475bbcb9fc3696667852ccc7dab4dab680709c0f63a0a2ebc9514a9e7970e"
+    }
+  ],
+  "mutations_caught": 8
+}

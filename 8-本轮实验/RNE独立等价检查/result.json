@@ -1,0 +1,7 @@
+{
+  "scope": "host C component equivalence only; no target execution/performance/formal claim",
+  "samples": 462233,
+  "failures": [],
+  "source_sha256": "87a2afaa070dc46c825dcd4e1a84c3a548e620f3c2758fb29e96550f32edd708",
+  "seed": 20261029
+}

@@ -1,0 +1,147 @@
+[xgmii_ethernet] loaded (0x5c72bbc6a2f0)
+[spdeeprom] loaded (addr = 0x0)
+[gmii_ethernet] loaded (0x5c72bbc6a2f0)
+[jtagremote] loaded (0x5c72bbc6a2f0)
+[ethernet] loaded (0x5c72bbc6a2f0)
+[serial2tcp] loaded (0x5c72bbc6a2f0)
+[serial2console] loaded (0x5c72bbc6a2f0)
+[clocker] loaded
+[clocker] sys_clk: freq_hz=1000000, phase_deg=0
+
+
+[1m        __   _ __      _  __[0m
+
+[1m       / /  (_) /____ | |/_/[0m
+
+[1m      / /__/ / __/ -_)>  <[0m
+
+[1m     /____/_/\__/\__/_/|_|[0m
+
+[1m   Build your hardware, easily![0m
+
+
+ (c) Copyright 2012-2024 Enjoy-Digital
+
+ (c) Copyright 2007-2015 M-Labs
+
+
+ BIOS CRC passed (279562df)
+
+
+ LiteX git sha1: --------
+
+
+--=============== [1mSoC[0m ==================--
+
+[1mCPU[0m:		VexRiscv_Full @ 1MHz
+
+[1mBUS[0m:		wishbone 32-bit @ 4GiB
+
+[1mCSR[0m:		32-bit data
+
+[1mROM[0m:		128.0KiB
+
+[1mSRAM[0m:		8.0KiB
+
+[1mL2[0m:		8.0KiB
+
+[1mSDRAM[0m:		256.0MiB 128-bit @ 1MT/s (CL-2 CWL-2)
+
+[1mMAIN-RAM[0m:	256.0MiB
+
+
+--========== [1mInitialization[0m ============--
+
+
+Initializing SDRAM @0x40000000...
+
+Switching SDRAM to software control.
+
+Switching SDRAM to hardware control.
+
+
+STUDENT_CPU_DMA_PROBE status=0 bytes=0:64
+
+STUDENT_CPU_BEGIN count=40 record_bytes=1936
+
+STUDENT_CPU ordinal=0 status=0 cycles=0:12936 instructions=0:6000 ibus_bytes=0:6240 dbus_bytes=0:2659 dma_bytes=0:0 primitive=0 bits=bc80,bd00,3d80,3d40,3d80,bda0,3dc0,0000 selected=0
+
+STUDENT_CPU ordinal=1 status=0 cycles=0:12333 instructions=0:6131 ibus_bytes=0:5216 dbus_bytes=0:2511 dma_bytes=0:0 primitive=0 bits=bde0,3c80,bd00,bdc0,bda0,bc80,3d40,3d40 selected=0
+
+STUDENT_CPU ordinal=2 status=0 cycles=0:12274 instructions=0:6101 ibus_bytes=0:5184 dbus_bytes=0:2479 dma_bytes=0:0 primitive=0 bits=3d40,3da0,bde0,3c80,3d00,3d40,bc80,3dc0 selected=0
+
+STUDENT_CPU ordinal=3 status=0 cycles=0:12489 instructions=0:6305 ibus_bytes=0:5344 dbus_bytes=0:2511 dma_bytes=0:0 primitive=0 bits=bd40,bde0,3d40,bde0,bdc0,3de0,bd80,bde0 selected=0
+
+STUDENT_CPU ordinal=4 status=0 cycles=0:12300 instructions=0:6013 ibus_bytes=0:5312 dbus_bytes=0:2595 dma_bytes=0:0 primitive=0 bits=3de0,bd80,bd40,0000,3c80,bda0,be00,bd80 selected=0
+
+STUDENT_CPU ordinal=5 status=0 cycles=0:12120 instructions=0:5831 ibus_bytes=0:5216 dbus_bytes=0:2499 dma_bytes=0:0 primitive=0 bits=3c80,0000,be00,3de0,be00,bc80,3d80,bc80 selected=0
+
+STUDENT_CPU ordinal=6 status=0 cycles=0:12351 instructions=0:6025 ibus_bytes=0:5152 dbus_bytes=0:2703 dma_bytes=0:0 primitive=0 bits=bda0,3d80,3d00,bc80,bc80,3d40,3c80,3d00 selected=0
+
+STUDENT_CPU ordinal=7 status=0 cycles=0:12482 instructions=0:6272 ibus_bytes=0:5312 dbus_bytes=0:2511 dma_bytes=0:0 primitive=0 bits=3da0,3de0,bd40,3dc0,3dc0,3dc0,bd40,3da0 selected=0
+
+STUDENT_CPU ordinal=8 status=0 cycles=0:12806 instructions=0:6230 ibus_bytes=0:5280 dbus_bytes=0:3119 dma_bytes=0:0 primitive=0 bits=bc80,bda0,3de0,bd40,bd00,bdc0,bdc0,be00 selected=0
+
+STUDENT_CPU ordinal=9 status=0 cycles=0:12433 instructions=0:6206 ibus_bytes=0:5248 dbus_bytes=0:2575 dma_bytes=0:0 primitive=0 bits=bde0,bc80,3d00,3d80,3da0,bd00,3dc0,bda0 selected=0
+
+STUDENT_CPU ordinal=10 status=0 cycles=0:26897 instructions=0:15763 ibus_bytes=0:8960 dbus_bytes=0:4566 dma_bytes=0:0 primitive=0 bits=bd28,3d63,bdd4,bd57,bd63,bcb9,3c67,3dcf selected=2,1
+
+STUDENT_CPU ordinal=11 status=0 cycles=0:28350 instructions=0:17273 ibus_bytes=0:9376 dbus_bytes=0:3926 dma_bytes=0:0 primitive=0 bits=bdc1,3c80,bd1f,bdd0,bdcf,bd3d,3d9e,3d9e selected=0,3
+
+STUDENT_CPU ordinal=12 status=0 cycles=0:26286 instructions=0:15614 ibus_bytes=0:8800 dbus_bytes=0:3894 dma_bytes=0:0 primitive=0 bits=3d84,bc29,bc46,bd62,3d48,bd2a,bcc8,3d9c selected=0,2
+
+STUDENT_CPU ordinal=13 status=0 cycles=0:28187 instructions=0:17253 ibus_bytes=0:9408 dbus_bytes=0:3958 dma_bytes=0:0 primitive=0 bits=bcdc,bdb7,3ae6,bdad,bd8d,3d5e,bd6b,bd84 selected=0,2
+
+STUDENT_CPU ordinal=14 status=0 cycles=0:24537 instructions=0:14193 ibus_bytes=0:8448 dbus_bytes=0:3890 dma_bytes=0:0 primitive=0 bits=bc82,3c19,3c99,bcfb,bdd9,0000,bd0d,3d33 selected=1,2
+
+STUDENT_CPU ordinal=15 status=0 cycles=0:28104 instructions=0:17163 ibus_bytes=0:9472 dbus_bytes=0:3966 dma_bytes=0:0 primitive=0 bits=bd1a,bd2f,bc96,bd24,bda9,bd6f,3d54,bd43 selected=3,0
+
+STUDENT_CPU ordinal=16 status=0 cycles=0:29486 instructions=0:18086 ibus_bytes=0:9984 dbus_bytes=0:3934 dma_bytes=0:0 primitive=0 bits=bd06,3d53,3d68,3d19,3dc8,bd93,bd85,3d0f selected=1,2
+
+STUDENT_CPU ordinal=17 status=0 cycles=0:26296 instructions=0:15543 ibus_bytes=0:8832 dbus_bytes=0:3934 dma_bytes=0:0 primitive=0 bits=3cff,3de0,bc59,3da4,3d08,3ca2,bd89,3c90 selected=2,0
+
+STUDENT_CPU ordinal=18 status=0 cycles=0:24927 instructions=0:14736 ibus_bytes=0:8320 dbus_bytes=0:3894 dma_bytes=0:0 primitive=0 bits=3ab0,bd8f,3dcf,bd40,3b30,bc8f,bc12,be00 selected=0,3
+
+STUDENT_CPU ordinal=19 status=0 cycles=0:24757 instructions=0:14532 ibus_bytes=0:8288 dbus_bytes=0:3934 dma_bytes=0:0 primitive=0 bits=bd82,3d9b,3db5,bd81,3c1d,bd86,3c62,bc1d selected=3,0
+
+STUDENT_CPU ordinal=20 status=0 cycles=0:28366 instructions=0:17156 ibus_bytes=0:9472 dbus_bytes=0:4006 dma_bytes=0:0 primitive=0 bits=bc80,3dcf,bdc6,bd3a,bd7a,3cf4,bd17,3d3b selected=2,3
+
+STUDENT_CPU ordinal=21 status=0 cycles=0:27883 instructions=0:16661 ibus_bytes=0:9248 dbus_bytes=0:3990 dma_bytes=0:0 primitive=0 bits=3daf,bcd6,3da4,bd55,bdbc,3da7,bd4f,bd16 selected=0,1
+
+STUDENT_CPU ordinal=22 status=0 cycles=0:28290 instructions=0:17066 ibus_bytes=0:9408 dbus_bytes=0:3966 dma_bytes=0:0 primitive=0 bits=3d68,bcbb,bcb0,3cf5,bde0,3dac,3c37,3d8f selected=4,1
+
+STUDENT_CPU ordinal=23 status=0 cycles=0:30088 instructions=0:18537 ibus_bytes=0:9984 dbus_bytes=0:4246 dma_bytes=0:0 primitive=0 bits=bd23,bdcf,3d0f,bdc0,bdc2,3dd4,bd87,bdd9 selected=0,1
+
+STUDENT_CPU ordinal=24 status=0 cycles=0:21310 instructions=0:11705 ibus_bytes=0:6976 dbus_bytes=0:3934 dma_bytes=0:0 primitive=0 bits=3cf1,bbb0,ba9b,bd0c,bbed,3c59,be00,3c8f selected=0,3
+
+STUDENT_CPU ordinal=25 status=0 cycles=0:28570 instructions=0:16831 ibus_bytes=0:9248 dbus_bytes=0:4774 dma_bytes=0:0 primitive=0 bits=3d88,bd35,bb51,bdb4,3d50,3cf7,bd68,3d49 selected=2,4
+
+STUDENT_CPU ordinal=26 status=0 cycles=0:26559 instructions=0:15920 ibus_bytes=0:8832 dbus_bytes=0:3910 dma_bytes=0:0 primitive=0 bits=bde0,3c27,3c15,3d81,bcd4,bcb2,3d19,3d45 selected=4,3
+
+STUDENT_CPU ordinal=27 status=0 cycles=0:27019 instructions=0:15481 ibus_bytes=0:8672 dbus_bytes=0:5158 dma_bytes=0:0 primitive=0 bits=bd00,bdc6,bd6a,bdae,bdd9,3ccc,3c19,bdbc selected=2,4
+
+STUDENT_CPU ordinal=28 status=0 cycles=0:28272 instructions=0:17195 ibus_bytes=0:9472 dbus_bytes=0:3966 dma_bytes=0:0 primitive=0 bits=3ab1,bdb5,3d93,bcf5,bd1c,bdb9,bdb9,bda6 selected=0,4
+
+STUDENT_CPU ordinal=29 status=0 cycles=0:28279 instructions=0:17152 ibus_bytes=0:9408 dbus_bytes=0:4038 dma_bytes=0:0 primitive=0 bits=bde0,3d90,bd07,bd37,3c62,3cb7,3daa,bcc9 selected=4,0
+
+STUDENT_CPU ordinal=30 status=0 cycles=0:53475 instructions=0:33139 ibus_bytes=0:16672 dbus_bytes=0:7360 dma_bytes=0:0 primitive=0 bits=3d32,3d6c,bd62,bb60,bc9c,3d8d,bd9e,bcc3,bd7d,bd19,bc96,bd56,bd38,bdcf,3d64,3db3 selected=3,2,4,0
+
+STUDENT_CPU ordinal=31 status=0 cycles=0:51775 instructions=0:32003 ibus_bytes=0:16000 dbus_bytes=0:7408 dma_bytes=0:0 primitive=0 bits=bd20,bdcc,3b1b,3cb1,bdef,3da9,bd22,3d36,bd94,3c68,bd2e,bddc,bdfe,bd95,3dd5,3dd6 selected=0,1,2,0
+
+STUDENT_CPU ordinal=32 status=0 cycles=0:51473 instructions=0:31362 ibus_bytes=0:16000 dbus_bytes=0:7600 dma_bytes=0:0 primitive=0 bits=3da0,bcc7,3c0e,badc,bdaf,3d1f,3d14,3d80,bcda,3c88,bd25,3d65,bd59,3d5f,3d1f,3cb6 selected=1,0,0,4
+
+STUDENT_CPU ordinal=33 status=0 cycles=0:51259 instructions=0:31293 ibus_bytes=0:15872 dbus_bytes=0:7448 dma_bytes=0:0 primitive=0 bits=bcc8,bd40,bda5,bd37,bced,bd37,bd8e,3c93,bdfa,bd3f,bd3e,bd99,bd73,ba1a,bdf8,bc6d selected=3,1,4,3
+
+STUDENT_CPU ordinal=34 status=0 cycles=0:41911 instructions=0:24274 ibus_bytes=0:12704 dbus_bytes=0:7480 dma_bytes=0:0 primitive=0 bits=bab4,bbb8,3c24,bd63,bdc3,bd0b,bb3c,3ca4,ba42,bc63,3d0d,bdcd,bdd8,bcbc,3c2d,3d94 selected=0,3,4,0
+
+STUDENT_CPU ordinal=35 status=0 cycles=0:53682 instructions=0:33412 ibus_bytes=0:16576 dbus_bytes=0:7440 dma_bytes=0:0 primitive=0 bits=3d03,bd56,bd4f,bd89,3d4c,3b95,bc5f,3d29,3dd1,3d00,3dcf,bde0,3db1,3d80,bdbf,bd3b selected=0,3,4,1
+
+STUDENT_CPU ordinal=36 status=0 cycles=0:54963 instructions=0:34479 ibus_bytes=0:17376 dbus_bytes=0:7336 dma_bytes=0:0 primitive=0 bits=bda6,bd80,bd4c,3d11,3d8e,bdcc,3d9a,bbbb,bd07,3d53,3d6b,3d1a,3dc8,bd93,bd85,3d11 selected=3,1,0,1
+
+STUDENT_CPU ordinal=37 status=0 cycles=0:49004 instructions=0:30119 ibus_bytes=0:15040 dbus_bytes=0:7408 dma_bytes=0:0 primitive=0 bits=bd88,3d98,bb88,3dc8,3d73,bdb8,3c4b,bd98,bd5e,3de0,3a00,bbdc,3be4,bdc0,bd91,bc86 selected=0,1,1,4
+
+STUDENT_CPU ordinal=38 status=0 cycles=0:55646 instructions=0:35434 ibus_bytes=0:17376 dbus_bytes=0:7352 dma_bytes=0:0 primitive=0 bits=bde0,bd86,be00,bdb5,bda1,bd0a,bde0,bd6c,3d85,bdd6,bd49,3c91,bd85,bd6d,bd8e,3da5 selected=1,0,3,4
+
+STUDENT_CPU ordinal=39 status=0 cycles=0:51993 instructions=0:32059 ibus_bytes=0:16288 dbus_bytes=0:7544 dma_bytes=0:0 primitive=0 bits=3a1b,3d0e,3d46,bd8d,3c96,bcc4,bd81,bd1e,3cfb,3dd0,3d91,bd62,3cfd,3bea,bc01,bd1e selected=2,1,2,0
+
+STUDENT_CPU_COMPLETE count=40

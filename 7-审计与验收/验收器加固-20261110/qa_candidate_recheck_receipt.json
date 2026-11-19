@@ -1,0 +1,198 @@
+{
+  "status": "FOUR_REAL_LOG_RECHECK_AND_MUTATION_REJECTION_PASS",
+  "observed_at": "2026-11-10T04:32:00.987375+00:00",
+  "scope": "offline validator QA only; not full-1000 qualification or promotion",
+  "actual_target_processes_launched": 0,
+  "real_logs_rechecked": 4,
+  "mutated_rows_rejected": 72,
+  "mutation_fields_per_log": 18,
+  "numeric_lock": {
+    "path": "8-本轮实验/GPU同硬件全1000-20261108/.numeric-run.lock",
+    "nonblocking_second_writer_rejected": true,
+    "lock_file_metadata_unchanged": true
+  },
+  "syntax_checked": [
+    {
+      "path": "7-审计与验收/run_gpu_same_hardware_1000.py",
+      "sha256": "e1ec3c955eac081e5555d8818578564c62d3e30180f983dfe2ce1900055ac59b"
+    },
+    {
+      "path": "7-审计与验收/run_gpu_same_hardware_1000_parallel.py",
+      "sha256": "bf0ac592a23ad8e111eb570bc3cb9378145f36ed6f965389b2f2bf09f2cb8ea4"
+    },
+    {
+      "path": "7-审计与验收/run_gpu_full_candidate_board.py",
+      "sha256": "2b9a643b17159024e639bff488da6596b72e826d765ebb942985e0e47c7a50ba"
+    },
+    {
+      "path": "7-审计与验收/seal_gpu_same_hardware_1000.py",
+      "sha256": "f817ebd3a5abacd011949290adbfc2584d69183e2098a7576204a8b691d8f8b7"
+    },
+    {
+      "path": "7-审计与验收/seal_gpu_full_candidate_board.py",
+      "sha256": "6319a587914b777a7e8b8db60a333f8d2635a063bff760992f7d9ae06d81ae09"
+    },
+    {
+      "path": "7-审计与验收/continue_gpu_full_boards.py",
+      "sha256": "fe642d4cfe34293ac8f82d1704fcccf1d2ca2e62676c513b951e88f2b255df4a"
+    },
+    {
+      "path": "7-审计与验收/route_locked_gpu_candidate.py",
+      "sha256": "2a117b32da9b034f402cf7f28c8b613835c983bd7cf3c239bab28f2e4bdf90f2"
+    }
+  ],
+  "copy_source_paths_checked": 27,
+  "driver_snapshot_relative_path_verified": true,
+  "manifest_self_reference_detected": false,
+  "immutable_seal_guards_present": true,
+  "records": [
+    {
+      "ordinal": 0,
+      "log": "8-本轮实验/GPU锁定硬件四组候选-20261109/routed-controls-v2/combined-0000.log",
+      "log_sha256": "b54ae27b3bd700a6b4898e7b53973f5fdba6ea9872df8516378734129ca11103",
+      "selected_implementation": "rne",
+      "cycles": 93564,
+      "instructions": 8712,
+      "numeric_status_selected_primitive_pass": true,
+      "read_write_counter_matches_DMA": true,
+      "mutation_fields_rejected": [
+        "case_id",
+        "seed",
+        "device_fault",
+        "parent_cycles",
+        "parent_instructions",
+        "speedup",
+        "cycle_reduction_pct",
+        "cycles_regress_over_5_percent",
+        "external_total_beat_change_pct",
+        "external_read_change_pct",
+        "parent_read_beats",
+        "parent_write_beats",
+        "selected_implementation",
+        "input_record_sha256",
+        "cycles",
+        "instructions",
+        "external_read_beats",
+        "external_write_beats"
+      ],
+      "missing_field_rejected": true,
+      "reuse_diagnostic_only_difference_allowed": true
+    },
+    {
+      "ordinal": 100,
+      "log": "8-本轮实验/GPU锁定硬件四组候选-20261109/routed-controls-v2/combined-0100.log",
+      "log_sha256": "880df633b29b89a2b6f2e2f85e1ed3379db6d97acf4cdde85351071a330ead15",
+      "selected_implementation": "combined",
+      "cycles": 233692,
+      "instructions": 23332,
+      "numeric_status_selected_primitive_pass": true,
+      "read_write_counter_matches_DMA": true,
+      "mutation_fields_rejected": [
+        "case_id",
+        "seed",
+        "device_fault",
+        "parent_cycles",
+        "parent_instructions",
+        "speedup",
+        "cycle_reduction_pct",
+        "cycles_regress_over_5_percent",
+        "external_total_beat_change_pct",
+        "external_read_change_pct",
+        "parent_read_beats",
+        "parent_write_beats",
+        "selected_implementation",
+        "input_record_sha256",
+        "cycles",
+        "instructions",
+        "external_read_beats",
+        "external_write_beats"
+      ],
+      "missing_field_rejected": true,
+      "reuse_diagnostic_only_difference_allowed": true
+    },
+    {
+      "ordinal": 330,
+      "log": "8-本轮实验/GPU锁定硬件四组候选-20261109/routed-controls-v2/combined-0330.log",
+      "log_sha256": "58f71631d78888e2dca6f9f13591fa68e68487b5777e13ed52035a96f45bcfb0",
+      "selected_implementation": "rne",
+      "cycles": 100841,
+      "instructions": 9480,
+      "numeric_status_selected_primitive_pass": true,
+      "read_write_counter_matches_DMA": true,
+      "mutation_fields_rejected": [
+        "case_id",
+        "seed",
+        "device_fault",
+        "parent_cycles",
+        "parent_instructions",
+        "speedup",
+        "cycle_reduction_pct",
+        "cycles_regress_over_5_percent",
+        "external_total_beat_change_pct",
+        "external_read_change_pct",
+        "parent_read_beats",
+        "parent_write_beats",
+        "selected_implementation",
+        "input_record_sha256",
+        "cycles",
+        "instructions",
+        "external_read_beats",
+        "external_write_beats"
+      ],
+      "missing_field_rejected": true,
+      "reuse_diagnostic_only_difference_allowed": true
+    },
+    {
+      "ordinal": 660,
+      "log": "8-本轮实验/GPU锁定硬件四组候选-20261109/routed-controls-v2/combined-0660.log",
+      "log_sha256": "5366ba9428e2aa6f7cfd6a56513717f15a8ffdafa4737ce53f41a8bc37fcb16c",
+      "selected_implementation": "baseline",
+      "cycles": 193616,
+      "instructions": 18818,
+      "numeric_status_selected_primitive_pass": true,
+      "read_write_counter_matches_DMA": true,
+      "mutation_fields_rejected": [
+        "case_id",
+        "seed",
+        "device_fault",
+        "parent_cycles",
+        "parent_instructions",
+        "speedup",
+        "cycle_reduction_pct",
+        "cycles_regress_over_5_percent",
+        "external_total_beat_change_pct",
+        "external_read_change_pct",
+        "parent_read_beats",
+        "parent_write_beats",
+        "selected_implementation",
+        "input_record_sha256",
+        "cycles",
+        "instructions",
+        "external_read_beats",
+        "external_write_beats"
+      ],
+      "missing_field_rejected": true,
+      "reuse_diagnostic_only_difference_allowed": true
+    }
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794285120.9875324,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2373018807\nuser_usec 2311636896\nsystem_usec 61381911\nnice_usec 0\nnr_periods 14011\nnr_throttled 446\nthrottled_usec 2937695\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1058299904",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n6265\n6777\n6981\n7006\n7068"
+    }
+  },
+  "limitations": [
+    "Only four existing control logs rechecked; complete candidate board is not yet independently sealed.",
+    "Copy-path and syntax checks do not execute either sealer's full-1000 main flow.",
+    "Official weights, teacher physical identity, PPA and formal promotion remain separate HOLD gates."
+  ]
+}

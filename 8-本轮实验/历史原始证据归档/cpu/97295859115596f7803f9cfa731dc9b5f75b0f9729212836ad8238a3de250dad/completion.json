@@ -1,0 +1,30 @@
+{
+  "status": "HOLD",
+  "formal_baseline": false,
+  "input_sha256": "97295859115596f7803f9cfa731dc9b5f75b0f9729212836ad8238a3de250dad",
+  "records_expected": 1,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "aggregate_8gib_cap_validated": false,
+  "resource_limits": {
+    "memory.max": "max",
+    "memory.swap.max": "max",
+    "cpu.max": "max 100000"
+  },
+  "build_seconds": 66.264481296,
+  "target_run_complete": true,
+  "reason": "Target transcript collected; strict output join, adapter fault/protocol and remaining release gates still required",
+  "elapsed_seconds": 67.213020589,
+  "artifacts": {
+    "build.log": "1adf3b17df7ef8bffa023edf91e02653c85e5068e9a5f65b59455cc16a858c2f",
+    "console.log": "66d50bb65d194a1d739a216fcba9cfc616edac3b6163e3efd8d4c753d5ec1563",
+    "inputs.json": "8fef9c09799021d3d6c5881fea4ad11aeb7c8321a56b1abf7105d7f64970bb3d",
+    "inputs.bin": "436b1e00c898e8712204381d794e4f1b79d8685323fb3ff4be50ac56b6870040",
+    "soc/software/bios/bios.bin": "4a9c5dd105fc8cc17ed1c2e61008a746cba717132886eeaf444b1a18ea3b5114",
+    "soc/gateware/obj_dir/Vsim": "b96b9fb3545a40a859dec79b7ab8f54f76b1659be77ed0cb91d2a8785330db7c",
+    "soc/gateware/sim.v": "850590508c29966aeba9d4b07beaf3e7fdcb376c37cddcd2de175c665ddc2743",
+    "soc/csr.csv": "528d94fe67f11adc96f32a8d1fb58270e4c66551f3dd4ee1ee28d71d806c11ae"
+  }
+}

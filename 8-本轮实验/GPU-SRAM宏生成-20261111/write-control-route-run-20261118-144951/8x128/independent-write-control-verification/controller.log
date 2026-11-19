@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU-SRAM宏生成-20261111/write-control-route-run-20261118-144951/8x128/independent-write-control-verification/run.py", line 55, in <module>
+    if time.monotonic()>deadline:raise TimeoutError('Waiting for OpenRAM candidate')
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: Waiting for OpenRAM candidate

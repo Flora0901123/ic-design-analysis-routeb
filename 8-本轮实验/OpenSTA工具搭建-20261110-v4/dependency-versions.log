@@ -1,0 +1,5 @@
+libeigen3-dev	3.4.0-4build0.1
+libfmt-dev:amd64	9.1.0+ds1-2
+swig	4.2.0-2ubuntu1
+tcl-dev:amd64	8.6.14build1
+zlib1g-dev:amd64	1:1.3.dfsg-3.1ubuntu2.3

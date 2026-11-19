@@ -1,0 +1,9 @@
+{
+  "ordinal": 411,
+  "case_id": "P2-MINI-09",
+  "seed": 2,
+  "cycles": 142583,
+  "instructions": 13721,
+  "device_fault": false,
+  "log_sha256": "5451f30e39aeac7ebaadd1df7754f75110acde3a6a92a09f51e9c79df36fc3a9"
+}

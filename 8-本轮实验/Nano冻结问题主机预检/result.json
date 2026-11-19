@@ -1,0 +1,291 @@
+{
+  "scope": "host reference verification only, neither CPU nor GPU target execution",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "frozen_checkpoint_match": true,
+  "cases": [
+    {
+      "question": "你好呀",
+      "domain": "greeting",
+      "actual_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "pass": true,
+      "expected_text": "你好！"
+    },
+    {
+      "question": "早上好",
+      "domain": "greeting",
+      "actual_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "pass": true,
+      "expected_text": "你好！"
+    },
+    {
+      "question": "嗨",
+      "domain": "greeting",
+      "actual_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "pass": true,
+      "expected_text": "你好！"
+    },
+    {
+      "question": "你叫什么",
+      "domain": "identity",
+      "actual_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "我是小助手。"
+    },
+    {
+      "question": "你是谁呀",
+      "domain": "identity",
+      "actual_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "我是小助手。"
+    },
+    {
+      "question": "介绍自己",
+      "domain": "identity",
+      "actual_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "我是小助手。"
+    },
+    {
+      "question": "今天天气怎么样？",
+      "domain": "weather",
+      "actual_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "我无法获知实时天气。"
+    },
+    {
+      "question": "今天会下雨吗？",
+      "domain": "weather",
+      "actual_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "我无法获知实时天气。"
+    },
+    {
+      "question": "现在冷不冷？",
+      "domain": "weather",
+      "actual_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "我无法获知实时天气。"
+    },
+    {
+      "question": "一加一等于几？",
+      "domain": "arithmetic",
+      "actual_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "等于二。"
+    },
+    {
+      "question": "1+1是多少？",
+      "domain": "arithmetic",
+      "actual_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "等于二。"
+    },
+    {
+      "question": "一加一？",
+      "domain": "arithmetic",
+      "actual_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "pass": true,
+      "expected_text": "等于二。"
+    }
+  ],
+  "passed": 12,
+  "total": 12
+}

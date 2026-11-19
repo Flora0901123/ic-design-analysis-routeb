@@ -1,0 +1,87 @@
+{
+  "status": "FF_FOUR_STATE_4_SHAPES_AND_STRUCTURAL_PREFLIGHT_PASS",
+  "scope": "new FF semantic and hierarchy/process preflight only; no physical mapping or PPA signoff",
+  "formal_promotion": "HOLD",
+  "records": [
+    {
+      "shape": "vortex_dp_80x64_w4",
+      "four_state_memory_semantics": "PASS",
+      "compile": {
+        "log": "vortex_dp_80x64_w4-compile.log",
+        "seconds": 0.14094122299866285,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "run": {
+        "log": "vortex_dp_80x64_w4-run.log",
+        "seconds": 0.1457541059990035,
+        "log_sha256": "8fbe6e638c0405a84202ef861ebe9e220a22561e7e5f69171a3a39c953de2781"
+      }
+    },
+    {
+      "shape": "vortex_sp_32x1024_w4",
+      "four_state_memory_semantics": "PASS",
+      "compile": {
+        "log": "vortex_sp_32x1024_w4-compile.log",
+        "seconds": 0.2119499709988304,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "run": {
+        "log": "vortex_sp_32x1024_w4-run.log",
+        "seconds": 0.2120857480003906,
+        "log_sha256": "d777f465792186f1ce900d65b13c5b26109459f6cbcab76bd6af9e3ac28b5f0f"
+      }
+    },
+    {
+      "shape": "vortex_sp_32x256_w1",
+      "four_state_memory_semantics": "PASS",
+      "compile": {
+        "log": "vortex_sp_32x256_w1-compile.log",
+        "seconds": 0.13564593299997796,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "run": {
+        "log": "vortex_sp_32x256_w1-run.log",
+        "seconds": 0.13999463700019987,
+        "log_sha256": "4a9a19e5487475a68827fc7e02475c7681a930b316c61f37c4084e34d77c0450"
+      }
+    },
+    {
+      "shape": "vortex_sp_64x128_w8",
+      "four_state_memory_semantics": "PASS",
+      "compile": {
+        "log": "vortex_sp_64x128_w8-compile.log",
+        "seconds": 0.1417853719995037,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "run": {
+        "log": "vortex_sp_64x128_w8-run.log",
+        "seconds": 0.13758764900012466,
+        "log_sha256": "0b71a15cb24b7c0436fb034acc7c68d46c59fb018c5e261199a11a7c65c43b29"
+      }
+    }
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794310705.3341339,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 19585365252\nuser_usec 19288765042\nsystem_usec 296600209\nnice_usec 0\nnr_periods 116728\nnr_throttled 849\nthrottled_usec 5924980\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "782520320",
+      "memory.peak": "1750769664",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n47550\n47785\n47787"
+    }
+  },
+  "structural_preflight": {
+    "log": "yosys-hierarchy-proc-check.log",
+    "seconds": 61.22958922500038,
+    "log_sha256": "7c1216fe42c276e124d17a4ebbd84983520b35f4756ce6344c32d2548e6bdf98"
+  },
+  "physical_mapping_executed": false,
+  "STA_executed": false,
+  "PPA_signoff": false,
+  "teacher_physical_identity": false
+}

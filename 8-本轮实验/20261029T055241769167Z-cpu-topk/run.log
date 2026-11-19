@@ -1,0 +1,32 @@
+{"work": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/b6c6d99e4d0554083c76eb25bb77554ff73cca312ce942cd90dc2bc8a063ce68", "status": "BUILDING", "count": 1000}
+{
+  "work": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/b6c6d99e4d0554083c76eb25bb77554ff73cca312ce942cd90dc2bc8a063ce68",
+  "status": "HOLD",
+  "formal_baseline": false,
+  "input_sha256": "b6c6d99e4d0554083c76eb25bb77554ff73cca312ce942cd90dc2bc8a063ce68",
+  "records_expected": 1000,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "aggregate_8gib_cap_validated": false,
+  "resource_limits": {
+    "memory.max": "max",
+    "memory.swap.max": "max",
+    "cpu.max": "max 100000"
+  },
+  "build_seconds": 1015.5968835409999,
+  "target_run_complete": true,
+  "reason": "Target transcript collected; strict output join, adapter fault/protocol and remaining release gates still required",
+  "elapsed_seconds": 1129.512077843,
+  "artifacts": {
+    "build.log": "c27b8fddf43335c4345007ff5426dc2c51f0740dc91a05ecf72a797c28f2e402",
+    "console.log": "a6b2cf5a4bbb34ca79256376baf9e29b3e093863dde6163a63694f8ce815b0fe",
+    "inputs.bin": "baafeaeb6b75e03a6df72a6841d043140154d74bfcbede6011eaf69948c83bf6",
+    "inputs.json": "1dad866eae51b6d3258ce9b2d7acfacaf53fb8d2c5da54eca279ed0ff77a41e8",
+    "soc/software/bios/bios.bin": "cf0449fcb91ba28d4591e236fea090f07c5a1ec67851550c8b097f1032408db4",
+    "soc/gateware/obj_dir/Vsim": "2efbcdca519bbf362fb819df2167d598449fe65530a16f1a7ccddd65ec418785",
+    "soc/gateware/sim.v": "b613fe0af4dcb226b1c17fac34adaa9a6e898b9137dbb10845f58dfa66cf157b",
+    "soc/csr.csv": "25de8ff4522b4db58a3c524906618ac74c62a378bab9f47dadc954720ae6045b"
+  }
+}

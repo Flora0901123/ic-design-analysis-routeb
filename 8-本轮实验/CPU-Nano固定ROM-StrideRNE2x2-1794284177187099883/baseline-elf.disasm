@@ -1,0 +1,423 @@
+
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-baseline-1794284177187099883/soc/software/bios/bios.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+0000375c <mini_native_scalar_attention>:
+    375c:	00058513          	mv	a0,a1
+    3760:	00060593          	mv	a1,a2
+    3764:	00412303          	lw	t1,4(sp)
+    3768:	00068613          	mv	a2,a3
+    376c:	00812e03          	lw	t3,8(sp)
+    3770:	00070693          	mv	a3,a4
+    3774:	00c12e83          	lw	t4,12(sp)
+    3778:	00078713          	mv	a4,a5
+    377c:	00080793          	mv	a5,a6
+    3780:	00088813          	mv	a6,a7
+    3784:	00012883          	lw	a7,0(sp)
+    3788:	02058063          	beqz	a1,37a8 <mini_native_scalar_attention+0x4c>
+    378c:	00b66e63          	bltu	a2,a1,37a8 <mini_native_scalar_attention+0x4c>
+    3790:	02000f13          	li	t5,32
+    3794:	00cf6a63          	bltu	t5,a2,37a8 <mini_native_scalar_attention+0x4c>
+    3798:	01d12423          	sw	t4,8(sp)
+    379c:	01c12223          	sw	t3,4(sp)
+    37a0:	00612023          	sw	t1,0(sp)
+    37a4:	bf9ff06f          	j	339c <mini_native_scalar_attention.part.0>
+    37a8:	fff00513          	li	a0,-1
+    37ac:	00008067          	ret
+
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-baseline-1794284177187099883/soc/software/bios/bios.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+000037b0 <matmul>:
+    37b0:	fc010113          	addi	sp,sp,-64
+    37b4:	02912a23          	sw	s1,52(sp)
+    37b8:	00058493          	mv	s1,a1
+    37bc:	02812c23          	sw	s0,56(sp)
+    37c0:	00068593          	mv	a1,a3
+    37c4:	00050413          	mv	s0,a0
+    37c8:	00249493          	slli	s1,s1,0x2
+    37cc:	00060513          	mv	a0,a2
+    37d0:	00010613          	mv	a2,sp
+    37d4:	02112e23          	sw	ra,60(sp)
+    37d8:	03212823          	sw	s2,48(sp)
+    37dc:	03312623          	sw	s3,44(sp)
+    37e0:	03412423          	sw	s4,40(sp)
+    37e4:	03512223          	sw	s5,36(sp)
+    37e8:	03612023          	sw	s6,32(sp)
+    37ec:	01712e23          	sw	s7,28(sp)
+    37f0:	00068913          	mv	s2,a3
+    37f4:	00070993          	mv	s3,a4
+    37f8:	00078a13          	mv	s4,a5
+    37fc:	00080a93          	mv	s5,a6
+    3800:	00940433          	add	s0,s0,s1
+    3804:	f94ff0ef          	jal	2f98 <quantize>
+    3808:	04c42583          	lw	a1,76(s0)
+    380c:	00000b93          	li	s7,0
+    3810:	00000493          	li	s1,0
+    3814:	1cd020ef          	jal	61e0 <__mulsf3>
+    3818:	00050b13          	mv	s6,a0
+    381c:	00042683          	lw	a3,0(s0)
+    3820:	00048793          	mv	a5,s1
+    3824:	00000613          	li	a2,0
+    3828:	00000513          	li	a0,0
+    382c:	00c10733          	add	a4,sp,a2
+    3830:	00070583          	lb	a1,0(a4)
+    3834:	00078713          	mv	a4,a5
+    3838:	000a0463          	beqz	s4,3840 <matmul+0x90>
+    383c:	01760733          	add	a4,a2,s7
+    3840:	00e68733          	add	a4,a3,a4
+    3844:	00070703          	lb	a4,0(a4)
+    3848:	00160613          	addi	a2,a2,1
+    384c:	013787b3          	add	a5,a5,s3
+    3850:	02b70733          	mul	a4,a4,a1
+    3854:	00e50533          	add	a0,a0,a4
+    3858:	fcc91ae3          	bne	s2,a2,382c <matmul+0x7c>
+    385c:	150030ef          	jal	69ac <__floatsisf>
+    3860:	000b0593          	mv	a1,s6
+    3864:	17d020ef          	jal	61e0 <__mulsf3>
+    3868:	5b5000ef          	jal	461c <course_bf16_rne_bits>
+    386c:	00249793          	slli	a5,s1,0x2
+    3870:	00fa87b3          	add	a5,s5,a5
+    3874:	01051513          	slli	a0,a0,0x10
+    3878:	00a7a023          	sw	a0,0(a5)
+    387c:	00148493          	addi	s1,s1,1
+    3880:	012b8bb3          	add	s7,s7,s2
+    3884:	f8999ce3          	bne	s3,s1,381c <matmul+0x6c>
+    3888:	03c12083          	lw	ra,60(sp)
+    388c:	03812403          	lw	s0,56(sp)
+    3890:	03412483          	lw	s1,52(sp)
+    3894:	03012903          	lw	s2,48(sp)
+    3898:	02c12983          	lw	s3,44(sp)
+    389c:	02812a03          	lw	s4,40(sp)
+    38a0:	02412a83          	lw	s5,36(sp)
+    38a4:	02012b03          	lw	s6,32(sp)
+    38a8:	01c12b83          	lw	s7,28(sp)
+    38ac:	04010113          	addi	sp,sp,64
+    38b0:	00008067          	ret
+
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-baseline-1794284177187099883/soc/software/bios/bios.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00002e84 <rne_div>:
+    2e84:	fc010113          	addi	sp,sp,-64
+    2e88:	03312623          	sw	s3,44(sp)
+    2e8c:	03412423          	sw	s4,40(sp)
+    2e90:	03512223          	sw	s5,36(sp)
+    2e94:	02112e23          	sw	ra,60(sp)
+    2e98:	02812c23          	sw	s0,56(sp)
+    2e9c:	02912a23          	sw	s1,52(sp)
+    2ea0:	03212823          	sw	s2,48(sp)
+    2ea4:	03612023          	sw	s6,32(sp)
+    2ea8:	01712e23          	sw	s7,28(sp)
+    2eac:	01812c23          	sw	s8,24(sp)
+    2eb0:	00058a93          	mv	s5,a1
+    2eb4:	00050a13          	mv	s4,a0
+    2eb8:	00058993          	mv	s3,a1
+    2ebc:	0005da63          	bgez	a1,2ed0 <rne_div+0x4c>
+    2ec0:	00a037b3          	snez	a5,a0
+    2ec4:	40b009b3          	neg	s3,a1
+    2ec8:	40f989b3          	sub	s3,s3,a5
+    2ecc:	40a00a33          	neg	s4,a0
+    2ed0:	000a0513          	mv	a0,s4
+    2ed4:	00098593          	mv	a1,s3
+    2ed8:	00060c13          	mv	s8,a2
+    2edc:	00068b93          	mv	s7,a3
+    2ee0:	00c12623          	sw	a2,12(sp)
+    2ee4:	00d12423          	sw	a3,8(sp)
+    2ee8:	599030ef          	jal	6c80 <__udivdi3>
+    2eec:	00050913          	mv	s2,a0
+    2ef0:	00058b13          	mv	s6,a1
+    2ef4:	00050413          	mv	s0,a0
+    2ef8:	00058493          	mv	s1,a1
+    2efc:	000c0613          	mv	a2,s8
+    2f00:	000b8693          	mv	a3,s7
+    2f04:	000a0513          	mv	a0,s4
+    2f08:	00098593          	mv	a1,s3
+    2f0c:	57d030ef          	jal	6c88 <__umoddi3>
+    2f10:	01f55713          	srli	a4,a0,0x1f
+    2f14:	00159793          	slli	a5,a1,0x1
+    2f18:	00f767b3          	or	a5,a4,a5
+    2f1c:	00151513          	slli	a0,a0,0x1
+    2f20:	00fbee63          	bltu	s7,a5,2f3c <rne_div+0xb8>
+    2f24:	01779463          	bne	a5,s7,2f2c <rne_div+0xa8>
+    2f28:	00ac6a63          	bltu	s8,a0,2f3c <rne_div+0xb8>
+    2f2c:	02ac1063          	bne	s8,a0,2f4c <rne_div+0xc8>
+    2f30:	00fb9e63          	bne	s7,a5,2f4c <rne_div+0xc8>
+    2f34:	00197793          	andi	a5,s2,1
+    2f38:	00078a63          	beqz	a5,2f4c <rne_div+0xc8>
+    2f3c:	00190513          	addi	a0,s2,1
+    2f40:	01253933          	sltu	s2,a0,s2
+    2f44:	00050413          	mv	s0,a0
+    2f48:	016904b3          	add	s1,s2,s6
+    2f4c:	00040513          	mv	a0,s0
+    2f50:	00048593          	mv	a1,s1
+    2f54:	000ada63          	bgez	s5,2f68 <rne_div+0xe4>
+    2f58:	008037b3          	snez	a5,s0
+    2f5c:	409005b3          	neg	a1,s1
+    2f60:	40f585b3          	sub	a1,a1,a5
+    2f64:	40800533          	neg	a0,s0
+    2f68:	03c12083          	lw	ra,60(sp)
+    2f6c:	03812403          	lw	s0,56(sp)
+    2f70:	03412483          	lw	s1,52(sp)
+    2f74:	03012903          	lw	s2,48(sp)
+    2f78:	02c12983          	lw	s3,44(sp)
+    2f7c:	02812a03          	lw	s4,40(sp)
+    2f80:	02412a83          	lw	s5,36(sp)
+    2f84:	02012b03          	lw	s6,32(sp)
+    2f88:	01c12b83          	lw	s7,28(sp)
+    2f8c:	01812c03          	lw	s8,24(sp)
+    2f90:	04010113          	addi	sp,sp,64
+    2f94:	00008067          	ret
+
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-baseline-1794284177187099883/soc/software/bios/bios.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+0000339c <mini_native_scalar_attention.part.0>:
+    339c:	e8010113          	addi	sp,sp,-384
+    33a0:	00f12c23          	sw	a5,24(sp)
+    33a4:	40b605b3          	sub	a1,a2,a1
+    33a8:	00160793          	addi	a5,a2,1
+    33ac:	16812c23          	sw	s0,376(sp)
+    33b0:	17412423          	sw	s4,360(sp)
+    33b4:	15712e23          	sw	s7,348(sp)
+    33b8:	16112e23          	sw	ra,380(sp)
+    33bc:	16912a23          	sw	s1,372(sp)
+    33c0:	17212823          	sw	s2,368(sp)
+    33c4:	17312623          	sw	s3,364(sp)
+    33c8:	17512223          	sw	s5,356(sp)
+    33cc:	17612023          	sw	s6,352(sp)
+    33d0:	15812c23          	sw	s8,344(sp)
+    33d4:	15912a23          	sw	s9,340(sp)
+    33d8:	15a12823          	sw	s10,336(sp)
+    33dc:	15b12623          	sw	s11,332(sp)
+    33e0:	00a12623          	sw	a0,12(sp)
+    33e4:	00d12823          	sw	a3,16(sp)
+    33e8:	00e12a23          	sw	a4,20(sp)
+    33ec:	01012e23          	sw	a6,28(sp)
+    33f0:	03112023          	sw	a7,32(sp)
+    33f4:	00158413          	addi	s0,a1,1
+    33f8:	00f12423          	sw	a5,8(sp)
+    33fc:	00000b93          	li	s7,0
+    3400:	00000a13          	li	s4,0
+    3404:	00812783          	lw	a5,8(sp)
+    3408:	00879663          	bne	a5,s0,3414 <mini_native_scalar_attention.part.0+0x78>
+    340c:	00000513          	li	a0,0
+    3410:	3100006f          	j	3720 <mini_native_scalar_attention.part.0+0x384>
+    3414:	01812783          	lw	a5,24(sp)
+    3418:	0c010993          	addi	s3,sp,192
+    341c:	08010913          	addi	s2,sp,128
+    3420:	00098a93          	mv	s5,s3
+    3424:	00000493          	li	s1,0
+    3428:	01478b33          	add	s6,a5,s4
+    342c:	00849e63          	bne	s1,s0,3448 <mini_native_scalar_attention.part.0+0xac>
+    3430:	00c12783          	lw	a5,12(sp)
+    3434:	00040c13          	mv	s8,s0
+    3438:	08078a63          	beqz	a5,34cc <mini_native_scalar_attention.part.0+0x130>
+    343c:	00098793          	mv	a5,s3
+    3440:	00000713          	li	a4,0
+    3444:	0740006f          	j	34b8 <mini_native_scalar_attention.part.0+0x11c>
+    3448:	01c12783          	lw	a5,28(sp)
+    344c:	00349693          	slli	a3,s1,0x3
+    3450:	009aa023          	sw	s1,0(s5)
+    3454:	00d786b3          	add	a3,a5,a3
+    3458:	00000513          	li	a0,0
+    345c:	00000793          	li	a5,0
+    3460:	00fb0733          	add	a4,s6,a5
+    3464:	00f68633          	add	a2,a3,a5
+    3468:	00070703          	lb	a4,0(a4)
+    346c:	00060603          	lb	a2,0(a2)
+    3470:	00178793          	addi	a5,a5,1
+    3474:	02c70733          	mul	a4,a4,a2
+    3478:	00e50533          	add	a0,a0,a4
+    347c:	00800713          	li	a4,8
+    3480:	fee790e3          	bne	a5,a4,3460 <mini_native_scalar_attention.part.0+0xc4>
+    3484:	18012583          	lw	a1,384(sp)
+    3488:	00090613          	mv	a2,s2
+    348c:	004a8a93          	addi	s5,s5,4
+    3490:	268010ef          	jal	46f8 <course_int32_scale_to_q5_11>
+    3494:	00290913          	addi	s2,s2,2
+    3498:	28051263          	bnez	a0,371c <mini_native_scalar_attention.part.0+0x380>
+    349c:	00148493          	addi	s1,s1,1
+    34a0:	f8dff06f          	j	342c <mini_native_scalar_attention.part.0+0x90>
+    34a4:	00170713          	addi	a4,a4,1
+    34a8:	00078693          	mv	a3,a5
+    34ac:	00070613          	mv	a2,a4
+    34b0:	0c861663          	bne	a2,s0,357c <mini_native_scalar_attention.part.0+0x1e0>
+    34b4:	00478793          	addi	a5,a5,4
+    34b8:	fe8716e3          	bne	a4,s0,34a4 <mini_native_scalar_attention.part.0+0x108>
+    34bc:	00400793          	li	a5,4
+    34c0:	00040c13          	mv	s8,s0
+    34c4:	0087f463          	bgeu	a5,s0,34cc <mini_native_scalar_attention.part.0+0x130>
+    34c8:	00400c13          	li	s8,4
+    34cc:	04000613          	li	a2,64
+    34d0:	00000593          	li	a1,0
+    34d4:	04010513          	addi	a0,sp,64
+    34d8:	541010ef          	jal	5218 <memset>
+    34dc:	01012783          	lw	a5,16(sp)
+    34e0:	00000a93          	li	s5,0
+    34e4:	00000493          	li	s1,0
+    34e8:	017787b3          	add	a5,a5,s7
+    34ec:	00000b13          	li	s6,0
+    34f0:	00c00c93          	li	s9,12
+    34f4:	02f12223          	sw	a5,36(sp)
+    34f8:	00800d13          	li	s10,8
+    34fc:	0d8a9863          	bne	s5,s8,35cc <mini_native_scalar_attention.part.0+0x230>
+    3500:	18812783          	lw	a5,392(sp)
+    3504:	001a1a93          	slli	s5,s4,0x1
+    3508:	04010993          	addi	s3,sp,64
+    350c:	01578ab3          	add	s5,a5,s5
+    3510:	0000b7b7          	lui	a5,0xb
+    3514:	1b87a903          	lw	s2,440(a5) # b1b8 <_erodata+0x8>
+    3518:	41f4db13          	srai	s6,s1,0x1f
+    351c:	0009a503          	lw	a0,0(s3)
+    3520:	0049a783          	lw	a5,4(s3)
+    3524:	00048613          	mv	a2,s1
+    3528:	01055593          	srli	a1,a0,0x10
+    352c:	01079793          	slli	a5,a5,0x10
+    3530:	00f5e5b3          	or	a1,a1,a5
+    3534:	000b0693          	mv	a3,s6
+    3538:	01051513          	slli	a0,a0,0x10
+    353c:	949ff0ef          	jal	2e84 <rne_div>
+    3540:	46c030ef          	jal	69ac <__floatsisf>
+    3544:	00090593          	mv	a1,s2
+    3548:	499020ef          	jal	61e0 <__mulsf3>
+    354c:	18412583          	lw	a1,388(sp)
+    3550:	00898993          	addi	s3,s3,8
+    3554:	002a8a93          	addi	s5,s5,2
+    3558:	489020ef          	jal	61e0 <__mulsf3>
+    355c:	0c0010ef          	jal	461c <course_bf16_rne_bits>
+    3560:	feaa9f23          	sh	a0,-2(s5)
+    3564:	08010793          	addi	a5,sp,128
+    3568:	fb379ae3          	bne	a5,s3,351c <mini_native_scalar_attention.part.0+0x180>
+    356c:	008a0a13          	addi	s4,s4,8
+    3570:	00140413          	addi	s0,s0,1
+    3574:	00cb8b93          	addi	s7,s7,12
+    3578:	e8dff06f          	j	3404 <mini_native_scalar_attention.part.0+0x68>
+    357c:	0046a503          	lw	a0,4(a3)
+    3580:	03010813          	addi	a6,sp,48
+    3584:	03010313          	addi	t1,sp,48
+    3588:	00151593          	slli	a1,a0,0x1
+    358c:	11058593          	addi	a1,a1,272
+    3590:	010585b3          	add	a1,a1,a6
+    3594:	f4059883          	lh	a7,-192(a1)
+    3598:	0007a583          	lw	a1,0(a5)
+    359c:	00159813          	slli	a6,a1,0x1
+    35a0:	11080813          	addi	a6,a6,272
+    35a4:	00680833          	add	a6,a6,t1
+    35a8:	f4081803          	lh	a6,-192(a6)
+    35ac:	01184663          	blt	a6,a7,35b8 <mini_native_scalar_attention.part.0+0x21c>
+    35b0:	01089863          	bne	a7,a6,35c0 <mini_native_scalar_attention.part.0+0x224>
+    35b4:	00b57663          	bgeu	a0,a1,35c0 <mini_native_scalar_attention.part.0+0x224>
+    35b8:	00a7a023          	sw	a0,0(a5)
+    35bc:	00b6a223          	sw	a1,4(a3)
+    35c0:	00160613          	addi	a2,a2,1
+    35c4:	00468693          	addi	a3,a3,4
+    35c8:	ee9ff06f          	j	34b0 <mini_native_scalar_attention.part.0+0x114>
+    35cc:	0009a903          	lw	s2,0(s3)
+    35d0:	01412783          	lw	a5,20(sp)
+    35d4:	00000513          	li	a0,0
+    35d8:	032c8933          	mul	s2,s9,s2
+    35dc:	01278933          	add	s2,a5,s2
+    35e0:	00000793          	li	a5,0
+    35e4:	02412703          	lw	a4,36(sp)
+    35e8:	00f906b3          	add	a3,s2,a5
+    35ec:	00068683          	lb	a3,0(a3)
+    35f0:	00f70733          	add	a4,a4,a5
+    35f4:	00070703          	lb	a4,0(a4)
+    35f8:	00178793          	addi	a5,a5,1
+    35fc:	02d70733          	mul	a4,a4,a3
+    3600:	00e50533          	add	a0,a0,a4
+    3604:	ff9790e3          	bne	a5,s9,35e4 <mini_native_scalar_attention.part.0+0x248>
+    3608:	02012583          	lw	a1,32(sp)
+    360c:	03e10613          	addi	a2,sp,62
+    3610:	0e8010ef          	jal	46f8 <course_int32_scale_to_q5_11>
+    3614:	10051463          	bnez	a0,371c <mini_native_scalar_attention.part.0+0x380>
+    3618:	03e11783          	lh	a5,62(sp)
+    361c:	00078d93          	mv	s11,a5
+    3620:	040a9263          	bnez	s5,3664 <mini_native_scalar_attention.part.0+0x2c8>
+    3624:	04010613          	addi	a2,sp,64
+    3628:	00000693          	li	a3,0
+    362c:	00d90733          	add	a4,s2,a3
+    3630:	00070703          	lb	a4,0(a4)
+    3634:	00168693          	addi	a3,a3,1
+    3638:	00860613          	addi	a2,a2,8
+    363c:	00f71713          	slli	a4,a4,0xf
+    3640:	fee62c23          	sw	a4,-8(a2)
+    3644:	41f75713          	srai	a4,a4,0x1f
+    3648:	fee62e23          	sw	a4,-4(a2)
+    364c:	ffa690e3          	bne	a3,s10,362c <mini_native_scalar_attention.part.0+0x290>
+    3650:	000084b7          	lui	s1,0x8
+    3654:	001a8a93          	addi	s5,s5,1
+    3658:	00498993          	addi	s3,s3,4
+    365c:	000d8b13          	mv	s6,s11
+    3660:	e9dff06f          	j	34fc <mini_native_scalar_attention.part.0+0x160>
+    3664:	0167d463          	bge	a5,s6,366c <mini_native_scalar_attention.part.0+0x2d0>
+    3668:	000b0d93          	mv	s11,s6
+    366c:	41bb0533          	sub	a0,s6,s11
+    3670:	7e1000ef          	jal	4650 <course_exp_neg_q15>
+    3674:	00050b13          	mv	s6,a0
+    3678:	03e11503          	lh	a0,62(sp)
+    367c:	41b50533          	sub	a0,a0,s11
+    3680:	7d1000ef          	jal	4650 <course_exp_neg_q15>
+    3684:	0364a5b3          	mulhsu	a1,s1,s6
+    3688:	00a12223          	sw	a0,4(sp)
+    368c:	00008637          	lui	a2,0x8
+    3690:	00000693          	li	a3,0
+    3694:	029b0533          	mul	a0,s6,s1
+    3698:	fecff0ef          	jal	2e84 <rne_div>
+    369c:	00412783          	lw	a5,4(sp)
+    36a0:	04010893          	addi	a7,sp,64
+    36a4:	00000313          	li	t1,0
+    36a8:	00a784b3          	add	s1,a5,a0
+    36ac:	0008a503          	lw	a0,0(a7)
+    36b0:	0048a703          	lw	a4,4(a7)
+    36b4:	00000693          	li	a3,0
+    36b8:	036535b3          	mulhu	a1,a0,s6
+    36bc:	00008637          	lui	a2,0x8
+    36c0:	02612623          	sw	t1,44(sp)
+    36c4:	03112423          	sw	a7,40(sp)
+    36c8:	03670733          	mul	a4,a4,s6
+    36cc:	03650533          	mul	a0,a0,s6
+    36d0:	00b705b3          	add	a1,a4,a1
+    36d4:	fb0ff0ef          	jal	2e84 <rne_div>
+    36d8:	02c12303          	lw	t1,44(sp)
+    36dc:	00412783          	lw	a5,4(sp)
+    36e0:	02812883          	lw	a7,40(sp)
+    36e4:	00690733          	add	a4,s2,t1
+    36e8:	00070703          	lb	a4,0(a4)
+    36ec:	00130313          	addi	t1,t1,1
+    36f0:	00888893          	addi	a7,a7,8
+    36f4:	02f70733          	mul	a4,a4,a5
+    36f8:	41f75693          	srai	a3,a4,0x1f
+    36fc:	00a70533          	add	a0,a4,a0
+    3700:	00e53733          	sltu	a4,a0,a4
+    3704:	00b686b3          	add	a3,a3,a1
+    3708:	00d70733          	add	a4,a4,a3
+    370c:	fea8ac23          	sw	a0,-8(a7)
+    3710:	fee8ae23          	sw	a4,-4(a7)
+    3714:	f9a31ce3          	bne	t1,s10,36ac <mini_native_scalar_attention.part.0+0x310>
+    3718:	f3dff06f          	j	3654 <mini_native_scalar_attention.part.0+0x2b8>
+    371c:	ffe00513          	li	a0,-2
+    3720:	17c12083          	lw	ra,380(sp)
+    3724:	17812403          	lw	s0,376(sp)
+    3728:	17412483          	lw	s1,372(sp)
+    372c:	17012903          	lw	s2,368(sp)
+    3730:	16c12983          	lw	s3,364(sp)
+    3734:	16812a03          	lw	s4,360(sp)
+    3738:	16412a83          	lw	s5,356(sp)
+    373c:	16012b03          	lw	s6,352(sp)
+    3740:	15c12b83          	lw	s7,348(sp)
+    3744:	15812c03          	lw	s8,344(sp)
+    3748:	15412c83          	lw	s9,340(sp)
+    374c:	15012d03          	lw	s10,336(sp)
+    3750:	14c12d83          	lw	s11,332(sp)
+    3754:	18010113          	addi	sp,sp,384
+    3758:	00008067          	ret

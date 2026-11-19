@@ -1,0 +1,1 @@
+read -formal -sv vortex_command_adapter.sv vortex_memory_adapter.sv student_mini_gpu_adapters_harness.sv; prep -top student_mini_gpu_adapters_harness -flatten; opt -full; wreduce; opt -full; write_json prepared.json; write_rtlil prepared.il

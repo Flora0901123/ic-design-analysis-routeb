@@ -1,0 +1,34 @@
+{
+  "status": "FAILED",
+  "hardware_scope": "same macro-bound functional RTL and same production librtlsim.so",
+  "hardware_changed": false,
+  "teacher_physical_identity": false,
+  "formal_performance_board": false,
+  "formal_promotion": "HOLD",
+  "probe_ordinals_registered_before_this_build": [
+    0,
+    100,
+    330,
+    660
+  ],
+  "full_board_scope_proposed": "all 100 original cases x seeds1-10; no cases dropped",
+  "official_frozen_weights": "not supplied; no official weighted score claimed",
+  "records": [],
+  "error": "AssertionError: ('candidate build failed', 'baseline')",
+  "elapsed_seconds": 0.34756567700003416,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794233563.8346932,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 718708701\nuser_usec 708326853\nsystem_usec 10381847\nnice_usec 0\nnr_periods 5255\nnr_throttled 93\nthrottled_usec 109467\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "729722880",
+      "memory.peak": "824983552",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "307\n1913\n2220\n2297\n2322\n2349\n2350\n2357"
+    }
+  }
+}

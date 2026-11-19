@@ -1,0 +1,17 @@
+[
+  {
+    "name": "yaml-cpp",
+    "tag": "yaml-cpp-0.7.0",
+    "commit": "0579ae3d976091d7d664aa9d2527e0d0cff25763"
+  },
+  {
+    "name": "spdlog",
+    "tag": "v1.11.0",
+    "commit": "ad0e89cbfb4d0c1ce4d097e134eb7be67baebb36"
+  },
+  {
+    "name": "argparse",
+    "tag": "v2.9",
+    "commit": "997da9255618311d1fcb0135ce86022729d1f1cb"
+  }
+]

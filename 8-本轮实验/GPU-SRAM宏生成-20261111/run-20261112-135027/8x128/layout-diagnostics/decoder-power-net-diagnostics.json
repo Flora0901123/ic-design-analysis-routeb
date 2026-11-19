@@ -1,0 +1,37 @@
+{
+  "schematic": {
+    "file_sha256": "dcdb8680923415adc678f278c05cc4848516be98a5383ed004bc5ab03a5a0fa8",
+    "port_count": 137,
+    "instance_count": 131,
+    "split_power_names": {},
+    "instances_by_cell": {
+      "routeb_new_1w1r_8x128_hierarchical_predecode2x4": 2,
+      "routeb_new_1w1r_8x128_hierarchical_predecode3x8": 1,
+      "routeb_new_1w1r_8x128_and3_dec": 128
+    }
+  },
+  "extracted": {
+    "file_sha256": "c5caad9e5146e0c61a8f8435c501c56370d4580b3aac6fd71761db85cc4385ad",
+    "port_count": 147,
+    "instance_count": 131,
+    "split_power_names": {
+      "vdd_uq1": 1,
+      "vdd_uq13": 1,
+      "vdd_uq16": 1,
+      "vdd_uq17": 128,
+      "vdd_uq19": 128,
+      "vdd_uq2": 1,
+      "vdd_uq6": 1,
+      "vdd_uq7": 1,
+      "vdd_uq8": 1,
+      "vdd_uq9": 1
+    },
+    "instances_by_cell": {
+      "routeb_new_1w1r_8x128_and3_dec": 128,
+      "routeb_new_1w1r_8x128_hierarchical_predecode2x4": 2,
+      "routeb_new_1w1r_8x128_hierarchical_predecode3x8": 1
+    }
+  },
+  "status": "DECODER_EXTRACTED_POWER_NAMES_ISOLATED",
+  "physical_signoff": false
+}

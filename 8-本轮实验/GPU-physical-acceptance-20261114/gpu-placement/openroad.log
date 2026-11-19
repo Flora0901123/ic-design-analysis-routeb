@@ -1,0 +1,17 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[WARNING EST-0027] no estimated parasitics. Using wire load models.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +2.1% |       0 |   34185 |         36046 |    486672
+    final |     +2.1% |       0 |   36072 |         36206 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 224 slew violations.
+[INFO RSZ-0038] Inserted 36072 buffers in 36206 nets.
+Found 164 macro blocks.
+Using 2 tracks default min distance between IO pins.
+[ERROR PPL-0021] Horizontal routing tracks not found for layer met3.
+Error: placement.tcl, 11 PPL-0021

@@ -1,0 +1,58 @@
+[
+  {
+    "path": "reproduce.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "nano.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "prepare_local.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "archive_history.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "2-CPU算子与Nano复现\\build_cpu_rtl.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "2-CPU算子与Nano复现\\gen_nano_image.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "2-CPU算子与Nano复现\\nano_ask.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "2-CPU算子与Nano复现\\run_cpu_case.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "2-CPU算子与Nano复现\\run_nano_cpu.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "3-优化链-P1\\modify_nano.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "3-优化链-P1\\modify_p1.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "3-优化链-P1\\optimize_p1.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "3-优化链-P1\\parse_cycles.py",
+    "syntax": "PASS"
+  },
+  {
+    "path": "3-优化链-P1\\verify_opt.py",
+    "syntax": "PASS"
+  }
+]

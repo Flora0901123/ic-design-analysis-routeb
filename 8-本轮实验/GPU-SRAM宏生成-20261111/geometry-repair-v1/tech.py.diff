@@ -1,0 +1,20 @@
+--- original/technology/sky130/tech/tech.py
++++ candidate/technology/sky130/tech/tech.py
+@@ -494,7 +494,7 @@
+ 
+ # minwidth_tx with contact (no dog bone transistors)
+ # difftap.2b
+-drc["minwidth_tx"] = 0.360
++drc["minwidth_tx"] = 0.420
+ drc["minlength_channel"] = 0.150
+ 
+ drc["pwell_to_nwell"] = 0
+@@ -644,7 +644,7 @@
+ # m3.6 Minimum area of metal3
+ drc.add_layer("m3",
+               width=0.300,
+-              spacing=0.300,
++              spacing=0.400,
+               area=0.240)
+ # m3.4 Minimum enclosure around via2
+ drc.add_enclosure("m3",

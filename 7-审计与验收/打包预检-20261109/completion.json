@@ -1,0 +1,18 @@
+{
+  "status": "DELIVERY_SELECTION_EXPANDED_SIZE_AND_EVIDENCE_PASS",
+  "date": "2026-11-09",
+  "selected_files": 10428,
+  "expanded_bytes_at_plan": 2195073807,
+  "expanded_gib_at_plan": 2.04432178940624,
+  "expanded_limit_bytes": 3221225472,
+  "omitted_cache_bytes": 8406834487,
+  "workspace_files_deleted": 0,
+  "report_evidence_entries_retained": 28,
+  "new_movable_CPU_and_physical_evidence_included": true,
+  "actual_simulator_and_target_binaries_omitted": 0,
+  "raw_target_logs_omitted": 0,
+  "archive_built": false,
+  "compressed_size_verified": false,
+  "clean_full_environment_reproduction_verified": false,
+  "plan_sha256": "e6ef6f5966e773938819bc1ff73ef06a52275fb0a9a9f2663c90bf98a9a5153d"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "NEW_FF_FOUR_STATE_AND_STRUCTURAL_PREFLIGHT_INDEPENDENTLY_SEALED",
+  "sealed_at": "2026-11-10T12:02:15.490717+00:00",
+  "status_sha256": "daddb8267f59628a172c6a1c3107a0b86c6574215354f4510b08ed28e9c7316a",
+  "shapes": [
+    {
+      "shape": "vortex_dp_80x64_w4",
+      "four_state_records": 667
+    },
+    {
+      "shape": "vortex_sp_32x1024_w4",
+      "four_state_records": 2587
+    },
+    {
+      "shape": "vortex_sp_32x256_w1",
+      "four_state_records": 1037
+    },
+    {
+      "shape": "vortex_sp_64x128_w8",
+      "four_state_records": 1035
+    }
+  ],
+  "total_four_state_records": 5326,
+  "structural_check": "hierarchy -check; proc; check -assert",
+  "recorded_seconds": 62.495333863997075,
+  "original_physical_identity": false,
+  "standard_cell_mapping_accepted": false,
+  "place_route_executed": false,
+  "STA_executed": false,
+  "power_energy_measured": false,
+  "physical_signoff": false,
+  "formal_promotion": "HOLD",
+  "limits": "FF memory shape semantics and elaborated structural/process checks only; not whole mapped GPU functional equivalence or PPA",
+  "evidence_manifest_sha256": "3f1f1c5ce0086cd268e43ee153b9049c225f995f9654571626801c1554fbd185"
+}

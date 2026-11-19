@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-05",
+  "html": "成果汇报与考核对照.html",
+  "source_snapshot_date": "2026-11-04",
+  "data_checks": {
+    "evidence_files_and_SHA": 16,
+    "rubric_items": 22,
+    "official_dimension_points": [
+      20,
+      40,
+      20,
+      20
+    ],
+    "milestone_status_counts": {
+      "done": 8,
+      "partial": 6,
+      "todo": 2
+    },
+    "engineering_progress_pct": 68.75,
+    "strict_completed_items_pct": 50,
+    "not_a_course_grade": true
+  },
+  "checks": {
+    "node_javascript_syntax": "PASS",
+    "local_http_evidence_links": "16/16 PASS",
+    "desktop_1440_no_horizontal_page_overflow": "PASS",
+    "mobile_375_no_horizontal_page_overflow": "PASS",
+    "metric_switch_session_values": "PASS",
+    "rubric_pending_filter_16_of_22": "PASS",
+    "milestone_expand_16_items": "PASS",
+    "calculation_method_expand": "PASS",
+    "embedded_data_no_external_dependencies": "PASS"
+  },
+  "verification_limits": [
+    "Preview tested through localhost HTTP. Direct file navigation was blocked by the preview browser protocol policy; no workaround attempted.",
+    "Print CSS and native print button provided; no separate PDF rendered."
+  ],
+  "preview": "5-技术报告/成果页预览.jpg"
+}

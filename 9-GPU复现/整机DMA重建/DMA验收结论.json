@@ -1,0 +1,18 @@
+{
+  "status": "RECONSTRUCTED_GPU_DMA_FUNCTIONAL_PASS",
+  "date": "2026-11-08",
+  "dma_cases": 3,
+  "dma_seeds_per_case": 10,
+  "dma_records_passed": 30,
+  "normal_controls_golden_matched": 3,
+  "sram_functional_model_shapes": 4,
+  "reachable_sram_instances": 37,
+  "sram_model_checks": 2272,
+  "hardware_scope": "fresh SRAM-macro-bound Vortex core + real command/memory fault adapters + external memory bridge",
+  "teacher_physical_identity": false,
+  "physical_signoff": false,
+  "formal_baseline": false,
+  "overall_release": "HOLD",
+  "evidence": "dma-event-qualification.json",
+  "no_mixing_with_old_simx": "Old 970/1000 SimX results are not combined with these 30 records into a formal baseline."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "FAILED",
+  "source_url": "https://github.com/RTimothyEdwards/magic/tree/8.3.306",
+  "source_sha256": "1cfd782198a5b0384712523e7e7ef89ca4e5e3446006fbfa04420aa944bf743e",
+  "error": "CalledProcessError: Command '['make', '-j2']' returned non-zero exit status 2.",
+  "seconds": 57.90861095900004,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794462143.545858,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2946406668\nuser_usec 2908663870\nsystem_usec 37742798\nnice_usec 0\nnr_periods 18007\nnr_throttled 89\nthrottled_usec 344104\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1054347264",
+      "memory.peak": "1118085120",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "406\n1231\n2572\n5635\n11537\n13303\n13338"
+    }
+  }
+}

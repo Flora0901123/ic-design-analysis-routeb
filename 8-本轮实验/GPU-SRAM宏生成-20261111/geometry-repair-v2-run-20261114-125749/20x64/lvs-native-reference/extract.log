@@ -1,0 +1,1063 @@
+Sat Nov 14 13:59:08 CST 2026: Starting GDS to MAG using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic
+
+Magic 8.3 revision 306 - Compiled on Thu Nov 12 13:42:28 CST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.291-63-ge829452
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 5.0
+Library name: DEFAULT.DB
+Reading "routeb_new_1w1r_20x64".
+Reading "routeb_new_1w1r_20x64_bank".
+Reading "routeb_new_1w1r_20x64_capped_replica_bitcell_array".
+Reading "routeb_new_1w1r_20x64_replica_bitcell_array".
+Reading "routeb_new_1w1r_20x64_bitcell_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 1887200): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 1890976): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 1895168): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 1901696): Unknown layer/datatype in boundary, layer=22 type=22
+CIF file read warning: CIF style sky130(vendor): units rescaled by factor of 5 / 1
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 1906080): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "routeb_new_1w1r_20x64_replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 1973884): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 1977660): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 1981852): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 1988380): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 1992764): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2001954): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2005730): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2009922): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2014786): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 2019042): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "routeb_new_1w1r_20x64_replica_column_0".
+Reading "routeb_new_1w1r_20x64_dummy_array".
+Reading "routeb_new_1w1r_20x64_col_cap_array_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "routeb_new_1w1r_20x64_col_cap_array".
+Reading "routeb_new_1w1r_20x64_row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2200080): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2200784): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2201808): Unknown layer/datatype in boundary, layer=22 type=21
+Reading "routeb_new_1w1r_20x64_row_cap_array_0".
+Reading "routeb_new_1w1r_20x64_contact_7".
+Saving contents of cell routeb_new_1w1r_20x64_contact_7
+Reading "routeb_new_1w1r_20x64_contact_8".
+Saving contents of cell routeb_new_1w1r_20x64_contact_8
+Reading "routeb_new_1w1r_20x64_port_data".
+Reading "routeb_new_1w1r_20x64_precharge_array".
+Reading "routeb_new_1w1r_20x64_precharge_0".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w0_550_sli_dli".
+Reading "routeb_new_1w1r_20x64_contact_11".
+Saving contents of cell routeb_new_1w1r_20x64_contact_11
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m1_w0_550_sli_dli
+Reading "routeb_new_1w1r_20x64_contact_15".
+Saving contents of cell routeb_new_1w1r_20x64_contact_15
+Reading "routeb_new_1w1r_20x64_contact_13".
+Saving contents of cell routeb_new_1w1r_20x64_contact_13
+Reading "routeb_new_1w1r_20x64_contact_18".
+Saving contents of cell routeb_new_1w1r_20x64_contact_18
+Reading "routeb_new_1w1r_20x64_contact_12".
+Saving contents of cell routeb_new_1w1r_20x64_contact_12
+Reading "routeb_new_1w1r_20x64_contact_23".
+Saving contents of cell routeb_new_1w1r_20x64_contact_23
+Error while reading cell "routeb_new_1w1r_20x64_precharge_0" (byte position 2296322): Warning:  Cell routeb_new_1w1r_20x64_precharge_0 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_contact_21".
+Saving contents of cell routeb_new_1w1r_20x64_contact_21
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array" (byte position 2293818): Warning:  Cell routeb_new_1w1r_20x64_precharge_array boundary was redefined.
+Reading "routeb_new_1w1r_20x64_write_driver_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "routeb_new_1w1r_20x64_port_data_0".
+Reading "routeb_new_1w1r_20x64_precharge_array_0".
+Reading "routeb_new_1w1r_20x64_precharge_1".
+Error while reading cell "routeb_new_1w1r_20x64_precharge_1" (byte position 2393996): Warning:  Cell routeb_new_1w1r_20x64_precharge_1 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_precharge_array_0" (byte position 2391492): Warning:  Cell routeb_new_1w1r_20x64_precharge_array_0 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_sense_amp_array".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "routeb_new_1w1r_20x64_port_address".
+Reading "routeb_new_1w1r_20x64_hierarchical_decoder".
+Reading "routeb_new_1w1r_20x64_hierarchical_predecode2x4".
+Reading "routeb_new_1w1r_20x64_pinv_dec".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_360_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_contact_10".
+Saving contents of cell routeb_new_1w1r_20x64_contact_10
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w0_360_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_contact_14".
+Saving contents of cell routeb_new_1w1r_20x64_contact_14
+Error while reading cell "routeb_new_1w1r_20x64_pinv_dec" (byte position 2663024): Warning:  Cell routeb_new_1w1r_20x64_pinv_dec boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_dec" (byte position 2663024): Warning:  Cell routeb_new_1w1r_20x64_pinv_dec boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_dec" (byte position 2663024): Warning:  Cell routeb_new_1w1r_20x64_pinv_dec boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_dec" (byte position 2663024): Warning:  Cell routeb_new_1w1r_20x64_pinv_dec boundary was redefined.
+Reading "routeb_new_1w1r_20x64_and2_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "routeb_new_1w1r_20x64_contact_16".
+Saving contents of cell routeb_new_1w1r_20x64_contact_16
+Reading "routeb_new_1w1r_20x64_contact_19".
+Saving contents of cell routeb_new_1w1r_20x64_contact_19
+Reading "routeb_new_1w1r_20x64_contact_20".
+Saving contents of cell routeb_new_1w1r_20x64_contact_20
+Reading "routeb_new_1w1r_20x64_and3_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "routeb_new_1w1r_20x64_contact_22".
+Saving contents of cell routeb_new_1w1r_20x64_contact_22
+Reading "routeb_new_1w1r_20x64_wordline_driver_array".
+Reading "routeb_new_1w1r_20x64_wordline_driver".
+Reading "routeb_new_1w1r_20x64_pinv_dec_0".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w7_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m1_w7_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m1_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w2_000_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_dec_0" (byte position 2795730): Warning:  Cell routeb_new_1w1r_20x64_pinv_dec_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_dec_0" (byte position 2795730): Warning:  Cell routeb_new_1w1r_20x64_pinv_dec_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_dec_0" (byte position 2795730): Warning:  Cell routeb_new_1w1r_20x64_pinv_dec_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_dec_0" (byte position 2795730): Warning:  Cell routeb_new_1w1r_20x64_pinv_dec_0 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_and2_dec_0".
+Error while reading cell "routeb_new_1w1r_20x64_port_address" (byte position 2488918): Warning:  Cell routeb_new_1w1r_20x64_port_address boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_port_address" (byte position 2488918): Warning:  Cell routeb_new_1w1r_20x64_port_address boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_port_address" (byte position 2488918): Warning:  Cell routeb_new_1w1r_20x64_port_address boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_port_address" (byte position 2488918): Warning:  Cell routeb_new_1w1r_20x64_port_address boundary was redefined.
+Reading "routeb_new_1w1r_20x64_port_address_0".
+Error while reading cell "routeb_new_1w1r_20x64_port_address_0" (byte position 2844616): Warning:  Cell routeb_new_1w1r_20x64_port_address_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_port_address_0" (byte position 2844616): Warning:  Cell routeb_new_1w1r_20x64_port_address_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_port_address_0" (byte position 2844616): Warning:  Cell routeb_new_1w1r_20x64_port_address_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_port_address_0" (byte position 2844616): Warning:  Cell routeb_new_1w1r_20x64_port_address_0 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_control_logic_w".
+Reading "routeb_new_1w1r_20x64_dff_buf_array".
+Reading "routeb_new_1w1r_20x64_dff_buf_0".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "routeb_new_1w1r_20x64_pinv".
+Reading "routeb_new_1w1r_20x64_pmos_m2_w1_260_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m2_w1_260_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m2_w0_740_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m2_w0_740_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_contact_24".
+Saving contents of cell routeb_new_1w1r_20x64_contact_24
+Reading "routeb_new_1w1r_20x64_contact_25".
+Saving contents of cell routeb_new_1w1r_20x64_contact_25
+Error while reading cell "routeb_new_1w1r_20x64_pinv" (byte position 2889558): Warning:  Cell routeb_new_1w1r_20x64_pinv boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv" (byte position 2889558): Warning:  Cell routeb_new_1w1r_20x64_pinv boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv" (byte position 2889558): Warning:  Cell routeb_new_1w1r_20x64_pinv boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pinv_0".
+Reading "routeb_new_1w1r_20x64_pmos_m3_w1_680_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m3_w1_680_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m3_w1_680_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m3_w1_680_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_0" (byte position 2894764): Warning:  Cell routeb_new_1w1r_20x64_pinv_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_0" (byte position 2894764): Warning:  Cell routeb_new_1w1r_20x64_pinv_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_0" (byte position 2894764): Warning:  Cell routeb_new_1w1r_20x64_pinv_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_dff_buf_array" (byte position 2865088): Warning:  Cell routeb_new_1w1r_20x64_dff_buf_array boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_dff_buf_array" (byte position 2865088): Warning:  Cell routeb_new_1w1r_20x64_dff_buf_array boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pdriver_0".
+Reading "routeb_new_1w1r_20x64_pinv_4".
+Error while reading cell "routeb_new_1w1r_20x64_pinv_4" (byte position 2901258): Warning:  Cell routeb_new_1w1r_20x64_pinv_4 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_4" (byte position 2901258): Warning:  Cell routeb_new_1w1r_20x64_pinv_4 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_4" (byte position 2901258): Warning:  Cell routeb_new_1w1r_20x64_pinv_4 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pinv_5".
+Error while reading cell "routeb_new_1w1r_20x64_pinv_5" (byte position 2903256): Warning:  Cell routeb_new_1w1r_20x64_pinv_5 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_5" (byte position 2903256): Warning:  Cell routeb_new_1w1r_20x64_pinv_5 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_5" (byte position 2903256): Warning:  Cell routeb_new_1w1r_20x64_pinv_5 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pinv_6".
+Reading "routeb_new_1w1r_20x64_pmos_m3_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m3_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m3_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m3_w2_000_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_6" (byte position 2905254): Warning:  Cell routeb_new_1w1r_20x64_pinv_6 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_6" (byte position 2905254): Warning:  Cell routeb_new_1w1r_20x64_pinv_6 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_6" (byte position 2905254): Warning:  Cell routeb_new_1w1r_20x64_pinv_6 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pinv_7".
+Reading "routeb_new_1w1r_20x64_pmos_m9_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m9_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m9_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m9_w2_000_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_7" (byte position 2910384): Warning:  Cell routeb_new_1w1r_20x64_pinv_7 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_7" (byte position 2910384): Warning:  Cell routeb_new_1w1r_20x64_pinv_7 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_7" (byte position 2910384): Warning:  Cell routeb_new_1w1r_20x64_pinv_7 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pinv_8".
+Reading "routeb_new_1w1r_20x64_pmos_m26_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m26_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m26_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m26_w2_000_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_8" (byte position 2919210): Warning:  Cell routeb_new_1w1r_20x64_pinv_8 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_8" (byte position 2919210): Warning:  Cell routeb_new_1w1r_20x64_pinv_8 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_8" (byte position 2919210): Warning:  Cell routeb_new_1w1r_20x64_pinv_8 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pinv_13".
+Error while reading cell "routeb_new_1w1r_20x64_pinv_13" (byte position 2933626): Warning:  Cell routeb_new_1w1r_20x64_pinv_13 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_13" (byte position 2933626): Warning:  Cell routeb_new_1w1r_20x64_pinv_13 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_13" (byte position 2933626): Warning:  Cell routeb_new_1w1r_20x64_pinv_13 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pand2".
+Reading "routeb_new_1w1r_20x64_pnand2".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sli_dactive".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w0_740_sli_dactive
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dli".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dli
+Error while reading cell "routeb_new_1w1r_20x64_pnand2" (byte position 2937436): Warning:  Cell routeb_new_1w1r_20x64_pnand2 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pnand2" (byte position 2937436): Warning:  Cell routeb_new_1w1r_20x64_pnand2 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pnand2" (byte position 2937436): Warning:  Cell routeb_new_1w1r_20x64_pnand2 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pdriver".
+Reading "routeb_new_1w1r_20x64_pinv_1".
+Reading "routeb_new_1w1r_20x64_pmos_m7_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m7_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m7_w1_680_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m7_w1_680_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_1" (byte position 2943190): Warning:  Cell routeb_new_1w1r_20x64_pinv_1 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_1" (byte position 2943190): Warning:  Cell routeb_new_1w1r_20x64_pinv_1 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_1" (byte position 2943190): Warning:  Cell routeb_new_1w1r_20x64_pinv_1 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pdriver_1".
+Reading "routeb_new_1w1r_20x64_pinv_9".
+Reading "routeb_new_1w1r_20x64_pmos_m4_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m4_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m4_w1_260_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m4_w1_260_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_9" (byte position 2951022): Warning:  Cell routeb_new_1w1r_20x64_pinv_9 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_9" (byte position 2951022): Warning:  Cell routeb_new_1w1r_20x64_pinv_9 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_9" (byte position 2951022): Warning:  Cell routeb_new_1w1r_20x64_pinv_9 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pinv_10".
+Reading "routeb_new_1w1r_20x64_pmos_m12_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m12_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m12_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m12_w2_000_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_10" (byte position 2956878): Warning:  Cell routeb_new_1w1r_20x64_pinv_10 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_10" (byte position 2956878): Warning:  Cell routeb_new_1w1r_20x64_pinv_10 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_10" (byte position 2956878): Warning:  Cell routeb_new_1w1r_20x64_pinv_10 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pand3".
+Reading "routeb_new_1w1r_20x64_pnand3".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dactive".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dactive
+Error while reading cell "routeb_new_1w1r_20x64_pnand3" (byte position 2967860): Warning:  Cell routeb_new_1w1r_20x64_pnand3 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pnand3" (byte position 2967860): Warning:  Cell routeb_new_1w1r_20x64_pnand3 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pnand3" (byte position 2967860): Warning:  Cell routeb_new_1w1r_20x64_pnand3 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pdriver_2".
+Reading "routeb_new_1w1r_20x64_pinv_11".
+Reading "routeb_new_1w1r_20x64_pmos_m16_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m16_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m16_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m16_w2_000_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_11" (byte position 2972500): Warning:  Cell routeb_new_1w1r_20x64_pinv_11 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_11" (byte position 2972500): Warning:  Cell routeb_new_1w1r_20x64_pinv_11 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_11" (byte position 2972500): Warning:  Cell routeb_new_1w1r_20x64_pinv_11 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_delay_chain".
+Reading "routeb_new_1w1r_20x64_pinv_14".
+Error while reading cell "routeb_new_1w1r_20x64_pinv_14" (byte position 3013460): Warning:  Cell routeb_new_1w1r_20x64_pinv_14 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_14" (byte position 3013460): Warning:  Cell routeb_new_1w1r_20x64_pinv_14 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_14" (byte position 3013460): Warning:  Cell routeb_new_1w1r_20x64_pinv_14 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_delay_chain" (byte position 3011588): Warning:  Cell routeb_new_1w1r_20x64_delay_chain boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_delay_chain" (byte position 3011588): Warning:  Cell routeb_new_1w1r_20x64_delay_chain boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_delay_chain" (byte position 3011588): Warning:  Cell routeb_new_1w1r_20x64_delay_chain boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_delay_chain" (byte position 3011588): Warning:  Cell routeb_new_1w1r_20x64_delay_chain boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_delay_chain" (byte position 3011588): Warning:  Cell routeb_new_1w1r_20x64_delay_chain boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_delay_chain" (byte position 3011588): Warning:  Cell routeb_new_1w1r_20x64_delay_chain boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_delay_chain" (byte position 3011588): Warning:  Cell routeb_new_1w1r_20x64_delay_chain boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pnand2_0".
+Error while reading cell "routeb_new_1w1r_20x64_pnand2_0" (byte position 3016350): Warning:  Cell routeb_new_1w1r_20x64_pnand2_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pnand2_0" (byte position 3016350): Warning:  Cell routeb_new_1w1r_20x64_pnand2_0 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pnand2_0" (byte position 3016350): Warning:  Cell routeb_new_1w1r_20x64_pnand2_0 boundary was redefined.
+Reading "routeb_new_1w1r_20x64_pdriver_4".
+Reading "routeb_new_1w1r_20x64_contact_27".
+Saving contents of cell routeb_new_1w1r_20x64_contact_27
+Error while reading cell "routeb_new_1w1r_20x64_control_logic_w" (byte position 2863016): Warning:  Cell routeb_new_1w1r_20x64_control_logic_w boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_control_logic_w" (byte position 2863016): Warning:  Cell routeb_new_1w1r_20x64_control_logic_w boundary was redefined.
+Reading "routeb_new_1w1r_20x64_control_logic_r".
+Reading "routeb_new_1w1r_20x64_pand3_0".
+Reading "routeb_new_1w1r_20x64_pdriver_3".
+Reading "routeb_new_1w1r_20x64_pinv_12".
+Reading "routeb_new_1w1r_20x64_pmos_m11_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m11_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m11_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m11_w2_000_sli_dli_da_p
+Error while reading cell "routeb_new_1w1r_20x64_pinv_12" (byte position 3039758): Warning:  Cell routeb_new_1w1r_20x64_pinv_12 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_12" (byte position 3039758): Warning:  Cell routeb_new_1w1r_20x64_pinv_12 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_pinv_12" (byte position 3039758): Warning:  Cell routeb_new_1w1r_20x64_pinv_12 boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_control_logic_r" (byte position 3034948): Warning:  Cell routeb_new_1w1r_20x64_control_logic_r boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_control_logic_r" (byte position 3034948): Warning:  Cell routeb_new_1w1r_20x64_control_logic_r boundary was redefined.
+Reading "routeb_new_1w1r_20x64_row_addr_dff".
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_row_addr_dff" (byte position 3054496): Warning:  Cell routeb_new_1w1r_20x64_row_addr_dff boundary was redefined.
+Reading "routeb_new_1w1r_20x64_data_dff".
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Error while reading cell "routeb_new_1w1r_20x64_data_dff" (byte position 3070524): Warning:  Cell routeb_new_1w1r_20x64_data_dff boundary was redefined.
+Reading "routeb_new_1w1r_20x64_cr_1".
+Reading "routeb_new_1w1r_20x64_contact_33".
+Reading "routeb_new_1w1r_20x64_bank".
+Reading "routeb_new_1w1r_20x64_capped_replica_bitcell_array".
+Reading "routeb_new_1w1r_20x64_replica_bitcell_array".
+Reading "routeb_new_1w1r_20x64_bitcell_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Reading "routeb_new_1w1r_20x64_replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Reading "routeb_new_1w1r_20x64_replica_column_0".
+Reading "routeb_new_1w1r_20x64_dummy_array".
+Reading "routeb_new_1w1r_20x64_col_cap_array_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "routeb_new_1w1r_20x64_col_cap_array".
+Reading "routeb_new_1w1r_20x64_row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Reading "routeb_new_1w1r_20x64_row_cap_array_0".
+Reading "routeb_new_1w1r_20x64_contact_7".
+Reading "routeb_new_1w1r_20x64_contact_8".
+Reading "routeb_new_1w1r_20x64_port_data".
+Reading "routeb_new_1w1r_20x64_precharge_array".
+Reading "routeb_new_1w1r_20x64_precharge_0".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w0_550_sli_dli".
+Reading "routeb_new_1w1r_20x64_contact_11".
+Reading "routeb_new_1w1r_20x64_contact_15".
+Reading "routeb_new_1w1r_20x64_contact_13".
+Reading "routeb_new_1w1r_20x64_contact_18".
+Reading "routeb_new_1w1r_20x64_contact_12".
+Reading "routeb_new_1w1r_20x64_contact_23".
+Reading "routeb_new_1w1r_20x64_contact_21".
+Reading "routeb_new_1w1r_20x64_write_driver_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "routeb_new_1w1r_20x64_port_data_0".
+Reading "routeb_new_1w1r_20x64_precharge_array_0".
+Reading "routeb_new_1w1r_20x64_precharge_1".
+Reading "routeb_new_1w1r_20x64_sense_amp_array".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "routeb_new_1w1r_20x64_port_address".
+Reading "routeb_new_1w1r_20x64_hierarchical_decoder".
+Reading "routeb_new_1w1r_20x64_hierarchical_predecode2x4".
+Reading "routeb_new_1w1r_20x64_pinv_dec".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_360_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_contact_10".
+Reading "routeb_new_1w1r_20x64_contact_14".
+Reading "routeb_new_1w1r_20x64_and2_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "routeb_new_1w1r_20x64_contact_16".
+Reading "routeb_new_1w1r_20x64_contact_19".
+Reading "routeb_new_1w1r_20x64_contact_20".
+Reading "routeb_new_1w1r_20x64_and3_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "routeb_new_1w1r_20x64_contact_22".
+Reading "routeb_new_1w1r_20x64_wordline_driver_array".
+Reading "routeb_new_1w1r_20x64_wordline_driver".
+Reading "routeb_new_1w1r_20x64_pinv_dec_0".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w7_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_and2_dec_0".
+Reading "routeb_new_1w1r_20x64_port_address_0".
+Reading "routeb_new_1w1r_20x64_control_logic_w".
+Reading "routeb_new_1w1r_20x64_dff_buf_array".
+Reading "routeb_new_1w1r_20x64_dff_buf_0".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "routeb_new_1w1r_20x64_pinv".
+Reading "routeb_new_1w1r_20x64_pmos_m2_w1_260_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m2_w0_740_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_contact_24".
+Reading "routeb_new_1w1r_20x64_contact_25".
+Reading "routeb_new_1w1r_20x64_pinv_0".
+Reading "routeb_new_1w1r_20x64_pmos_m3_w1_680_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m3_w1_680_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pdriver_0".
+Reading "routeb_new_1w1r_20x64_pinv_4".
+Reading "routeb_new_1w1r_20x64_pinv_5".
+Reading "routeb_new_1w1r_20x64_pinv_6".
+Reading "routeb_new_1w1r_20x64_pmos_m3_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m3_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pinv_7".
+Reading "routeb_new_1w1r_20x64_pmos_m9_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m9_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pinv_8".
+Reading "routeb_new_1w1r_20x64_pmos_m26_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m26_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pinv_13".
+Reading "routeb_new_1w1r_20x64_pand2".
+Reading "routeb_new_1w1r_20x64_pnand2".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sli_dactive".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dli".
+Reading "routeb_new_1w1r_20x64_pdriver".
+Reading "routeb_new_1w1r_20x64_pinv_1".
+Reading "routeb_new_1w1r_20x64_pmos_m7_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m7_w1_680_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pdriver_1".
+Reading "routeb_new_1w1r_20x64_pinv_9".
+Reading "routeb_new_1w1r_20x64_pmos_m4_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m4_w1_260_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pinv_10".
+Reading "routeb_new_1w1r_20x64_pmos_m12_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m12_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pand3".
+Reading "routeb_new_1w1r_20x64_pnand3".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dactive".
+Reading "routeb_new_1w1r_20x64_pdriver_2".
+Reading "routeb_new_1w1r_20x64_pinv_11".
+Reading "routeb_new_1w1r_20x64_pmos_m16_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m16_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_delay_chain".
+Reading "routeb_new_1w1r_20x64_pinv_14".
+Reading "routeb_new_1w1r_20x64_pnand2_0".
+Reading "routeb_new_1w1r_20x64_pdriver_4".
+Reading "routeb_new_1w1r_20x64_contact_27".
+Reading "routeb_new_1w1r_20x64_control_logic_r".
+Reading "routeb_new_1w1r_20x64_pand3_0".
+Reading "routeb_new_1w1r_20x64_pdriver_3".
+Reading "routeb_new_1w1r_20x64_pinv_12".
+Reading "routeb_new_1w1r_20x64_pmos_m11_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m11_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_row_addr_dff".
+Reading "routeb_new_1w1r_20x64_data_dff".
+Reading "routeb_new_1w1r_20x64_cr_1".
+Reading "routeb_new_1w1r_20x64_contact_33".
+Finished reading gds routeb_new_1w1r_20x64.gds
+Finished loading cell routeb_new_1w1r_20x64
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m16_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_hierarchical_decoder'
+Writing 'routeb_new_1w1r_20x64_nmos_m2_w0_740_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_dummy_array'
+Writing 'routeb_new_1w1r_20x64_pinv_10'
+Writing 'routeb_new_1w1r_20x64_and2_dec'
+Writing 'routeb_new_1w1r_20x64_precharge_array_0'
+Writing 'routeb_new_1w1r_20x64_pand3_0'
+Writing 'routeb_new_1w1r_20x64_pinv_11'
+Writing 'routeb_new_1w1r_20x64_pinv_12'
+Writing 'routeb_new_1w1r_20x64_contact_7'
+Writing 'sky130_fd_bd_sram__openram_dp_cell'
+Writing 'routeb_new_1w1r_20x64_pmos_m11_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_nmos_m7_w1_680_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_13'
+Writing 'routeb_new_1w1r_20x64_pinv'
+Writing 'routeb_new_1w1r_20x64_contact_8'
+Writing 'routeb_new_1w1r_20x64_pinv_14'
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dli'
+Writing 'routeb_new_1w1r_20x64_pand2'
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w0_360_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pdriver_0'
+Writing 'routeb_new_1w1r_20x64_row_cap_array_0'
+Writing 'routeb_new_1w1r_20x64_pand3'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_cap_col'
+Writing 'routeb_new_1w1r_20x64_pdriver_1'
+Writing 'routeb_new_1w1r_20x64_dff_buf_0'
+Writing 'routeb_new_1w1r_20x64_port_data_0'
+Writing 'routeb_new_1w1r_20x64'
+Writing 'routeb_new_1w1r_20x64_pdriver_2'
+Writing 'sky130_fd_bd_sram__openram_dff'
+Writing 'routeb_new_1w1r_20x64_pdriver_3'
+Writing 'routeb_new_1w1r_20x64_row_cap_array'
+Writing 'routeb_new_1w1r_20x64_col_cap_array'
+Writing 'routeb_new_1w1r_20x64_pdriver_4'
+Writing 'routeb_new_1w1r_20x64_pmos_m12_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_cr_1'
+Writing 'routeb_new_1w1r_20x64_bitcell_array'
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dactive'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_cap_row'
+Writing 'routeb_new_1w1r_20x64_capped_replica_bitcell_array'
+Writing 'routeb_new_1w1r_20x64_nmos_m3_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_0'
+Writing 'routeb_new_1w1r_20x64_nmos_m4_w1_260_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_nmos_m16_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_1'
+Writing 'routeb_new_1w1r_20x64_nmos_m3_w1_680_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_wordline_driver'
+Writing 'routeb_new_1w1r_20x64_nmos_m9_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m1_w7_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_precharge_0'
+Writing 'routeb_new_1w1r_20x64_bank'
+Writing 'routeb_new_1w1r_20x64_pmos_m2_w1_260_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_precharge_1'
+Writing 'routeb_new_1w1r_20x64_pinv_4'
+Writing 'routeb_new_1w1r_20x64_nmos_m11_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m7_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_5'
+Writing 'routeb_new_1w1r_20x64_port_data'
+Writing 'routeb_new_1w1r_20x64_pmos_m26_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_contact_20'
+Writing 'routeb_new_1w1r_20x64_pinv_6'
+Writing 'routeb_new_1w1r_20x64_port_address_0'
+Writing 'routeb_new_1w1r_20x64_contact_10'
+Writing 'routeb_new_1w1r_20x64_contact_21'
+Writing 'routeb_new_1w1r_20x64_pinv_7'
+Writing 'routeb_new_1w1r_20x64_hierarchical_predecode2x4'
+Writing 'routeb_new_1w1r_20x64_contact_33'
+Writing 'routeb_new_1w1r_20x64_contact_22'
+Writing 'sky130_fd_bd_sram__openram_dp_nand3_dec'
+Writing 'routeb_new_1w1r_20x64_contact_11'
+Writing 'routeb_new_1w1r_20x64_pinv_8'
+Writing 'routeb_new_1w1r_20x64_contact_23'
+Writing 'routeb_new_1w1r_20x64_contact_12'
+Writing 'routeb_new_1w1r_20x64_pinv_9'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_replica'
+Writing 'routeb_new_1w1r_20x64_contact_24'
+Writing 'routeb_new_1w1r_20x64_contact_13'
+Writing 'routeb_new_1w1r_20x64_replica_column_0'
+Writing 'routeb_new_1w1r_20x64_row_addr_dff'
+Writing 'routeb_new_1w1r_20x64_control_logic_r'
+Writing 'routeb_new_1w1r_20x64_delay_chain'
+Writing 'routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli'
+Writing 'routeb_new_1w1r_20x64_contact_25'
+Writing 'routeb_new_1w1r_20x64_contact_14'
+Writing 'routeb_new_1w1r_20x64_nmos_m12_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pnand2'
+Writing 'routeb_new_1w1r_20x64_contact_15'
+Writing 'routeb_new_1w1r_20x64_contact_27'
+Writing 'routeb_new_1w1r_20x64_pnand3'
+Writing 'routeb_new_1w1r_20x64_dff_buf_array'
+Writing 'routeb_new_1w1r_20x64_wordline_driver_array'
+Writing 'routeb_new_1w1r_20x64_contact_16'
+Writing 'routeb_new_1w1r_20x64_sense_amp_array'
+Writing 'routeb_new_1w1r_20x64_write_driver_array'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_dummy'
+Writing 'routeb_new_1w1r_20x64_and2_dec_0'
+Writing 'routeb_new_1w1r_20x64_data_dff'
+Writing 'routeb_new_1w1r_20x64_and3_dec'
+Writing 'routeb_new_1w1r_20x64_pmos_m3_w2_000_sli_dli_da_p'
+Writing 'sky130_fd_bd_sram__openram_write_driver'
+Writing 'routeb_new_1w1r_20x64_contact_18'
+Writing 'routeb_new_1w1r_20x64_precharge_array'
+Writing 'routeb_new_1w1r_20x64_control_logic_w'
+Writing 'routeb_new_1w1r_20x64_contact_19'
+Writing 'routeb_new_1w1r_20x64_pdriver'
+Writing 'routeb_new_1w1r_20x64_pmos_m3_w1_680_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m1_w0_550_sli_dli'
+Writing 'routeb_new_1w1r_20x64_pmos_m9_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_replica_column'
+Writing 'sky130_fd_bd_sram__openram_dp_nand2_dec'
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w0_740_sli_dactive'
+Writing 'routeb_new_1w1r_20x64_nmos_m26_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_dec_0'
+Writing 'routeb_new_1w1r_20x64_port_address'
+Writing 'routeb_new_1w1r_20x64_pnand2_0'
+Writing 'sky130_fd_bd_sram__openram_sense_amp'
+Writing 'routeb_new_1w1r_20x64_replica_bitcell_array'
+Writing 'routeb_new_1w1r_20x64_pmos_m4_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_dec'
+Writing 'routeb_new_1w1r_20x64_col_cap_array_0'
+Annotating port orders from routeb_new_1w1r_20x64.sp
+Annotating cell routeb_new_1w1r_20x64_pinv_4
+Cell routeb_new_1w1r_20x64_pinv_4 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_7
+Cell routeb_new_1w1r_20x64_pinv_7 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_8
+Cell routeb_new_1w1r_20x64_pinv_8 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_5
+Cell routeb_new_1w1r_20x64_pinv_5 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_6
+Cell routeb_new_1w1r_20x64_pinv_6 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_0
+Cell routeb_new_1w1r_20x64_pdriver_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_1
+Cell routeb_new_1w1r_20x64_pinv_1 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver
+Cell routeb_new_1w1r_20x64_pdriver port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pnand2
+Cell routeb_new_1w1r_20x64_pnand2 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pand2
+Cell routeb_new_1w1r_20x64_pand2 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pnand2_0
+Cell routeb_new_1w1r_20x64_pnand2_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv
+Cell routeb_new_1w1r_20x64_pinv port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dff
+Cell sky130_fd_bd_sram__openram_dff port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_0
+Cell routeb_new_1w1r_20x64_pinv_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_dff_buf_0
+Cell routeb_new_1w1r_20x64_dff_buf_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_dff_buf_array
+Cell routeb_new_1w1r_20x64_dff_buf_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_13
+Cell routeb_new_1w1r_20x64_pinv_13 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_9
+Cell routeb_new_1w1r_20x64_pinv_9 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_4
+Cell routeb_new_1w1r_20x64_pdriver_4 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pnand3
+Cell routeb_new_1w1r_20x64_pnand3 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_11
+Cell routeb_new_1w1r_20x64_pinv_11 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_2
+Cell routeb_new_1w1r_20x64_pdriver_2 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pand3
+Cell routeb_new_1w1r_20x64_pand3 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_10
+Cell routeb_new_1w1r_20x64_pinv_10 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_1
+Cell routeb_new_1w1r_20x64_pdriver_1 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_14
+Cell routeb_new_1w1r_20x64_pinv_14 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_delay_chain
+Cell routeb_new_1w1r_20x64_delay_chain port order was modified.
+Annotating cell routeb_new_1w1r_20x64_control_logic_w
+Cell routeb_new_1w1r_20x64_control_logic_w port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_12
+Cell routeb_new_1w1r_20x64_pinv_12 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_3
+Cell routeb_new_1w1r_20x64_pdriver_3 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pand3_0
+Cell routeb_new_1w1r_20x64_pand3_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_control_logic_r
+Cell routeb_new_1w1r_20x64_control_logic_r port order was modified.
+Annotating cell routeb_new_1w1r_20x64_data_dff
+Cell routeb_new_1w1r_20x64_data_dff port order was modified.
+Annotating cell routeb_new_1w1r_20x64_row_addr_dff
+Cell routeb_new_1w1r_20x64_row_addr_dff port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_nand2_dec
+Cell sky130_fd_bd_sram__openram_dp_nand2_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_dec_0
+Cell routeb_new_1w1r_20x64_pinv_dec_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_and2_dec_0
+Cell routeb_new_1w1r_20x64_and2_dec_0 port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_nand3_dec
+Cell sky130_fd_bd_sram__openram_dp_nand3_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_dec
+Cell routeb_new_1w1r_20x64_pinv_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_and3_dec
+Cell routeb_new_1w1r_20x64_and3_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_and2_dec
+Cell routeb_new_1w1r_20x64_and2_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_hierarchical_predecode2x4
+Annotating cell routeb_new_1w1r_20x64_hierarchical_decoder
+Annotating cell routeb_new_1w1r_20x64_wordline_driver
+Cell routeb_new_1w1r_20x64_wordline_driver port order was modified.
+Annotating cell routeb_new_1w1r_20x64_wordline_driver_array
+Cell routeb_new_1w1r_20x64_wordline_driver_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_port_address
+Cell routeb_new_1w1r_20x64_port_address port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_sense_amp
+Cell sky130_fd_bd_sram__openram_sense_amp port order was modified.
+Annotating cell routeb_new_1w1r_20x64_sense_amp_array
+Cell routeb_new_1w1r_20x64_sense_amp_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_precharge_1
+Cell routeb_new_1w1r_20x64_precharge_1 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_precharge_array_0
+Cell routeb_new_1w1r_20x64_precharge_array_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_port_data_0
+Cell routeb_new_1w1r_20x64_port_data_0 port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell_dummy
+Cell sky130_fd_bd_sram__openram_dp_cell_dummy port order was modified.
+Annotating cell routeb_new_1w1r_20x64_dummy_array
+Cell routeb_new_1w1r_20x64_dummy_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell
+Cell sky130_fd_bd_sram__openram_dp_cell port order was modified.
+Annotating cell routeb_new_1w1r_20x64_bitcell_array
+Cell routeb_new_1w1r_20x64_bitcell_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell_replica
+Cell sky130_fd_bd_sram__openram_dp_cell_replica port order was modified.
+Annotating cell routeb_new_1w1r_20x64_replica_column_0
+Cell routeb_new_1w1r_20x64_replica_column_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_replica_column
+Cell routeb_new_1w1r_20x64_replica_column port order was modified.
+Annotating cell routeb_new_1w1r_20x64_replica_bitcell_array
+Cell routeb_new_1w1r_20x64_replica_bitcell_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_capped_replica_bitcell_array
+Cell routeb_new_1w1r_20x64_capped_replica_bitcell_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_write_driver
+Cell sky130_fd_bd_sram__openram_write_driver port order was modified.
+Annotating cell routeb_new_1w1r_20x64_write_driver_array
+Cell routeb_new_1w1r_20x64_write_driver_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_precharge_0
+Cell routeb_new_1w1r_20x64_precharge_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_precharge_array
+Cell routeb_new_1w1r_20x64_precharge_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_port_data
+Cell routeb_new_1w1r_20x64_port_data port order was modified.
+Annotating cell routeb_new_1w1r_20x64_port_address_0
+Cell routeb_new_1w1r_20x64_port_address_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_bank
+Cell routeb_new_1w1r_20x64_bank port order was modified.
+Annotating cell routeb_new_1w1r_20x64
+Cell routeb_new_1w1r_20x64 port order was modified.
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Extraction style is now "ngspice(si)"
+Processing routeb_new_1w1r_20x64_pinv_1
+Processing routeb_new_1w1r_20x64_pdriver
+Processing routeb_new_1w1r_20x64_pnand2
+Processing routeb_new_1w1r_20x64_pand2
+Processing routeb_new_1w1r_20x64_pinv_13
+Processing routeb_new_1w1r_20x64_pinv_8
+Processing routeb_new_1w1r_20x64_pinv_7
+Processing routeb_new_1w1r_20x64_pinv_6
+Processing routeb_new_1w1r_20x64_pinv_5
+Processing routeb_new_1w1r_20x64_pinv_4
+Processing routeb_new_1w1r_20x64_pdriver_0
+Processing routeb_new_1w1r_20x64_pinv_0
+Processing routeb_new_1w1r_20x64_pinv
+Processing sky130_fd_bd_sram__openram_dff
+Processing routeb_new_1w1r_20x64_dff_buf_0
+Processing routeb_new_1w1r_20x64_dff_buf_array
+Processing routeb_new_1w1r_20x64_pinv_11
+Processing routeb_new_1w1r_20x64_pdriver_2
+Processing routeb_new_1w1r_20x64_pnand3
+Processing routeb_new_1w1r_20x64_pand3
+Processing routeb_new_1w1r_20x64_pinv_9
+Processing routeb_new_1w1r_20x64_pdriver_4
+Processing routeb_new_1w1r_20x64_pnand2_0
+Processing routeb_new_1w1r_20x64_pinv_10
+Processing routeb_new_1w1r_20x64_pdriver_1
+Processing routeb_new_1w1r_20x64_pinv_14
+Processing routeb_new_1w1r_20x64_delay_chain
+Processing routeb_new_1w1r_20x64_control_logic_w
+Processing routeb_new_1w1r_20x64_row_addr_dff
+Processing routeb_new_1w1r_20x64_data_dff
+Processing routeb_new_1w1r_20x64_cr_1
+Processing routeb_new_1w1r_20x64_contact_33
+Processing routeb_new_1w1r_20x64_pinv_12
+Processing routeb_new_1w1r_20x64_pdriver_3
+Processing routeb_new_1w1r_20x64_pand3_0
+Processing routeb_new_1w1r_20x64_control_logic_r
+Processing routeb_new_1w1r_20x64_pinv_dec_0
+Processing sky130_fd_bd_sram__openram_dp_nand2_dec
+Processing routeb_new_1w1r_20x64_and2_dec_0
+Processing routeb_new_1w1r_20x64_wordline_driver
+Processing routeb_new_1w1r_20x64_wordline_driver_array
+Processing routeb_new_1w1r_20x64_pinv_dec
+Processing routeb_new_1w1r_20x64_and2_dec
+Processing routeb_new_1w1r_20x64_hierarchical_predecode2x4
+Processing sky130_fd_bd_sram__openram_dp_nand3_dec
+Processing routeb_new_1w1r_20x64_and3_dec
+Processing routeb_new_1w1r_20x64_hierarchical_decoder
+Processing routeb_new_1w1r_20x64_port_address_0
+Processing routeb_new_1w1r_20x64_port_address
+Processing sky130_fd_bd_sram__openram_sense_amp
+Processing routeb_new_1w1r_20x64_sense_amp_array
+Processing routeb_new_1w1r_20x64_precharge_1
+Processing routeb_new_1w1r_20x64_precharge_array_0
+Processing routeb_new_1w1r_20x64_port_data_0
+Processing sky130_fd_bd_sram__openram_write_driver
+Processing routeb_new_1w1r_20x64_write_driver_array
+Processing routeb_new_1w1r_20x64_precharge_0
+Processing routeb_new_1w1r_20x64_precharge_array
+Processing routeb_new_1w1r_20x64_port_data
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_row
+Processing routeb_new_1w1r_20x64_row_cap_array_0
+Processing routeb_new_1w1r_20x64_row_cap_array
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_col
+Processing routeb_new_1w1r_20x64_col_cap_array
+Processing routeb_new_1w1r_20x64_col_cap_array_0
+Processing sky130_fd_bd_sram__openram_dp_cell_dummy
+Processing routeb_new_1w1r_20x64_dummy_array
+Processing sky130_fd_bd_sram__openram_dp_cell_replica
+Processing routeb_new_1w1r_20x64_replica_column_0
+Processing routeb_new_1w1r_20x64_replica_column
+Processing sky130_fd_bd_sram__openram_dp_cell
+Processing routeb_new_1w1r_20x64_bitcell_array
+Processing routeb_new_1w1r_20x64_replica_bitcell_array
+Processing routeb_new_1w1r_20x64_capped_replica_bitcell_array
+Processing routeb_new_1w1r_20x64_bank
+Processing routeb_new_1w1r_20x64
+Extracting routeb_new_1w1r_20x64_pinv_1 into routeb_new_1w1r_20x64_pinv_1.ext:
+Extracting routeb_new_1w1r_20x64_pdriver into routeb_new_1w1r_20x64_pdriver.ext:
+Extracting routeb_new_1w1r_20x64_pnand2 into routeb_new_1w1r_20x64_pnand2.ext:
+Extracting routeb_new_1w1r_20x64_pand2 into routeb_new_1w1r_20x64_pand2.ext:
+Extracting routeb_new_1w1r_20x64_pinv_13 into routeb_new_1w1r_20x64_pinv_13.ext:
+Extracting routeb_new_1w1r_20x64_pinv_8 into routeb_new_1w1r_20x64_pinv_8.ext:
+Extracting routeb_new_1w1r_20x64_pinv_7 into routeb_new_1w1r_20x64_pinv_7.ext:
+Extracting routeb_new_1w1r_20x64_pinv_6 into routeb_new_1w1r_20x64_pinv_6.ext:
+Extracting routeb_new_1w1r_20x64_pinv_5 into routeb_new_1w1r_20x64_pinv_5.ext:
+Extracting routeb_new_1w1r_20x64_pinv_4 into routeb_new_1w1r_20x64_pinv_4.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_0 into routeb_new_1w1r_20x64_pdriver_0.ext:
+Extracting routeb_new_1w1r_20x64_pinv_0 into routeb_new_1w1r_20x64_pinv_0.ext:
+Extracting routeb_new_1w1r_20x64_pinv into routeb_new_1w1r_20x64_pinv.ext:
+Extracting sky130_fd_bd_sram__openram_dff into sky130_fd_bd_sram__openram_dff.ext:
+Warning:  Ports "clk" and "CLK" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Extracting routeb_new_1w1r_20x64_dff_buf_0 into routeb_new_1w1r_20x64_dff_buf_0.ext:
+Extracting routeb_new_1w1r_20x64_dff_buf_array into routeb_new_1w1r_20x64_dff_buf_array.ext:
+Extracting routeb_new_1w1r_20x64_pinv_11 into routeb_new_1w1r_20x64_pinv_11.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_2 into routeb_new_1w1r_20x64_pdriver_2.ext:
+Extracting routeb_new_1w1r_20x64_pnand3 into routeb_new_1w1r_20x64_pnand3.ext:
+Extracting routeb_new_1w1r_20x64_pand3 into routeb_new_1w1r_20x64_pand3.ext:
+Extracting routeb_new_1w1r_20x64_pinv_9 into routeb_new_1w1r_20x64_pinv_9.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_4 into routeb_new_1w1r_20x64_pdriver_4.ext:
+Extracting routeb_new_1w1r_20x64_pnand2_0 into routeb_new_1w1r_20x64_pnand2_0.ext:
+Extracting routeb_new_1w1r_20x64_pinv_10 into routeb_new_1w1r_20x64_pinv_10.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_1 into routeb_new_1w1r_20x64_pdriver_1.ext:
+Extracting routeb_new_1w1r_20x64_pinv_14 into routeb_new_1w1r_20x64_pinv_14.ext:
+Extracting routeb_new_1w1r_20x64_delay_chain into routeb_new_1w1r_20x64_delay_chain.ext:
+Extracting routeb_new_1w1r_20x64_control_logic_w into routeb_new_1w1r_20x64_control_logic_w.ext:
+Extracting routeb_new_1w1r_20x64_row_addr_dff into routeb_new_1w1r_20x64_row_addr_dff.ext:
+Extracting routeb_new_1w1r_20x64_data_dff into routeb_new_1w1r_20x64_data_dff.ext:
+Extracting routeb_new_1w1r_20x64_cr_1 into routeb_new_1w1r_20x64_cr_1.ext:
+Extracting routeb_new_1w1r_20x64_contact_33 into routeb_new_1w1r_20x64_contact_33.ext:
+Extracting routeb_new_1w1r_20x64_pinv_12 into routeb_new_1w1r_20x64_pinv_12.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_3 into routeb_new_1w1r_20x64_pdriver_3.ext:
+Extracting routeb_new_1w1r_20x64_pand3_0 into routeb_new_1w1r_20x64_pand3_0.ext:
+Extracting routeb_new_1w1r_20x64_control_logic_r into routeb_new_1w1r_20x64_control_logic_r.ext:
+Extracting routeb_new_1w1r_20x64_pinv_dec_0 into routeb_new_1w1r_20x64_pinv_dec_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand2_dec into sky130_fd_bd_sram__openram_dp_nand2_dec.ext:
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Extracting routeb_new_1w1r_20x64_and2_dec_0 into routeb_new_1w1r_20x64_and2_dec_0.ext:
+Extracting routeb_new_1w1r_20x64_wordline_driver into routeb_new_1w1r_20x64_wordline_driver.ext:
+Extracting routeb_new_1w1r_20x64_wordline_driver_array into routeb_new_1w1r_20x64_wordline_driver_array.ext:
+Extracting routeb_new_1w1r_20x64_pinv_dec into routeb_new_1w1r_20x64_pinv_dec.ext:
+Extracting routeb_new_1w1r_20x64_and2_dec into routeb_new_1w1r_20x64_and2_dec.ext:
+Extracting routeb_new_1w1r_20x64_hierarchical_predecode2x4 into routeb_new_1w1r_20x64_hierarchical_predecode2x4.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand3_dec into sky130_fd_bd_sram__openram_dp_nand3_dec.ext:
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Extracting routeb_new_1w1r_20x64_and3_dec into routeb_new_1w1r_20x64_and3_dec.ext:
+Extracting routeb_new_1w1r_20x64_hierarchical_decoder into routeb_new_1w1r_20x64_hierarchical_decoder.ext:
+Extracting routeb_new_1w1r_20x64_port_address_0 into routeb_new_1w1r_20x64_port_address_0.ext:
+Extracting routeb_new_1w1r_20x64_port_address into routeb_new_1w1r_20x64_port_address.ext:
+Extracting sky130_fd_bd_sram__openram_sense_amp into sky130_fd_bd_sram__openram_sense_amp.ext:
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "dout" and "DOUT" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Extracting routeb_new_1w1r_20x64_sense_amp_array into routeb_new_1w1r_20x64_sense_amp_array.ext:
+Extracting routeb_new_1w1r_20x64_precharge_1 into routeb_new_1w1r_20x64_precharge_1.ext:
+Extracting routeb_new_1w1r_20x64_precharge_array_0 into routeb_new_1w1r_20x64_precharge_array_0.ext:
+Extracting routeb_new_1w1r_20x64_port_data_0 into routeb_new_1w1r_20x64_port_data_0.ext:
+Extracting sky130_fd_bd_sram__openram_write_driver into sky130_fd_bd_sram__openram_write_driver.ext:
+Warning:  Ports "din" and "DIN" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Extracting routeb_new_1w1r_20x64_write_driver_array into routeb_new_1w1r_20x64_write_driver_array.ext:
+Extracting routeb_new_1w1r_20x64_precharge_0 into routeb_new_1w1r_20x64_precharge_0.ext:
+Extracting routeb_new_1w1r_20x64_precharge_array into routeb_new_1w1r_20x64_precharge_array.ext:
+Extracting routeb_new_1w1r_20x64_port_data into routeb_new_1w1r_20x64_port_data.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_row into sky130_fd_bd_sram__openram_dp_cell_cap_row.ext:
+Extracting routeb_new_1w1r_20x64_row_cap_array_0 into routeb_new_1w1r_20x64_row_cap_array_0.ext:
+Extracting routeb_new_1w1r_20x64_row_cap_array into routeb_new_1w1r_20x64_row_cap_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_col into sky130_fd_bd_sram__openram_dp_cell_cap_col.ext:
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Extracting routeb_new_1w1r_20x64_col_cap_array into routeb_new_1w1r_20x64_col_cap_array.ext:
+Extracting routeb_new_1w1r_20x64_col_cap_array_0 into routeb_new_1w1r_20x64_col_cap_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_dummy into sky130_fd_bd_sram__openram_dp_cell_dummy.ext:
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Extracting routeb_new_1w1r_20x64_dummy_array into routeb_new_1w1r_20x64_dummy_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_replica into sky130_fd_bd_sram__openram_dp_cell_replica.ext:
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+sky130_fd_bd_sram__openram_dp_cell_replica: 3 warnings
+Extracting routeb_new_1w1r_20x64_replica_column_0 into routeb_new_1w1r_20x64_replica_column_0.ext:
+Extracting routeb_new_1w1r_20x64_replica_column into routeb_new_1w1r_20x64_replica_column.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell into sky130_fd_bd_sram__openram_dp_cell.ext:
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+sky130_fd_bd_sram__openram_dp_cell: 2 warnings
+Extracting routeb_new_1w1r_20x64_bitcell_array into routeb_new_1w1r_20x64_bitcell_array.ext:
+Extracting routeb_new_1w1r_20x64_replica_bitcell_array into routeb_new_1w1r_20x64_replica_bitcell_array.ext:
+Extracting routeb_new_1w1r_20x64_capped_replica_bitcell_array into routeb_new_1w1r_20x64_capped_replica_bitcell_array.ext:
+Created database crash recovery file /tmp//MAG599.sDBJyz
+Extracting routeb_new_1w1r_20x64_bank into routeb_new_1w1r_20x64_bank.ext:
+Extracting routeb_new_1w1r_20x64 into routeb_new_1w1r_20x64.ext:
+Total of 5 warnings.
+device missing 1 terminal;
+ connecting remainder to node vdd
+device missing 1 terminal;
+ connecting remainder to node a_38_133#
+device missing 1 terminal;
+ connecting remainder to node a_16_183#
+Finished extract
+Warning:  Ports "clk" and "CLK" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "wl1" and "WL1" are electrically shorted.
+Warning:  Ports "wl0" and "WL0" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "br1" and "BR1" are electrically shorted.
+Warning:  Ports "bl1" and "BL1" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "br0" and "BR0" are electrically shorted.
+Warning:  Ports "bl0" and "BL0" are electrically shorted.
+Warning:  Ports "din" and "DIN" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "dout" and "DOUT" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+exttospice finished.
+device missing 1 terminal;
+ connecting remainder to node vdd
+device missing 1 terminal;
+ connecting remainder to node a_38_133#
+device missing 1 terminal;
+ connecting remainder to node a_16_183#
+Finished ext2spice
+Sat Nov 14 14:16:25 CST 2026: Finished (0) GDS to MAG using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic

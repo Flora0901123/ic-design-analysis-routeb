@@ -1,0 +1,79 @@
+{
+  "status": "FAILED_OR_PARTIAL",
+  "records": [
+    {
+      "shape": "8x128",
+      "status": "FAILED",
+      "base_config_sha256": "8989e48d748900fc508d449cbb0fcf1ad36e5f7efafa146a8e7b2fc3cdff1d46",
+      "config_sha256": "dbf9f03fc0929f4f24f3049cd8ac7d824eb18a15858cc430dc247215ec6d9a84",
+      "error": "CalledProcessError: Command '['/root/.cache/routeb-openram-b2b069c/venv/bin/python', '/root/.cache/routeb-openram-b2b069c/source/sram_compiler.py', '/root/.cache/routeb-openram-b2b069c/run-20261112-155021/8x128/config.py']' returned non-zero exit status 1.",
+      "partial_files": {
+        "routeb_new_1w1r_8x128.log": "d0e652d76c404234c737c8f829318272632a25d0a184d5829f65a5c5b69f193a",
+        "routeb_new_1w1r_8x128.lvs.sp": "566fcff75b1bcc09c773f0fe1b3f5b033d297a26b3951d093549afdd78fc8c2f",
+        "sram.sp": "34a6062e137f3c53c5163eda1e88c49fe9f09e47c6327ab5d62ed7288389b422",
+        "routeb_new_1w1r_8x128.lef": "8a29f1d86450a2ebaba3f9963716eacc2d25736ab0d0b75cbd1cade7539f16a4",
+        "delay_stim.sp": "c8d89626bc44b6ecfcdc6ae00a5174d8d4149ba6864c8949c7f7695f7b6ddb85",
+        "routeb_new_1w1r_8x128.gds": "96552e4d0aeccb7e9d57056de958fcef61f9108392b843d3b005899c5dd2f167",
+        "delay_meas.sp": "17e688844ec7787e6a0a238e4be7b2f3a87d764115e8cebc412164740dbf6350",
+        "trimmed.sp": "b2fe2059a826d3146f0681395b2a2cd0bc0056b074e9bb9252c076367c37a85a",
+        "routeb_new_1w1r_8x128.sp": "34a6062e137f3c53c5163eda1e88c49fe9f09e47c6327ab5d62ed7288389b422",
+        "functional_stim.sp": "b19665e1ad17be94caf8f19b6183e1876450023376701493aa3462512025ae7b",
+        "functional_meas.sp": "38263ebc6b7595944e09799d6a2509f02d461a6e3babcbac6d5964c21cc27857"
+      },
+      "seconds": 970.9635416360001
+    },
+    {
+      "shape": "20x64",
+      "status": "FAILED",
+      "base_config_sha256": "25fd3586574bcde193911f7080e3d05e7f49d221cda99305a76553090ee5e921",
+      "config_sha256": "025cef7955b20018391ee400c177df226a3c4790a67015699bace589f10b45a0",
+      "error": "CalledProcessError: Command '['/root/.cache/routeb-openram-b2b069c/venv/bin/python', '/root/.cache/routeb-openram-b2b069c/source/sram_compiler.py', '/root/.cache/routeb-openram-b2b069c/run-20261112-155021/20x64/config.py']' returned non-zero exit status 1.",
+      "partial_files": {
+        "routeb_new_1w1r_20x64.gds": "89c765c086a1fd6360f7c4d40ad3194f6c74d739ea7b09d1fa15ae673724a865",
+        "sram.sp": "d214fe4e3286c438e6331d4af91347c6359015db5843a7ac186a83a751b080f4",
+        "delay_stim.sp": "80a2012750e95b02138e07bb767916ec6baeccccb00d900df7afd76a672b80fc",
+        "routeb_new_1w1r_20x64.log": "e3beac59ccd22685fc2f593c5e6b4f1a8f96e0ca4045d51c881c263c7d6a7b7d",
+        "delay_meas.sp": "06d5702b59988e50c69a31a71e2da0aae8b0c5c15d3ba311a213120c097b27b1",
+        "routeb_new_1w1r_20x64.sp": "d214fe4e3286c438e6331d4af91347c6359015db5843a7ac186a83a751b080f4",
+        "routeb_new_1w1r_20x64.lvs.sp": "0e22823f4cf373435a3dd73faec26baa6d45031933fc8cb1da9debffe4ee2b87",
+        "routeb_new_1w1r_20x64.lef": "0831d280126bfc87387be81a6c2dee4b2168162e99a7bc546e40c22323e32068",
+        "trimmed.sp": "911ad4db3bb53898b78ed7077e5f9c9edf5569814d0bf7d614aafc50c7164d73",
+        "functional_stim.sp": "44caea8a0b5045d7fd2223e18c14596c22094c0ed5f9c3654b2f224e8d070a75",
+        "functional_meas.sp": "ff0b3f38d7845bfe1bc28331d378044765105340c4d27c0fb17cc08e1a2210e3"
+      },
+      "seconds": 329.1413256850001
+    }
+  ],
+  "physical_signoff": false,
+  "layout_view_mode": "analytical Liberty",
+  "layout_verification_requested": false,
+  "source_pins": {
+    "openram": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+    "bitcells": "dd64256961317205343a3fd446908b42bafba388",
+    "hd_latch": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1"
+  },
+  "inputs": {
+    "8-本轮实验/GPU-SRAM宏生成-20261111/macro-pdk-ready.json": "6ae22e5dbc70c11acade41552da1dc5f0eba302c7e848e75b114ea5abe6a9b0a",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/magic-8.3.306-v4/status.json": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.gds": "d7f91d31f0a3f51ce42522a0089e052a615109a3b08b94561198d8c5cfc86b38",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.spice": "97d2a2fad044ddd1cb4601b885f34af026c46ea5394ab1dea127f7579e334209",
+    "9-GPU复现/downloads/openram-b2b069c/OpenRAM-source.tar.gz": "bbbdf2bc13cf779b1b11fd485d52a39494b79cdc7b37861c025874cdb8bc0cd3",
+    "9-GPU复现/downloads/openram-b2b069c/Sky130-SRAM-bitcells.tar.gz": "4a9b8adf7c3ca65a97b2715aa7589149d6aacc5ed9fcff832d046d43bc1d87e9",
+    "7-审计与验收/generate_missing_sky130_sram_v4.py": "947d06b33bf5112ad8b8d29066ca78aaa0c8533fc1ed3d7e0a962161ea21f09c"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794477609.35797,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1361870608\nuser_usec 1353639046\nsystem_usec 8231562\nnice_usec 0\nnr_periods 13130\nnr_throttled 36\nthrottled_usec 84505\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "514334720",
+      "memory.peak": "851001344",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "327\n2415\n3735"
+    }
+  }
+}

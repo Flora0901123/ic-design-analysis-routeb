@@ -1,0 +1,20 @@
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = StaLibertyTest.LibraryNotNull:StaLibertyTest.CellArea:StaLibertyTest.CellHasTimingArcs:StaLibertyTest.CellFindLibertyPort:StaLibertyTest.LibraryUnits
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from StaLibertyTest
+[ RUN      ] StaLibertyTest.LibraryNotNull
+[       OK ] StaLibertyTest.LibraryNotNull (735 ms)
+[ RUN      ] StaLibertyTest.CellArea
+[       OK ] StaLibertyTest.CellArea (674 ms)
+[ RUN      ] StaLibertyTest.CellHasTimingArcs
+[       OK ] StaLibertyTest.CellHasTimingArcs (566 ms)
+[ RUN      ] StaLibertyTest.CellFindLibertyPort
+[       OK ] StaLibertyTest.CellFindLibertyPort (571 ms)
+[ RUN      ] StaLibertyTest.LibraryUnits
+[       OK ] StaLibertyTest.LibraryUnits (561 ms)
+[----------] 5 tests from StaLibertyTest (3135 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (3144 ms total)
+[  PASSED  ] 5 tests.

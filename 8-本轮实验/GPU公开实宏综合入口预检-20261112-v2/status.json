@@ -1,0 +1,30 @@
+{
+  "status": "PUBLIC_SRAM_ADAPTER_AND_LATCH_MAPPING_PASS",
+  "scope": "two logical wrappers mapped with real macro Liberty",
+  "physical_signoff": false,
+  "records": [
+    {
+      "shape": "32x256",
+      "macro": "sky130_sram_1kbyte_1rw1r_32x256_8",
+      "instances": 1,
+      "latches": 32,
+      "log_sha256": "63187260eadfba82be90b8d78c568ea9f7190e471ad0719e215fb21e3eabff54"
+    },
+    {
+      "shape": "8x1024",
+      "macro": "sky130_sram_1kbyte_1rw1r_8x1024_8",
+      "instances": 4,
+      "latches": 32,
+      "log_sha256": "0892d8813768f347ded29fb0b98bcbdd1ddbcfd0b2e9d74cccc8df6cb9cc4497"
+    }
+  ],
+  "inputs": {
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u7269\u7406\u4f9d\u8d56\u516c\u5f00\u6765\u6e90\u6838\u5bf9-20261109/sky130_fd_sc_hd__tt_025C_1v80.lib": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u65b0\u8eab\u4efd\u7269\u7406\u8f93\u5165\u51c6\u5907-20261110/rtl/openram_wrappers.v": "556f077d43bc7a68811e928cc334f4a8cdd67685f9a93716bab56b5ff61cbc5d",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u89c6\u56fe-20261111/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib": "f36f91f35700d936c1c82aeaffed0084b938aceed60551588ae9a02cbd706f56",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u539f\u7248\u6a21\u578b\u9884\u68c0-20261111/32x256-adapter.sv": "05471e4a9e51713688ae8c6f747f9515072fd092c937b81fcb565a00724e6da5",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u89c6\u56fe-20261111/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8_TT_1p8V_25C.lib": "7cd70c91074a336d3ca9182237be49e1f3339fba293381fd8153f7e2e95b2a89",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u539f\u7248\u6a21\u578b\u9884\u68c0-20261111/8x1024-adapter.sv": "efbcba50181305b888921b44027a659fbaf610e936559050a75539bae2c2f594"
+  },
+  "whole_gpu_mapping_script_sha256": "29b802c8c8d71f9f8c08faa61ec9b541b5158c7f720a6bcb18e0db18e28dd1aa"
+}

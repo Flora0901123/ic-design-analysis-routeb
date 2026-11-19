@@ -1,0 +1,1057 @@
+
+-- Executing script file `/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/CPU-Wishbone-formal-20261115-155408/request-hold/run.ys' --
+
+1. Executing Verilog-2005 frontend: litex_wishbone_csr_bridge.sv
+Parsing formal SystemVerilog input from `litex_wishbone_csr_bridge.sv' to AST representation.
+Storing AST representation for module `$abstract\litex_wishbone_csr_bridge'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: student_mini_wishbone_contract_harness.sv
+Parsing formal SystemVerilog input from `student_mini_wishbone_contract_harness.sv' to AST representation.
+Storing AST representation for module `$abstract\student_mini_wishbone_contract_harness'.
+Successfully finished Verilog frontend.
+
+3. Executing PREP pass.
+
+3.1. Executing HIERARCHY pass (managing design hierarchy).
+
+3.2. Executing AST frontend in derive mode using pre-parsed AST for module `\student_mini_wishbone_contract_harness'.
+Generating RTLIL representation for module `\student_mini_wishbone_contract_harness'.
+
+3.2.1. Analyzing design hierarchy..
+Top module:  \student_mini_wishbone_contract_harness
+
+3.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\litex_wishbone_csr_bridge'.
+Generating RTLIL representation for module `\litex_wishbone_csr_bridge'.
+
+3.2.3. Analyzing design hierarchy..
+Top module:  \student_mini_wishbone_contract_harness
+Used module:     \litex_wishbone_csr_bridge
+
+3.2.4. Analyzing design hierarchy..
+Top module:  \student_mini_wishbone_contract_harness
+Used module:     \litex_wishbone_csr_bridge
+Removing unused module `$abstract\student_mini_wishbone_contract_harness'.
+Removing unused module `$abstract\litex_wishbone_csr_bridge'.
+Removed 2 unused modules.
+Module student_mini_wishbone_contract_harness directly or indirectly contains formal properties -> setting "keep" attribute.
+
+3.3. Executing PROC pass (convert processes to netlists).
+
+3.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed 1 dead cases from process $proc$litex_wishbone_csr_bridge.sv:38$120 in module litex_wishbone_csr_bridge.
+Marked 1 switch rules as full_case in process $proc$litex_wishbone_csr_bridge.sv:38$120 in module litex_wishbone_csr_bridge.
+Marked 1 switch rules as full_case in process $proc$student_mini_wishbone_contract_harness.sv:22$20 in module student_mini_wishbone_contract_harness.
+Removed a total of 1 dead cases.
+
+3.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 1 redundant assignment.
+Promoted 19 assignments to connections.
+
+3.3.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$114'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:45$11_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$112'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:44$10_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$110'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:43$9_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$108'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:40$8_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$106'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:39$7_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$104'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:38$6_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$102'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:36$5_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$100'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:35$4_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$98'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:34$3_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$96'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:33$2_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$94'.
+  Set init value: $formal$student_mini_wishbone_contract_harness.sv:24$1_EN = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$93'.
+  Set init value: \rebooted = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$92'.
+  Set init value: \waiting_reply = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$91'.
+  Set init value: \blocked = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$90'.
+  Set init value: \completed = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$89'.
+  Set init value: \transferred = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$88'.
+  Set init value: \pending = 1'0
+Found init rule in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:16$87'.
+  Set init value: \seen = 1'0
+
+3.3.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst_ni in `\litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+
+3.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~16 debug messages>
+
+3.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+     1/5: $0\wdata_q[31:0]
+     2/5: $0\addr_q[7:0]
+     3/5: $0\write_q[0:0]
+     4/5: $0\state_q[1:0]
+     5/5: $0\wb_dat_r_o[31:0]
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$114'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$112'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$110'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$108'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$106'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$104'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$102'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$100'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$98'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$96'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$94'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$93'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$92'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$91'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$90'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$89'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$88'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:16$87'.
+Creating decoders for process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+     1/32: $0\completed[0:0]
+     2/32: $0$formal$student_mini_wishbone_contract_harness.sv:24$1_EN[0:0]$22
+     3/32: $0$formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK[0:0]$21
+     4/32: $0$formal$student_mini_wishbone_contract_harness.sv:33$2_EN[0:0]$24
+     5/32: $0$formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK[0:0]$23
+     6/32: $0$formal$student_mini_wishbone_contract_harness.sv:34$3_EN[0:0]$26
+     7/32: $0$formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK[0:0]$25
+     8/32: $0$formal$student_mini_wishbone_contract_harness.sv:35$4_EN[0:0]$28
+     9/32: $0$formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK[0:0]$27
+    10/32: $0$formal$student_mini_wishbone_contract_harness.sv:36$5_EN[0:0]$30
+    11/32: $0$formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK[0:0]$29
+    12/32: $0$formal$student_mini_wishbone_contract_harness.sv:38$6_EN[0:0]$32
+    13/32: $0$formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK[0:0]$31
+    14/32: $0$formal$student_mini_wishbone_contract_harness.sv:39$7_EN[0:0]$34
+    15/32: $0$formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK[0:0]$33
+    16/32: $0$formal$student_mini_wishbone_contract_harness.sv:40$8_EN[0:0]$36
+    17/32: $0$formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK[0:0]$35
+    18/32: $0$formal$student_mini_wishbone_contract_harness.sv:43$9_EN[0:0]$38
+    19/32: $0$formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK[0:0]$37
+    20/32: $0$formal$student_mini_wishbone_contract_harness.sv:44$10_EN[0:0]$40
+    21/32: $0$formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK[0:0]$39
+    22/32: $0$formal$student_mini_wishbone_contract_harness.sv:45$11_EN[0:0]$42
+    23/32: $0$formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK[0:0]$41
+    24/32: $0\rebooted[0:0]
+    25/32: $0\waiting_reply[0:0]
+    26/32: $0\blocked[0:0]
+    27/32: $0\returned_data[31:0]
+    28/32: $0\saved_data[31:0]
+    29/32: $0\saved_address[29:0]
+    30/32: $0\saved_wr[0:0]
+    31/32: $0\transferred[0:0]
+    32/32: $0\pending[0:0]
+
+3.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+3.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\litex_wishbone_csr_bridge.\wb_dat_r_o' using process `\litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+  created $adff cell `$procdff$343' with positive edge clock and negative level reset.
+Creating register for signal `\litex_wishbone_csr_bridge.\state_q' using process `\litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+  created $adff cell `$procdff$344' with positive edge clock and negative level reset.
+Creating register for signal `\litex_wishbone_csr_bridge.\write_q' using process `\litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+  created $adff cell `$procdff$345' with positive edge clock and negative level reset.
+Creating register for signal `\litex_wishbone_csr_bridge.\addr_q' using process `\litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+  created $adff cell `$procdff$346' with positive edge clock and negative level reset.
+Creating register for signal `\litex_wishbone_csr_bridge.\wdata_q' using process `\litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+  created $adff cell `$procdff$347' with positive edge clock and negative level reset.
+Creating register for signal `\student_mini_wishbone_contract_harness.\seen' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$348' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\pending' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$349' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\transferred' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$350' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\completed' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$351' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\saved_wr' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$352' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\saved_address' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$353' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\saved_data' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$354' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\returned_data' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$355' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\blocked' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$356' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\waiting_reply' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$357' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.\rebooted' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$358' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$359' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:24$1_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$360' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$361' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:33$2_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$362' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$363' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:34$3_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$364' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$365' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:35$4_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$366' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$367' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:36$5_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$368' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$369' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:38$6_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$370' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$371' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:39$7_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$372' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$373' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:40$8_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$374' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$375' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:43$9_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$376' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$377' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:44$10_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$378' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$379' with positive edge clock.
+Creating register for signal `\student_mini_wishbone_contract_harness.$formal$student_mini_wishbone_contract_harness.sv:45$11_EN' using process `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+  created $dff cell `$procdff$380' with positive edge clock.
+
+3.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 4 empty switches in `\litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+Removing empty process `litex_wishbone_csr_bridge.$proc$litex_wishbone_csr_bridge.sv:38$120'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$114'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$112'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$110'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$108'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$106'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$104'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$102'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$100'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$98'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$96'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:0$94'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$93'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$92'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:21$91'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$90'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$89'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:17$88'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:16$87'.
+Found and cleaned up 12 empty switches in `\student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+Removing empty process `student_mini_wishbone_contract_harness.$proc$student_mini_wishbone_contract_harness.sv:22$20'.
+Cleaned up 16 empty switches.
+
+3.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module litex_wishbone_csr_bridge.
+<suppressed ~4 debug messages>
+Optimizing module student_mini_wishbone_contract_harness.
+<suppressed ~32 debug messages>
+
+3.4. Executing FLATTEN pass (flatten design).
+Deleting now unused module litex_wishbone_csr_bridge.
+<suppressed ~1 debug messages>
+
+3.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+<suppressed ~3 debug messages>
+
+3.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \student_mini_wishbone_contract_harness..
+Removed 19 unused cells and 172 unused wires.
+<suppressed ~23 debug messages>
+
+3.7. Executing CHECK pass (checking for obvious problems).
+Checking module student_mini_wishbone_contract_harness...
+Found and reported 0 problems.
+
+3.8. Executing OPT pass (performing simple optimizations).
+
+3.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+
+3.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\student_mini_wishbone_contract_harness'.
+<suppressed ~30 debug messages>
+Removed a total of 10 cells.
+
+3.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \student_mini_wishbone_contract_harness..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~34 debug messages>
+
+3.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \student_mini_wishbone_contract_harness.
+Performed a total of 0 changes.
+
+3.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\student_mini_wishbone_contract_harness'.
+<suppressed ~63 debug messages>
+Removed a total of 21 cells.
+
+3.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \student_mini_wishbone_contract_harness..
+Removed 0 unused cells and 31 unused wires.
+<suppressed ~1 debug messages>
+
+3.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+
+3.8.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+3.8.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \student_mini_wishbone_contract_harness..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~28 debug messages>
+
+3.8.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \student_mini_wishbone_contract_harness.
+Performed a total of 0 changes.
+
+3.8.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\student_mini_wishbone_contract_harness'.
+Removed a total of 0 cells.
+
+3.8.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \student_mini_wishbone_contract_harness..
+
+3.8.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+
+3.8.14. Finished OPT passes. (There is nothing left to do.)
+
+3.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 29 bits (of 32) from port B of cell student_mini_wishbone_contract_harness.$mul$student_mini_wishbone_contract_harness.sv:40$54 ($mul).
+Removed top 23 bits (of 32) from port Y of cell student_mini_wishbone_contract_harness.$mul$student_mini_wishbone_contract_harness.sv:40$54 ($mul).
+Removed top 23 bits (of 32) from port B of cell student_mini_wishbone_contract_harness.$eq$student_mini_wishbone_contract_harness.sv:40$55 ($eq).
+Removed top 1 bits (of 2) from port B of cell student_mini_wishbone_contract_harness.$flatten\dut.$eq$litex_wishbone_csr_bridge.sv:30$116 ($eq).
+Removed top 23 bits (of 32) from wire student_mini_wishbone_contract_harness.$mul$student_mini_wishbone_contract_harness.sv:40$54_Y.
+
+3.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \student_mini_wishbone_contract_harness..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
+
+3.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+3.12. Executing OPT pass (performing simple optimizations).
+
+3.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+
+3.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\student_mini_wishbone_contract_harness'.
+Removed a total of 0 cells.
+
+3.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \student_mini_wishbone_contract_harness..
+
+3.12.4. Finished fast OPT passes.
+
+3.13. Printing statistics.
+
+=== student_mini_wishbone_contract_harness ===
+
+   Number of wires:                154
+   Number of wire bits:            962
+   Number of public wires:          49
+   Number of public wire bits:     502
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                140
+     $adff                           5
+     $anyseq                         8
+     $assert                         8
+     $assume                         3
+     $dff                           24
+     $eq                            11
+     $logic_and                      7
+     $logic_not                      5
+     $logic_or                       1
+     $mul                            1
+     $mux                           66
+     $pmux                           1
+
+3.14. Executing CHECK pass (checking for obvious problems).
+Checking module student_mini_wishbone_contract_harness...
+Found and reported 0 problems.
+
+4. Executing ASYNC2SYNC pass.
+Replacing student_mini_wishbone_contract_harness.$flatten\dut.$procdff$343 ($adff): ARST=\dut.rst_ni, D=$flatten\dut.$0\wb_dat_r_o[31:0], Q=\dut.wb_dat_r_o
+Replacing student_mini_wishbone_contract_harness.$flatten\dut.$procdff$344 ($adff): ARST=\dut.rst_ni, D=$flatten\dut.$0\state_q[1:0], Q=\dut.state_q
+Replacing student_mini_wishbone_contract_harness.$flatten\dut.$procdff$345 ($adff): ARST=\dut.rst_ni, D=$flatten\dut.$0\write_q[0:0], Q=\dut.write_q
+Replacing student_mini_wishbone_contract_harness.$flatten\dut.$procdff$346 ($adff): ARST=\dut.rst_ni, D=$flatten\dut.$0\addr_q[7:0], Q=\dut.addr_q
+Replacing student_mini_wishbone_contract_harness.$flatten\dut.$procdff$347 ($adff): ARST=\dut.rst_ni, D=$flatten\dut.$0\wdata_q[31:0], Q=\dut.wdata_q
+
+5. Executing OPT pass (performing simple optimizations).
+
+5.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+<suppressed ~2 debug messages>
+
+5.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\student_mini_wishbone_contract_harness'.
+Removed a total of 0 cells.
+
+5.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \student_mini_wishbone_contract_harness..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~33 debug messages>
+
+5.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \student_mini_wishbone_contract_harness.
+Performed a total of 0 changes.
+
+5.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\student_mini_wishbone_contract_harness'.
+Removed a total of 0 cells.
+
+5.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding SRST signal on $procdff$378 ($dff) from module student_mini_wishbone_contract_harness (D = $procmux$266_Y, Q = $formal$student_mini_wishbone_contract_harness.sv:44$10_EN, rval = 1'0).
+Adding SRST signal on $procdff$376 ($dff) from module student_mini_wishbone_contract_harness (D = $procmux$252_Y, Q = $formal$student_mini_wishbone_contract_harness.sv:43$9_EN, rval = 1'0).
+Adding SRST signal on $procdff$370 ($dff) from module student_mini_wishbone_contract_harness (D = $procmux$210_Y, Q = $formal$student_mini_wishbone_contract_harness.sv:38$6_EN, rval = 1'0).
+Adding SRST signal on $procdff$362 ($dff) from module student_mini_wishbone_contract_harness (D = $procmux$170_Y, Q = $formal$student_mini_wishbone_contract_harness.sv:33$2_EN, rval = 1'0).
+Adding EN signal on $procdff$355 ($dff) from module student_mini_wishbone_contract_harness (D = \dut.csr_rdata_i, Q = \returned_data).
+Adding EN signal on $procdff$354 ($dff) from module student_mini_wishbone_contract_harness (D = \dut.wb_dat_w_i, Q = \saved_data).
+Adding EN signal on $procdff$353 ($dff) from module student_mini_wishbone_contract_harness (D = { \address [29:6] \dut.wb_adr_i [5:0] }, Q = \saved_address).
+Adding EN signal on $procdff$352 ($dff) from module student_mini_wishbone_contract_harness (D = \dut.wb_we_i, Q = \saved_wr).
+Adding SRST signal on $procdff$351 ($dff) from module student_mini_wishbone_contract_harness (D = $procmux$161_Y, Q = \completed, rval = 1'0).
+Adding SRST signal on $procdff$350 ($dff) from module student_mini_wishbone_contract_harness (D = $procmux$329_Y, Q = \transferred, rval = 1'0).
+Adding EN signal on $auto$ff.cc:266:slice$415 ($sdff) from module student_mini_wishbone_contract_harness (D = 1'1, Q = \transferred).
+Adding SRST signal on $procdff$349 ($dff) from module student_mini_wishbone_contract_harness (D = $procmux$336_Y, Q = \pending, rval = 1'0).
+Adding EN signal on $auto$ff.cc:266:slice$421 ($sdff) from module student_mini_wishbone_contract_harness (D = 1'1, Q = \pending).
+
+5.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \student_mini_wishbone_contract_harness..
+Removed 22 unused cells and 23 unused wires.
+<suppressed ~23 debug messages>
+
+5.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+
+5.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+5.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \student_mini_wishbone_contract_harness..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~27 debug messages>
+
+5.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \student_mini_wishbone_contract_harness.
+Performed a total of 0 changes.
+
+5.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\student_mini_wishbone_contract_harness'.
+<suppressed ~18 debug messages>
+Removed a total of 6 cells.
+
+5.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+5.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \student_mini_wishbone_contract_harness..
+Removed 0 unused cells and 6 unused wires.
+<suppressed ~1 debug messages>
+
+5.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+
+5.16. Rerunning OPT passes. (Maybe there is more to do..)
+
+5.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \student_mini_wishbone_contract_harness..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~27 debug messages>
+
+5.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \student_mini_wishbone_contract_harness.
+Performed a total of 0 changes.
+
+5.19. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\student_mini_wishbone_contract_harness'.
+Removed a total of 0 cells.
+
+5.20. Executing OPT_DFF pass (perform DFF optimizations).
+
+5.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \student_mini_wishbone_contract_harness..
+
+5.22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module student_mini_wishbone_contract_harness.
+
+5.23. Finished OPT passes. (There is nothing left to do.)
+
+6. Executing SAT pass (solving SAT problems in the circuit).
+
+Setting up time step 1:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import set-constraint from init attribute: $formal$student_mini_wishbone_contract_harness.sv:24$1_EN = 1'0
+Import set-constraint from init attribute: $formal$student_mini_wishbone_contract_harness.sv:33$2_EN = 1'0
+Import set-constraint from init attribute: $formal$student_mini_wishbone_contract_harness.sv:38$6_EN = 1'0
+Import set-constraint from init attribute: $formal$student_mini_wishbone_contract_harness.sv:43$9_EN = 1'0
+Import set-constraint from init attribute: $formal$student_mini_wishbone_contract_harness.sv:44$10_EN = 1'0
+Import set-constraint from init attribute: \completed = 1'0
+Import set-constraint from init attribute: \pending = 1'0
+Import set-constraint from init attribute: \seen = 1'0
+Import set-constraint from init attribute: \transferred = 1'0
+Final init constraint equation: { \transferred \seen \pending \completed $formal$student_mini_wishbone_contract_harness.sv:44$10_EN $formal$student_mini_wishbone_contract_harness.sv:43$9_EN $formal$student_mini_wishbone_contract_harness.sv:38$6_EN $formal$student_mini_wishbone_contract_harness.sv:33$2_EN $formal$student_mini_wishbone_contract_harness.sv:24$1_EN } = 9'000000000
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 2:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 3:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 4:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 5:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 6:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 7:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 8:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 9:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 10:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 11:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 12:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 13:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 14:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 15:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 16:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 17:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 18:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 19:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 20:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 21:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 22:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 23:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 24:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 25:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 26:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 27:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 28:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 29:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 30:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 31:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Setting up time step 32:
+Final constraint equation: { } = { }
+Imported 127 cells to SAT database.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK when $formal$student_mini_wishbone_contract_harness.sv:24$1_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import constraint from assume cell: $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK when $formal$student_mini_wishbone_contract_harness.sv:44$10_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK when $formal$student_mini_wishbone_contract_harness.sv:33$2_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK when $formal$student_mini_wishbone_contract_harness.sv:38$6_EN.
+Import proof for assert: $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK when $formal$student_mini_wishbone_contract_harness.sv:43$9_EN.
+
+Solving problem with 114773 variables and 308261 clauses..
+SAT proof finished - model found: FAIL!
+
+   ______                   ___       ___       _ _            _ _ 
+  (_____ \                 / __)     / __)     (_) |          | | |
+   _____) )___ ___   ___ _| |__    _| |__ _____ _| | _____  __| | |
+  |  ____/ ___) _ \ / _ (_   __)  (_   __|____ | | || ___ |/ _  |_|
+  | |   | |  | |_| | |_| || |       | |  / ___ | | || ____( (_| |_ 
+  |_|   |_|   \___/ \___/ |_|       |_|  \_____|_|\_)_____)\____|_|
+
+
+  Time Signal Name                                                                Dec       Hex                                 Bin
+  ---- ------------------------------------------------------------------ ----------- --------- -----------------------------------
+  init $auto$async2sync.cc:171:execute$382                                          0         0    00000000000000000000000000000000
+  init $auto$async2sync.cc:171:execute$384                                          0         0                                  00
+  init $auto$async2sync.cc:171:execute$386                                          0         0                                   0
+  init $auto$async2sync.cc:171:execute$388                                          0         0                            00000000
+  init $auto$async2sync.cc:171:execute$390                                          0         0    00000000000000000000000000000000
+  init $formal$student_mini_wishbone_contract_harness.sv:24$1_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:24$1_EN                    0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:33$2_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:33$2_EN                    0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:34$3_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:35$4_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:36$5_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:38$6_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:38$6_EN                    0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:39$7_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:40$8_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:43$9_CHECK                 0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:43$9_EN                    0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:44$10_CHECK                0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:44$10_EN                   0         0                                   0
+  init $formal$student_mini_wishbone_contract_harness.sv:45$11_CHECK                0         0                                   0
+  init \completed                                                                   0         0                                   0
+  init \pending                                                                     0         0                                   0
+  init \returned_data                                                        -4186113  ffc01fff    11111111110000000001111111111111
+  init \saved_address                                                       336068610  14080002      010100000010000000000000000010
+  init \saved_data                                                               -586  fffffdb6    11111111111111111111110110110110
+  init \saved_wr                                                                    1         1                                   1
+  init \seen                                                                        0         0                                   0
+  init \transferred                                                                 0         0                                   0
+Dumping SAT model to VCD file model.vcd
+
+End of script. Logfile hash: aad0390c28, CPU: user 0.76s system 0.10s, MEM: 106.45 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 87% 1x sat (0 sec), 3% 10x opt_expr (0 sec), ...

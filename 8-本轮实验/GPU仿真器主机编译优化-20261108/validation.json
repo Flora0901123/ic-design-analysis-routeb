@@ -1,0 +1,63 @@
+{
+  "status": "HOST_O3_CONTROL_PROBES_PASS",
+  "no_target_RTL_or_kernel_change": true,
+  "no_target_speedup_claim": true,
+  "host_library_sha256": "783385541b15c8952b8401deb66d0555c23d86307b779ce871829d93ce3b2d7f",
+  "records": [
+    {
+      "ordinal": 0,
+      "seconds": 76.31702767099978,
+      "parent_seconds": 15.941726223999922,
+      "cycles": 95244,
+      "instructions": 8893,
+      "outputs_match": true,
+      "counts_identical_to_parent": true,
+      "log_sha256": "c3f6ac30ee36984ec8234757936915e6a57badf1491231e79d482a91557fb333"
+    },
+    {
+      "ordinal": 100,
+      "seconds": 83.6493829609999,
+      "parent_seconds": 45.38011627200012,
+      "cycles": 239990,
+      "instructions": 23733,
+      "outputs_match": true,
+      "counts_identical_to_parent": true,
+      "log_sha256": "936d6f2b567695f204347f627f15022ca262066b3eacb251503b5f91ce1bb6e1"
+    },
+    {
+      "ordinal": 330,
+      "seconds": 62.84805940000024,
+      "parent_seconds": null,
+      "cycles": 102457,
+      "instructions": 9659,
+      "outputs_match": true,
+      "counts_identical_to_parent": true,
+      "log_sha256": "714cefe97f42c435b1a46a4b24c4adae7f4a0bb85113aa6b7bb58a027dfb05fe"
+    },
+    {
+      "ordinal": 660,
+      "seconds": 58.0960390780001,
+      "parent_seconds": null,
+      "cycles": 193616,
+      "instructions": 18818,
+      "outputs_match": true,
+      "counts_identical_to_parent": true,
+      "log_sha256": "dac1e9169de3475ec6141d500c39c42819d33c4f931d549b9c5b43f1d67c0729"
+    }
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794148785.7841902,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 3751416683\nuser_usec 3575220114\nsystem_usec 176196569\nnice_usec 0\nnr_periods 42416\nnr_throttled 171\nthrottled_usec 3261894\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "599887872",
+      "memory.peak": "1597546496",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "883\n13133\n13749\n13750\n13777\n13778\n13780\n13781"
+    }
+  }
+}

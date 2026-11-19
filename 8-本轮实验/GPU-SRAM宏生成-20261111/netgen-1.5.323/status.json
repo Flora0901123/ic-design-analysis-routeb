@@ -1,0 +1,6 @@
+{
+  "status": "ISOLATED_NETGEN_BUILD_PASS",
+  "url": "https://github.com/RTimothyEdwards/netgen/tree/1.5.323",
+  "archive_sha256": "828143182bab5b3242c28a4faecc1f82e1e83221cee84e509bb5c5fba0567a53",
+  "binary": "/root/.cache/routeb-netgen-1.5.323/install/bin/netgen"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "RUNNING",
+  "physical_signoff": false,
+  "order": [
+    "q2_UL",
+    "q3_UR",
+    "q1_LR",
+    "q0_LL"
+  ],
+  "blocks": {
+    "q2_UL": {
+      "status": "RUNNING",
+      "last_violations": 151498,
+      "iteration": 1,
+      "receipt": "/mnt/d/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/GPU-physical-acceptance-20261114/checkpointed-detailed-routing-20261119/q2_UL/status.json"
+    }
+  }
+}

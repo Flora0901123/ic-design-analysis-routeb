@@ -1,0 +1,254 @@
+{
+  "status": "TEACHER_RUBRIC_EVIDENCE_MAPPED",
+  "teacher_score": null,
+  "source_sha256": "9df3c357c76848455be52969fc70da470227b62dd74bd4ed0c101cd28b007d25",
+  "groups": [
+    {
+      "title": "技术报告与交付表达",
+      "maximum_points": 20,
+      "items": [
+        {
+          "title": "叙述清晰",
+          "platform": "",
+          "maximum_points": 5,
+          "status": "done",
+          "requirement": "问题、工作、结论容易找到，不规定章节或页数。",
+          "remaining": "表达质量仍由老师审核。",
+          "evidence_path": "5-技术报告/技术报告.md",
+          "evidence_sha256": "010347caeec94e6529593f7156cc65bcfb69328b8809270c34ea1449a59d8fbd"
+        },
+        {
+          "title": "条件与结果表述",
+          "platform": "",
+          "maximum_points": 5,
+          "status": "done",
+          "requirement": "SPEC、平台、版本、单位和实验条件准确区分。",
+          "remaining": "准确披露版本差异，不代表已修复合规缺口。",
+          "evidence_path": "9-GPU复现/rtlsim-optimization/status.json",
+          "evidence_sha256": "505bb9a1008fd9e014a24249c5f2cf9b589a327c468bab1b7dcb3337831d607a"
+        },
+        {
+          "title": "图表与证据导航",
+          "platform": "",
+          "maximum_points": 5,
+          "status": "done",
+          "requirement": "图表服务解释，每个结论可定位原始数据，而非只展示漂亮截图。",
+          "remaining": "最终封包时再核验链接。",
+          "evidence_path": "8-本轮实验/GPU-RTLSIM四组消融/status.json",
+          "evidence_sha256": "36852ec49d1733af4f1f938c6a77ce7d758d70a5f870c338d10f14a4ce9e70f9"
+        },
+        {
+          "title": "交付说明与引用",
+          "platform": "",
+          "maximum_points": 5,
+          "status": "partial",
+          "requirement": "运行入口、个人贡献、引用和未完成事项明确。",
+          "remaining": "最终包、统一入口及复现说明需收尾。",
+          "evidence_path": "setup.sh",
+          "evidence_sha256": "1d2f7b1a281ee0ac1bd1be70106afd503e28798fa595a74c70ab71fc245e1d31"
+        }
+      ]
+    },
+    {
+      "title": "合规与正确性",
+      "maximum_points": 40,
+      "items": [
+        {
+          "title": "SPEC 合规",
+          "platform": "",
+          "maximum_points": 8,
+          "status": "partial",
+          "requirement": "数据类型、数值范围、舍入/饱和、硬件/模型/测试版本，各 2 分。",
+          "remaining": "已补5.040和新宏绑定硬件；功能模型无原OpenRAM物理视图，原物理身份未建立。",
+          "evidence_path": "8-本轮实验/RNE独立等价检查/result.json",
+          "evidence_sha256": "7ff6af5daab6088e50ba70cb2e560c8cbea4637ec3c4f9796fd3691ba65a9b9d"
+        },
+        {
+          "title": "算子正确性",
+          "platform": "",
+          "maximum_points": 16,
+          "status": "partial",
+          "requirement": "基本功能、数值边界、布局/非法输入、协议/恢复，各 4 分。每类先按冻结 case×seed 通过率计算，再对六个 baseline 等权平均。缺项按失败，不准增加简单题稀释失败。",
+          "remaining": "100案例×10seed已独立封存；其他候选、物理身份与正式资格分别验收。 物理来源32/50项SHA精确匹配，仍18项未匹配；原物理身份与本轮PPA仍未建立。 六baseline与正式资格仍分别验收。",
+          "evidence_path": "8-本轮实验/GPU同硬件全1000-20261108/验收结论.json",
+          "evidence_sha256": "c5ea2ec03a819a1b99239bac201cac617cec30dfdfcebccde2a1d3ae1dadb4db",
+          "additional_evidence": "7-审计与验收/老师六基线证据复核-20261114/status.json"
+        },
+        {
+          "title": "Nano 正确性与真实性",
+          "platform": "",
+          "maximum_points": 10,
+          "status": "partial",
+          "requirement": "两平台各 5 分：回答合理性 2、事实诚实性 2、真实执行及来源 1。天气不能编造；所有问题都回答不知道也不能拿合理性满分。冻结模型的 token 一致性与开放表达的质量分别检查。",
+          "remaining": "冻结题覆盖已补齐；根号3扩展题仍答错，开放表达质量单独审核。",
+          "evidence_path": "8-本轮实验/Nano冻结问题双端验收-20261108/completion.json",
+          "evidence_sha256": "431df3da8cbb794786843382196bf721e6fee6f27113972c58cf8c464c1a234b"
+        },
+        {
+          "title": "可复现性",
+          "platform": "",
+          "maximum_points": 6,
+          "status": "partial",
+          "requirement": "环境与命令、seed 与完整输入、原始证据与 SHA，各 2 分。",
+          "remaining": "ZIP 基线全量复跑独立封存、冻结归档及再验收；洁净工具迁移 GPU 六例与 CPU 12 题已过。",
+          "evidence_path": "8-本轮实验/Nano基线组合100次重复/summary.json",
+          "evidence_sha256": "319adbc899445ac962f77de83e77aaf77c6a50b24b0e8e043679be2992ef2ba0",
+          "additional_evidence": "7-审计与验收/GPU洁净安装与平台输入迁移-v2-20261114/status.json"
+        }
+      ]
+    },
+    {
+      "title": "项目理解与研究能力",
+      "maximum_points": 20,
+      "items": [
+        {
+          "title": "原理理解",
+          "platform": "",
+          "maximum_points": 5,
+          "status": "done",
+          "requirement": "解释 P1/P2/P3、数值处理、数据流及平台差异。",
+          "remaining": "原理说明对应实际代码，老师人工评价。",
+          "evidence_path": "5-技术报告/技术报告.md",
+          "evidence_sha256": "010347caeec94e6529593f7156cc65bcfb69328b8809270c34ea1449a59d8fbd"
+        },
+        {
+          "title": "瓶颈判断",
+          "platform": "",
+          "maximum_points": 5,
+          "status": "partial",
+          "requirement": "依据周期、访存、流水线或关键路径，不靠感觉。",
+          "remaining": "官方权重未提供；PPA及能耗分析仍不足。",
+          "evidence_path": "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+          "evidence_sha256": "d9dd9f9101a328ad3bca92d74315339ddd3c66825b974fb7d2fca9f13d8c5a8b"
+        },
+        {
+          "title": "实验设计",
+          "platform": "",
+          "maximum_points": 5,
+          "status": "done",
+          "requirement": "控制变量，公平比较，检查替代解释和测量边界。",
+          "remaining": "开发探针和正式性能板分开判断。",
+          "evidence_path": "8-本轮实验/GPU-RTLSIM四组消融/status.json",
+          "evidence_sha256": "36852ec49d1733af4f1f938c6a77ce7d758d70a5f870c338d10f14a4ce9e70f9"
+        },
+        {
+          "title": "反思与迁移",
+          "platform": "",
+          "maximum_points": 5,
+          "status": "done",
+          "requirement": "解释失败、资源代价、适用范围，并提出可验证预测。",
+          "remaining": "资源代价仍作为未完成项保留。",
+          "evidence_path": "8-本轮实验/CPU-Nano四组消融/summary.json",
+          "evidence_sha256": "6bb97639f93aa8749130e2bbb692e8e8e006483d80f8abd4dce3d1ee4e1aeae0"
+        }
+      ]
+    },
+    {
+      "title": "优化晋升与交互性能",
+      "maximum_points": 20,
+      "items": [
+        {
+          "title": "算子实测收益",
+          "platform": "CPU",
+          "maximum_points": 3,
+          "status": "partial",
+          "requirement": "冻结性能板加权加速比提升：不足 2% 得 0；2%–不足 5% 得 1；5%–不足 15% 得 2；至少 15% 得 3。",
+          "remaining": "非正式冻结性能板统计；完整正确性及来源门槛未齐。",
+          "evidence_path": "8-本轮实验/CPU完整优化对照/summary.json",
+          "evidence_sha256": "d9cfb21ee1555576ef845a10364244ec732fcf62eeea0cd76d1d8bbf657a5a9f"
+        },
+        {
+          "title": "算子实测收益",
+          "platform": "GPU",
+          "maximum_points": 3,
+          "status": "partial",
+          "requirement": "冻结性能板加权加速比提升：不足 2% 得 0；2%–不足 5% 得 1；5%–不足 15% 得 2；至少 15% 得 3。",
+          "remaining": "同硬件100案例×10seed候选对照板已独立封存；周期、流量与回退逐条留存。 未提供官方冻结权重，不计算官方加权收益。",
+          "evidence_path": "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+          "evidence_sha256": "d9dd9f9101a328ad3bca92d74315339ddd3c66825b974fb7d2fca9f13d8c5a8b"
+        },
+        {
+          "title": "有效晋升与父链",
+          "platform": "CPU",
+          "maximum_points": 2,
+          "status": "todo",
+          "requirement": "缺失/无效 0；完整正确但收益不足的 HOLD 1；通过全部门槛且直接父链有效的 PROMOTE 2。",
+          "remaining": "待补门槛的HOLD不等于“完整正确但收益不足”的有效HOLD。",
+          "evidence_path": "7-审计与验收/完善进度.md",
+          "evidence_sha256": "b48fd478a47647bc860e9cb739a3cb1ab878db9906c1a0bd35e0c9ad2347eeff"
+        },
+        {
+          "title": "有效晋升与父链",
+          "platform": "GPU",
+          "maximum_points": 2,
+          "status": "todo",
+          "requirement": "缺失/无效 0；完整正确但收益不足的 HOLD 1；通过全部门槛且直接父链有效的 PROMOTE 2。",
+          "remaining": "新DMA与协议门已通过；物理来源32/50项SHA精确匹配，仍18项未匹配；原物理身份与本轮PPA仍未建立。 权重、PPA与正式晋升仍HOLD。",
+          "evidence_path": "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+          "evidence_sha256": "d9dd9f9101a328ad3bca92d74315339ddd3c66825b974fb7d2fca9f13d8c5a8b"
+        },
+        {
+          "title": "优化因果解释",
+          "platform": "CPU",
+          "maximum_points": 2,
+          "status": "partial",
+          "requirement": "只有结论 0；机制与计数相符 1；有消融/对照排除替代解释 2。不用理解总分再次限制本项。",
+          "remaining": "P3周期变化仍保留布局/缓存等替代解释。",
+          "evidence_path": "8-本轮实验/CPU-Nano四组消融/rne-attention-rne.disasm",
+          "evidence_sha256": "8cf480ad2568d169ed19d063498ae523ed30712c2e9f0d0cb5af443540a1637c"
+        },
+        {
+          "title": "优化因果解释",
+          "platform": "GPU",
+          "maximum_points": 2,
+          "status": "partial",
+          "requirement": "只有结论 0；机制与计数相符 1；有消融/对照排除替代解释 2。不用理解总分再次限制本项。",
+          "remaining": "同硬件100案例×10seed候选对照板已独立封存；周期、流量与回退逐条留存。 启动和代码生成影响保留，不能归因为单函数净收益。",
+          "evidence_path": "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+          "evidence_sha256": "d9dd9f9101a328ad3bca92d74315339ddd3c66825b974fb7d2fca9f13d8c5a8b"
+        },
+        {
+          "title": "Nano 交互收益",
+          "platform": "CPU",
+          "maximum_points": 2,
+          "status": "partial",
+          "requirement": "优化前确定主指标：P1 首 token、P2 每 token 解码、P3 完整会话。提升不足 2% 得 0；2%–不足 10% 得 1；至少 10% 得 2。所有三个指标仍需报告。",
+          "remaining": "收益仅对应预登记单输入的新基线；物理/PPA和正式资格仍HOLD，旧ROM结果另列。",
+          "evidence_path": "8-本轮实验/CPU-Nano组合最终确认-20261110/验收结论.json",
+          "evidence_sha256": "2f60af2adb9a539b6df16da05c3c3577f9a46d96ff14a6dedc3650205c2447a0"
+        },
+        {
+          "title": "Nano 交互收益",
+          "platform": "GPU",
+          "maximum_points": 2,
+          "status": "todo",
+          "requirement": "优化前确定主指标：P1 首 token、P2 每 token 解码、P3 完整会话。提升不足 2% 得 0；2%–不足 10% 得 1；至少 10% 得 2。所有三个指标仍需报告。",
+          "remaining": "没有GPU Nano优化前后的交互性能对照。",
+          "evidence_path": "8-本轮实验/根号3提问结果/result.json",
+          "evidence_sha256": "a5485405a93d2bf660ae9eaf05c12f25a2bf68acceaaacb207b2b9fa318fd944",
+          "additional_evidence": "8-本轮实验/GPU-Nano锁定RTLSIM基线控制-20261114/status.json"
+        },
+        {
+          "title": "资源与副作用",
+          "platform": "CPU",
+          "maximum_points": 1,
+          "status": "partial",
+          "requirement": "完整报告面积、功耗/能耗、流量和回退，并满足约束得 1。",
+          "remaining": "面积、功耗/能耗和硬件对应关系待补。",
+          "evidence_path": "8-本轮实验/CPU完整优化对照/summary.json",
+          "evidence_sha256": "d9cfb21ee1555576ef845a10364244ec732fcf62eeea0cd76d1d8bbf657a5a9f"
+        },
+        {
+          "title": "资源与副作用",
+          "platform": "GPU",
+          "maximum_points": 1,
+          "status": "partial",
+          "requirement": "完整报告面积、功耗/能耗、流量和回退，并满足约束得 1。",
+          "remaining": "面积、功耗/能耗与原物理身份仍待验。",
+          "evidence_path": "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+          "evidence_sha256": "d9dd9f9101a328ad3bca92d74315339ddd3c66825b974fb7d2fca9f13d8c5a8b"
+        }
+      ]
+    }
+  ]
+}

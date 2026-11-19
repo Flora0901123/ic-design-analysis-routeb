@@ -1,0 +1,27 @@
+Thu Nov 12 14:19:59 CST 2026: Starting DRC using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic
+
+Magic 8.3 revision 306 - Compiled on Thu Nov 12 13:42:28 CST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Could not find file '/usr/local/pdk/volare/sky130/build/e8294524e5f67c533c5d0c3afa0bcc5b2a5fa066/sky130A/libs.tech/magic/sky130A.tech' in any of these directories:
+         . $CAD_ROOT/magic/sys $CAD_ROOT/magic/sys/current
+Error parsing ".magicrc": couldn't read file "/usr/local/pdk/volare/sky130/build/e8294524e5f67c533c5d0c3afa0bcc5b2a5fa066/sky130A/libs.tech/magic/sky130A.tcl": no such file or directory
+Bad local startup file ".magicrc", continuing without.
+Scaled tech values by 2 / 1 to match internal grid scaling
+Using technology "minimum", version 0.0
+Cell routeb_new_1w1r_20x64 has technology "sky130A", but current technology is "minimum"
+Use command "tech load" if you want to switch technologies, or use
+"cellname delete routeb_new_1w1r_20x64" and "load routeb_new_1w1r_20x64 -force" to force the cell to load as technology minimum
+Creating new cell
+Finished loading cell routeb_new_1w1r_20x64
+Finished expanding
+Finished drc check
+Finished drc catchup
+Total DRC errors found: 0
+No errors found.
+ROUTEB_DRC_DETAILS 
+Thu Nov 12 14:21:04 CST 2026: Finished (0) DRC using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic

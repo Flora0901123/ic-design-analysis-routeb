@@ -1,0 +1,58 @@
+{
+  "requested": "topk",
+  "effective_variant": "baseline",
+  "effective_source_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "reason": "Three Top-K candidates regress. Use verified baseline, claim zero Top-K-only gain.",
+  "evidence": "8-本轮实验\\nano-baseline-1793253668984369265",
+  "validation": "baseline has 100 fresh RTL repeats; fallback emits identical baseline source; no new optimized algorithm gain is claimed",
+  "rejected_candidates": [
+    {
+      "run": "nano-topk-1793255650650794953",
+      "source_sha256": "2e18a8362b1b9cc66ef8f14bcacb2f89598144f02da31bd2fcbda242bdf8dc8c",
+      "full_tensor_match": true,
+      "metrics": {
+        "ttft_cycles": 3919990,
+        "per_token_decode_cycles": 844703.5,
+        "session_cycles": 7299047
+      },
+      "cycle_reduction_pct": {
+        "ttft_cycles": -1.5721701908240293,
+        "per_token_decode_cycles": -1.6184050415608775,
+        "session_cycles": -1.5937123932395991
+      },
+      "decision": "REJECTED_REGRESSION"
+    },
+    {
+      "run": "nano-topk_v2-1793865670244165254",
+      "source_sha256": "7e9e5f66717413a8d5cf56a327270864f2e3b34efc399dec02da1c6e3bc289c7",
+      "full_tensor_match": true,
+      "metrics": {
+        "ttft_cycles": 3905287,
+        "per_token_decode_cycles": 845763.5,
+        "session_cycles": 7288568
+      },
+      "cycle_reduction_pct": {
+        "ttft_cycles": -1.1911958469313921,
+        "per_token_decode_cycles": -1.7459237618503654,
+        "session_cycles": -1.447857665606156
+      },
+      "decision": "REJECTED_REGRESSION"
+    },
+    {
+      "run": "nano-topk_v3-1793866251727968989",
+      "source_sha256": "19533f93ed95fdb79f8714b71d72732689b3e8ca8022c0a0f9797e7f6cf9c2be",
+      "full_tensor_match": true,
+      "metrics": {
+        "ttft_cycles": 3931345,
+        "per_token_decode_cycles": 846797.5,
+        "session_cycles": 7318764
+      },
+      "cycle_reduction_pct": {
+        "ttft_cycles": -1.866393388464016,
+        "per_token_decode_cycles": -1.8703146644723834,
+        "session_cycles": -1.86814866242071
+      },
+      "decision": "REJECTED_REGRESSION"
+    }
+  ]
+}

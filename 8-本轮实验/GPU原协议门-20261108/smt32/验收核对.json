@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checked_artifacts": 80,
+  "checked_source_bindings": 3,
+  "bounded_command_steps": 32,
+  "memory_ports_unbounded_induction": 2,
+  "original_covers_reached": 12,
+  "original_mutants_killed": 8,
+  "seconds_of_selected_proof_run": 54.89087953599994,
+  "whole_platform_protocol_qualified": false
+}

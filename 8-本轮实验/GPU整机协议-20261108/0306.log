@@ -1,0 +1,98 @@
+CHIP info [TID 9672] [1794142362.893960483] : CHIP_PLATFORM=0
+CHIP info [TID 9672] [1794142362.899442151] : CHIP_DEVICE_TYPE=gpu
+CHIP info [TID 9672] [1794142362.901120133] : CHIP_DEVICE=0
+CHIP info [TID 9672] [1794142362.903243680] : CHIP_BE=default
+CHIP info [TID 9672] [1794142362.905295484] : CHIP_DUMP_SPIRV=off
+CHIP info [TID 9672] [1794142362.907545704] : CHIP_RTC_SAVE_TEMPS=off
+CHIP info [TID 9672] [1794142362.909654208] : CHIP_JIT_FLAGS_OVERRIDE=
+CHIP info [TID 9672] [1794142362.911017982] : CHIP_L0_COLLECT_EVENTS_TIMEOUT=0
+CHIP info [TID 9672] [1794142362.913380801] : CHIP_L0_EVENT_TIMEOUT=0
+CHIP info [TID 9672] [1794142362.915645297] : CHIP_SKIP_UNINIT=off
+CHIP info [TID 9672] [1794142362.917351410] : CHIP_LAZY_JIT=on
+CHIP info [TID 9672] [1794142362.919185785] : CHIP_OCL_DISABLE_QUEUE_PROFILING=off
+CHIP info [TID 9672] [1794142362.920573232] : CHIP_OCL_USE_ALLOC_STRATEGY=off
+CHIP info [TID 9672] [1794142362.922035028] : CHIP_MODULE_CACHE_DIR=/root/.cache/chipStar
+CHIP info [TID 9672] [1794142362.923579845] : CHIP_DUMP_PROCESSED_SPIRV=off
+CHIP debug [TID 9672] [1794142362.925691917] : CHIPDriver Initialize
+CHIP debug [TID 9672] [1794142362.927796797] : CHIPBE=default... trying OpenCL Backend
+CHIP info [TID 9672] [1794142363.511755168] : OpenCL Devices of type gpu with SPIR-V_1 support across all platforms:
+Platform 0: Vortex OpenGPU  is supported.
+
+CHIP warning [TID 9672] [1794142363.523004263] : The device might not support subgroup size 32, warp-size sensitive kernels might not work correctly.
+DMA_BUFFERS input=10840 bytes=1936 output=12040 result_size=88
+warning: overriding the module target triple with riscv32-unknown-unknown-elf [-Woverride-module]
+1 warning generated.
+CHIP info [TID 9672] [1794142369.370605119] : clProgramBuild took 5.81045 seconds
+CHIP info [TID 9672] [1794142369.372970367] : Loaded from cache, kernel compilation took 5.82195 seconds
+CHIP info [TID 9672] [1794142369.375933656] : Module compilation took 5824972 microseconds
+CHIP info [TID 9672] [1794142369.377920524] : initDeviceHeap() device_heap: 0x0
+CHIP info [TID 9672] [1794142369.379568559] : initDeviceHeap() allocated init_device_heap_ptr: 0x120c0
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=0 stalled_rsp_cycles=0
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=21 responses=21 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=22
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=21 stalled_rsp_cycles=13
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=44 responses=44 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=45
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=61 stalled_rsp_cycles=38
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=67 responses=67 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=68
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=81 stalled_rsp_cycles=65
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=90 responses=90 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=91
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=107 stalled_rsp_cycles=92
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=113 responses=113 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=114
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=127 stalled_rsp_cycles=121
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=136 responses=136 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=137
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=154 stalled_rsp_cycles=148
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=159 responses=159 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=160
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=181 stalled_rsp_cycles=163
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=182 responses=182 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=183
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=215 stalled_rsp_cycles=189
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=205 responses=205 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=206
+[VXDRV] Warning: CP has not retired a command in 10s.
+[VXDRV]   Q_SEQNUM=254 target=255 CP_CTRL=0x00000001 CP_STATUS=0x00000001 Q_ERROR=0x00000000
+[VXDRV]   RING_BASE=0x00005cc59a2380c0 HEAD_ADDR=0x00005cc59a248140 CMPL_ADDR=0x00005cc59a248240
+[VXDRV]   RING_SIZE_LOG2=16 Q_CONTROL=0x00000001 Q_TAIL=0x0000000000003fc0
+[VXDRV]   The ring was accepted but nothing is executing. Set VORTEX_CP_POLL_TIMEOUT_S=<sec> to abort instead of spinning.
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+STUDENT_GPU_PROTOCOL_PART bp_prob=128 bp_seed=7 hold=0
+STUDENT_GPU_PROTOCOL_PART stalled_req_cycles=244 stalled_rsp_cycles=218
+STUDENT_GPU_PROTOCOL_PART held_rsp_cycles=0 stability_violations=0
+STUDENT_GPU_PROTOCOL_PART commands=228 responses=228 fifo_peak=1
+STUDENT_GPU_PROTOCOL_END reports=229
+STUDENT_GPU ordinal=306 status=0 primitive=0 bits=bde0,3c27,3c15,3d81,bcd4,bcb2,3d19,3d45 selected=4,3
+STUDENT_GPU_COMPLETE start=306 count=1
+CHIP debug [TID 9672] [1794142384.121410861] : Uninitializing CHIP...
+PERF: instrs=10742, cycles=114568, IPC=0.094

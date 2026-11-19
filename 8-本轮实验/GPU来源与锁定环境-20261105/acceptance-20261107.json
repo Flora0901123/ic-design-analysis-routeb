@@ -1,0 +1,42 @@
+{
+  "status": "LOCAL_CHECKS_PASS_WHOLE_GPU_HOLD",
+  "version_alignment": "COURSE_VERSION_MATCH_LOCAL_SOURCE_BUILD",
+  "identical_teacher_tool_binary": false,
+  "whole_gpu_eligible": false,
+  "activation_exit_code": 0,
+  "checks": {
+    "locked_tool": {
+      "status": "INSTALLED",
+      "source": "9-GPU复现/locked-verilator-5.040/status.json"
+    },
+    "locked_adapter": {
+      "status": "ADAPTER_RTL_PASS",
+      "source": "8-本轮实验/GPU锁定版适配器-20261107/status.json"
+    },
+    "local_induction": {
+      "status": "LOCAL_INDUCTIVE_LOCAL_SAFETY_PASS",
+      "source": "8-本轮实验/GPU适配器局部契约-20261107/completion.json"
+    },
+    "mutation": {
+      "status": "ADAPTER_MUTATION_REGRESSION_PASS",
+      "source": "8-本轮实验/GPU适配器突变-20261107/completion.json"
+    },
+    "whole_dma_preflight": {
+      "status": "BLOCKED_MISSING_PHYSICAL_BUILD_INPUTS",
+      "source": "8-本轮实验/GPU整机DMA预检-20261107/completion.json"
+    },
+    "physical_audit": {
+      "status": "PHYSICAL_IDENTITY_NOT_ESTABLISHED",
+      "source": "8-本轮实验/GPU来源与锁定环境-20261105/physical-source-audit.json"
+    }
+  },
+  "bindings": {
+    "9-GPU复现/locked-verilator-5.040/status.json": "2a58bf504ca3b95b4e2470a91902d2cb9384afb907dd2dd7b337c59adc27cd57",
+    "8-本轮实验/GPU锁定版适配器-20261107/status.json": "e51471a2a6869382d807c254ab32ae05416b30f3cd33468af8e9b623d2cf60c7",
+    "8-本轮实验/GPU适配器局部契约-20261107/completion.json": "34563d9515286672fa4592d1f434c55c8d891adad09a077bb260f7ccb3e1d56f",
+    "8-本轮实验/GPU适配器突变-20261107/completion.json": "8293b25d67eb8ca22c611eac6b9962200105b1c68e41fdfaf3b9cdf5c6477f0f",
+    "8-本轮实验/GPU整机DMA预检-20261107/completion.json": "cfe24e16cf831da34390420e4e5d9fca4d84cc5be3bc36a8c09404bad7bd9449",
+    "8-本轮实验/GPU来源与锁定环境-20261105/physical-source-audit.json": "d9cd883a520e7c312b3fbd647960d1711dd12286b0810e6330e33fb2cbf8b78b"
+  },
+  "interpretation": "120 adapter probes and local inductive safety are passed; 30 whole-platform DMA rows remain NOT_EXECUTED; mapped identity remains not established."
+}

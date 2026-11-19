@@ -1,0 +1,2 @@
+PASS 512
+tb.sv:16: $finish called at 5120 (1s)

@@ -1,0 +1,50 @@
+{
+  "status": "SAME_HARDWARE_1000_REPLAY_INDEPENDENTLY_SEALED",
+  "records": 1000,
+  "cases": 100,
+  "seeds_per_case": 10,
+  "per_operator_records": {
+    "p1": 330,
+    "p2": 340,
+    "p3": 330
+  },
+  "expected_status_counts": {
+    "OK": 770,
+    "BAD_LENGTH": 20,
+    "NUMERIC_ERROR": 150,
+    "BUS_ERROR": 30,
+    "BAD_DESCRIPTOR": 30
+  },
+  "real_DMA_fault_records": 30,
+  "exact_numeric_status_selected_primitive_pass": 1000,
+  "all_positive_target_counter_records": 1000,
+  "target_bindings": {
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sim/rtlsim/processor.cpp": "52b85baac7b18410fa341bce414f8649a74707042d03f7bec78010db69071ca1",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  },
+  "status_sha256": "9400f9b593467d197b1c1ae2d354959fd0601882b8a29b95af23b07676628ba5",
+  "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "hardware_identity": "fresh macro-bound Vortex + actual fault adapters + reconstructed functional SRAM",
+  "formal_baseline": false,
+  "teacher_physical_identity": false,
+  "all_software_variants_qualified": false,
+  "formal_promotion": "HOLD",
+  "resource_scope": "new resumed records guarded; historical unguarded records not retrospectively qualified",
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794303189.4592652,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 14002256408\nuser_usec 13792379677\nsystem_usec 209876731\nnice_usec 0\nnr_periods 78695\nnr_throttled 834\nthrottled_usec 5919534\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "683819008",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29153"
+    }
+  }
+}

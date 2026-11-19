@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/replay_gpu_topk.py", line 77, in gpu
+    run(['make','-j2','-C',work,'run-simx','THREADS=2','OPTS='+str(inputs/'inputs.bin')+' 0 1000'],work,out/'execute.log',3600)
+  File "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/replay_gpu_topk.py", line 22, in run
+    if code:raise RuntimeError('exit '+str(code)+': '+str(log))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: exit -15: /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/gpu-topk全100案例-20261104T140209Z/gpu-simx/execute.log

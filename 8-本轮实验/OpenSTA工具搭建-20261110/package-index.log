@@ -1,0 +1,23 @@
+Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1161 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1443 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [314 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1711 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:12 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5736 B]
+Get:13 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
+Ign:14 http://security.ubuntu.com/ubuntu noble-security/main Translation-en
+Ign:15 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components
+Ign:16 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components
+Get:17 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1729 kB]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [396 kB]
+Get:14 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [234 kB]
+Get:15 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.3 kB]
+Get:16 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+Fetched 8076 kB in 36s (226 kB/s)
+Reading package lists...

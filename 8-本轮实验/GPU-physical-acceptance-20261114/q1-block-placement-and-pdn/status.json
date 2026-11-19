@@ -1,0 +1,36 @@
+{
+  "status": "Q1_BLOCK_LEGAL_PLACEMENT_AND_PDN_CONNECTIVITY_PASS",
+  "physical_signoff": false,
+  "source_floorplan_sha256": "d9b49765d2dfddc09aef5a319600c4fcea7252f1ddee7fafe181ee82222992ff",
+  "sdc_sha256": "604ab14d42e2266c3c5d3c0dd1778e2617bed0ab6b1b7123584125acecd83e0e",
+  "scope": "Data from placement estimated parasitics, ideal clock, before CTS and signal routing",
+  "setup_hold_ns": {
+    "max": "-12.56",
+    "min": "-2.52"
+  },
+  "pdn_connected": [
+    "VDD",
+    "VSS"
+  ],
+  "outputs": {
+    "openroad.log": "5ea8545d459450dbc878a9860f535ffc2f2fb08647439bab57258b2bb13cb5f4",
+    "placed-pdn.odb": "7ad20735340d6de457a05cc9d40f1a1cd76529dca90c468606599af866d08dbc",
+    "run.tcl": "9ba15a3d1d0b5c3730dd59c4e5ddb7e144566907eae3e0a54330737e36fe29cc"
+  },
+  "elapsed_seconds": 196.31179795099996,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794753706.1581688,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 313882029\nuser_usec 294475431\nsystem_usec 19406598\nnice_usec 0\nnr_periods 4458\nnr_throttled 42\nthrottled_usec 68949\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "686288896",
+      "memory.peak": "2789097472",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "551"
+    }
+  }
+}

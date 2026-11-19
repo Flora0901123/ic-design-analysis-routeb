@@ -1,0 +1,32 @@
+{
+  "status": "MULTICLASS_RUNTIME_BUILT_NOT_QUALIFIED",
+  "runtime_directory": "/mnt/d/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u5355\u8f6e\u591a\u7c7b\u8ba1\u6570\u8fd0\u884c\u5e93-20261108/runtime",
+  "changed_source": "perf.cpp report routine only",
+  "target_RTL_changed": false,
+  "target_kernel_changed": false,
+  "parent_source_sha256": "76544c99fa36ffe8b5a6858b99602dc29074073bf59ed61f0646034de9045747",
+  "derived_source_sha256": "0d7a36ada771513483477809656d04940b8b6a6b7aaf71eb45668794c9bb70a5",
+  "library_sha256": "5ecc049752034fd2f6e3a28953c5965a403941f39f612da30a6c21bfd5c16907",
+  "seconds": 15.535614743999759,
+  "parent_bindings": {
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sim/rtlsim/processor.cpp": "52b85baac7b18410fa341bce414f8649a74707042d03f7bec78010db69071ca1",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  },
+  "resource_snapshot": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794149277.4382281,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 3973714986\nuser_usec 3783826376\nsystem_usec 189888610\nnice_usec 0\nnr_periods 47737\nnr_throttled 171\nthrottled_usec 3261894\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "572477440",
+      "memory.peak": "1597546496",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "883\n14570\n14597\n14598\n14604\n14638"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+﻿$ErrorActionPreference = 'Stop'
+$outputDir = $PSScriptRoot
+$pythonCode = 'import pathlib,runpy,sys; root=next(pathlib.Path("/mnt/d/Users/Camellia/Desktop").glob("*-RouteB*")); control=pathlib.Path("/sys/fs/cgroup/cgroup.subtree_control"); missing={"cpu","memory"}-set(control.read_text().split()); control.write_text(" ".join("+"+name for name in sorted(missing))) if missing else None; script=next(root.glob("7-*"))/"continue_gpu_full_boards.py"; sys.path.insert(0,str(script.parent)); runpy.run_path(str(script),run_name="__main__")'
+$process = Start-Process -FilePath "$env:WINDIR\System32\wsl.exe" -ArgumentList @('-d','Ubuntu-24.04','-u','root','--','python3','-c',('"'+$pythonCode.Replace('"','\"')+'"')) -WindowStyle Hidden -RedirectStandardOutput (Join-Path $outputDir 'resume-20261112.log') -RedirectStandardError (Join-Path $outputDir 'resume-20261112-stderr.log') -PassThru
+[pscustomobject]@{wsl_pid=$process.Id; wrapper_pid=$PID; started_at=(Get-Date -Format o)} | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $outputDir 'resume-20261112-pids.json') -Encoding utf8
+$process.WaitForExit()
+[pscustomobject]@{exit_code=$process.ExitCode; finished_at=(Get-Date -Format o)} | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $outputDir 'resume-20261112-exit.json') -Encoding utf8

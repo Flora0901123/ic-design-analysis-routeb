@@ -1,0 +1,6 @@
+snapshot/project-physical.v
+snapshot/gpu_fault_physical_top.sv
+snapshot/gpu_status_command_adapter.sv
+snapshot/gpu_fault_memory_adapter.sv
+snapshot/vortex_banked_large_sram_wrappers.sv
+rtl/ff_memories.v

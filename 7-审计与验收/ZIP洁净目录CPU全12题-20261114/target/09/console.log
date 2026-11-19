@@ -1,0 +1,252 @@
+       826:	
+       826:	file=libjson-c.so.5 [0];  needed by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=libjson-c.so.5 [0];  generating link map
+       826:	  dynamic: 0x000073ae0181ec08  base: 0x000073ae0180c000   size: 0x00000000000131f0
+       826:	    entry: 0x000073ae0180c000  phdr: 0x000073ae0180c040  phnum:                 12
+       826:	
+       826:	
+       826:	file=libz.so.1 [0];  needed by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=libz.so.1 [0];  generating link map
+       826:	  dynamic: 0x000073ae0180add0  base: 0x000073ae017f0000   size: 0x000000000001b098
+       826:	    entry: 0x000073ae017f0000  phdr: 0x000073ae017f0040  phnum:                 11
+       826:	
+       826:	
+       826:	file=libstdc++.so.6 [0];  needed by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=libstdc++.so.6 [0];  generating link map
+       826:	  dynamic: 0x000073ae01675d80  base: 0x000073ae01400000   size: 0x000000000027d140
+       826:	    entry: 0x000073ae01400000  phdr: 0x000073ae01400040  phnum:                 12
+       826:	
+       826:	
+       826:	file=libevent-2.1.so.7 [0];  needed by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=libevent-2.1.so.7 [0];  generating link map
+       826:	  dynamic: 0x000073ae017eea20  base: 0x000073ae0179e000   size: 0x0000000000051808
+       826:	    entry: 0x000073ae0179e000  phdr: 0x000073ae0179e040  phnum:                 11
+       826:	
+       826:	
+       826:	file=libatomic.so.1 [0];  needed by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=libatomic.so.1 [0];  generating link map
+       826:	  dynamic: 0x000073ae0179bdd8  base: 0x000073ae01793000   size: 0x000000000000a088
+       826:	    entry: 0x000073ae01793000  phdr: 0x000073ae01793040  phnum:                 11
+       826:	
+       826:	
+       826:	file=libm.so.6 [0];  needed by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=libm.so.6 [0];  generating link map
+       826:	  dynamic: 0x000073ae0178fc10  base: 0x000073ae016a8000   size: 0x00000000000e8018
+       826:	    entry: 0x000073ae016a8000  phdr: 0x000073ae016a8040  phnum:                 11
+       826:	
+       826:	
+       826:	file=libgcc_s.so.1 [0];  needed by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=libgcc_s.so.1 [0];  generating link map
+       826:	  dynamic: 0x000073ae013fedb0  base: 0x000073ae013d2000   size: 0x000000000002d3a8
+       826:	    entry: 0x000073ae013d2000  phdr: 0x000073ae013d2040  phnum:                 12
+       826:	
+       826:	
+       826:	file=libc.so.6 [0];  needed by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=libc.so.6 [0];  generating link map
+       826:	  dynamic: 0x000073ae01203940  base: 0x000073ae01000000   size: 0x0000000000212d90
+       826:	    entry: 0x000073ae0102a390  phdr: 0x000073ae01000040  phnum:                 14
+       826:	
+       826:	
+       826:	calling init: /lib64/ld-linux-x86-64.so.2
+       826:	
+       826:	
+       826:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+       826:	
+       826:	
+       826:	calling init: /lib/x86_64-linux-gnu/libgcc_s.so.1
+       826:	
+       826:	
+       826:	calling init: /lib/x86_64-linux-gnu/libm.so.6
+       826:	
+       826:	
+       826:	calling init: /lib/x86_64-linux-gnu/libatomic.so.1
+       826:	
+       826:	
+       826:	calling init: /lib/x86_64-linux-gnu/libevent-2.1.so.7
+       826:	
+       826:	
+       826:	calling init: /lib/x86_64-linux-gnu/libstdc++.so.6
+       826:	
+       826:	
+       826:	calling init: /lib/x86_64-linux-gnu/libz.so.1
+       826:	
+       826:	
+       826:	calling init: /lib/x86_64-linux-gnu/libjson-c.so.5
+       826:	
+       826:	
+       826:	initialize program: /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim
+       826:	
+       826:	
+       826:	transferring control: /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim
+       826:	
+       826:	
+       826:	file=./modules/clocker.so [0];  dynamically loaded by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=./modules/clocker.so [0];  generating link map
+       826:	  dynamic: 0x000073ae01825df0  base: 0x000073ae01822000   size: 0x00000000000040b8
+       826:	    entry: 0x000073ae01822000  phdr: 0x000073ae01822040  phnum:                 11
+       826:	
+       826:	
+       826:	calling init: ./modules/clocker.so
+       826:	
+       826:	opening file=./modules/clocker.so [0]; direct_opencount=1
+       826:	
+       826:	
+       826:	file=./modules/ethernet.so [0];  dynamically loaded by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=./modules/ethernet.so [0];  generating link map
+       826:	  dynamic: 0x000073ae01697de8  base: 0x000073ae01691000   size: 0x00000000000071e8
+       826:	    entry: 0x000073ae01691000  phdr: 0x000073ae01691040  phnum:                 11
+       826:	
+       826:	
+       826:	calling init: ./modules/ethernet.so
+       826:	
+       826:	opening file=./modules/ethernet.so [0]; direct_opencount=1
+       826:	
+       826:	
+       826:	file=./modules/gmii_ethernet.so [0];  dynamically loaded by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=./modules/gmii_ethernet.so [0];  generating link map
+       826:	  dynamic: 0x000073ae0168fde8  base: 0x000073ae01688000   size: 0x0000000000008200
+       826:	    entry: 0x000073ae01688000  phdr: 0x000073ae01688040  phnum:                 11
+       826:	
+       826:	
+       826:	calling init: ./modules/gmii_ethernet.so
+       826:	
+       826:	opening file=./modules/gmii_ethernet.so [0]; direct_opencount=1
+       826:	
+       826:	
+       826:	file=./modules/jtagremote.so [0];  dynamically loaded by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=./modules/jtagremote.so [0];  generating link map
+       826:	  dynamic: 0x000073ae01686de8  base: 0x000073ae01683000   size: 0x0000000000004128
+       826:	    entry: 0x000073ae01683000  phdr: 0x000073ae01683040  phnum:                 11
+       826:	
+       826:	
+       826:	calling init: ./modules/jtagremote.so
+       826:	
+       826:	opening file=./modules/jtagremote.so [0]; direct_opencount=1
+       826:	
+       826:	
+       826:	file=./modules/serial2console.so [0];  dynamically loaded by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=./modules/serial2console.so [0];  generating link map
+       826:	  dynamic: 0x000073ae01681de0  base: 0x000073ae0167e000   size: 0x00000000000040e8
+       826:	    entry: 0x000073ae0167e000  phdr: 0x000073ae0167e040  phnum:                 11
+       826:	
+       826:	
+       826:	calling init: ./modules/serial2console.so
+       826:	
+       826:	opening file=./modules/serial2console.so [0]; direct_opencount=1
+       826:	
+       826:	
+       826:	file=./modules/serial2tcp.so [0];  dynamically loaded by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=./modules/serial2tcp.so [0];  generating link map
+       826:	  dynamic: 0x000073ae013d0de8  base: 0x000073ae013cd000   size: 0x0000000000004148
+       826:	    entry: 0x000073ae013cd000  phdr: 0x000073ae013cd040  phnum:                 11
+       826:	
+       826:	
+       826:	calling init: ./modules/serial2tcp.so
+       826:	
+       826:	opening file=./modules/serial2tcp.so [0]; direct_opencount=1
+       826:	
+       826:	
+       826:	file=./modules/spdeeprom.so [0];  dynamically loaded by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=./modules/spdeeprom.so [0];  generating link map
+       826:	  dynamic: 0x000073ae013cbdf8  base: 0x000073ae013c8000   size: 0x00000000000040b8
+       826:	    entry: 0x000073ae013c8000  phdr: 0x000073ae013c8040  phnum:                 11
+       826:	
+       826:	
+       826:	calling init: ./modules/spdeeprom.so
+       826:	
+       826:	opening file=./modules/spdeeprom.so [0]; direct_opencount=1
+       826:	
+       826:	
+       826:	file=./modules/xgmii_ethernet.so [0];  dynamically loaded by /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/ZIP洁净目录CPU全12题-20261114/target/09/Vsim [0]
+       826:	file=./modules/xgmii_ethernet.so [0];  generating link map
+       826:	  dynamic: 0x000073ae013c6de8  base: 0x000073ae013bf000   size: 0x0000000000008220
+       826:	    entry: 0x000073ae013bf000  phdr: 0x000073ae013bf040  phnum:                 11
+       826:	
+       826:	
+       826:	calling init: ./modules/xgmii_ethernet.so
+       826:	
+       826:	opening file=./modules/xgmii_ethernet.so [0]; direct_opencount=1
+       826:	
+[xgmii_ethernet] loaded (0x6542064892f0)
+[spdeeprom] loaded (addr = 0x0)
+[serial2tcp] loaded (0x6542064892f0)
+[serial2console] loaded (0x6542064892f0)
+[jtagremote] loaded (0x6542064892f0)
+[gmii_ethernet] loaded (0x6542064892f0)
+[ethernet] loaded (0x6542064892f0)
+[clocker] loaded
+[clocker] sys_clk: freq_hz=1000000, phase_deg=0
+
+
+[1m        __   _ __      _  __[0m
+
+[1m       / /  (_) /____ | |/_/[0m
+
+[1m      / /__/ / __/ -_)>  <[0m
+
+[1m     /____/_/\__/\__/_/|_|[0m
+
+[1m   Build your hardware, easily![0m
+
+
+ (c) Copyright 2012-2024 Enjoy-Digital
+
+ (c) Copyright 2007-2015 M-Labs
+
+
+ BIOS CRC passed (fd8c8535)
+
+
+ LiteX git sha1: --------
+
+
+--=============== [1mSoC[0m ==================--
+
+[1mCPU[0m:		VexRiscv_Full @ 1MHz
+
+[1mBUS[0m:		wishbone 32-bit @ 4GiB
+
+[1mCSR[0m:		32-bit data
+
+[1mROM[0m:		128.0KiB
+
+[1mSRAM[0m:		8.0KiB
+
+[1mL2[0m:		8.0KiB
+
+[1mSDRAM[0m:		256.0MiB 128-bit @ 1MT/s (CL-2 CWL-2)
+
+[1mMAIN-RAM[0m:	256.0MiB
+
+
+--========== [1mInitialization[0m ============--
+
+
+Initializing SDRAM @0x40000000...
+
+Switching SDRAM to software control.
+
+Switching SDRAM to hardware control.
+
+
+STUDENT_NATIVE_CPU_BEGIN prompt_tokens=10 max_tokens=12
+
+STUDENT_NATIVE_CPU status=0 count=5 cycles=0:7693067 instructions=0:4259885 ibus_bytes=0:2760960 dbus_bytes=0:1117670 dma_bytes=0:0
+
+STUDENT_NATIVE_TOKEN step=0 token=92 elapsed_cycles=0:4263461 hidden=bf9f,bffe,bfb7,c00b,3fac,3fee,bf86,befe,3f65,4021,3f01,c02c,3eae,bf6e,bfdc,c006 logits=bf42,bf49,bf97,bf81,c087,c005,bf9c,bf7d,bfb7,bf86,bfc1,bfa6,bfe4,bfcb,bfc9,bd5d,3fde,bf8a,bf76,bfbc,bf15,bf42,bf56,3ffc,bfe6,bf42,bf7e,bf9c,bf94,bf8b,4019,bf6b,bf50,bf84,bf57,bfd7,bf85,bf7f,bf96,bf5b,bfb9,bfea,bfb1,bf84,bf86,bf38,bf09,bf55,bf1b,bf97,bfcb,3f9d,3fd8,bf8d,bf2f,bfba,4032,bfb1,c0a4,bf69,befb,bf6d,bfa2,bf97,bf91,bfb4,bf89,405d,bf64,3ff7,bfb7,c092,bfeb,c0bb,bfab,bff4,bf4f,bf5d,bfa8,bf63,bed6,bfa1,3f67,bf26,402b,bf8f,bfc1,bfc2,bf18,bf87,c032,bfe6,414f,bf9f,bf73,bfc9,bf85,3fa5,bf9c,bfe3,bfad,bf86,bf15,be9e,bf8b,bfdd,bf3d,bfe9,bfb2,c111,bf03,bf78,becc,be03,bf84,bfc5,bfb2,c01a,bf76,bf6c,bf5c,beb4,bf5d,bf86,bf65,bf55,bff2,bf26,bfbe,bf9e,bf60,bfcb,bf80,bf9c,bf90,bfdc,bf5e,bf6c,bf1b,bfcf,bfac,bfa5,bf80,bfa2,bf9a,bfe7,bfc8,bf92,bf37,bfc9,bf85,bfde,bf6c,bf51,bf5f,bf98,bf84,bfdc,bfaa,beda,bf8b,bf8c,bf6d,bf4a,bfe1,bf83,bf95,bfd3,bf87,bf86,bf95,bfb8,bf41,bed3,bfc9,bfef,bf4a,bf7e,bfe9,bf72,bf21,bf8e,bfcd,beb5,bfc7,c012,bf8f,bfc6,bfa7,bf9f,c002,bf0d,bec7,bf4b,bfb9,bf90,bf5d,c015,bfa9,bf3f,bf49,bf34,beb7,bf97,bf47,bf9b,bfbf,bf63,bf32,bf9c,bfab,bf28,bf8a,bfe1,bf74,bfa7,bf86,bee7,bf5b,bfcd,bf1f,bfc0,bf0e,bf48,bed9,bfbf,bf8f,bfe5,bf39,bf6b,bf33,bf48,bf8d,bfe5,bf6a,bf89,bf95,bf43,bf6c,bfb4,bf86,bf72,bed4,bf3a,bf46,bf9e,bec3,bf3d,bf56,bf33,bfdd,bf31,bf14,bf98,bf84,bf8c
+
+STUDENT_NATIVE_TOKEN step=1 token=16 elapsed_cycles=0:5082019 hidden=c019,c00a,4028,3feb,3eed,3ff1,bfd5,3e96,3f7b,3cef,bf6e,3f63,bfe7,bfc2,bfe5,3f3f logits=bfb2,bfce,bf53,bd9f,3f09,be83,bdda,beba,c03e,be37,bf39,bf1b,3e00,beec,3e15,3f04,4142,bea1,3dea,bfad,bf18,be49,3ed6,3f2a,be0a,be5d,bfac,bea6,3e8c,beb6,3f55,be70,befd,bf7d,beb6,bfcf,bf88,be8e,3e6c,bf89,bf31,bf1b,bea2,3e3b,bea0,bf45,3f5b,be81,bebd,bf60,be77,bfbb,3e4d,3eec,be9b,be96,4007,bfc2,c039,3e51,3e68,bee0,bf78,3f4e,bf01,bc49,bea3,c00c,c092,c005,bfdd,3f13,bfc9,4054,be7e,bf28,bede,be8d,3f33,be55,bed0,be56,bfc6,bef5,bef2,bfbf,be46,bf0d,bf3a,bd8c,40a0,3eea,404a,bf28,bf2d,bf3f,bde6,3f04,bced,bf0c,bf9a,bf0a,beca,bf20,bec1,bf6b,befe,be0c,bf5b,bf33,3f08,bd68,3ed5,3e8d,bfc2,3f1b,bfae,bfe3,bfbf,be8b,bea0,bec0,bea8,bf4f,bfff,3d52,bda4,bf2c,be1e,3e00,beb5,beb9,bf50,bf95,be84,bf66,bee3,3ea8,bfdf,bf1d,bd70,3ead,beda,bf7d,bef4,3efd,bf4c,bf4d,be13,bf92,bf24,bf06,bf83,befe,bf14,bea4,bf90,bfc8,be17,bd1f,be21,3ef1,bed6,3f59,bf94,3dcd,be80,bf02,bfc9,3f3a,bed8,be41,bf9b,3df7,be5f,3d5d,bed7,3f1f,3f42,3e92,bf1f,bf58,bfe2,be92,bf7e,bf57,bfac,be87,bed5,bd22,bfef,bedb,be0d,bdf9,bf10,beb0,bf8e,bf1e,bf56,bedb,bf1e,bf96,bd85,bed6,bed5,bdff,bd8f,bf13,3d8c,be0e,bf69,3d65,beee,bf97,bf1f,bf7f,bfc1,3e26,3ded,bf01,3eca,bfba,3e51,3f09,bfd4,3d60,3cf2,bfbf,bf13,be16,3e7a,be86,bf2d,bfd6,bf76,bf07,bfa6,be91,3e63,bfaa,bd9e,bcc9,3e05,bf11,bf37,bf1d,bf53,3eb6,bd6d,be8d,bf88,bf28,3eb3,c02a,3e88,bf93
+
+STUDENT_NATIVE_TOKEN step=2 token=15 elapsed_cycles=0:5929023 hidden=bfff,3f5f,bf99,bda1,3f89,bf59,c007,c034,bf0c,bf04,beea,404f,bf4b,3fba,3f33,c01d logits=c045,c010,c029,c012,3e44,c020,c029,bfde,3eab,c002,c028,c05a,c014,c040,bffd,4129,3f96,c04d,bfe3,c05b,bfb4,bff9,c066,4014,c028,c026,c048,c068,c034,bfb5,4017,c00c,c011,c056,c013,c048,c042,c02e,c01f,bfec,c06b,c03f,c040,c028,c02c,c045,bfd8,c024,bff0,c033,c04c,3f7a,c002,c030,c020,bffd,bf6d,c06e,409a,bfdd,c012,c01d,bffe,c009,c01b,c031,c06b,3f52,4048,c102,bfff,bfdd,c04e,c094,c02f,c019,c03e,c031,c03f,c02d,c02d,c023,bfd5,c04c,3fa5,c046,c017,c041,c022,c014,bfcc,c02b,bf8d,c03f,c019,c036,c03d,bf44,c038,c047,c06e,c022,c014,c02b,c051,c048,c033,bff9,c022,4029,c022,c078,c01f,c011,c045,c011,c00a,c049,c04a,c078,c017,c010,c035,bfe2,c059,bfb0,c017,c073,c024,c043,c04b,c041,c05a,c023,c05b,c009,c02c,c049,c06f,c038,c039,c012,c070,c040,c01e,c00d,c04b,c03c,c021,c030,c029,c047,bfec,c026,c045,bfd8,c051,c058,c057,c031,c010,c01c,c010,bfa1,c029,c009,c00a,c024,c06d,c026,c02b,c00c,c04a,bf9c,bffa,c047,c02b,c02c,bff5,c02a,c021,c03d,c043,c033,c035,c00e,bff2,c054,c040,c025,c04d,c03e,c039,c037,bfed,c041,c040,c038,c069,c069,c02b,c06d,c01b,c01e,bff9,c02c,c02c,c03c,c029,c017,c02a,bfe5,c040,c052,c032,c046,c02f,c011,c044,bff9,c052,c016,bffd,c038,c055,c000,c042,c07b,c006,c01c,c00e,bff3,c050,c059,c01a,c036,c05e,bff0,c038,c013,c06f,c051,c041,c02c,c031,c016,c037,c036,c016,c00c,c075,c071,c009,c06b,bf8c,c077
+
+STUDENT_NATIVE_TOKEN step=3 token=8 elapsed_cycles=0:6799470 hidden=4003,bf60,3f1e,c006,be56,c059,3f8f,bfc5,bded,c04b,bf6f,3fb3,3fb3,bf7b,bf87,be86 logits=c067,c01b,c040,c05e,3faa,c04e,c062,c03a,4142,c042,c07a,c074,c086,c07d,c049,3dda,c099,c092,c08d,c040,c02c,c065,c06c,c052,c079,c048,c022,c07f,c087,c069,3ea6,c02b,c056,c028,c054,c04a,c047,c07b,c06c,c03a,c087,c07a,c096,c070,c05a,c05f,c08d,c071,c07e,c064,c036,bf81,3f3b,c08d,c037,c05d,4006,c07e,3f82,c083,c045,c08a,c05b,c081,c04f,c089,c08b,3f61,400d,3ee2,c00a,c05e,c061,404b,c05f,c065,c03d,c04b,c080,c080,c05c,c094,3fa2,c074,c02b,c042,c094,c08c,c03f,c075,3fce,c095,c0ce,c04a,c018,c08b,c091,c027,c08f,c05b,c086,c02c,c03e,c037,c03f,c056,c059,c08e,c077,4055,c089,c087,c061,c06f,c032,c09a,c056,c01f,c03f,c082,c04d,c021,c068,c019,c034,c045,c068,c028,c09b,c08c,c05f,c04f,c08a,c086,c08d,c048,c06e,c048,c016,c054,c086,c079,c060,c060,c070,c093,c06b,c085,c053,c040,c084,c03b,c075,c034,c05e,c060,c064,c018,c058,c034,c03b,c077,c078,c032,c063,c084,c08d,c031,c063,c082,c04e,c06c,c02d,c056,c052,c067,c051,c093,c098,c065,c048,c092,c06a,c068,c039,c059,c02c,c080,c05b,c081,c04b,c06e,c054,c044,c011,c05c,c06b,c077,c056,c03b,c07f,c043,c091,c082,c07c,c054,c088,c064,c076,c05d,c041,c06b,c055,c079,c03b,c05b,c00c,c031,c064,c062,c062,c05a,c030,c06b,c049,c085,c091,c062,c070,c048,c081,c082,c059,c041,c07b,c049,c049,c052,c060,c032,c085,c091,c050,c045,c050,c075,c016,c09a,c080,c01f,c05b,c08b,c082,c025,c05e,c04e
+
+STUDENT_NATIVE_TOKEN step=4 token=4 elapsed_cycles=0:7692838 hidden=3e4c,bb98,3f9f,4039,bf4d,3f05,4011,bfff,bff4,3fa6,bf40,3fbe,3f10,bff9,3fea,c01c logits=bfe9,c00e,c016,c00b,4140,c01a,c024,bff9,3ffb,c018,c013,c01d,c014,c023,c00b,c007,3f8d,c003,c011,c014,bff8,c00c,c010,4014,c00b,c002,c027,c026,c00a,c01c,bfbf,bff8,c017,bffd,c007,c02d,bfe4,c025,c004,c003,c012,c021,c02c,c031,c010,c01b,c01b,c02c,c003,c026,c017,4066,bfd8,c01f,c010,c018,c0c2,c02f,c026,c014,bfe8,c016,c009,c007,c025,c022,c041,c05b,3f94,c0ae,c00c,c044,c030,4020,c023,c00e,c019,c000,bfdf,c009,c009,c038,c061,c002,4045,c009,bffa,c009,c017,c001,c0a3,c00b,c036,c00d,bff0,c005,c01f,3e4e,c011,c007,c001,c000,c01f,bfbd,c016,c009,c004,c010,c021,bf31,bfe8,c00f,c020,c01a,c00a,c02d,bffe,c021,bff4,c013,c017,bfec,c014,c007,bff0,c014,c02f,bfd3,c024,c012,bfef,bfd2,c00d,c011,c014,c028,c000,c023,bff9,c024,c037,c024,c015,c017,c03f,c01a,c01c,c035,bfef,c00c,c029,c025,bff9,c00d,c004,bff6,c028,bffc,c011,bff9,c00a,bfee,c01b,bfc5,c023,bfe5,c030,c020,bfd6,c032,c02a,bfe1,c009,c01f,c00e,c006,c037,c019,c01d,bfff,c036,c016,c021,c011,c004,c028,c002,c02a,c018,bfd1,c00a,bff4,bfef,c020,c022,c020,bff2,c01b,bff2,bffd,c058,c03b,c00c,c001,c008,c00a,bfed,c016,c011,c01f,bfff,c00c,c029,c020,c011,c030,c01f,bfeb,c015,c00e,c004,c02c,bff4,c02d,bff3,c025,c03d,c025,c020,c01b,c032,c031,bffd,bffa,bffb,c017,c00a,c009,bffe,c002,c00a,bff8,c00c,c026,c01c,c025,bfe5,c01c,c01f,bfee,c002,c017,bff7,bff5,c012,c013
+
+STUDENT_NATIVE_OPERATOR op=1 cycles=0:334626
+
+STUDENT_NATIVE_OPERATOR op=2 cycles=0:366764
+
+STUDENT_NATIVE_OPERATOR op=3 cycles=0:1360804
+
+STUDENT_NATIVE_CPU_COMPLETE count=5 p1=1 p2=4 p3=28

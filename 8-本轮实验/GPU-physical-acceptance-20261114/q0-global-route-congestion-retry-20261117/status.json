@@ -1,0 +1,16 @@
+{
+  "physical_signoff": false,
+  "global_route_pass": true,
+  "global_route_overflow": 0,
+  "exit_code": 0,
+  "source_cts_sha256": "863c93b3be069f0bd8750b1ce44ad91d8af1000e81a0c2476b2fac02323a75f0",
+  "files": {
+    "congestion-12.rpt": "f33d14849c3aac556c26f3c358ac3ca356ebefb406ba017c2fcafc4951d69bce",
+    "congestion-24.rpt": "742a797cc2dd05184d1a70d41760a942a88f8e89bdb785da3e6bca4ba8b4d7e1",
+    "congestion.rpt": "d0bb86aebc9a1219cb023c357add5f1a813f8e384f55df96ed8879232169fc73",
+    "global-route.odb": "47d1a27283884f48b50d37940a6e93201e771218e1a58c06ad02bd3fc6a81b2e",
+    "openroad.log": "eceb1822303e703ea0886d084348454b10564b1395a5507882eec58b8084376e",
+    "route.guide": "c69a94a80dc8fa28d065bd1d832224de954de65ca4e3babd8c7ae2be7c85f9c0",
+    "run.tcl": "7164bec350cb114b3ff69d0b53e8bf39c335e478394925bde1f33fe4696665a6"
+  }
+}

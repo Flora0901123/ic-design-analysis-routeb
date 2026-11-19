@@ -1,0 +1,13 @@
+{
+  "status": "PLAN_READY",
+  "files": 16954,
+  "bytes": 3111017370,
+  "expanded_limit": 3221225472,
+  "omitted_rebuildable_cache_files": 7219,
+  "omitted_rebuildable_cache_bytes": 14561622752,
+  "deduplicated_physical_view_files": 4,
+  "deduplicated_physical_view_bytes": 166814389,
+  "workspace_files_deleted": 0,
+  "scope": "actual target binaries, reference, sources, inputs, raw evidence and failure records retained; identified caches omitted; historical byte-identical GPU views have an explicit canonical path and SHA",
+  "build_requested": false
+}

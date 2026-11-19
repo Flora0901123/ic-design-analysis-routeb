@@ -1,0 +1,49 @@
+{
+  "status": "FAILED_OR_PARTIAL",
+  "records": [
+    {
+      "shape": "20x64",
+      "status": "FAILED",
+      "config_sha256": "25fd3586574bcde193911f7080e3d05e7f49d221cda99305a76553090ee5e921",
+      "error": "CalledProcessError: Command '['/root/.cache/routeb-openram-b2b069c/venv/bin/python', '/root/.cache/routeb-openram-b2b069c/source/sram_compiler.py', '/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/config.py']' returned non-zero exit status 1.",
+      "seconds": 586.825539812
+    },
+    {
+      "shape": "8x128",
+      "status": "FAILED",
+      "config_sha256": "8989e48d748900fc508d449cbb0fcf1ad36e5f7efafa146a8e7b2fc3cdff1d46",
+      "error": "RuntimeError: Time or 7 GiB early stop reached; see compile.log",
+      "seconds": 1500.7194077839997
+    }
+  ],
+  "physical_signoff": false,
+  "layout_view_mode": "analytical Liberty",
+  "source_pins": {
+    "openram": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+    "bitcells": "dd64256961317205343a3fd446908b42bafba388",
+    "hd_latch": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1"
+  },
+  "inputs": {
+    "8-本轮实验/GPU-SRAM宏生成-20261111/macro-pdk-ready.json": "6ae22e5dbc70c11acade41552da1dc5f0eba302c7e848e75b114ea5abe6a9b0a",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.gds": "d7f91d31f0a3f51ce42522a0089e052a615109a3b08b94561198d8c5cfc86b38",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.spice": "97d2a2fad044ddd1cb4601b885f34af026c46ea5394ab1dea127f7579e334209",
+    "9-GPU复现/downloads/openram-b2b069c/OpenRAM-source.tar.gz": "bbbdf2bc13cf779b1b11fd485d52a39494b79cdc7b37861c025874cdb8bc0cd3",
+    "9-GPU复现/downloads/openram-b2b069c/Sky130-SRAM-bitcells.tar.gz": "4a9b8adf7c3ca65a97b2715aa7589149d6aacc5ed9fcff832d046d43bc1d87e9",
+    "7-审计与验收/generate_missing_sky130_sram_v2.py": "5ab2a5c862ab26e26295a31a82ddff20fe1effd2225fb3ea6e91a0bc651ca77e"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794462975.90054,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 4579050362\nuser_usec 4529534264\nsystem_usec 49516098\nnice_usec 0\nnr_periods 26786\nnr_throttled 611\nthrottled_usec 6860948\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1386790912",
+      "memory.peak": "1800372224",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "406\n1231\n2572\n16786\n16795\n16797\n17295\n18617\n18908\n18909"
+    }
+  }
+}

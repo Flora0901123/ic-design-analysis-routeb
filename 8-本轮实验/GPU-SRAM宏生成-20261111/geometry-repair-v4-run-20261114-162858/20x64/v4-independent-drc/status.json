@@ -1,0 +1,10 @@
+{
+  "status": "V4_DRC_INDEPENDENTLY_MEASURED",
+  "shape": "20x64",
+  "gds_sha256": "0183406af37ae710a7661edc6e319b8fcd45d6eeb1fb085fa4b1e97070f563e7",
+  "results": [
+    "Total DRC errors found: 3",
+    "ROUTEB_DRC_DETAILS {Deep N-well spacing to N-well < 4.5um (nwell.7)} {{39999 13322 40320 14222} {20160 39562 20321 40320} {60480 48241 60808 49141}}"
+  ],
+  "physical_signoff": false
+}

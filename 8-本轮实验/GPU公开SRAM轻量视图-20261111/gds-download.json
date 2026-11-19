@@ -1,0 +1,14 @@
+[
+  {
+    "shape": "32x256",
+    "status": "DOWNLOAD_FAILED",
+    "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.gds",
+    "curl_exit": 28
+  },
+  {
+    "shape": "8x1024",
+    "status": "DOWNLOAD_FAILED",
+    "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.gds",
+    "curl_exit": 28
+  }
+]

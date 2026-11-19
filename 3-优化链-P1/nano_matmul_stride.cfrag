@@ -1,0 +1,21 @@
+static void matmul(const mini_native_model *m, unsigned id, const float *x,
+                   unsigned in, unsigned out, unsigned transpose, float *y) {
+    int8_t a[16];
+    float s=quantize(x,in,a)*m->scale[id];
+    const int8_t *w=m->weight[id];
+    unsigned stride=transpose ? 1 : out;
+    for(unsigned j=0;j<out;++j) {
+        int32_t acc=0;
+        if(in) {
+            const int8_t *p=w+(transpose ? j*in : j);
+            unsigned k=0;
+            for(;;) {
+                acc+=(int32_t)a[k]*(*p);
+                ++k;
+                if(k==in) break;
+                p+=stride;
+            }
+        }
+        y[j]=rounded((float)acc*s);
+    }
+}

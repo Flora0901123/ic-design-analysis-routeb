@@ -1,0 +1,117 @@
+{
+  "status": "CPU_WISHBONE_BMC_COVER_AND_8_MUTATIONS_PASS",
+  "scope": "32-cycle bounded full-word Wishbone CSR adapter, not whole SoC",
+  "harness_origin": "new local independent scoreboard, historical harness missing in provided package",
+  "source_sha256": "cd68949a826b3ecc29c10e108fe8e2fa7ca26f3eb6fb2079f75c52c9ae8246b5",
+  "harness_sha256": "3a73ae5b13bdbe36c48d7a7f390f06c9d2b1699a06bbdcf46356302cf4cba7f3",
+  "jobs": [
+    {
+      "name": "baseline",
+      "kind": "safety",
+      "accepted": true,
+      "log_sha256": "c5d8a54fe5ed9fdb8a572f547548effe9e8a1bd88c51b082ab6f7b95873fc8d5"
+    },
+    {
+      "name": "request-hold",
+      "kind": "mutation",
+      "accepted": true,
+      "log_sha256": "e17beba6c7181d1726f69d9d781f874182a9ebb9f2c0791377877f989e130c25"
+    },
+    {
+      "name": "wrong-address",
+      "kind": "mutation",
+      "accepted": true,
+      "log_sha256": "48b0edfd2f34db7497f1b9e085fb9e4a2899cdf8f549020ae2a059c2fd960ef0"
+    },
+    {
+      "name": "wrong-data",
+      "kind": "mutation",
+      "accepted": true,
+      "log_sha256": "25a4baee46a2e87fe35e5883e5275eaca2247748fcc21245603522e5abc8b2bb"
+    },
+    {
+      "name": "wrong-direction",
+      "kind": "mutation",
+      "accepted": true,
+      "log_sha256": "a3965db5b6d80457e2389afd13a68b9fc6865da70d8ff71e1d2e5d60917be278"
+    },
+    {
+      "name": "wrong-response",
+      "kind": "mutation",
+      "accepted": true,
+      "log_sha256": "61c5944898cc6a25cb095988a7919bac6c4ccc3368aebefb5f54eeda0fa9638a"
+    },
+    {
+      "name": "early-ack",
+      "kind": "mutation",
+      "accepted": true,
+      "log_sha256": "75904f1b2ed6682064b92dcdf512e1ab0a0fe2a5b8b9d2f8eb93efd8c4282dec"
+    },
+    {
+      "name": "error-bit",
+      "kind": "mutation",
+      "accepted": true,
+      "log_sha256": "086e175d0780d8b08d409c276bdfa536da97f2fb004cc5af5b73c5d705f640ef"
+    },
+    {
+      "name": "reset-state",
+      "kind": "mutation",
+      "accepted": true,
+      "log_sha256": "7c043dc085db0f492531d29e34dc1aba54b2e3727a043d85a739ad157ca1c242"
+    },
+    {
+      "name": "request-stall",
+      "kind": "cover",
+      "accepted": true,
+      "log_sha256": "4bc98aa93415251aeeed04442dbd7426d69491099c79f9a250055b846b35ba00"
+    },
+    {
+      "name": "response-stall",
+      "kind": "cover",
+      "accepted": true,
+      "log_sha256": "38b5cba6ce68b03e262613ec09bc0205d9894d67213b45150e15e323fb24c413"
+    },
+    {
+      "name": "reset-recovery",
+      "kind": "cover",
+      "accepted": true,
+      "log_sha256": "56dbdf22f9758f566713fd6912e30158527155189d65c0498ae1c34044be5cab"
+    },
+    {
+      "name": "completed-write",
+      "kind": "cover",
+      "accepted": true,
+      "log_sha256": "1bed02823f2ac290114a8340e10bf63218561d96bcc91eba02545375bfd0d03b"
+    }
+  ],
+  "gateware_binding": {
+    "parent": {
+      "path": "student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim.v",
+      "sha256": "4ee3f961e62b826573e195d39ba7e0d73dcd8c2a05b1fdcb94a2b615706c1532",
+      "embedded_module_equals_formal_source": false
+    },
+    "candidate": {
+      "path": "student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/b6c6d99e4d0554083c76eb25bb77554ff73cca312ce942cd90dc2bc8a063ce68/soc/gateware/sim.v",
+      "sha256": "b613fe0af4dcb226b1c17fac34adaa9a6e898b9137dbb10845f58dfa66cf157b",
+      "embedded_module_equals_formal_source": false
+    }
+  },
+  "tool_hashes": {
+    "yosys": "88c0a12bb814a1a8716b1ae10b482e35d3005ed558e1f5f626b3dc983ea3abd0"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794729279.1497266,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 15028262\nuser_usec 14006963\nsystem_usec 1021299\nnice_usec 0\nnr_periods 241\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "11939840",
+      "memory.peak": "116621312",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "295"
+    }
+  }
+}

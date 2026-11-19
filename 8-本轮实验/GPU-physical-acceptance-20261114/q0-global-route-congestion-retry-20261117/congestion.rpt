@@ -1,0 +1,12 @@
+violation type: Vertical congestion
+	srcs: net:_017995_ net:_018908_ net:_275949_ net:_275954_ net:_275956_ net:net14612 net:net14614 net:net14615 net:net14620 net:net14623 net:net14630 net:net14674 net:net14866 net:net14877 net:net14894 net:part_one_ net:routeb_original_bit_452490 net:routeb_original_bit_452668 net:routeb_original_bit_452782 net:clknet_0__277358_
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (3670.8000, 897.0000) - (3677.7000, 903.9000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_017994_ net:_018908_ net:_275949_ net:_275954_ net:_275956_ net:net14612 net:net14614 net:net14615 net:net14620 net:net14623 net:net14630 net:net14699 net:net14708 net:net14866 net:net14877 net:part_one_ net:routeb_original_bit_452313 net:routeb_original_bit_452490 net:routeb_original_bit_452782 net:clknet_0__277358_
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (3670.8000, 910.8000) - (3677.7000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:_017994_ net:_018908_ net:_275949_ net:_275954_ net:_275956_ net:net14612 net:net14614 net:net14615 net:net14620 net:net14623 net:net14630 net:net14674 net:net14699 net:net14866 net:net14877 net:net14894 net:part_one_ net:routeb_original_bit_452490 net:routeb_original_bit_452782 net:clknet_0__277358_
+	comment: capacity:20 usage:21 overflow:1
+	bbox = (3670.8000, 903.9000) - (3677.7000, 910.8000) on Layer -

@@ -1,0 +1,18 @@
+{
+  "status": "V3_DRC_INDEPENDENTLY_MEASURED",
+  "physical_signoff": false,
+  "results": {
+    "8x128": {
+      "drc_errors": 0,
+      "gds_sha256": "5fa6b85418c2ad80738b64af004b7a99d75bccc6c9c76e446e95d254d885c699",
+      "drc_log_sha256": "bccddbe1c962683d83d076ec05f46a09a1593c51bb3efd445ca3ccd767475341",
+      "markers": "ROUTEB_DRC_DETAILS "
+    },
+    "20x64": {
+      "drc_errors": 4,
+      "gds_sha256": "dc5ffbac960a693df13d8abc4f86392a116b3b98fc92fef02280239658624557",
+      "drc_log_sha256": "1b836a37e2842c06286ce60da3b0302397671ce6d6ef79d99afaaab2953ad0c9",
+      "markers": "ROUTEB_DRC_DETAILS {Deep N-well spacing to N-well < 4.5um (nwell.7)} {{39580 39980 40320 40320} {20160 39898 20657 40320} {20160 40320 20657 40798} {40320 43846 40397 44746} {40320 41602 40480 42502}}"
+    }
+  }
+}

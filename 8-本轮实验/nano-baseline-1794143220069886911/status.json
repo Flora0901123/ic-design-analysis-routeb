@@ -1,0 +1,64 @@
+{
+  "status": "TRANSCRIPTS_COLLECTED",
+  "variant": "baseline",
+  "requested_variant": "baseline",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "今天天气怎么样？",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "runs": [
+    {
+      "run": 0,
+      "complete": true,
+      "console_sha256": "34aeb39b8fc505049d832068850ca839600185823c2d9ceb96b6afe9bc253544",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 4667441,
+      "per_token_decode_cycles": 956222,
+      "decode_intervals_cycles": [
+        844451,
+        869858,
+        891410,
+        913852,
+        943960,
+        969065,
+        993001,
+        1021323,
+        1044709,
+        1070591
+      ],
+      "session_cycles": 14229890,
+      "operator_cycles": {
+        "1": 375503,
+        "2": 1175498,
+        "3": 2040006
+      }
+    }
+  ],
+  "token_and_metrics_validation": "PASS",
+  "metrics_mean": {
+    "ttft_cycles": 4667441,
+    "per_token_decode_cycles": 956222,
+    "session_cycles": 14229890
+  },
+  "measurement_boundary": "mcycle around mini_native_generate; excludes boot, input transfer, host tokenization; EOS included in decode intervals",
+  "promotion": "NOT_EVALUATED"
+}

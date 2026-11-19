@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "profile": "fresh-routeb-ASIC-STD-PERF",
+  "variants": [
+    {
+      "module": "VX_dp_ram_asic",
+      "macro_name": "vortex_dp_80x64_w4",
+      "data_width": 80,
+      "depth": 64,
+      "write_enable_width": 4,
+      "instance_count": 1,
+      "port_topology": "1r1w",
+      "physical_macro": true
+    },
+    {
+      "module": "VX_sp_ram_asic",
+      "macro_name": "vortex_sp_32x256_w1",
+      "data_width": 32,
+      "depth": 256,
+      "write_enable_width": 1,
+      "instance_count": 16,
+      "port_topology": "1r1w",
+      "physical_macro": true
+    },
+    {
+      "module": "VX_sp_ram_asic",
+      "macro_name": "vortex_sp_32x1024_w4",
+      "data_width": 32,
+      "depth": 1024,
+      "write_enable_width": 4,
+      "instance_count": 4,
+      "port_topology": "1r1w",
+      "physical_macro": true
+    },
+    {
+      "module": "VX_sp_ram_asic",
+      "macro_name": "vortex_sp_64x128_w8",
+      "data_width": 64,
+      "depth": 128,
+      "write_enable_width": 8,
+      "instance_count": 16,
+      "port_topology": "1r1w",
+      "physical_macro": true
+    }
+  ],
+  "reference_physical_identity": false
+}

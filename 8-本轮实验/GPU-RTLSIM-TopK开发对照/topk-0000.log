@@ -1,0 +1,34 @@
+VORTEX_DRIVER=rtlsim; VORTEX_PROFILING=0; one actual device case
+CHIP info [TID 3930] [1793802893.894680941] : CHIP_PLATFORM=0
+CHIP info [TID 3930] [1793802893.898209737] : CHIP_DEVICE_TYPE=gpu
+CHIP info [TID 3930] [1793802893.900308332] : CHIP_DEVICE=0
+CHIP info [TID 3930] [1793802893.902631432] : CHIP_BE=default
+CHIP info [TID 3930] [1793802893.904762564] : CHIP_DUMP_SPIRV=off
+CHIP info [TID 3930] [1793802893.908173413] : CHIP_RTC_SAVE_TEMPS=off
+CHIP info [TID 3930] [1793802893.910388959] : CHIP_JIT_FLAGS_OVERRIDE=
+CHIP info [TID 3930] [1793802893.912584482] : CHIP_L0_COLLECT_EVENTS_TIMEOUT=0
+CHIP info [TID 3930] [1793802893.923708981] : CHIP_L0_EVENT_TIMEOUT=0
+CHIP info [TID 3930] [1793802893.925515622] : CHIP_SKIP_UNINIT=off
+CHIP info [TID 3930] [1793802893.927850319] : CHIP_LAZY_JIT=on
+CHIP info [TID 3930] [1793802893.930144857] : CHIP_OCL_DISABLE_QUEUE_PROFILING=off
+CHIP info [TID 3930] [1793802893.932292758] : CHIP_OCL_USE_ALLOC_STRATEGY=off
+CHIP info [TID 3930] [1793802893.934487411] : CHIP_MODULE_CACHE_DIR=/root/.cache/chipStar
+CHIP info [TID 3930] [1793802893.936719451] : CHIP_DUMP_PROCESSED_SPIRV=off
+CHIP debug [TID 3930] [1793802893.942288788] : CHIPDriver Initialize
+CHIP debug [TID 3930] [1793802893.944447607] : CHIPBE=default... trying OpenCL Backend
+CONFIGS: num_threads=4, num_warps=2, num_cores=1, num_clusters=1, socket_size=1, local_mem_base=0xffff0000, num_barriers=8
+CHIP info [TID 3930] [1793802896.109667428] : OpenCL Devices of type gpu with SPIR-V_1 support across all platforms:
+Platform 0: Vortex OpenGPU  is supported.
+
+CHIP warning [TID 3930] [1793802896.225436142] : The device might not support subgroup size 32, warp-size sensitive kernels might not work correctly.
+warning: overriding the module target triple with riscv32-unknown-unknown-elf [-Woverride-module]
+1 warning generated.
+CHIP info [TID 3930] [1793802906.143660247] : clProgramBuild took 9.88741 seconds
+CHIP info [TID 3930] [1793802906.151212500] : Loaded from cache, kernel compilation took 9.90957 seconds
+CHIP info [TID 3930] [1793802906.153814928] : Module compilation took 9912502 microseconds
+CHIP info [TID 3930] [1793802906.155257850] : initDeviceHeap() device_heap: 0x0
+CHIP info [TID 3930] [1793802906.156169421] : initDeviceHeap() allocated init_device_heap_ptr: 0x120c0
+STUDENT_GPU ordinal=0 status=0 primitive=0 bits=bc80,bd00,3d80,3d40,3d80,bda0,3dc0,0000 selected=0
+STUDENT_GPU_COMPLETE start=0 count=1
+CHIP debug [TID 3930] [1793802907.051143472] : Uninitializing CHIP...
+PERF: instrs=8870, cycles=94380, IPC=0.094

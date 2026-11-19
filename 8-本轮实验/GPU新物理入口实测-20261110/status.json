@@ -1,0 +1,51 @@
+{
+  "status": "FAILED",
+  "scope": "new FF semantic and hierarchy/process preflight only; no physical mapping or PPA signoff",
+  "formal_promotion": "HOLD",
+  "records": [
+    {
+      "shape": "vortex_dp_80x64_w4",
+      "four_state_memory_semantics": "PASS",
+      "compile": {
+        "log": "vortex_dp_80x64_w4-compile.log",
+        "seconds": 0.0930529649995151,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "run": {
+        "log": "vortex_dp_80x64_w4-run.log",
+        "seconds": 0.08612887499839417,
+        "log_sha256": "8fbe6e638c0405a84202ef861ebe9e220a22561e7e5f69171a3a39c953de2781"
+      }
+    },
+    {
+      "shape": "vortex_sp_32x1024_w4",
+      "four_state_memory_semantics": "PASS",
+      "compile": {
+        "log": "vortex_sp_32x1024_w4-compile.log",
+        "seconds": 0.07397501900049974,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "run": {
+        "log": "vortex_sp_32x1024_w4-run.log",
+        "seconds": 0.19204250800066802,
+        "log_sha256": "d777f465792186f1ce900d65b13c5b26109459f6cbcab76bd6af9e3ac28b5f0f"
+      }
+    }
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794310551.591229,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 19322862304\nuser_usec 19030868465\nsystem_usec 291993838\nnice_usec 0\nnr_periods 115062\nnr_throttled 849\nthrottled_usec 5924980\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "771371008",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n46976\n46977\n47085"
+    }
+  },
+  "error": "AssertionError: ('command failed', 'vortex_sp_32x256_w1-run.log', 1)"
+}

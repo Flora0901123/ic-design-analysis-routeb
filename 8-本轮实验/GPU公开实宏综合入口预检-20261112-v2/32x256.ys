@@ -1,0 +1,12 @@
+read_liberty -lib 32x256.lib
+read_verilog -sv wrappers.v 32x256-adapter.sv
+hierarchy -check -top vortex_sp_32x256_w1
+synth -flatten -top vortex_sp_32x256_w1
+read_liberty -lib sky130.lib
+techmap -map latch-map.v
+dfflibmap -liberty sky130.lib
+abc -liberty sky130.lib
+clean
+hierarchy -check -top vortex_sp_32x256_w1
+check -assert
+write_json mapped.json

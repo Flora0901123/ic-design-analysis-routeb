@@ -1,0 +1,17 @@
+{
+  "lock_sha256": "18ad55f4fcc2e1e9b48b3204af6c88ec94a237e42807e85095c25c35b6e774d3",
+  "sources": [
+    {
+      "name": "vortex",
+      "expected": "b8c5a24336026d9d029a67197160eee6b017f262",
+      "actual": "b8c5a24336026d9d029a67197160eee6b017f262",
+      "source_ready": true
+    },
+    {
+      "name": "vortex-toolchain-prebuilt",
+      "source_ready": false,
+      "error": "Command '['git', '-c', 'safe.directory=C:/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/vortex-toolchain-prebuilt', '-c', 'http.proxy=http://127.0.0.1:7890', '-C', 'C:\\\\Users\\\\Camellia\\\\Desktop\\\\\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8\\\\9-GPU\u590d\u73b0\\\\vortex-toolchain-prebuilt', 'fetch', '--depth', '1', 'https://github.com/vortexgpgpu/vortex-toolchain-prebuilt.git', 'd0e3fed1dbc4bbc882ea7d453d339b8dde874c13']' timed out after 300.0 seconds"
+    }
+  ],
+  "gpu_execution": false
+}

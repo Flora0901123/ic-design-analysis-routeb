@@ -1,0 +1,11 @@
+--- original/compiler/modules/sram_1bank.py
++++ candidate/compiler/modules/sram_1bank.py
+@@ -1072,7 +1072,7 @@
+         self.add_layout_pins()
+ 
+         # Some technologies have an isolation
+-        self.add_dnwell(inflate=2.5)
++        self.add_dnwell(inflate=3.5)
+ 
+         init_bbox = self.get_bbox()
+         # Route the supplies together and/or to the ring/stripes.

@@ -1,0 +1,32 @@
+{
+  "status": "LOCKED_COMPONENTS_CLEAN_EXTRACTION_PASS_PENDING_TARGET",
+  "locked_commit": "d0e3fed1dbc4bbc882ea7d453d339b8dde874c13",
+  "components": [
+    {
+      "name": "chipstar",
+      "verified_blobs": 1
+    },
+    {
+      "name": "libc32",
+      "verified_blobs": 1
+    },
+    {
+      "name": "libcrt32",
+      "verified_blobs": 1
+    },
+    {
+      "name": "llvm-vortex",
+      "verified_blobs": 3
+    },
+    {
+      "name": "pocl",
+      "verified_blobs": 1
+    },
+    {
+      "name": "riscv32-gnu-toolchain",
+      "verified_blobs": 11
+    }
+  ],
+  "scope": "fresh extraction from cached locked upstream blobs, no preinstalled Vortex tools copied",
+  "path": "/mnt/d/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/tools/clean-install-20261114"
+}

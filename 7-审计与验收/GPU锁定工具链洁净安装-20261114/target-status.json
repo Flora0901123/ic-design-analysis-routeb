@@ -1,0 +1,61 @@
+{
+  "status": "FRESH_LOCKED_HOST_TOOLS_SIX_RTLSIM_PASS",
+  "cases": [
+    {
+      "ordinal": 0,
+      "markers": [
+        "STUDENT_GPU ordinal=0 status=0 primitive=0 bits=bc80,bd00,3d80,3d40,3d80,bda0,3dc0,0000 selected=0",
+        "STUDENT_GPU_COMPLETE start=0 count=1",
+        "PERF: instrs=8893, cycles=95244, IPC=0.093"
+      ],
+      "sha256": "bb295de4b44a1eef18af664de54dc20ef321a513c21f613b8849f66ea9b5998b"
+    },
+    {
+      "ordinal": 330,
+      "markers": [
+        "STUDENT_GPU ordinal=330 status=0 primitive=0 bits=bde0,bd40,bd40,bde0,bda0,be00,3dc0,3da0 selected=",
+        "STUDENT_GPU_COMPLETE start=330 count=1",
+        "PERF: instrs=9659, cycles=102457, IPC=0.094"
+      ],
+      "sha256": "920f2d6e50d4bdc5bcf5035c21806136a95cb64fb9551fe5c968add2835ce424"
+    },
+    {
+      "ordinal": 660,
+      "markers": [
+        "STUDENT_GPU ordinal=660 status=0 primitive=0 bits=be71,bd24,3cb5,3ed6,3e3d,bd53,bec7,beed,3d42,be54,be74,3e61,3dbc,3cb9,bdcb,3e9c selected=",
+        "STUDENT_GPU_COMPLETE start=660 count=1",
+        "PERF: instrs=18818, cycles=193616, IPC=0.097"
+      ],
+      "sha256": "f687b1a0bf9b9ed6f3db283ea53039299c364b4b4faea0c87e1642ac8e9c0502"
+    },
+    {
+      "ordinal": 290,
+      "markers": [
+        "STUDENT_GPU ordinal=290 status=6 primitive=0 bits= selected=",
+        "STUDENT_GPU_COMPLETE start=290 count=1",
+        "PERF: instrs=1774, cycles=25370, IPC=0.070"
+      ],
+      "sha256": "4e677344123829b963b5d2b5a14a9c0eff2cdaa373dfc6ce9bb5e8213d59cdc7"
+    },
+    {
+      "ordinal": 620,
+      "markers": [
+        "STUDENT_GPU ordinal=620 status=6 primitive=0 bits= selected=",
+        "STUDENT_GPU_COMPLETE start=620 count=1",
+        "PERF: instrs=1777, cycles=25414, IPC=0.070"
+      ],
+      "sha256": "fea6b49ad2612257fd4cd82c751d5a24c49072205db33782de8486d4dd994e1e"
+    },
+    {
+      "ordinal": 950,
+      "markers": [
+        "STUDENT_GPU ordinal=950 status=6 primitive=0 bits= selected=",
+        "STUDENT_GPU_COMPLETE start=950 count=1",
+        "PERF: instrs=1847, cycles=26199, IPC=0.070"
+      ],
+      "sha256": "d3dd90fecd2f1414040bf5d8bb48b76e6e6ab7e4ed257e1bd69962feafc64c7b"
+    }
+  ],
+  "independently_extracted_components": 6,
+  "scope": "fresh tool extraction and CPU host caches; platform compiler inputs remain referenced"
+}

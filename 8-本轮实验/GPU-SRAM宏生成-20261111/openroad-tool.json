@@ -1,0 +1,8 @@
+{
+  "status": "OPENROAD_UBUNTU_2404_VERSION_PASS",
+  "version": "26Q2-1164-g08f67ee5ec",
+  "package_sha256": "f3f1eeaa18f327503f72cc45dcef5b1514ec2e89726ec53b4553bf4f951168a3",
+  "binary_sha256": "fcd7dcfc37d329bd43a7ede75805319a2e70e6879da11d42b4fd1c2e50e645c3",
+  "binary": "9-GPU\u590d\u73b0/tools/openroad-08f67ee5ec/usr/bin/openroad",
+  "source": "https://vaultlink.precisioninno.com/"
+}

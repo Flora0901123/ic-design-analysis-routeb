@@ -1,0 +1,33 @@
+{
+  "preexisting_json_sha256": "a358be00f534b4718f12bc8dea13761511dc5e35e60da4c5a1cd9796a3b0c3ee",
+  "project_original_sha256": "f47d19dfa10c614035e848e4470b83d216bb2344d7df1f492d0cc85151646226",
+  "reachable_module_types": 418,
+  "unresolved_non_builtin_types": {},
+  "reachable_blackboxes": {
+    "VX_sp_ram_asic": {
+      "dynports": "00000000000000000000000000000001",
+      "blackbox": "00000000000000000000000000000001",
+      "keep_hierarchy": "yes",
+      "src": "/root/.cache/routeb-dma-rebuild/project-original.v:41563.40-41631.10"
+    },
+    "VX_dp_ram_asic": {
+      "dynports": "00000000000000000000000000000001",
+      "blackbox": "00000000000000000000000000000001",
+      "keep_hierarchy": "yes",
+      "src": "/root/.cache/routeb-dma-rebuild/project-original.v:2136.40-2207.10"
+    }
+  },
+  "arithmetic_types": {
+    "$mul": 173,
+    "$paramod$56aaa88be2c08e9bc896119e52ecd323dcad8f9b\\VX_multiplier": 4,
+    "$paramod$347fa211291e9e279c3de223cd388c42ed47cc3f\\VX_serial_div": 1,
+    "$paramod$794212bf0b3719d6e961f9e201ba8e19a50a779f\\VX_fpu_std": 1,
+    "$paramod$b58dec71a85871ab60ef7ff78b6cac515db1a3c1\\VX_fdivsqrt_unit": 4,
+    "$paramod$0ba1d9b345932744a2b54def65b08cc94d58bcca\\VX_fma_unit": 4,
+    "$paramod$f300b56fb08708a2e4b4807695f8e4023e492d59\\VX_fma_unit_rtl": 1,
+    "$paramod$bafe735779cef33e5f1cfb7a0e5e432092c05c9e\\VX_wallace_mul": 1
+  },
+  "current_project_unmapped_sha256": "f47d19dfa10c614035e848e4470b83d216bb2344d7df1f492d0cc85151646226",
+  "same_unmapped_source": true,
+  "no_new_eda_run": true
+}

@@ -1,0 +1,18 @@
+{
+  "status": "ISOLATED_GENERATOR_REPAIR_PREPARED",
+  "physical_signoff": false,
+  "candidate_rules": "routing Metal3 spacing 0.400 \u00b5m, generated min transistor width 0.420 \u00b5m, larger deep-well moat",
+  "openram_paths": [
+    {
+      "path": "technology/sky130/tech/tech.py",
+      "original_sha256": "39e7a46f332cd103a726c3c6da373898eeab3e752c1867c1b0d798f859112aae",
+      "candidate_sha256": "afaa6e0f08401997d5e264dbcb85f65e8643e091897119ee6ed9b5eb562886e7"
+    },
+    {
+      "path": "compiler/modules/sram_1bank.py",
+      "original_sha256": "2758d4b0bb01ba9935effe8b8c5ff09e401c4a1919d764386a7e8a107bf0df20",
+      "candidate_sha256": "5bd906b8b6c4f5a49f057affeec90e432602de5654af4ec77a29aa05c29026d4"
+    }
+  ],
+  "script_sha256": "4eefc17fe2cb4a54d66dd64ad90dade654ff14cebbbf3b1e658477c86a6b16a5"
+}

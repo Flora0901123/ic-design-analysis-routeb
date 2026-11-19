@@ -1,0 +1,2 @@
+PASS openram vortex_sp_32x1024_w4: 2587 records
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_sp_32x1024_w4_openram.sv:28: $finish called at 25874000 (1ps)

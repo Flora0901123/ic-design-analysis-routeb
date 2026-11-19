@@ -1,0 +1,11 @@
+{
+  "status": "TARGET_EXECUTED",
+  "backend": "vexriscv-rtl",
+  "fresh_execution": true,
+  "records_expected": 1000,
+  "records_observed": 1000,
+  "numeric_matches": 1000,
+  "elapsed_seconds": 116.442231703,
+  "protocol_qualification": "PENDING_SEPARATE_RTL_ADAPTER_CHECKS",
+  "formal_baseline": false
+}

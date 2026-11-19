@@ -1,0 +1,33 @@
+{
+  "status": "ADAPTER_RTL_PASS",
+  "scope": "ADAPTER_ONLY",
+  "not_full_gpu_case_qualification": true,
+  "verilator": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "bindings": {
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u9002\u914d\u5668\u534f\u8bae-20261105/tb.sv": "815e5efb6ed3bd40d9db7afc61a6f06c5fb264e5333027afa7290d6afcf18f1a",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_fault_memory_adapter.sv": "5ef56b0c67bc08c9e3629b6bdbd0b0fe443f084a413075e9e0210f36ab402663",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_status_command_adapter.sv": "be1bfa47470ecf242547e7b3a497a6384e2b69e34d041904de04d0e194e1d131"
+  },
+  "tool_bindings": {
+    "verilator": "491c95e1a949a3df1f370c9d39318e159d08b246edf4363fb42d05ea88f74dbe",
+    "verilator_bin": "2b21379faf14b4557cb074d0f979cdfcdff96defad3440ef7bf8bbd649d94951"
+  },
+  "path_workaround": "ASCII compiler root symlink and exact-byte copies in generated WSL build cache; inputs and binary hashes recorded",
+  "stages": [
+    {
+      "stage": "build",
+      "exit_code": 0,
+      "elapsed_seconds": 135.505004881
+    },
+    {
+      "stage": "run",
+      "exit_code": 0,
+      "elapsed_seconds": 0.05587718899994343
+    }
+  ],
+  "cases": 120,
+  "stability_violations": 0,
+  "binary_sha256": "ca7ce50c7860ec2714ae24d27834c5fb89262c3fb7680631af7cb997899af746",
+  "run_log_sha256": "f5b78e142018350ab684fdf035779a1c23cc76feee1ad9b8142c0a1069f987f9",
+  "elapsed_seconds": 136.24843683400002
+}

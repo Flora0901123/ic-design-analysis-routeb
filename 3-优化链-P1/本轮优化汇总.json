@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-04",
+  "decision": "HOLD",
+  "cpu_nano_ablation_variants": [
+    "baseline",
+    "topk",
+    "rne",
+    "combined"
+  ],
+  "cpu_repeat_each": 100,
+  "cpu_repeat_total": 200,
+  "full_tensor_matches": 200,
+  "cpu_nano_combined_cycle_reduction_pct": {
+    "ttft": 0.7920835692344363,
+    "decode": 2.350224150241109,
+    "session": 1.5131645061497223
+  },
+  "gpu_simx_variants": [
+    "baseline",
+    "topk",
+    "rne",
+    "combined"
+  ],
+  "gpu_simx_records_each": 1000,
+  "gpu_simx_golden_matches_each": 970,
+  "gpu_simx_numeric_failures_each": 0,
+  "gpu_unsupported_dma_records_each": 30,
+  "gpu_rtlsim_development_cases": 4,
+  "gpu_rtlsim_seed_each": [
+    1
+  ],
+  "gpu_rtlsim_variants": 4,
+  "gpu_rtlsim_runs": 16,
+  "gpu_rtlsim_results": [
+    {
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "variant": "topk",
+      "baseline_cycles": 94890,
+      "candidate_cycles": 94380,
+      "speedup": 1.005403687221869,
+      "cycle_reduction_pct": 0.5374644325007893,
+      "baseline_instructions": 8893,
+      "candidate_instructions": 8870
+    },
+    {
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "variant": "rne",
+      "baseline_cycles": 94890,
+      "candidate_cycles": 92851,
+      "speedup": 1.0219599142712519,
+      "cycle_reduction_pct": 2.148803878174732,
+      "baseline_instructions": 8893,
+      "candidate_instructions": 8712
+    },
+    {
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "variant": "combined",
+      "baseline_cycles": 94890,
+      "candidate_cycles": 92231,
+      "speedup": 1.028829786080602,
+      "cycle_reduction_pct": 2.8021920118031396,
+      "baseline_instructions": 8893,
+      "candidate_instructions": 8703
+    },
+    {
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "variant": "topk",
+      "baseline_cycles": 239562,
+      "candidate_cycles": 238121,
+      "speedup": 1.006051545222807,
+      "cycle_reduction_pct": 0.6015144305023368,
+      "baseline_instructions": 23733,
+      "candidate_instructions": 23692
+    },
+    {
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "variant": "rne",
+      "baseline_cycles": 239562,
+      "candidate_cycles": 234489,
+      "speedup": 1.0216342770876246,
+      "cycle_reduction_pct": 2.1176146467302814,
+      "baseline_instructions": 23733,
+      "candidate_instructions": 23363
+    },
+    {
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "variant": "combined",
+      "baseline_cycles": 239562,
+      "candidate_cycles": 232587,
+      "speedup": 1.0299887783926014,
+      "cycle_reduction_pct": 2.911563603576528,
+      "baseline_instructions": 23733,
+      "candidate_instructions": 23332
+    },
+    {
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "variant": "topk",
+      "baseline_cycles": 102107,
+      "candidate_cycles": 101614,
+      "speedup": 1.0048516936642589,
+      "cycle_reduction_pct": 0.48282683851254005,
+      "baseline_instructions": 9659,
+      "candidate_instructions": 9636
+    },
+    {
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "variant": "rne",
+      "baseline_cycles": 102107,
+      "candidate_cycles": 100128,
+      "speedup": 1.0197647011824864,
+      "cycle_reduction_pct": 1.9381629075381657,
+      "baseline_instructions": 9659,
+      "candidate_instructions": 9480
+    },
+    {
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "variant": "combined",
+      "baseline_cycles": 102107,
+      "candidate_cycles": 99474,
+      "speedup": 1.0264692281400165,
+      "cycle_reduction_pct": 2.5786674762748873,
+      "baseline_instructions": 9659,
+      "candidate_instructions": 9468
+    },
+    {
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "variant": "topk",
+      "baseline_cycles": 193233,
+      "candidate_cycles": 193192,
+      "speedup": 1.0002122241086588,
+      "cycle_reduction_pct": 0.021217907914283796,
+      "baseline_instructions": 18818,
+      "candidate_instructions": 18831
+    },
+    {
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "variant": "rne",
+      "baseline_cycles": 193233,
+      "candidate_cycles": 193494,
+      "speedup": 0.9986511209649912,
+      "cycle_reduction_pct": -0.1350700967226004,
+      "baseline_instructions": 18818,
+      "candidate_instructions": 18833
+    },
+    {
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "variant": "combined",
+      "baseline_cycles": 193233,
+      "candidate_cycles": 192828,
+      "speedup": 1.0021003173812932,
+      "cycle_reduction_pct": 0.2095915293971573,
+      "baseline_instructions": 18818,
+      "candidate_instructions": 18817
+    }
+  ],
+  "remaining": [
+    "GPU complete RTLSIM case x seed performance board and >5% regression check",
+    "independent DMA fault/protocol/recovery RTL qualification",
+    "locked tool version and mapped physical/source identity",
+    "resource/traffic/energy reporting",
+    "Nano frozen question coverage; GPU Nano optimization performance",
+    "final packaging and independent-machine reproduction when available"
+  ]
+}

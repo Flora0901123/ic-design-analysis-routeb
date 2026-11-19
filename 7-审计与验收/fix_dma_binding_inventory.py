@@ -1,0 +1,2 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];p=R/'7-审计与验收/build_fresh_dma_platform.py';s=p.read_text();anchor="p=C/'platform-producer.py';p.write_text(s);";new="import re\ns=re.sub(r\"subprocess.check_output\\(\\['git'.*?text=True\\)\\.splitlines\\(\\)\", \"['configure']+[str(p.relative_to(SOURCE)) for folder in ['hw','sim','sw'] for p in (SOURCE/folder).rglob('*') if p.is_file()]\",s,flags=re.S)\n"+anchor;assert anchor in s;s=s.replace(anchor,new);p.write_text(s)

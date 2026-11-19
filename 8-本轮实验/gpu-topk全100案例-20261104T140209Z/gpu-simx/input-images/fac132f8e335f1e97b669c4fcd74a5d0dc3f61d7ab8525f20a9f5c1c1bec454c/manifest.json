@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "status": "HOLD",
+  "record_bytes": 1936,
+  "count": 1000,
+  "bindings": {
+    "vectors.jsonl": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+    "scripts/export_student_mini_input.py": "b26b6766925f851fbd109c10680ebf844506b163c320e43e8b0ffee28643ebde",
+    "software/student_mini_scalar.c": "729eb4aeabdab2d3ad1302eddfc46264ff4419f04c09c033c85d36f253152ee1",
+    "software/include/student_mini_scalar.h": "293c697925faaafabc729fd580a202f718b0f8d48b94226b0d26ad1683f3a688",
+    "software/operator_scalar.c": "0033aeca594b264570c6d4ddfd03d11bb4c3c69e7d3b6238970a4120c065c910",
+    "software/include/numeric_luts.h": "e1772efaff856eeccf195157bd7940fb965a9a7ffaac99cac4cb81c2db39da17"
+  },
+  "input_sha256": "fac132f8e335f1e97b669c4fcd74a5d0dc3f61d7ab8525f20a9f5c1c1bec454c",
+  "artifacts": {
+    "inputs.bin": "baafeaeb6b75e03a6df72a6841d043140154d74bfcbede6011eaf69948c83bf6"
+  },
+  "boundary": "Input-only data; target computation and protocol evidence required; no expected outputs embedded"
+}

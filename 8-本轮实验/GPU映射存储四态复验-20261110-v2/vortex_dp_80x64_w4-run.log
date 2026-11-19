@@ -1,0 +1,2 @@
+PASS ff vortex_dp_80x64_w4: 667 records
+/root/.cache/routeb-mapped-memory-check-20261110-v2/verification/tb_vortex_dp_80x64_w4_ff.sv:28: $finish called at 6671000 (1ps)

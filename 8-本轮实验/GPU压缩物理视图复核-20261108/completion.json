@@ -1,0 +1,2301 @@
+{
+  "status": "PARTIAL_SOURCE_RECOVERY_PHYSICAL_IDENTITY_STILL_HOLD",
+  "original_checks": 50,
+  "original_exact_matches": 12,
+  "exact_matches_after_gzip_decode": 26,
+  "remaining_unmatched_checks": 24,
+  "new_matches": 14,
+  "teacher_originals_modified": false,
+  "teacher_physical_identity_established": false,
+  "fresh_functional_boundary_replaced": false,
+  "remaining_missing_basenames": [
+    "6_final.v",
+    "constraint.sdc",
+    "flat_3_place.v",
+    "quad.v",
+    "sky130_fd_sc_hd__tt_025C_1v80.lib",
+    "top.v",
+    "vortex_dp_80x64_w4.lef",
+    "vortex_dp_80x64_w4_TT_1p8V_25C.lib",
+    "vortex_physical_top_q0.lef",
+    "vortex_physical_top_q1.lef",
+    "vortex_physical_top_q2.lef",
+    "vortex_physical_top_q3.lef",
+    "vortex_sp_128x128_w16.lef",
+    "vortex_sp_128x128_w16_TT_1p8V_25C.lib",
+    "vortex_sp_32x1024_w4.lef",
+    "vortex_sp_32x1024_w4_TT_1p8V_25C.lib",
+    "vortex_sp_32x256_w1.lef",
+    "vortex_sp_32x256_w1_TT_1p8V_25C.lib",
+    "vortex_sp_32x512_w4.lef",
+    "vortex_sp_32x512_w4_TT_1p8V_25C.lib",
+    "vortex_sp_64x128_w8.lef",
+    "vortex_sp_64x128_w8_TT_1p8V_25C.lib"
+  ],
+  "bindings": [
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+      "expected_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_dp_80x64_w4/vortex_dp_80x64_w4_TT_1p8V_25C.lib",
+      "expected_sha256": "f4742fb2e9c42f374b530881b53e96ed7a0f75e9cf9f50ca78f69bd249965886",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_128x128_w16/vortex_sp_128x128_w16_TT_1p8V_25C.lib",
+      "expected_sha256": "8b942ab557c8437788dc867f494ba31346ceef1e1182b3efe399018d15d46b5e",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x1024_w4/vortex_sp_32x1024_w4_TT_1p8V_25C.lib",
+      "expected_sha256": "05a9685f05b441f680ad062074d647241ca649a3c608e8951e9408a04e53519c",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x256_w1/vortex_sp_32x256_w1_TT_1p8V_25C.lib",
+      "expected_sha256": "bec3c12fae51e95a0c0615e3afd6cc12255bfa9db94d02ed2149f88bfcc2bd16",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x512_w4/vortex_sp_32x512_w4_TT_1p8V_25C.lib",
+      "expected_sha256": "8fde4c93af38d6f39ed947faea8496e4d90ee3c5374e1b7f537d483e1f9d43ad",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_64x128_w8/vortex_sp_64x128_w8_TT_1p8V_25C.lib",
+      "expected_sha256": "993bc3b30374cd2c5aa3cfa3a57ad6a891e9ea197bb3f461daf353278830f7eb",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-b7ec62286c946774/6_final.v",
+      "expected_sha256": "1986b073afda29bed1003432daefb23c2595b6367156281050a462c5b5edde55",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\top\\6_final.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-b7ec62286c946774/6_final.sdc",
+      "expected_sha256": "786307b748e83ada7928d8bfe38f19f483e70b868a798a2cd920d4b6a54496ec",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\top\\6_final.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q0/student-mini-gpu-block-final-1161c4163d2556ad/6_final.v",
+      "expected_sha256": "e76c47db887ce9b588e0b4c41ff48c4e592396ca98f9a98b6eb2e14183a52ce7",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\vortex_physical_top_q0\\6_final.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q1/student-mini-gpu-block-final-e9f0cde51ef9dd12/6_final.v",
+      "expected_sha256": "1f6333af107ad1f2b274459ce8a0d5e50c326cbfdd1fa17c3c4b003996e72ea7",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\vortex_physical_top_q1\\6_final.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q2/student-mini-gpu-block-final-940bd5533128d2b1/6_final.v",
+      "expected_sha256": "561f2c306203fc28e59fc55b55c9273f42dcfb4563dd7bb3fee6822716495a31",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\vortex_physical_top_q2\\6_final.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q3/student-mini-gpu-block-final-189841ed9ce2e063/6_final.v",
+      "expected_sha256": "30cee57b8cd74ddffbd6b3e1c35d69c83ab29afd3eda5a798b2c6372211a8fdf",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\vortex_physical_top_q3\\6_final.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/flat_3_place.v",
+      "expected_sha256": "e0564801e66a1c131dc0d5f887e52de64a5cde3a774838f9e54f3cb2990fdb69",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/part_fast28/quad.v",
+      "expected_sha256": "61f6382fbdb253a347488d718bc84cf89bb4392dd4688dadfa527a43e258e760",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/top.v",
+      "expected_sha256": "61aa93404b559374660d6a6f7b8a5e09aae4fb87b4430c9b6425f31cdadfa10f",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\top.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q0_LL/block.v",
+      "expected_sha256": "272eb5990d74d26690bf90e618ab1be59f33d6486a32e28d5a22c0ef08fc5fdf",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\q0_LL\\block.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q0_LL/constraint.sdc",
+      "expected_sha256": "b6fdf5ceff4ba7c1dd1dbb82962bad24e1afe73c1e5c76ecccf17bc8082ba3a3",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q0_LL\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q1_LR/block.v",
+      "expected_sha256": "a628c19252152455effa910964005d858f190bdf1aa56b9a2446731542ad6faf",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\q1_LR\\block.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q1_LR/constraint.sdc",
+      "expected_sha256": "096f82b35b6633252a66a1f2f554527a8b8ea14e2b0b40d5d63fe92ed813a1e1",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q1_LR\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q2_UL/block.v",
+      "expected_sha256": "78c4803d544316d65e44abee95349a4c9c8b1edae0eba73ed545fe689a53647e",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\q2_UL\\block.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q2_UL/constraint.sdc",
+      "expected_sha256": "39d9cf930610b62408a26fdb39965e9923b20d6adf47b98e531caf5841a5afd4",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q2_UL\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q3_UR/block.v",
+      "expected_sha256": "87a42b1b2c04208091a84a1c95fcc58475a1c430ae2ff3a8418dcb2a64b41da1",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\q3_UR\\block.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q3_UR/constraint.sdc",
+      "expected_sha256": "676823806f6075741a29fda40d531e9df87d1c7f961a0a9c11e5c31f0ba63eff",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q3_UR\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/top.v",
+      "expected_sha256": "81c048900358ca9c1bc1fd2099dc65b78bbb3801a808f275616376fd84604de3",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/constraint.sdc",
+      "expected_sha256": "7d899af1fc02af4b1134f009efa34fcd7977b21185d1c4b33a493ae54e819ae1",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q0.lef",
+      "expected_sha256": "390a12eca0c7f8eeed3a8676bba05194b43a3386246b3ff7899c19b785bd2262",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q1.lef",
+      "expected_sha256": "54d9b35d0fbd316edcb58c67740ace3cb1397504f8d611a6000d746e6be95aa3",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q2.lef",
+      "expected_sha256": "1e537dae0e0a2c04316e659068e946d09f7a80de4b41ef8b6746b61f091c270c",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q3.lef",
+      "expected_sha256": "8eac94b624766e146c73efab1bb74e6ebb24689f6282f644b54ddf0705d0e8c9",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q0_LL/block.v",
+      "expected_sha256": "272eb5990d74d26690bf90e618ab1be59f33d6486a32e28d5a22c0ef08fc5fdf",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\q0_LL\\block.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q0_LL/constraint.sdc",
+      "expected_sha256": "b6fdf5ceff4ba7c1dd1dbb82962bad24e1afe73c1e5c76ecccf17bc8082ba3a3",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q0_LL\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_dp_80x64_w4.lef",
+      "expected_sha256": "3bfd53c64bf2118d65183d6f6de3ef565f34b0bba00f527d27790e49232a29ea",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_128x128_w16.lef",
+      "expected_sha256": "08fd2d8a20e17d9d6c65ca1361c139f672de3e24923142d71045892396d5ba0d",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x1024_w4.lef",
+      "expected_sha256": "081d85f5333715fc12b173c5cb2f093361b10f8d8eb347721c8178f1e2355f85",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x256_w1.lef",
+      "expected_sha256": "fd37d59f653cc2174c3c6995c44846b2559a8875d21df23c3b5fccbc87e8316c",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x512_w4.lef",
+      "expected_sha256": "707f052d54d4c4721ba87b543732b2fc5cb7c069074b737dcf104f354e5a542a",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_64x128_w8.lef",
+      "expected_sha256": "abfd48d4bf5218229e180f54ed2ccf4c3cae899a5398332f6823a2af39fd4dca",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q1_LR/block.v",
+      "expected_sha256": "a628c19252152455effa910964005d858f190bdf1aa56b9a2446731542ad6faf",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\q1_LR\\block.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q1_LR/constraint.sdc",
+      "expected_sha256": "096f82b35b6633252a66a1f2f554527a8b8ea14e2b0b40d5d63fe92ed813a1e1",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q1_LR\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-block-context/91bcb20ede62602eb17c0d9194becde741191330282fc3f84ac3dd23583426cf/vortex_physical_top_q1_inst.sdc",
+      "expected_sha256": "86a9395d7d2395dd2acd2f7b3393ed086774568accf456958ca083301d682bc9",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\vortex_physical_top_q1_inst.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q2_UL/block.v",
+      "expected_sha256": "78c4803d544316d65e44abee95349a4c9c8b1edae0eba73ed545fe689a53647e",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\q2_UL\\block.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q2_UL/constraint.sdc",
+      "expected_sha256": "39d9cf930610b62408a26fdb39965e9923b20d6adf47b98e531caf5841a5afd4",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q2_UL\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-block-context/91bcb20ede62602eb17c0d9194becde741191330282fc3f84ac3dd23583426cf/vortex_physical_top_q2_inst.sdc",
+      "expected_sha256": "87c8e083c6bb759bb1c806ab6b07eea5a40c46a4acfc834dbbc006bb1815a923",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\eco-context\\vortex_physical_top_q2_inst.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q3\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q3_UR/block.v",
+      "expected_sha256": "87a42b1b2c04208091a84a1c95fcc58475a1c430ae2ff3a8418dcb2a64b41da1",
+      "matching_local_files": [],
+      "status": "EXACT_SHA_MATCH_COMPRESSED_VIEW",
+      "decompressed_exact_matches": [
+        "physical\\gpu\\partition\\q3_UR\\block.v"
+      ]
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q3\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q3_UR/constraint.sdc",
+      "expected_sha256": "676823806f6075741a29fda40d531e9df87d1c7f961a0a9c11e5c31f0ba63eff",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q3_UR\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-a674da82bde3113d/6_final.v",
+      "expected_sha256": "f861659e55732864c2d642064a4fecd3d95be7b6be84781c2ad1a67298f417c7",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-a674da82bde3113d/6_final.sdc",
+      "expected_sha256": "786307b748e83ada7928d8bfe38f19f483e70b868a798a2cd920d4b6a54496ec",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\top\\6_final.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q1/student-mini-gpu-block-final-e9f0cde51ef9dd12/6_final.v",
+      "expected_sha256": "2f3cf5a19cdb9783cd37e8da057b3616a2997e10ed39e337e11d11520cce3416",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q2/student-mini-gpu-block-final-940bd5533128d2b1/6_final.v",
+      "expected_sha256": "b5aa9fd0a5f047346f0965d61f12a00548724c06ef33dfe51db961a5866e3392",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE",
+      "decompressed_exact_matches": []
+    }
+  ],
+  "scanned": [
+    {
+      "archive": "physical\\gpu\\fullchip-sta\\fullchip.rpt.gz",
+      "uncompressed_sha256": "8bca0ceca28933968b11389e6e0ce98a130b011a002eccbfee59cd2114b675d5",
+      "bytes": 547945
+    },
+    {
+      "archive": "physical\\gpu\\fullchip-sta\\sta.log.gz",
+      "uncompressed_sha256": "3a1b01abcbe672ef72803986ff325a360056a4459f65c094ba8ff87c16248580",
+      "bytes": 34839793
+    },
+    {
+      "archive": "physical\\gpu\\partition\\top.v.gz",
+      "uncompressed_sha256": "61aa93404b559374660d6a6f7b8a5e09aae4fb87b4430c9b6425f31cdadfa10f",
+      "bytes": 2122948
+    },
+    {
+      "archive": "physical\\gpu\\top\\6_final.def.gz",
+      "uncompressed_sha256": "88d82cdec08c3d5112b1807ae63fa0cd2b1dfeca9aa1919702c37d94859d86e8",
+      "bytes": 38919202
+    },
+    {
+      "archive": "physical\\gpu\\top\\6_final.spef.gz",
+      "uncompressed_sha256": "937d0d74eb8ec1d5de582cf03561ae79f91155f7f20593d5073df584e6cfe442",
+      "bytes": 15328833
+    },
+    {
+      "archive": "physical\\gpu\\top\\6_final.v.gz",
+      "uncompressed_sha256": "1986b073afda29bed1003432daefb23c2595b6367156281050a462c5b5edde55",
+      "bytes": 2122489
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\6_final.def.gz",
+      "uncompressed_sha256": "dd1fcf56ddde0d3e69a9a8877ff9fd482f1fc7320c7ddedbf1a2feb73a4e34e5",
+      "bytes": 396459221
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\6_final.spef.gz",
+      "uncompressed_sha256": "82e2720d8c38a69ffe73372fb87df31b44d014d60aa475448e732324f71207c6",
+      "bytes": 289344439
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\6_final.v.gz",
+      "uncompressed_sha256": "e76c47db887ce9b588e0b4c41ff48c4e592396ca98f9a98b6eb2e14183a52ce7",
+      "bytes": 55928887
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\6_final.def.gz",
+      "uncompressed_sha256": "14cb65a7dde233ba73d65d3fe086058e485284728d32dab2cbb757227ae0d870",
+      "bytes": 312213496
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\6_final.spef.gz",
+      "uncompressed_sha256": "94b7c719f385d3a67e97b51a03d27f7e3d62e6224babcfb2614cfd7f53b6250d",
+      "bytes": 166937393
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\6_final.v.gz",
+      "uncompressed_sha256": "1f6333af107ad1f2b274459ce8a0d5e50c326cbfdd1fa17c3c4b003996e72ea7",
+      "bytes": 39051857
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\6_final.def.gz",
+      "uncompressed_sha256": "a66be31ff8d5d66ae3b5b0e0b0947ea186b74894ad478038a1185df0ed0dfb26",
+      "bytes": 295566663
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\6_final.spef.gz",
+      "uncompressed_sha256": "9b70f236608fe6fbca6ac65f313cf3939e34a72724151fdeb3be087088e41f51",
+      "bytes": 198061312
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\6_final.v.gz",
+      "uncompressed_sha256": "561f2c306203fc28e59fc55b55c9273f42dcfb4563dd7bb3fee6822716495a31",
+      "bytes": 42916573
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\6_final.def.gz",
+      "uncompressed_sha256": "980535ffe9ec4bed1584c1d9037dde02d38384aacb61f8c1902e5eaa1eedb089",
+      "bytes": 275574595
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\6_final.spef.gz",
+      "uncompressed_sha256": "fb20bef871a4f079e7c84c5d3f0b4604599ea33be0a11bd84772eb7d1b92921c",
+      "bytes": 124254625
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\6_final.v.gz",
+      "uncompressed_sha256": "30cee57b8cd74ddffbd6b3e1c35d69c83ab29afd3eda5a798b2c6372211a8fdf",
+      "bytes": 28917072
+    },
+    {
+      "archive": "physical\\gpu\\partition\\q0_LL\\block.v.gz",
+      "uncompressed_sha256": "272eb5990d74d26690bf90e618ab1be59f33d6486a32e28d5a22c0ef08fc5fdf",
+      "bytes": 53314268
+    },
+    {
+      "archive": "physical\\gpu\\partition\\q1_LR\\block.v.gz",
+      "uncompressed_sha256": "a628c19252152455effa910964005d858f190bdf1aa56b9a2446731542ad6faf",
+      "bytes": 37557123
+    },
+    {
+      "archive": "physical\\gpu\\partition\\q2_UL\\block.v.gz",
+      "uncompressed_sha256": "78c4803d544316d65e44abee95349a4c9c8b1edae0eba73ed545fe689a53647e",
+      "bytes": 40896803
+    },
+    {
+      "archive": "physical\\gpu\\partition\\q3_UR\\block.v.gz",
+      "uncompressed_sha256": "87a42b1b2c04208091a84a1c95fcc58475a1c430ae2ff3a8418dcb2a64b41da1",
+      "bytes": 27907330
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\6_finish.rpt.gz",
+      "uncompressed_sha256": "6f8757f0eccc06e2bfe4b14222eddc60a65345a7d5f3d7bd7283552cbe4a2df7",
+      "bytes": 37285
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\antenna1.log.gz",
+      "uncompressed_sha256": "a4be041171616e6d84798769bb45925fe5cf72a8d1a195f35117ca4ff3bb944d",
+      "bytes": 223103
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\antenna2.log.gz",
+      "uncompressed_sha256": "e8c587511b84a2553a929f7f05675845a39ab5daaad75d4c141df0c0c9d9536f",
+      "bytes": 1090
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\audit-pins.log.gz",
+      "uncompressed_sha256": "0247cad34ad82447a97515c2a8edd8659d946140d2dc0cefc781471c90b96501",
+      "bytes": 2882
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\audit.log.gz",
+      "uncompressed_sha256": "2ed30f9e8a9b1f998aa9a30e4a9cdf13dfe082b0d4b625347e7b8e56428064c3",
+      "bytes": 659
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\macro-pdn.log.gz",
+      "uncompressed_sha256": "f8ae4dce860d153bb5691899ba14e2b5041386df4f1de4a6eec0fd5ec65fd9ef",
+      "bytes": 49
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\make-finish.log.gz",
+      "uncompressed_sha256": "ecdfd78e1938c389e219a27f9e4392212b8b29618c91d3c098b1f8668f8f2261",
+      "bytes": 13018
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\make-floorplan.log.gz",
+      "uncompressed_sha256": "351d8d84ceb2774a409e905092d99caeba345129e16316bf414c2b2e6468b8fa",
+      "bytes": 168645
+    },
+    {
+      "archive": "physical\\gpu\\top\\logs\\make.log.gz",
+      "uncompressed_sha256": "01554279386aa4fe7e8716f49bd9cd7bde37f7b932a65c75ecf0f142e227ef8e",
+      "bytes": 500076
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\abstract\\vortex_physical_top_q0.lef.gz",
+      "uncompressed_sha256": "22f1ee8f69e5409a4dda32c521187d3c3beef500190f9637561c302cee74a516",
+      "bytes": 1481852
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\abstract\\vortex_physical_top_q0_typ.lib.gz",
+      "uncompressed_sha256": "b02d2a9a9016708655791cfe2e898efd114eaf08e3caae8dbd656fe3a3dffb84",
+      "bytes": 9382761
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\6_finish.rpt.gz",
+      "uncompressed_sha256": "a667f54633bc8ef7fc3c1487743a68df22f134e3260653682a882a1970a41d19",
+      "bytes": 150873
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna1.log.gz",
+      "uncompressed_sha256": "085474033e6b214c25711fa2ea7aa84190784bd826f468e6e27cef06b101317b",
+      "bytes": 154222
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna2.log.gz",
+      "uncompressed_sha256": "f0e97e719b415728808d871863853772cc5e7f5c7f7dc48c09aefe529bf63a12",
+      "bytes": 181195
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna3.log.gz",
+      "uncompressed_sha256": "20c32355576d525d95452cc3129556f15adb757dfa66d7af05cc81310d07eb4e",
+      "bytes": 127361
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna4.log.gz",
+      "uncompressed_sha256": "d031d86adb9f3b154ae5c82436aa560e2212b8db8abb8a6a84bfbca8b0466d31",
+      "bytes": 125773
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna5-diode.log.gz",
+      "uncompressed_sha256": "a13e2c334fe6a419dea84dd4665cd2d68ed9307d1ade1196f9d6e2350f584e5d",
+      "bytes": 122388
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna5-jumper.log.gz",
+      "uncompressed_sha256": "88ca0d63bdc16e531f3bf0a8a7cb686fd1dc70555bedefda408108ed19038862",
+      "bytes": 121476
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna5-split.log.gz",
+      "uncompressed_sha256": "e5eac5748ed4707d54856969a70fdbd54f8c3bcc87fa504ca75df86d9dcc2903",
+      "bytes": 123728
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna5-upsize.log.gz",
+      "uncompressed_sha256": "f5dff83f7dc49baf7184f30c0b7c759ac978fde0ca34f19920e625c429a40bef",
+      "bytes": 123038
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna5.log.gz",
+      "uncompressed_sha256": "2f7704f030c15afc622a370efcda8ecf1450f26162f189de874f5112ccd0b449",
+      "bytes": 122390
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\antenna6.log.gz",
+      "uncompressed_sha256": "8bc9adfc3a51e432e45bb84e42dd0a0f873bd7004d1d4fd8bd7b9dffb5a8311f",
+      "bytes": 1096
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\audit-pins.log.gz",
+      "uncompressed_sha256": "bf2b1fe6edc501c8dc823c3da280f69ad7e6fdbfe65cdfcd7d6530a83b4d30ac",
+      "bytes": 137
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\audit.log.gz",
+      "uncompressed_sha256": "32684d0bc8f3aa7b6994cd2a3fa1e377937b51fa83ad72241c3bb301bf78531c",
+      "bytes": 659
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\drt.log.gz",
+      "uncompressed_sha256": "1d29ef4fdf9e52d9128474fea52cbd0b3853d17cc2a1111c17f7d3ca6329acd2",
+      "bytes": 131055
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\drt_antennas.antenna1.log.gz",
+      "uncompressed_sha256": "d8f947fae25e5fd7a0d9870d6f985db39bf02dcb1a0f5f0fb500ddc2d20120db",
+      "bytes": 934896
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\drt_antennas.antenna2.log.gz",
+      "uncompressed_sha256": "690eae9bc50cea3be7d027a2bf0c984e4a38dd67b270cc16768cce3156e6eb82",
+      "bytes": 59301
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\drt_antennas.antenna3.log.gz",
+      "uncompressed_sha256": "df834d81e7ccce5e4ae8c094c3b2443d0f1fdc3accafeb151a02a89604fe5d0e",
+      "bytes": 37610
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\drt_antennas.antenna4.log.gz",
+      "uncompressed_sha256": "adb146b7a524cd74a2ab7ec4f1131feff94dbe1e249de5c3fc9d8e09649d3446",
+      "bytes": 2835
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\drt_antennas.antenna5-diode.log.gz",
+      "uncompressed_sha256": "b2d5279d853c5a4f5c66f1cad8012c2069d1aaa465bc2979a74091ff82f03d36",
+      "bytes": 2835
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco-timing-1.log.gz",
+      "uncompressed_sha256": "4466dbcfdc87668133ba4b4c1b252000c4aa5e7cbbf4fc2496762cc43f14bef9",
+      "bytes": 4366
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco-timing-2.log.gz",
+      "uncompressed_sha256": "251030943a820c23ea812592ade460666e4c9d71002678f9ccbfebe5762b46dc",
+      "bytes": 4366
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco-timing-base.log.gz",
+      "uncompressed_sha256": "cd2f3503b25c676f0f0eeb1eb8706a80658af3537b07f39a7ed1b9838c6dee45",
+      "bytes": 6143
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco1-drt.log.gz",
+      "uncompressed_sha256": "bdef20de7757ec44e191a658374eafa9dc6181875754e7480e21abb86fd6ba22",
+      "bytes": 123588
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco1-repair.log.gz",
+      "uncompressed_sha256": "ab4cb39dd1c1583a212a425700ef3f75fbf5be2ed060a83892d71a8a4186b911",
+      "bytes": 81989
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco2-drt.log.gz",
+      "uncompressed_sha256": "c5051c474a5a2be858f44c8af7800d6aaede7510707a88219d247672afaf3b45",
+      "bytes": 125432
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco2-repair.log.gz",
+      "uncompressed_sha256": "8f189dae3c99528c61eef13a7f6627c4e012004083d13dc0cd12de03504b52d2",
+      "bytes": 85810
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco3-drt.log.gz",
+      "uncompressed_sha256": "46764546072ab58a395c9216dea932070e0431f1c8a31b01968c523e1db809a3",
+      "bytes": 111386
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\eco3-repair.log.gz",
+      "uncompressed_sha256": "6978b3846dba46ac03b708831409c74db89353abb4a0b4dd14099ff41a77975e",
+      "bytes": 16831
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\macro-pdn.log.gz",
+      "uncompressed_sha256": "6494e885b19fb410e0cecdd6c5ec5534315dd7a5a738c12e77aeec6f7eeb147f",
+      "bytes": 50
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\make-finish.log.gz",
+      "uncompressed_sha256": "29d31636c14cd3fd601488ec97a9bdf865449a0af6bbf5fd9b72d04123bd0be7",
+      "bytes": 17578
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\make-floorplan.log.gz",
+      "uncompressed_sha256": "f17e2a1a90338c4117e46094b33f5b66d5c76a4523023dfa8bd7433645171c14",
+      "bytes": 363440
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q0\\logs\\make.log.gz",
+      "uncompressed_sha256": "2ac4a3f8cc17f0a5966d0d1b78daf4fee1be424d0f53a6ac6751df43b9862451",
+      "bytes": 476768
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\abstract\\vortex_physical_top_q1.lef.gz",
+      "uncompressed_sha256": "6d2d2719faf195af8f329e56ea6bf081ee7efc2357274effc129672deb1a32ea",
+      "bytes": 868868
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\abstract\\vortex_physical_top_q1_typ.lib.gz",
+      "uncompressed_sha256": "740e945613b3d45872e1046116a2e1d54ec2c1e2b574b64b25273a3bd63bebb1",
+      "bytes": 4958462
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\6_finish.rpt.gz",
+      "uncompressed_sha256": "795548b39c10095e55d61a378db752d155d8e524cd7ae811172d17e29a7411b9",
+      "bytes": 135660
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna1.log.gz",
+      "uncompressed_sha256": "61af4ae6ededa0f12c052ffa9d2ae90ef8f8d1b1d3489597c931f565773cb450",
+      "bytes": 221616
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna2.log.gz",
+      "uncompressed_sha256": "a37f6ad0d178b6befbad6fa294c5652c733fabd903aa881811d811137d649ed0",
+      "bytes": 220274
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna3.log.gz",
+      "uncompressed_sha256": "f9ea047947ca68cca2de9bb222ff1a24e83a0faad10af94c05b22ccaa5490004",
+      "bytes": 221722
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna4-diode.log.gz",
+      "uncompressed_sha256": "4a2e9343e16b78de8a9a76b5183208dcc9478f3cfae097cd61e46ee415676ed0",
+      "bytes": 221559
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna4-jumper.log.gz",
+      "uncompressed_sha256": "95afe329debeed97184a7e6c6965e74e16f3c28e508ad212ef22510d09d8f0f3",
+      "bytes": 220618
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna4-upsize.log.gz",
+      "uncompressed_sha256": "fd364b0be1fc46ab03a37ba91c8b0380e9050cea89e52c7f667b51c3ca1a945f",
+      "bytes": 222144
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna4.log.gz",
+      "uncompressed_sha256": "f2b3bebf765cb3d77bf6f81192d0e8bcba9c5f3a3ae1bf6fc02ee1f53de93545",
+      "bytes": 221562
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna5.log.gz",
+      "uncompressed_sha256": "f0c6f9d4116a3aecc6141a75db458674038c2d6491c4a02fab619fc54589c627",
+      "bytes": 1094
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna6.log.gz",
+      "uncompressed_sha256": "6d3840aea8b483b4c7a13c5a23f12c5639482c94b712b547a15b2f78ea50caf3",
+      "bytes": 221465
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\antenna7.log.gz",
+      "uncompressed_sha256": "cdfcb318d781fbc4db5d65079d10b65e8c3fea8d87ae2d3d4dcc1a4f26cd599c",
+      "bytes": 1094
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\drt.log.gz",
+      "uncompressed_sha256": "5e0622fdc9577fbb41b00e27f5f7d065b5588746dff322fde3f55409ff038d07",
+      "bytes": 229865
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\drt_antennas.antenna1.log.gz",
+      "uncompressed_sha256": "7a4cbd93cc6421bf08f064f293caa87f2c7478baf2e85609d30a39968f1d6f13",
+      "bytes": 262153
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\drt_antennas.antenna2.log.gz",
+      "uncompressed_sha256": "7df6ea195524ce03cf9f1a8e54661a0bc1859f3391e12b6447ac954e584e9afc",
+      "bytes": 8442
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\drt_antennas.antenna3.log.gz",
+      "uncompressed_sha256": "0374ffaeb14f3987bd1a58df2ffba6423e20e4bb8b9fecdc14d3fe8a17e25d10",
+      "bytes": 1127
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\drt_antennas.antenna4-diode.log.gz",
+      "uncompressed_sha256": "63cdab13c1f0ffd45d73de1185a852d7b8fe8ae40b628e1bc41a0e19ebd69e6a",
+      "bytes": 1127
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco-timing-1-2.log.gz",
+      "uncompressed_sha256": "15b3fe3d94ae8276a2473df2e7134178a0d050ed7acbc971a1c72e251ad5b756",
+      "bytes": 3869
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco-timing-1.log.gz",
+      "uncompressed_sha256": "cc3d4a4dc94c5008b6a5f4b47261cef05f4d75b22437227fcd8b03bd4d61ed8b",
+      "bytes": 5117
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco-timing-2-2.log.gz",
+      "uncompressed_sha256": "f0eb943fc20c9b2844ad019debeac5ddabd647f3047b3ed533bc73bcf760a55c",
+      "bytes": 3869
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco-timing-2.log.gz",
+      "uncompressed_sha256": "faa451d19dad1c825a075b13de77f4e827929a2ed3714f55720125cbc0d66cb6",
+      "bytes": 5117
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco-timing-base-2.log.gz",
+      "uncompressed_sha256": "5995c95509472e25b1bb6aabc725c59d03219985686434123ede932fb71db392",
+      "bytes": 4348
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco-timing-base.log.gz",
+      "uncompressed_sha256": "cb456a594bbd037e64b7f5c6287ece9a06bd94fd9595113c12ad3670d2187850",
+      "bytes": 4780
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco1-drt-2.log.gz",
+      "uncompressed_sha256": "92b1c169300272d1a47f545a0919e7bca8b06cdfc4367911a35bc71f6447d6c8",
+      "bytes": 220603
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco1-drt.log.gz",
+      "uncompressed_sha256": "fdbcb3af7ffd2d70204af501d4306855804f83f552f6aab19a21311436418ada",
+      "bytes": 220560
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco1-repair-2.log.gz",
+      "uncompressed_sha256": "361dd9697e5a2cbf44c7e2258d4356450f4b654cd97e30377b5a1cb6a8d824da",
+      "bytes": 18935
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco1-repair.log.gz",
+      "uncompressed_sha256": "757ac62d6974d60f40f20ba719468d0104d659dec40b4767f4db95f6915a0ae4",
+      "bytes": 11431
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco2-drt-2.log.gz",
+      "uncompressed_sha256": "a0572c25062c2583b7be0955ae5168df70d38b9c191d8d4b5a75f15efead7da2",
+      "bytes": 220537
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco2-drt.log.gz",
+      "uncompressed_sha256": "2e9d3aab6b541ebec262d937cad81228a1e3f5ea63de612aa40c0457c556e242",
+      "bytes": 220259
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco2-repair-2.log.gz",
+      "uncompressed_sha256": "28d59186bf41b9c55086e8dd2ae2c6c28a4c8dea83964b5002cd884ff7816b0d",
+      "bytes": 6436
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco2-repair.log.gz",
+      "uncompressed_sha256": "50df87b03f8352b52f5ff8a091bff6eee7ad4cea825f66f27f10f4a0a25e95a2",
+      "bytes": 11320
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\make-finish.log.gz",
+      "uncompressed_sha256": "ce0c0a3b67607a7ec500b68768c404b892b5055ecda8dfee52ed62f46a7ae0a4",
+      "bytes": 17242
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\make.log.gz",
+      "uncompressed_sha256": "a11bb687a729141b9b81ce5c35510eb8aa67b0f042122d2fd8380f13b37f1359",
+      "bytes": 488958
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco-from\\make-finish.log.gz",
+      "uncompressed_sha256": "9708fe5012588d1b6fd72cad2108d9f4aaaf5203bf1ac5efaf5faa000960ac4d",
+      "bytes": 17490
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q1\\logs\\eco-from\\make-floorplan.log.gz",
+      "uncompressed_sha256": "e561dd21605e54077516cd5fb3a2d68e73a9aa2981ee1af9d9a2b74838014535",
+      "bytes": 626815
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\abstract\\vortex_physical_top_q2.lef.gz",
+      "uncompressed_sha256": "ce1843eebb17c05fb3606dda1951e6bb8d7843a4c4b24284d616a9bc31d30792",
+      "bytes": 808948
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\abstract\\vortex_physical_top_q2_typ.lib.gz",
+      "uncompressed_sha256": "491b5c182c99f6f3ec26d83bd8b340314b2bd9c9389f8d517ee183d2158de542",
+      "bytes": 4779783
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\6_finish.rpt.gz",
+      "uncompressed_sha256": "cc5077a9bded94fdbee0093b75c6f2e590c4b746eb7c3d4708e5535773bc1c80",
+      "bytes": 124953
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\antenna1.log.gz",
+      "uncompressed_sha256": "43af9afd61794f313cc3d7fddd14b6fc0757d8fd2b7e5341b634dba2e9054768",
+      "bytes": 167128
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\antenna2.log.gz",
+      "uncompressed_sha256": "508d83d54a44260be6136c2380bfdc0bf5a30fac40d0c7f8fbfb09df442004a8",
+      "bytes": 163032
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\antenna3.log.gz",
+      "uncompressed_sha256": "1c87a4e32554a207b42e5b5dcaab61dd693372698b979aadaa855fe9f5f85282",
+      "bytes": 164506
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\antenna4.log.gz",
+      "uncompressed_sha256": "8169961e3280e80de516bebf5f7d585378b6ef3bdb6d10bf332fe7295d29a398",
+      "bytes": 1095
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\antenna5.log.gz",
+      "uncompressed_sha256": "30b3a8eca3748ea3aced6735637e98bbd387275999be79573f9902675b0f77a8",
+      "bytes": 164344
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\antenna6.log.gz",
+      "uncompressed_sha256": "9a72ce4c937dc70ba65d878cece453ac051177a02070b3f7fee0e79772c170cc",
+      "bytes": 1095
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\audit-pins.log.gz",
+      "uncompressed_sha256": "c1e7f4f693f1e896fd477ae6e8734d0d459801e2796bd5ac3c51bb02297a9f88",
+      "bytes": 137
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\audit.log.gz",
+      "uncompressed_sha256": "76e3bd439f93613481d60d7569004752b201100adf5173011918a62e12d76c08",
+      "bytes": 660
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\drt.log.gz",
+      "uncompressed_sha256": "9b7e9e0727a31af2922fc133ef345d93776524e5120473a1150279e5ae05ede1",
+      "bytes": 177052
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\drt_antennas.antenna1.log.gz",
+      "uncompressed_sha256": "d9456b5711ecd3a1b550d052b97445c8bb55b72221b7a09518328acc80d99a12",
+      "bytes": 770739
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\drt_antennas.antenna2.log.gz",
+      "uncompressed_sha256": "c07649c72906fa95ae7f896967ebff7497cec302b206f724ba4558b5a8d66d49",
+      "bytes": 85315
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-timing-1-2.log.gz",
+      "uncompressed_sha256": "947426ef0ce07d8d060e66adb20758ba68f839067cbb2a94c49716de14440d3d",
+      "bytes": 5086
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-timing-1.log.gz",
+      "uncompressed_sha256": "dead5f8d896a4184e274ecc97ef9abbc9eeb5fc85b8de9025f79d84342d46ea0",
+      "bytes": 4828
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-timing-2-2.log.gz",
+      "uncompressed_sha256": "43ee2239d7ef4182a5b17d6801cf4fc4237ac1594204a3f32bd40284d38d4bcc",
+      "bytes": 5084
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-timing-2.log.gz",
+      "uncompressed_sha256": "90642165b886a56ffa70f5c3cd5e4aeff29377d5d94ec8c49f4ebe2792733201",
+      "bytes": 5020
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-timing-base-2.log.gz",
+      "uncompressed_sha256": "bb5597f41aaf91b3031ba5248da9aae30a3956c144478c79c3a2d18c6780e283",
+      "bytes": 5420
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-timing-base.log.gz",
+      "uncompressed_sha256": "327c7f08ca44ec096d042170eb0802e148db8a6bcf649dab6adcf46ee016231d",
+      "bytes": 5229
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco1-drt-2.log.gz",
+      "uncompressed_sha256": "88734102fbfe3a148a7fb7438a7b80199f0e1e4bc4f10afb50259d72205f9edb",
+      "bytes": 161630
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco1-drt.log.gz",
+      "uncompressed_sha256": "e6e8da004c047e5d9f7277816b897210c25935eb560094e2049fbf84e88bf757",
+      "bytes": 165338
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco1-repair-2.log.gz",
+      "uncompressed_sha256": "9d627c7a0db970f3549f970157c3503cfd25e3bc24d1e053ade2257fff5a50df",
+      "bytes": 21167
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco1-repair.log.gz",
+      "uncompressed_sha256": "31d3eb94874aebfa1bd506cd55e9e0b027f534626034a473292cfe7eb83b2b4c",
+      "bytes": 11202
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco2-drt-2.log.gz",
+      "uncompressed_sha256": "eee714e1be3ed9cf790c4386f3cbf40201edf48eba21aade5fbbd4fd9eaec347",
+      "bytes": 162949
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco2-drt.log.gz",
+      "uncompressed_sha256": "301b70ea3dfbd2046c0dc0876e7f60b19bd4cca68f2a3c8a679b0de50c8903e8",
+      "bytes": 161694
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco2-repair-2.log.gz",
+      "uncompressed_sha256": "83567b20cf220c3c9c4513153463c4835ae570e843e93c32c7afe8f5f213f3a8",
+      "bytes": 20333
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco2-repair.log.gz",
+      "uncompressed_sha256": "9905c7e397fe55d95819fecedb151fd7504a61267e22f75c30a11b5997537600",
+      "bytes": 9755
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\make-finish.log.gz",
+      "uncompressed_sha256": "3bb02efe991d992f9ac6c64605738ced41146e4f42cbdd892b03049aa4e1b51d",
+      "bytes": 17159
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\make.log.gz",
+      "uncompressed_sha256": "fb1e1339d63c84af62b96e341258b977d19c80f8a8a2a062040c09ad476aaf26",
+      "bytes": 526410
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-from\\macro-pdn.log.gz",
+      "uncompressed_sha256": "7bb9609f1cb6f3738c34b0046ff0dbc1bc2330a741c3d3a522afd86be1eaf6a4",
+      "bytes": 50
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-from\\make-finish.log.gz",
+      "uncompressed_sha256": "a4c2d2d5ac2ef8ea8cdbae20dbc8fcba709b86c3f277b21194df1dfa740c0f8b",
+      "bytes": 17406
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q2\\logs\\eco-from\\make-floorplan.log.gz",
+      "uncompressed_sha256": "54bd0aa9c2e1677b4e0ad597c4c50dd076e08e745afecb9233a77ccffd4d8586",
+      "bytes": 446270
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\abstract\\vortex_physical_top_q3.lef.gz",
+      "uncompressed_sha256": "1d42ae80999113df89a9c453bc91fb9a0c516a32960a1284e08951dbe4d45bce",
+      "bytes": 590062
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\abstract\\vortex_physical_top_q3_typ.lib.gz",
+      "uncompressed_sha256": "5a1aaed03cfc22f70641d51c53baf55124cd41ff0e71a54e0f6984e3718b87e2",
+      "bytes": 3768105
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\6_finish.rpt.gz",
+      "uncompressed_sha256": "aebf82ef73f26102cc4f2a43ed2e0d06ec132b35abf6db178b33b43c3ebcb366",
+      "bytes": 60614
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna1.log.gz",
+      "uncompressed_sha256": "09441eb8d6142c4eaede5ef45c346663704e6dab69d2516dbde732b670d8670e",
+      "bytes": 147740
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna2.log.gz",
+      "uncompressed_sha256": "b8f885dabaaa90e8be4d224b0f9d5e83450520b4215fa9accd83419ab5ffc6b1",
+      "bytes": 146325
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna3.log.gz",
+      "uncompressed_sha256": "ee57b065922643ce34f4903aaaabdc9966e40fa5210c19b5c157e9d206822d68",
+      "bytes": 145875
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna4.log.gz",
+      "uncompressed_sha256": "37b275dad6686f39bf679f53d31e513828184980e6dc55042169db7080163076",
+      "bytes": 145884
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna5-diode.log.gz",
+      "uncompressed_sha256": "e157848d8fdf770b574cbebbf2cc740887062c524016b579d1f5661e311c4e85",
+      "bytes": 145839
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna5-jumper.log.gz",
+      "uncompressed_sha256": "a9cf24f9d9f71de7687b166dcc05ca07eea87a885ac3bb2e10921855c3f305b9",
+      "bytes": 144869
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna5-split.log.gz",
+      "uncompressed_sha256": "e0e8071a96f37e48d8ae7407e01f42deb33be0b7fa746e4062d6afdcc5f3f423",
+      "bytes": 146575
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna5.log.gz",
+      "uncompressed_sha256": "d8d65f586ac0ed98250918b88348238b8c5abfdfa6efdc28023a6e8a0b867915",
+      "bytes": 145841
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna6.log.gz",
+      "uncompressed_sha256": "971554db3b7ba566032bc3a2c1a2a9f811108ddb795af446717756c74ef03cca",
+      "bytes": 145675
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\antenna7.log.gz",
+      "uncompressed_sha256": "55aa9f84177e8e2f6f7885c96ddcb1bcbbe7c211e347ba9bebd6c8abee4cb677",
+      "bytes": 1094
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\audit-pins.log.gz",
+      "uncompressed_sha256": "b3d69f45fdebf94c4c4b77ece98246964aa1513f33c8d7087e2a4ac1a5cd7668",
+      "bytes": 136
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\audit.log.gz",
+      "uncompressed_sha256": "f9e11c4abc15039039f192f754a0d5467ee87caefc5ebc6e9074d6a84d0bca89",
+      "bytes": 657
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\drt.log.gz",
+      "uncompressed_sha256": "c40ccd5e94cdb491af2bc6ab3b2e9e2a61c01c97466ce56672895f01450825c6",
+      "bytes": 154033
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\drt_antennas.antenna1.log.gz",
+      "uncompressed_sha256": "8cfd35c0acbdf81f6ac4a7040e5dc805e4e970dc10fcf25066ea006a7dd3ef62",
+      "bytes": 49658
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\drt_antennas.antenna2.log.gz",
+      "uncompressed_sha256": "aa3edd005367707ec9a37a8cb607abcd45157829b4c6316f1d6d59fb55854e7e",
+      "bytes": 34480
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\drt_antennas.antenna3.log.gz",
+      "uncompressed_sha256": "6c484feef30b88b74f8419d45e96977bb6684a30d3b2292fa55d1a845b715c88",
+      "bytes": 21212
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\drt_antennas.antenna4.log.gz",
+      "uncompressed_sha256": "f5117083ea3acd09f9bb7d0ee7067945b11b1c3e9edf28bdc84914301a150de7",
+      "bytes": 9765
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\drt_antennas.antenna5-diode.log.gz",
+      "uncompressed_sha256": "b495142f3bef1888b23bd8bcdd6c24a52b7e831d0dd4a7d962872d8df586821a",
+      "bytes": 9765
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\drt_antennas.antenna5-split.log.gz",
+      "uncompressed_sha256": "e93bd909a53ad56a47eb9796f4a60022b1377a7cf8fb0052927c5cbe5221c922",
+      "bytes": 8264
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\eco-timing-1.log.gz",
+      "uncompressed_sha256": "e39a5a23684df0000837615d22c119b06cc9452436086f0bd7a6b4edaf84198e",
+      "bytes": 3868
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\eco-timing-base.log.gz",
+      "uncompressed_sha256": "e1cbe6a48c3c4a0593ad90d3a0f8e38e5adc82e82a2047ae0235a6825f16f3cc",
+      "bytes": 3867
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\eco1-drt.log.gz",
+      "uncompressed_sha256": "81adabd04ad42091b5f2d87fcd197503a9cdcf6d7afde2e7f1d94d49c5551696",
+      "bytes": 146226
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\eco1-repair.log.gz",
+      "uncompressed_sha256": "876efca75168844909f2404cbc9c52142bf50afa2f716a5a5beee6f453a820b7",
+      "bytes": 8410
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\make-finish.log.gz",
+      "uncompressed_sha256": "a19e90509b093725bc213d4f5d22fa01dd146798e936e32cdc685fa1cf9488e4",
+      "bytes": 17571
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\make-floorplan.log.gz",
+      "uncompressed_sha256": "89b8b09ef87eb8b6f83e5ada0ef9f63462a9afd2a791f40905da1b97c38b6c50",
+      "bytes": 982788
+    },
+    {
+      "archive": "physical\\gpu\\vortex_physical_top_q3\\logs\\make.log.gz",
+      "uncompressed_sha256": "8580581c706782c2c5757b9988429af7b90366a2272c97313becac5c9a0f8c6a",
+      "bytes": 541742
+    },
+    {
+      "archive": "power\\gpu\\compile.log.gz",
+      "uncompressed_sha256": "1d7c41b1cbd8cb15d58ef5d0b54875e4796b14ec4372687d8177adb49c3c8654",
+      "bytes": 10549
+    },
+    {
+      "archive": "power\\gpu\\openroad-q0.log.gz",
+      "uncompressed_sha256": "4d118e11df30a6b6007ce664c9cf5cd9c6f4936d630bba6f2b80e3a5987cf763",
+      "bytes": 990
+    },
+    {
+      "archive": "power\\gpu\\openroad-q1.log.gz",
+      "uncompressed_sha256": "e76b3c5c0190470041f00124a9b65204bd385f57214f2ec8b1c82be2104454b0",
+      "bytes": 990
+    },
+    {
+      "archive": "power\\gpu\\openroad-q2.log.gz",
+      "uncompressed_sha256": "ebd404d4653321bb2702fc850c3d6cf541e60eed95ce414d88c32c6097ea4e66",
+      "bytes": 990
+    },
+    {
+      "archive": "power\\gpu\\openroad-q3.log.gz",
+      "uncompressed_sha256": "afba93bbb2d5060419b56369e7484f728ad8c45ad944da9c282f7fd358645404",
+      "bytes": 990
+    },
+    {
+      "archive": "power\\gpu\\openroad-top.log.gz",
+      "uncompressed_sha256": "e3284c16ac49ccb6c833abc01d924a98e99aedeec72fff2ee9b94b2b230a36f3",
+      "bytes": 960
+    },
+    {
+      "archive": "power\\gpu\\replay-top.v.gz",
+      "uncompressed_sha256": "2d0f51633d1f171398226f643685614aa13f5e2180abf73eb3f787eaddb8ebbe",
+      "bytes": 2122489
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\annotation.rpt.gz",
+      "uncompressed_sha256": "b8a35fa95e3e722423cd7101ebd86ab7ae49addbfa1fbfd656db8205d6311314",
+      "bytes": 783
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\gatesim.log.gz",
+      "uncompressed_sha256": "f644bdc917b7f08e285b02c176b2b1deb716ef5a56464c08de87d8ebcdc14456",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\power.rpt.gz",
+      "uncompressed_sha256": "14c7015f9a28db7f9b6ca3dcc7bb1a26e73b36a10bdc18e87bb41d99cd6efaea",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\qualify.txt.gz",
+      "uncompressed_sha256": "13c2158abf56bcfc9a354a1552350afc2de4420900ec81936ca37d07a0505bed",
+      "bytes": 16013
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\window.saif.gz",
+      "uncompressed_sha256": "6defe8f61c38974e09f6ba28f160ac25b6c5c6d76496ff599fa5d40306768a73",
+      "bytes": 143286440
+    },
+    {
+      "archive": "power\\gpu\\p1-seed02\\gatesim.log.gz",
+      "uncompressed_sha256": "0701636c7c95be628e8c99a0681e188ffcd967135313bdbfd6f6d32b6109f1ed",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed02\\power.rpt.gz",
+      "uncompressed_sha256": "128f24491c9e0c9fe559ae4084ac3e65608f1a25df1745ee88a7e29a3b921b84",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed02\\window.saif.gz",
+      "uncompressed_sha256": "d76630abcf42cdf24507d0f64e4233688202d74e54882b516a7e382da6cedf86",
+      "bytes": 143358240
+    },
+    {
+      "archive": "power\\gpu\\p1-seed03\\window.saif.gz",
+      "uncompressed_sha256": "2c8730f16b6114235e1abd72604cb138962395cd26acb7c1520c30f05c233553",
+      "bytes": 143329763
+    },
+    {
+      "archive": "power\\gpu\\p1-seed04\\gatesim.log.gz",
+      "uncompressed_sha256": "11dc6baadaaf15d21e2bed79d6c676f0546544c2405b7ed4d32975ddc5a1aef6",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed04\\power.rpt.gz",
+      "uncompressed_sha256": "4839ac630fcc7503ea00d7735911e62818dae596687e429cb540ee81c62c8c81",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed04\\window.saif.gz",
+      "uncompressed_sha256": "108c21ac74f0d547138ffe3f6e0b35ac772ccf593c55abb730627db997576a53",
+      "bytes": 143350201
+    },
+    {
+      "archive": "power\\gpu\\p1-seed05\\gatesim.log.gz",
+      "uncompressed_sha256": "7cce462bb824bd3b788d38c4ff1fef2df9a4166c0c10841c976bc7b92d6bf51f",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed05\\power.rpt.gz",
+      "uncompressed_sha256": "e8fc28b02767a99a8ca5c3e707370958048d09eece2203c0bc80be434f8de544",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed05\\window.saif.gz",
+      "uncompressed_sha256": "58a3ba4f492acb3ce371d3891be4aa9cff1a8468a82ef5aa401f74c62faa0cda",
+      "bytes": 143282611
+    },
+    {
+      "archive": "power\\gpu\\p1-seed06\\gatesim.log.gz",
+      "uncompressed_sha256": "67efb3990200e653131307476c12f7a4fe3bf00813d7478aced0e38305ecc4ee",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed06\\power.rpt.gz",
+      "uncompressed_sha256": "d40211c76887302d1e6ff1608c59189de1a2e27aac9e486a5b3a0415f5335e39",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed06\\window.saif.gz",
+      "uncompressed_sha256": "25a191c7881d2fa4df240cc0bd594754b01c25aa3174b83f8fc8427251247beb",
+      "bytes": 143250412
+    },
+    {
+      "archive": "power\\gpu\\p1-seed07\\gatesim.log.gz",
+      "uncompressed_sha256": "5a1063aff14e456b07154eeb81b61fcb2624dc34c8eec4f90dee7c06e6dce9e2",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed07\\power.rpt.gz",
+      "uncompressed_sha256": "bb9e49a0009ec13fb559a6b68a7e20d8f911c84346e08b8930667ca008df03d7",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed07\\window.saif.gz",
+      "uncompressed_sha256": "0e3738401e3e889853fed5b7dd8546a55394448750d80d41b5712cd920a728d3",
+      "bytes": 143312986
+    },
+    {
+      "archive": "power\\gpu\\p1-seed08\\gatesim.log.gz",
+      "uncompressed_sha256": "38c9c9f702a99cc6973507639b6d69d857b87734842ef3a1d81909f0ba2dcbd3",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed08\\window.saif.gz",
+      "uncompressed_sha256": "a69170e6f9968607773f8d97a59eb2ed1ab0154427d7e32c40a688cb223ae267",
+      "bytes": 143339330
+    },
+    {
+      "archive": "power\\gpu\\p1-seed09\\gatesim.log.gz",
+      "uncompressed_sha256": "2fc41edc6c362e5b06d6a7cac2461dfe5f3fb79913568389a50ffffb25bbecf9",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed09\\power.rpt.gz",
+      "uncompressed_sha256": "30d5f740d00a1b6a2ff23e21f526c326fa84d9cac8f625e041d2c064c2aa8d2e",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed09\\window.saif.gz",
+      "uncompressed_sha256": "50048e3d88622dc6dab1f020fadadc9c3f9f7841a615075b73682c5f194d7b70",
+      "bytes": 143372776
+    },
+    {
+      "archive": "power\\gpu\\p1-seed10\\gatesim.log.gz",
+      "uncompressed_sha256": "fdd17a7b6fe0f03ec710dcf2584588ea91edd56cc18a3e1ebb714953ce7e8744",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p1-seed10\\power.rpt.gz",
+      "uncompressed_sha256": "93575a4b7253a591c2d7e3c94f503ce4021fd7b06ca70e46696f1bc80fbc1c47",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed10\\window.saif.gz",
+      "uncompressed_sha256": "c583e394ecd71963bb76d812d721c5f3387c5f6d45effbe038c64d125bb241a9",
+      "bytes": 143323817
+    },
+    {
+      "archive": "power\\gpu\\p2-seed01\\gatesim.log.gz",
+      "uncompressed_sha256": "1623e7f20da828bf569d70af3f0ba9719e9d6a5995f75a767c0dbf6d65e5bc8b",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed01\\window.saif.gz",
+      "uncompressed_sha256": "8b4d038b3efaefeaacb9068f32480f0dcf040fcf7ae367929dee2a9aa158d999",
+      "bytes": 143397903
+    },
+    {
+      "archive": "power\\gpu\\p2-seed02\\gatesim.log.gz",
+      "uncompressed_sha256": "84d4b6e14e39502d1cac4be7d529a8e3cf24a3561d4deb7a0ab9f2d3e5b5ca52",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed02\\window.saif.gz",
+      "uncompressed_sha256": "14379fd7efcb45808ef83a368b2b950de2b3794ea3b012e7bc5e8dc95062390c",
+      "bytes": 143390282
+    },
+    {
+      "archive": "power\\gpu\\p2-seed03\\gatesim.log.gz",
+      "uncompressed_sha256": "7701144c8ecb45fcc18c0dfa0d35629104e55c5a30a94215f19120a3db7c5999",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed03\\power.rpt.gz",
+      "uncompressed_sha256": "802a814eaa8597766becb18c2d380c1e7394507d9a6a6e34d33db3dbc9d0e814",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed03\\window.saif.gz",
+      "uncompressed_sha256": "02736b2525d823da7f35959f9a8f3b0af3957e0a22d76861fe6c918d5a015c01",
+      "bytes": 143285744
+    },
+    {
+      "archive": "power\\gpu\\p2-seed04\\gatesim.log.gz",
+      "uncompressed_sha256": "4aff182782aa330038050110d160e06f78af3d708517c897c9dd70aada5f3d76",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed04\\power.rpt.gz",
+      "uncompressed_sha256": "28568edd3a73f1a5a46bb7ce6023d21f65855c87e732ef5a4c49ce49943eb825",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed04\\window.saif.gz",
+      "uncompressed_sha256": "66e0bc0db3b615d1f411739b2b9ee65727ca8d8ced3ac18ec7eeac7f857ce4f5",
+      "bytes": 143313445
+    },
+    {
+      "archive": "power\\gpu\\p2-seed05\\gatesim.log.gz",
+      "uncompressed_sha256": "e928d7a7aec4de8b4e2bb1ae84c7abaf5cdf41f7685c3a381e39211fef47a3e3",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed05\\power.rpt.gz",
+      "uncompressed_sha256": "a549264aa023bdc41a036e041e31f308b5633a263bc30976086f06f5f6fc7299",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed05\\window.saif.gz",
+      "uncompressed_sha256": "c320bee42b05d00f36b7581b1090f43e23d8b4e244988929d92b5f3d7025bb27",
+      "bytes": 143244184
+    },
+    {
+      "archive": "power\\gpu\\p2-seed06\\gatesim.log.gz",
+      "uncompressed_sha256": "385553d9839b27e7641e2f34b246b9d0c62a5bad8a5f607118a488409cd2f8b3",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed06\\power.rpt.gz",
+      "uncompressed_sha256": "b1ca62a89fb3c6c6d748b44acdc56c3cde0bebe2286956699020d1a7451572a2",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed06\\window.saif.gz",
+      "uncompressed_sha256": "46f66ef03e27c6e3f47769bceb458343aa5fd4ebd9da80d7dfdec6dece06cb25",
+      "bytes": 143352811
+    },
+    {
+      "archive": "power\\gpu\\p2-seed07\\gatesim.log.gz",
+      "uncompressed_sha256": "afea8cc0c5995cb32b554640926917eb82e59e1ecc75eccf904bf2349fbf3a94",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed07\\power.rpt.gz",
+      "uncompressed_sha256": "7a3ded32d0aa9ecd727c02b262c7bbad0756a60c5d79dee085160b2b4959c4d1",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed07\\window.saif.gz",
+      "uncompressed_sha256": "f68035fcf9a367eae0ecc80e8602b5f8b9814102ac148abe7a0971d3a0f28617",
+      "bytes": 143349899
+    },
+    {
+      "archive": "power\\gpu\\p2-seed08\\window.saif.gz",
+      "uncompressed_sha256": "b0e69b8fd1abfc75ab685473e983c4f97b1a7ccf1af2dd4b16e24fb09e915725",
+      "bytes": 143377907
+    },
+    {
+      "archive": "power\\gpu\\p2-seed09\\gatesim.log.gz",
+      "uncompressed_sha256": "bcc83b3918003d747441704227c693c3493558f72bf974b395a0f92946685048",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed09\\power.rpt.gz",
+      "uncompressed_sha256": "3839d284dcebbbb5cea3254269824f81d4ddd6febd3fa0e0228b172aa6cbd7f8",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed09\\window.saif.gz",
+      "uncompressed_sha256": "b39b034c56b10f0661fefe992d35d53f36c7050c7a3cf41929470c90201f2243",
+      "bytes": 143397154
+    },
+    {
+      "archive": "power\\gpu\\p2-seed10\\gatesim.log.gz",
+      "uncompressed_sha256": "8bd7a219cebfa121d2b5867d5adb8f54cabd0c4c11b57c140e4277bf4067a35b",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p2-seed10\\power.rpt.gz",
+      "uncompressed_sha256": "ac5ad18367e8a29978aebca3da3788ac085a160810545fafc7888a4f52ebd89d",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed10\\window.saif.gz",
+      "uncompressed_sha256": "b79cfdd7d2620d14f01741c038037b804a7088a05086aec79a96db576003f0f3",
+      "bytes": 143179685
+    },
+    {
+      "archive": "power\\gpu\\p3-seed01\\gatesim.log.gz",
+      "uncompressed_sha256": "2831ef0ecc7dc8d024affd084062eab2c3c4612fcd88d334f2b0f21c1766276d",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed01\\power.rpt.gz",
+      "uncompressed_sha256": "2d95c3043ef74fdfd3e4c5435b3ca7ae302da5c9f4780abd866c6b0b2d0b5f71",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed01\\window.saif.gz",
+      "uncompressed_sha256": "3ef64e33e68464d857fd4ffc424f2f5e22c08f1a3edd0adf3352fcb9ef13ec87",
+      "bytes": 144423483
+    },
+    {
+      "archive": "power\\gpu\\p3-seed02\\gatesim.log.gz",
+      "uncompressed_sha256": "556a6277c6a1c5285561b2ad82c6c8d8d419f761a17fa26489878fefd6e6e067",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed02\\window.saif.gz",
+      "uncompressed_sha256": "31facb258235d2591c909ab7711a8c859313b268042e79f2ba29424ac0ea0c86",
+      "bytes": 144434198
+    },
+    {
+      "archive": "power\\gpu\\p3-seed03\\gatesim.log.gz",
+      "uncompressed_sha256": "846049f7a9e9bfba447487cfcc16538bcad5de78c9d990e04d12c6de41b6b1be",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed03\\power.rpt.gz",
+      "uncompressed_sha256": "9b02539def5a7f3ac55926bfc540746cf88c367c93c575dcce9bb0e9fefcb2d7",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed03\\window.saif.gz",
+      "uncompressed_sha256": "a63f86d69adf17850e9cfb8a883c29468b2cb54dbe7e2a4da74f4d6a7879ce4c",
+      "bytes": 144431535
+    },
+    {
+      "archive": "power\\gpu\\p3-seed04\\gatesim.log.gz",
+      "uncompressed_sha256": "4cd7bcd7dabaf331ba1c027b311d9a038e7c3a5e7d9d48856bc7e7283c5f42e2",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed04\\window.saif.gz",
+      "uncompressed_sha256": "dab1d2be9af9a2ebc662a8d93584f52dcdd47f0826bbc74edc98735b5e35c51b",
+      "bytes": 144416997
+    },
+    {
+      "archive": "power\\gpu\\p3-seed05\\gatesim.log.gz",
+      "uncompressed_sha256": "6ebd226dbb3d02841e42d9a0942ba40406d59f4d384904ef7551b285a3611d81",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed05\\power.rpt.gz",
+      "uncompressed_sha256": "9312933b8e2fab90f6c885fdfe47834d7902fb052ba796c98a9fe47570dd7f4c",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed05\\window.saif.gz",
+      "uncompressed_sha256": "645cd56a961fdc4421e4d999d285201d40f87d037b3e686e799294429fd629f0",
+      "bytes": 144426139
+    },
+    {
+      "archive": "power\\gpu\\p3-seed06\\gatesim.log.gz",
+      "uncompressed_sha256": "ec72ecb3e4ee7db4a709c97fcd495d87dbbe0edf196dedde5408ddcd229c6eaf",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed06\\window.saif.gz",
+      "uncompressed_sha256": "5f5d9f2ef17c24236b607e1fe7e2bb0581972abe64dfab0efb2c8aa81bf854f7",
+      "bytes": 144419061
+    },
+    {
+      "archive": "power\\gpu\\p3-seed07\\gatesim.log.gz",
+      "uncompressed_sha256": "0022b4a5f2eb59eb642918bfa6133dfc05de6bf05a496c6559ccb7f7f76e2d0e",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed07\\window.saif.gz",
+      "uncompressed_sha256": "bed14e6cbdb5d1c41fc73d3a6f35d46c807980a33a95916e72153eafa6f1430b",
+      "bytes": 144430805
+    },
+    {
+      "archive": "power\\gpu\\p3-seed08\\gatesim.log.gz",
+      "uncompressed_sha256": "1d7e622b7ddcc7e55203f780e7499946c40cbdb645581b9111aa6de31ac886e2",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed08\\window.saif.gz",
+      "uncompressed_sha256": "f1bda6aa298b16bd3bcf0f52117388ed4784ff4117d9e83aee6c66f9d1cba8b5",
+      "bytes": 144415774
+    },
+    {
+      "archive": "power\\gpu\\p3-seed09\\window.saif.gz",
+      "uncompressed_sha256": "a6e4bcffe3023a5673e20086062cf4f12b3f2e44ceefafbd7dfb39f54132a675",
+      "bytes": 144429508
+    },
+    {
+      "archive": "power\\gpu\\p3-seed10\\gatesim.log.gz",
+      "uncompressed_sha256": "dee70f7b4a24c1dbd14e240400da87840d4057890ad805c000053008acc19a33",
+      "bytes": 60
+    },
+    {
+      "archive": "power\\gpu\\p3-seed10\\window.saif.gz",
+      "uncompressed_sha256": "5b922825d1902c7a8bc42af78a918e6f67cc58cbfb6c1b4f8dde8aa0fa09f4a6",
+      "bytes": 144422748
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\q0\\annotation.rpt.gz",
+      "uncompressed_sha256": "ffaafe553dcb5dedd1a20e88dda25b1862d119bfbf870ebc72b5c89e3096bdd6",
+      "bytes": 526360
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "d365bdb64eb8c6fadcfe1679a3c277ba37362559446c054f9d9970e30ac2a9eb",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\q1\\annotation.rpt.gz",
+      "uncompressed_sha256": "7223b797c5c87227443f78f96b84abe97813abe94b11f6bc335c18955f6551a3",
+      "bytes": 79088
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "4a391a73771c62a303e8dfc6fd934038a31c453722aac52ab432c7a6fac30c72",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\q2\\annotation.rpt.gz",
+      "uncompressed_sha256": "e00036f576c9fec79b009bc572203f4d030579a845293fd1439c7f095bbfdbd4",
+      "bytes": 151368
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "80f7fe9ff1ba914e77d01c65f4f4b929c665f68a480deb2b8787148c0315163d",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\q3\\annotation.rpt.gz",
+      "uncompressed_sha256": "b451109f2a3c4f101796185eb383f13c98042a8610e21ff6b6066839976b60ee",
+      "bytes": 20908
+    },
+    {
+      "archive": "power\\gpu\\p1-seed01\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "55f32761b7d1a15d8497fa21c78eaa933fcb2fefb069209b7e82a9a57a409cfc",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed02\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "389bd0ebc44183745e3e1076c0f3d6fc16a79e8d115d6ae79542c4a23a7cc02f",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed02\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "cf2e037bc97c6351f2da246750d70444184e4b96bfb42092630537ac3deaf85f",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed02\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "38321cb31dafad9a2a68f793e96b53019488370f21f80f74a008cd896fbfed34",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed02\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "ea89fc6e80ce087a45ea0102a76e6b2727c02df970f53dba57230872f270de21",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed03\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "4c8b4e6db41178129a7835ef8c5504773b0d78227bca16170990649770011339",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed03\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "0801556911053e3ed0bc4d5fc3e0bcca3e1652ba7fe635772634b820337531ec",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed03\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "715fbf7b5acded32413ea62c47652c63e566fde006bdff65597ab1216862af7a",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed03\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "3c8616b7d4cd28120bff92d5861e4435511d734e9d4db0363ce33dfa4959863d",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed04\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "a67a1a99929da8c67c1ce09baf43a5971b6a6540841f4d3ac610079f601d1041",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed04\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "bbaa267eb086ce72597c79bb15aa7230b20a505fd97cde3f87bce2656ca83cce",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed04\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "c7fde0e07e5dc09176757f8011389af1027576bf8bcc51e92bfc397f5e7eaa09",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed04\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "b48d857a03d496967b0633e0980b6f9bb051a2ced0be6a795d3b0513c0a2d9bf",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed05\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "10c9a7666705b3f05e98e5aedfaaf64fed63f390be97e3ee98272e302a370f3e",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed05\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "95babb86678d24b137f3b156bad30fccd58f3236b192c96171d0eaa186f242bb",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed05\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "c34883346cbcbbb1945fca83508f6e549adf6d7f91c29295f6a14a78e4d97453",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed05\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "797dd10a234443c91ca60bab32b1739c0c70e9172bd6697e2c05d6b07d2218ca",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed06\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "73f3e7a1eae84a2fd35b6464eeaafabd2993cfafe4c4dcd89673f4649d227808",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed06\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "a4f6888fdb33f64d7defacd21d141c77ad64920f04b2fd1ac1897a58efb59949",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed06\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "43010e0daf21e5b7b0986864675f8206891e88e83a63e4b0fab922f8108b6c1a",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed07\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "e278c3e62f4d8c3db8498468648b5142dfb43d654083b9b9e508943506d7917f",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed07\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "a1035f1fec034a512eed15ba40a532164dd28d24b951b93d0f51aa12902799a3",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed07\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "689a0352b90dca24677127c270158c2b4fdab157564083680b7ad3797c0a6cb6",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed07\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "7dd2acbab2228e6b112a63c53aab68efd572ae261e81cfc65e57faf5b0101d8e",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed08\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "886e89c5940b698c71b5723a98c4f71879a5d58b2573f9794b186d3654da0033",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed08\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "0a3f6c696a4c52b5487f7fe68f74f732c651ede3ce3815271210372ad18d4224",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed08\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "87a09f74eb3e6ac9f6c7399516ffb00e67a115434fc435a7d38c070326f3d1af",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed08\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "28f3b1178a991b5ca38688fbf7efba3e9aa12738eaa382f0f49d40d26e7eef3c",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed09\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "032ddb47fae16ca5ccf04c6f6b132e4beaedab424cc73e61bf24f7145c5555a9",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed09\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "10e3f4e729c9c28e05db3076a78fe07c7e536734e48bc6ed379fd5d018f37fbd",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed09\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "780c2915d770d2ea1e06498acc215a49043b97702693b915a796099abb348821",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed09\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "cc760904248f3ad014da606ca9afd2ebd57550dbd02d1da32a9863d18c55b513",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed10\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "f507434f9a290b02e6da9b4163c4d38f94efc495a1ade9139a27b3db8964cce2",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed10\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "d9467aecafddcd70593a8a33317cffe6df644b8409e8f4f67de44bc384bc8757",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p1-seed10\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "38ae255f97876fb2333fb558e232b8b5534ac2a069844f21f802eba27a2642d0",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed01\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "15c947f0f439cb876af422c234cd9d98eb8f3535c42c2a05eef6e62c78ab83f8",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed01\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "2f40134296b25889d5bc30e95003d91573038b87e54e816e0e2a1ba7384964b2",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed01\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "1dfacc6c19a14933a77db37d8e0f72d8277aeace085c7796f7439f6f9ec49264",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed01\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "f5ce78cb842d84b5742cfb6de8e1e2f4fe0399617882ebf88e88710d8ac76890",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed02\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "67265da434d033159e4e19cc5a4302c6e12c49e1db3eded0db0ad0d841aad3eb",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed02\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "13179ae858bfbe1df86801081224f4f5a2ee535118f0779edc1bccaac50d5f6a",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed02\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "a146b76a2b08cbe7d813879ca3d13cc35d187ba8279163d9db5bdb417820b224",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed02\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "f0c57ab9998678a2879bfa310d1de1a95bf910b8552a7cf2a77e290be7c909ae",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed03\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "1a1fdc5c38b33bfcf73d65aa220db979931c61cd680220e6351f92e437ee3648",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed03\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "bbd4b2614ca7cff851f2784b393de6c0e8d0cbdbf3d77263dfaa8627076a6e26",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed03\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "229700b807387566ff58c3fca3873c6eddc8bb3e052f8edbf92b7798b645ba5c",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed03\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "67df0e31a3ca4c9a67db8ff6ee3cd086a1e0bd49a30e1dfe0b4ad8ca9a3195b0",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed04\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "b68a598f028dcfcd3f886767a3d4e67a8daf4c971148760ee31d5b8eac98d452",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed04\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "2821826d24fe9c7c90a26b393443816d1bf66584e4483eddfd78db00e27fb098",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed04\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "8e8ba864a2d086775eb3dec1dbdb67936271995edb92f72368e6743aacb3ad01",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed04\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "c8cb19ecd15334954ef445e577052f99696b9f079d66f6cb0faf2feeb353c772",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed05\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "e761f6a8b516f5eda4adadaff82f81d6e2f480e7a189e539c18cab62e9d80a87",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed05\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "bcfae977589ee8aa5f5c854e2fb89af7991734167076305c122d8bde26cefdaf",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed05\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "623aeb6105ca2fb502f0fe42fbf7ed59df69e91d4b195c86da0676c3dc79579a",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed05\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "a1662cefe83d1c8028c3561590aac974232d07ce4132e3b6f4ef0249c358d1c5",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed06\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "015729e4633f8bffc00106a5a0d0133673ea64ff39f092d167201d0c6d210d67",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed06\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "ddc26f16427520281e793c3db1463bf0bd791fabb1575d063abb19d83a6bfe8e",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed06\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "a0f749356c9c57491a6db85998473e7ec96e3ad2a5316e640f7d778ff51b5af1",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed06\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "abd5f1564d1b31ad508b00888cbd72ad82b0e29d1300f7488fd15aa48479af5e",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed07\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "df86e746a55b1a500ade221a64ba13c4f0e1c1eff4e579c80e28535e2573a9af",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed07\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "10ef2580d13aa815d69dd0eddd987499353d0e760955b4701f7eb6c4061ee255",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed07\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "be3eb5f1c4881716876c5b301ca2fee8f0984ef2af6f8f5f644a57244a3828fb",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed07\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "016bd8de6930fec45fb5ef1c4ccd714e0157fa4579002d8470cebf8eb1070f87",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed08\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "2c7188903d23d6f71d767dcd55f81fe4cebdc8ceb642196e500222d3ed8528c3",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed08\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "ca30a773e5c94362966910209b3f2813b5831b2a9581e1b7758862bb7aad37a0",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed08\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "9fdf3f0fa79daed16b8823dcd3fd4c25be03cab414f53c8273740f31e2eed4a1",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed09\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "0b5b501e765938e923e27763c7a0b11f4642bf1bd6969694903f4ed583b60a56",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed09\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "533aad3c41d8443d740f2198e95ec41119b0aa42ba71803082b1cb4b23f7d38e",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed09\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "3507470700958d293be35ef0b3b5743862900e962e8af025da60929a7256abc0",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed10\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "b45f90498a4b06685dd3b076d6cd51b04cb552333500067b88418cdf8111f819",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed10\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "187c559fd03f106550a559ebd2420d2a27816a61155999708b4241015a101c45",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed10\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "1c5acb9072ef3bb3bf1a4e43ab95526ddab6d90256e191b82d76666420ca0bfb",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p2-seed10\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "19a71d7f37fdacddc1bdf1157d72521ae2849a203876636bb4c9a60c46a67701",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed01\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "a33e68026a84fdd7d1f71a4d4f5c6c4f95385f0b8851fffea347cba7bc7e42db",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed01\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "39509bc2dc85faf870cacfca08057c1d87f92090f68860539cdae5491a6e8614",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed01\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "fe8116f8da72b544bcbc08a7c476ca3931b4e5372ab9f3cbdaf54857edb99d7a",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed01\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "93be2b9453bb8887e00a7054be3e0e20caba2614164d31739220a33cf60d0bd4",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed02\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "42727eacc2dbb4b3f3190732408330c1b7ce4ab16dbcac411eccd5b38eb050ae",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed02\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "0eab00522821aa8d02dfce6c759f93675d8a9f55402428e058698474b2feccab",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed02\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "1abb2fd82c5a7505c0c703817facfb05c845e4d7f95a77a213df960cc241169a",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed02\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "67d9e38c7f670c546b98b40bd11c71d14f907cd9cc99e0c932cb05958b96a051",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed03\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "2730ba84e28935c96c820f04f4c35c5dcf8dd91eef67ec530bc7b39ed9ba2d0c",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed03\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "b6a0d77cc35549d984e28c42c6d2826da01c05d66c90fe3879db41a6a960646e",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed03\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "5431e4daec6aec6c71cbb6a1365416d9b72fd73e286e5b8a57fe9ea9866cd5cc",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed03\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "c35d5df40d83db820beeee43b0678cd93ac862eeb6aa2dc2530e397ee7a0b44d",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed04\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "1458c02a5ea5107000650661b0e827373f81a71719cc2f1b881466782ee3dd01",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed04\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "9f94182cbcd660b10976f99a7f917a58e5bd75c7c723a5d9bfcf30e01df7f575",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed04\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "4d075ca0104281c317b4c0c202b5e28e9cf42fda14159c5e795c15031bb02c17",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed04\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "02e0640613ec53fe1fdd851973b356874791d972a21068aa1f99f8150781e5c0",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed05\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "51430c7dea5bdacdc0e86eb59bdd5d906999d6b33af8f0acf4cbcd4503f9a4d6",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed05\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "43b2494382c107b348a9a4b857bc9ddd213f37c510a37f0dfe16f31b0a21054b",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed05\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "262fe850dfb2ac21480baea5a9d73456df17554df6e75f4b861108e7e355e492",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed06\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "867d6a880d551174a4287d7bdd3f0df8d5b7e691e1d5192a20f3df7426f3a519",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed06\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "dfca51e2003f791c557ba4fa97fd698974472791ac4d16dfef2fc3ce04e3c54c",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed06\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "0d29a2232b10e3eb087c05a74d39e6e53770a4bb4d4d82760b980eaa3e7d6779",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed06\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "d93ca5e9594be04b9aeba1653ece9b3b4c179a818c0e25746d4483c8160df3ca",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed07\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "f8a4206d6b64be2852545b9c80d5b67f0b8f368e091de6784943566b213feed5",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed07\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "a56478cd68da92f2ffb0e671be305e3490ccddf77183df79f51b7e6e4fbf18ab",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed07\\q2\\power.rpt.gz",
+      "uncompressed_sha256": "130ae32806f9b7a879b88fe64fe5e8482ec7f6bcb287fad6d709f011be622042",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed07\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "20652357f2bc34a95c015247a507de4861ac7d02a2620aab18a776e28ac76db6",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed08\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "def20bc02dcb75f8b023f97d3fc84f99022cc5b4477801c829bd7c8cd1cc6372",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed08\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "08393e53363be4e6861c6c827cf764d0e10334b5136412b751530a06c88418a7",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed08\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "044483b5f3d57fe1dd4afefeff116f1af6ae55e9901dbc08c7598e3f5e9692a4",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed09\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "ec5cc1c94cf69027d030fa2ae2df3ba97c0fb44c919d129e3dacb36207426231",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed09\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "1a1afbe0dbd3539ef7b3b0f1ec9ea3bcb9c68ca1555b8e2d760ea423c8f6f46f",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed10\\q0\\power.rpt.gz",
+      "uncompressed_sha256": "06ff4e9d5c7bf4d4985f32271f18d0c28c51ffa36e1b86839f48a76b6deaa790",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed10\\q1\\power.rpt.gz",
+      "uncompressed_sha256": "459f9740d61acab8a2e5bc759c57c6335dca16766f4223561cf1f0480c0ac7bc",
+      "bytes": 754
+    },
+    {
+      "archive": "power\\gpu\\p3-seed10\\q3\\power.rpt.gz",
+      "uncompressed_sha256": "b3521af56f71e0d651a3b3b8480100b0eff92b9240e3919551a9d882d160987b",
+      "bytes": 754
+    }
+  ]
+}

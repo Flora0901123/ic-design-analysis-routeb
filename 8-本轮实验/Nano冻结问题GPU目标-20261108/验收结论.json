@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_GPU_SIMX_12_PASS",
+  "records": 12,
+  "domains": 4,
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "actual_target_execution": true,
+  "expected_tokens_in_device_image": false,
+  "performance_eligible": false,
+  "standalone_general_math_ability_claimed": false,
+  "second_machine_reproduction_claimed": false,
+  "sealed_artifacts": 166
+}

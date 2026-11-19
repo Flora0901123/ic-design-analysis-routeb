@@ -1,0 +1,6 @@
+{
+  "status": "LAST_DRC_MARKER_LOCATED",
+  "shape": "20x64",
+  "details": "ROUTEB_DRC_DETAILS {Deep N-well spacing to N-well < 4.5um (nwell.7)} {{40320 40320 40563 40556}}",
+  "physical_signoff": false
+}

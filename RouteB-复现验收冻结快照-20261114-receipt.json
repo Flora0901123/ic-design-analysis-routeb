@@ -1,0 +1,19 @@
+{
+  "status": "ARCHIVE_SIZE_AND_CRC_PASS",
+  "files": 20215,
+  "bytes": 3067190125,
+  "expanded_limit": 3221225472,
+  "omitted_rebuildable_cache_files": 7223,
+  "omitted_rebuildable_cache_bytes": 15175037868,
+  "deduplicated_physical_view_files": 4,
+  "deduplicated_physical_view_bytes": 166814389,
+  "deduplicated_replay_fixture_files": 221,
+  "deduplicated_replay_fixture_bytes": 354612072,
+  "workspace_files_deleted": 0,
+  "scope": "actual target binaries, reference, sources, inputs, raw evidence and failure records retained; identified caches omitted; byte-identical physical views and replay fixtures have an explicit canonical path and SHA",
+  "build_requested": true,
+  "archive": "RouteB-复现验收冻结快照-20261114.zip",
+  "archive_bytes": 924387948,
+  "archive_expanded_bytes": 3072362352,
+  "verified_payload_sha256_files": 20215
+}

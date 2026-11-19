@@ -1,0 +1,33 @@
+{
+  "status": "WHOLE_GPU_PROTOCOL_90_PASS",
+  "records": 90,
+  "backpressure_records": 30,
+  "response_hold_records": 30,
+  "reset_reissue_records": 30,
+  "each_case_10_seeds": true,
+  "stability_violations": 0,
+  "accepted_commands_equal_responses": true,
+  "nonvacuity_req_stalls_min": 210,
+  "nonvacuity_rsp_stalls_min": 207,
+  "hold_cycles_parameter": 17,
+  "reset_busy_cycles": 64,
+  "target_numeric_outputs_match": true,
+  "scope": "fresh functional SRAM-macro-bound Vortex with real fault adapters and protocol stimulus bridge; not original physical-netlist qualification",
+  "formal_baseline": false,
+  "physical_signoff": false,
+  "per_case_counts": {
+    "P1-MINI-31": 10,
+    "P1-MINI-32": 10,
+    "P1-MINI-33": 10,
+    "P2-MINI-31": 10,
+    "P2-MINI-32": 10,
+    "P2-MINI-33": 10,
+    "P3-MINI-31": 10,
+    "P3-MINI-32": 10,
+    "P3-MINI-33": 10
+  },
+  "binary_bindings": {
+    "/root/.cache/routeb-gpu-protocol-20261108/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-gpu-protocol-20261108/vortex-build/sw/runtime/librtlsim.so": "d3eb74268f4504ab72e86be63571bc65966afec7a8cbf426187addc892b8fb81"
+  }
+}

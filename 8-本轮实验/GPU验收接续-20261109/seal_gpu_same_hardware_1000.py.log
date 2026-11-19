@@ -1,0 +1,31 @@
+{
+  "status": "SAME_HARDWARE_1000_REPLAY_INDEPENDENTLY_SEALED",
+  "records": 1000,
+  "cases": 100,
+  "seeds_per_case": 10,
+  "per_operator_records": {
+    "p1": 330,
+    "p2": 340,
+    "p3": 330
+  },
+  "expected_status_counts": {
+    "OK": 770,
+    "BAD_LENGTH": 20,
+    "NUMERIC_ERROR": 150,
+    "BUS_ERROR": 30,
+    "BAD_DESCRIPTOR": 30
+  },
+  "real_DMA_fault_records": 30,
+  "exact_numeric_status_selected_primitive_pass": 1000,
+  "all_positive_target_counter_records": 1000,
+  "status_sha256": "9400f9b593467d197b1c1ae2d354959fd0601882b8a29b95af23b07676628ba5",
+  "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "hardware_identity": "fresh macro-bound Vortex + actual fault adapters + reconstructed functional SRAM",
+  "formal_baseline": false,
+  "teacher_physical_identity": false,
+  "all_software_variants_qualified": false,
+  "formal_promotion": "HOLD",
+  "resource_scope": "new resumed records guarded; historical unguarded records not retrospectively qualified"
+}
+existing immutable 1000 seal reverified; not rewritten
+existing immutable 1000 seal reverified; not rewritten

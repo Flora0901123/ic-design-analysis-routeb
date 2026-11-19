@@ -1,0 +1,18 @@
+{
+  "action": "cpu",
+  "variant": "baseline",
+  "status": "TRANSCRIPT_COLLECTED",
+  "formal_baseline": false,
+  "promotion": "NOT_EVALUATED",
+  "original_source_sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f",
+  "records_expected": 1000,
+  "scope": "fresh CPU target transcript, protocol/formal and physical gates separate",
+  "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "baseline_sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f",
+  "candidate_sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "records_observed": 1000,
+  "basic_numeric_status_failures": 260,
+  "full_correctness": "PENDING_WITNESS_AND_PROTOCOL",
+  "completion_marker": true
+}

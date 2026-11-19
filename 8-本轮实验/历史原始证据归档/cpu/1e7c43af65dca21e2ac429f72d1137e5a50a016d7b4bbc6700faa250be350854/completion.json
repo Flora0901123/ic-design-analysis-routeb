@@ -1,0 +1,25 @@
+{
+  "status": "HOLD",
+  "formal_baseline": false,
+  "input_sha256": "1e7c43af65dca21e2ac429f72d1137e5a50a016d7b4bbc6700faa250be350854",
+  "records_expected": 1,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "aggregate_8gib_cap_validated": false,
+  "resource_limits": {
+    "memory.max": "max",
+    "memory.swap.max": "max",
+    "cpu.max": "max 100000"
+  },
+  "target_run_complete": false,
+  "reason": "RuntimeError: build exited 1",
+  "elapsed_seconds": 99.38309813900001,
+  "artifacts": {
+    "build.log": "5967b0897b28359c9131624297b345dafcb0533f33df944293a01cace0607b85",
+    "inputs.json": "e625f73ca2ca103fe13bb0edf7331bba5522ccd60a06e9e72420322b9323f2b8",
+    "inputs.bin": "436b1e00c898e8712204381d794e4f1b79d8685323fb3ff4be50ac56b6870040",
+    "soc/csr.csv": "cb5cce963b08f844024ac3f42518a921b200b72c64c309015c806782afeb72e4"
+  }
+}

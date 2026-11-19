@@ -1,0 +1,29 @@
+PACKAGES=libc libcompiler_rt libbase libfatfs liblitespi liblitedram libliteeth liblitesdcard liblitesata bios bios
+PACKAGE_DIRS=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libc /home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libcompiler_rt /home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libbase /home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libfatfs /home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/liblitespi /home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/liblitedram /home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libliteeth /home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/liblitesdcard /home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/liblitesata /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-stride-1794284841727410711/candidate-bios /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-stride-1794284841727410711/candidate-bios
+LIBS=libc libcompiler_rt libbase libfatfs liblitespi liblitedram libliteeth liblitesdcard liblitesata
+TRIPLE=riscv64-unknown-elf
+CPU=vexriscv
+CPUFAMILY=riscv
+CPUFLAGS=-march=rv32i2p0_m     -mabi=ilp32 -D__vexriscv__
+CPUENDIANNESS=little
+CLANG=0
+CPU_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/cores/cpu/vexriscv
+SOC_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc
+PICOLIBC_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/pythondata_software_picolibc/data
+PICOLIBC_FORMAT=integer
+COMPILER_RT_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/pythondata_software_compiler_rt/data
+export BUILDINC_DIRECTORY
+BUILDINC_DIRECTORY=/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-stride-1794284841727410711/soc/software/include
+LIBC_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libc
+LIBCOMPILER_RT_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libcompiler_rt
+LIBBASE_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libbase
+LIBFATFS_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libfatfs
+LIBLITESPI_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/liblitespi
+LIBLITEDRAM_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/liblitedram
+LIBLITEETH_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/libliteeth
+LIBLITESDCARD_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/liblitesdcard
+LIBLITESATA_DIRECTORY=/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages/litex/soc/software/liblitesata
+BIOS_DIRECTORY=/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-stride-1794284841727410711/candidate-bios
+BIOS_DIRECTORY=/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-stride-1794284841727410711/candidate-bios
+LTO=0
+BIOS_CONSOLE_FULL=1

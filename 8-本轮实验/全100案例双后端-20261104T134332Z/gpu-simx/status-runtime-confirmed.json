@@ -1,0 +1,18 @@
+{
+  "status": "TARGET_EXECUTED",
+  "backend": "vortex-simx",
+  "fresh_execution": true,
+  "records_expected": 1000,
+  "performance_eligible": false,
+  "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/gpu/6f151dd40a110180994d750f3b6a5bce9ab06d18b2b75d92010d8ab0514d85cf",
+  "stage": "direct-execution",
+  "records_observed": 1000,
+  "numeric_matches": 970,
+  "numeric_failures": 0,
+  "unsupported_records": 30,
+  "elapsed_seconds": 76.50434410899993,
+  "formal_baseline": false,
+  "qualification": "Actual SimX full-output replay only; RTLSIM counters/protocol, physical, Nano and release gates remain mandatory",
+  "previous_error": null,
+  "actual_log": "execute-runtime-confirmed.log"
+}

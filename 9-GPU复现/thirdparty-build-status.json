@@ -1,0 +1,21 @@
+{
+  "status": "BUILT",
+  "completed": [
+    {
+      "stage": "ramulator-configure",
+      "exit_code": 0
+    },
+    {
+      "stage": "ramulator-build",
+      "exit_code": 0
+    },
+    {
+      "stage": "softfloat",
+      "exit_code": 0
+    },
+    {
+      "stage": "cocogfx",
+      "exit_code": 0
+    }
+  ]
+}

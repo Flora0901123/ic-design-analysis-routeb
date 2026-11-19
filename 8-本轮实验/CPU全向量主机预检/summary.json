@@ -1,0 +1,21 @@
+{
+  "scope": "host preflight only; no target timing, protocol or physical proof",
+  "results": [
+    {
+      "variant": "baseline",
+      "source_sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f",
+      "records": 1000,
+      "pass": 970,
+      "adapter_required": 30,
+      "fail": 0
+    },
+    {
+      "variant": "topk",
+      "source_sha256": "729eb4aeabdab2d3ad1302eddfc46264ff4419f04c09c033c85d36f253152ee1",
+      "records": 1000,
+      "pass": 970,
+      "adapter_required": 30,
+      "fail": 0
+    }
+  ]
+}

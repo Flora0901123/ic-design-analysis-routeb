@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "status": "PASS",
+  "protected_files_before": 7673,
+  "protected_files_unchanged": 7672,
+  "deleted_files": 24,
+  "deleted_bytes": 776438723,
+  "deleted_MiB": 740.47,
+  "evidence_changes": [],
+  "navigation_links": "PASS",
+  "immutable_reference_retained": true,
+  "scope": "原始证据、失败记录、源代码、固件、仿真器和工具链均保留；仅删除已逐字节验证可从保留分片重建的7个合并缓存、Python字节码和一份临时JS副本",
+  "initial_check_note": "初次核对将已计划删除的临时JS副本也纳入保留集合，唯一差异为该副本；此次按删除清单剔除此项，其他所有整理前哈希逐项通过。"
+}

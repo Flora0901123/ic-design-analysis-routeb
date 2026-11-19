@@ -1,0 +1,64 @@
+[2026-11-12 18:35:35.255139] WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+
+[2026-11-12 18:35:36.623671] |==============================================================================|
+[2026-11-12 18:35:36.627136] |=========                      OpenRAM v1.2.49                       =========|
+[2026-11-12 18:35:36.632018] |=========                                                            =========|
+[2026-11-12 18:35:36.635036] |=========               VLSI Design and Automation Lab               =========|
+[2026-11-12 18:35:36.639680] |=========        Computer Science and Engineering Department         =========|
+[2026-11-12 18:35:36.644851] |=========            University of California Santa Cruz             =========|
+[2026-11-12 18:35:36.648450] |=========                                                            =========|
+[2026-11-12 18:35:36.653036] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2026-11-12 18:35:36.657128] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2026-11-12 18:35:36.661387] |=========                See LICENSE for license info                =========|
+[2026-11-12 18:35:36.665026] |==============================================================================|
+[2026-11-12 18:35:36.668668] ** Start: 11/12/2026 18:35:36
+[2026-11-12 18:35:36.672259] Technology: sky130
+[2026-11-12 18:35:36.676518] Total size: 1280 bits
+[2026-11-12 18:35:36.679821] Word size: 20
+Words: 64
+Banks: 1
+[2026-11-12 18:35:36.683059] RW ports: 0
+R-only ports: 1
+W-only ports: 1
+[2026-11-12 18:35:36.686132] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2026-11-12 18:35:36.689556] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2026-11-12 18:35:36.692418] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2026-11-12 18:35:36.696353] Words per row: 1
+[2026-11-12 18:35:36.701308] Output files are: 
+[2026-11-12 18:35:36.704251] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.lvs
+[2026-11-12 18:35:36.708668] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.sp
+[2026-11-12 18:35:36.712256] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.v
+[2026-11-12 18:35:36.716460] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.lib
+[2026-11-12 18:35:36.722446] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.py
+[2026-11-12 18:35:36.726370] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.html
+[2026-11-12 18:35:36.729214] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.log
+[2026-11-12 18:35:36.733335] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.lef
+[2026-11-12 18:35:36.737623] /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.gds
+[2026-11-12 18:35:38.895038] ** Submodules: 2.1 seconds
+[2026-11-12 18:35:38.916638] ** Placement: 0.0 seconds
+[2026-11-12 18:39:52.120955] ** Routing: 253.2 seconds
+[2026-11-12 18:39:52.153908] ** Verification: 0.0 seconds
+[2026-11-12 18:39:52.158001] ** SRAM creation: 255.4 seconds
+[2026-11-12 18:39:52.162233] SP: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.sp
+[2026-11-12 18:39:52.239868] ** Spice writing: 0.1 seconds
+[2026-11-12 18:39:52.243329] DELAY: Writing stimulus...
+[2026-11-12 18:39:52.465291] ** DELAY: 0.2 seconds
+[2026-11-12 18:39:52.493451] GDS: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.gds
+[2026-11-12 18:39:52.674460] ** GDS: 0.2 seconds
+[2026-11-12 18:39:52.676720] LEF: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.lef
+[2026-11-12 18:39:52.688863] ** LEF: 0.0 seconds
+[2026-11-12 18:39:52.690742] LVS: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.lvs.sp
+[2026-11-12 18:39:52.719872] ** LVS writing: 0.0 seconds
+[2026-11-12 18:39:52.723370] LIB: Characterizing... 
+[2026-11-12 18:39:52.763703] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-11-12 18:39:53.194948] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-11-12 18:39:53.198333] ** Characterization: 0.5 seconds
+[2026-11-12 18:39:53.200865] Config: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.py
+[2026-11-12 18:39:53.203659] ** Config: 0.0 seconds
+[2026-11-12 18:39:53.207138] Datasheet: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.html
+[2026-11-12 18:39:53.211074] ** Datasheet: 0.0 seconds
+[2026-11-12 18:39:53.213846] Verilog: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-175857/20x64/views/routeb_new_1w1r_20x64.v
+[2026-11-12 18:39:53.216040] ** Verilog: 0.0 seconds
+[2026-11-12 18:39:53.218951] ** End: 256.6 seconds

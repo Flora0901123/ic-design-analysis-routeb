@@ -1,0 +1,446 @@
+{
+  "status": "MISMATCH_LOCALIZED_TO_TOP_LEVEL_PIN_MATCHING",
+  "physical_signoff": false,
+  "source_receipt_sha256": "dedf4ca1a8794e31d24e5559cdddf35b0e823b7faf6ba5e2e2b43dd0a4a65a0f",
+  "same_named_top_port_set": true,
+  "port_count": 36,
+  "pin_mismatch_lines": [
+    "clk1 |(no pin, node is p_en_bar0)",
+    "vccd1 |(no pin, node is clk_buf0)",
+    "(no pin, node is vccd1) |clk1",
+    "(no pin, node is vccd1) |vccd1"
+  ],
+  "layout": {
+    "sha256": "55bb74781990b5ddd7a51af20670d6f77a04c1ea9fe914e9309f98694a9725ad",
+    "ports": [
+      "din0[0]",
+      "din0[1]",
+      "din0[2]",
+      "din0[3]",
+      "din0[4]",
+      "din0[5]",
+      "din0[6]",
+      "din0[7]",
+      "addr0[0]",
+      "addr0[1]",
+      "addr0[2]",
+      "addr0[3]",
+      "addr0[4]",
+      "addr0[5]",
+      "addr0[6]",
+      "addr1[0]",
+      "addr1[1]",
+      "addr1[2]",
+      "addr1[3]",
+      "addr1[4]",
+      "addr1[5]",
+      "addr1[6]",
+      "csb0",
+      "csb1",
+      "clk0",
+      "clk1",
+      "dout1[0]",
+      "dout1[1]",
+      "dout1[2]",
+      "dout1[3]",
+      "dout1[4]",
+      "dout1[5]",
+      "dout1[6]",
+      "dout1[7]",
+      "vccd1",
+      "vssd1"
+    ],
+    "top_branch_inventory": {
+      "clk0": [
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_control_logic_w_0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_w",
+          "pin_index_1_based": [
+            2
+          ]
+        }
+      ],
+      "clk1": [
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_control_logic_r_0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_r",
+          "pin_index_1_based": [
+            2
+          ]
+        }
+      ],
+      "vccd1": [
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_bank_0",
+          "cell": "routeb_new_1w1r_8x128_bank",
+          "pin_index_1_based": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44,
+            47,
+            48,
+            49,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_data_dff_0",
+          "cell": "routeb_new_1w1r_8x128_data_dff",
+          "pin_index_1_based": [
+            17
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_control_logic_r_0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_r",
+          "pin_index_1_based": [
+            8,
+            9,
+            11
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_row_addr_dff_0",
+          "cell": "routeb_new_1w1r_8x128_row_addr_dff",
+          "pin_index_1_based": [
+            16
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_row_addr_dff_1",
+          "cell": "routeb_new_1w1r_8x128_row_addr_dff",
+          "pin_index_1_based": [
+            16
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_control_logic_w_0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_w",
+          "pin_index_1_based": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "vssd1": [
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_bank_0",
+          "cell": "routeb_new_1w1r_8x128_bank",
+          "pin_index_1_based": [
+            74
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_data_dff_0",
+          "cell": "routeb_new_1w1r_8x128_data_dff",
+          "pin_index_1_based": [
+            18
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_control_logic_r_0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_r",
+          "pin_index_1_based": [
+            10
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_row_addr_dff_0",
+          "cell": "routeb_new_1w1r_8x128_row_addr_dff",
+          "pin_index_1_based": [
+            17
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_row_addr_dff_1",
+          "cell": "routeb_new_1w1r_8x128_row_addr_dff",
+          "pin_index_1_based": [
+            17
+          ]
+        },
+        {
+          "instance": "Xrouteb_new_1w1r_8x128_control_logic_w_0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_w",
+          "pin_index_1_based": [
+            11
+          ]
+        }
+      ]
+    }
+  },
+  "schematic": {
+    "sha256": "80f1f5539303cfc5fe506f0f417240fa5ff6585baabfee7c6046bec43a60f280",
+    "ports": [
+      "din0[0]",
+      "din0[1]",
+      "din0[2]",
+      "din0[3]",
+      "din0[4]",
+      "din0[5]",
+      "din0[6]",
+      "din0[7]",
+      "addr0[0]",
+      "addr0[1]",
+      "addr0[2]",
+      "addr0[3]",
+      "addr0[4]",
+      "addr0[5]",
+      "addr0[6]",
+      "addr1[0]",
+      "addr1[1]",
+      "addr1[2]",
+      "addr1[3]",
+      "addr1[4]",
+      "addr1[5]",
+      "addr1[6]",
+      "csb0",
+      "csb1",
+      "clk0",
+      "clk1",
+      "dout1[0]",
+      "dout1[1]",
+      "dout1[2]",
+      "dout1[3]",
+      "dout1[4]",
+      "dout1[5]",
+      "dout1[6]",
+      "dout1[7]",
+      "vccd1",
+      "vssd1"
+    ],
+    "top_branch_inventory": {
+      "clk0": [
+        {
+          "instance": "Xcontrol0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_w",
+          "pin_index_1_based": [
+            2
+          ]
+        }
+      ],
+      "clk1": [
+        {
+          "instance": "Xcontrol1",
+          "cell": "routeb_new_1w1r_8x128_control_logic_r",
+          "pin_index_1_based": [
+            2
+          ]
+        }
+      ],
+      "vccd1": [
+        {
+          "instance": "Xbank0",
+          "cell": "routeb_new_1w1r_8x128_bank",
+          "pin_index_1_based": [
+            39
+          ]
+        },
+        {
+          "instance": "Xcontrol0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_w",
+          "pin_index_1_based": [
+            8
+          ]
+        },
+        {
+          "instance": "Xcontrol1",
+          "cell": "routeb_new_1w1r_8x128_control_logic_r",
+          "pin_index_1_based": [
+            8
+          ]
+        },
+        {
+          "instance": "Xrow_address0",
+          "cell": "routeb_new_1w1r_8x128_row_addr_dff",
+          "pin_index_1_based": [
+            16
+          ]
+        },
+        {
+          "instance": "Xrow_address1",
+          "cell": "routeb_new_1w1r_8x128_row_addr_dff",
+          "pin_index_1_based": [
+            16
+          ]
+        },
+        {
+          "instance": "Xdata_dff0",
+          "cell": "routeb_new_1w1r_8x128_data_dff",
+          "pin_index_1_based": [
+            18
+          ]
+        }
+      ],
+      "vssd1": [
+        {
+          "instance": "Xbank0",
+          "cell": "routeb_new_1w1r_8x128_bank",
+          "pin_index_1_based": [
+            40
+          ]
+        },
+        {
+          "instance": "Xcontrol0",
+          "cell": "routeb_new_1w1r_8x128_control_logic_w",
+          "pin_index_1_based": [
+            9
+          ]
+        },
+        {
+          "instance": "Xcontrol1",
+          "cell": "routeb_new_1w1r_8x128_control_logic_r",
+          "pin_index_1_based": [
+            9
+          ]
+        },
+        {
+          "instance": "Xrow_address0",
+          "cell": "routeb_new_1w1r_8x128_row_addr_dff",
+          "pin_index_1_based": [
+            17
+          ]
+        },
+        {
+          "instance": "Xrow_address1",
+          "cell": "routeb_new_1w1r_8x128_row_addr_dff",
+          "pin_index_1_based": [
+            17
+          ]
+        },
+        {
+          "instance": "Xdata_dff0",
+          "cell": "routeb_new_1w1r_8x128_data_dff",
+          "pin_index_1_based": [
+            19
+          ]
+        }
+      ]
+    }
+  },
+  "interpretation": "Branch inventory locates connectivity to compare. Pin pairing alone does not prove an electrical short; corresponding child nodes and GDS geometry require tracing.",
+  "control_hierarchy_pin_trace": {
+    "routeb_new_1w1r_8x128_control_logic_r": {
+      "layout_instance": "Xrouteb_new_1w1r_8x128_control_logic_r_0",
+      "schematic_instance": "Xcontrol1",
+      "common_child_pin_bindings": {
+        "clk": {
+          "layout": "clk1",
+          "schematic": "clk1"
+        },
+        "clk_buf": {
+          "layout": "routeb_new_1w1r_8x128_row_addr_dff_0/clk",
+          "schematic": "clk_buf1"
+        },
+        "csb": {
+          "layout": "csb1",
+          "schematic": "csb1"
+        },
+        "gnd": {
+          "layout": "vssd1",
+          "schematic": "vssd1"
+        },
+        "p_en_bar": {
+          "layout": "routeb_new_1w1r_8x128_bank_0/p_en_bar1",
+          "schematic": "p_en_bar1"
+        },
+        "rbl_bl": {
+          "layout": "routeb_new_1w1r_8x128_bank_0/rbl_bl_1_1",
+          "schematic": "rbl_bl1"
+        },
+        "s_en": {
+          "layout": "routeb_new_1w1r_8x128_bank_0/s_en1",
+          "schematic": "s_en1"
+        },
+        "vdd": {
+          "layout": "vccd1",
+          "schematic": "vccd1"
+        },
+        "wl_en": {
+          "layout": "routeb_new_1w1r_8x128_bank_0/wl_en1",
+          "schematic": "wl_en1"
+        }
+      },
+      "extracted_only_pins": [
+        "vdd_uq0",
+        "vdd_uq1"
+      ],
+      "schematic_only_pins": []
+    },
+    "routeb_new_1w1r_8x128_control_logic_w": {
+      "layout_instance": "Xrouteb_new_1w1r_8x128_control_logic_w_0",
+      "schematic_instance": "Xcontrol0",
+      "common_child_pin_bindings": {
+        "clk": {
+          "layout": "clk0",
+          "schematic": "clk0"
+        },
+        "clk_buf": {
+          "layout": "routeb_new_1w1r_8x128_data_dff_0/clk",
+          "schematic": "clk_buf0"
+        },
+        "csb": {
+          "layout": "csb0",
+          "schematic": "csb0"
+        },
+        "gnd": {
+          "layout": "vssd1",
+          "schematic": "vssd1"
+        },
+        "p_en_bar": {
+          "layout": "routeb_new_1w1r_8x128_bank_0/din0_7",
+          "schematic": "p_en_bar0"
+        },
+        "rbl_bl": {
+          "layout": "routeb_new_1w1r_8x128_bank_0/rbl_bl_0_0",
+          "schematic": "rbl_bl0"
+        },
+        "vdd": {
+          "layout": "vccd1",
+          "schematic": "vccd1"
+        },
+        "w_en": {
+          "layout": "routeb_new_1w1r_8x128_bank_0/w_en0",
+          "schematic": "w_en0"
+        },
+        "wl_en": {
+          "layout": "routeb_new_1w1r_8x128_bank_0/wl_en0",
+          "schematic": "wl_en0"
+        }
+      },
+      "extracted_only_pins": [
+        "vdd_uq0",
+        "vdd_uq1"
+      ],
+      "schematic_only_pins": []
+    }
+  }
+}

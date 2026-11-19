@@ -1,0 +1,6002 @@
+[
+  {
+    "case": "P1-MINI-01",
+    "seed": 1,
+    "parent_cycles": 14741,
+    "candidate_cycles": 12936
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 2,
+    "parent_cycles": 14196,
+    "candidate_cycles": 12334
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 3,
+    "parent_cycles": 14118,
+    "candidate_cycles": 12271
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 4,
+    "parent_cycles": 14414,
+    "candidate_cycles": 12489
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 5,
+    "parent_cycles": 14121,
+    "candidate_cycles": 12297
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 6,
+    "parent_cycles": 13926,
+    "candidate_cycles": 12120
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 7,
+    "parent_cycles": 14185,
+    "candidate_cycles": 12351
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 8,
+    "parent_cycles": 14388,
+    "candidate_cycles": 12469
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 9,
+    "parent_cycles": 14720,
+    "candidate_cycles": 12797
+  },
+  {
+    "case": "P1-MINI-01",
+    "seed": 10,
+    "parent_cycles": 14316,
+    "candidate_cycles": 12433
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 1,
+    "parent_cycles": 28269,
+    "candidate_cycles": 26893
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 2,
+    "parent_cycles": 29644,
+    "candidate_cycles": 28344
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 3,
+    "parent_cycles": 27594,
+    "candidate_cycles": 26273
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 4,
+    "parent_cycles": 29722,
+    "candidate_cycles": 28178
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 5,
+    "parent_cycles": 25929,
+    "candidate_cycles": 24534
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 6,
+    "parent_cycles": 29698,
+    "candidate_cycles": 28100
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 7,
+    "parent_cycles": 30759,
+    "candidate_cycles": 29492
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 8,
+    "parent_cycles": 27610,
+    "candidate_cycles": 26305
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 9,
+    "parent_cycles": 26511,
+    "candidate_cycles": 24931
+  },
+  {
+    "case": "P1-MINI-02",
+    "seed": 10,
+    "parent_cycles": 26306,
+    "candidate_cycles": 24757
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 1,
+    "parent_cycles": 29624,
+    "candidate_cycles": 28358
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 2,
+    "parent_cycles": 29027,
+    "candidate_cycles": 27897
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 3,
+    "parent_cycles": 29621,
+    "candidate_cycles": 28285
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 4,
+    "parent_cycles": 31610,
+    "candidate_cycles": 30097
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 5,
+    "parent_cycles": 22787,
+    "candidate_cycles": 21306
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 6,
+    "parent_cycles": 29688,
+    "candidate_cycles": 28579
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 7,
+    "parent_cycles": 28146,
+    "candidate_cycles": 26547
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 8,
+    "parent_cycles": 28222,
+    "candidate_cycles": 27016
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 9,
+    "parent_cycles": 29759,
+    "candidate_cycles": 28263
+  },
+  {
+    "case": "P1-MINI-03",
+    "seed": 10,
+    "parent_cycles": 29813,
+    "candidate_cycles": 28279
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 1,
+    "parent_cycles": 55878,
+    "candidate_cycles": 53472
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 2,
+    "parent_cycles": 54547,
+    "candidate_cycles": 51769
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 3,
+    "parent_cycles": 53764,
+    "candidate_cycles": 51470
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 4,
+    "parent_cycles": 53543,
+    "candidate_cycles": 51259
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 5,
+    "parent_cycles": 44849,
+    "candidate_cycles": 41918
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 6,
+    "parent_cycles": 56326,
+    "candidate_cycles": 53663
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 7,
+    "parent_cycles": 57780,
+    "candidate_cycles": 54957
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 8,
+    "parent_cycles": 52322,
+    "candidate_cycles": 48990
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 9,
+    "parent_cycles": 58864,
+    "candidate_cycles": 55638
+  },
+  {
+    "case": "P1-MINI-04",
+    "seed": 10,
+    "parent_cycles": 54856,
+    "candidate_cycles": 52012
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 1,
+    "parent_cycles": 56336,
+    "candidate_cycles": 53857
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 2,
+    "parent_cycles": 54870,
+    "candidate_cycles": 52048
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 3,
+    "parent_cycles": 55464,
+    "candidate_cycles": 52498
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 4,
+    "parent_cycles": 52746,
+    "candidate_cycles": 50053
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 5,
+    "parent_cycles": 46431,
+    "candidate_cycles": 43393
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 6,
+    "parent_cycles": 60860,
+    "candidate_cycles": 57750
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 7,
+    "parent_cycles": 59241,
+    "candidate_cycles": 56318
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 8,
+    "parent_cycles": 52581,
+    "candidate_cycles": 49216
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 9,
+    "parent_cycles": 55891,
+    "candidate_cycles": 52493
+  },
+  {
+    "case": "P1-MINI-05",
+    "seed": 10,
+    "parent_cycles": 51550,
+    "candidate_cycles": 48723
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 1,
+    "parent_cycles": 14762,
+    "candidate_cycles": 12850
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 2,
+    "parent_cycles": 14879,
+    "candidate_cycles": 12947
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 3,
+    "parent_cycles": 14809,
+    "candidate_cycles": 12892
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 4,
+    "parent_cycles": 15034,
+    "candidate_cycles": 13065
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 5,
+    "parent_cycles": 14724,
+    "candidate_cycles": 12842
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 6,
+    "parent_cycles": 14589,
+    "candidate_cycles": 12717
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 7,
+    "parent_cycles": 14742,
+    "candidate_cycles": 12848
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 8,
+    "parent_cycles": 15030,
+    "candidate_cycles": 13039
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 9,
+    "parent_cycles": 14958,
+    "candidate_cycles": 12975
+  },
+  {
+    "case": "P1-MINI-06",
+    "seed": 10,
+    "parent_cycles": 15017,
+    "candidate_cycles": 13075
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 1,
+    "parent_cycles": 31817,
+    "candidate_cycles": 30133
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 2,
+    "parent_cycles": 32126,
+    "candidate_cycles": 30459
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 3,
+    "parent_cycles": 31759,
+    "candidate_cycles": 30087
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 4,
+    "parent_cycles": 32324,
+    "candidate_cycles": 30649
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 5,
+    "parent_cycles": 31786,
+    "candidate_cycles": 30101
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 6,
+    "parent_cycles": 31890,
+    "candidate_cycles": 30196
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 7,
+    "parent_cycles": 31759,
+    "candidate_cycles": 30078
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 8,
+    "parent_cycles": 31799,
+    "candidate_cycles": 30114
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 9,
+    "parent_cycles": 31763,
+    "candidate_cycles": 30089
+  },
+  {
+    "case": "P1-MINI-07",
+    "seed": 10,
+    "parent_cycles": 31796,
+    "candidate_cycles": 30114
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 1,
+    "parent_cycles": 14106,
+    "candidate_cycles": 12226
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 2,
+    "parent_cycles": 14201,
+    "candidate_cycles": 12338
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 3,
+    "parent_cycles": 14136,
+    "candidate_cycles": 12277
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 4,
+    "parent_cycles": 14420,
+    "candidate_cycles": 12494
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 5,
+    "parent_cycles": 14060,
+    "candidate_cycles": 12237
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 6,
+    "parent_cycles": 13932,
+    "candidate_cycles": 12127
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 7,
+    "parent_cycles": 14071,
+    "candidate_cycles": 12253
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 8,
+    "parent_cycles": 14406,
+    "candidate_cycles": 12472
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 9,
+    "parent_cycles": 14436,
+    "candidate_cycles": 12513
+  },
+  {
+    "case": "P1-MINI-08",
+    "seed": 10,
+    "parent_cycles": 14290,
+    "candidate_cycles": 12409
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 1,
+    "parent_cycles": 30400,
+    "candidate_cycles": 29111
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 2,
+    "parent_cycles": 29023,
+    "candidate_cycles": 27883
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 3,
+    "parent_cycles": 30332,
+    "candidate_cycles": 28977
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 4,
+    "parent_cycles": 31435,
+    "candidate_cycles": 29913
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 5,
+    "parent_cycles": 22813,
+    "candidate_cycles": 21332
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 6,
+    "parent_cycles": 29185,
+    "candidate_cycles": 28085
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 7,
+    "parent_cycles": 28145,
+    "candidate_cycles": 26546
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 8,
+    "parent_cycles": 27507,
+    "candidate_cycles": 26295
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 9,
+    "parent_cycles": 29741,
+    "candidate_cycles": 28271
+  },
+  {
+    "case": "P1-MINI-09",
+    "seed": 10,
+    "parent_cycles": 29772,
+    "candidate_cycles": 28257
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 1,
+    "parent_cycles": 29603,
+    "candidate_cycles": 28294
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 2,
+    "parent_cycles": 28981,
+    "candidate_cycles": 27840
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 3,
+    "parent_cycles": 29623,
+    "candidate_cycles": 28258
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 4,
+    "parent_cycles": 31419,
+    "candidate_cycles": 29899
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 5,
+    "parent_cycles": 22771,
+    "candidate_cycles": 21329
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 6,
+    "parent_cycles": 29312,
+    "candidate_cycles": 28177
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 7,
+    "parent_cycles": 28166,
+    "candidate_cycles": 26546
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 8,
+    "parent_cycles": 27746,
+    "candidate_cycles": 26550
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 9,
+    "parent_cycles": 29724,
+    "candidate_cycles": 28280
+  },
+  {
+    "case": "P1-MINI-10",
+    "seed": 10,
+    "parent_cycles": 30402,
+    "candidate_cycles": 28913
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 1,
+    "parent_cycles": 74972,
+    "candidate_cycles": 71210
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 2,
+    "parent_cycles": 76181,
+    "candidate_cycles": 72281
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 3,
+    "parent_cycles": 74825,
+    "candidate_cycles": 70905
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 4,
+    "parent_cycles": 67054,
+    "candidate_cycles": 63838
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 5,
+    "parent_cycles": 68630,
+    "candidate_cycles": 64953
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 6,
+    "parent_cycles": 70787,
+    "candidate_cycles": 67265
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 7,
+    "parent_cycles": 70533,
+    "candidate_cycles": 66761
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 8,
+    "parent_cycles": 70991,
+    "candidate_cycles": 67466
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 9,
+    "parent_cycles": 75588,
+    "candidate_cycles": 71393
+  },
+  {
+    "case": "P1-MINI-11",
+    "seed": 10,
+    "parent_cycles": 69518,
+    "candidate_cycles": 65825
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 1,
+    "parent_cycles": 1115,
+    "candidate_cycles": 1093
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 2,
+    "parent_cycles": 1092,
+    "candidate_cycles": 1023
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 3,
+    "parent_cycles": 1051,
+    "candidate_cycles": 982
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 4,
+    "parent_cycles": 1091,
+    "candidate_cycles": 1022
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 5,
+    "parent_cycles": 1051,
+    "candidate_cycles": 982
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 6,
+    "parent_cycles": 1095,
+    "candidate_cycles": 1023
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 7,
+    "parent_cycles": 1051,
+    "candidate_cycles": 982
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 8,
+    "parent_cycles": 1091,
+    "candidate_cycles": 1022
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 9,
+    "parent_cycles": 1051,
+    "candidate_cycles": 982
+  },
+  {
+    "case": "P1-MINI-12",
+    "seed": 10,
+    "parent_cycles": 1092,
+    "candidate_cycles": 1023
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 1,
+    "parent_cycles": 16551,
+    "candidate_cycles": 14814
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 2,
+    "parent_cycles": 16548,
+    "candidate_cycles": 14815
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 3,
+    "parent_cycles": 16458,
+    "candidate_cycles": 14735
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 4,
+    "parent_cycles": 16539,
+    "candidate_cycles": 14833
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 5,
+    "parent_cycles": 16455,
+    "candidate_cycles": 14732
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 6,
+    "parent_cycles": 16616,
+    "candidate_cycles": 14831
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 7,
+    "parent_cycles": 16461,
+    "candidate_cycles": 14735
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 8,
+    "parent_cycles": 16561,
+    "candidate_cycles": 14816
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 9,
+    "parent_cycles": 16458,
+    "candidate_cycles": 14735
+  },
+  {
+    "case": "P1-MINI-13",
+    "seed": 10,
+    "parent_cycles": 16535,
+    "candidate_cycles": 14812
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 1,
+    "parent_cycles": 19881,
+    "candidate_cycles": 17163
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 2,
+    "parent_cycles": 20076,
+    "candidate_cycles": 17447
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 3,
+    "parent_cycles": 19995,
+    "candidate_cycles": 17294
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 4,
+    "parent_cycles": 20216,
+    "candidate_cycles": 17511
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 5,
+    "parent_cycles": 19957,
+    "candidate_cycles": 17274
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 6,
+    "parent_cycles": 20656,
+    "candidate_cycles": 17981
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 7,
+    "parent_cycles": 19985,
+    "candidate_cycles": 17295
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 8,
+    "parent_cycles": 20503,
+    "candidate_cycles": 17795
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 9,
+    "parent_cycles": 19949,
+    "candidate_cycles": 17274
+  },
+  {
+    "case": "P1-MINI-14",
+    "seed": 10,
+    "parent_cycles": 20049,
+    "candidate_cycles": 17371
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 1,
+    "parent_cycles": 19945,
+    "candidate_cycles": 17264
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 2,
+    "parent_cycles": 20021,
+    "candidate_cycles": 17343
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 3,
+    "parent_cycles": 19961,
+    "candidate_cycles": 17435
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 4,
+    "parent_cycles": 20024,
+    "candidate_cycles": 17366
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 5,
+    "parent_cycles": 19945,
+    "candidate_cycles": 17277
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 6,
+    "parent_cycles": 20021,
+    "candidate_cycles": 17364
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 7,
+    "parent_cycles": 19951,
+    "candidate_cycles": 17263
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 8,
+    "parent_cycles": 20027,
+    "candidate_cycles": 17343
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 9,
+    "parent_cycles": 19961,
+    "candidate_cycles": 17277
+  },
+  {
+    "case": "P1-MINI-15",
+    "seed": 10,
+    "parent_cycles": 20043,
+    "candidate_cycles": 17369
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 1,
+    "parent_cycles": 20318,
+    "candidate_cycles": 17619
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 2,
+    "parent_cycles": 20046,
+    "candidate_cycles": 17347
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 3,
+    "parent_cycles": 20228,
+    "candidate_cycles": 17551
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 4,
+    "parent_cycles": 20026,
+    "candidate_cycles": 17348
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 5,
+    "parent_cycles": 20548,
+    "candidate_cycles": 17866
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 6,
+    "parent_cycles": 20070,
+    "candidate_cycles": 17389
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 7,
+    "parent_cycles": 20440,
+    "candidate_cycles": 17742
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 8,
+    "parent_cycles": 20037,
+    "candidate_cycles": 17351
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 9,
+    "parent_cycles": 19945,
+    "candidate_cycles": 17283
+  },
+  {
+    "case": "P1-MINI-16",
+    "seed": 10,
+    "parent_cycles": 20037,
+    "candidate_cycles": 17357
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 1,
+    "parent_cycles": 19412,
+    "candidate_cycles": 17172
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 2,
+    "parent_cycles": 18946,
+    "candidate_cycles": 16788
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 3,
+    "parent_cycles": 19407,
+    "candidate_cycles": 17144
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 4,
+    "parent_cycles": 19482,
+    "candidate_cycles": 17126
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 5,
+    "parent_cycles": 19413,
+    "candidate_cycles": 17081
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 6,
+    "parent_cycles": 19869,
+    "candidate_cycles": 17382
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 7,
+    "parent_cycles": 19388,
+    "candidate_cycles": 17084
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 8,
+    "parent_cycles": 19473,
+    "candidate_cycles": 17152
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 9,
+    "parent_cycles": 19631,
+    "candidate_cycles": 17246
+  },
+  {
+    "case": "P1-MINI-17",
+    "seed": 10,
+    "parent_cycles": 19732,
+    "candidate_cycles": 17333
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 1,
+    "parent_cycles": 19208,
+    "candidate_cycles": 16951
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 2,
+    "parent_cycles": 19287,
+    "candidate_cycles": 17312
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 3,
+    "parent_cycles": 19112,
+    "candidate_cycles": 16924
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 4,
+    "parent_cycles": 20717,
+    "candidate_cycles": 18217
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 5,
+    "parent_cycles": 19136,
+    "candidate_cycles": 16832
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 6,
+    "parent_cycles": 19699,
+    "candidate_cycles": 17207
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 7,
+    "parent_cycles": 19189,
+    "candidate_cycles": 16872
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 8,
+    "parent_cycles": 18765,
+    "candidate_cycles": 16814
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 9,
+    "parent_cycles": 19367,
+    "candidate_cycles": 17064
+  },
+  {
+    "case": "P1-MINI-18",
+    "seed": 10,
+    "parent_cycles": 19211,
+    "candidate_cycles": 16912
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 1,
+    "parent_cycles": 30084,
+    "candidate_cycles": 28749
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 2,
+    "parent_cycles": 29396,
+    "candidate_cycles": 28276
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 3,
+    "parent_cycles": 30026,
+    "candidate_cycles": 28659
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 4,
+    "parent_cycles": 31832,
+    "candidate_cycles": 30313
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 5,
+    "parent_cycles": 23160,
+    "candidate_cycles": 21685
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 6,
+    "parent_cycles": 29601,
+    "candidate_cycles": 28482
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 7,
+    "parent_cycles": 28585,
+    "candidate_cycles": 26986
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 8,
+    "parent_cycles": 27924,
+    "candidate_cycles": 26689
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 9,
+    "parent_cycles": 30310,
+    "candidate_cycles": 28801
+  },
+  {
+    "case": "P1-MINI-19",
+    "seed": 10,
+    "parent_cycles": 30173,
+    "candidate_cycles": 28649
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 1,
+    "parent_cycles": 30615,
+    "candidate_cycles": 29350
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 2,
+    "parent_cycles": 29418,
+    "candidate_cycles": 28278
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 3,
+    "parent_cycles": 30426,
+    "candidate_cycles": 29059
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 4,
+    "parent_cycles": 31816,
+    "candidate_cycles": 30317
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 5,
+    "parent_cycles": 23165,
+    "candidate_cycles": 21688
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 6,
+    "parent_cycles": 29562,
+    "candidate_cycles": 28457
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 7,
+    "parent_cycles": 28554,
+    "candidate_cycles": 26944
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 8,
+    "parent_cycles": 27938,
+    "candidate_cycles": 26841
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 9,
+    "parent_cycles": 30155,
+    "candidate_cycles": 28669
+  },
+  {
+    "case": "P1-MINI-20",
+    "seed": 10,
+    "parent_cycles": 30151,
+    "candidate_cycles": 28666
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 1,
+    "parent_cycles": 30022,
+    "candidate_cycles": 28690
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 2,
+    "parent_cycles": 29423,
+    "candidate_cycles": 28239
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 3,
+    "parent_cycles": 30040,
+    "candidate_cycles": 28672
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 4,
+    "parent_cycles": 31844,
+    "candidate_cycles": 30302
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 5,
+    "parent_cycles": 23196,
+    "candidate_cycles": 21740
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 6,
+    "parent_cycles": 30033,
+    "candidate_cycles": 28880
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 7,
+    "parent_cycles": 28588,
+    "candidate_cycles": 26945
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 8,
+    "parent_cycles": 28233,
+    "candidate_cycles": 27028
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 9,
+    "parent_cycles": 30164,
+    "candidate_cycles": 28672
+  },
+  {
+    "case": "P1-MINI-21",
+    "seed": 10,
+    "parent_cycles": 30827,
+    "candidate_cycles": 29299
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 1,
+    "parent_cycles": 30042,
+    "candidate_cycles": 28734
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 2,
+    "parent_cycles": 29824,
+    "candidate_cycles": 28654
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 3,
+    "parent_cycles": 30052,
+    "candidate_cycles": 28659
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 4,
+    "parent_cycles": 31858,
+    "candidate_cycles": 30313
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 5,
+    "parent_cycles": 23158,
+    "candidate_cycles": 21701
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 6,
+    "parent_cycles": 29596,
+    "candidate_cycles": 28440
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 7,
+    "parent_cycles": 28566,
+    "candidate_cycles": 26944
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 8,
+    "parent_cycles": 27897,
+    "candidate_cycles": 26671
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 9,
+    "parent_cycles": 30163,
+    "candidate_cycles": 28649
+  },
+  {
+    "case": "P1-MINI-22",
+    "seed": 10,
+    "parent_cycles": 30172,
+    "candidate_cycles": 28636
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 1,
+    "parent_cycles": 29663,
+    "candidate_cycles": 28347
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 2,
+    "parent_cycles": 29054,
+    "candidate_cycles": 27896
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 3,
+    "parent_cycles": 29676,
+    "candidate_cycles": 28331
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 4,
+    "parent_cycles": 31474,
+    "candidate_cycles": 29929
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 5,
+    "parent_cycles": 22989,
+    "candidate_cycles": 21498
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 6,
+    "parent_cycles": 29264,
+    "candidate_cycles": 28102
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 7,
+    "parent_cycles": 28642,
+    "candidate_cycles": 27042
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 8,
+    "parent_cycles": 27534,
+    "candidate_cycles": 26310
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 9,
+    "parent_cycles": 30205,
+    "candidate_cycles": 28711
+  },
+  {
+    "case": "P1-MINI-23",
+    "seed": 10,
+    "parent_cycles": 29829,
+    "candidate_cycles": 28296
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 1,
+    "parent_cycles": 29696,
+    "candidate_cycles": 28387
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 2,
+    "parent_cycles": 29044,
+    "candidate_cycles": 27902
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 3,
+    "parent_cycles": 29653,
+    "candidate_cycles": 28313
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 4,
+    "parent_cycles": 31475,
+    "candidate_cycles": 30018
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 5,
+    "parent_cycles": 22826,
+    "candidate_cycles": 21350
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 6,
+    "parent_cycles": 29221,
+    "candidate_cycles": 28080
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 7,
+    "parent_cycles": 28182,
+    "candidate_cycles": 26586
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 8,
+    "parent_cycles": 27497,
+    "candidate_cycles": 26289
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 9,
+    "parent_cycles": 29769,
+    "candidate_cycles": 28279
+  },
+  {
+    "case": "P1-MINI-24",
+    "seed": 10,
+    "parent_cycles": 29788,
+    "candidate_cycles": 28275
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 1,
+    "parent_cycles": 1375,
+    "candidate_cycles": 1380
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 2,
+    "parent_cycles": 1342,
+    "candidate_cycles": 1293
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 3,
+    "parent_cycles": 1299,
+    "candidate_cycles": 1255
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 4,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 5,
+    "parent_cycles": 1295,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 6,
+    "parent_cycles": 1295,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 7,
+    "parent_cycles": 1321,
+    "candidate_cycles": 1272
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 8,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 9,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-25",
+    "seed": 10,
+    "parent_cycles": 1295,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 1,
+    "parent_cycles": 1296,
+    "candidate_cycles": 1250
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 2,
+    "parent_cycles": 1310,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 3,
+    "parent_cycles": 1318,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 4,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 5,
+    "parent_cycles": 1296,
+    "candidate_cycles": 1250
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 6,
+    "parent_cycles": 1302,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 7,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 8,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 9,
+    "parent_cycles": 1295,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-26",
+    "seed": 10,
+    "parent_cycles": 1296,
+    "candidate_cycles": 1250
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 1,
+    "parent_cycles": 1346,
+    "candidate_cycles": 1294
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 2,
+    "parent_cycles": 1288,
+    "candidate_cycles": 1236
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 3,
+    "parent_cycles": 1288,
+    "candidate_cycles": 1239
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 4,
+    "parent_cycles": 1286,
+    "candidate_cycles": 1240
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 5,
+    "parent_cycles": 1285,
+    "candidate_cycles": 1239
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 6,
+    "parent_cycles": 1299,
+    "candidate_cycles": 1236
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 7,
+    "parent_cycles": 1288,
+    "candidate_cycles": 1239
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 8,
+    "parent_cycles": 1289,
+    "candidate_cycles": 1240
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 9,
+    "parent_cycles": 1285,
+    "candidate_cycles": 1239
+  },
+  {
+    "case": "P1-MINI-27",
+    "seed": 10,
+    "parent_cycles": 1288,
+    "candidate_cycles": 1236
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 1,
+    "parent_cycles": 1346,
+    "candidate_cycles": 1300
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 2,
+    "parent_cycles": 1347,
+    "candidate_cycles": 1311
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 3,
+    "parent_cycles": 1346,
+    "candidate_cycles": 1297
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 4,
+    "parent_cycles": 1353,
+    "candidate_cycles": 1297
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 5,
+    "parent_cycles": 1343,
+    "candidate_cycles": 1297
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 6,
+    "parent_cycles": 1347,
+    "candidate_cycles": 1298
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 7,
+    "parent_cycles": 1346,
+    "candidate_cycles": 1294
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 8,
+    "parent_cycles": 1346,
+    "candidate_cycles": 1310
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 9,
+    "parent_cycles": 1346,
+    "candidate_cycles": 1297
+  },
+  {
+    "case": "P1-MINI-28",
+    "seed": 10,
+    "parent_cycles": 1368,
+    "candidate_cycles": 1319
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 1,
+    "parent_cycles": 1299,
+    "candidate_cycles": 1250
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 2,
+    "parent_cycles": 1317,
+    "candidate_cycles": 1271
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 3,
+    "parent_cycles": 1295,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 4,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 5,
+    "parent_cycles": 1299,
+    "candidate_cycles": 1250
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 6,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 7,
+    "parent_cycles": 1295,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 8,
+    "parent_cycles": 1295,
+    "candidate_cycles": 1246
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 9,
+    "parent_cycles": 1299,
+    "candidate_cycles": 1270
+  },
+  {
+    "case": "P1-MINI-29",
+    "seed": 10,
+    "parent_cycles": 1298,
+    "candidate_cycles": 1249
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 1,
+    "parent_cycles": 1756,
+    "candidate_cycles": 1711
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 2,
+    "parent_cycles": 1796,
+    "candidate_cycles": 1727
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 3,
+    "parent_cycles": 1756,
+    "candidate_cycles": 1684
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 4,
+    "parent_cycles": 1795,
+    "candidate_cycles": 1726
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 5,
+    "parent_cycles": 1764,
+    "candidate_cycles": 1684
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 6,
+    "parent_cycles": 1795,
+    "candidate_cycles": 1726
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 7,
+    "parent_cycles": 1828,
+    "candidate_cycles": 1748
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 8,
+    "parent_cycles": 1795,
+    "candidate_cycles": 1726
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 9,
+    "parent_cycles": 1756,
+    "candidate_cycles": 1684
+  },
+  {
+    "case": "P1-MINI-30",
+    "seed": 10,
+    "parent_cycles": 1795,
+    "candidate_cycles": 1739
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 1,
+    "parent_cycles": 30172,
+    "candidate_cycles": 28845
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 2,
+    "parent_cycles": 29022,
+    "candidate_cycles": 27885
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 3,
+    "parent_cycles": 30183,
+    "candidate_cycles": 28809
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 4,
+    "parent_cycles": 31435,
+    "candidate_cycles": 29916
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 5,
+    "parent_cycles": 22793,
+    "candidate_cycles": 21306
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 6,
+    "parent_cycles": 29186,
+    "candidate_cycles": 28074
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 7,
+    "parent_cycles": 28145,
+    "candidate_cycles": 26543
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 8,
+    "parent_cycles": 27499,
+    "candidate_cycles": 26336
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 9,
+    "parent_cycles": 29741,
+    "candidate_cycles": 28269
+  },
+  {
+    "case": "P1-MINI-31",
+    "seed": 10,
+    "parent_cycles": 29773,
+    "candidate_cycles": 28259
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 1,
+    "parent_cycles": 29600,
+    "candidate_cycles": 28309
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 2,
+    "parent_cycles": 28986,
+    "candidate_cycles": 27837
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 3,
+    "parent_cycles": 29617,
+    "candidate_cycles": 28278
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 4,
+    "parent_cycles": 31422,
+    "candidate_cycles": 29904
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 5,
+    "parent_cycles": 22804,
+    "candidate_cycles": 21294
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 6,
+    "parent_cycles": 29294,
+    "candidate_cycles": 28161
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 7,
+    "parent_cycles": 28149,
+    "candidate_cycles": 26546
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 8,
+    "parent_cycles": 27754,
+    "candidate_cycles": 26560
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 9,
+    "parent_cycles": 29742,
+    "candidate_cycles": 28276
+  },
+  {
+    "case": "P1-MINI-32",
+    "seed": 10,
+    "parent_cycles": 30304,
+    "candidate_cycles": 28787
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 1,
+    "parent_cycles": 29620,
+    "candidate_cycles": 28346
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 2,
+    "parent_cycles": 29067,
+    "candidate_cycles": 27924
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 3,
+    "parent_cycles": 29634,
+    "candidate_cycles": 28265
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 4,
+    "parent_cycles": 31435,
+    "candidate_cycles": 29913
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 5,
+    "parent_cycles": 22783,
+    "candidate_cycles": 21325
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 6,
+    "parent_cycles": 29185,
+    "candidate_cycles": 28043
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 7,
+    "parent_cycles": 28210,
+    "candidate_cycles": 26611
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 8,
+    "parent_cycles": 27481,
+    "candidate_cycles": 26271
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 9,
+    "parent_cycles": 29743,
+    "candidate_cycles": 28243
+  },
+  {
+    "case": "P1-MINI-33",
+    "seed": 10,
+    "parent_cycles": 29749,
+    "candidate_cycles": 28245
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 1,
+    "parent_cycles": 14354,
+    "candidate_cycles": 12344
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 2,
+    "parent_cycles": 14389,
+    "candidate_cycles": 12401
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 3,
+    "parent_cycles": 13919,
+    "candidate_cycles": 12073
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 4,
+    "parent_cycles": 14199,
+    "candidate_cycles": 12250
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 5,
+    "parent_cycles": 13982,
+    "candidate_cycles": 12113
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 6,
+    "parent_cycles": 14350,
+    "candidate_cycles": 12355
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 7,
+    "parent_cycles": 14861,
+    "candidate_cycles": 12869
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 8,
+    "parent_cycles": 14292,
+    "candidate_cycles": 12346
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 9,
+    "parent_cycles": 14446,
+    "candidate_cycles": 12462
+  },
+  {
+    "case": "P2-MINI-01",
+    "seed": 10,
+    "parent_cycles": 13897,
+    "candidate_cycles": 12014
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 1,
+    "parent_cycles": 30680,
+    "candidate_cycles": 28904
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 2,
+    "parent_cycles": 28653,
+    "candidate_cycles": 27136
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 3,
+    "parent_cycles": 27145,
+    "candidate_cycles": 25408
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 4,
+    "parent_cycles": 29961,
+    "candidate_cycles": 28592
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 5,
+    "parent_cycles": 26710,
+    "candidate_cycles": 25181
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 6,
+    "parent_cycles": 33837,
+    "candidate_cycles": 32255
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 7,
+    "parent_cycles": 32391,
+    "candidate_cycles": 30582
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 8,
+    "parent_cycles": 28517,
+    "candidate_cycles": 26984
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 9,
+    "parent_cycles": 32342,
+    "candidate_cycles": 30625
+  },
+  {
+    "case": "P2-MINI-02",
+    "seed": 10,
+    "parent_cycles": 30632,
+    "candidate_cycles": 28998
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 1,
+    "parent_cycles": 35992,
+    "candidate_cycles": 34606
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 2,
+    "parent_cycles": 38034,
+    "candidate_cycles": 36531
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 3,
+    "parent_cycles": 38679,
+    "candidate_cycles": 36930
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 4,
+    "parent_cycles": 36386,
+    "candidate_cycles": 34343
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 5,
+    "parent_cycles": 33736,
+    "candidate_cycles": 31898
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 6,
+    "parent_cycles": 35406,
+    "candidate_cycles": 33270
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 7,
+    "parent_cycles": 35951,
+    "candidate_cycles": 33766
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 8,
+    "parent_cycles": 35977,
+    "candidate_cycles": 34467
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 9,
+    "parent_cycles": 37502,
+    "candidate_cycles": 35286
+  },
+  {
+    "case": "P2-MINI-03",
+    "seed": 10,
+    "parent_cycles": 31773,
+    "candidate_cycles": 30104
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 1,
+    "parent_cycles": 37581,
+    "candidate_cycles": 35287
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 2,
+    "parent_cycles": 41929,
+    "candidate_cycles": 40312
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 3,
+    "parent_cycles": 45845,
+    "candidate_cycles": 43730
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 4,
+    "parent_cycles": 42828,
+    "candidate_cycles": 40875
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 5,
+    "parent_cycles": 42315,
+    "candidate_cycles": 39317
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 6,
+    "parent_cycles": 47438,
+    "candidate_cycles": 44401
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 7,
+    "parent_cycles": 44890,
+    "candidate_cycles": 42314
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 8,
+    "parent_cycles": 44391,
+    "candidate_cycles": 42281
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 9,
+    "parent_cycles": 43503,
+    "candidate_cycles": 40778
+  },
+  {
+    "case": "P2-MINI-04",
+    "seed": 10,
+    "parent_cycles": 42565,
+    "candidate_cycles": 40395
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 1,
+    "parent_cycles": 62050,
+    "candidate_cycles": 58650
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 2,
+    "parent_cycles": 63346,
+    "candidate_cycles": 59145
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 3,
+    "parent_cycles": 65374,
+    "candidate_cycles": 61383
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 4,
+    "parent_cycles": 64359,
+    "candidate_cycles": 60800
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 5,
+    "parent_cycles": 63530,
+    "candidate_cycles": 60327
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 6,
+    "parent_cycles": 59086,
+    "candidate_cycles": 55717
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 7,
+    "parent_cycles": 65790,
+    "candidate_cycles": 61774
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 8,
+    "parent_cycles": 62289,
+    "candidate_cycles": 58942
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 9,
+    "parent_cycles": 63547,
+    "candidate_cycles": 60291
+  },
+  {
+    "case": "P2-MINI-05",
+    "seed": 10,
+    "parent_cycles": 66827,
+    "candidate_cycles": 62703
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 1,
+    "parent_cycles": 42997,
+    "candidate_cycles": 40877
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 2,
+    "parent_cycles": 42161,
+    "candidate_cycles": 39578
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 3,
+    "parent_cycles": 44870,
+    "candidate_cycles": 42660
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 4,
+    "parent_cycles": 44670,
+    "candidate_cycles": 42515
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 5,
+    "parent_cycles": 43519,
+    "candidate_cycles": 41053
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 6,
+    "parent_cycles": 45124,
+    "candidate_cycles": 42770
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 7,
+    "parent_cycles": 46034,
+    "candidate_cycles": 44040
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 8,
+    "parent_cycles": 43282,
+    "candidate_cycles": 41054
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 9,
+    "parent_cycles": 41606,
+    "candidate_cycles": 39217
+  },
+  {
+    "case": "P2-MINI-06",
+    "seed": 10,
+    "parent_cycles": 41787,
+    "candidate_cycles": 39611
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 1,
+    "parent_cycles": 34368,
+    "candidate_cycles": 31468
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 2,
+    "parent_cycles": 35756,
+    "candidate_cycles": 32655
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 3,
+    "parent_cycles": 34864,
+    "candidate_cycles": 31669
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 4,
+    "parent_cycles": 35880,
+    "candidate_cycles": 32736
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 5,
+    "parent_cycles": 34838,
+    "candidate_cycles": 31608
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 6,
+    "parent_cycles": 34659,
+    "candidate_cycles": 31421
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 7,
+    "parent_cycles": 34614,
+    "candidate_cycles": 31581
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 8,
+    "parent_cycles": 34542,
+    "candidate_cycles": 31518
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 9,
+    "parent_cycles": 33770,
+    "candidate_cycles": 31223
+  },
+  {
+    "case": "P2-MINI-07",
+    "seed": 10,
+    "parent_cycles": 34687,
+    "candidate_cycles": 31668
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 1,
+    "parent_cycles": 62100,
+    "candidate_cycles": 58687
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 2,
+    "parent_cycles": 63274,
+    "candidate_cycles": 59116
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 3,
+    "parent_cycles": 64698,
+    "candidate_cycles": 60701
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 4,
+    "parent_cycles": 64336,
+    "candidate_cycles": 60802
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 5,
+    "parent_cycles": 62092,
+    "candidate_cycles": 58888
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 6,
+    "parent_cycles": 59290,
+    "candidate_cycles": 55926
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 7,
+    "parent_cycles": 65349,
+    "candidate_cycles": 61393
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 8,
+    "parent_cycles": 62412,
+    "candidate_cycles": 59136
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 9,
+    "parent_cycles": 64260,
+    "candidate_cycles": 60996
+  },
+  {
+    "case": "P2-MINI-08",
+    "seed": 10,
+    "parent_cycles": 66891,
+    "candidate_cycles": 62720
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 1,
+    "parent_cycles": 38616,
+    "candidate_cycles": 36280
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 2,
+    "parent_cycles": 41993,
+    "candidate_cycles": 40349
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 3,
+    "parent_cycles": 46654,
+    "candidate_cycles": 44626
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 4,
+    "parent_cycles": 42828,
+    "candidate_cycles": 40893
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 5,
+    "parent_cycles": 42322,
+    "candidate_cycles": 39284
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 6,
+    "parent_cycles": 47419,
+    "candidate_cycles": 44402
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 7,
+    "parent_cycles": 44893,
+    "candidate_cycles": 42314
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 8,
+    "parent_cycles": 44690,
+    "candidate_cycles": 42299
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 9,
+    "parent_cycles": 43517,
+    "candidate_cycles": 40772
+  },
+  {
+    "case": "P2-MINI-09",
+    "seed": 10,
+    "parent_cycles": 42423,
+    "candidate_cycles": 40240
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 1,
+    "parent_cycles": 37583,
+    "candidate_cycles": 35273
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 2,
+    "parent_cycles": 41926,
+    "candidate_cycles": 40291
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 3,
+    "parent_cycles": 45540,
+    "candidate_cycles": 43559
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 4,
+    "parent_cycles": 42815,
+    "candidate_cycles": 40895
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 5,
+    "parent_cycles": 42440,
+    "candidate_cycles": 39425
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 6,
+    "parent_cycles": 47558,
+    "candidate_cycles": 44526
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 7,
+    "parent_cycles": 44931,
+    "candidate_cycles": 42376
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 8,
+    "parent_cycles": 45009,
+    "candidate_cycles": 42823
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 9,
+    "parent_cycles": 43518,
+    "candidate_cycles": 40803
+  },
+  {
+    "case": "P2-MINI-10",
+    "seed": 10,
+    "parent_cycles": 43862,
+    "candidate_cycles": 41691
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 1,
+    "parent_cycles": 1117,
+    "candidate_cycles": 1117
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 2,
+    "parent_cycles": 1093,
+    "candidate_cycles": 1028
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 3,
+    "parent_cycles": 1054,
+    "candidate_cycles": 985
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 4,
+    "parent_cycles": 1096,
+    "candidate_cycles": 1024
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 5,
+    "parent_cycles": 1053,
+    "candidate_cycles": 984
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 6,
+    "parent_cycles": 1093,
+    "candidate_cycles": 1024
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 7,
+    "parent_cycles": 1054,
+    "candidate_cycles": 985
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 8,
+    "parent_cycles": 1093,
+    "candidate_cycles": 1024
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 9,
+    "parent_cycles": 1053,
+    "candidate_cycles": 984
+  },
+  {
+    "case": "P2-MINI-11",
+    "seed": 10,
+    "parent_cycles": 1093,
+    "candidate_cycles": 1030
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 1,
+    "parent_cycles": 1178,
+    "candidate_cycles": 1126
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 2,
+    "parent_cycles": 1176,
+    "candidate_cycles": 1136
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 3,
+    "parent_cycles": 1197,
+    "candidate_cycles": 1151
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 4,
+    "parent_cycles": 1175,
+    "candidate_cycles": 1126
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 5,
+    "parent_cycles": 1175,
+    "candidate_cycles": 1129
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 6,
+    "parent_cycles": 1179,
+    "candidate_cycles": 1127
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 7,
+    "parent_cycles": 1178,
+    "candidate_cycles": 1129
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 8,
+    "parent_cycles": 1175,
+    "candidate_cycles": 1126
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 9,
+    "parent_cycles": 1178,
+    "candidate_cycles": 1126
+  },
+  {
+    "case": "P2-MINI-12",
+    "seed": 10,
+    "parent_cycles": 1176,
+    "candidate_cycles": 1127
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 1,
+    "parent_cycles": 30124,
+    "candidate_cycles": 28364
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 2,
+    "parent_cycles": 30077,
+    "candidate_cycles": 28341
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 3,
+    "parent_cycles": 29997,
+    "candidate_cycles": 28261
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 4,
+    "parent_cycles": 30145,
+    "candidate_cycles": 28638
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 5,
+    "parent_cycles": 29997,
+    "candidate_cycles": 28297
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 6,
+    "parent_cycles": 30134,
+    "candidate_cycles": 28366
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 7,
+    "parent_cycles": 29997,
+    "candidate_cycles": 28262
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 8,
+    "parent_cycles": 30078,
+    "candidate_cycles": 28358
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 9,
+    "parent_cycles": 29994,
+    "candidate_cycles": 28264
+  },
+  {
+    "case": "P2-MINI-13",
+    "seed": 10,
+    "parent_cycles": 30074,
+    "candidate_cycles": 28342
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 1,
+    "parent_cycles": 52067,
+    "candidate_cycles": 47693
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 2,
+    "parent_cycles": 52593,
+    "candidate_cycles": 48276
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 3,
+    "parent_cycles": 52124,
+    "candidate_cycles": 47778
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 4,
+    "parent_cycles": 52653,
+    "candidate_cycles": 48347
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 5,
+    "parent_cycles": 52088,
+    "candidate_cycles": 47783
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 6,
+    "parent_cycles": 53198,
+    "candidate_cycles": 48878
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 7,
+    "parent_cycles": 52112,
+    "candidate_cycles": 47798
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 8,
+    "parent_cycles": 53227,
+    "candidate_cycles": 48884
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 9,
+    "parent_cycles": 52091,
+    "candidate_cycles": 47774
+  },
+  {
+    "case": "P2-MINI-14",
+    "seed": 10,
+    "parent_cycles": 52171,
+    "candidate_cycles": 47857
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 1,
+    "parent_cycles": 52033,
+    "candidate_cycles": 47706
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 2,
+    "parent_cycles": 52100,
+    "candidate_cycles": 47783
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 3,
+    "parent_cycles": 52029,
+    "candidate_cycles": 47811
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 4,
+    "parent_cycles": 52119,
+    "candidate_cycles": 47785
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 5,
+    "parent_cycles": 52042,
+    "candidate_cycles": 47721
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 6,
+    "parent_cycles": 52099,
+    "candidate_cycles": 47782
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 7,
+    "parent_cycles": 52019,
+    "candidate_cycles": 47705
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 8,
+    "parent_cycles": 52120,
+    "candidate_cycles": 47804
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 9,
+    "parent_cycles": 52032,
+    "candidate_cycles": 47709
+  },
+  {
+    "case": "P2-MINI-15",
+    "seed": 10,
+    "parent_cycles": 52121,
+    "candidate_cycles": 47848
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 1,
+    "parent_cycles": 52294,
+    "candidate_cycles": 47996
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 2,
+    "parent_cycles": 52135,
+    "candidate_cycles": 47829
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 3,
+    "parent_cycles": 52890,
+    "candidate_cycles": 48565
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 4,
+    "parent_cycles": 52133,
+    "candidate_cycles": 47819
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 5,
+    "parent_cycles": 53675,
+    "candidate_cycles": 49348
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 6,
+    "parent_cycles": 52155,
+    "candidate_cycles": 47838
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 7,
+    "parent_cycles": 52098,
+    "candidate_cycles": 47781
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 8,
+    "parent_cycles": 52136,
+    "candidate_cycles": 47822
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 9,
+    "parent_cycles": 52055,
+    "candidate_cycles": 47749
+  },
+  {
+    "case": "P2-MINI-16",
+    "seed": 10,
+    "parent_cycles": 52135,
+    "candidate_cycles": 47880
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 1,
+    "parent_cycles": 45721,
+    "candidate_cycles": 42619
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 2,
+    "parent_cycles": 46382,
+    "candidate_cycles": 43086
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 3,
+    "parent_cycles": 47185,
+    "candidate_cycles": 44090
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 4,
+    "parent_cycles": 46834,
+    "candidate_cycles": 44062
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 5,
+    "parent_cycles": 45597,
+    "candidate_cycles": 42416
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 6,
+    "parent_cycles": 46436,
+    "candidate_cycles": 43016
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 7,
+    "parent_cycles": 44164,
+    "candidate_cycles": 41108
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 8,
+    "parent_cycles": 47376,
+    "candidate_cycles": 44253
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 9,
+    "parent_cycles": 45072,
+    "candidate_cycles": 42142
+  },
+  {
+    "case": "P2-MINI-17",
+    "seed": 10,
+    "parent_cycles": 44352,
+    "candidate_cycles": 41173
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 1,
+    "parent_cycles": 34791,
+    "candidate_cycles": 31193
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 2,
+    "parent_cycles": 35011,
+    "candidate_cycles": 31921
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 3,
+    "parent_cycles": 34530,
+    "candidate_cycles": 31139
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 4,
+    "parent_cycles": 35524,
+    "candidate_cycles": 32500
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 5,
+    "parent_cycles": 35766,
+    "candidate_cycles": 31710
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 6,
+    "parent_cycles": 36425,
+    "candidate_cycles": 31907
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 7,
+    "parent_cycles": 41841,
+    "candidate_cycles": 38887
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 8,
+    "parent_cycles": 35154,
+    "candidate_cycles": 31516
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 9,
+    "parent_cycles": 41868,
+    "candidate_cycles": 38928
+  },
+  {
+    "case": "P2-MINI-18",
+    "seed": 10,
+    "parent_cycles": 39495,
+    "candidate_cycles": 36790
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 1,
+    "parent_cycles": 38134,
+    "candidate_cycles": 35717
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 2,
+    "parent_cycles": 42368,
+    "candidate_cycles": 40729
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 3,
+    "parent_cycles": 45972,
+    "candidate_cycles": 43963
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 4,
+    "parent_cycles": 43272,
+    "candidate_cycles": 41355
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 5,
+    "parent_cycles": 42732,
+    "candidate_cycles": 39678
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 6,
+    "parent_cycles": 47915,
+    "candidate_cycles": 44944
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 7,
+    "parent_cycles": 45392,
+    "candidate_cycles": 42833
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 8,
+    "parent_cycles": 44826,
+    "candidate_cycles": 42658
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 9,
+    "parent_cycles": 44209,
+    "candidate_cycles": 41466
+  },
+  {
+    "case": "P2-MINI-19",
+    "seed": 10,
+    "parent_cycles": 42815,
+    "candidate_cycles": 40593
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 1,
+    "parent_cycles": 38935,
+    "candidate_cycles": 36611
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 2,
+    "parent_cycles": 42366,
+    "candidate_cycles": 40736
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 3,
+    "parent_cycles": 46957,
+    "candidate_cycles": 44955
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 4,
+    "parent_cycles": 43260,
+    "candidate_cycles": 41311
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 5,
+    "parent_cycles": 42730,
+    "candidate_cycles": 39682
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 6,
+    "parent_cycles": 47822,
+    "candidate_cycles": 44797
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 7,
+    "parent_cycles": 45288,
+    "candidate_cycles": 42712
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 8,
+    "parent_cycles": 44962,
+    "candidate_cycles": 42708
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 9,
+    "parent_cycles": 43875,
+    "candidate_cycles": 41186
+  },
+  {
+    "case": "P2-MINI-20",
+    "seed": 10,
+    "parent_cycles": 42792,
+    "candidate_cycles": 40595
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 1,
+    "parent_cycles": 37962,
+    "candidate_cycles": 35664
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 2,
+    "parent_cycles": 42348,
+    "candidate_cycles": 40676
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 3,
+    "parent_cycles": 45964,
+    "candidate_cycles": 44068
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 4,
+    "parent_cycles": 43232,
+    "candidate_cycles": 41328
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 5,
+    "parent_cycles": 42825,
+    "candidate_cycles": 39846
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 6,
+    "parent_cycles": 48119,
+    "candidate_cycles": 45073
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 7,
+    "parent_cycles": 45370,
+    "candidate_cycles": 42730
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 8,
+    "parent_cycles": 45885,
+    "candidate_cycles": 43672
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 9,
+    "parent_cycles": 43917,
+    "candidate_cycles": 41195
+  },
+  {
+    "case": "P2-MINI-21",
+    "seed": 10,
+    "parent_cycles": 44376,
+    "candidate_cycles": 42172
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 1,
+    "parent_cycles": 37976,
+    "candidate_cycles": 35652
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 2,
+    "parent_cycles": 42407,
+    "candidate_cycles": 40752
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 3,
+    "parent_cycles": 45967,
+    "candidate_cycles": 43950
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 4,
+    "parent_cycles": 43248,
+    "candidate_cycles": 41295
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 5,
+    "parent_cycles": 42745,
+    "candidate_cycles": 39794
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 6,
+    "parent_cycles": 47850,
+    "candidate_cycles": 44801
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 7,
+    "parent_cycles": 45413,
+    "candidate_cycles": 42857
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 8,
+    "parent_cycles": 44792,
+    "candidate_cycles": 42597
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 9,
+    "parent_cycles": 43897,
+    "candidate_cycles": 41172
+  },
+  {
+    "case": "P2-MINI-22",
+    "seed": 10,
+    "parent_cycles": 42804,
+    "candidate_cycles": 40596
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 1,
+    "parent_cycles": 37649,
+    "candidate_cycles": 35316
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 2,
+    "parent_cycles": 42122,
+    "candidate_cycles": 40358
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 3,
+    "parent_cycles": 45642,
+    "candidate_cycles": 43616
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 4,
+    "parent_cycles": 42984,
+    "candidate_cycles": 41014
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 5,
+    "parent_cycles": 42827,
+    "candidate_cycles": 39769
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 6,
+    "parent_cycles": 47475,
+    "candidate_cycles": 44435
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 7,
+    "parent_cycles": 45960,
+    "candidate_cycles": 43334
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 8,
+    "parent_cycles": 44488,
+    "candidate_cycles": 42301
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 9,
+    "parent_cycles": 44851,
+    "candidate_cycles": 42096
+  },
+  {
+    "case": "P2-MINI-23",
+    "seed": 10,
+    "parent_cycles": 42454,
+    "candidate_cycles": 40266
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 1,
+    "parent_cycles": 37648,
+    "candidate_cycles": 35309
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 2,
+    "parent_cycles": 41986,
+    "candidate_cycles": 40338
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 3,
+    "parent_cycles": 45582,
+    "candidate_cycles": 43579
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 4,
+    "parent_cycles": 42892,
+    "candidate_cycles": 41140
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 5,
+    "parent_cycles": 42350,
+    "candidate_cycles": 39337
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 6,
+    "parent_cycles": 47533,
+    "candidate_cycles": 44466
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 7,
+    "parent_cycles": 44943,
+    "candidate_cycles": 42347
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 8,
+    "parent_cycles": 44440,
+    "candidate_cycles": 42292
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 9,
+    "parent_cycles": 43513,
+    "candidate_cycles": 40830
+  },
+  {
+    "case": "P2-MINI-24",
+    "seed": 10,
+    "parent_cycles": 42431,
+    "candidate_cycles": 40257
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 1,
+    "parent_cycles": 1388,
+    "candidate_cycles": 1411
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 2,
+    "parent_cycles": 1371,
+    "candidate_cycles": 1322
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 3,
+    "parent_cycles": 1328,
+    "candidate_cycles": 1279
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 4,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1287
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 5,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1275
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 6,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1279
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 7,
+    "parent_cycles": 1325,
+    "candidate_cycles": 1279
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 8,
+    "parent_cycles": 1324,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 9,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-25",
+    "seed": 10,
+    "parent_cycles": 1331,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 1,
+    "parent_cycles": 1328,
+    "candidate_cycles": 1276
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 2,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1275
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 3,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 4,
+    "parent_cycles": 1324,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 5,
+    "parent_cycles": 1325,
+    "candidate_cycles": 1282
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 6,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 7,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1275
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 8,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1275
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 9,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-26",
+    "seed": 10,
+    "parent_cycles": 1325,
+    "candidate_cycles": 1279
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 1,
+    "parent_cycles": 1314,
+    "candidate_cycles": 1280
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 2,
+    "parent_cycles": 1314,
+    "candidate_cycles": 1268
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 3,
+    "parent_cycles": 1317,
+    "candidate_cycles": 1265
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 4,
+    "parent_cycles": 1318,
+    "candidate_cycles": 1266
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 5,
+    "parent_cycles": 1318,
+    "candidate_cycles": 1268
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 6,
+    "parent_cycles": 1317,
+    "candidate_cycles": 1268
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 7,
+    "parent_cycles": 1314,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 8,
+    "parent_cycles": 1315,
+    "candidate_cycles": 1269
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 9,
+    "parent_cycles": 1317,
+    "candidate_cycles": 1265
+  },
+  {
+    "case": "P2-MINI-27",
+    "seed": 10,
+    "parent_cycles": 1337,
+    "candidate_cycles": 1268
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 1,
+    "parent_cycles": 1375,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 2,
+    "parent_cycles": 1376,
+    "candidate_cycles": 1327
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 3,
+    "parent_cycles": 1375,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 4,
+    "parent_cycles": 1375,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 5,
+    "parent_cycles": 1379,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 6,
+    "parent_cycles": 1372,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 7,
+    "parent_cycles": 1373,
+    "candidate_cycles": 1331
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 8,
+    "parent_cycles": 1410,
+    "candidate_cycles": 1361
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 9,
+    "parent_cycles": 1372,
+    "candidate_cycles": 1323
+  },
+  {
+    "case": "P2-MINI-28",
+    "seed": 10,
+    "parent_cycles": 1372,
+    "candidate_cycles": 1323
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 1,
+    "parent_cycles": 1325,
+    "candidate_cycles": 1276
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 2,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 3,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 4,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 5,
+    "parent_cycles": 1328,
+    "candidate_cycles": 1279
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 6,
+    "parent_cycles": 1337,
+    "candidate_cycles": 1275
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 7,
+    "parent_cycles": 1324,
+    "candidate_cycles": 1275
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 8,
+    "parent_cycles": 1335,
+    "candidate_cycles": 1291
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 9,
+    "parent_cycles": 1348,
+    "candidate_cycles": 1279
+  },
+  {
+    "case": "P2-MINI-29",
+    "seed": 10,
+    "parent_cycles": 1327,
+    "candidate_cycles": 1278
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 1,
+    "parent_cycles": 1785,
+    "candidate_cycles": 1736
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 2,
+    "parent_cycles": 1824,
+    "candidate_cycles": 1755
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 3,
+    "parent_cycles": 1786,
+    "candidate_cycles": 1720
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 4,
+    "parent_cycles": 1824,
+    "candidate_cycles": 1767
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 5,
+    "parent_cycles": 1788,
+    "candidate_cycles": 1716
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 6,
+    "parent_cycles": 1824,
+    "candidate_cycles": 1756
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 7,
+    "parent_cycles": 1821,
+    "candidate_cycles": 1752
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 8,
+    "parent_cycles": 1825,
+    "candidate_cycles": 1756
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 9,
+    "parent_cycles": 1783,
+    "candidate_cycles": 1717
+  },
+  {
+    "case": "P2-MINI-30",
+    "seed": 10,
+    "parent_cycles": 1825,
+    "candidate_cycles": 1756
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 1,
+    "parent_cycles": 38609,
+    "candidate_cycles": 36267
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 2,
+    "parent_cycles": 42012,
+    "candidate_cycles": 40364
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 3,
+    "parent_cycles": 45910,
+    "candidate_cycles": 43903
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 4,
+    "parent_cycles": 42877,
+    "candidate_cycles": 40949
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 5,
+    "parent_cycles": 42335,
+    "candidate_cycles": 39281
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 6,
+    "parent_cycles": 47422,
+    "candidate_cycles": 44419
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 7,
+    "parent_cycles": 44890,
+    "candidate_cycles": 42321
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 8,
+    "parent_cycles": 44456,
+    "candidate_cycles": 42250
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 9,
+    "parent_cycles": 43513,
+    "candidate_cycles": 40775
+  },
+  {
+    "case": "P2-MINI-31",
+    "seed": 10,
+    "parent_cycles": 42421,
+    "candidate_cycles": 40221
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 1,
+    "parent_cycles": 37584,
+    "candidate_cycles": 35276
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 2,
+    "parent_cycles": 41942,
+    "candidate_cycles": 40277
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 3,
+    "parent_cycles": 45548,
+    "candidate_cycles": 43571
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 4,
+    "parent_cycles": 42831,
+    "candidate_cycles": 40967
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 5,
+    "parent_cycles": 42479,
+    "candidate_cycles": 39335
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 6,
+    "parent_cycles": 47765,
+    "candidate_cycles": 44771
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 7,
+    "parent_cycles": 44942,
+    "candidate_cycles": 42356
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 8,
+    "parent_cycles": 45628,
+    "candidate_cycles": 43430
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 9,
+    "parent_cycles": 43554,
+    "candidate_cycles": 40816
+  },
+  {
+    "case": "P2-MINI-32",
+    "seed": 10,
+    "parent_cycles": 43633,
+    "candidate_cycles": 41420
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 1,
+    "parent_cycles": 37582,
+    "candidate_cycles": 35276
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 2,
+    "parent_cycles": 41987,
+    "candidate_cycles": 40330
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 3,
+    "parent_cycles": 45550,
+    "candidate_cycles": 43544
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 4,
+    "parent_cycles": 42825,
+    "candidate_cycles": 40892
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 5,
+    "parent_cycles": 42339,
+    "candidate_cycles": 39583
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 6,
+    "parent_cycles": 47415,
+    "candidate_cycles": 44428
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 7,
+    "parent_cycles": 44894,
+    "candidate_cycles": 42315
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 8,
+    "parent_cycles": 44391,
+    "candidate_cycles": 42244
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 9,
+    "parent_cycles": 43474,
+    "candidate_cycles": 40782
+  },
+  {
+    "case": "P2-MINI-33",
+    "seed": 10,
+    "parent_cycles": 42394,
+    "candidate_cycles": 40229
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 1,
+    "parent_cycles": 55154,
+    "candidate_cycles": 53722
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 2,
+    "parent_cycles": 54863,
+    "candidate_cycles": 53530
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 3,
+    "parent_cycles": 54988,
+    "candidate_cycles": 53649
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 4,
+    "parent_cycles": 54689,
+    "candidate_cycles": 53209
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 5,
+    "parent_cycles": 55025,
+    "candidate_cycles": 53542
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 6,
+    "parent_cycles": 54663,
+    "candidate_cycles": 53264
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 7,
+    "parent_cycles": 58321,
+    "candidate_cycles": 56844
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 8,
+    "parent_cycles": 54715,
+    "candidate_cycles": 53338
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 9,
+    "parent_cycles": 54998,
+    "candidate_cycles": 53603
+  },
+  {
+    "case": "P3-MINI-01",
+    "seed": 10,
+    "parent_cycles": 54733,
+    "candidate_cycles": 53295
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 1,
+    "parent_cycles": 107181,
+    "candidate_cycles": 104223
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 2,
+    "parent_cycles": 106294,
+    "candidate_cycles": 103364
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 3,
+    "parent_cycles": 106855,
+    "candidate_cycles": 104067
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 4,
+    "parent_cycles": 106285,
+    "candidate_cycles": 104696
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 5,
+    "parent_cycles": 107133,
+    "candidate_cycles": 104177
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 6,
+    "parent_cycles": 106135,
+    "candidate_cycles": 103200
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 7,
+    "parent_cycles": 108320,
+    "candidate_cycles": 105552
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 8,
+    "parent_cycles": 106319,
+    "candidate_cycles": 103374
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 9,
+    "parent_cycles": 108407,
+    "candidate_cycles": 105508
+  },
+  {
+    "case": "P3-MINI-02",
+    "seed": 10,
+    "parent_cycles": 106419,
+    "candidate_cycles": 103463
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 1,
+    "parent_cycles": 105882,
+    "candidate_cycles": 103086
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 2,
+    "parent_cycles": 105582,
+    "candidate_cycles": 102711
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 3,
+    "parent_cycles": 105714,
+    "candidate_cycles": 102860
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 4,
+    "parent_cycles": 105993,
+    "candidate_cycles": 103127
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 5,
+    "parent_cycles": 105655,
+    "candidate_cycles": 102685
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 6,
+    "parent_cycles": 107457,
+    "candidate_cycles": 104716
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 7,
+    "parent_cycles": 105511,
+    "candidate_cycles": 102554
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 8,
+    "parent_cycles": 106110,
+    "candidate_cycles": 103162
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 9,
+    "parent_cycles": 105852,
+    "candidate_cycles": 102882
+  },
+  {
+    "case": "P3-MINI-03",
+    "seed": 10,
+    "parent_cycles": 106115,
+    "candidate_cycles": 103184
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 1,
+    "parent_cycles": 105586,
+    "candidate_cycles": 102742
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 2,
+    "parent_cycles": 105670,
+    "candidate_cycles": 102860
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 3,
+    "parent_cycles": 105719,
+    "candidate_cycles": 102687
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 4,
+    "parent_cycles": 106238,
+    "candidate_cycles": 103317
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 5,
+    "parent_cycles": 105366,
+    "candidate_cycles": 102454
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 6,
+    "parent_cycles": 107948,
+    "candidate_cycles": 105241
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 7,
+    "parent_cycles": 105356,
+    "candidate_cycles": 102345
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 8,
+    "parent_cycles": 106046,
+    "candidate_cycles": 103143
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 9,
+    "parent_cycles": 105542,
+    "candidate_cycles": 102715
+  },
+  {
+    "case": "P3-MINI-04",
+    "seed": 10,
+    "parent_cycles": 105629,
+    "candidate_cycles": 102659
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 1,
+    "parent_cycles": 105825,
+    "candidate_cycles": 102956
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 2,
+    "parent_cycles": 105582,
+    "candidate_cycles": 102580
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 3,
+    "parent_cycles": 109652,
+    "candidate_cycles": 106744
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 4,
+    "parent_cycles": 105424,
+    "candidate_cycles": 102603
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 5,
+    "parent_cycles": 105653,
+    "candidate_cycles": 102737
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 6,
+    "parent_cycles": 105424,
+    "candidate_cycles": 102501
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 7,
+    "parent_cycles": 106174,
+    "candidate_cycles": 103284
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 8,
+    "parent_cycles": 105728,
+    "candidate_cycles": 102783
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 9,
+    "parent_cycles": 105935,
+    "candidate_cycles": 102953
+  },
+  {
+    "case": "P3-MINI-05",
+    "seed": 10,
+    "parent_cycles": 105481,
+    "candidate_cycles": 102761
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 1,
+    "parent_cycles": 93144,
+    "candidate_cycles": 90180
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 2,
+    "parent_cycles": 92179,
+    "candidate_cycles": 89236
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 3,
+    "parent_cycles": 92660,
+    "candidate_cycles": 89784
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 4,
+    "parent_cycles": 92198,
+    "candidate_cycles": 89316
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 5,
+    "parent_cycles": 92768,
+    "candidate_cycles": 89921
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 6,
+    "parent_cycles": 92205,
+    "candidate_cycles": 89305
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 7,
+    "parent_cycles": 92511,
+    "candidate_cycles": 89697
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 8,
+    "parent_cycles": 92541,
+    "candidate_cycles": 89575
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 9,
+    "parent_cycles": 92658,
+    "candidate_cycles": 89771
+  },
+  {
+    "case": "P3-MINI-06",
+    "seed": 10,
+    "parent_cycles": 93760,
+    "candidate_cycles": 90796
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 1,
+    "parent_cycles": 106766,
+    "candidate_cycles": 103837
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 2,
+    "parent_cycles": 110352,
+    "candidate_cycles": 107436
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 3,
+    "parent_cycles": 106561,
+    "candidate_cycles": 103526
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 4,
+    "parent_cycles": 106446,
+    "candidate_cycles": 103624
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 5,
+    "parent_cycles": 106601,
+    "candidate_cycles": 103758
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 6,
+    "parent_cycles": 106740,
+    "candidate_cycles": 103820
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 7,
+    "parent_cycles": 106506,
+    "candidate_cycles": 103572
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 8,
+    "parent_cycles": 106884,
+    "candidate_cycles": 103976
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 9,
+    "parent_cycles": 106612,
+    "candidate_cycles": 103697
+  },
+  {
+    "case": "P3-MINI-07",
+    "seed": 10,
+    "parent_cycles": 107055,
+    "candidate_cycles": 104064
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 1,
+    "parent_cycles": 106603,
+    "candidate_cycles": 103736
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 2,
+    "parent_cycles": 108110,
+    "candidate_cycles": 105343
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 3,
+    "parent_cycles": 106354,
+    "candidate_cycles": 103434
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 4,
+    "parent_cycles": 108144,
+    "candidate_cycles": 105248
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 5,
+    "parent_cycles": 106515,
+    "candidate_cycles": 103554
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 6,
+    "parent_cycles": 106680,
+    "candidate_cycles": 103604
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 7,
+    "parent_cycles": 106490,
+    "candidate_cycles": 103607
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 8,
+    "parent_cycles": 106445,
+    "candidate_cycles": 103569
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 9,
+    "parent_cycles": 107958,
+    "candidate_cycles": 105014
+  },
+  {
+    "case": "P3-MINI-08",
+    "seed": 10,
+    "parent_cycles": 106408,
+    "candidate_cycles": 103543
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 1,
+    "parent_cycles": 108032,
+    "candidate_cycles": 105141
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 2,
+    "parent_cycles": 106401,
+    "candidate_cycles": 103423
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 3,
+    "parent_cycles": 106720,
+    "candidate_cycles": 103827
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 4,
+    "parent_cycles": 106436,
+    "candidate_cycles": 103539
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 5,
+    "parent_cycles": 107105,
+    "candidate_cycles": 104187
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 6,
+    "parent_cycles": 106188,
+    "candidate_cycles": 103323
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 7,
+    "parent_cycles": 107026,
+    "candidate_cycles": 104120
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 8,
+    "parent_cycles": 106303,
+    "candidate_cycles": 103407
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 9,
+    "parent_cycles": 107214,
+    "candidate_cycles": 104392
+  },
+  {
+    "case": "P3-MINI-09",
+    "seed": 10,
+    "parent_cycles": 106512,
+    "candidate_cycles": 103537
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 1,
+    "parent_cycles": 118060,
+    "candidate_cycles": 114542
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 2,
+    "parent_cycles": 116425,
+    "candidate_cycles": 112852
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 3,
+    "parent_cycles": 117869,
+    "candidate_cycles": 114365
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 4,
+    "parent_cycles": 116435,
+    "candidate_cycles": 112892
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 5,
+    "parent_cycles": 116472,
+    "candidate_cycles": 112975
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 6,
+    "parent_cycles": 116631,
+    "candidate_cycles": 113129
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 7,
+    "parent_cycles": 116349,
+    "candidate_cycles": 112804
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 8,
+    "parent_cycles": 120774,
+    "candidate_cycles": 117210
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 9,
+    "parent_cycles": 116346,
+    "candidate_cycles": 112847
+  },
+  {
+    "case": "P3-MINI-10",
+    "seed": 10,
+    "parent_cycles": 116628,
+    "candidate_cycles": 113065
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 1,
+    "parent_cycles": 1286,
+    "candidate_cycles": 1286
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 2,
+    "parent_cycles": 1261,
+    "candidate_cycles": 1172
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 3,
+    "parent_cycles": 1220,
+    "candidate_cycles": 1131
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 4,
+    "parent_cycles": 1261,
+    "candidate_cycles": 1172
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 5,
+    "parent_cycles": 1219,
+    "candidate_cycles": 1130
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 6,
+    "parent_cycles": 1258,
+    "candidate_cycles": 1172
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 7,
+    "parent_cycles": 1223,
+    "candidate_cycles": 1131
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 8,
+    "parent_cycles": 1261,
+    "candidate_cycles": 1172
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 9,
+    "parent_cycles": 1219,
+    "candidate_cycles": 1130
+  },
+  {
+    "case": "P3-MINI-11",
+    "seed": 10,
+    "parent_cycles": 1261,
+    "candidate_cycles": 1172
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 1,
+    "parent_cycles": 1145,
+    "candidate_cycles": 1052
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 2,
+    "parent_cycles": 1143,
+    "candidate_cycles": 1058
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 3,
+    "parent_cycles": 1181,
+    "candidate_cycles": 1088
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 4,
+    "parent_cycles": 1142,
+    "candidate_cycles": 1053
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 5,
+    "parent_cycles": 1145,
+    "candidate_cycles": 1052
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 6,
+    "parent_cycles": 1143,
+    "candidate_cycles": 1054
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 7,
+    "parent_cycles": 1145,
+    "candidate_cycles": 1056
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 8,
+    "parent_cycles": 1142,
+    "candidate_cycles": 1053
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 9,
+    "parent_cycles": 1145,
+    "candidate_cycles": 1055
+  },
+  {
+    "case": "P3-MINI-12",
+    "seed": 10,
+    "parent_cycles": 1143,
+    "candidate_cycles": 1054
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 1,
+    "parent_cycles": 103774,
+    "candidate_cycles": 100769
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 2,
+    "parent_cycles": 103271,
+    "candidate_cycles": 100415
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 3,
+    "parent_cycles": 103770,
+    "candidate_cycles": 100870
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 4,
+    "parent_cycles": 104590,
+    "candidate_cycles": 100351
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 5,
+    "parent_cycles": 103813,
+    "candidate_cycles": 100924
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 6,
+    "parent_cycles": 103237,
+    "candidate_cycles": 100370
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 7,
+    "parent_cycles": 105098,
+    "candidate_cycles": 102177
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 8,
+    "parent_cycles": 103260,
+    "candidate_cycles": 100413
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 9,
+    "parent_cycles": 104939,
+    "candidate_cycles": 103298
+  },
+  {
+    "case": "P3-MINI-13",
+    "seed": 10,
+    "parent_cycles": 103334,
+    "candidate_cycles": 100402
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 1,
+    "parent_cycles": 116552,
+    "candidate_cycles": 113042
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 2,
+    "parent_cycles": 116496,
+    "candidate_cycles": 113057
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 3,
+    "parent_cycles": 116384,
+    "candidate_cycles": 112813
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 4,
+    "parent_cycles": 117882,
+    "candidate_cycles": 114380
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 5,
+    "parent_cycles": 116336,
+    "candidate_cycles": 112796
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 6,
+    "parent_cycles": 117833,
+    "candidate_cycles": 114308
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 7,
+    "parent_cycles": 116346,
+    "candidate_cycles": 112815
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 8,
+    "parent_cycles": 116776,
+    "candidate_cycles": 113243
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 9,
+    "parent_cycles": 116379,
+    "candidate_cycles": 112829
+  },
+  {
+    "case": "P3-MINI-14",
+    "seed": 10,
+    "parent_cycles": 116924,
+    "candidate_cycles": 113389
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 1,
+    "parent_cycles": 116394,
+    "candidate_cycles": 112941
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 2,
+    "parent_cycles": 116907,
+    "candidate_cycles": 113359
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 3,
+    "parent_cycles": 116342,
+    "candidate_cycles": 112825
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 4,
+    "parent_cycles": 116893,
+    "candidate_cycles": 113398
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 5,
+    "parent_cycles": 116444,
+    "candidate_cycles": 112973
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 6,
+    "parent_cycles": 118050,
+    "candidate_cycles": 114521
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 7,
+    "parent_cycles": 116434,
+    "candidate_cycles": 112993
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 8,
+    "parent_cycles": 117778,
+    "candidate_cycles": 114273
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 9,
+    "parent_cycles": 116518,
+    "candidate_cycles": 113018
+  },
+  {
+    "case": "P3-MINI-15",
+    "seed": 10,
+    "parent_cycles": 116464,
+    "candidate_cycles": 112920
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 1,
+    "parent_cycles": 116582,
+    "candidate_cycles": 113056
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 2,
+    "parent_cycles": 116267,
+    "candidate_cycles": 112762
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 3,
+    "parent_cycles": 120788,
+    "candidate_cycles": 117231
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 4,
+    "parent_cycles": 116319,
+    "candidate_cycles": 112773
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 5,
+    "parent_cycles": 116650,
+    "candidate_cycles": 113123
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 6,
+    "parent_cycles": 116271,
+    "candidate_cycles": 112752
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 7,
+    "parent_cycles": 116959,
+    "candidate_cycles": 113442
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 8,
+    "parent_cycles": 116307,
+    "candidate_cycles": 112820
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 9,
+    "parent_cycles": 116969,
+    "candidate_cycles": 113446
+  },
+  {
+    "case": "P3-MINI-16",
+    "seed": 10,
+    "parent_cycles": 120477,
+    "candidate_cycles": 114110
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 1,
+    "parent_cycles": 107335,
+    "candidate_cycles": 104442
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 2,
+    "parent_cycles": 106210,
+    "candidate_cycles": 103223
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 3,
+    "parent_cycles": 108198,
+    "candidate_cycles": 105465
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 4,
+    "parent_cycles": 106171,
+    "candidate_cycles": 103319
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 5,
+    "parent_cycles": 108563,
+    "candidate_cycles": 105521
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 6,
+    "parent_cycles": 106199,
+    "candidate_cycles": 103345
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 7,
+    "parent_cycles": 108060,
+    "candidate_cycles": 105071
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 8,
+    "parent_cycles": 106447,
+    "candidate_cycles": 103545
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 9,
+    "parent_cycles": 106686,
+    "candidate_cycles": 103880
+  },
+  {
+    "case": "P3-MINI-17",
+    "seed": 10,
+    "parent_cycles": 107866,
+    "candidate_cycles": 104938
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 1,
+    "parent_cycles": 106755,
+    "candidate_cycles": 103818
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 2,
+    "parent_cycles": 110397,
+    "candidate_cycles": 107514
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 3,
+    "parent_cycles": 106470,
+    "candidate_cycles": 103631
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 4,
+    "parent_cycles": 106572,
+    "candidate_cycles": 103653
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 5,
+    "parent_cycles": 106627,
+    "candidate_cycles": 103753
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 6,
+    "parent_cycles": 106678,
+    "candidate_cycles": 103798
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 7,
+    "parent_cycles": 106566,
+    "candidate_cycles": 103631
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 8,
+    "parent_cycles": 106915,
+    "candidate_cycles": 104022
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 9,
+    "parent_cycles": 109255,
+    "candidate_cycles": 103698
+  },
+  {
+    "case": "P3-MINI-18",
+    "seed": 10,
+    "parent_cycles": 107027,
+    "candidate_cycles": 104085
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 1,
+    "parent_cycles": 107097,
+    "candidate_cycles": 104201
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 2,
+    "parent_cycles": 108577,
+    "candidate_cycles": 105804
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 3,
+    "parent_cycles": 106882,
+    "candidate_cycles": 103936
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 4,
+    "parent_cycles": 108701,
+    "candidate_cycles": 105677
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 5,
+    "parent_cycles": 107008,
+    "candidate_cycles": 104060
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 6,
+    "parent_cycles": 106894,
+    "candidate_cycles": 104047
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 7,
+    "parent_cycles": 106986,
+    "candidate_cycles": 104115
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 8,
+    "parent_cycles": 106983,
+    "candidate_cycles": 104066
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 9,
+    "parent_cycles": 108501,
+    "candidate_cycles": 105581
+  },
+  {
+    "case": "P3-MINI-19",
+    "seed": 10,
+    "parent_cycles": 106964,
+    "candidate_cycles": 104081
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 1,
+    "parent_cycles": 108611,
+    "candidate_cycles": 105706
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 2,
+    "parent_cycles": 106718,
+    "candidate_cycles": 103943
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 3,
+    "parent_cycles": 107251,
+    "candidate_cycles": 104384
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 4,
+    "parent_cycles": 106990,
+    "candidate_cycles": 103894
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 5,
+    "parent_cycles": 107481,
+    "candidate_cycles": 104593
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 6,
+    "parent_cycles": 106709,
+    "candidate_cycles": 107933
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 7,
+    "parent_cycles": 107488,
+    "candidate_cycles": 104690
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 8,
+    "parent_cycles": 106803,
+    "candidate_cycles": 103932
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 9,
+    "parent_cycles": 107724,
+    "candidate_cycles": 104870
+  },
+  {
+    "case": "P3-MINI-20",
+    "seed": 10,
+    "parent_cycles": 106884,
+    "candidate_cycles": 103928
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 1,
+    "parent_cycles": 109023,
+    "candidate_cycles": 106280
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 2,
+    "parent_cycles": 106701,
+    "candidate_cycles": 103807
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 3,
+    "parent_cycles": 108648,
+    "candidate_cycles": 105526
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 4,
+    "parent_cycles": 106822,
+    "candidate_cycles": 104003
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 5,
+    "parent_cycles": 107342,
+    "candidate_cycles": 104334
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 6,
+    "parent_cycles": 106766,
+    "candidate_cycles": 103845
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 7,
+    "parent_cycles": 106984,
+    "candidate_cycles": 104142
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 8,
+    "parent_cycles": 112568,
+    "candidate_cycles": 109731
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 9,
+    "parent_cycles": 107192,
+    "candidate_cycles": 104319
+  },
+  {
+    "case": "P3-MINI-21",
+    "seed": 10,
+    "parent_cycles": 107185,
+    "candidate_cycles": 104200
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 1,
+    "parent_cycles": 107207,
+    "candidate_cycles": 104335
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 2,
+    "parent_cycles": 107237,
+    "candidate_cycles": 104318
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 3,
+    "parent_cycles": 106943,
+    "candidate_cycles": 104106
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 4,
+    "parent_cycles": 107303,
+    "candidate_cycles": 104433
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 5,
+    "parent_cycles": 111223,
+    "candidate_cycles": 106864
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 6,
+    "parent_cycles": 107289,
+    "candidate_cycles": 104358
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 7,
+    "parent_cycles": 106961,
+    "candidate_cycles": 103956
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 8,
+    "parent_cycles": 108772,
+    "candidate_cycles": 105897
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 9,
+    "parent_cycles": 107060,
+    "candidate_cycles": 104177
+  },
+  {
+    "case": "P3-MINI-22",
+    "seed": 10,
+    "parent_cycles": 108781,
+    "candidate_cycles": 105882
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 1,
+    "parent_cycles": 106698,
+    "candidate_cycles": 103833
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 2,
+    "parent_cycles": 107814,
+    "candidate_cycles": 104871
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 3,
+    "parent_cycles": 106560,
+    "candidate_cycles": 103650
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 4,
+    "parent_cycles": 106425,
+    "candidate_cycles": 103626
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 5,
+    "parent_cycles": 107972,
+    "candidate_cycles": 104974
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 6,
+    "parent_cycles": 106239,
+    "candidate_cycles": 103403
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 7,
+    "parent_cycles": 110638,
+    "candidate_cycles": 107660
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 8,
+    "parent_cycles": 106433,
+    "candidate_cycles": 103710
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 9,
+    "parent_cycles": 106953,
+    "candidate_cycles": 104075
+  },
+  {
+    "case": "P3-MINI-23",
+    "seed": 10,
+    "parent_cycles": 106483,
+    "candidate_cycles": 103551
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 1,
+    "parent_cycles": 107168,
+    "candidate_cycles": 104328
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 2,
+    "parent_cycles": 106329,
+    "candidate_cycles": 103424
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 3,
+    "parent_cycles": 106909,
+    "candidate_cycles": 104036
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 4,
+    "parent_cycles": 107592,
+    "candidate_cycles": 103376
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 5,
+    "parent_cycles": 107134,
+    "candidate_cycles": 104236
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 6,
+    "parent_cycles": 106150,
+    "candidate_cycles": 103263
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 7,
+    "parent_cycles": 108496,
+    "candidate_cycles": 105558
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 8,
+    "parent_cycles": 106363,
+    "candidate_cycles": 103495
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 9,
+    "parent_cycles": 108253,
+    "candidate_cycles": 105475
+  },
+  {
+    "case": "P3-MINI-24",
+    "seed": 10,
+    "parent_cycles": 106472,
+    "candidate_cycles": 103509
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 1,
+    "parent_cycles": 1538,
+    "candidate_cycles": 1538
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 2,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 3,
+    "parent_cycles": 1395,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 4,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1335
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 5,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1322
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 6,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1322
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 7,
+    "parent_cycles": 1395,
+    "candidate_cycles": 1323
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 8,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 9,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-25",
+    "seed": 10,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 1,
+    "parent_cycles": 1415,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 2,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1344
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 3,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1322
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 4,
+    "parent_cycles": 1403,
+    "candidate_cycles": 1322
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 5,
+    "parent_cycles": 1395,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 6,
+    "parent_cycles": 1391,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 7,
+    "parent_cycles": 1391,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 8,
+    "parent_cycles": 1391,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 9,
+    "parent_cycles": 1454,
+    "candidate_cycles": 1383
+  },
+  {
+    "case": "P3-MINI-26",
+    "seed": 10,
+    "parent_cycles": 1395,
+    "candidate_cycles": 1323
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 1,
+    "parent_cycles": 1384,
+    "candidate_cycles": 1312
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 2,
+    "parent_cycles": 1384,
+    "candidate_cycles": 1312
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 3,
+    "parent_cycles": 1384,
+    "candidate_cycles": 1315
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 4,
+    "parent_cycles": 1385,
+    "candidate_cycles": 1316
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 5,
+    "parent_cycles": 1384,
+    "candidate_cycles": 1315
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 6,
+    "parent_cycles": 1384,
+    "candidate_cycles": 1315
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 7,
+    "parent_cycles": 1384,
+    "candidate_cycles": 1316
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 8,
+    "parent_cycles": 1385,
+    "candidate_cycles": 1313
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 9,
+    "parent_cycles": 1384,
+    "candidate_cycles": 1315
+  },
+  {
+    "case": "P3-MINI-27",
+    "seed": 10,
+    "parent_cycles": 1381,
+    "candidate_cycles": 1315
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 1,
+    "parent_cycles": 1437,
+    "candidate_cycles": 1353
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 2,
+    "parent_cycles": 1422,
+    "candidate_cycles": 1354
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 3,
+    "parent_cycles": 1421,
+    "candidate_cycles": 1353
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 4,
+    "parent_cycles": 1421,
+    "candidate_cycles": 1350
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 5,
+    "parent_cycles": 1421,
+    "candidate_cycles": 1350
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 6,
+    "parent_cycles": 1421,
+    "candidate_cycles": 1350
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 7,
+    "parent_cycles": 1422,
+    "candidate_cycles": 1351
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 8,
+    "parent_cycles": 1446,
+    "candidate_cycles": 1375
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 9,
+    "parent_cycles": 1421,
+    "candidate_cycles": 1353
+  },
+  {
+    "case": "P3-MINI-28",
+    "seed": 10,
+    "parent_cycles": 1431,
+    "candidate_cycles": 1353
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 1,
+    "parent_cycles": 1401,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 2,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 3,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 4,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1322
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 5,
+    "parent_cycles": 1395,
+    "candidate_cycles": 1323
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 6,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1322
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 7,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1345
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 8,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 9,
+    "parent_cycles": 1407,
+    "candidate_cycles": 1326
+  },
+  {
+    "case": "P3-MINI-29",
+    "seed": 10,
+    "parent_cycles": 1394,
+    "candidate_cycles": 1325
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 1,
+    "parent_cycles": 2118,
+    "candidate_cycles": 2047
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 2,
+    "parent_cycles": 2158,
+    "candidate_cycles": 2067
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 3,
+    "parent_cycles": 2116,
+    "candidate_cycles": 2028
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 4,
+    "parent_cycles": 2157,
+    "candidate_cycles": 2078
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 5,
+    "parent_cycles": 2160,
+    "candidate_cycles": 2069
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 6,
+    "parent_cycles": 2167,
+    "candidate_cycles": 2066
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 7,
+    "parent_cycles": 2118,
+    "candidate_cycles": 2024
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 8,
+    "parent_cycles": 2166,
+    "candidate_cycles": 2075
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 9,
+    "parent_cycles": 2118,
+    "candidate_cycles": 2027
+  },
+  {
+    "case": "P3-MINI-30",
+    "seed": 10,
+    "parent_cycles": 2157,
+    "candidate_cycles": 2066
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 1,
+    "parent_cycles": 106931,
+    "candidate_cycles": 104036
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 2,
+    "parent_cycles": 106369,
+    "candidate_cycles": 103373
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 3,
+    "parent_cycles": 106882,
+    "candidate_cycles": 103986
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 4,
+    "parent_cycles": 106359,
+    "candidate_cycles": 103403
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 5,
+    "parent_cycles": 107040,
+    "candidate_cycles": 104117
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 6,
+    "parent_cycles": 106232,
+    "candidate_cycles": 103353
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 7,
+    "parent_cycles": 106957,
+    "candidate_cycles": 104138
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 8,
+    "parent_cycles": 106332,
+    "candidate_cycles": 103410
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 9,
+    "parent_cycles": 107867,
+    "candidate_cycles": 105002
+  },
+  {
+    "case": "P3-MINI-31",
+    "seed": 10,
+    "parent_cycles": 106357,
+    "candidate_cycles": 103435
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 1,
+    "parent_cycles": 108471,
+    "candidate_cycles": 105636
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 2,
+    "parent_cycles": 106233,
+    "candidate_cycles": 103328
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 3,
+    "parent_cycles": 108029,
+    "candidate_cycles": 105093
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 4,
+    "parent_cycles": 106371,
+    "candidate_cycles": 103551
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 5,
+    "parent_cycles": 106693,
+    "candidate_cycles": 103703
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 6,
+    "parent_cycles": 107607,
+    "candidate_cycles": 104676
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 7,
+    "parent_cycles": 106534,
+    "candidate_cycles": 103574
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 8,
+    "parent_cycles": 110440,
+    "candidate_cycles": 107560
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 9,
+    "parent_cycles": 106746,
+    "candidate_cycles": 103719
+  },
+  {
+    "case": "P3-MINI-32",
+    "seed": 10,
+    "parent_cycles": 106622,
+    "candidate_cycles": 103674
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 1,
+    "parent_cycles": 106688,
+    "candidate_cycles": 103899
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 2,
+    "parent_cycles": 106724,
+    "candidate_cycles": 103843
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 3,
+    "parent_cycles": 106500,
+    "candidate_cycles": 103599
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 4,
+    "parent_cycles": 106766,
+    "candidate_cycles": 103884
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 5,
+    "parent_cycles": 106524,
+    "candidate_cycles": 103630
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 6,
+    "parent_cycles": 106806,
+    "candidate_cycles": 103912
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 7,
+    "parent_cycles": 106408,
+    "candidate_cycles": 103435
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 8,
+    "parent_cycles": 108270,
+    "candidate_cycles": 105360
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 9,
+    "parent_cycles": 106561,
+    "candidate_cycles": 103664
+  },
+  {
+    "case": "P3-MINI-33",
+    "seed": 10,
+    "parent_cycles": 108299,
+    "candidate_cycles": 105297
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 1,
+    "parent_cycles": 127197,
+    "candidate_cycles": 118979
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 2,
+    "parent_cycles": 121271,
+    "candidate_cycles": 115296
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 3,
+    "parent_cycles": 130947,
+    "candidate_cycles": 122662
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 4,
+    "parent_cycles": 125790,
+    "candidate_cycles": 119912
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 5,
+    "parent_cycles": 125544,
+    "candidate_cycles": 119215
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 6,
+    "parent_cycles": 117212,
+    "candidate_cycles": 111612
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 7,
+    "parent_cycles": 127080,
+    "candidate_cycles": 118482
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 8,
+    "parent_cycles": 126669,
+    "candidate_cycles": 118847
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 9,
+    "parent_cycles": 123908,
+    "candidate_cycles": 116386
+  },
+  {
+    "case": "P2-MINI-34",
+    "seed": 10,
+    "parent_cycles": 119844,
+    "candidate_cycles": 113324
+  }
+]

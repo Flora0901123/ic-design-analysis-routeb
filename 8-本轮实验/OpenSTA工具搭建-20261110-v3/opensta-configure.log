@@ -1,0 +1,20 @@
+-- STA version: 3.1.0
+-- STA git sha: f8e13cbf12d02a07a2d1ec4a64f3e6985b747eab
+-- System name: Linux
+-- Compiler: GNU 13.3.0
+-- Build type: Release
+-- Build CXX_FLAGS: 
+-- Install prefix: /usr/local
+-- IPO/LTO: enabled for Release builds
+-- TCL library: /usr/lib/x86_64-linux-gnu/libtcl.so
+-- TCL header: /usr/include/tcl/tcl.h
+-- std::format: available
+-- CUDD library: /root/.cache/routeb-opensta-20261110/cudd-install/lib/libcudd.a
+-- CUDD header: /root/.cache/routeb-opensta-20261110/cudd-install/include/cudd.h
+-- SWIG version: 4.2.0
+-- STA library: /root/.cache/routeb-opensta-20261110/build/libOpenSTA.a
+-- STA executable: /root/.cache/routeb-opensta-20261110/build/sta
+-- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+-- Configuring done (6.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/.cache/routeb-opensta-20261110/build

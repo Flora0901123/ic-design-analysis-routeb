@@ -1,0 +1,17 @@
+{
+  "status": "ARCHIVE_SIZE_AND_CRC_PASS",
+  "files": 17918,
+  "bytes": 3106443376,
+  "expanded_limit": 3221225472,
+  "omitted_rebuildable_cache_files": 7223,
+  "omitted_rebuildable_cache_bytes": 15175037868,
+  "deduplicated_physical_view_files": 4,
+  "deduplicated_physical_view_bytes": 166814389,
+  "workspace_files_deleted": 0,
+  "scope": "actual target binaries, reference, sources, inputs, raw evidence and failure records retained; identified caches omitted; historical byte-identical GPU views have an explicit canonical path and SHA",
+  "build_requested": true,
+  "archive": "RouteB-本机验收快照-20261114.zip",
+  "archive_bytes": 981695569,
+  "archive_expanded_bytes": 3111206830,
+  "verified_payload_sha256_files": 17918
+}

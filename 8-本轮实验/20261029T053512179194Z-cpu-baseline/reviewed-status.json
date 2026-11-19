@@ -1,0 +1,10 @@
+{
+  "strict_transcript": "PASS",
+  "records": 1000,
+  "numeric_matches": 1000,
+  "numeric_failures": 0,
+  "formal_baseline": false,
+  "protocol_physical_resource": "PENDING",
+  "note": "Official parser only requires selected-token output for P1; initial local checker incorrectly checked P2 too. Initial status retained for audit.",
+  "official_parser_sha256": "5fab65f7e8c6f67ddcff212ddbe87b8b2ee26ab4569ac34aa3d406536dfdfcb6"
+}

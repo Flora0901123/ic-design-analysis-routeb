@@ -1,0 +1,115 @@
+{
+  "scope": "historical artifacts, not freshly executed; source identity requires review",
+  "files": [
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/1e7c43af65dca21e2ac429f72d1137e5a50a016d7b4bbc6700faa250be350854/inputs.json",
+      "archive": "cpu/1e7c43af65dca21e2ac429f72d1137e5a50a016d7b4bbc6700faa250be350854/inputs.json",
+      "sha256": "e625f73ca2ca103fe13bb0edf7331bba5522ccd60a06e9e72420322b9323f2b8"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/1e7c43af65dca21e2ac429f72d1137e5a50a016d7b4bbc6700faa250be350854/completion.json",
+      "archive": "cpu/1e7c43af65dca21e2ac429f72d1137e5a50a016d7b4bbc6700faa250be350854/completion.json",
+      "sha256": "ebfcb5583592a7f2855b319d3f4afda97605c0bae77cd558c3895c8c8a11a3b1"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/b35cbd612a5c97a9ffb273f9319f6a6d0ca8b34e01d280da903995464b255723/console.log",
+      "archive": "cpu/b35cbd612a5c97a9ffb273f9319f6a6d0ca8b34e01d280da903995464b255723/console.log",
+      "sha256": "914412de8daf37e6ea41f13221c0fec532bef045dafefeb9395709bef9265ebc"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/b35cbd612a5c97a9ffb273f9319f6a6d0ca8b34e01d280da903995464b255723/inputs.json",
+      "archive": "cpu/b35cbd612a5c97a9ffb273f9319f6a6d0ca8b34e01d280da903995464b255723/inputs.json",
+      "sha256": "fb5fb34fb122e49047b1214cc32fcdfba7ddba08db0876eb82aaefd28b77e73b"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/b35cbd612a5c97a9ffb273f9319f6a6d0ca8b34e01d280da903995464b255723/completion.json",
+      "archive": "cpu/b35cbd612a5c97a9ffb273f9319f6a6d0ca8b34e01d280da903995464b255723/completion.json",
+      "sha256": "bd958a1e2df3566535b874e5b862450fd16751f3e600d9cec0a941da6ce2cc14"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/97295859115596f7803f9cfa731dc9b5f75b0f9729212836ad8238a3de250dad/console.log",
+      "archive": "cpu/97295859115596f7803f9cfa731dc9b5f75b0f9729212836ad8238a3de250dad/console.log",
+      "sha256": "66d50bb65d194a1d739a216fcba9cfc616edac3b6163e3efd8d4c753d5ec1563"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/97295859115596f7803f9cfa731dc9b5f75b0f9729212836ad8238a3de250dad/inputs.json",
+      "archive": "cpu/97295859115596f7803f9cfa731dc9b5f75b0f9729212836ad8238a3de250dad/inputs.json",
+      "sha256": "8fef9c09799021d3d6c5881fea4ad11aeb7c8321a56b1abf7105d7f64970bb3d"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/97295859115596f7803f9cfa731dc9b5f75b0f9729212836ad8238a3de250dad/completion.json",
+      "archive": "cpu/97295859115596f7803f9cfa731dc9b5f75b0f9729212836ad8238a3de250dad/completion.json",
+      "sha256": "65b812828de490c02b37ca9004c972049044c155c9ada0f2e861608c4e38ec7f"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/6b0dd250aecd82f8f4c11bbb9a22ef6c9eea493342ef909ca4d3120cff8a4306/inputs.json",
+      "archive": "cpu/6b0dd250aecd82f8f4c11bbb9a22ef6c9eea493342ef909ca4d3120cff8a4306/inputs.json",
+      "sha256": "6d9e91bbeecfaba7bf15c7495eb41b42328bcea025b86aaa0933dac6407d9a5d"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/6b0dd250aecd82f8f4c11bbb9a22ef6c9eea493342ef909ca4d3120cff8a4306/completion.json",
+      "archive": "cpu/6b0dd250aecd82f8f4c11bbb9a22ef6c9eea493342ef909ca4d3120cff8a4306/completion.json",
+      "sha256": "2e97ac58efc37b52d376ff642c66f0ab910e23abe41a6330866fc9973efdd4e0"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/bf1b3fc56056bb3a1b3e999cb23665b5c350ffb52acfd658d61adffd35c98c1b/console.log",
+      "archive": "cpu/bf1b3fc56056bb3a1b3e999cb23665b5c350ffb52acfd658d61adffd35c98c1b/console.log",
+      "sha256": "a7749b3ba833f8396f59f495dd7e07652edcd18efc0e272d83a1fa4a26572802"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/bf1b3fc56056bb3a1b3e999cb23665b5c350ffb52acfd658d61adffd35c98c1b/inputs.json",
+      "archive": "cpu/bf1b3fc56056bb3a1b3e999cb23665b5c350ffb52acfd658d61adffd35c98c1b/inputs.json",
+      "sha256": "51aea2625e12b3db6cc0389a13801154c80c8ab46a0a1626776f8297f9674d76"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/bf1b3fc56056bb3a1b3e999cb23665b5c350ffb52acfd658d61adffd35c98c1b/completion.json",
+      "archive": "cpu/bf1b3fc56056bb3a1b3e999cb23665b5c350ffb52acfd658d61adffd35c98c1b/completion.json",
+      "sha256": "5e1bf09f8fd8356622256266acdbdf6137f5ad598ddfe0bc7feef9365d0465ba"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/e9c4ccde1acfaa7b7bedc01c99b52c41e312dedcdbdee0249dbee959bde8a79b/console.log",
+      "archive": "cpu/e9c4ccde1acfaa7b7bedc01c99b52c41e312dedcdbdee0249dbee959bde8a79b/console.log",
+      "sha256": "8f8704ea88567401ca1b494dcb47ba5a5409b54f4de91fbcf3b5542a6f3de5b2"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/e9c4ccde1acfaa7b7bedc01c99b52c41e312dedcdbdee0249dbee959bde8a79b/inputs.json",
+      "archive": "cpu/e9c4ccde1acfaa7b7bedc01c99b52c41e312dedcdbdee0249dbee959bde8a79b/inputs.json",
+      "sha256": "6e17f6c25d29cf6f5cdc3f288a5bb21f9992e3c5269d6ddff791b824d78cb07e"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/e9c4ccde1acfaa7b7bedc01c99b52c41e312dedcdbdee0249dbee959bde8a79b/completion.json",
+      "archive": "cpu/e9c4ccde1acfaa7b7bedc01c99b52c41e312dedcdbdee0249dbee959bde8a79b/completion.json",
+      "sha256": "73507a9fae6f0c4688ba2ae4c728318565a38b9b508d1b9c792fbd93ec3881ba"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/native-image/77cbe9783ffd4b2bfca34c424a7f9e3e13d0b0d64a5ef7bff27839a08c5d2b7e/host-golden.json",
+      "archive": "native-image/77cbe9783ffd4b2bfca34c424a7f9e3e13d0b0d64a5ef7bff27839a08c5d2b7e/host-golden.json",
+      "sha256": "9eb912227216ea64af1e2d889e38947d96ee148941f29998bc5e2e20137edde9"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/native-image/77cbe9783ffd4b2bfca34c424a7f9e3e13d0b0d64a5ef7bff27839a08c5d2b7e/image.bin",
+      "archive": "native-image/77cbe9783ffd4b2bfca34c424a7f9e3e13d0b0d64a5ef7bff27839a08c5d2b7e/image.bin",
+      "sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/native-image/77cbe9783ffd4b2bfca34c424a7f9e3e13d0b0d64a5ef7bff27839a08c5d2b7e/student_mini_native_image.h",
+      "archive": "native-image/77cbe9783ffd4b2bfca34c424a7f9e3e13d0b0d64a5ef7bff27839a08c5d2b7e/student_mini_native_image.h",
+      "sha256": "f9c001e725abab7ad9610fa801962a1af6493ba070cde11f7ed88e131227de7a"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/native-image/77cbe9783ffd4b2bfca34c424a7f9e3e13d0b0d64a5ef7bff27839a08c5d2b7e/manifest.json",
+      "archive": "native-image/77cbe9783ffd4b2bfca34c424a7f9e3e13d0b0d64a5ef7bff27839a08c5d2b7e/manifest.json",
+      "sha256": "67e0df1a9ed9e6fc49139445e9cd5638cb7b08c96459cd52392ae5812cf82b66"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/native-nano/876398eac822028468e275044f350988a847429d5c3a2f3aed2be1e74ca47572/ptq.npz",
+      "archive": "native-nano/876398eac822028468e275044f350988a847429d5c3a2f3aed2be1e74ca47572/ptq.npz",
+      "sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74"
+    },
+    {
+      "source": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/build/student-mini/native-nano/876398eac822028468e275044f350988a847429d5c3a2f3aed2be1e74ca47572/inputs.json",
+      "archive": "native-nano/876398eac822028468e275044f350988a847429d5c3a2f3aed2be1e74ca47572/inputs.json",
+      "sha256": "1907fbdd67992819acab34f0c0822556a06654fc567e341610b8c80be4ff9be1"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "status": "QUADRANT_BOUNDARY_MACROS_REQUIRE_RELOCATION",
+  "physical_signoff": false,
+  "sha256": "6297cb1c4f61e35d211b367fb5a86d4f12bd0509fcbb485f5610aa01b43318b0",
+  "dbu_per_micron": 2000,
+  "fixed_center_split_um": 4000,
+  "macros_by_center_quadrant": [
+    85,
+    79,
+    0,
+    0
+  ],
+  "crossing_count": 7,
+  "crossings": [
+    {
+      "instance": "core.g_clusters\\[0\\].cluster.g_sockets\\[0\\].socket.g_cores\\[0\\].core.mem_unit.local_mem.g_data_store\\[2\\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\\[0\\].u_raw.mem",
+      "master": "sky130_sram_1kbyte_1rw1r_8x1024_8",
+      "x_dbu": "7895280",
+      "y_dbu": "133520",
+      "xmax_dbu": "8805880",
+      "ymax_dbu": "1026440",
+      "crossed_boundaries": [
+        "x"
+      ],
+      "center_quadrant": 1
+    },
+    {
+      "instance": "core.g_clusters\\[0\\].cluster.g_sockets\\[0\\].socket.icache.g_cache_wrap\\[0\\].cache_wrap.g_cache.cache.g_banks\\[0\\].bank.cache_data.g_data_slice\\[7\\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\\[0\\].u_raw.mem",
+      "master": "sky130_sram_1kbyte_1rw1r_32x256_8",
+      "x_dbu": "7267400",
+      "y_dbu": "1086440",
+      "xmax_dbu": "8226960",
+      "ymax_dbu": "1881440",
+      "crossed_boundaries": [
+        "x"
+      ],
+      "center_quadrant": 0
+    },
+    {
+      "instance": "core.g_clusters\\[0\\].cluster.g_sockets\\[0\\].socket.dcache.g_cache_wrap\\[0\\].cache_wrap.g_cache.cache.g_banks\\[0\\].bank.cache_data.g_data_slice\\[1\\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\\[3\\].u_raw",
+      "master": "routeb_new_1w1r_8x128",
+      "x_dbu": "7708240",
+      "y_dbu": "1941440",
+      "xmax_dbu": "8244440",
+      "ymax_dbu": "2723560",
+      "crossed_boundaries": [
+        "x"
+      ],
+      "center_quadrant": 0
+    },
+    {
+      "instance": "core.g_clusters\\[0\\].cluster.g_sockets\\[0\\].socket.dcache.g_cache_wrap\\[0\\].cache_wrap.g_cache.cache.g_banks\\[0\\].bank.cache_data.g_data_slice\\[4\\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\\[5\\].u_raw",
+      "master": "routeb_new_1w1r_8x128",
+      "x_dbu": "7881080",
+      "y_dbu": "2796440",
+      "xmax_dbu": "8417280",
+      "ymax_dbu": "3578560",
+      "crossed_boundaries": [
+        "x"
+      ],
+      "center_quadrant": 1
+    },
+    {
+      "instance": "core.g_clusters\\[0\\].cluster.g_sockets\\[0\\].socket.dcache.g_cache_wrap\\[0\\].cache_wrap.g_cache.cache.g_banks\\[0\\].bank.cache_data.g_data_slice\\[7\\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\\[7\\].u_raw",
+      "master": "routeb_new_1w1r_8x128",
+      "x_dbu": "7881080",
+      "y_dbu": "3638560",
+      "xmax_dbu": "8417280",
+      "ymax_dbu": "4420680",
+      "crossed_boundaries": [
+        "x"
+      ],
+      "center_quadrant": 1
+    },
+    {
+      "instance": "core.g_clusters\\[0\\].cluster.g_sockets\\[0\\].socket.dcache.g_cache_wrap\\[0\\].cache_wrap.g_cache.cache.g_banks\\[1\\].bank.cache_data.g_data_slice\\[3\\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\\[1\\].u_raw",
+      "master": "routeb_new_1w1r_8x128",
+      "x_dbu": "7881080",
+      "y_dbu": "4480680",
+      "xmax_dbu": "8417280",
+      "ymax_dbu": "5262800",
+      "crossed_boundaries": [
+        "x"
+      ],
+      "center_quadrant": 1
+    },
+    {
+      "instance": "core.g_clusters\\[0\\].cluster.g_sockets\\[0\\].socket.dcache.g_cache_wrap\\[0\\].cache_wrap.g_cache.cache.g_banks\\[1\\].bank.cache_data.g_data_slice\\[6\\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\\[3\\].u_raw",
+      "master": "routeb_new_1w1r_8x128",
+      "x_dbu": "7881080",
+      "y_dbu": "5322800",
+      "xmax_dbu": "8417280",
+      "ymax_dbu": "6104920",
+      "crossed_boundaries": [
+        "x"
+      ],
+      "center_quadrant": 1
+    }
+  ]
+}

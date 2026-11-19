@@ -1,0 +1,299 @@
+{
+  "status": "ADAPTER_PROTOCOL_STAGE_PASS",
+  "depth": 32,
+  "ports": 2,
+  "data_width": 512,
+  "address_width": 26,
+  "tag_width": 10,
+  "formal_baseline": false,
+  "partition_method": "Disjoint original command/memory assertion blocks, all reset and producer-stability assumptions retained; shared reset remains arbitrary with identical initial-reset assumption in each partition. Both physical port indices checked independently.",
+  "scope": "Original generic command and memory adapters only; not Vortex core, actual fault adapters, DMA replay or physical signoff",
+  "bindings": {
+    "shared/rtl/vortex_command_adapter.sv": "b6f5e100a52fd1c2de34b33e7454e24c0cfb2c5cd0722b9d57f87cd239015bb5",
+    "shared/rtl/vortex_memory_adapter.sv": "a9194cff7a6ae984b834c21a8bb7fa75042d4c78458e14431da9914ff5003514",
+    "shared/formal/student_mini_gpu_adapters_harness.sv": "094e8a487129ab872e205b886d9905429aecbbc82d716f21d77ecb434c3f2de2"
+  },
+  "tool_versions": {
+    "yosys": "Yosys 0.33 (git sha1 2584903a060)",
+    "z3": "Z3 version 4.8.12 - 64 bit"
+  },
+  "records": [
+    {
+      "name": "baseline-command",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.42524884400006613,
+      "log_sha256": "ddf09657672d490c8ba0ab7e5566ec773db02b0f80f5eb001c08d245c8e09989"
+    },
+    {
+      "name": "baseline-command",
+      "stage": "bmc",
+      "exit_code": 0,
+      "seconds": 9.66548914100008,
+      "log_sha256": "7d7149e2d485ba8ce51bad09e91655fe27cfafef8cc2db8821b50cd983d8a49a"
+    },
+    {
+      "name": "baseline-command",
+      "stage": "cover",
+      "exit_code": 0,
+      "seconds": 0.6425646379999534,
+      "log_sha256": "383e3b515e0fa269508be853855736acc71d1291114d9349e53ba86a22449fe0"
+    },
+    {
+      "name": "baseline-memory0",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.8887271889999511,
+      "log_sha256": "0491a2f0b6f24977bf148ba07bd99bca162edfd4e355fde9559e248846d7c721"
+    },
+    {
+      "name": "baseline-memory0",
+      "stage": "bmc",
+      "exit_code": 0,
+      "seconds": 2.7479744870000786,
+      "log_sha256": "72face344010f85bfe867b1053a4483e9597741626cbcf9c290c78f55bbe36d4"
+    },
+    {
+      "name": "baseline-memory0",
+      "stage": "induction",
+      "exit_code": 0,
+      "seconds": 7.791105640000069,
+      "log_sha256": "9500f540b5759eeb47f61fc5fe189692e5550a114930b8b5eb57828e0f1ff5a5"
+    },
+    {
+      "name": "baseline-memory0",
+      "stage": "cover",
+      "exit_code": 0,
+      "seconds": 2.382345892999979,
+      "log_sha256": "b280f0f50356b39f87f3032208e54dc7f723f9d17704b31de05de2777e5dd5a1"
+    },
+    {
+      "name": "baseline-memory1",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.7894550769999569,
+      "log_sha256": "a0be93ae21225353adb99aeebce4e02690575a997b7eff541c9e00fbd8bb3ec2"
+    },
+    {
+      "name": "baseline-memory1",
+      "stage": "bmc",
+      "exit_code": 0,
+      "seconds": 3.1071172780000325,
+      "log_sha256": "d021b931dc2a6829098a22873bcfc8c565109bdc5e1066c643868c9bceca3fe2"
+    },
+    {
+      "name": "baseline-memory1",
+      "stage": "induction",
+      "exit_code": 0,
+      "seconds": 8.245757893000018,
+      "log_sha256": "cf7d3babb5ecc6e21817d9876c59fe307e6652e4e8ce7cf7467b15bdeb5af5c9"
+    },
+    {
+      "name": "baseline-memory1",
+      "stage": "cover",
+      "exit_code": 0,
+      "seconds": 2.4883764219999875,
+      "log_sha256": "b280f0f50356b39f87f3032208e54dc7f723f9d17704b31de05de2777e5dd5a1"
+    },
+    {
+      "name": "request-address-memory0",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.8044889389999526,
+      "log_sha256": "c7a4459f549dd422dafc7cf5c4f08c76ae2e98c9e51fde1e0969d0151677b2ee"
+    },
+    {
+      "name": "request-address-memory0",
+      "stage": "bmc",
+      "exit_code": 1,
+      "seconds": 0.25553158100001383,
+      "log_sha256": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279"
+    },
+    {
+      "name": "request-data-memory0",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.746311768000055,
+      "log_sha256": "fbadc0b0174ce021ca9951fd0780d252d4386cc1cd1c53948a15279d3ff75301"
+    },
+    {
+      "name": "request-data-memory0",
+      "stage": "bmc",
+      "exit_code": 1,
+      "seconds": 0.2628693749999229,
+      "log_sha256": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279"
+    },
+    {
+      "name": "request-mask-memory0",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.8707085720000123,
+      "log_sha256": "12c09eeb95eb58e13150b29a5055f9c97bf09a41ed263ac56e390d5cbb84f153"
+    },
+    {
+      "name": "request-mask-memory0",
+      "stage": "bmc",
+      "exit_code": 1,
+      "seconds": 0.257466069999964,
+      "log_sha256": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279"
+    },
+    {
+      "name": "response-tag-memory0",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.8538963869999634,
+      "log_sha256": "eede85cb02cc3f69e240967d477f4b0e976ae9a977b697f8ae3dfc37b94c370c"
+    },
+    {
+      "name": "response-tag-memory0",
+      "stage": "bmc",
+      "exit_code": 1,
+      "seconds": 0.41747596900006556,
+      "log_sha256": "076ef7d2d28190329e970f9f33bc344488ce92e06c7eceb0099d968998e390cb"
+    },
+    {
+      "name": "busy-start-command",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.4344256539999378,
+      "log_sha256": "1d6274ad4bdf142948dda054b45960c9a54211b910de867fe61d13b1298f1cc8"
+    },
+    {
+      "name": "busy-start-command",
+      "stage": "bmc",
+      "exit_code": 1,
+      "seconds": 0.637439932999996,
+      "log_sha256": "fac9717d41c0aa41ff48c0800680890f5b6c77226fc90b394e2fbdde5d2e36cf"
+    },
+    {
+      "name": "missing-error-command",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.43686645699995097,
+      "log_sha256": "6bcf4233493edbf8a1a97fe59bb9d73e0f42f379b53ce44e3311663776407067"
+    },
+    {
+      "name": "missing-error-command",
+      "stage": "bmc",
+      "exit_code": 1,
+      "seconds": 0.6490689449999536,
+      "log_sha256": "d817b470d40e8cfbb4eca78ced94aec95c12e28a9a5328efff4a45e0c12fad82"
+    },
+    {
+      "name": "unstable-response-command",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.3663222010000027,
+      "log_sha256": "cf2a0a2ba146fc6092d6481ce6e19f87da109bb6c0194a18975209d57be6fba3"
+    },
+    {
+      "name": "unstable-response-command",
+      "stage": "bmc",
+      "exit_code": 1,
+      "seconds": 0.6875835250000364,
+      "log_sha256": "883ba2ea11ee5783842e5f32b0ef4185ab80c264154a021530141239327c0602"
+    },
+    {
+      "name": "dcr-address-command",
+      "stage": "prepare",
+      "exit_code": 0,
+      "seconds": 0.4296878420000212,
+      "log_sha256": "b7e988d48e8ca216c700de7daaa93481a54d78a491e2eee6004173ed626edc60"
+    },
+    {
+      "name": "dcr-address-command",
+      "stage": "bmc",
+      "exit_code": 1,
+      "seconds": 0.6593619480000825,
+      "log_sha256": "397046f54367a09e3e0c969120fab0f29d610d8eef58b695126546996d451dd1"
+    }
+  ],
+  "elapsed_seconds": 54.89087953599994,
+  "covers_reached": 12,
+  "baseline_32_step_safety_pass": true,
+  "proof_method": "Command: explicit 32-step BMC. Each full-width memory port: initial four-step BMC plus successful temporal induction (unbounded), entails all 32 steps. All original covers reachable within 32 steps.",
+  "mutations_killed": 8,
+  "physical_signoff": false,
+  "artifacts": {
+    "baseline-command/bmc.log": "7d7149e2d485ba8ce51bad09e91655fe27cfafef8cc2db8821b50cd983d8a49a",
+    "baseline-command/cover.log": "383e3b515e0fa269508be853855736acc71d1291114d9349e53ba86a22449fe0",
+    "baseline-command/cover0.vcd": "d8d343e501fa7dea328064f2777c21b7032a5d857aea1b672eb0a90a2be57230",
+    "baseline-command/cover1.vcd": "d3a674971d565120c7a94b302131b079c77770ca0a83566979771e1285bf7e5b",
+    "baseline-command/cover2.vcd": "75119dd0a4665b4f9768217eaf012702d9ad24b388881122ee44427f3355144c",
+    "baseline-command/cover3.vcd": "588cd1affd29f12efd06ebb2d010ff1d90978d830487e604432438011885c247",
+    "baseline-command/prepare.log": "ddf09657672d490c8ba0ab7e5566ec773db02b0f80f5eb001c08d245c8e09989",
+    "baseline-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+    "baseline-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+    "baseline-command/vortex_command_adapter.sv": "b6f5e100a52fd1c2de34b33e7454e24c0cfb2c5cd0722b9d57f87cd239015bb5",
+    "baseline-memory0/bmc.log": "72face344010f85bfe867b1053a4483e9597741626cbcf9c290c78f55bbe36d4",
+    "baseline-memory0/cover.log": "b280f0f50356b39f87f3032208e54dc7f723f9d17704b31de05de2777e5dd5a1",
+    "baseline-memory0/cover0.vcd": "6bb71388fdca43cb1b687be25d61cfd1221332a167f381a73959b7b72844c0d8",
+    "baseline-memory0/cover1.vcd": "e27fa7f9f39896b22678a71a6bb10954d89f1e8b467100a7d7a011dec5a9d08a",
+    "baseline-memory0/cover2.vcd": "9d52e20b84aba1c494b0ab4a7c7cdfbce5092a8c00cab86e09d5405cc3cb8245",
+    "baseline-memory0/cover3.vcd": "d662333d8113e7e03b07fdf1a3ce3a2a0730df976c71e672a90630a7a007a3bb",
+    "baseline-memory0/induction.log": "9500f540b5759eeb47f61fc5fe189692e5550a114930b8b5eb57828e0f1ff5a5",
+    "baseline-memory0/prepare.log": "0491a2f0b6f24977bf148ba07bd99bca162edfd4e355fde9559e248846d7c721",
+    "baseline-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+    "baseline-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+    "baseline-memory0/vortex_memory_adapter.sv": "a9194cff7a6ae984b834c21a8bb7fa75042d4c78458e14431da9914ff5003514",
+    "baseline-memory1/bmc.log": "d021b931dc2a6829098a22873bcfc8c565109bdc5e1066c643868c9bceca3fe2",
+    "baseline-memory1/cover.log": "b280f0f50356b39f87f3032208e54dc7f723f9d17704b31de05de2777e5dd5a1",
+    "baseline-memory1/cover0.vcd": "4cf98be659a391908d3908d77a26260b98d93e2ae0ccd8cb162132f3cb4ace86",
+    "baseline-memory1/cover1.vcd": "6f7191080d8871afe8b57aa9fde76766cd241c24e7da4d0f920406ab6aad787d",
+    "baseline-memory1/cover2.vcd": "510432ee651d8102c7d354b43e5d807c38ddbee9073977bac52af4774674a658",
+    "baseline-memory1/cover3.vcd": "95d7586e8389169232545857eb01cb4f8e3ca194f5ead99917443b6ca81f17d8",
+    "baseline-memory1/induction.log": "cf7d3babb5ecc6e21817d9876c59fe307e6652e4e8ce7cf7467b15bdeb5af5c9",
+    "baseline-memory1/prepare.log": "a0be93ae21225353adb99aeebce4e02690575a997b7eff541c9e00fbd8bb3ec2",
+    "baseline-memory1/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+    "baseline-memory1/student_mini_gpu_adapters_harness.sv": "b99e02f53b7214bdb132305b33444364e6788be59ff1272fb7af7f6e12f6f7a3",
+    "baseline-memory1/vortex_memory_adapter.sv": "a9194cff7a6ae984b834c21a8bb7fa75042d4c78458e14431da9914ff5003514",
+    "busy-start-command/bmc.log": "fac9717d41c0aa41ff48c0800680890f5b6c77226fc90b394e2fbdde5d2e36cf",
+    "busy-start-command/counterexample.vcd": "ac741a2da6b9a860f3cab7f0c61a816b09aa70fb14cbbf2fdd732124402023c9",
+    "busy-start-command/prepare.log": "1d6274ad4bdf142948dda054b45960c9a54211b910de867fe61d13b1298f1cc8",
+    "busy-start-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+    "busy-start-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+    "busy-start-command/vortex_command_adapter.sv": "59a625f86a613bb8aa17d2e2f1f1649fade846cd64eb1534ad00db93c04b033d",
+    "dcr-address-command/bmc.log": "397046f54367a09e3e0c969120fab0f29d610d8eef58b695126546996d451dd1",
+    "dcr-address-command/counterexample.vcd": "982a82fc93ca33af7172d4be9b6d22aeb26c8b0f8c8005e088c21a4d04b0fb7e",
+    "dcr-address-command/prepare.log": "b7e988d48e8ca216c700de7daaa93481a54d78a491e2eee6004173ed626edc60",
+    "dcr-address-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+    "dcr-address-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+    "dcr-address-command/vortex_command_adapter.sv": "24719dec2fa782e768a6990d3f6c272a71caa26b666cb317e5c8dad47b613f66",
+    "missing-error-command/bmc.log": "d817b470d40e8cfbb4eca78ced94aec95c12e28a9a5328efff4a45e0c12fad82",
+    "missing-error-command/counterexample.vcd": "6e9b67bd9685c76ba03a751447818959025d9c99d7c3bf6ffd3b3e4788eea7d2",
+    "missing-error-command/prepare.log": "6bcf4233493edbf8a1a97fe59bb9d73e0f42f379b53ce44e3311663776407067",
+    "missing-error-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+    "missing-error-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+    "missing-error-command/vortex_command_adapter.sv": "68cf50d6f0c52d69ce804294a348e697c097d135bf431a413c43db136b925dcf",
+    "request-address-memory0/bmc.log": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279",
+    "request-address-memory0/counterexample.vcd": "21f1594435baa51f8a8582d7dd25d16ea4ac34f03fa8fd268bd16430d7ec0b81",
+    "request-address-memory0/prepare.log": "c7a4459f549dd422dafc7cf5c4f08c76ae2e98c9e51fde1e0969d0151677b2ee",
+    "request-address-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+    "request-address-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+    "request-address-memory0/vortex_memory_adapter.sv": "effe221c239def766e7c6f342520b74444643308fd4701108d92dc1d147e2fee",
+    "request-data-memory0/bmc.log": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279",
+    "request-data-memory0/counterexample.vcd": "bdfb65b923e1fad54356331b33dc9c7305eb0fdbdd70c88996454a3aa9d44c01",
+    "request-data-memory0/prepare.log": "fbadc0b0174ce021ca9951fd0780d252d4386cc1cd1c53948a15279d3ff75301",
+    "request-data-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+    "request-data-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+    "request-data-memory0/vortex_memory_adapter.sv": "ef1f0a71bb5d09e5eb3975ac9b81e625764a418eb108db638bfa78b6190752ad",
+    "request-mask-memory0/bmc.log": "aecd88dd0b81512aa2d1b906687dc87097053e952891493573271e5cbb518279",
+    "request-mask-memory0/counterexample.vcd": "6e70c954a93006fb6f755f104e40c2366a785cc6e649b485abd800f1d793ffa9",
+    "request-mask-memory0/prepare.log": "12c09eeb95eb58e13150b29a5055f9c97bf09a41ed263ac56e390d5cbb84f153",
+    "request-mask-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+    "request-mask-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+    "request-mask-memory0/vortex_memory_adapter.sv": "22578107ee36fd95170a03f6d684de70958d4ba57d57d6d2d09f1899a0135169",
+    "response-tag-memory0/bmc.log": "076ef7d2d28190329e970f9f33bc344488ce92e06c7eceb0099d968998e390cb",
+    "response-tag-memory0/counterexample.vcd": "4f60c25dbd13acf5119f1753cdd07dd29c6309263aabb9653a940e33a4e3edda",
+    "response-tag-memory0/prepare.log": "eede85cb02cc3f69e240967d477f4b0e976ae9a977b697f8ae3dfc37b94c370c",
+    "response-tag-memory0/prepare.ys": "dd6de9ad1c705861ccc51305b85d184c01e780f80e68a6fcfe86b303a414d541",
+    "response-tag-memory0/student_mini_gpu_adapters_harness.sv": "aeaf12e6b86defc8971079d7ec166338634f70046a65be88268dff261ddb3f63",
+    "response-tag-memory0/vortex_memory_adapter.sv": "5107abfecfe21d11e714a4494f0cc8c5d5ac0353e7ed21c4c404a0b212d161b0",
+    "unstable-response-command/bmc.log": "883ba2ea11ee5783842e5f32b0ef4185ab80c264154a021530141239327c0602",
+    "unstable-response-command/counterexample.vcd": "2c12abfe1ede73d9cd459a95465b0704e412983f4397a39d5c3c6383ee1d9573",
+    "unstable-response-command/prepare.log": "cf2a0a2ba146fc6092d6481ce6e19f87da109bb6c0194a18975209d57be6fba3",
+    "unstable-response-command/prepare.ys": "26f18435ff3f915a1645b6130e8224651c5acc24e95c35eb2edef6999c551328",
+    "unstable-response-command/student_mini_gpu_adapters_harness.sv": "933c6a27029d879746507528e3b84e8543dd3988ff1697f4db7faffcdae1f08c",
+    "unstable-response-command/vortex_command_adapter.sv": "ad7bd237b5ae54c1c611fff18fcea31a64997c8e037a8d84b1faf71b948295bf"
+  }
+}

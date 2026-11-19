@@ -1,0 +1,69 @@
+{
+  "status": "BOTH_ROM_BANK0_SKY130HD_MAPPED",
+  "liberty_sha256": "8725d472becbb2d016ee59cdc0207e1102f24a5c6f5fb4ed194cecc278372575",
+  "banks": {
+    "parent": {
+      "bank0_mapped_sha256": "7ceadf5767d045473c731741da52dd382cc722fa0c28049fa6ed613ebe394597",
+      "source_sha256s": {
+        "student_mini_cpu_rom_bank_00.v": "c47b0f60049a414114447774a89ee7b3c45f1527a46074fb638502bc24fd267c",
+        "student_mini_cpu_rom_bank_01.v": "f20b88b539c05732bae246572e0900518807ae5662c3c4e2d643c3b15e7015a1",
+        "student_mini_cpu_rom_bank_02.v": "0c20923e813f4ebb02343a2c939cc212b4579a69a242f5ecdb903c1b9681f81b",
+        "student_mini_cpu_rom_bank_03.v": "bf2d8ad9982e3c57b725050c92849bb41f672eea6370cdef8bd7852bd4789e3a",
+        "student_mini_cpu_rom_bank_04.v": "23538140f01022d2f3af71a2f921b346ea90a32435a14ad48ca227735abae5dd",
+        "student_mini_cpu_rom_bank_05.v": "8c377e86ebecea10433eef919b4f549e9907b0149273859158542ec4a3be3538",
+        "student_mini_cpu_rom_bank_06.v": "348b688d62bc1520858bab72f6b975e47db70752a231fd7d31d243a7b8335bdf",
+        "student_mini_cpu_rom_bank_07.v": "81c982a528ab4d3a6537229e7a28ee25d58d51578a055c84fb4624743ab3e65c",
+        "student_mini_cpu_rom_bank_08.v": "73330395484f0dacd626d62007d1ff7676a9ec1cc56f4fbc4b7f068e6a10a9a6",
+        "student_mini_cpu_rom_bank_09.v": "21bb4c72ee7abfc834a60277b4016617af12c4ce616e494cc45eea7fa34602c3",
+        "student_mini_cpu_rom_bank_10.v": "7667ca7a207f80acb3d28ed582f8517d2888725ed6c0dbce46ac2e4215e9c003",
+        "student_mini_cpu_rom_bank_11.v": "f3e57c479038c145a4e4af3984f94ba029f149b735b121c2aa6335b728166cbe",
+        "student_mini_cpu_rom_bank_12.v": "12a1b2c44ce159d5989f8dd5db51ec36bbfeea3d89ece45dcc3d7137b0b8bd81",
+        "student_mini_cpu_rom_bank_13.v": "fb23be42857dd4fa053f18a177d764435a14b7770143518d237ed1784b3abe50",
+        "student_mini_cpu_rom_bank_14.v": "c22cfa401bb30c1466a2c593a847b13a99234d389853d47ee294b078f35042d8",
+        "student_mini_cpu_rom_bank_15.v": "c99296469bac38121cf5440e40237b859affb5ef6e501b10dead7a93bfcae6c1",
+        "student_mini_cpu_rom_bank_16.v": "51f8ae0700d1f74d89bee9c657c512e8aa6a0d6118b84b7aff03ac2889d1ee92",
+        "student_mini_cpu_rom_bank_17.v": "4f2518a494bbb5a5b02095d08ae40927ab98e2e82959fcb752331d9d236e2231",
+        "student_mini_cpu_rom_bank_18.v": "cbbdc135643e2ca0649deac18af2984eab806bde1f0942c5fd2f192acb2e16b7",
+        "student_mini_cpu_rom_bank_19.v": "97ba7bc8fb4a00567d3665737697ec9c987c630eac498f86c85e570aabbb86c6",
+        "student_mini_cpu_rom_bank_20.v": "c23044dafb2150294110526669d5f7465cade0a2f71bea3d60994086175f7172",
+        "student_mini_cpu_rom_bank_21.v": "68ea324b4f7ad2fd406c644e96dd04b50f5f27601214d581d59d90493a62b4de",
+        "student_mini_cpu_rom_bank_22.v": "feda2485fa8170690e85cfb5e6d463adade245e94acdfc9b9a4183030682cee9",
+        "student_mini_cpu_rom_bank_23.v": "7c3ed3d99e7fb6df432750107bb324e63fbbe9ecadf030d1950d9c8967c80248",
+        "student_mini_cpu_rom_bank_24.v": "2ae96b73d0d3d6d402749a7df1f3b3187555c2f4c593690bbefb5b5732967acb"
+      },
+      "mapping_log_sha256": "e8a2f181940b744854a760567a76212ddb8006416471328939de95f0e89aca79"
+    },
+    "candidate": {
+      "bank0_mapped_sha256": "5336579b7335e21b8999b38b230dc9844006ad9369a52abc75e995adc5ba1018",
+      "source_sha256s": {
+        "student_mini_cpu_rom_bank_00.v": "9ab7d69b3387aca2c6197df4c5fb443f0113cb2c1ec4745dc017c1c7014e902f",
+        "student_mini_cpu_rom_bank_01.v": "0d94e54255595763a387adf698cdb4f204c24526b03f415450c0b4070254411e",
+        "student_mini_cpu_rom_bank_02.v": "3da08c40528ffe848071a24714373d9c9aae7ad74e3f619e399d4f08cc2f7d3b",
+        "student_mini_cpu_rom_bank_03.v": "7d62fbed82ebe0fcdf2325621750b10e4555a23eeaf9dc52008ba4656b848d29",
+        "student_mini_cpu_rom_bank_04.v": "b53dfb8a074e40bc799e66fcd4d3a2001fbc1d2f69aeef58f0a2c92ba084cc76",
+        "student_mini_cpu_rom_bank_05.v": "26e16683c339f256f9b456ef34f04d98ec1ba696d7d0433e72c08939c7b8e658",
+        "student_mini_cpu_rom_bank_06.v": "e316b0fa3ba95f389454976d759e22eef0f06e6e8d1bc4639ad2042ab9bfd6ac",
+        "student_mini_cpu_rom_bank_07.v": "3532d3449ee6492bd33a176a2d1df61e9deed666ca1de4372494a3cbdbfcef71",
+        "student_mini_cpu_rom_bank_08.v": "9f1d0f43b4f380cd3198411d6fdc279cc80bcea802e3bb1e97dd17308b0ad809",
+        "student_mini_cpu_rom_bank_09.v": "6c27b5d470446cbb2c5fbd92ed4bc538306099cdb63d8cfa803c074c5fc28983",
+        "student_mini_cpu_rom_bank_10.v": "22d212a91c412adb403ae6e63768367f7fbb365c6acff9798f9c3cdb16b86dcd",
+        "student_mini_cpu_rom_bank_11.v": "7a5da31fc4646eed8e70b72857ebfa2bce17032bd0f874736b96db624e9bb28c",
+        "student_mini_cpu_rom_bank_12.v": "e4cb5e12fb0fcfb7c26938962d05754591ac7e6bfc6468b6d30b36d484b57885",
+        "student_mini_cpu_rom_bank_13.v": "d7de12afb8db4cb243c8f5227b70fc7af859afc1533156d97359352826ab5a60",
+        "student_mini_cpu_rom_bank_14.v": "46b1ae73e14f2be9c33ac492190c4094210edbc1305662274a17d070d22c9d0d",
+        "student_mini_cpu_rom_bank_15.v": "bb542602799c95aa8e2e22d02045afb6f57f35716d9cc0c0fe81efba69731b08",
+        "student_mini_cpu_rom_bank_16.v": "b827616fe39aaae55df6dae05fdcd5f3b21cc8e2601b6d7abcfded7e8b543623",
+        "student_mini_cpu_rom_bank_17.v": "6519ea8bcb822e844e4ebd2a16f77ea8c2a66761ce25aa375d1e2c2262d38246",
+        "student_mini_cpu_rom_bank_18.v": "7cbbdd98008c43518cb1cc35b56e278248908039615064c74535230fce341ef7",
+        "student_mini_cpu_rom_bank_19.v": "8baff3acf585e6539fae6ae0cc0351f1591cf2c0f0e77da7a9c4b026d5e4cc30",
+        "student_mini_cpu_rom_bank_20.v": "e3cd11a632615a2dfa06b1715224145abd969a9b594eb3d21d2f06a31a6d146d",
+        "student_mini_cpu_rom_bank_21.v": "68ea324b4f7ad2fd406c644e96dd04b50f5f27601214d581d59d90493a62b4de",
+        "student_mini_cpu_rom_bank_22.v": "feda2485fa8170690e85cfb5e6d463adade245e94acdfc9b9a4183030682cee9",
+        "student_mini_cpu_rom_bank_23.v": "7c3ed3d99e7fb6df432750107bb324e63fbbe9ecadf030d1950d9c8967c80248",
+        "student_mini_cpu_rom_bank_24.v": "2ae96b73d0d3d6d402749a7df1f3b3187555c2f4c593690bbefb5b5732967acb"
+      },
+      "mapping_log_sha256": "b473636fd2d016151910d583215a5c782cd2ddd3b38cef7332b1fadb1f25a71b"
+    }
+  },
+  "physical_signoff": false
+}

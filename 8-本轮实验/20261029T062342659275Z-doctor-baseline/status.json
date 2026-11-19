@@ -1,0 +1,15 @@
+{
+  "action": "doctor",
+  "variant": "baseline",
+  "status": "DIAGNOSTIC_ONLY",
+  "formal_baseline": false,
+  "promotion": "NOT_EVALUATED",
+  "tools": {
+    "verilator": "/usr/bin/verilator",
+    "riscv64-unknown-elf-gcc": "/usr/bin/riscv64-unknown-elf-gcc",
+    "clang": null,
+    "make": "/usr/bin/make"
+  },
+  "python": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "venv_exists": true
+}

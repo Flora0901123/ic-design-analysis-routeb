@@ -1,0 +1,29 @@
+{
+  "status": "TWO_PUBLIC_MACRO_LEF_PORTS_AND_TT_LIBERTY_PASS",
+  "source_commit": "965df150c754fe2b3f93a0bd1f9883eb114279b2",
+  "physical_signoff": false,
+  "records": [
+    {
+      "name": "sky130_sram_1kbyte_1rw1r_32x256_8",
+      "lef_pin_count": 123,
+      "lef_dimensions_um": [
+        479.78,
+        397.5
+      ],
+      "liberty_sha256": "f36f91f35700d936c1c82aeaffed0084b938aceed60551588ae9a02cbd706f56"
+    },
+    {
+      "name": "sky130_sram_1kbyte_1rw1r_8x1024_8",
+      "lef_pin_count": 52,
+      "lef_dimensions_um": [
+        455.3,
+        446.46
+      ],
+      "liberty_sha256": "7cd70c91074a336d3ca9182237be49e1f3339fba293381fd8153f7e2e95b2a89"
+    }
+  ],
+  "liberty_read_log_sha256": "28e903875ca3a00588e041692cfca5b178cd41e21ac69eb6e18acbb8e87bf37c",
+  "download_manifest_sha256": "7c6f956756c69a22dd8d134c47d7c5978345409e3079228fd5bee44e1218b322",
+  "functional_status_sha256": "1848d915a9801212e38906a6cf1fd3e9ee881c9a1270b899d87576e4464cf34e",
+  "scope": "LEF pin declarations and OpenSTA Liberty read. GDS, macro timing closure and whole-GPU equivalence remain separate."
+}

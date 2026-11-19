@@ -1,0 +1,144 @@
+{
+  "status": "GENERATION_PREREQUISITES_IDENTIFIED_NO_PHYSICAL_RECOVERY_CLAIMED",
+  "macros": [
+    {
+      "macro_name": "vortex_dp_80x64_w4",
+      "data_width": 80,
+      "depth": 64,
+      "write_enable_width": 4,
+      "write_slice_bits_inferred_from_wrapper": 20,
+      "port_topology_from_original_binding_generator": "1r1w",
+      "exact_openram_config_recovered": false,
+      "caution": "Logical shape/topology is evidence-backed; remaining layout/compiler options are unresolved."
+    },
+    {
+      "macro_name": "vortex_sp_128x128_w16",
+      "data_width": 128,
+      "depth": 128,
+      "write_enable_width": 16,
+      "write_slice_bits_inferred_from_wrapper": 8,
+      "port_topology_from_original_binding_generator": "1r1w",
+      "exact_openram_config_recovered": false,
+      "caution": "Logical shape/topology is evidence-backed; remaining layout/compiler options are unresolved."
+    },
+    {
+      "macro_name": "vortex_sp_32x1024_w4",
+      "data_width": 32,
+      "depth": 1024,
+      "write_enable_width": 4,
+      "write_slice_bits_inferred_from_wrapper": 8,
+      "port_topology_from_original_binding_generator": "1r1w",
+      "exact_openram_config_recovered": false,
+      "caution": "Logical shape/topology is evidence-backed; remaining layout/compiler options are unresolved."
+    },
+    {
+      "macro_name": "vortex_sp_32x256_w1",
+      "data_width": 32,
+      "depth": 256,
+      "write_enable_width": 1,
+      "write_slice_bits_inferred_from_wrapper": 32,
+      "port_topology_from_original_binding_generator": "1r1w",
+      "exact_openram_config_recovered": false,
+      "caution": "Logical shape/topology is evidence-backed; remaining layout/compiler options are unresolved."
+    },
+    {
+      "macro_name": "vortex_sp_32x512_w4",
+      "data_width": 32,
+      "depth": 512,
+      "write_enable_width": 4,
+      "write_slice_bits_inferred_from_wrapper": 8,
+      "port_topology_from_original_binding_generator": "1r1w",
+      "exact_openram_config_recovered": false,
+      "caution": "Logical shape/topology is evidence-backed; remaining layout/compiler options are unresolved."
+    },
+    {
+      "macro_name": "vortex_sp_64x128_w8",
+      "data_width": 64,
+      "depth": 128,
+      "write_enable_width": 8,
+      "write_slice_bits_inferred_from_wrapper": 8,
+      "port_topology_from_original_binding_generator": "1r1w",
+      "exact_openram_config_recovered": false,
+      "caution": "Logical shape/topology is evidence-backed; remaining layout/compiler options are unresolved."
+    }
+  ],
+  "required_inputs": [
+    {
+      "priority": 0,
+      "dependency": "Original six per-macro OpenRAM configurations and generation command receipts",
+      "available": false,
+      "why": "Shape and mask width do not fix words_per_row, banking, spare cells, pin/supply routing, bitcell/control options, corner tables and analytical/characterization switches.",
+      "next_action": "Recover original config bytes or a complete provenance-backed generation recipe before trying byte-identity recreation."
+    },
+    {
+      "priority": 0,
+      "dependency": "Original staged-openram-banked-manifest.json and raw LEF/GDS/LIB input hashes",
+      "available": false,
+      "why": "The packaged cut-synthesis script consumes this original manifest; the R9 file is an explicitly new functional-model manifest.",
+      "next_action": "Recover original staging manifest/receipts, including whether dogbone postprocessing ran and its actual invocation parameters."
+    },
+    {
+      "priority": 1,
+      "dependency": "OpenRAM compiler at b2b069ce119d1488cbe6883b2240bceb5c7ce29a and any original local modifications",
+      "available": "Commit pinned publicly; only four inspection files downloaded, no compiler installed.",
+      "next_action": "Fetch/verify the locked source in a later isolated generation environment; do not substitute latest OpenRAM or a pip release."
+    },
+    {
+      "priority": 1,
+      "dependency": "Matching Sky130 SRAM cell views, technology setup and SPICE models with version/hash provenance",
+      "available": false,
+      "why": "Official tech.py names sky130_fd_bd_sram cells and SPICE_MODEL_DIR/sky130.lib.spice. The recovered ORFS sky130_fd_sc_hd stdcell Liberty is a different dependency.",
+      "next_action": "Pin the original SRAM cell/PDK input revisions and hashes; obtain required GDS/SPICE and setup files before generation."
+    },
+    {
+      "priority": 2,
+      "dependency": "Explicit Python/Git/toolchain environment and original OpenRAM flags",
+      "available": "Python and Git available; OpenRAM/Nix/Magic/Netgen/ngspice absent from audited WSL PATH.",
+      "why": "Locked defaults use Nix; use_nix=False can use PATH only if justified by the original run. Sky130 requires Magic for filtering; characterization and DRC/LVS/PEX add conditional tools.",
+      "next_action": "Choose the exact original route. Require ngspice/Xyce if actual characterization ran; require the original verification tools and PDK decks when the original flags call for them. Do not install an unrestricted stack."
+    },
+    {
+      "priority": 3,
+      "dependency": "Postprocessing and twelve final expected SHA checks",
+      "available": "Normalization and dogbone scripts are packaged; raw geometry and staging parameters are missing.",
+      "next_action": "Apply only documented original staging operations. The LEF normalizer changes DATABASE MICRONS 2000 to 1000 without geometry changes. Check all six final LEFs and six TT Liberty hashes; mismatch remains a separate new version."
+    }
+  ],
+  "packaged_source_evidence": [
+    {
+      "path": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\6-源码引用\\原始参考包\\sources\\third_party\\sources.lock.json",
+      "sha256": "18ad55f4fcc2e1e9b48b3204af6c88ec94a237e42807e85095c25c35b6e774d3"
+    },
+    {
+      "path": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\6-源码引用\\原始参考包\\sources\\scripts\\generate_vortex_openram_bindings.py",
+      "sha256": "3d93e58ee457006ea74f626e3446aa59690e7a096abc4a37a65193a7caf49d91"
+    },
+    {
+      "path": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\6-源码引用\\原始参考包\\sources\\scripts\\run_student_mini_gpu_cut_synthesis.py",
+      "sha256": "4793e6767f94e1e9aed4940bb06dc02dbda37b4ff12a19242afd4aea64a33a89"
+    },
+    {
+      "path": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\6-源码引用\\原始参考包\\sources\\scripts\\normalize_student_mini_macro_lef.py",
+      "sha256": "94165b63d7f3a8fa6d935413627e8e1e8081390586bb8c81d92bd3ec867b15d1"
+    },
+    {
+      "path": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\6-源码引用\\原始参考包\\sources\\scripts\\add_openram_via3_dogbones.py",
+      "sha256": "c978ccdadef3b3526cf12f35f96334f24884096c8ab523b717794547d09eb3f9"
+    },
+    {
+      "path": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\6-源码引用\\原始参考包\\sources\\scripts\\student_mini_gate_power.py",
+      "sha256": "1aeecfe8a81db883be839e6f4cf5b357209880ad3fe8bcfd3835086b78b30f66"
+    },
+    {
+      "path": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\6-源码引用\\原始参考包\\sources\\ppa\\designs\\gpu-vortex-b0\\macro-inputs-banked.mk",
+      "sha256": "c98522d2bfe4e08bd75cf46085c31cdd6558ba06b837bb0f04654b76cafd2e30"
+    }
+  ],
+  "official_source_receipt": "official-source-receipt.json",
+  "tool_inventory": "local-tool-inventory.json",
+  "new_exact_matches": 0,
+  "total_exact_matches": 32,
+  "remaining_unmatched": 18,
+  "EDA_executed": false,
+  "large_downloads_or_installations": false
+}

@@ -1,0 +1,76 @@
+Reference integrity audit is separate: python3 reproduce.py verify-reference; existing mismatch remains unresolved.
+Hit:1 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.10ubuntu1).
+cmake is already the newest version (3.28.3-1build7).
+ninja-build is already the newest version (1.11.1-2).
+pkg-config is already the newest version (1.8.1-2build1).
+bison is already the newest version (2:3.8.2+dfsg-1ubuntu0.24.04.1).
+flex is already the newest version (2.6.4-8.2build1).
+gawk is already the newest version (1:5.2.1-2ubuntu0.1).
+python3-pip is already the newest version (24.0+dfsg-1ubuntu1.3).
+python3-venv is already the newest version (3.12.3-0ubuntu2.1).
+git is already the newest version (1:2.43.0-1ubuntu7.4).
+curl is already the newest version (8.5.0-2ubuntu10.16).
+ca-certificates is already the newest version (20260816ubuntu0.24.04.1).
+verilator is already the newest version (5.020-1).
+binutils-riscv64-unknown-elf is already the newest version (2.42-1ubuntu1+6).
+gcc-riscv64-unknown-elf is already the newest version (13.2.0-11ubuntu1+12).
+openjdk-17-jdk-headless is already the newest version (17.0.20.1+1-1~24.04).
+libevent-dev is already the newest version (2.1.12-stable-9ubuntu2.2).
+libjson-c-dev is already the newest version (0.17-1build1).
+zlib1g-dev is already the newest version (1:1.3.dfsg-3.1ubuntu2.3).
+libreadline-dev is already the newest version (8.2-4build1).
+0 upgraded, 0 newly installed, 0 to remove and 29 not upgraded.
+Collecting certifi==2026.7.22 (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 1))
+  Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: charset-normalizer==3.5.2 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 2)) (3.5.2)
+Requirement already satisfied: cocotb==2.1.0 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 3)) (2.1.0)
+Requirement already satisfied: cocotb-test==0.2.6 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 4)) (0.2.6)
+Requirement already satisfied: colorama==0.4.6 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 5)) (0.4.6)
+Requirement already satisfied: find_libpython==0.5.1 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 6)) (0.5.1)
+Requirement already satisfied: idna==3.20 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 7)) (3.20)
+Requirement already satisfied: iniconfig==2.3.1 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 8)) (2.3.1)
+Requirement already satisfied: litedram==2024.12 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 9)) (2024.12)
+Requirement already satisfied: liteeth==2024.12 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 10)) (2024.12)
+Requirement already satisfied: liteiclink==2025.4 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 11)) (2025.4)
+Requirement already satisfied: litescope==2024.12 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 12)) (2024.12)
+Requirement already satisfied: litex==2024.12 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 13)) (2024.12)
+Requirement already satisfied: meson==1.12.1 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 14)) (1.12.1)
+Requirement already satisfied: migen==0.10.0 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 15)) (0.10.0)
+Requirement already satisfied: ml_dtypes==0.5.4 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 16)) (0.5.4)
+Requirement already satisfied: numpy==2.3.5 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 17)) (2.3.5)
+Requirement already satisfied: packaging==26.3 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 18)) (26.3)
+Collecting pluggy==1.6.0 (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 19))
+  Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Requirement already satisfied: Pygments==2.21.0 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 20)) (2.21.0)
+Requirement already satisfied: pyserial==3.5 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 21)) (3.5)
+Requirement already satisfied: pytest==9.0.3 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 22)) (9.0.3)
+Requirement already satisfied: pythondata-cpu-vexriscv==1.0.1.post407 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 23)) (1.0.1.post407)
+Requirement already satisfied: pythondata-misc-tapcfg==0.0.post517 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 24)) (0.0.post517)
+Requirement already satisfied: pythondata-software-compiler-rt==0.0.post6206 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 25)) (0.0.post6206)
+Requirement already satisfied: pythondata-software-picolibc==1.7.9.post181 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 26)) (1.7.9.post181)
+Requirement already satisfied: PyYAML==6.0.3 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 27)) (6.0.3)
+Requirement already satisfied: requests==2.34.2 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 28)) (2.34.2)
+Requirement already satisfied: urllib3==2.8.0 in /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/.venv/lib/python3.12/site-packages (from -r /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/1-技术栈与环境/requirements-tested-cpu.txt (line 29)) (2.8.0)
+Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.0/137.0 kB 811.0 kB/s eta 0:00:00
+Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+Installing collected packages: pluggy, certifi
+  Attempting uninstall: pluggy
+    Found existing installation: pluggy 1.7.0
+    Uninstalling pluggy-1.7.0:
+      Successfully uninstalled pluggy-1.7.0
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.10.23
+    Uninstalling certifi-2026.10.23:
+      Successfully uninstalled certifi-2026.10.23
+Successfully installed certifi-2026.7.22 pluggy-1.6.0
+{"adaptations": 0, "formal_binding": "NOT_VALIDATED"}
+CPU environment prepared; no formal baseline or promotion claimed.

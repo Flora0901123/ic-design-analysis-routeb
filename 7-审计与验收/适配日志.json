@@ -1,0 +1,42 @@
+[
+  {
+    "path": "integration/litex/bios/nano_control_smoke.c",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "b02ce10b776f9492e663946a0ee7eaee0d58b4784080c655e4209c8260180085"
+  },
+  {
+    "path": "integration/litex/bios/nano_session.c",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "b02ce10b776f9492e663946a0ee7eaee0d58b4784080c655e4209c8260180085"
+  },
+  {
+    "path": "integration/litex/bios/cpu_operator_b0.c",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "b02ce10b776f9492e663946a0ee7eaee0d58b4784080c655e4209c8260180085"
+  },
+  {
+    "path": "shared/python/soc_ai_labs/deepseek_v32.py",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "4bd8ed6c1a9a2aa7a977fea94eec1edd79ee5f2225ff43c9ba8d114aae9842ca"
+  },
+  {
+    "path": "shared/rtl/exp_q15_q6.mem",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "082272778742cf8836b917fd912be1765ea333faf25baae594b1d937de9bac77"
+  },
+  {
+    "path": "shared/rtl/silu_q11_q6.mem",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "819dcaaf460c81b0b1300c77201ec72fd97effebf20289ef986f9c9ebea24a42"
+  },
+  {
+    "path": "build/vexriscv-profiles/VexRiscv_Full_4k.v",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "506a6e6dd161ab96459bf4e08c2388435cb0ffb5f5e591c843b2f042fa4a3eee"
+  },
+  {
+    "path": "scripts/run_student_mini_cpu.py",
+    "before": "fa326af3721aa3ef2933f916e09cee77f9a58c249003b6294ec41c3a42f14109",
+    "after": "0da2dabaa47a327b0a83441f69e658d71e9ac5bacfd97c519a0e567f7093e854"
+  }
+]

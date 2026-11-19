@@ -1,0 +1,15 @@
+{
+  "7-审计与验收/run_new_gpu_ff_mapping_v2.py": "43e37b21f9fc39d6a0a65d52d314de4e2d88031a57127b52ee14807720efb000",
+  "7-审计与验收/seal_new_gpu_ff_mapping.py": "342d7a0c8235e3cc32cc2b4d0adc4d5d759faf7cc0c0445d230f543d095cbd4d",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/ff-mapped.v": "b18dc63c5f260455448b3e1e2703a23262905ccb081440b16c7fdf47e7c4bbfb",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/generic-checkpoint.il": "7b2531bd95aebfb98a589e0cd58840448d7875f4a4c85dea856c200e52c29f20",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/independent-check.log": "dae377d44576250fe80ab7a682f20726c71520609c6f47793c5bcac298eb2585",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/independent-check.ys": "d6a1f341d8736b560d45d44bf2d066d536fa0a073690a1f1daf89cad6413bd25",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/independent-stat.json": "ebf69ae89319adf5ce63633e484495876202441a982545d7ebb8519bc6d7c30e",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/input-sha256.json": "1c5277f934da6dc1f13d98abaac45c3faa9793cd81bfac2ced2e39815b1aa003",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/stat.json": "2cecc9774dde48c84fffff11fc6466e7fa80448527fde6a326b47e989540e10c",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/status.json": "4a56d0dc0000a745cddb219345b9ab9be2b4b7d4d045ab29c6bbcc87f64158f1",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/synthesis.log": "199c3ee3e538dd82b62d65c6c2f2cfbd8c81a0376dcf5c6be411f48ffb783e01",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/synthesis.tcl": "a118428d1ef8002a1739c42ee65550c6fa216aad83580e11c4de79e03b0b480c",
+  "8-本轮实验/GPU物理依赖公开来源核对-20261109/sky130_fd_sc_hd__tt_025C_1v80.lib": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9"
+}

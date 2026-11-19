@@ -1,0 +1,17 @@
+{
+  "status": "BOTH_MAPPED_BANK0_EXHAUSTIVE_GATE_REPLAY_PASS",
+  "records": {
+    "parent": {
+      "addresses": 512,
+      "mapped_sha256": "7ceadf5767d045473c731741da52dd382cc722fa0c28049fa6ed613ebe394597",
+      "model_sha256": "684f8a76f0ff692bbb36704b3ebd0f3580a3ad06e129a7219b3598125d1acf75",
+      "log_sha256": "8f5bc1fa347a0f82dd7136ac96ca14c8259aa8204d47734e77b8b53a37578928"
+    },
+    "candidate": {
+      "addresses": 512,
+      "mapped_sha256": "5336579b7335e21b8999b38b230dc9844006ad9369a52abc75e995adc5ba1018",
+      "model_sha256": "684f8a76f0ff692bbb36704b3ebd0f3580a3ad06e129a7219b3598125d1acf75",
+      "log_sha256": "8f5bc1fa347a0f82dd7136ac96ca14c8259aa8204d47734e77b8b53a37578928"
+    }
+  }
+}

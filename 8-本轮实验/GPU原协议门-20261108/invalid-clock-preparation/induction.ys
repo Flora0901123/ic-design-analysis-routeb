@@ -1,0 +1,1 @@
+read_rtlil prepared.il; chformal -cover -remove; sat -tempinduct -seq 1 -prove-asserts -set-assumes -verify -maxsteps 6 -timeout 150

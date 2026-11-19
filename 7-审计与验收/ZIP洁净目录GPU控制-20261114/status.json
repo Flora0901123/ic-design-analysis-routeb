@@ -1,0 +1,13 @@
+{
+  "status": "GPU_RTLSIM_CONTROL_FROM_VERIFIED_ZIP_PASS",
+  "archive": "RouteB-\u672c\u673a\u9a8c\u6536\u5feb\u7167-20261114.zip",
+  "verified_archive_files": 7,
+  "outputs_counters_and_status": [
+    "STUDENT_GPU ordinal=0 status=0 primitive=0 bits=bc80,bd00,3d80,3d40,3d80,bda0,3dc0,0000 selected=0",
+    "STUDENT_GPU_COMPLETE start=0 count=1",
+    "PERF: instrs=8893, cycles=95244, IPC=0.093"
+  ],
+  "host_toolchain": "preinstalled locked WSL toolchain; clean compiler install pending",
+  "source_scope": "fresh directory, executable/input/runtime from ZIP",
+  "log_sha256": "2424fdfc312fb31a49fc7547a5eaf82b783c6f112969549fce81bbb74bc0ec1d"
+}

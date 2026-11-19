@@ -1,0 +1,58 @@
+{
+  "status": "SIX_BASELINE_EVIDENCE_RECHECK_PASS",
+  "records": [
+    {
+      "platform": "cpu",
+      "family": "P1",
+      "cases": 33,
+      "records": 330,
+      "source": "4-\u516dbaseline\u8bc1\u636e/report-cpu.json",
+      "sha256": "3a340468b8e0d9c740c92e81f1d879137a4ce6c65e01225d7f63a4c158f90568"
+    },
+    {
+      "platform": "cpu",
+      "family": "P2",
+      "cases": 34,
+      "records": 340,
+      "source": "4-\u516dbaseline\u8bc1\u636e/report-cpu.json",
+      "sha256": "3a340468b8e0d9c740c92e81f1d879137a4ce6c65e01225d7f63a4c158f90568"
+    },
+    {
+      "platform": "cpu",
+      "family": "P3",
+      "cases": 33,
+      "records": 330,
+      "source": "4-\u516dbaseline\u8bc1\u636e/report-cpu.json",
+      "sha256": "3a340468b8e0d9c740c92e81f1d879137a4ce6c65e01225d7f63a4c158f90568"
+    },
+    {
+      "platform": "gpu",
+      "family": "P1",
+      "cases": 33,
+      "records": 330,
+      "source": "4-\u516dbaseline\u8bc1\u636e/report-gpu.json",
+      "sha256": "e9998fc6d2f56661108c507e4f85a11e29bf0af4d2cac97036cee28e4fcee558"
+    },
+    {
+      "platform": "gpu",
+      "family": "P2",
+      "cases": 34,
+      "records": 340,
+      "source": "4-\u516dbaseline\u8bc1\u636e/report-gpu.json",
+      "sha256": "e9998fc6d2f56661108c507e4f85a11e29bf0af4d2cac97036cee28e4fcee558"
+    },
+    {
+      "platform": "gpu",
+      "family": "P3",
+      "cases": 33,
+      "records": 330,
+      "source": "4-\u516dbaseline\u8bc1\u636e/report-gpu.json",
+      "sha256": "e9998fc6d2f56661108c507e4f85a11e29bf0af4d2cac97036cee28e4fcee558"
+    }
+  ],
+  "frozen_gpu_realtime_records": 1000,
+  "gpu_expected_dma_faults": 30,
+  "rtlsim_seal_sha256": "c5ea2ec03a819a1b99239bac201cac617cec30dfdfcebccde2a1d3ae1dadb4db",
+  "physical_signoff": false,
+  "teacher_score": null
+}

@@ -1,0 +1,56 @@
+{
+  "baseline": {
+    "bios_bytes": 41912,
+    "counter_means": {
+      "p1": {
+        "cycles": 22915.18181818182,
+        "instructions": 12481.324242424242,
+        "ibus_bytes": 9161.018181818183,
+        "dbus_bytes": 3660.212121212121,
+        "dma_bytes": 0.48484848484848486
+      },
+      "p2": {
+        "cycles": 35706.92941176471,
+        "instructions": 19401.617647058825,
+        "ibus_bytes": 11548.329411764706,
+        "dbus_bytes": 7958.341176470588,
+        "dma_bytes": 0.47058823529411764
+      },
+      "p3": {
+        "cycles": 80534.6606060606,
+        "instructions": 37247.17575757576,
+        "ibus_bytes": 37570.52121212121,
+        "dbus_bytes": 10044.278787878788,
+        "dma_bytes": 0.48484848484848486
+      }
+    },
+    "scope": "software size/accepted bus traffic; not area or power measurement"
+  },
+  "topk": {
+    "bios_bytes": 41968,
+    "counter_means": {
+      "p1": {
+        "cycles": 21417.918181818182,
+        "instructions": 12457.718181818182,
+        "ibus_bytes": 7052.509090909091,
+        "dbus_bytes": 3638.612121212121,
+        "dma_bytes": 0.48484848484848486
+      },
+      "p2": {
+        "cycles": 33501.42058823529,
+        "instructions": 19401.617647058825,
+        "ibus_bytes": 8227.2,
+        "dbus_bytes": 7960.2235294117645,
+        "dma_bytes": 0.47058823529411764
+      },
+      "p3": {
+        "cycles": 78279.83333333333,
+        "instructions": 37247.17575757576,
+        "ibus_bytes": 33671.17575757576,
+        "dbus_bytes": 10031.575757575758,
+        "dma_bytes": 0.48484848484848486
+      }
+    },
+    "scope": "software size/accepted bus traffic; not area or power measurement"
+  }
+}

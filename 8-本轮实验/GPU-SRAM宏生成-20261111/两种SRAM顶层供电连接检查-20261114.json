@@ -1,0 +1,486 @@
+{
+  "status": "TOP_SUPPLY_BRANCHES_INVENTORIED",
+  "physical_signoff": false,
+  "records": {
+    "20x64": {
+      "extracted": {
+        "sha256": "58306d4c109ae04e8a26958c7ef5cdccaef8d4fb7a2d1cbe0a96cebf8d0460b9",
+        "ports": [
+          "din0[0]",
+          "din0[1]",
+          "din0[2]",
+          "din0[3]",
+          "din0[4]",
+          "din0[5]",
+          "din0[6]",
+          "din0[7]",
+          "din0[8]",
+          "din0[9]",
+          "din0[10]",
+          "din0[11]",
+          "din0[12]",
+          "din0[13]",
+          "din0[14]",
+          "din0[15]",
+          "din0[16]",
+          "din0[17]",
+          "din0[18]",
+          "din0[19]",
+          "addr0[0]",
+          "addr0[1]",
+          "addr0[2]",
+          "addr0[3]",
+          "addr0[4]",
+          "addr0[5]",
+          "addr1[0]",
+          "addr1[1]",
+          "addr1[2]",
+          "addr1[3]",
+          "addr1[4]",
+          "addr1[5]",
+          "csb0",
+          "csb1",
+          "clk0",
+          "clk1",
+          "dout1[0]",
+          "dout1[1]",
+          "dout1[2]",
+          "dout1[3]",
+          "dout1[4]",
+          "dout1[5]",
+          "dout1[6]",
+          "dout1[7]",
+          "dout1[8]",
+          "dout1[9]",
+          "dout1[10]",
+          "dout1[11]",
+          "dout1[12]",
+          "dout1[13]",
+          "dout1[14]",
+          "dout1[15]",
+          "dout1[16]",
+          "dout1[17]",
+          "dout1[18]",
+          "dout1[19]",
+          "vccd1",
+          "vssd1"
+        ],
+        "supply_node_uses": {
+          "vccd1": 44
+        },
+        "instances": [
+          {
+            "instance": "Xrouteb_new_1w1r_20x64_data_dff_0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_data_dff"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_20x64_bank_0",
+            "supply_nodes": [
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_bank"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_20x64_control_logic_r_0",
+            "supply_nodes": [
+              "vccd1",
+              "vccd1",
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_control_logic_r"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_20x64_control_logic_w_0",
+            "supply_nodes": [
+              "vccd1",
+              "vccd1",
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_control_logic_w"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_20x64_row_addr_dff_0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_row_addr_dff"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_20x64_row_addr_dff_1",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_row_addr_dff"
+          }
+        ]
+      },
+      "schematic": {
+        "sha256": "3ef70cb311fd41918050f740e8f81aaa7c9558ea689423c07c2fcb15ace494ed",
+        "ports": [
+          "din0[0]",
+          "din0[1]",
+          "din0[2]",
+          "din0[3]",
+          "din0[4]",
+          "din0[5]",
+          "din0[6]",
+          "din0[7]",
+          "din0[8]",
+          "din0[9]",
+          "din0[10]",
+          "din0[11]",
+          "din0[12]",
+          "din0[13]",
+          "din0[14]",
+          "din0[15]",
+          "din0[16]",
+          "din0[17]",
+          "din0[18]",
+          "din0[19]",
+          "addr0[0]",
+          "addr0[1]",
+          "addr0[2]",
+          "addr0[3]",
+          "addr0[4]",
+          "addr0[5]",
+          "addr1[0]",
+          "addr1[1]",
+          "addr1[2]",
+          "addr1[3]",
+          "addr1[4]",
+          "addr1[5]",
+          "csb0",
+          "csb1",
+          "clk0",
+          "clk1",
+          "dout1[0]",
+          "dout1[1]",
+          "dout1[2]",
+          "dout1[3]",
+          "dout1[4]",
+          "dout1[5]",
+          "dout1[6]",
+          "dout1[7]",
+          "dout1[8]",
+          "dout1[9]",
+          "dout1[10]",
+          "dout1[11]",
+          "dout1[12]",
+          "dout1[13]",
+          "dout1[14]",
+          "dout1[15]",
+          "dout1[16]",
+          "dout1[17]",
+          "dout1[18]",
+          "dout1[19]",
+          "vccd1",
+          "vssd1"
+        ],
+        "supply_node_uses": {
+          "vccd1": 6
+        },
+        "instances": [
+          {
+            "instance": "Xbank0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_bank"
+          },
+          {
+            "instance": "Xcontrol0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_control_logic_w"
+          },
+          {
+            "instance": "Xcontrol1",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_control_logic_r"
+          },
+          {
+            "instance": "Xrow_address0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_row_addr_dff"
+          },
+          {
+            "instance": "Xrow_address1",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_row_addr_dff"
+          },
+          {
+            "instance": "Xdata_dff0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_20x64_data_dff"
+          }
+        ]
+      },
+      "ports_added": [],
+      "ports_missing": []
+    },
+    "8x128": {
+      "extracted": {
+        "sha256": "78c6123c44218ad91834f5a2fab38253d989d103c5f6738a545cc8129008fed9",
+        "ports": [
+          "din0[0]",
+          "din0[1]",
+          "din0[2]",
+          "din0[3]",
+          "din0[4]",
+          "din0[5]",
+          "din0[6]",
+          "din0[7]",
+          "addr0[0]",
+          "addr0[1]",
+          "addr0[2]",
+          "addr0[3]",
+          "addr0[4]",
+          "addr0[5]",
+          "addr0[6]",
+          "addr1[0]",
+          "addr1[1]",
+          "addr1[2]",
+          "addr1[3]",
+          "addr1[4]",
+          "addr1[5]",
+          "addr1[6]",
+          "csb0",
+          "csb1",
+          "clk0",
+          "clk1",
+          "dout1[0]",
+          "dout1[1]",
+          "dout1[2]",
+          "dout1[3]",
+          "dout1[4]",
+          "dout1[5]",
+          "dout1[6]",
+          "dout1[7]",
+          "vccd1",
+          "vssd1"
+        ],
+        "supply_node_uses": {
+          "vccd1": 44
+        },
+        "instances": [
+          {
+            "instance": "Xrouteb_new_1w1r_8x128_bank_0",
+            "supply_nodes": [
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1",
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_bank"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_8x128_data_dff_0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_data_dff"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_8x128_control_logic_r_0",
+            "supply_nodes": [
+              "vccd1",
+              "vccd1",
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_control_logic_r"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_8x128_row_addr_dff_0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_row_addr_dff"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_8x128_row_addr_dff_1",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_row_addr_dff"
+          },
+          {
+            "instance": "Xrouteb_new_1w1r_8x128_control_logic_w_0",
+            "supply_nodes": [
+              "vccd1",
+              "vccd1",
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_control_logic_w"
+          }
+        ]
+      },
+      "schematic": {
+        "sha256": "f2f0ca8ba74996d6df8eabcacdb45b77e67634883bc4101fd0a7df4bfa372f84",
+        "ports": [
+          "din0[0]",
+          "din0[1]",
+          "din0[2]",
+          "din0[3]",
+          "din0[4]",
+          "din0[5]",
+          "din0[6]",
+          "din0[7]",
+          "addr0[0]",
+          "addr0[1]",
+          "addr0[2]",
+          "addr0[3]",
+          "addr0[4]",
+          "addr0[5]",
+          "addr0[6]",
+          "addr1[0]",
+          "addr1[1]",
+          "addr1[2]",
+          "addr1[3]",
+          "addr1[4]",
+          "addr1[5]",
+          "addr1[6]",
+          "csb0",
+          "csb1",
+          "clk0",
+          "clk1",
+          "dout1[0]",
+          "dout1[1]",
+          "dout1[2]",
+          "dout1[3]",
+          "dout1[4]",
+          "dout1[5]",
+          "dout1[6]",
+          "dout1[7]",
+          "vccd1",
+          "vssd1"
+        ],
+        "supply_node_uses": {
+          "vccd1": 6
+        },
+        "instances": [
+          {
+            "instance": "Xbank0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_bank"
+          },
+          {
+            "instance": "Xcontrol0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_control_logic_w"
+          },
+          {
+            "instance": "Xcontrol1",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_control_logic_r"
+          },
+          {
+            "instance": "Xrow_address0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_row_addr_dff"
+          },
+          {
+            "instance": "Xrow_address1",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_row_addr_dff"
+          },
+          {
+            "instance": "Xdata_dff0",
+            "supply_nodes": [
+              "vccd1"
+            ],
+            "subcircuit": "routeb_new_1w1r_8x128_data_dff"
+          }
+        ]
+      },
+      "ports_added": [],
+      "ports_missing": []
+    }
+  }
+}

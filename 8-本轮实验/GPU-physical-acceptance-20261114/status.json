@@ -1,0 +1,174 @@
+{
+  "status": "GPU_PHYSICAL_SIGNOFF_HOLD",
+  "physical_signoff": false,
+  "spec": {
+    "path": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析/student-mini-v1-cpu-gpu/sources/task.md",
+    "sha256": "2562d9316268a71da6e46a719813d146f5ba39d07e5460635daf10bd73939e4a",
+    "relevant_lines": [
+      128,
+      139,
+      145,
+      147
+    ]
+  },
+  "macros": {
+    "8x128": {
+      "revision": "v3",
+      "gds_sha256": "5fa6b85418c2ad80738b64af004b7a99d75bccc6c9c76e446e95d254d885c699",
+      "drc_errors": 0,
+      "drc": {
+        "path": "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3-run-20261114-140621/8x128/recheck-magic-8.3.306/status.json",
+        "sha256": "977c536deac290321ed097090e3e5a88ba64b99493808cf510d14cec139394e6"
+      },
+      "lvs_result": "Top level cell failed pin matching.",
+      "lvs_report": {
+        "path": "8-本轮实验/GPU-physical-acceptance-20261114/8x128-v3-native-lvs/result.report",
+        "sha256": "e9a7160cfab7dae626393172fd4fc20d030ef22d9125a8a7f87bc8f1599c7866"
+      },
+      "lvs_native_receipt": {
+        "path": "8-本轮实验/GPU-physical-acceptance-20261114/8x128-v3-native-lvs/status.json",
+        "sha256": "dedf4ca1a8794e31d24e5559cdddf35b0e823b7faf6ba5e2e2b43dd0a4a65a0f"
+      }
+    },
+    "20x64": {
+      "revision": "v2",
+      "gds_sha256": "b61ccaddc4c6af6257c3eecc1bb9baaac53716f5bde0045f0135005d4241c9f8",
+      "drc_errors": 1,
+      "drc": {
+        "path": "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v2-run-20261114-125749/20x64/recheck-magic-8.3.306/status.json",
+        "sha256": "4ff22ce2a20d403e0b09923cc6330a93b0b101c0c24ff59a180e905c6d810a5c"
+      },
+      "lvs_result": "Top level cell failed pin matching.",
+      "lvs_report": {
+        "path": "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v2-run-20261114-125749/20x64/lvs-netgen-1.5.323/result.report",
+        "sha256": "f72c17414c12854ce93401dee09acc6267be38d8decebdef7e7ae507efd53448"
+      }
+    }
+  },
+  "floorplan": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/gpu-floorplan/status.json",
+    "sha256": "ab9663468ad627987ec0f4812d760a6385ee6bea4040f5f8c37ac73691ba30a3"
+  },
+  "placement": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/gpu-placement-v2/status.json",
+    "sha256": "b77feb9c09e67cc3bc7d783bd0a3b4d060d7332637f776768842f1ba5aeee312"
+  },
+  "resources": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/qualification-resource-snapshot.json",
+    "sha256": "e5ca951e9ad440e4818422b272e03561fd43f663a8b7e5911a9356c3fbfbc2de"
+  },
+  "quadrant_boundary": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/quadrant-boundary-precheck.json",
+    "sha256": "f2698be05565f5153b621fac90f98c26dff35eb4dd218ac17a757858078cbc7f"
+  },
+  "macro_logical_supply": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/gpu-macro-supply-audit-v2/status.json",
+    "sha256": "bb8867a71c3c39e8bdedc81c7b1379109c4cad7171955524dc475d979eb9c5bf"
+  },
+  "pin_trace": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/8x128-lvs-pin-inventory.json",
+    "sha256": "9f70143eb40fd1f0df93d798310587cd64665dc65a74627c111a1b714d45ffdf"
+  },
+  "target_ns": 10.0,
+  "preplacement_slack_ns": {
+    "setup": -7.42,
+    "hold": 0.31
+  },
+  "remaining": [
+    "20x64 nwell.7 and SRAM LVS",
+    "mapped gate-level equivalence",
+    "four hardened blocks and top-level assembly",
+    "routed signoff STA with extracted SPEF",
+    "PDN, macro pin access, DRC and antenna audits",
+    "P1/P2/P3 power from activity for seeds 1–10"
+  ],
+  "four_quadrant_checkpoint": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/four-quadrant-macro-floorplan/status.json",
+    "sha256": "f4d76b4a7c75f3a2ccca4a0031ca46f0c2d4e1eea481594cb0e60ed835bf4f49"
+  },
+  "four_quadrant_standard_cells": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/four-quadrant-standard-cell-placement/status.json",
+    "sha256": "22fa325e751f256a885d8deef40194113622d7097696c7c9d4637390e1935b06"
+  },
+  "functional_release_records": {
+    "baseline": {
+      "path": "7-审计与验收/ZIP洁净目录GPU全量-20261114/independent-1000.json",
+      "sha256": "979c0ec8dd4c97e2c4b16c44e1bcd847ec2dcf467596d579deb9f86980878891"
+    },
+    "candidate": {
+      "path": "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+      "sha256": "d9dd9f9101a328ad3bca92d74315339ddd3c66825b974fb7d2fca9f13d8c5a8b"
+    },
+    "traffic_regressions_over_5pct": 300
+  },
+  "historical_physical_identity": {
+    "path": "8-本轮实验/GPU生成规则物理恢复-20261110/binding-recheck.json",
+    "sha256": "8e3bfc2c2dbf62ca6d03a08c72f74068ec40ef6b9c8dc05fddf6dae644ff80d8"
+  },
+  "four_quadrant_netlist_cut": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/four-quadrant-netlist-cut-cached/status.json",
+    "sha256": "b7c45ab0ed7b4831d79e80312657e00233e3e9239e85146857ac5c49b88ac42a"
+  },
+  "equivalent_four_quadrant_export": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/four-quadrant-equivalent-scalar-export/status.json",
+    "sha256": "5f7b618f0e5bcc835eba652d5a8a22c0c59eeebc305ffd1d284953c65dfd8991"
+  },
+  "four_block_physical_inputs": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/four-block-physical-inputs/status.json",
+    "sha256": "12c8fcedfcc60ddaa7dd434931755fecfdc6146730f8f85ac3dd7796cbee9036"
+  },
+  "prepared_block_stitched_equivalence": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/four-block-physical-inputs/stitched-equivalence.json",
+    "sha256": "14d225a26b12f399bfa038cf14277652004cca8d0b25afe242642b0f6783a2e3"
+  },
+  "q1_legal_placement_and_pdn": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/q1-block-placement-and-pdn/status.json",
+    "sha256": "c64d2ffeaed77bcee60fb619540b33e46fad948fa508319ce7093f08275db2f7"
+  },
+  "q1_cts_and_global_route": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/q1-block-cts-and-global-route/status.json",
+    "sha256": "163b48d228657fc3802022604693cf7c76a2f00bbf638e924f8aaa4ff5010d59"
+  },
+  "q1_pin_geometry_and_global_route": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/q1-block-pin-geometry-and-global-route/status.json",
+    "sha256": "0f42b4bdc3bbd0a1729135338a05de7317f6fbada4365ea7a080e858ca2d7e93"
+  },
+  "q1_detailed_route_diagnostic": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/q1-detailed-route-diagnostic/status.json",
+    "sha256": "2de81c4a647d8dfac9e93b154c9d5429c4f79fdc769ea70d00d33a3584ca6043"
+  },
+  "q1_track_aligned_global_route": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/q1-block-track-aligned-global-route/status.json",
+    "sha256": "a38217c2a3d7d3b81f8e920aa273ba945b551bea7088f0d62d85bf686c0c00d3"
+  },
+  "remaining_block_pin_track_preflight": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/remaining-blocks-pin-track-preflight/status.json",
+    "sha256": "246392ecec4b53d4736d8c673150e149536752b338ceab4a8ae020c0379945d3"
+  },
+  "q1_detailed_routing_attempt": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/q1-detailed-routing-20261117/status.json",
+    "sha256": "98e0125cda7c866c7f6d100feef1c920f8740ba784ad62225f989c71fe9ce193"
+  },
+  "block_implementation_receipts": {
+    "q0_LL": {
+      "path": "8-本轮实验/GPU-physical-acceptance-20261114/other-blocks-physical-implementation-20261117/q0_LL/status.json",
+      "sha256": "5f00180eec5e1274e1b2f3d852c875fcd020a9343286e6fec2d77817c0195adf"
+    },
+    "q2_UL": {
+      "path": "8-本轮实验/GPU-physical-acceptance-20261114/other-blocks-physical-implementation-20261117/q2_UL/status.json",
+      "sha256": "7ac2a10af8f85b2491d59c2a6b9223d2dc98797a948352154ab04c89f2e012ce"
+    },
+    "q3_UR": {
+      "path": "8-本轮实验/GPU-physical-acceptance-20261114/other-blocks-physical-implementation-20261117/q3_UR/status.json",
+      "sha256": "40d55496b2bdc51a6023772bf8a151f08b8349e49b38ec666f18e778bbca9875"
+    }
+  },
+  "q0_global_route_zero_overflow": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/q0-global-route-congestion-retry-20261117/status.json",
+    "sha256": "ba41437df332c58c66fc1883c7f63e8b4069200e03fc3b8e2cb3968fdcbe4a8b"
+  },
+  "q1_serial_detailed_routing_attempt": {
+    "path": "8-本轮实验/GPU-physical-acceptance-20261114/serialized-detailed-routing-20261117/q1_LR/status.json",
+    "sha256": "ece8871ccc85da23189c643f4cadf4083e0f65f587ddc6f243cadbafd9bdb93f"
+  }
+}

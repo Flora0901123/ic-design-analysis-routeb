@@ -1,0 +1,787 @@
+{
+  "status": "TEACHER_CPU_LAYOUT_OUTPUT_CHECKED_CANDIDATE_BINDING_UNPROVEN",
+  "matched_outputs": 104,
+  "total_outputs": 104,
+  "teacher_cpu_top_input_bindings": {
+    "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/cpu-rombanks-replay-launch/ca895382fa391545572ada3735d7a9e15df98491f89436c93b556d4fb468b0b8/completion.json": "cbb49f452fe3585805e8e55cd264bf83ba724b02f16a49ce1bec084536bb9aa9",
+    "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/cpu-rom-v2-boundary/e0d4eb6bb6f1305468af78c4ce7f6ca739515292732ffb878d6e952979268ad5/mapped.v": "50f87328b2dd6c3b24ae43452d2fd76dfa66b6eea0ad119b0d171b501935fa64",
+    "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/cpu-top-physical-config/f6033baf7f88e18d4a056e05dcb1d45bcad229217832d46c5b8195404d8d48c7/macro-blackbox.v": "d0fa432cd4c4ef7ef9307f01216b8c9725fe8bcdeab23340df425fd8867fce62",
+    "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x1024_w4/vortex_sp_32x1024_w4.gds": "d00d6046f44933d93c534c79a9c5b739251bc4dbaf724c67350c7d167bdaecce"
+  },
+  "experiment_bindings": {
+    "parent": {
+      "soc/software/bios/bios.bin": "1e0e121856f1b88647c5cd6dad93176db116d2ec98b6eff4b947a3c9bff83694",
+      "soc/gateware/obj_dir/Vsim": "9b7507d3273d78ae4039e3603d73427b62456ddfbb4a9608fc62ad82e12976d1",
+      "soc/gateware/sim.v": "4ee3f961e62b826573e195d39ba7e0d73dcd8c2a05b1fdcb94a2b615706c1532"
+    },
+    "candidate": {
+      "soc/software/bios/bios.bin": "cf0449fcb91ba28d4591e236fea090f07c5a1ec67851550c8b097f1032408db4",
+      "soc/gateware/obj_dir/Vsim": "2efbcdca519bbf362fb819df2167d598449fe65530a16f1a7ccddd65ec418785",
+      "soc/gateware/sim.v": "b613fe0af4dcb226b1c17fac34adaa9a6e898b9137dbb10845f58dfa66cf157b"
+    }
+  },
+  "teacher_cpu_top_metrics": {
+    "clock_period_ns": 10,
+    "wns_ns": 0.0648086,
+    "drc": 0,
+    "antenna_nets": 0,
+    "antenna_pins": 0,
+    "hold_wns_ns": 0.325232
+  },
+  "nodes": {
+    "rom-bank-00": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-00/completion.json",
+        "sha256": "1de6c39fa4398953d3dae538ea1c1ef7d2cd86be4bc03ca8f65a8b3ed4f3f075"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-00/6_final.def.gz",
+          "uncompressed_sha256": "232fa7b7fb97fe44bc7c4ad9ff156344e932636ce30c79f05635664d33b6a60c",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-00/6_final.v.gz",
+          "uncompressed_sha256": "ee4fbbdf8dd9858e9b47a7802fe6094f9ec9c263b64bfb5839a46815fbc4a592",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-00/6_final.sdc",
+          "uncompressed_sha256": "2e0ee4ce5d1b7835b6ac0e399ce830fd2ff2a016aa61053cd8571a2417b121b4",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-00/6_final.spef.gz",
+          "uncompressed_sha256": "b7aa03acb2d9033c5cf5f10100209024839082a8c93211e1ce65fd35bc0767d4",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-01": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-01/completion.json",
+        "sha256": "d80d06c59018ff5c3414b21be1882a28be901d166dfef556fa06073ea1d8ca62"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-01/6_final.def.gz",
+          "uncompressed_sha256": "6f33df8feff1a63067d801abe3807a004986b2fdda719e12887c9d0d2360aa7d",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-01/6_final.v.gz",
+          "uncompressed_sha256": "57ab03ec919694e3600d3d5293b217e67d8e7e7401846d118c4d66d823fc1245",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-01/6_final.sdc",
+          "uncompressed_sha256": "47ac3dfece633ee93c5918d8efae6250bb3ac117a78a5c60576de31dd7780987",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-01/6_final.spef.gz",
+          "uncompressed_sha256": "a61ce4b561c814779da0ceb7e913f3ea0559b74029cd3d7aba8136b38d919023",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-02": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-02/completion.json",
+        "sha256": "463d16c9d01bd10a3af4ea97fea80fdcb29489ab83e54af5979b67e90f1bb359"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-02/6_final.def.gz",
+          "uncompressed_sha256": "14043e55aaf5b7cf248f869a7a371170200201395ece497ccc4c2e7648d10aee",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-02/6_final.v.gz",
+          "uncompressed_sha256": "b1750093de28e4c8b78c6016602b0bfb077ca48f872692ecd69bb23cff6c346e",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-02/6_final.sdc",
+          "uncompressed_sha256": "45cef8d44098ceb857c66e0014e638ad7bf7a39fb258669b327dd4ee2b60953b",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-02/6_final.spef.gz",
+          "uncompressed_sha256": "0c1f33c09311093e5c3d5854076ed6d1eb09fbea567534a07eca5a091d6ca2cc",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-03": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-03/completion.json",
+        "sha256": "9766bbf91d12488a8d1f40d4dc2f7b07f5b348be49fd91be7ee4d3656777b641"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-03/6_final.def.gz",
+          "uncompressed_sha256": "cae71855b6ace15fac98f77f2d7c969a74c45f6918c6a7266b015b613d242c95",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-03/6_final.v.gz",
+          "uncompressed_sha256": "74643a1ca84b0d210ca99302a768a8f814d5f8ee15a02c5f9c44b152d1481c7d",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-03/6_final.sdc",
+          "uncompressed_sha256": "639ae651c7aa8c1408f1ef523674fe7c6550ad53d5f6110094550ef2be99e5ed",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-03/6_final.spef.gz",
+          "uncompressed_sha256": "a50dfa35f927973fdc1a70b3bff66796dc1c81853aa7008945c714f0ce4e3087",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-04": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-04/completion.json",
+        "sha256": "3e091ff5d7b73b3765e3f1b419cd941993bd50635c9e3574db255016cc137a32"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-04/6_final.def.gz",
+          "uncompressed_sha256": "04e92c4f209e8c3b312e6439dc03345f437b3080e817cc6aa0c1454119e30ac1",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-04/6_final.v.gz",
+          "uncompressed_sha256": "c7d445889af8f972a8a0c5b2850573b5f23238d4cb696d6f8323269577afe785",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-04/6_final.sdc",
+          "uncompressed_sha256": "2406ad9e94997c6184f9717b2dcf2ea69a578a624c0a0e457a3b317463896572",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-04/6_final.spef.gz",
+          "uncompressed_sha256": "2e989228f403889839aca3bc3aa5009e2a18be3b60016cf23e86e6a2650fd736",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-05": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-05/completion.json",
+        "sha256": "88d459ec0d4b4234d64b3b1509d5e390e3a36bf3c01db1b50fe01058af816b8b"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-05/6_final.def.gz",
+          "uncompressed_sha256": "bc608d811278fa624bdb0053cccb07258246e081298c16f6a5dc17ae0992f711",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-05/6_final.v.gz",
+          "uncompressed_sha256": "25862a5b40f02267bf331d6556e58d97394de2c4756d2f15d9cf8c4006c843bb",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-05/6_final.sdc",
+          "uncompressed_sha256": "61d80178acc5e62d96859a555b7f0e9aaa1781155702c0af9e054c591410080f",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-05/6_final.spef.gz",
+          "uncompressed_sha256": "d38f69dc169ad15c660805c3a7be38bf42b6a79842e49626dc93e1eeb390415d",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-06": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-06/completion.json",
+        "sha256": "c379bbd970c4178b1e3fbf533101ca7639f264128ee730ac8794230e9deded1b"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-06/6_final.def.gz",
+          "uncompressed_sha256": "14baed5c0e9df474e275df73e662dab8da60789d5347596b0a76467f3eae0549",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-06/6_final.v.gz",
+          "uncompressed_sha256": "a41c0e0dc612438a11bfc82e91f71284616a29e284f8d631305fdb03febf40e4",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-06/6_final.sdc",
+          "uncompressed_sha256": "e5fa3d04012652afc0ace0c942686b99969d4f1298777ef1d6f94c9a76ba2c35",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-06/6_final.spef.gz",
+          "uncompressed_sha256": "1f4fb4bef41a5db20b3aa902ce73d1eab5405dba6d009dd3d9bf0676bc322514",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-07": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-07/completion.json",
+        "sha256": "0fceb8f481f93c5c69e9713f72c220beadf2cfca41d03c1ee393fbccebe62150"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-07/6_final.def.gz",
+          "uncompressed_sha256": "6071b3a22b82d597c9fb4a6973c01ad96213ce4c057d8aca9414cbd946272494",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-07/6_final.v.gz",
+          "uncompressed_sha256": "f5d08a43bc9d04d182e668437819dfce98126ca44fbcf07cbdf62b3f3cf270c9",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-07/6_final.sdc",
+          "uncompressed_sha256": "91cf41cee5baf78361e262a099a30ccad4ce12baba8488dfe3ed40260ca8523a",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-07/6_final.spef.gz",
+          "uncompressed_sha256": "e7a890195d01233185a526853c071a62d68b7fa83e30d35dea7f164b0cb508ee",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-08": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-08/completion.json",
+        "sha256": "bea5e88af01e14a0df176db0d571897bb42449cfda46a4f720ec7cc5b9ccb74d"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-08/6_final.def.gz",
+          "uncompressed_sha256": "808dbb6a787b3c7b12f5649e0ad2a54c54690e08adf0ce5b8e3dbb265222d4b3",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-08/6_final.v.gz",
+          "uncompressed_sha256": "a1a33626353394449b488a8808209c23486a7cbeec36b72a1ed9858a9323f0ea",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-08/6_final.sdc",
+          "uncompressed_sha256": "8f06602677d77a199abb7e3f092ab561aaff4b7c1914846b7f06469b283129a0",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-08/6_final.spef.gz",
+          "uncompressed_sha256": "de52ec898a2f27d1c836a65e3333840c9a7aab68dd8df0f1877706c18a23a2d6",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-09": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-09/completion.json",
+        "sha256": "ca7251dabeccb73c36738da52ad79548526a0cc6dac1048da187de9308e5a694"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-09/6_final.def.gz",
+          "uncompressed_sha256": "cc827498e6cb34a55e6af725e2cefe06d3834d389f70e529834d0f55e44e6d05",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-09/6_final.v.gz",
+          "uncompressed_sha256": "2d0acd6c6d41b4f689060ec8e3196cc2a209434044d38d834f713ef0d304e98b",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-09/6_final.sdc",
+          "uncompressed_sha256": "1fb10023bc21516c77af8dd85fdb6860ef890a38770747673719f0c30f60b0cb",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-09/6_final.spef.gz",
+          "uncompressed_sha256": "0ff2adeea6b00412234c234b1c6c2509c9ca5d5946762433709a77558a069c74",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-10": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-10/completion.json",
+        "sha256": "d328ebd8d04062868dffb97f5a74bc8e9129797e8814cbe85b4d51d771b8d7fb"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-10/6_final.def.gz",
+          "uncompressed_sha256": "7c3ad287d0724ef8aeee406c83e3f9211e0244d46cfa6a6bf37fb7252877e9b3",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-10/6_final.v.gz",
+          "uncompressed_sha256": "37e388d9d3749c5f163cb0f71d8f140e60e1fd42400f44cffa640fccb3327990",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-10/6_final.sdc",
+          "uncompressed_sha256": "880fa1594263d5198f50a703afc4af556b69f817fd4f214c1621756c2c28e7c6",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-10/6_final.spef.gz",
+          "uncompressed_sha256": "079053041c46cc89e165c910f7f40e906ba4fbd311093bcf227785c61925d918",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-11": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-11/completion.json",
+        "sha256": "3c1ed4a281dfd39258a11c0f99ed12d73e928954be2f6b980b7d895656c62e2b"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-11/6_final.def.gz",
+          "uncompressed_sha256": "4d8b2ac5153074479d1fd6bc5cc2a9be7cf135079dac4cabe975c04d7531e3a1",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-11/6_final.v.gz",
+          "uncompressed_sha256": "7a40ed6a75d5d53fe27fbcca0248c8701ed31e70401dba886907652a4e7c86b3",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-11/6_final.sdc",
+          "uncompressed_sha256": "f74eb23a063a1a104be0500207db06eaa5a73209633ea11dc450476fc0544872",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-11/6_final.spef.gz",
+          "uncompressed_sha256": "e0ee73439642941d6c80b498dcbbf8a567c2dc8eedcf2aa2bf00ada1ab85061d",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-12": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-12/completion.json",
+        "sha256": "416a97eeaf4b1ebc20f1f8b1a1fa91a81fdcc83f4b13e0bbbba71ae3b7b380dc"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-12/6_final.def.gz",
+          "uncompressed_sha256": "0e8a7b11cd902bbb372b5f631626bc382cf2447ee0da79813ecd81a2016cf4a6",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-12/6_final.v.gz",
+          "uncompressed_sha256": "6189a8827358b85aa7e8c07add7fead148f08d00510377d6711d9923869b3e59",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-12/6_final.sdc",
+          "uncompressed_sha256": "44f0063bc9ad89da7cf46173f105d84339df741628be5b04b85c745e2d7118ca",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-12/6_final.spef.gz",
+          "uncompressed_sha256": "65ed11ab5695b8a6c28eabd87c5e28ed66f8e00fbcc016e2213b60b9dc8988cc",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-13": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-13/completion.json",
+        "sha256": "cd287ace3d1c028e8af2e1703374cb698a8878c5129a469d3a5c55f7daf697bc"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-13/6_final.def.gz",
+          "uncompressed_sha256": "8a4c900f8198f5522dc0a01955103fd592538dc70732aa2d75f21f54991dd9bc",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-13/6_final.v.gz",
+          "uncompressed_sha256": "98f56cf343161b22f34882e67beecdcd0bddd5c53d278042f25c6dd4d2ced63c",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-13/6_final.sdc",
+          "uncompressed_sha256": "da4f652dc86af64b30cea9d617a3acf22ca6f04a62817a741e8a60c0856c5738",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-13/6_final.spef.gz",
+          "uncompressed_sha256": "9f87051d7eee97030b3ef006c776ddc7c5cbb7c9cbb7222accc77eeadfe61210",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-14": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-14/completion.json",
+        "sha256": "7dfbe3360e79d64ad45c0e776cf6f637bad0b8bfd68837c52125532bdda136c2"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-14/6_final.def.gz",
+          "uncompressed_sha256": "e85ac43aa14c739ce5ad4fa3ac876316e2f3334e4a77721f0a794bc18ade768e",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-14/6_final.v.gz",
+          "uncompressed_sha256": "a41acc0c537ff67d1e0a3c4c5bc4dd8fb3ac69d27357db410ea29da1821dae9c",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-14/6_final.sdc",
+          "uncompressed_sha256": "b657d92902f0730e9d5c6a0e65b173ec88faf56a99474c89ee2f21527af6bea3",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-14/6_final.spef.gz",
+          "uncompressed_sha256": "49b5f8ce656bc60183d50c16475baa878a51e461d51d650996ff4f19fd9ef9d1",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-15": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-15/completion.json",
+        "sha256": "c08c874390bae880026e2d56eae57a49c9a2386353b056e2c95067ab3ca7ce5c"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-15/6_final.def.gz",
+          "uncompressed_sha256": "c2ae0dbbfd649183d48bf0e9cb5115c11fd9d45f52c909199d0894f865625c73",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-15/6_final.v.gz",
+          "uncompressed_sha256": "b304f79e0f1edb2b1ce6798cc5ea5605b7645eda851961b8cb6fab72dc2b7722",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-15/6_final.sdc",
+          "uncompressed_sha256": "22f8892b8f58e0baad17b5f9321035fd3593ccd425cbcee3dcb0c38791c4714e",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-15/6_final.spef.gz",
+          "uncompressed_sha256": "84f1ce0942e4d8830326c92c98cf19ac379fd2935d3885fad36a6d9849c0404e",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-16": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-16/completion.json",
+        "sha256": "397b8d06e3c00de41b799bd8db9ed2a47ef0709d96e7c2e9b0efe9bab165ae39"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-16/6_final.def.gz",
+          "uncompressed_sha256": "9b3389f5779a498117e353e2a84e30b50a98d75e513b244031c861a12193d96a",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-16/6_final.v.gz",
+          "uncompressed_sha256": "563c38e971b1eee07a55367e26def845f72c5ced8fcafdc9353d0202fc52dbc2",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-16/6_final.sdc",
+          "uncompressed_sha256": "99b0c212455f6be1241e2165a84cb2c71cec3d4b5176295124479086ef8341dc",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-16/6_final.spef.gz",
+          "uncompressed_sha256": "6a2faf2ee7b9433eb6727fefd6be776b7942be3b4aa8194b0e0aa0b34fd3b6aa",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-17": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-17/completion.json",
+        "sha256": "5e9f72ad0cc68a836ebf950d4247839c5b482f4c2abef4f2395bb3267accf5c5"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-17/6_final.def.gz",
+          "uncompressed_sha256": "b21970d667a373376d6e0924a8347c346716f1d1d811a109fc71fc445f06dd5d",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-17/6_final.v.gz",
+          "uncompressed_sha256": "7322a77234c13e99af90bdae80c3385d06f7aa3d9da7f74bf87a64513fb2e30e",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-17/6_final.sdc",
+          "uncompressed_sha256": "fa04c7274b509801dc02cda1a56f3e1398e24de6175f93f78783153f56825b50",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-17/6_final.spef.gz",
+          "uncompressed_sha256": "e92061a3a2672368a6a262ed56ca0df4f59fddd46a55492c1715f069bf571afc",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-18": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-18/completion.json",
+        "sha256": "86f1f688957c835a6d3eb8d87601bdaaf31b8f55bf07609e21e074dcdb39ee90"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-18/6_final.def.gz",
+          "uncompressed_sha256": "9ecfd82ca5bbd760199ea38f3fb59edfd7f65bb726fdb51b29aefcf0ac96ef8f",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-18/6_final.v.gz",
+          "uncompressed_sha256": "078d56e3763f49a919175c2a723a52bb08c6174699419997924e2b8b4517941f",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-18/6_final.sdc",
+          "uncompressed_sha256": "8fdb3dda2c5542bace5fb1552de630c600903d5ade779de679627a9102774436",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-18/6_final.spef.gz",
+          "uncompressed_sha256": "63ec67f39ee22159475448e1702e4128995ce5404c2a40304ba9af9647670657",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-19": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-19/completion.json",
+        "sha256": "46a81698e436da55869d416d6eca9966efb095c25a051c8aa56cb3f4c67ec2db"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-19/6_final.def.gz",
+          "uncompressed_sha256": "eddb61eb320aa56a9adae227f81dbe3493c9f0c94afddd09473692759cfda8ec",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-19/6_final.v.gz",
+          "uncompressed_sha256": "fff18b3665590e9e218236adcc168c0020e837246d58c5f261a8f6bfebec1c7e",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-19/6_final.sdc",
+          "uncompressed_sha256": "44cc98500c8607a0fd03bab193532b6a5fa6528686a4695318a00b9c04be5870",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-19/6_final.spef.gz",
+          "uncompressed_sha256": "866654d22a31c4aec82abe22117bc465f30a59c252a8c9b5d69a9d6ced317238",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-20": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-20/completion.json",
+        "sha256": "a7643e217228ded5d5628fe07ab6f3ab97c938c443b1ca89e584ee213bd286e0"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-20/6_final.def.gz",
+          "uncompressed_sha256": "88edcc64937368fed085943be245974260a0189d2c018c30b5cc034f322d3765",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-20/6_final.v.gz",
+          "uncompressed_sha256": "0f8aee257882bf5ef73ca9ed3d0b49f8b6624ac75cc756bd23c5e7fcd4a484dd",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-20/6_final.sdc",
+          "uncompressed_sha256": "296a73724a090303962fafda1741b02cd5b9ebd2256531ca3800e58b4ccad0d2",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-20/6_final.spef.gz",
+          "uncompressed_sha256": "d6ac6b5959dcbf15507ce2b7506a394ce9b6713c569e1733f286a5c1b1fc3eb8",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-21": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-21/completion.json",
+        "sha256": "9c05dd506919081bdff22aa678b20ddd9304cf2fd44d3b459730c2e41a86d5aa"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-21/6_final.def.gz",
+          "uncompressed_sha256": "97e863bc383e0dc927ef63369f40da4cda75e5c90dbf3d4df9354279b1471927",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-21/6_final.v.gz",
+          "uncompressed_sha256": "bdfbdf2b9439f7963ce8439b3aba3fd10657ccbc9c44ec1e425cd312d621e2a1",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-21/6_final.sdc",
+          "uncompressed_sha256": "a1d2e101ff4bd7d552cc575154fccb3f169f95b4717ec60838be09a8c10142e1",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-21/6_final.spef.gz",
+          "uncompressed_sha256": "fa826cb98c1ed65e4b1b7a4268543ab476bcb1cac420d91ebb400e9180ede29d",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-22": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-22/completion.json",
+        "sha256": "3d37f0b06901b494f6b1555f5514a3c08f623e44cc9f6279447c70d8bd51c76f"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-22/6_final.def.gz",
+          "uncompressed_sha256": "ab8c20e2a2f0b1d9294cd065aab5cf22c75da6dec38289460599b2a0305ffd89",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-22/6_final.v.gz",
+          "uncompressed_sha256": "7404399f9e86efbcfd5076d48c4f160e23b8928602303d659e3e50c6913d34d7",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-22/6_final.sdc",
+          "uncompressed_sha256": "19dcce4f95ca06acb25ee7a9b72f9d4e09a428bd8a350887b55ed9d299e20339",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-22/6_final.spef.gz",
+          "uncompressed_sha256": "23cf60b71336ba270004aaa8fe9867c73fb1d680788e41d0f9ed53b1182d088f",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-23": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-23/completion.json",
+        "sha256": "43baeb912441e520140df36dfc1939f396072e09b62876e33923f30e9611cb50"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-23/6_final.def.gz",
+          "uncompressed_sha256": "0e5ef7a7e576c0d2ed1fd720fc42af4f7bdd7bdf1a986563d3828413ea51fb47",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-23/6_final.v.gz",
+          "uncompressed_sha256": "3794c89366d3c9438931b6084dbaeac2760c2d069c249d2e1d4454593bdf9a14",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-23/6_final.sdc",
+          "uncompressed_sha256": "276e08dcc85c01bb50c5aebdee0ec66d76f4657fdd69237d844e04368b4511f0",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-23/6_final.spef.gz",
+          "uncompressed_sha256": "835387969efac56412b2977456a95f5ca9792f2d560c72d6f5e75b5cf329e2b9",
+          "matches": true
+        }
+      }
+    },
+    "rom-bank-24": {
+      "status": "ROM_BANK_PHYSICAL_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-24/completion.json",
+        "sha256": "593be8fe8c3336f4c20cb58ad108844a3dc06991494adaee1f8b200cc6a6bbd2"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-24/6_final.def.gz",
+          "uncompressed_sha256": "79e6795a46fff6859f86fc6bca2ea0c05fc7c071de1d408ea9d59698ec98c0a1",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-24/6_final.v.gz",
+          "uncompressed_sha256": "ff26b3afb775b0a4090c7cd18c0ad1b4c7ba31b97025a092cecd153b0e771d04",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-24/6_final.sdc",
+          "uncompressed_sha256": "be1b9ef7ab20da73f8fd7c717ab40caee8b7d5ff0afd4dc96f0bddc78d173b6a",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/rom-bank-24/6_final.spef.gz",
+          "uncompressed_sha256": "0e56b9fd542c0289307c506be2b99242b04bd263729ec0e5f2b3d9dc8b287e8e",
+          "matches": true
+        }
+      }
+    },
+    "top": {
+      "status": "PLATFORM_PHYSICAL_ROUTE_STAGE_PASS",
+      "completion": {
+        "path": "student-mini-v1-cpu-gpu/physical/cpu/top/completion.json",
+        "sha256": "f7d3e3f1d0c18ba3e0d0c8e8ff916559d2c25707c93cc218e750ffd276d64d71"
+      },
+      "checked_artifacts": {
+        "6_final.def": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/top/6_final.def.gz",
+          "uncompressed_sha256": "255dfb686ab3dac88cacb2effdb99915008aeab1fb7210d06ac1240ea372fd42",
+          "matches": true
+        },
+        "6_final.v": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/top/6_final.v.gz",
+          "uncompressed_sha256": "61fae7826ea8a187a77044acdb06fa795c14851279d8ad6025fdc05ecaeeb32a",
+          "matches": true
+        },
+        "6_final.sdc": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/top/6_final.sdc",
+          "uncompressed_sha256": "27c0ce337f21a5c6fa8ff1f2cb803fb8c3a810fbeb55cadd757d4e1425addd6f",
+          "matches": true
+        },
+        "6_final.spef": {
+          "artifact": "student-mini-v1-cpu-gpu/physical/cpu/top/6_final.spef.gz",
+          "uncompressed_sha256": "c3041d08237fe8d999bbb5c8c17598916f4ea3f475430d1fafbbb97dee42ba78",
+          "matches": true
+        }
+      }
+    }
+  }
+}

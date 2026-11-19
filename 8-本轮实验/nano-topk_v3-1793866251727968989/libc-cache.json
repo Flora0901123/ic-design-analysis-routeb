@@ -1,0 +1,19 @@
+{
+  "scope": "standard-library cache; flags and generated headers identical after normalizing output paths and timestamp comments only; BIOS rebuilt and target rerun",
+  "origin": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/nano-topk-1793255650650794953/soc/software/libc",
+  "normalized_header_hashes": {
+    "generated/csr.h": "9f2c416f219b7839153e8f1b5562bcdb72c1e1d888e650703de0447187c4d2a3",
+    "generated/git.h": "dbefa73ed01fab232aebee489ff1673dfc2c0e9c7a9768182331aae963bf03ed",
+    "generated/mem.h": "d356e9b866c82340dd83da15a0dd2c98439b002be72eeb79da3d7fc2b4df8838",
+    "generated/output_format.ld": "14009799501c0b832653a9a146767576a62a6df1266dbdb8b2b224f111c74422",
+    "generated/regions.ld": "0b0174fe731ca3c04321193e7427ba3c9b586d2285f6d938a4ce52782b0539a3",
+    "generated/sdram_phy.h": "1329d3db4cfd48eb8027ecc177d7337b48979f6190e37afe8733ed5b4dbe7e1c",
+    "generated/soc.h": "c3114e451ded08756a74e8cde0bb624a5278e8360f6ea4c8cbbe4e3a378cb475"
+  },
+  "files": {
+    "__libc.a": "7b7183ee9eabc05c4032dbeb7cb88a7e716518ab5be1dd71633e78b333aae293",
+    "_libc.a": "22c5f1afb90533065f17bba4fe9120e6f6fa26a773cfcc76cb3c63031a6b4d2d",
+    "libc.a": "22c5f1afb90533065f17bba4fe9120e6f6fa26a773cfcc76cb3c63031a6b4d2d",
+    "picolibc.h": "b395c1dd63853dd67fd3a4f226112d0c55b3ed214b9d721a98e88d7be24e48f2"
+  }
+}

@@ -1,0 +1,116 @@
+{'validated_saved': 0}
+{'candidate_records': 10}
+{'candidate_records': 20}
+{'candidate_records': 30}
+{'candidate_records': 40}
+{'candidate_records': 50}
+{'candidate_records': 60}
+{'candidate_records': 70}
+{'candidate_records': 80}
+{'candidate_records': 90}
+{'candidate_records': 100}
+{'candidate_records': 110}
+{'candidate_records': 120}
+{'candidate_records': 130}
+{'candidate_records': 140}
+{'candidate_records': 150}
+{'candidate_records': 160}
+{'candidate_records': 170}
+{'candidate_records': 180}
+{'candidate_records': 190}
+{'candidate_records': 200}
+{'candidate_records': 210}
+{'candidate_records': 220}
+{'candidate_records': 230}
+{'candidate_records': 240}
+{'candidate_records': 250}
+{'candidate_records': 260}
+{'candidate_records': 270}
+{'candidate_records': 280}
+{'candidate_records': 290}
+{'candidate_records': 300}
+{'candidate_records': 310}
+{'candidate_records': 320}
+{'candidate_records': 330}
+{'candidate_records': 340}
+{'candidate_records': 350}
+{'candidate_records': 360}
+{'candidate_records': 370}
+{'candidate_records': 380}
+{'candidate_records': 390}
+{'candidate_records': 400}
+{'candidate_records': 410}
+{'candidate_records': 420}
+{'candidate_records': 430}
+{'candidate_records': 440}
+{'candidate_records': 450}
+{'candidate_records': 460}
+{'candidate_records': 470}
+{'candidate_records': 480}
+{'candidate_records': 490}
+{'candidate_records': 500}
+{'candidate_records': 510}
+{'candidate_records': 520}
+{'candidate_records': 530}
+{'candidate_records': 540}
+{'candidate_records': 550}
+{'candidate_records': 560}
+{'candidate_records': 570}
+{'candidate_records': 580}
+{'candidate_records': 590}
+{'candidate_records': 600}
+{'candidate_records': 610}
+{'candidate_records': 620}
+{'candidate_records': 630}
+{'candidate_records': 640}
+{'candidate_records': 650}
+{'candidate_records': 660}
+{'validated_saved': 668}
+{'candidate_records': 670}
+{'candidate_records': 680}
+{'candidate_records': 690}
+{'candidate_records': 700}
+{'candidate_records': 710}
+{'candidate_records': 720}
+{'candidate_records': 730}
+{'candidate_records': 740}
+{'candidate_records': 750}
+{'candidate_records': 760}
+{'candidate_records': 770}
+{'candidate_records': 780}
+{'candidate_records': 790}
+{'candidate_records': 800}
+{'candidate_records': 810}
+{'candidate_records': 820}
+{'validated_saved': 820}
+{'candidate_records': 830}
+{'candidate_records': 840}
+{'candidate_records': 850}
+{'candidate_records': 860}
+{'candidate_records': 870}
+{'candidate_records': 880}
+{'candidate_records': 890}
+{'candidate_records': 900}
+{'candidate_records': 910}
+{'candidate_records': 920}
+{'candidate_records': 930}
+{'candidate_records': 940}
+{'candidate_records': 950}
+{'candidate_records': 960}
+{'candidate_records': 970}
+{'candidate_records': 980}
+{'candidate_records': 990}
+{'candidate_records': 1000}
+{
+  "status": "FULL_1000_CANDIDATE_BOARD_COLLECTED_NOT_PROMOTED",
+  "variant": "descriptor-dispatched combined candidate",
+  "expected_records": 1000,
+  "official_weights": null,
+  "formal_promotion": "HOLD",
+  "formal_score_eligible": false,
+  "teacher_physical_identity": false,
+  "elapsed_seconds": 4215.2235030189995,
+  "cycle_regressions_over_5_percent": [],
+  "official_weighted_gain": null,
+  "official_weighted_gain_reason": "Actual frozen weights not provided; no fabricated equal-weight score"
+}

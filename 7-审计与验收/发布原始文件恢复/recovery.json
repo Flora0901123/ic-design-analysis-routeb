@@ -1,0 +1,7 @@
+{
+  "path": "sources/integration/litex/bios/Makefile",
+  "expected_sha256": "b47564c5ad430b1d83a8b85174aa70e9d9aa1129f85584a00a1873f09315093f",
+  "as_received_sha256": "9a17ac0d6e82ebc8344704d35f5b7bd9d29aa7b1dd331f70023ec01072e7aa45",
+  "canonical_recovered": true,
+  "method": "remove previously inserted compatibility lines only; accept solely on exact original published SHA; original teacher file untouched"
+}

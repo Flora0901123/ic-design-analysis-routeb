@@ -1,0 +1,30 @@
+"""Independently seal only a fully completed, same-hardware baseline replay."""
+from pathlib import Path
+import json,hashlib,re,sys,collections,shutil
+from qualification_resource_guard import prepare,join,snapshot
+prepare();join()
+R=Path(__file__).resolve().parents[1];O=R/'8-本轮实验/GPU同硬件全1000-20261108';D=R/'9-GPU复现/整机DMA重建';S=R/'student-mini-v1-cpu-gpu/sources';sys.path.insert(0,str(S));from scripts.assemble_student_mini_gpu_results import parse
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();state=json.loads((O/'status.json').read_text());assert state['status']=='SAME_HARDWARE_1000_NUMERIC_STATUS_PASS','full replay is not complete';assert len(state['records'])==1000 and {x['ordinal'] for x in state['records']}==set(range(1000))
+if (O/'验收结论.json').exists():
+ existing=json.loads((O/'验收结论.json').read_text());assert existing['status']=='SAME_HARDWARE_1000_REPLAY_INDEPENDENTLY_SEALED' and existing['status_sha256']==sha(O/'status.json');saved_manifest=json.loads((O/'evidence-sha256.json').read_text());assert all(sha(O/p)==h for p,h in saved_manifest.items());print('existing immutable 1000 seal reverified; not rewritten');raise SystemExit(0)
+Gfile=S.parent/'data/golden/vectors.jsonl';assert sha(Gfile)==state['golden_sha256'];G=[json.loads(s) for s in Gfile.read_text().splitlines()];assert len(G)==1000
+trace=json.loads((D/'trace-build/completion.json').read_text());assert state['bindings']==trace['new_bindings'];assert all(sha(Path(p))==h for p,h in state['bindings'].items());W=Path(trace['work']);rows=[];case_seeds=collections.defaultdict(set);operators=collections.Counter();statuses=collections.Counter();faults=0;digests={}
+for x in sorted(state['records'],key=lambda x:x['ordinal']):
+ i=x['ordinal'];g=G[i];f=O/f'{i:04d}.log';assert sha(f)==x['log_sha256'];text=f.read_text();lines=[l for l in text.splitlines() if l.startswith('STUDENT_GPU ')];assert len(lines)==1 and lines[0].startswith(f'STUDENT_GPU ordinal={i} ') and f'STUDENT_GPU_COMPLETE start={i} count=1' in text
+ a=parse(lines[0].replace(f'ordinal={i} ','ordinal=0 ',1)+'\nSTUDENT_GPU_COMPLETE start=0 count=1\n',1)[0];reads=re.findall(r'STUDENT_GPU_DEVICE_STATUS fault=([01]) busy=([01])',text);assert reads and all(b=='0' for fault,b in reads);fault=any(v=='1' for v,b in reads)
+ if fault:
+  assert a['actual_status']=='UNSUPPORTED_BUS_INJECTION';a['actual_status']='BUS_ERROR';assert sha(f)==sha(D/'whole-gpu-runs'/f'{i:04d}.log'),'fault witness differs from independently qualified real DMA transcript';faults+=1
+ e=g['golden'];assert a['actual_status']==e['expected_status'] and a['actual_bits']==e['output_bits'],('exact output/status mismatch',i)
+ if e['output_values'] and g['case']['operator']=='p1':assert a['selected']==[n for ids in e['selected_token_ids'] for n in ids]
+ if 'primitive_witness_result' in e:assert a['primitive']==e['primitive_witness_result'],('primitive witness mismatch',i)
+ perf=re.findall(r'^PERF: instrs=(\d+), cycles=(\d+), IPC=',text,re.M);assert len(perf)==1 and (int(perf[0][0]),int(perf[0][1]))==(x['instructions'],x['cycles']) and x['cycles']>0;assert x['numeric_status_match']
+ case_seeds[g['case']['id']].add(g['seed']);operators[g['case']['operator']]+=1;statuses[e['expected_status']]+=1;digests[f.name]=sha(f);rows.append({'ordinal':i,'case_id':g['case']['id'],'seed':g['seed'],'exact_bits_status_selected_and_primitive_pass':True,'device_fault':fault,'cycles':x['cycles'],'instructions':x['instructions'],'log_sha256':sha(f)})
+assert len(case_seeds)==100 and all(v==set(range(1,11)) for v in case_seeds.values());assert faults==30;assert operators=={'p1':330,'p2':340,'p3':330}
+B=O/'replay-source-and-binary';B.mkdir(exist_ok=True)
+for name in ['student_mini','student_mini.cu','device_compat.cc','device_compat.o','Makefile','run-command.sh','common.h']:shutil.copy2(W/name,B/name)
+for name in ['libvortex.so','librtlsim.so','libvortex-rtlsim.so']:shutil.copy2(W/'vortex-build/sw/runtime'/name,B/name)
+for name in ['run_gpu_same_hardware_1000.py','run_gpu_same_hardware_1000_parallel.py','qualification_resource_guard.py','restore_locked_host_cache.py']:shutil.copy2(R/'7-审计与验收'/name,B/name)
+shutil.copy2(S/'software/include/numeric_luts.h',B/'numeric_luts.h');shutil.copy2(D/'project-banked.v',B/'project-banked.v');shutil.copy2(D/'staged-openram-banked-manifest.json',B/'staged-openram-banked-manifest.json');shutil.copytree(D/'models',B/'models',dirs_exist_ok=True)
+meta=json.loads((W/'build.json').read_text());inputdir=Path(meta['input_directory'].replace('/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付',str(R)));shutil.copy2(inputdir/'inputs.bin',B/'inputs.bin');assert (B/'inputs.bin').stat().st_size==1936*1000
+(O/'independent-records.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2));digests.update({p.relative_to(O).as_posix():sha(p) for p in B.rglob('*') if p.is_file()});digests['status.json']=sha(O/'status.json');digests['independent-records.json']=sha(O/'independent-records.json');(O/'evidence-sha256.json').write_text(json.dumps(digests,ensure_ascii=False,indent=2))
+result={'status':'SAME_HARDWARE_1000_REPLAY_INDEPENDENTLY_SEALED','records':1000,'cases':100,'seeds_per_case':10,'per_operator_records':dict(operators),'expected_status_counts':dict(statuses),'real_DMA_fault_records':faults,'exact_numeric_status_selected_primitive_pass':1000,'all_positive_target_counter_records':1000,'target_bindings':state['bindings'],'status_sha256':sha(O/'status.json'),'golden_sha256':sha(Gfile),'hardware_identity':state['hardware_identity'],'formal_baseline':False,'teacher_physical_identity':False,'all_software_variants_qualified':False,'formal_promotion':'HOLD','resource_scope':'new resumed records guarded; historical unguarded records not retrospectively qualified','resources':snapshot()};(O/'验收结论.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in result.items() if k not in ['resources','target_bindings']},ensure_ascii=False,indent=2))

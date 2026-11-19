@@ -1,0 +1,59 @@
+{
+  "status": "FAILED",
+  "variant": "baseline",
+  "requested_variant": "baseline",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "一加一等于几",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "rom_capacity_bytes": 131072,
+  "resource_before": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794284029.9361644,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 253399358\nuser_usec 248602191\nsystem_usec 4797167\nnice_usec 0\nnr_periods 2210\nnr_throttled 162\nthrottled_usec 68699\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "506691584",
+      "memory.peak": "506957824",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "397\n404\n1113\n1114\n1225"
+    }
+  },
+  "comparison_policy": "fresh baseline and candidate on exactly one newly compiled 128KiB ROM RTL model; no historical cycles used",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "verilator_path": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/verilator-5.040/bin/verilator",
+  "verilator_launcher_sha256": "491c95e1a949a3df1f370c9d39318e159d08b246edf4363fb42d05ea88f74dbe",
+  "verilator_version": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "target_fp_flags": [
+    "-ffp-contract=off",
+    "-fno-fast-math"
+  ],
+  "build_jobs": 2,
+  "bios_size_bytes": 46020,
+  "bios_sha256": "a785f1420368fbb5ba5932d17654975dd83fc5a1dbd9b1e8b01d8f71e823a59c",
+  "rom_init_words": 11505,
+  "error": "CalledProcessError: Command '['bash', 'build_sim.sh']' returned non-zero exit status 2.",
+  "resource_final": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794284122.5862978,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 422741520\nuser_usec 411081098\nsystem_usec 11660421\nnice_usec 0\nnr_periods 3212\nnr_throttled 165\nthrottled_usec 69736\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "638722048",
+      "memory.peak": "773996544",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "397\n404\n1225\n1839\n1841"
+    }
+  }
+}

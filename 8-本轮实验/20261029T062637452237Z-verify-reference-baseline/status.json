@@ -1,0 +1,9 @@
+{
+  "action": "verify-reference",
+  "variant": "baseline",
+  "status": "REFERENCE_OFFLINE_VERIFIED",
+  "formal_baseline": false,
+  "promotion": "NOT_EVALUATED",
+  "reference_path": "C:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\6-源码引用\\原始参考包",
+  "scope": "reference package only, no target execution"
+}

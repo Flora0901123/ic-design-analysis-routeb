@@ -1,0 +1,15 @@
+make: Entering directory '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party'
+make -C cocogfx
+make[1]: Entering directory '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party/cocogfx'
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG -MM src/blitter.cpp src/bmp.cpp src/cgltrace.cpp src/imageutil.cpp src/main.cpp src/math.cpp src/png.cpp src/tga.cpp > .depend;
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG   -c -o src/blitter.o src/blitter.cpp
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG   -c -o src/bmp.o src/bmp.cpp
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG   -c -o src/cgltrace.o src/cgltrace.cpp
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG   -c -o src/imageutil.o src/imageutil.cpp
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG   -c -o src/main.o src/main.cpp
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG   -c -o src/math.o src/math.cpp
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG   -c -o src/png.o src/png.cpp
+g++ -std=c++11 -fPIC -Wall -Wextra -Wfatal-errors -Iinclude -O2 -DNDEBUG   -c -o src/tga.o src/tga.cpp
+ar rcs libcocogfx.a src/blitter.o src/bmp.o src/cgltrace.o src/imageutil.o src/main.o src/math.o src/png.o src/tga.o
+make[1]: Leaving directory '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party/cocogfx'
+make: Leaving directory '/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party'

@@ -1,0 +1,35 @@
+{
+  "status": "MACRO_FLOORPLAN_PASS",
+  "physical_signoff": false,
+  "returncode": 0,
+  "seconds": 164.697327362,
+  "macro_count": 164,
+  "macro_area_mm2": 20.0547509296,
+  "die_um": [
+    8000,
+    8000
+  ],
+  "target_ns": 10.0,
+  "preplacement_setup_slack_ns": -7.42,
+  "preplacement_hold_slack_ns": 0.31,
+  "outputs": {
+    "floorplan.odb": "91290fb3a9170a2dbe043f73c3965e4d7f8cf960b3037129a2bc00953ca49b2d",
+    "inputs.json": "4f5a2bd7121289c2ce8ac6c4dfcd0d4077e069b88d071e03ca7d7ceab991978f",
+    "macros.tsv": "6297cb1c4f61e35d211b367fb5a86d4f12bd0509fcbb485f5610aa01b43318b0",
+    "openroad.log": "3b0b573800ec87e092beb18a3f821c0319c8bb04322bd9dd099466937a0f6863",
+    "physical.tcl": "cbd12388fe510fcaee78b836a89f13fe5620d6ba59820f12b8a895e2de69893b"
+  },
+  "independent_geometry_check": "PASS",
+  "macro_counts": {
+    "sky130_sram_1kbyte_1rw1r_8x1024_8": 16,
+    "sky130_sram_1kbyte_1rw1r_32x256_8": 16,
+    "routeb_new_1w1r_8x128": 128,
+    "routeb_new_1w1r_20x64": 4
+  },
+  "peak_resource_scope": "shared qualification cgroup",
+  "limits": {
+    "threads": 2,
+    "cpu.max": "200000 100000",
+    "memory.max": 8589934592
+  }
+}

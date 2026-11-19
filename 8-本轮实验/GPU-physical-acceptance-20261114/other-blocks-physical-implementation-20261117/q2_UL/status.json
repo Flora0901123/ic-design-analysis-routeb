@@ -1,0 +1,40 @@
+{
+  "stages": {
+    "placement": true,
+    "pdn": true,
+    "cts": true,
+    "global_route": true
+  },
+  "physical_signoff": false,
+  "floorplan_sha256": "81854725135addc1e4023f4c54eda52b373c49606ec753ff872dbea42f1a2034",
+  "sdc_sha256": "11fac782aacc37a2e206f08d88b960450fc85825ff269dd4ff7d54547d90503f",
+  "tool_sha256": "fcd7dcfc37d329bd43a7ede75805319a2e70e6879da11d42b4fd1c2e50e645c3",
+  "exit_code": 0,
+  "elapsed_seconds": 170.21660305400007,
+  "inputs": {
+    "run.tcl": "5121e41ec9a195e2c436be9b33154e0c7cebe64f82a25f2897e8cb49e93b058d",
+    "pdn": "41fe35d1de1db5d5d78e857f5bcce998d4e59179f2f371edfa3d48357da88f8b",
+    "macro_power": "45ca6422b37b64ead979beedb0f8e7d50f9414a856e39535b397bfa49c3d54b2",
+    "met5_offset": "4.08"
+  },
+  "outputs": {
+    "global-route.odb": "35b4d73db5d25449af039d37b1019b0f95b5ff127045685fba0824c851266159",
+    "openroad.log": "67725bb2bee4ae3f1496300ab8fdf6045d54e1798d1e527c2c744738334cf66e",
+    "route.guide": "280eab1ed8aa89a79284ff4990b77bd1b2dcd900b77c8fe8d5fe3b80a6cacabc"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794924963.064048,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1913422925\nuser_usec 1862393139\nsystem_usec 51029786\nnice_usec 0\nnr_periods 11110\nnr_throttled 1261\nthrottled_usec 1819616\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "2823254016",
+      "memory.peak": "7727890432",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 1\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "411\n537\n552\n554"
+    }
+  }
+}

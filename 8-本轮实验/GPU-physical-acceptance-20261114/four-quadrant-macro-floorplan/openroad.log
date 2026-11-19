@@ -1,0 +1,26 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: tech.lef, created 13 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file sky130.lef at line 2.
+
+[INFO ODB-0227] LEF file: sky130.lef, created 437 library cells
+[INFO ODB-0227] LEF file: 32x256.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 8x1024.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 8x128.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 20x64.lef, created 1 library cells
+ROUTEB_FOUR_SRAM_VIEWS_OPENROAD_PASS
+ROUTEB_OPENROAD_LINKED_164_MACROS_PASS
+[INFO ORD-0030] Using 2 thread(s).
+[WARNING IFP-0028] Core area lower left (20.000, 20.000) snapped to (20.240, 21.760).
+[INFO IFP-0001] Added 2925 rows of 17303 site unithd.
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 8000.000 8000.000 ) um
+[INFO IFP-0101] Core BBox: ( 20.240 21.760 ) ( 7979.620 7977.760 ) um
+[INFO IFP-0102] Core area:                     63324827.280 um^2
+[INFO IFP-0103] Total instances area:          25366574.139 um^2
+[INFO IFP-0104] Effective utilization:                0.401
+[INFO IFP-0105] Number of instances:                 449167
+[INFO ODB-0303] The initial 2925 rows (50611275 sites) were cut with 164 shapes for a total of 28033 rows (32560881 sites).
+ROUTEB_QUADRANT_MACROS_164_BOUND_AND_PLACED

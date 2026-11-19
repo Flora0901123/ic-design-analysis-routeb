@@ -1,0 +1,76 @@
+{
+  "status": "FOUR_LOCKED_HARDWARE_APPS_BUILT_NOT_QUALIFIED",
+  "hardware_scope": "same macro-bound functional RTL and same production librtlsim.so",
+  "hardware_changed": false,
+  "teacher_physical_identity": false,
+  "formal_performance_board": false,
+  "formal_promotion": "HOLD",
+  "probe_ordinals_registered_before_this_build": [
+    0,
+    100,
+    330,
+    660
+  ],
+  "full_board_scope_proposed": "all 100 original cases x seeds1-10; no cases dropped",
+  "official_frozen_weights": "not supplied; no official weighted score claimed",
+  "records": [
+    {
+      "variant": "baseline",
+      "source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "executable_sha256": "3a8b6c79a58357b31ac33c913004e57ec2d3c2a221753cda23984c3c9f49a51d",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline"
+    },
+    {
+      "variant": "topk",
+      "source_sha256": "73c82f0b3b1afcc5e06fe479e2a526296b116e69311052f31f648fe232bdcaba",
+      "executable_sha256": "ac77e0986b9dedde1ceb7f43ac83c720acec74f018a3e669bbc6159f90e4de06",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk"
+    },
+    {
+      "variant": "rne",
+      "source_sha256": "85dd107390eccb62c0417217bf3e59165363edfe1d41b2a1f58fa44122db48de",
+      "executable_sha256": "5dce4f7556fb6c00046a7b4257f02020eedec3bffcdcc411ae2ba08b3dfbb3eb",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/rne"
+    },
+    {
+      "variant": "combined",
+      "source_sha256": "62797d8a7851fbb025cbc9bde2acd48b39ea9a98c3a41b36dc1e19a610ee126d",
+      "executable_sha256": "9cd7b584b43d05d12ac7f5ca15a382b040b4f220780328dd7a33f7620e7358a9",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "topk",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/combined"
+    }
+  ],
+  "elapsed_seconds": 144.243043746,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794233750.653609,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1082535259\nuser_usec 1064260242\nsystem_usec 18275016\nnice_usec 0\nnr_periods 7273\nnr_throttled 93\nthrottled_usec 109467\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "736411648",
+      "memory.peak": "887586816",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "307\n1913\n2576\n3014\n3043\n3113"
+    }
+  },
+  "target_bindings": {
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sim/rtlsim/processor.cpp": "52b85baac7b18410fa341bce414f8649a74707042d03f7bec78010db69071ca1",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  }
+}

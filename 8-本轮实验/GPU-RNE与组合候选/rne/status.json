@@ -1,0 +1,12 @@
+{
+  "status": "TARGET_EXECUTED",
+  "variant": "rne",
+  "backend": "vortex-simx",
+  "formal_eligible": false,
+  "records_expected": 1000,
+  "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/gpu/ba35df371cb2661cc48ed420ca9fdb20124ef402dc36420b3807f20c7a7e7f4e",
+  "records_observed": 1000,
+  "numeric_matches": 970,
+  "numeric_failures": 0,
+  "unsupported": 30
+}

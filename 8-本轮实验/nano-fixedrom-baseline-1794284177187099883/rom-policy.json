@@ -1,0 +1,6 @@
+{
+  "capacity_bytes": 131072,
+  "bios_bytes": 46020,
+  "auto_size": false,
+  "method": "Builder._initialize_rom_software calls SoC.init_rom(auto_size=False); all source remains private"
+}

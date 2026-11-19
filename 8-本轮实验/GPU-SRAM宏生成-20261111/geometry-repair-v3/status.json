@@ -1,0 +1,18 @@
+{
+  "status": "ISOLATED_GENERATOR_REPAIR_PREPARED",
+  "physical_signoff": false,
+  "candidate_rules": "routing Metal3 spacing 0.400 \u00b5m and larger deep-well moat; stock device sizes",
+  "openram_paths": [
+    {
+      "path": "technology/sky130/tech/tech.py",
+      "original_sha256": "39e7a46f332cd103a726c3c6da373898eeab3e752c1867c1b0d798f859112aae",
+      "candidate_sha256": "1fced14c0be6b9110330c19dc127a7b7cf000235a20c17dc8a6e7964999b9125"
+    },
+    {
+      "path": "compiler/modules/sram_1bank.py",
+      "original_sha256": "2758d4b0bb01ba9935effe8b8c5ff09e401c4a1919d764386a7e8a107bf0df20",
+      "candidate_sha256": "11d80874ebd9ae3db36b5d0b921efe287bfc8f493e7a7867f8ef5b449c7ac507"
+    }
+  ],
+  "script_sha256": "5544367d5e0c0c14f570f1c15aa523c4afed2a843117c14bc646831597a1edbf"
+}

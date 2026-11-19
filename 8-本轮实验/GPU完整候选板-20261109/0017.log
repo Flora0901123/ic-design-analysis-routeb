@@ -1,0 +1,997 @@
+ROUTEB_DISPATCH requested=combined op=1 selected=combined reason=operator-only-no-oracle
+CHIP info [TID 30020] [1794303451.762697634] : CHIP_PLATFORM=0
+CHIP info [TID 30020] [1794303451.764944695] : CHIP_DEVICE_TYPE=gpu
+CHIP info [TID 30020] [1794303451.767097625] : CHIP_DEVICE=0
+CHIP info [TID 30020] [1794303451.769071831] : CHIP_BE=default
+CHIP info [TID 30020] [1794303451.771038398] : CHIP_DUMP_SPIRV=off
+CHIP info [TID 30020] [1794303451.773758779] : CHIP_RTC_SAVE_TEMPS=off
+CHIP info [TID 30020] [1794303451.777173871] : CHIP_JIT_FLAGS_OVERRIDE=
+CHIP info [TID 30020] [1794303451.778261185] : CHIP_L0_COLLECT_EVENTS_TIMEOUT=0
+CHIP info [TID 30020] [1794303451.779249123] : CHIP_L0_EVENT_TIMEOUT=0
+CHIP info [TID 30020] [1794303451.780305527] : CHIP_SKIP_UNINIT=off
+CHIP info [TID 30020] [1794303451.784013759] : CHIP_LAZY_JIT=on
+CHIP info [TID 30020] [1794303451.785463885] : CHIP_OCL_DISABLE_QUEUE_PROFILING=off
+CHIP info [TID 30020] [1794303451.787168063] : CHIP_OCL_USE_ALLOC_STRATEGY=off
+CHIP info [TID 30020] [1794303451.788656655] : CHIP_MODULE_CACHE_DIR=/root/.cache/chipStar
+CHIP info [TID 30020] [1794303451.790568036] : CHIP_DUMP_PROCESSED_SPIRV=off
+CHIP debug [TID 30020] [1794303451.793040939] : CHIPDriver Initialize
+CHIP debug [TID 30020] [1794303451.794275891] : CHIPBE=default... trying OpenCL Backend
+CHIP info [TID 30020] [1794303452.140886115] : OpenCL Devices of type gpu with SPIR-V_1 support across all platforms:
+Platform 0: Vortex OpenGPU  is supported.
+
+CHIP warning [TID 30020] [1794303452.143360448] : The device might not support subgroup size 32, warp-size sensitive kernels might not work correctly.
+DMA_BUFFERS input=10840 bytes=1936 output=12040 result_size=88
+warning: overriding the module target triple with riscv32-unknown-unknown-elf [-Woverride-module]
+1 warning generated.
+CHIP info [TID 30020] [1794303455.003648354] : clProgramBuild took 2.83836 seconds
+CHIP info [TID 30020] [1794303455.006794628] : Loaded from cache, kernel compilation took 2.84182 seconds
+CHIP info [TID 30020] [1794303455.011584940] : Module compilation took 2846582 microseconds
+CHIP info [TID 30020] [1794303455.014034372] : initDeviceHeap() device_heap: 0x0
+CHIP info [TID 30020] [1794303455.020352853] : initDeviceHeap() allocated init_device_heap_ptr: 0x120c0
+DMA_REQ cycle=158 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=202 bank=0 tag=0
+DMA_REQ cycle=470 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=514 bank=1 tag=0
+DMA_REQ cycle=586 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=630 bank=1 tag=3
+DMA_REQ cycle=640 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=670 bank=0 tag=0
+DMA_REQ cycle=776 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=806 bank=1 tag=0
+DMA_REQ cycle=880 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=924 bank=0 tag=6
+DMA_REQ cycle=1054 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=1084 bank=0 tag=0
+DMA_REQ cycle=1174 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=1204 bank=1 tag=0
+DMA_REQ cycle=1326 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=1356 bank=0 tag=0
+DMA_REQ cycle=1478 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=1508 bank=1 tag=0
+DMA_REQ cycle=1630 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=1660 bank=0 tag=0
+DMA_REQ cycle=1836 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=1866 bank=1 tag=0
+DMA_REQ cycle=2128 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=2158 bank=0 tag=0
+DMA_REQ cycle=2424 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=2454 bank=1 tag=0
+DMA_REQ cycle=2756 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=2800 bank=0 tag=0
+DMA_REQ cycle=2904 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=2934 bank=1 tag=0
+DMA_REQ cycle=3092 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=3122 bank=1 tag=0
+DMA_REQ cycle=3318 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=3348 bank=0 tag=0
+DMA_REQ cycle=3668 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=3698 bank=1 tag=0
+DMA_REQ cycle=3750 bank=1 tag=0 write=0 addr=80003f40 mask=0
+DMA_RSP cycle=3780 bank=1 tag=0
+DMA_REQ cycle=3868 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=3898 bank=0 tag=0
+DMA_REQ cycle=4008 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=4052 bank=0 tag=6
+DMA_REQ cycle=4120 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=4164 bank=0 tag=6
+DMA_REQ cycle=4236 bank=1 tag=0 write=0 addr=80003e40 mask=0
+DMA_RSP cycle=4266 bank=1 tag=0
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=4560 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=4562 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=4564 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=4764 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=4822 bank=0 tag=6
+DMA_REQ cycle=4992 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=5022 bank=0 tag=0
+DMA_REQ cycle=5152 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=5210 bank=0 tag=0
+DMA_REQ cycle=5478 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=5508 bank=1 tag=0
+DMA_REQ cycle=5580 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=5610 bank=1 tag=3
+DMA_REQ cycle=5634 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=5664 bank=0 tag=0
+DMA_REQ cycle=5770 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=5800 bank=1 tag=0
+DMA_REQ cycle=5874 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=5904 bank=0 tag=6
+DMA_REQ cycle=6048 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=6078 bank=0 tag=0
+DMA_REQ cycle=6168 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=6198 bank=1 tag=0
+DMA_REQ cycle=6320 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=6350 bank=0 tag=0
+DMA_REQ cycle=6472 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=6502 bank=1 tag=0
+DMA_REQ cycle=6624 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=6654 bank=0 tag=0
+DMA_REQ cycle=6830 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=6860 bank=1 tag=0
+DMA_REQ cycle=7122 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=7152 bank=0 tag=0
+DMA_REQ cycle=7418 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=7448 bank=1 tag=0
+DMA_REQ cycle=7750 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=7780 bank=0 tag=0
+DMA_REQ cycle=7884 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=7914 bank=1 tag=0
+DMA_REQ cycle=8072 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=8102 bank=1 tag=0
+DMA_REQ cycle=8298 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=8328 bank=0 tag=0
+DMA_REQ cycle=8648 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=8678 bank=1 tag=0
+DMA_REQ cycle=8730 bank=1 tag=0 write=0 addr=80003f40 mask=0
+DMA_RSP cycle=8760 bank=1 tag=0
+DMA_REQ cycle=8848 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=8878 bank=0 tag=0
+DMA_REQ cycle=8988 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=9018 bank=0 tag=6
+DMA_REQ cycle=9086 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=9116 bank=0 tag=6
+DMA_REQ cycle=9216 bank=0 tag=0 write=0 addr=80003e00 mask=0
+DMA_RSP cycle=9246 bank=0 tag=0
+DMA_REQ cycle=9336 bank=1 tag=0 write=0 addr=80003e40 mask=0
+DMA_RSP cycle=9366 bank=1 tag=0
+DMA_REQ cycle=9420 bank=1 tag=3 write=0 addr=80004a40 mask=ffffffffffffffff
+DMA_RSP cycle=9450 bank=1 tag=3
+DMA_REQ cycle=9516 bank=0 tag=6 write=0 addr=12100 mask=ffffffffffffffff
+DMA_RSP cycle=9560 bank=0 tag=6
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=9690 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=9694 bank=0 tag=6 write=1 addr=12100 mask=ffffffffffffffff
+DMA_REQ cycle=9814 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=9816 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=9954 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=10012 bank=0 tag=6
+DMA_REQ cycle=10182 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=10212 bank=0 tag=0
+DMA_REQ cycle=10342 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=10400 bank=0 tag=0
+DMA_REQ cycle=10668 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=10698 bank=1 tag=0
+DMA_REQ cycle=10770 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=10800 bank=1 tag=3
+DMA_REQ cycle=10824 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=10854 bank=0 tag=0
+DMA_REQ cycle=10960 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=10990 bank=1 tag=0
+DMA_REQ cycle=11064 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=11094 bank=0 tag=6
+DMA_REQ cycle=11238 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=11268 bank=0 tag=0
+DMA_REQ cycle=11358 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=11388 bank=1 tag=0
+DMA_REQ cycle=11510 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=11540 bank=0 tag=0
+DMA_REQ cycle=11662 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=11692 bank=1 tag=0
+DMA_REQ cycle=11814 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=11844 bank=0 tag=0
+DMA_REQ cycle=12020 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=12050 bank=1 tag=0
+DMA_REQ cycle=12312 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=12342 bank=0 tag=0
+DMA_REQ cycle=12608 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=12638 bank=1 tag=0
+DMA_REQ cycle=12940 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=12970 bank=0 tag=0
+DMA_REQ cycle=13074 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=13104 bank=1 tag=0
+DMA_REQ cycle=13262 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=13292 bank=1 tag=0
+DMA_REQ cycle=13488 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=13518 bank=0 tag=0
+DMA_REQ cycle=13838 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=13868 bank=1 tag=0
+DMA_REQ cycle=13920 bank=1 tag=0 write=0 addr=80003ec0 mask=0
+DMA_RSP cycle=13950 bank=1 tag=0
+DMA_REQ cycle=14038 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=14068 bank=0 tag=0
+DMA_REQ cycle=14178 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=14208 bank=0 tag=6
+DMA_REQ cycle=14276 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=14306 bank=0 tag=6
+DMA_REQ cycle=14406 bank=1 tag=0 write=0 addr=80003d40 mask=0
+DMA_RSP cycle=14436 bank=1 tag=0
+DMA_REQ cycle=14562 bank=1 tag=3 write=0 addr=80004a40 mask=ffffffffffffffff
+DMA_RSP cycle=14592 bank=1 tag=3
+DMA_REQ cycle=14658 bank=0 tag=6 write=0 addr=12100 mask=ffffffffffffffff
+DMA_REQ cycle=14670 bank=0 tag=0 write=0 addr=80003d80 mask=0
+DMA_RSP cycle=14688 bank=0 tag=6
+DMA_RSP cycle=14700 bank=0 tag=0
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=14948 bank=0 tag=6 write=1 addr=12100 mask=ffffffffffffffff
+DMA_REQ cycle=15068 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=15070 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=15072 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=15144 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=15202 bank=0 tag=6
+DMA_REQ cycle=15372 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=15402 bank=0 tag=0
+DMA_REQ cycle=15532 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=15590 bank=0 tag=0
+DMA_REQ cycle=15858 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=15888 bank=1 tag=0
+DMA_REQ cycle=15960 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=15990 bank=1 tag=3
+DMA_REQ cycle=16014 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=16044 bank=0 tag=0
+DMA_REQ cycle=16150 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=16180 bank=1 tag=0
+DMA_REQ cycle=16254 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=16284 bank=0 tag=6
+DMA_REQ cycle=16428 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=16458 bank=0 tag=0
+DMA_REQ cycle=16548 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=16578 bank=1 tag=0
+DMA_REQ cycle=16700 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=16730 bank=0 tag=0
+DMA_REQ cycle=16852 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=16882 bank=1 tag=0
+DMA_REQ cycle=17004 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=17034 bank=0 tag=0
+DMA_REQ cycle=17210 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=17240 bank=1 tag=0
+DMA_REQ cycle=17502 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=17532 bank=0 tag=0
+DMA_REQ cycle=17798 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=17828 bank=1 tag=0
+DMA_REQ cycle=18130 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=18160 bank=0 tag=0
+DMA_REQ cycle=18264 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=18294 bank=1 tag=0
+DMA_REQ cycle=18452 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=18482 bank=1 tag=0
+DMA_REQ cycle=18678 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=18708 bank=0 tag=0
+DMA_REQ cycle=19028 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=19058 bank=1 tag=0
+DMA_REQ cycle=19110 bank=0 tag=0 write=0 addr=80003f00 mask=0
+DMA_RSP cycle=19140 bank=0 tag=0
+DMA_REQ cycle=19228 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=19258 bank=0 tag=0
+DMA_REQ cycle=19368 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=19398 bank=0 tag=6
+DMA_REQ cycle=19466 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=19496 bank=0 tag=6
+DMA_REQ cycle=19596 bank=1 tag=0 write=0 addr=80003dc0 mask=0
+DMA_RSP cycle=19626 bank=1 tag=0
+DMA_REQ cycle=19752 bank=1 tag=3 write=0 addr=80004a40 mask=ffffffffffffffff
+DMA_RSP cycle=19782 bank=1 tag=3
+DMA_REQ cycle=19848 bank=0 tag=6 write=0 addr=12100 mask=ffffffffffffffff
+DMA_RSP cycle=19878 bank=0 tag=6
+DMA_REQ cycle=19896 bank=1 tag=3 write=0 addr=12140 mask=ffffffffffffffff
+DMA_RSP cycle=19926 bank=1 tag=3
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=20024 bank=1 tag=3 write=1 addr=12140 mask=ffffffffffffffff
+DMA_REQ cycle=20150 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=20154 bank=0 tag=6 write=1 addr=12100 mask=ffffffffffffffff
+DMA_REQ cycle=20274 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=20276 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=20288 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=20348 bank=0 tag=6
+DMA_REQ cycle=20518 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=20548 bank=0 tag=0
+DMA_REQ cycle=20678 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=20736 bank=0 tag=0
+DMA_REQ cycle=21004 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=21034 bank=1 tag=0
+DMA_REQ cycle=21106 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=21136 bank=1 tag=3
+DMA_REQ cycle=21160 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=21190 bank=0 tag=0
+DMA_REQ cycle=21296 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=21326 bank=1 tag=0
+DMA_REQ cycle=21400 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=21430 bank=0 tag=6
+DMA_REQ cycle=21574 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=21604 bank=0 tag=0
+DMA_REQ cycle=21694 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=21724 bank=1 tag=0
+DMA_REQ cycle=21846 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=21876 bank=0 tag=0
+DMA_REQ cycle=21998 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=22028 bank=1 tag=0
+DMA_REQ cycle=22150 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=22180 bank=0 tag=0
+DMA_REQ cycle=22356 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=22386 bank=1 tag=0
+DMA_REQ cycle=22648 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=22678 bank=0 tag=0
+DMA_REQ cycle=22944 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=22974 bank=1 tag=0
+DMA_REQ cycle=23276 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=23306 bank=0 tag=0
+DMA_REQ cycle=23410 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=23440 bank=1 tag=0
+DMA_REQ cycle=23598 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=23628 bank=1 tag=0
+DMA_REQ cycle=23824 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=23854 bank=0 tag=0
+DMA_REQ cycle=24174 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=24204 bank=1 tag=0
+DMA_REQ cycle=24256 bank=1 tag=0 write=0 addr=80003ec0 mask=0
+DMA_RSP cycle=24286 bank=1 tag=0
+DMA_REQ cycle=24374 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=24404 bank=0 tag=0
+DMA_REQ cycle=24514 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=24544 bank=0 tag=6
+DMA_REQ cycle=24612 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=24642 bank=0 tag=6
+DMA_REQ cycle=24708 bank=0 tag=0 write=0 addr=80003f00 mask=0
+DMA_RSP cycle=24738 bank=0 tag=0
+DMA_REQ cycle=24790 bank=0 tag=0 write=0 addr=80003d80 mask=0
+DMA_RSP cycle=24820 bank=0 tag=0
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=25114 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=25116 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=25118 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=25318 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=25376 bank=0 tag=6
+DMA_REQ cycle=25546 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=25576 bank=0 tag=0
+DMA_REQ cycle=25706 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=25764 bank=0 tag=0
+DMA_REQ cycle=26032 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=26062 bank=1 tag=0
+DMA_REQ cycle=26134 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=26164 bank=1 tag=3
+DMA_REQ cycle=26188 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=26218 bank=0 tag=0
+DMA_REQ cycle=26324 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=26354 bank=1 tag=0
+DMA_REQ cycle=26428 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=26458 bank=0 tag=6
+DMA_REQ cycle=26602 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=26632 bank=0 tag=0
+DMA_REQ cycle=26722 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=26752 bank=1 tag=0
+DMA_REQ cycle=26874 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=26904 bank=0 tag=0
+DMA_REQ cycle=27026 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=27056 bank=1 tag=0
+DMA_REQ cycle=27178 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=27208 bank=0 tag=0
+DMA_REQ cycle=27384 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=27414 bank=1 tag=0
+DMA_REQ cycle=27676 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=27706 bank=0 tag=0
+DMA_REQ cycle=27972 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=28002 bank=1 tag=0
+DMA_REQ cycle=28304 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=28334 bank=0 tag=0
+DMA_REQ cycle=28438 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=28468 bank=1 tag=0
+DMA_REQ cycle=28626 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=28656 bank=1 tag=0
+DMA_REQ cycle=28852 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=28882 bank=0 tag=0
+DMA_REQ cycle=29202 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=29232 bank=1 tag=0
+DMA_REQ cycle=29284 bank=0 tag=0 write=0 addr=80003f00 mask=0
+DMA_RSP cycle=29314 bank=0 tag=0
+DMA_REQ cycle=29402 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=29432 bank=0 tag=0
+DMA_REQ cycle=29542 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=29572 bank=0 tag=6
+DMA_REQ cycle=29640 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=29670 bank=0 tag=6
+DMA_REQ cycle=29700 bank=1 tag=0 write=0 addr=80003f40 mask=0
+DMA_RSP cycle=29730 bank=1 tag=0
+DMA_REQ cycle=29818 bank=1 tag=0 write=0 addr=80003dc0 mask=0
+DMA_RSP cycle=29848 bank=1 tag=0
+DMA_REQ cycle=29884 bank=0 tag=0 write=0 addr=80003e00 mask=0
+DMA_RSP cycle=29914 bank=0 tag=0
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=30130 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=30254 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=30256 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=30394 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=30452 bank=0 tag=6
+DMA_REQ cycle=30622 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=30652 bank=0 tag=0
+DMA_REQ cycle=30782 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=30840 bank=0 tag=0
+DMA_REQ cycle=31108 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=31138 bank=1 tag=0
+DMA_REQ cycle=31210 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=31240 bank=1 tag=3
+DMA_REQ cycle=31264 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=31294 bank=0 tag=0
+DMA_REQ cycle=31400 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=31430 bank=1 tag=0
+DMA_REQ cycle=31504 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=31534 bank=0 tag=6
+DMA_REQ cycle=31678 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=31708 bank=0 tag=0
+DMA_REQ cycle=31798 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=31828 bank=1 tag=0
+DMA_REQ cycle=31950 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=31980 bank=0 tag=0
+DMA_REQ cycle=32102 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=32132 bank=1 tag=0
+DMA_REQ cycle=32254 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=32284 bank=0 tag=0
+DMA_REQ cycle=32460 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=32490 bank=1 tag=0
+DMA_REQ cycle=32752 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=32782 bank=0 tag=0
+DMA_REQ cycle=33048 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=33078 bank=1 tag=0
+DMA_REQ cycle=33380 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=33410 bank=0 tag=0
+DMA_REQ cycle=33514 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=33544 bank=1 tag=0
+DMA_REQ cycle=33702 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=33732 bank=1 tag=0
+DMA_REQ cycle=33928 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=33958 bank=0 tag=0
+DMA_REQ cycle=34278 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=34308 bank=1 tag=0
+DMA_REQ cycle=34360 bank=0 tag=0 write=0 addr=80003f00 mask=0
+DMA_RSP cycle=34390 bank=0 tag=0
+DMA_REQ cycle=34478 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=34508 bank=0 tag=0
+DMA_REQ cycle=34618 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=34648 bank=0 tag=6
+DMA_REQ cycle=34716 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=34746 bank=0 tag=6
+DMA_REQ cycle=34846 bank=0 tag=0 write=0 addr=80003d80 mask=0
+DMA_RSP cycle=34876 bank=0 tag=0
+DMA_REQ cycle=34996 bank=0 tag=6 write=0 addr=12180 mask=ffffffffffffffff
+DMA_RSP cycle=35026 bank=0 tag=6
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=35134 bank=0 tag=6 write=1 addr=12180 mask=ffffffffffffffff
+DMA_REQ cycle=35316 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=35318 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=35320 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=35392 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=35450 bank=0 tag=6
+DMA_REQ cycle=35620 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=35650 bank=0 tag=0
+DMA_REQ cycle=35780 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=35838 bank=0 tag=0
+DMA_REQ cycle=36106 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=36136 bank=1 tag=0
+DMA_REQ cycle=36208 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=36238 bank=1 tag=3
+DMA_REQ cycle=36262 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=36292 bank=0 tag=0
+DMA_REQ cycle=36398 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=36428 bank=1 tag=0
+DMA_REQ cycle=36502 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=36532 bank=0 tag=6
+DMA_REQ cycle=36676 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=36706 bank=0 tag=0
+DMA_REQ cycle=36796 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=36826 bank=1 tag=0
+DMA_REQ cycle=36948 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=36978 bank=0 tag=0
+DMA_REQ cycle=37100 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=37130 bank=1 tag=0
+DMA_REQ cycle=37252 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=37282 bank=0 tag=0
+DMA_REQ cycle=37458 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=37488 bank=1 tag=0
+DMA_REQ cycle=37750 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=37780 bank=0 tag=0
+DMA_REQ cycle=38046 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=38076 bank=1 tag=0
+DMA_REQ cycle=38378 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=38408 bank=0 tag=0
+DMA_REQ cycle=38512 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=38542 bank=1 tag=0
+DMA_REQ cycle=38700 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=38730 bank=1 tag=0
+DMA_REQ cycle=38926 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=38956 bank=0 tag=0
+DMA_REQ cycle=39276 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=39306 bank=1 tag=0
+DMA_REQ cycle=39358 bank=1 tag=0 write=0 addr=80003f40 mask=0
+DMA_RSP cycle=39388 bank=1 tag=0
+DMA_REQ cycle=39476 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=39506 bank=0 tag=0
+DMA_REQ cycle=39616 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=39646 bank=0 tag=6
+DMA_REQ cycle=39714 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=39744 bank=0 tag=6
+DMA_REQ cycle=39844 bank=0 tag=0 write=0 addr=80003e00 mask=0
+DMA_RSP cycle=39874 bank=0 tag=0
+DMA_REQ cycle=39992 bank=1 tag=3 write=0 addr=121c0 mask=ffffffffffffffff
+DMA_RSP cycle=40022 bank=1 tag=3
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=40130 bank=1 tag=3 write=1 addr=121c0 mask=ffffffffffffffff
+DMA_REQ cycle=40254 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=40378 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=40380 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=40392 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=40452 bank=0 tag=6
+DMA_REQ cycle=40622 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=40652 bank=0 tag=0
+DMA_REQ cycle=40782 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=40840 bank=0 tag=0
+DMA_REQ cycle=41108 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=41138 bank=1 tag=0
+DMA_REQ cycle=41210 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=41240 bank=1 tag=3
+DMA_REQ cycle=41264 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=41294 bank=0 tag=0
+DMA_REQ cycle=41400 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=41430 bank=1 tag=0
+DMA_REQ cycle=41504 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=41534 bank=0 tag=6
+DMA_REQ cycle=41678 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=41708 bank=0 tag=0
+DMA_REQ cycle=41798 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=41828 bank=1 tag=0
+DMA_REQ cycle=41950 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=41980 bank=0 tag=0
+DMA_REQ cycle=42102 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=42132 bank=1 tag=0
+DMA_REQ cycle=42254 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=42284 bank=0 tag=0
+DMA_REQ cycle=42460 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=42490 bank=1 tag=0
+DMA_REQ cycle=42752 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=42782 bank=0 tag=0
+DMA_REQ cycle=43048 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=43078 bank=1 tag=0
+DMA_REQ cycle=43380 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=43410 bank=0 tag=0
+DMA_REQ cycle=43514 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=43544 bank=1 tag=0
+DMA_REQ cycle=43702 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=43732 bank=1 tag=0
+DMA_REQ cycle=43928 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=43958 bank=0 tag=0
+DMA_REQ cycle=44278 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=44308 bank=1 tag=0
+DMA_REQ cycle=44430 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=44460 bank=0 tag=0
+DMA_REQ cycle=44570 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=44600 bank=0 tag=6
+DMA_REQ cycle=44668 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=44698 bank=0 tag=6
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=44984 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=44986 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=44988 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=45188 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=45246 bank=0 tag=6
+DMA_REQ cycle=45416 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=45446 bank=0 tag=0
+DMA_REQ cycle=45576 bank=0 tag=0 write=0 addr=80000000 mask=0
+DMA_RSP cycle=45634 bank=0 tag=0
+DMA_REQ cycle=45902 bank=1 tag=0 write=0 addr=80004440 mask=0
+DMA_RSP cycle=45932 bank=1 tag=0
+DMA_REQ cycle=46004 bank=1 tag=3 write=0 addr=fffeffc0 mask=ffffffffffffffff
+DMA_RSP cycle=46034 bank=1 tag=3
+DMA_REQ cycle=46058 bank=0 tag=0 write=0 addr=80004480 mask=0
+DMA_RSP cycle=46088 bank=0 tag=0
+DMA_REQ cycle=46194 bank=1 tag=0 write=0 addr=80004540 mask=0
+DMA_RSP cycle=46224 bank=1 tag=0
+DMA_REQ cycle=46298 bank=0 tag=6 write=0 addr=fffeff80 mask=ffffffffffffffff
+DMA_RSP cycle=46328 bank=0 tag=6
+DMA_REQ cycle=46472 bank=0 tag=0 write=0 addr=80004580 mask=0
+DMA_RSP cycle=46502 bank=0 tag=0
+DMA_REQ cycle=46592 bank=1 tag=0 write=0 addr=800045c0 mask=0
+DMA_RSP cycle=46622 bank=1 tag=0
+DMA_REQ cycle=46744 bank=0 tag=0 write=0 addr=80004900 mask=0
+DMA_RSP cycle=46774 bank=0 tag=0
+DMA_REQ cycle=46896 bank=1 tag=0 write=0 addr=80004940 mask=0
+DMA_RSP cycle=46926 bank=1 tag=0
+DMA_REQ cycle=47048 bank=0 tag=0 write=0 addr=80004980 mask=0
+DMA_RSP cycle=47078 bank=0 tag=0
+DMA_REQ cycle=47254 bank=1 tag=0 write=0 addr=800049c0 mask=0
+DMA_RSP cycle=47284 bank=1 tag=0
+DMA_REQ cycle=47546 bank=0 tag=0 write=0 addr=80004a00 mask=0
+DMA_RSP cycle=47576 bank=0 tag=0
+DMA_REQ cycle=47842 bank=1 tag=0 write=0 addr=80004a40 mask=0
+DMA_RSP cycle=47872 bank=1 tag=0
+DMA_REQ cycle=48174 bank=0 tag=0 write=0 addr=80003f80 mask=0
+DMA_RSP cycle=48204 bank=0 tag=0
+DMA_REQ cycle=48308 bank=1 tag=0 write=0 addr=800040c0 mask=0
+DMA_RSP cycle=48338 bank=1 tag=0
+DMA_REQ cycle=48496 bank=1 tag=0 write=0 addr=800044c0 mask=0
+DMA_RSP cycle=48526 bank=1 tag=0
+DMA_REQ cycle=48722 bank=0 tag=0 write=0 addr=80004500 mask=0
+DMA_RSP cycle=48752 bank=0 tag=0
+DMA_REQ cycle=49072 bank=1 tag=0 write=0 addr=80000040 mask=0
+DMA_RSP cycle=49102 bank=1 tag=0
+DMA_REQ cycle=49154 bank=0 tag=0 write=0 addr=80003e80 mask=0
+DMA_RSP cycle=49184 bank=0 tag=0
+DMA_REQ cycle=49220 bank=1 tag=0 write=0 addr=80003ec0 mask=0
+DMA_RSP cycle=49250 bank=1 tag=0
+DMA_REQ cycle=49412 bank=0 tag=6 write=0 addr=13000 mask=ffffffffffffffff
+DMA_RSP cycle=49442 bank=0 tag=6
+DMA_REQ cycle=49510 bank=0 tag=6 write=0 addr=80005000 mask=ffffffffffffffff
+DMA_RSP cycle=49540 bank=0 tag=6
+DMA_REQ cycle=49900 bank=0 tag=0 write=0 addr=80000080 mask=0
+DMA_RSP cycle=49930 bank=0 tag=0
+DMA_REQ cycle=50238 bank=1 tag=0 write=0 addr=800000c0 mask=0
+DMA_REQ cycle=50240 bank=0 tag=6 write=0 addr=12180 mask=ffffffffffffffff
+DMA_REQ cycle=50256 bank=1 tag=3 write=0 addr=121c0 mask=ffffffffffffffff
+DMA_RSP cycle=50268 bank=1 tag=0
+DMA_RSP cycle=50286 bank=0 tag=6
+DMA_RSP cycle=50300 bank=1 tag=3
+DMA_REQ cycle=50648 bank=0 tag=0 write=0 addr=80000100 mask=0
+DMA_RSP cycle=50678 bank=0 tag=0
+DMA_REQ cycle=51046 bank=1 tag=3 write=0 addr=fffefb40 mask=ffffffffffffffff
+DMA_REQ cycle=51052 bank=1 tag=0 write=0 addr=80000140 mask=0
+DMA_RSP cycle=51076 bank=1 tag=3
+DMA_RSP cycle=51086 bank=1 tag=0
+DMA_REQ cycle=51332 bank=1 tag=3 write=0 addr=12040 mask=ffffffffffffffff
+DMA_REQ cycle=51334 bank=1 tag=0 write=0 addr=80003fc0 mask=0
+DMA_RSP cycle=51362 bank=1 tag=3
+DMA_RSP cycle=51372 bank=1 tag=0
+DMA_REQ cycle=51446 bank=0 tag=6 write=0 addr=12080 mask=ffffffffffffffff
+DMA_RSP cycle=51476 bank=0 tag=6
+DMA_REQ cycle=51774 bank=0 tag=0 write=0 addr=80004000 mask=0
+DMA_RSP cycle=51804 bank=0 tag=0
+DMA_REQ cycle=52142 bank=1 tag=0 write=0 addr=80004040 mask=0
+DMA_RSP cycle=52172 bank=1 tag=0
+DMA_REQ cycle=52510 bank=0 tag=0 write=0 addr=80004080 mask=0
+DMA_RSP cycle=52540 bank=0 tag=0
+DMA_REQ cycle=53606 bank=1 tag=3 write=0 addr=10840 mask=ffffffffffffffff
+DMA_RSP cycle=53664 bank=1 tag=3
+DMA_REQ cycle=53768 bank=0 tag=0 write=0 addr=80000180 mask=0
+DMA_RSP cycle=53798 bank=0 tag=0
+DMA_REQ cycle=54136 bank=1 tag=0 write=0 addr=800001c0 mask=0
+DMA_RSP cycle=54166 bank=1 tag=0
+DMA_REQ cycle=54506 bank=0 tag=0 write=0 addr=80000200 mask=0
+DMA_RSP cycle=54536 bank=0 tag=0
+DMA_REQ cycle=54826 bank=0 tag=6 write=0 addr=fffef800 mask=ffffffffffffffff
+DMA_RSP cycle=54856 bank=0 tag=6
+DMA_REQ cycle=54858 bank=1 tag=0 write=0 addr=80000240 mask=0
+DMA_RSP cycle=54888 bank=1 tag=0
+DMA_REQ cycle=55194 bank=0 tag=0 write=0 addr=80000280 mask=0
+DMA_RSP cycle=55224 bank=0 tag=0
+DMA_REQ cycle=55276 bank=0 tag=0 write=0 addr=80000380 mask=0
+DMA_RSP cycle=55306 bank=0 tag=0
+DMA_REQ cycle=55588 bank=1 tag=0 write=0 addr=800003c0 mask=0
+DMA_RSP cycle=55618 bank=1 tag=0
+DMA_REQ cycle=55796 bank=1 tag=0 write=0 addr=80000640 mask=0
+DMA_RSP cycle=55826 bank=1 tag=0
+DMA_REQ cycle=55882 bank=0 tag=6 write=0 addr=10880 mask=ffffffffffffffff
+DMA_RSP cycle=55912 bank=0 tag=6
+DMA_REQ cycle=56006 bank=0 tag=0 write=0 addr=80000680 mask=0
+DMA_RSP cycle=56036 bank=0 tag=0
+DMA_REQ cycle=56354 bank=1 tag=0 write=0 addr=800006c0 mask=0
+DMA_RSP cycle=56384 bank=1 tag=0
+DMA_REQ cycle=56720 bank=0 tag=0 write=0 addr=80000700 mask=0
+DMA_RSP cycle=56750 bank=0 tag=0
+DMA_REQ cycle=56904 bank=0 tag=6 write=0 addr=fffef780 mask=ffffffffffffffff
+DMA_RSP cycle=56934 bank=0 tag=6
+DMA_REQ cycle=56962 bank=0 tag=6 write=0 addr=fffefa80 mask=ffffffffffffffff
+DMA_RSP cycle=56992 bank=0 tag=6
+DMA_REQ cycle=56996 bank=0 tag=14 write=0 addr=fffefd00 mask=ffffffffffffffff
+DMA_RSP cycle=57026 bank=0 tag=14
+DMA_REQ cycle=57064 bank=1 tag=0 write=0 addr=80000740 mask=0
+DMA_RSP cycle=57094 bank=1 tag=0
+DMA_REQ cycle=57204 bank=1 tag=3 write=0 addr=fffef740 mask=ffffffffffffffff
+DMA_RSP cycle=57234 bank=1 tag=3
+DMA_REQ cycle=57238 bank=1 tag=7 write=0 addr=fffef9c0 mask=ffffffffffffffff
+DMA_RSP cycle=57268 bank=1 tag=7
+DMA_REQ cycle=57400 bank=0 tag=0 write=0 addr=80000780 mask=0
+DMA_RSP cycle=57430 bank=0 tag=0
+DMA_REQ cycle=57524 bank=0 tag=6 write=0 addr=fffefb80 mask=ffffffffffffffff
+DMA_RSP cycle=57554 bank=0 tag=6
+DMA_REQ cycle=57556 bank=1 tag=3 write=0 addr=fffef840 mask=ffffffffffffffff
+DMA_RSP cycle=57586 bank=1 tag=3
+DMA_REQ cycle=57628 bank=1 tag=3 write=0 addr=fffef7c0 mask=ffffffffffffffff
+DMA_RSP cycle=57658 bank=1 tag=3
+DMA_REQ cycle=57736 bank=1 tag=0 write=0 addr=800007c0 mask=0
+DMA_RSP cycle=57766 bank=1 tag=0
+DMA_REQ cycle=57962 bank=0 tag=0 write=0 addr=80000800 mask=0
+DMA_RSP cycle=57992 bank=0 tag=0
+DMA_REQ cycle=58314 bank=1 tag=0 write=0 addr=80000840 mask=0
+DMA_RSP cycle=58344 bank=1 tag=0
+DMA_REQ cycle=58400 bank=0 tag=6 write=0 addr=10980 mask=ffffffffffffffff
+DMA_RSP cycle=58430 bank=0 tag=6
+DMA_REQ cycle=58596 bank=1 tag=3 write=0 addr=fffeff40 mask=ffffffffffffffff
+DMA_RSP cycle=58626 bank=1 tag=3
+DMA_REQ cycle=58650 bank=0 tag=0 write=0 addr=80000880 mask=0
+DMA_RSP cycle=58680 bank=0 tag=0
+DMA_REQ cycle=58986 bank=1 tag=0 write=0 addr=800008c0 mask=0
+DMA_RSP cycle=59016 bank=1 tag=0
+DMA_REQ cycle=59160 bank=1 tag=3 write=0 addr=fffefec0 mask=ffffffffffffffff
+DMA_RSP cycle=59190 bank=1 tag=3
+DMA_REQ cycle=59718 bank=0 tag=6 write=0 addr=fffeff00 mask=ffffffffffffffff
+DMA_RSP cycle=59748 bank=0 tag=6
+DMA_REQ cycle=61024 bank=0 tag=0 write=0 addr=80000900 mask=0
+DMA_RSP cycle=61054 bank=0 tag=0
+DMA_REQ cycle=61336 bank=1 tag=0 write=0 addr=80000940 mask=0
+DMA_RSP cycle=61366 bank=1 tag=0
+DMA_REQ cycle=61662 bank=0 tag=0 write=0 addr=80000980 mask=0
+DMA_RSP cycle=61692 bank=0 tag=0
+DMA_REQ cycle=62776 bank=1 tag=0 write=0 addr=800009c0 mask=0
+DMA_RSP cycle=62806 bank=1 tag=0
+DMA_REQ cycle=64154 bank=0 tag=0 write=0 addr=80000a00 mask=0
+DMA_RSP cycle=64184 bank=0 tag=0
+DMA_REQ cycle=64734 bank=0 tag=6 write=0 addr=fffefd80 mask=ffffffffffffffff
+DMA_RSP cycle=64764 bank=0 tag=6
+DMA_REQ cycle=65472 bank=1 tag=3 write=0 addr=fffefdc0 mask=ffffffffffffffff
+DMA_REQ cycle=65494 bank=0 tag=6 write=0 addr=fffefe80 mask=ffffffffffffffff
+DMA_RSP cycle=65502 bank=1 tag=3
+DMA_RSP cycle=65524 bank=0 tag=6
+DMA_REQ cycle=65668 bank=0 tag=6 write=0 addr=fffefe00 mask=ffffffffffffffff
+DMA_REQ cycle=65686 bank=1 tag=3 write=0 addr=fffefe40 mask=ffffffffffffffff
+DMA_RSP cycle=65698 bank=0 tag=6
+DMA_RSP cycle=65716 bank=1 tag=3
+DMA_REQ cycle=66538 bank=1 tag=0 write=0 addr=80000a40 mask=0
+DMA_RSP cycle=66568 bank=1 tag=0
+DMA_REQ cycle=66872 bank=0 tag=0 write=0 addr=80000a80 mask=0
+DMA_RSP cycle=66902 bank=0 tag=0
+DMA_REQ cycle=67164 bank=1 tag=3 write=0 addr=fffefd40 mask=ffffffffffffffff
+DMA_RSP cycle=67194 bank=1 tag=3
+DMA_REQ cycle=67208 bank=1 tag=0 write=0 addr=80000ac0 mask=0
+DMA_RSP cycle=67238 bank=1 tag=0
+DMA_REQ cycle=67330 bank=0 tag=6 write=0 addr=fffefa00 mask=ffffffffffffffff
+DMA_REQ cycle=67348 bank=0 tag=14 write=0 addr=fffef880 mask=ffffffffffffffff
+DMA_RSP cycle=67360 bank=0 tag=6
+DMA_RSP cycle=67378 bank=0 tag=14
+DMA_REQ cycle=67470 bank=0 tag=0 write=0 addr=80000b00 mask=0
+DMA_RSP cycle=67500 bank=0 tag=0
+DMA_REQ cycle=67626 bank=1 tag=3 write=0 addr=fffef8c0 mask=ffffffffffffffff
+DMA_RSP cycle=67656 bank=1 tag=3
+DMA_REQ cycle=67702 bank=0 tag=6 write=0 addr=fffef900 mask=ffffffffffffffff
+DMA_RSP cycle=67732 bank=0 tag=6
+DMA_REQ cycle=67770 bank=1 tag=3 write=0 addr=fffef940 mask=ffffffffffffffff
+DMA_RSP cycle=67800 bank=1 tag=3
+DMA_REQ cycle=67806 bank=1 tag=0 write=0 addr=80000b40 mask=0
+DMA_RSP cycle=67836 bank=1 tag=0
+DMA_REQ cycle=67942 bank=0 tag=6 write=0 addr=fffef980 mask=ffffffffffffffff
+DMA_RSP cycle=67972 bank=0 tag=6
+DMA_REQ cycle=68158 bank=0 tag=0 write=0 addr=80000b80 mask=0
+DMA_RSP cycle=68188 bank=0 tag=0
+DMA_REQ cycle=68494 bank=1 tag=0 write=0 addr=80000bc0 mask=0
+DMA_RSP cycle=68524 bank=1 tag=0
+DMA_REQ cycle=68830 bank=0 tag=0 write=0 addr=80000c00 mask=0
+DMA_RSP cycle=68860 bank=0 tag=0
+DMA_REQ cycle=69166 bank=1 tag=0 write=0 addr=80000c40 mask=0
+DMA_RSP cycle=69196 bank=1 tag=0
+DMA_REQ cycle=69502 bank=0 tag=0 write=0 addr=80000c80 mask=0
+DMA_RSP cycle=69532 bank=0 tag=0
+DMA_REQ cycle=69604 bank=1 tag=3 write=0 addr=fffefa40 mask=ffffffffffffffff
+DMA_RSP cycle=69634 bank=1 tag=3
+DMA_REQ cycle=69706 bank=1 tag=3 write=0 addr=108c0 mask=ffffffffffffffff
+DMA_RSP cycle=69736 bank=1 tag=3
+DMA_REQ cycle=69852 bank=0 tag=6 write=0 addr=fffefb00 mask=ffffffffffffffff
+DMA_RSP cycle=69882 bank=0 tag=6
+DMA_REQ cycle=69902 bank=1 tag=0 write=0 addr=80000cc0 mask=0
+DMA_RSP cycle=69932 bank=1 tag=0
+DMA_REQ cycle=70050 bank=1 tag=3 write=0 addr=fffefac0 mask=ffffffffffffffff
+DMA_RSP cycle=70080 bank=1 tag=3
+DMA_REQ cycle=70304 bank=0 tag=0 write=0 addr=80000d00 mask=0
+DMA_RSP cycle=70334 bank=0 tag=0
+DMA_REQ cycle=70512 bank=0 tag=0 write=0 addr=80000d80 mask=0
+DMA_RSP cycle=70542 bank=0 tag=0
+DMA_REQ cycle=70730 bank=1 tag=0 write=0 addr=80000dc0 mask=0
+DMA_RSP cycle=70760 bank=1 tag=0
+DMA_REQ cycle=71066 bank=0 tag=0 write=0 addr=80000e00 mask=0
+DMA_RSP cycle=71096 bank=0 tag=0
+DMA_REQ cycle=71402 bank=1 tag=0 write=0 addr=80000e40 mask=0
+DMA_RSP cycle=71432 bank=1 tag=0
+DMA_REQ cycle=71614 bank=0 tag=6 write=0 addr=10900 mask=ffffffffffffffff
+DMA_RSP cycle=71644 bank=0 tag=6
+DMA_REQ cycle=71738 bank=0 tag=0 write=0 addr=80000e80 mask=0
+DMA_RSP cycle=71768 bank=0 tag=0
+DMA_REQ cycle=72074 bank=1 tag=0 write=0 addr=80000ec0 mask=0
+DMA_RSP cycle=72104 bank=1 tag=0
+DMA_REQ cycle=72310 bank=0 tag=0 write=0 addr=80000f00 mask=0
+DMA_RSP cycle=72340 bank=0 tag=0
+DMA_REQ cycle=72448 bank=1 tag=0 write=0 addr=80000f40 mask=0
+DMA_RSP cycle=72478 bank=1 tag=0
+DMA_REQ cycle=76132 bank=0 tag=0 write=0 addr=80000f80 mask=0
+DMA_RSP cycle=76162 bank=0 tag=0
+DMA_REQ cycle=76468 bank=1 tag=0 write=0 addr=80000fc0 mask=0
+DMA_RSP cycle=76498 bank=1 tag=0
+DMA_REQ cycle=76782 bank=0 tag=0 write=0 addr=80001000 mask=0
+DMA_RSP cycle=76812 bank=0 tag=0
+DMA_REQ cycle=76882 bank=1 tag=0 write=0 addr=80001040 mask=0
+DMA_RSP cycle=76912 bank=1 tag=0
+DMA_REQ cycle=77200 bank=0 tag=0 write=0 addr=80001080 mask=0
+DMA_RSP cycle=77230 bank=0 tag=0
+DMA_REQ cycle=77384 bank=1 tag=3 write=0 addr=10940 mask=ffffffffffffffff
+DMA_RSP cycle=77414 bank=1 tag=3
+DMA_REQ cycle=77492 bank=1 tag=0 write=0 addr=80000d40 mask=0
+DMA_RSP cycle=77522 bank=1 tag=0
+DMA_REQ cycle=84512 bank=1 tag=0 write=0 addr=800010c0 mask=0
+DMA_RSP cycle=84542 bank=1 tag=0
+DMA_REQ cycle=84848 bank=0 tag=0 write=0 addr=80001100 mask=0
+DMA_RSP cycle=84878 bank=0 tag=0
+DMA_REQ cycle=85184 bank=1 tag=0 write=0 addr=80001140 mask=0
+DMA_RSP cycle=85214 bank=1 tag=0
+DMA_REQ cycle=85502 bank=1 tag=3 write=0 addr=107c0 mask=ffffffffffffffff
+DMA_REQ cycle=85520 bank=0 tag=0 write=0 addr=80001180 mask=0
+DMA_RSP cycle=85532 bank=1 tag=3
+DMA_RSP cycle=85550 bank=0 tag=0
+DMA_REQ cycle=85606 bank=0 tag=6 write=0 addr=10800 mask=ffffffffffffffff
+DMA_RSP cycle=85636 bank=0 tag=6
+DMA_REQ cycle=85702 bank=1 tag=3 write=0 addr=fffefcc0 mask=ffffffffffffffff
+DMA_RSP cycle=85732 bank=1 tag=3
+DMA_REQ cycle=85866 bank=1 tag=0 write=0 addr=800011c0 mask=0
+DMA_RSP cycle=85896 bank=1 tag=0
+DMA_REQ cycle=86202 bank=0 tag=0 write=0 addr=80001200 mask=0
+DMA_RSP cycle=86232 bank=0 tag=0
+DMA_REQ cycle=86538 bank=1 tag=0 write=0 addr=80001240 mask=0
+DMA_RSP cycle=86568 bank=1 tag=0
+DMA_REQ cycle=86860 bank=0 tag=6 write=0 addr=fffefc80 mask=ffffffffffffffff
+DMA_REQ cycle=86874 bank=0 tag=0 write=0 addr=80001280 mask=0
+DMA_RSP cycle=86890 bank=0 tag=6
+DMA_RSP cycle=86906 bank=0 tag=0
+DMA_REQ cycle=87000 bank=0 tag=6 write=0 addr=fffefc00 mask=ffffffffffffffff
+DMA_RSP cycle=87030 bank=0 tag=6
+DMA_REQ cycle=87196 bank=1 tag=3 write=0 addr=fffefbc0 mask=ffffffffffffffff
+DMA_REQ cycle=87212 bank=1 tag=0 write=0 addr=800012c0 mask=0
+DMA_RSP cycle=87226 bank=1 tag=3
+DMA_RSP cycle=87242 bank=1 tag=0
+DMA_REQ cycle=87548 bank=0 tag=0 write=0 addr=80001300 mask=0
+DMA_RSP cycle=87578 bank=0 tag=0
+DMA_REQ cycle=87884 bank=1 tag=0 write=0 addr=80001340 mask=0
+DMA_RSP cycle=87914 bank=1 tag=0
+DMA_REQ cycle=88220 bank=0 tag=0 write=0 addr=80001380 mask=0
+DMA_RSP cycle=88250 bank=0 tag=0
+DMA_REQ cycle=88502 bank=1 tag=3 write=0 addr=fffefc40 mask=ffffffffffffffff
+DMA_RSP cycle=88532 bank=1 tag=3
+DMA_REQ cycle=88556 bank=1 tag=0 write=0 addr=800013c0 mask=0
+DMA_RSP cycle=88586 bank=1 tag=0
+DMA_REQ cycle=88892 bank=0 tag=0 write=0 addr=80001400 mask=0
+DMA_RSP cycle=88922 bank=0 tag=0
+DMA_REQ cycle=89228 bank=1 tag=0 write=0 addr=80001440 mask=0
+DMA_RSP cycle=89258 bank=1 tag=0
+DMA_REQ cycle=89564 bank=0 tag=0 write=0 addr=80001480 mask=0
+DMA_RSP cycle=89594 bank=0 tag=0
+DMA_REQ cycle=89900 bank=1 tag=0 write=0 addr=800014c0 mask=0
+DMA_RSP cycle=89930 bank=1 tag=0
+DMA_REQ cycle=90236 bank=0 tag=0 write=0 addr=80001500 mask=0
+DMA_RSP cycle=90266 bank=0 tag=0
+DMA_REQ cycle=90572 bank=1 tag=0 write=0 addr=80001540 mask=0
+DMA_RSP cycle=90602 bank=1 tag=0
+DMA_REQ cycle=90908 bank=0 tag=0 write=0 addr=80001580 mask=0
+DMA_RSP cycle=90938 bank=0 tag=0
+DMA_REQ cycle=91244 bank=1 tag=0 write=0 addr=800015c0 mask=0
+DMA_RSP cycle=91274 bank=1 tag=0
+DMA_REQ cycle=91580 bank=0 tag=0 write=0 addr=80001600 mask=0
+DMA_RSP cycle=91610 bank=0 tag=0
+DMA_REQ cycle=91916 bank=1 tag=0 write=0 addr=80001640 mask=0
+DMA_RSP cycle=91946 bank=1 tag=0
+DMA_REQ cycle=92252 bank=0 tag=0 write=0 addr=80001680 mask=0
+DMA_RSP cycle=92282 bank=0 tag=0
+DMA_REQ cycle=92588 bank=1 tag=0 write=0 addr=800016c0 mask=0
+DMA_RSP cycle=92618 bank=1 tag=0
+DMA_REQ cycle=92924 bank=0 tag=0 write=0 addr=80001700 mask=0
+DMA_RSP cycle=92954 bank=0 tag=0
+DMA_REQ cycle=93260 bank=1 tag=0 write=0 addr=80001740 mask=0
+DMA_RSP cycle=93290 bank=1 tag=0
+DMA_REQ cycle=93596 bank=0 tag=0 write=0 addr=80001780 mask=0
+DMA_RSP cycle=93626 bank=0 tag=0
+DMA_REQ cycle=93932 bank=1 tag=0 write=0 addr=800017c0 mask=0
+DMA_RSP cycle=93962 bank=1 tag=0
+DMA_REQ cycle=94268 bank=0 tag=0 write=0 addr=80001800 mask=0
+DMA_RSP cycle=94298 bank=0 tag=0
+DMA_REQ cycle=94604 bank=1 tag=0 write=0 addr=80001840 mask=0
+DMA_RSP cycle=94634 bank=1 tag=0
+DMA_REQ cycle=94940 bank=0 tag=0 write=0 addr=80001880 mask=0
+DMA_RSP cycle=94970 bank=0 tag=0
+DMA_REQ cycle=95276 bank=1 tag=0 write=0 addr=800018c0 mask=0
+DMA_RSP cycle=95306 bank=1 tag=0
+DMA_REQ cycle=95612 bank=0 tag=0 write=0 addr=80001900 mask=0
+DMA_RSP cycle=95642 bank=0 tag=0
+DMA_REQ cycle=96114 bank=1 tag=0 write=0 addr=80002b40 mask=0
+DMA_RSP cycle=96158 bank=1 tag=0
+DMA_REQ cycle=96320 bank=0 tag=0 write=0 addr=80002b80 mask=0
+DMA_RSP cycle=96350 bank=0 tag=0
+DMA_REQ cycle=96656 bank=1 tag=0 write=0 addr=80002bc0 mask=0
+DMA_RSP cycle=96686 bank=1 tag=0
+DMA_REQ cycle=96792 bank=1 tag=0 write=0 addr=80002c40 mask=0
+DMA_RSP cycle=96822 bank=1 tag=0
+DMA_REQ cycle=96858 bank=0 tag=0 write=0 addr=80002c80 mask=0
+DMA_RSP cycle=96888 bank=0 tag=0
+DMA_REQ cycle=97194 bank=1 tag=0 write=0 addr=80002cc0 mask=0
+DMA_RSP cycle=97224 bank=1 tag=0
+DMA_REQ cycle=97364 bank=0 tag=0 write=0 addr=80004100 mask=0
+DMA_RSP cycle=97394 bank=0 tag=0
+DMA_REQ cycle=97716 bank=1 tag=0 write=0 addr=80004140 mask=0
+DMA_RSP cycle=97746 bank=1 tag=0
+DMA_REQ cycle=98052 bank=0 tag=0 write=0 addr=80004180 mask=0
+DMA_RSP cycle=98082 bank=0 tag=0
+DMA_REQ cycle=98388 bank=1 tag=0 write=0 addr=800041c0 mask=0
+DMA_RSP cycle=98418 bank=1 tag=0
+DMA_REQ cycle=98758 bank=0 tag=0 write=0 addr=80004200 mask=0
+DMA_RSP cycle=98788 bank=0 tag=0
+DMA_REQ cycle=99110 bank=1 tag=0 write=0 addr=80004240 mask=0
+DMA_RSP cycle=99140 bank=1 tag=0
+DMA_REQ cycle=99446 bank=0 tag=0 write=0 addr=80004280 mask=0
+DMA_RSP cycle=99476 bank=0 tag=0
+DMA_REQ cycle=99782 bank=1 tag=0 write=0 addr=800042c0 mask=0
+DMA_RSP cycle=99812 bank=1 tag=0
+DMA_REQ cycle=100136 bank=0 tag=0 write=0 addr=80004300 mask=0
+DMA_RSP cycle=100166 bank=0 tag=0
+DMA_REQ cycle=100448 bank=0 tag=6 write=0 addr=fffef700 mask=ffffffffffffffff
+DMA_RSP cycle=100478 bank=0 tag=6
+DMA_REQ cycle=100536 bank=1 tag=0 write=0 addr=80004340 mask=0
+DMA_RSP cycle=100566 bank=1 tag=0
+DMA_REQ cycle=100872 bank=0 tag=0 write=0 addr=80004380 mask=0
+DMA_RSP cycle=100902 bank=0 tag=0
+DMA_REQ cycle=101208 bank=1 tag=0 write=0 addr=800043c0 mask=0
+DMA_RSP cycle=101238 bank=1 tag=0
+DMA_REQ cycle=101544 bank=0 tag=0 write=0 addr=80004400 mask=0
+DMA_RSP cycle=101574 bank=0 tag=0
+DMA_REQ cycle=112426 bank=0 tag=0 write=0 addr=80002d00 mask=0
+DMA_RSP cycle=112456 bank=0 tag=0
+DMA_REQ cycle=112940 bank=0 tag=0 write=0 addr=80002c00 mask=0
+DMA_RSP cycle=112970 bank=0 tag=0
+[VXDRV] Warning: CP has not retired a command in 10s.
+[VXDRV]   Q_SEQNUM=254 target=255 CP_CTRL=0x00000001 CP_STATUS=0x00000001 Q_ERROR=0x00000000
+[VXDRV]   RING_BASE=0x0000584d10751340 HEAD_ADDR=0x0000584d10761400 CMPL_ADDR=0x0000584d10761500
+[VXDRV]   RING_SIZE_LOG2=16 Q_CONTROL=0x00000001 Q_TAIL=0x0000000000003fc0
+[VXDRV]   The ring was accepted but nothing is executing. Set VORTEX_CP_POLL_TIMEOUT_S=<sec> to abort instead of spinning.
+DMA_REQ cycle=226682 bank=1 tag=0 write=0 addr=80003bc0 mask=0
+DMA_RSP cycle=226712 bank=1 tag=0
+DMA_REQ cycle=226962 bank=1 tag=0 write=0 addr=80003cc0 mask=0
+DMA_RSP cycle=226992 bank=1 tag=0
+STUDENT_GPU_DEVICE_STATUS fault=0 busy=0
+DMA_REQ cycle=227284 bank=1 tag=3 write=1 addr=12040 mask=ffffffffffffffff
+DMA_REQ cycle=227286 bank=0 tag=6 write=1 addr=80005000 mask=ffffffffffffffff
+DMA_REQ cycle=227288 bank=0 tag=6 write=1 addr=12080 mask=ffffffffffffffff
+DMA_REQ cycle=227312 bank=1 tag=3 write=1 addr=fffef740 mask=ffffffffffffffff
+DMA_REQ cycle=227314 bank=0 tag=6 write=1 addr=fffef700 mask=ffffffffffffffff
+DMA_REQ cycle=227314 bank=1 tag=3 write=1 addr=fffef7c0 mask=ffffffffffffffff
+DMA_REQ cycle=227316 bank=0 tag=6 write=1 addr=fffef780 mask=ffffffffffffffff
+DMA_REQ cycle=227318 bank=0 tag=6 write=1 addr=fffef800 mask=ffffffffffffffff
+DMA_REQ cycle=227318 bank=1 tag=3 write=1 addr=fffef8c0 mask=ffffffffffffffff
+DMA_REQ cycle=227320 bank=1 tag=3 write=1 addr=fffef940 mask=ffffffffffffffff
+DMA_REQ cycle=227322 bank=0 tag=6 write=1 addr=fffef900 mask=ffffffffffffffff
+DMA_REQ cycle=227322 bank=1 tag=3 write=1 addr=fffef9c0 mask=ffffffffffffffff
+DMA_REQ cycle=227326 bank=0 tag=6 write=1 addr=fffefa00 mask=ffffffffffffffff
+DMA_REQ cycle=227326 bank=1 tag=3 write=1 addr=fffefac0 mask=ffffffffffffffff
+DMA_REQ cycle=227328 bank=0 tag=6 write=1 addr=fffefa80 mask=ffffffffffffffff
+DMA_REQ cycle=227328 bank=1 tag=3 write=1 addr=fffefb40 mask=ffffffffffffffff
+DMA_REQ cycle=227330 bank=0 tag=6 write=1 addr=fffefb00 mask=ffffffffffffffff
+DMA_REQ cycle=227330 bank=1 tag=3 write=1 addr=fffefbc0 mask=ffffffffffffffff
+DMA_REQ cycle=227332 bank=0 tag=6 write=1 addr=fffefb80 mask=ffffffffffffffff
+DMA_REQ cycle=227332 bank=1 tag=3 write=1 addr=fffefc40 mask=ffffffffffffffff
+DMA_REQ cycle=227334 bank=0 tag=6 write=1 addr=fffefc00 mask=ffffffffffffffff
+DMA_REQ cycle=227334 bank=1 tag=3 write=1 addr=fffefcc0 mask=ffffffffffffffff
+DMA_REQ cycle=227336 bank=0 tag=6 write=1 addr=fffefc80 mask=ffffffffffffffff
+DMA_REQ cycle=227336 bank=1 tag=3 write=1 addr=fffefd40 mask=ffffffffffffffff
+DMA_REQ cycle=227338 bank=0 tag=6 write=1 addr=fffefd00 mask=ffffffffffffffff
+DMA_REQ cycle=227338 bank=1 tag=3 write=1 addr=fffefdc0 mask=ffffffffffffffff
+DMA_REQ cycle=227340 bank=0 tag=6 write=1 addr=fffefd80 mask=ffffffffffffffff
+DMA_REQ cycle=227340 bank=1 tag=3 write=1 addr=fffefe40 mask=ffffffffffffffff
+DMA_REQ cycle=227342 bank=0 tag=6 write=1 addr=fffefe00 mask=ffffffffffffffff
+DMA_REQ cycle=227342 bank=1 tag=3 write=1 addr=fffefec0 mask=ffffffffffffffff
+DMA_REQ cycle=227344 bank=0 tag=6 write=1 addr=fffefe80 mask=ffffffffffffffff
+DMA_REQ cycle=227344 bank=1 tag=3 write=1 addr=fffeff40 mask=ffffffffffffffff
+DMA_REQ cycle=227346 bank=0 tag=6 write=1 addr=fffeff00 mask=ffffffffffffffff
+DMA_REQ cycle=227354 bank=1 tag=3 write=1 addr=121c0 mask=ffffffffffffffff
+DMA_REQ cycle=227356 bank=0 tag=6 write=1 addr=12180 mask=ffffffffffffffff
+DMA_REQ cycle=227380 bank=1 tag=3 write=1 addr=fffef840 mask=ffffffffffffffff
+DMA_REQ cycle=227384 bank=0 tag=6 write=1 addr=fffef880 mask=ffffffffffffffff
+DMA_REQ cycle=227388 bank=0 tag=6 write=1 addr=fffef980 mask=ffffffffffffffff
+DMA_REQ cycle=227410 bank=1 tag=3 write=1 addr=fffeffc0 mask=ffffffffffffffff
+DMA_REQ cycle=227412 bank=0 tag=6 write=1 addr=fffeff80 mask=ffffffffffffffff
+DMA_REQ cycle=227516 bank=1 tag=3 write=1 addr=fffefa40 mask=ffffffffffffffff
+DMA_REQ cycle=227550 bank=0 tag=6 write=0 addr=0 mask=ffffffffffffffff
+DMA_RSP cycle=227862 bank=0 tag=6
+DMA_REQ cycle=228032 bank=0 tag=0 write=0 addr=0 mask=0
+DMA_RSP cycle=228062 bank=0 tag=0
+STUDENT_GPU ordinal=17 status=0 primitive=0 bits=3cff,3de0,bc59,3da4,3d08,3ca2,bd89,3c90 selected=2,0
+STUDENT_GPU_COMPLETE start=17 count=1
+CHIP debug [TID 30020] [1794303469.568912603] : Uninitializing CHIP...
+ROUTEB_PERF_CLASS_BEGIN group=0
+PERF: instrs=10446, cycles=110594, IPC=0.094
+ROUTEB_PERF_CLASS_END group=0 code=0
+ROUTEB_PERF_CLASS_BEGIN group=4
+PERF: core0: dcache: reqs=1017, miss_r=69 (hit=88%), miss_w=149 (hit=65%), evicts=74, bank_st=0 (utility=100%)
+PERF: instrs=10446, cycles=110594, IPC=0.094
+ROUTEB_PERF_CLASS_END group=4 code=0
+ROUTEB_PERF_CLASS_BEGIN group=7
+PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)
+PERF: core0: coalescer: misses=0
+PERF: memory: reqs=505 (r=431, w=74), lat=19.1 cyc, bank_st=0 (utility=100%)
+PERF: instrs=10446, cycles=110594, IPC=0.094
+ROUTEB_PERF_CLASS_END group=7 code=0

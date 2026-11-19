@@ -1,0 +1,153 @@
+{
+  "status": "FIVE_EXACT_BINDINGS_RECOVERED_PHYSICAL_IDENTITY_STILL_HOLD",
+  "timestamp": "2026-11-10T12:14:35.234222+08:00",
+  "original_checks": 50,
+  "previous_exact_matches": 27,
+  "new_exact_matches": 5,
+  "total_exact_matches": 32,
+  "remaining_unmatched": 18,
+  "generator": "6-源码引用/原始参考包/sources/scripts/prepare_student_mini_gpu_top.py",
+  "generator_sha256": "8d355b50185aca76a973bb420325d5b2d1d581574c162af25e3dbe5fa4bca45a",
+  "original_function_nodes": [
+    {
+      "name": "CHAIN_CELL",
+      "first_line": 23,
+      "last_line": 23
+    },
+    {
+      "name": "block_drivers",
+      "first_line": 26,
+      "last_line": 45
+    },
+    {
+      "name": "direct_chip_feedthroughs",
+      "first_line": 48,
+      "last_line": 107
+    }
+  ],
+  "original_partition_top": {
+    "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/top.v",
+    "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/partition/top.v.gz",
+    "uncompressed_sha256": "61aa93404b559374660d6a6f7b8a5e09aae4fb87b4430c9b6425f31cdadfa10f"
+  },
+  "block_netlist_inputs": [
+    {
+      "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q0/6_final.v.gz",
+      "gzip_sha256": "e31b557efde33b40dbdc0058175679d3a227104508158e04d176951303258c1e",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q0/student-mini-gpu-block-final-1161c4163d2556ad/6_final.v",
+      "uncompressed_sha256": "e76c47db887ce9b588e0b4c41ff48c4e592396ca98f9a98b6eb2e14183a52ce7"
+    },
+    {
+      "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q1/6_final.v.gz",
+      "gzip_sha256": "1da04f09671c924112518a0eab2da6a5f5ac040d822c89cf7e42fdbdac9cbcec",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q1/student-mini-gpu-block-final-e9f0cde51ef9dd12/6_final.v",
+      "uncompressed_sha256": "1f6333af107ad1f2b274459ce8a0d5e50c326cbfdd1fa17c3c4b003996e72ea7"
+    },
+    {
+      "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q2/6_final.v.gz",
+      "gzip_sha256": "4e7584be5cca6d398c6f225d1b72bc6902d522c377bf26b967df4a8cfaca17e2",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q2/student-mini-gpu-block-final-940bd5533128d2b1/6_final.v",
+      "uncompressed_sha256": "561f2c306203fc28e59fc55b55c9273f42dcfb4563dd7bb3fee6822716495a31"
+    },
+    {
+      "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q3/6_final.v.gz",
+      "gzip_sha256": "39786eb451c865de1b5507b49075500048dfdc67238230e532cc5c8679f2ccf0",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q3/student-mini-gpu-block-final-189841ed9ce2e063/6_final.v",
+      "uncompressed_sha256": "30cee57b8cd74ddffbd6b3e1c35d69c83ab29afd3eda5a798b2c6372211a8fdf"
+    }
+  ],
+  "new_matches": [
+    {
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/top.v",
+      "expected_sha256": "81c048900358ca9c1bc1fd2099dc65b78bbb3801a808f275616376fd84604de3",
+      "actual_sha256": "81c048900358ca9c1bc1fd2099dc65b78bbb3801a808f275616376fd84604de3",
+      "recovered_file": "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/top.v",
+      "status": "EXACT_SHA_MATCH",
+      "method": "Original direct_chip_feedthroughs applied to original partition top and SHA-verified current final block netlists; append one LF.",
+      "rewiring_count": 37
+    },
+    {
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q0.lef",
+      "expected_sha256": "390a12eca0c7f8eeed3a8676bba05194b43a3386246b3ff7899c19b785bd2262",
+      "actual_sha256": "390a12eca0c7f8eeed3a8676bba05194b43a3386246b3ff7899c19b785bd2262",
+      "recovered_file": "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/vortex_physical_top_q0.lef",
+      "status": "EXACT_SHA_MATCH",
+      "method": "Decompress packaged abstract LEF; apply original prepare_student_mini_gpu_top.py single met5 OBS removal expression.",
+      "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q0/abstract/vortex_physical_top_q0.lef.gz",
+      "gzip_sha256": "310e6d42ed71bdd7b5bf29d3ca48c0511e7f356a43fb17f20b6ce96370e28c2b",
+      "uncompressed_abstract_sha256": "22f1ee8f69e5409a4dda32c521187d3c3beef500190f9637561c302cee74a516",
+      "substitution_count": 1
+    },
+    {
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q1.lef",
+      "expected_sha256": "54d9b35d0fbd316edcb58c67740ace3cb1397504f8d611a6000d746e6be95aa3",
+      "actual_sha256": "54d9b35d0fbd316edcb58c67740ace3cb1397504f8d611a6000d746e6be95aa3",
+      "recovered_file": "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/vortex_physical_top_q1.lef",
+      "status": "EXACT_SHA_MATCH",
+      "method": "Decompress packaged abstract LEF; apply original prepare_student_mini_gpu_top.py single met5 OBS removal expression.",
+      "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q1/abstract/vortex_physical_top_q1.lef.gz",
+      "gzip_sha256": "e43ef6bf19cd241ec75281f788827c7cf428e5ce75c050d851c4ce1951f05420",
+      "uncompressed_abstract_sha256": "6d2d2719faf195af8f329e56ea6bf081ee7efc2357274effc129672deb1a32ea",
+      "substitution_count": 1
+    },
+    {
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q2.lef",
+      "expected_sha256": "1e537dae0e0a2c04316e659068e946d09f7a80de4b41ef8b6746b61f091c270c",
+      "actual_sha256": "1e537dae0e0a2c04316e659068e946d09f7a80de4b41ef8b6746b61f091c270c",
+      "recovered_file": "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/vortex_physical_top_q2.lef",
+      "status": "EXACT_SHA_MATCH",
+      "method": "Decompress packaged abstract LEF; apply original prepare_student_mini_gpu_top.py single met5 OBS removal expression.",
+      "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q2/abstract/vortex_physical_top_q2.lef.gz",
+      "gzip_sha256": "d025607104f21e3df6f52ba6dc109be1f0bab91ce668ebd2c1eead694c392106",
+      "uncompressed_abstract_sha256": "ce1843eebb17c05fb3606dda1951e6bb8d7843a4c4b24284d616a9bc31d30792",
+      "substitution_count": 1
+    },
+    {
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q3.lef",
+      "expected_sha256": "8eac94b624766e146c73efab1bb74e6ebb24689f6282f644b54ddf0705d0e8c9",
+      "actual_sha256": "8eac94b624766e146c73efab1bb74e6ebb24689f6282f644b54ddf0705d0e8c9",
+      "recovered_file": "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/vortex_physical_top_q3.lef",
+      "status": "EXACT_SHA_MATCH",
+      "method": "Decompress packaged abstract LEF; apply original prepare_student_mini_gpu_top.py single met5 OBS removal expression.",
+      "packaged_gzip": "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q3/abstract/vortex_physical_top_q3.lef.gz",
+      "gzip_sha256": "933b2468d55f044aa1fedbabb489d14891a5d8688fad2407367f8ae93ec9db9f",
+      "uncompressed_abstract_sha256": "1d42ae80999113df89a9c453bc91fb9a0c516a32960a1284e08951dbe4d45bce",
+      "substitution_count": 1
+    }
+  ],
+  "sealed_source_hashes_unchanged": true,
+  "input_sha256": {
+    "8-本轮实验/GPU物理依赖公开来源核对-20261109/binding-recheck.json": "681dfba00e72f4e84350ea095d52c8501a88837137d4a7608a1e616f90a58a9d",
+    "6-源码引用/原始参考包/sources/scripts/prepare_student_mini_gpu_top.py": "8d355b50185aca76a973bb420325d5b2d1d581574c162af25e3dbe5fa4bca45a",
+    "6-源码引用/原始参考包/physical/gpu/partition/completion.json": "7f2cff233a5c4555308d54e0a8c140025418054e19a5f0cbc59616256e493815",
+    "6-源码引用/原始参考包/physical/gpu/top/completion.json": "7dc054692555a0fcdd652d8adeb432f9c2241e217617dabffcd7301f19151872",
+    "6-源码引用/原始参考包/physical/gpu/fullchip-sta/completion.json": "2b52e31f9f1302f3023a38f675d86284c16387b03963b5db093d6450a0697e31",
+    "6-源码引用/原始参考包/physical/gpu/partition/top.v.gz": "71e4f4079a4dc6945050eba7f521fb918981d5079928f2dd10839f10c7da18b0",
+    "6-源码引用/原始参考包/physical/gpu/partition/summary.json": "763dbd3a5cc8d3369a5be42b87569b298097a836682de66d600320490fab3d37",
+    "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q0/6_final.v.gz": "e31b557efde33b40dbdc0058175679d3a227104508158e04d176951303258c1e",
+    "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q1/6_final.v.gz": "1da04f09671c924112518a0eab2da6a5f5ac040d822c89cf7e42fdbdac9cbcec",
+    "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q2/6_final.v.gz": "4e7584be5cca6d398c6f225d1b72bc6902d522c377bf26b967df4a8cfaca17e2",
+    "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q3/6_final.v.gz": "39786eb451c865de1b5507b49075500048dfdc67238230e532cc5c8679f2ccf0",
+    "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q0/abstract/vortex_physical_top_q0.lef.gz": "310e6d42ed71bdd7b5bf29d3ca48c0511e7f356a43fb17f20b6ce96370e28c2b",
+    "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q1/abstract/vortex_physical_top_q1.lef.gz": "e43ef6bf19cd241ec75281f788827c7cf428e5ce75c050d851c4ce1951f05420",
+    "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q2/abstract/vortex_physical_top_q2.lef.gz": "d025607104f21e3df6f52ba6dc109be1f0bab91ce668ebd2c1eead694c392106",
+    "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q3/abstract/vortex_physical_top_q3.lef.gz": "933b2468d55f044aa1fedbabb489d14891a5d8688fad2407367f8ae93ec9db9f"
+  },
+  "network_downloads": [],
+  "eda_commands_run": [],
+  "parameter_searches": [],
+  "remaining_categories": {
+    "sram_lib": 6,
+    "sram_lef": 6,
+    "partition_flat_and_quad_netlists": 2,
+    "top_constraint_sdc": 1,
+    "older_context_final_netlists": 3
+  },
+  "physical_identity_established": false,
+  "limitations": [
+    "The 18 remaining original file identities are unresolved.",
+    "No missing SDC text was guessed or searched by hash.",
+    "The original file hashes are recovered; no new DRC/STA/route run is claimed.",
+    "Fresh functional project-banked.v and behavioral SRAM models are not physical views."
+  ]
+}

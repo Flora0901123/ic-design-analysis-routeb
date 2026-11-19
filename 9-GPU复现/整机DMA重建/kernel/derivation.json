@@ -1,0 +1,7 @@
+{
+  "status": "SOURCE_DERIVED_NOT_EXECUTED",
+  "parent_sha256": "1fc76675657f95234e07e62c3d9fc2d265bc958769c1e1c52b7a6ce6cedf67fc",
+  "derived_sha256": "56d29d898d7a03960e9b1cb665b8df021f18ac0e67a183fa0a2bbc7bd733ba84",
+  "change": "real volatile fault-window read; status 6 retained so BUS_ERROR may only be derived from actual device status",
+  "whole_dma_pass": false
+}

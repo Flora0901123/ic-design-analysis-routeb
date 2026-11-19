@@ -1,0 +1,7 @@
+﻿{
+    "status":  "STARTED_NOT_YET_VERIFIED",
+    "wsl_windows_pid":  32052,
+    "wrapper_pid":  20724,
+    "started_at":  "2026-11-10T12:23:00.3744676+08:00",
+    "scope":  "one-time baseline seal then full candidate board; no scheduled/startup task"
+}

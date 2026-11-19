@@ -1,0 +1,11 @@
+﻿{
+    "status":  "PROCESS_EXITED_RESULT_REQUIRES_STATUS_JSON",
+    "wsl_windows_pid":  30620,
+    "wrapper_pid":  22884,
+    "started_at":  "2026-11-10T12:10:11.8879612+08:00",
+    "stdout":  "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\8-本轮实验\\GPU同硬件全1000-20261108\\driver-20261110.log",
+    "stderr":  "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\8-本轮实验\\GPU同硬件全1000-20261108\\driver-20261110-stderr.log",
+    "persistence":  "one-time process launched by local Windows process service; no scheduled task or startup registration",
+    "exit_code":  null,
+    "ended_at":  "2026-11-10T17:32:16.5280837+08:00"
+}

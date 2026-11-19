@@ -1,0 +1,51 @@
+{
+  "status": "WHOLE_GPU_SRAM_WRAPPER_BINDINGS_PASS",
+  "expected_macro_counts": {
+    "routeb_new_1w1r_20x64": 4,
+    "routeb_new_1w1r_32x256": 16,
+    "routeb_new_1w1r_8x1024": 16,
+    "routeb_new_1w1r_8x128": 128
+  },
+  "physical_signoff": false,
+  "scope": "Whole-GPU RTL hierarchy, process and macro port binding. Four SRAM definitions are interface blackboxes.",
+  "actual_macro_counts": {
+    "routeb_new_1w1r_32x256": 16,
+    "routeb_new_1w1r_20x64": 4,
+    "routeb_new_1w1r_8x128": 128,
+    "routeb_new_1w1r_8x1024": 16
+  },
+  "total_macro_instances": 164,
+  "seconds": 48.25803716900003,
+  "source_bindings": {
+    "8-本轮实验/GPU新身份物理输入准备-20261110/openram-preflight.ys": "abd50ed0c92b3ee2a41844ebefca9630fa3435c69e2d6d84a995c41b48ae6d99",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/resource-estimate.json": "58d9f0456bd1ae2c36765fd225361ae0c75768d975a7cbf87d4543baf5ab9ca5",
+    "7-审计与验收/run_new_gpu_sram_binding_preflight.py": "1a444788586ca7376fe839c7958ddd67d71b373204709ec8a786f573e1afa79e",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/project-physical.v": "ce93aaba3171155f57c42f73112eccd221a96d71444fef423e12d4f525033709",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/gpu_fault_physical_top.sv": "f844bc6ece4fa9364afd48459999f348771db37e8a29708060fb7c8c5754e255",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/gpu_status_command_adapter.sv": "97bb899ba7d7202031e906046d8b6aeb70200b346d791df82b322f10ae942021",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/gpu_fault_memory_adapter.sv": "5ef56b0c67bc08c9e3629b6bdbd0b0fe443f084a413075e9e0210f36ab402663",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/vortex_banked_large_sram_wrappers.sv": "ec85edb5b99cbcdad47ec94edcd72446d47ab7925205a2b375d26a540cd3c528",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/rtl/openram_wrappers.v": "556f077d43bc7a68811e928cc334f4a8cdd67685f9a93716bab56b5ff61cbc5d",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/rtl/openram_blackboxes.v": "4461325980dec210cf549ad03b5c17a94b8e987c4b93d060f9444d8f0c20ae80"
+  },
+  "artifact_hashes": {
+    "preflight.ys": "ab1e7f02a68168193c9ec996ac81fcca35666bce901faaf1d370226df490b18f",
+    "stat.json": "89c2bb60bbb3f1f4d30adeeda9be2c3b8d8df19123a1357832af35f95da79ab2",
+    "yosys.log": "15a5643d65d5f7f75e2e37b4832c239b85994dea960b35205db0a5ea95a0d71c"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794406916.2492566,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 365329732\nuser_usec 355009344\nsystem_usec 10320387\nnice_usec 0\nnr_periods 3376\nnr_throttled 185\nthrottled_usec 395949\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "541589504",
+      "memory.peak": "5099593728",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "310\n437\n861\n863\n911"
+    }
+  }
+}

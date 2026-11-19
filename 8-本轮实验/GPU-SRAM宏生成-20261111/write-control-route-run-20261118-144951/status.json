@@ -1,0 +1,49 @@
+{
+  "status": "FAILED_OR_PARTIAL",
+  "records": [
+    {
+      "shape": "8x128",
+      "status": "FAILED",
+      "base_config_sha256": "8989e48d748900fc508d449cbb0fcf1ad36e5f7efafa146a8e7b2fc3cdff1d46",
+      "config_sha256": "7f3c082ee09882aac880d040e0f0fdad43f8934b82d36c420b03dfd222849271",
+      "error": "RuntimeError: Time or 7 GiB early stop reached; see compile.log",
+      "partial_files": {
+        "routeb_new_1w1r_8x128.log": "35529a97a19596e8374fddb159657b28387ef64f30cb8f6bed25c6beb8bccd3d"
+      },
+      "seconds": 3000.604195004
+    }
+  ],
+  "physical_signoff": false,
+  "layout_view_mode": "analytical Liberty",
+  "layout_verification_requested": false,
+  "source_pins": {
+    "openram": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+    "bitcells": "dd64256961317205343a3fd446908b42bafba388",
+    "hd_latch": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1"
+  },
+  "inputs": {
+    "8-本轮实验/GPU-SRAM宏生成-20261111/macro-pdk-ready.json": "6ae22e5dbc70c11acade41552da1dc5f0eba302c7e848e75b114ea5abe6a9b0a",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/magic-8.3.306-v4/status.json": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-write-control-20261118/status.json": "0b65907a52aac366b94cd38ff8c21787c4c5326dc5b2cd2e2dbe208f24441655",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.gds": "d7f91d31f0a3f51ce42522a0089e052a615109a3b08b94561198d8c5cfc86b38",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.spice": "97d2a2fad044ddd1cb4601b885f34af026c46ea5394ab1dea127f7579e334209",
+    "9-GPU复现/downloads/openram-b2b069c/OpenRAM-source.tar.gz": "bbbdf2bc13cf779b1b11fd485d52a39494b79cdc7b37861c025874cdb8bc0cd3",
+    "9-GPU复现/downloads/openram-b2b069c/Sky130-SRAM-bitcells.tar.gz": "4a9b8adf7c3ca65a97b2715aa7589149d6aacc5ed9fcff832d046d43bc1d87e9",
+    "7-审计与验收/generate_sram_write_control_repair_20261118.py": "2f1b5f9d2036c583cf9c362e5a2b388b8d9409991a9a73cf2a7305d05e8474a5"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1795009242.5990818,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 8906327243\nuser_usec 8860030686\nsystem_usec 46296556\nnice_usec 0\nnr_periods 48269\nnr_throttled 3491\nthrottled_usec 21935940\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "5297795072",
+      "memory.peak": "5671968768",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "372\n373\n429\n430\n912\n1795\n6217\n6244\n6245\n6247"
+    }
+  }
+}

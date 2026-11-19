@@ -1,0 +1,53 @@
+{
+  "status": "FOUR_PARTITIONS_EXPORTED",
+  "physical_signoff": false,
+  "hierarchical_equivalence_verified": false,
+  "partition_source_sha256": "8429662dfc2dba774be34d154b8a289d2dfb4cd6f2ba5449d1e2b26ced7ec404",
+  "feedthrough_search": "Cached per-net partition counts, with immediate updates and self-pin subtraction",
+  "parent_odb_sha256": "be1803876c7c1e418db9b3e307be95ca96b038e91c87e6661e0f7a6f39fd54a9",
+  "module_names": [
+    "vortex_physical_top",
+    "vortex_physical_top_q0",
+    "vortex_physical_top_q1",
+    "vortex_physical_top_q2",
+    "vortex_physical_top_q3"
+  ],
+  "instances_by_quadrant": [
+    186143,
+    184917,
+    62055,
+    52121
+  ],
+  "macro_counts_by_quadrant": {
+    "2": 64,
+    "3": 64,
+    "1": 16,
+    "0": 20
+  },
+  "interface_nets_reported": 13751,
+  "outputs": {
+    "macros.tsv": "f4c3a09791654568cf18a79955766e0b94a7a38e8d0f2c08fcc8cb2842850bf7",
+    "nets.tsv": "c55f6da1031505fe0f186bacb7ed5e06eb8e78b146e5bc1e85b38bebd2d87228",
+    "openroad.log": "a3cce065fec24387e289d13b1f83f74b81b1d0aec90bd34cde41096834e82ebe",
+    "partition.tcl": "26b0d22ae4601680c9dbcfc1c4b1e47b5d9fdd94ebdfa95f422d38800e058595",
+    "ports.tsv": "5b4c067c7b3266d16da2503f021c9ddd77d40082948d23cd8a970f5003858747",
+    "quad.v": "cb6e293eebc3ce202d18634bd9368513443cb849c53589d8f817adcc88eae958",
+    "rc.tcl": "4e7777083c9f63e5a65bf15e1103f7ff68e78234e827ec84977e88e7729fbd7a"
+  },
+  "elapsed_seconds": 393.36645023200003,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794733255.9828932,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1505024832\nuser_usec 1423523914\nsystem_usec 81500917\nnice_usec 0\nnr_periods 14543\nnr_throttled 38\nthrottled_usec 257002\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "812421120",
+      "memory.peak": "6810796032",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "857"
+    }
+  }
+}

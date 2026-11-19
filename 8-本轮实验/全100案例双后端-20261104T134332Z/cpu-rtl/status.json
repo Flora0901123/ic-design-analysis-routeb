@@ -1,0 +1,7 @@
+{
+  "status": "FAILED",
+  "backend": "vexriscv-rtl",
+  "fresh_execution": true,
+  "records_expected": 1000,
+  "error": "OSError: [Errno 61] No data available"
+}

@@ -1,0 +1,57 @@
+{
+  "out": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794143067131109112",
+  "status": "TRANSCRIPTS_COLLECTED",
+  "variant": "baseline",
+  "requested_variant": "baseline",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "介绍自己",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "runs": [
+    {
+      "run": 0,
+      "complete": true,
+      "console_sha256": "ecaed85c628300983b837f05f5e09205e2d03d89d8338d47e70f35958db37f71",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 3053840,
+      "per_token_decode_cycles": 806551.5,
+      "decode_intervals_cycles": [
+        741245,
+        770238,
+        792707,
+        819525,
+        846021,
+        869573
+      ],
+      "session_cycles": 7893378,
+      "operator_cycles": {
+        "1": 215746,
+        "2": 479173,
+        "3": 1264340
+      }
+    }
+  ],
+  "token_and_metrics_validation": "PASS",
+  "metrics_mean": {
+    "ttft_cycles": 3053840,
+    "per_token_decode_cycles": 806551.5,
+    "session_cycles": 7893378
+  },
+  "measurement_boundary": "mcycle around mini_native_generate; excludes boot, input transfer, host tokenization; EOS included in decode intervals",
+  "promotion": "NOT_EVALUATED"
+}

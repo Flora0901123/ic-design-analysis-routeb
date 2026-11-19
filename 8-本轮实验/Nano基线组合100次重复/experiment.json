@@ -1,0 +1,7 @@
+{
+  "input": "一加一等于几",
+  "repeat_per_variant": 100,
+  "primary_metric": "ttft_cycles",
+  "scope": "fresh process and RTL reset per trial; same validated cached binary; host wall time not a performance metric",
+  "formal_baseline": false
+}

@@ -1,0 +1,474 @@
+{
+  "status": "ROM_SKY130HD_ALL_50_MAPPINGS_PASS",
+  "physical_signoff": false,
+  "liberty_sha256": "8725d472becbb2d016ee59cdc0207e1102f24a5c6f5fb4ed194cecc278372575",
+  "mapped_nonconstant": 42,
+  "constant_banks": 8,
+  "bank_mappings": [
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_00",
+      "constant": false,
+      "logic_area_um2": 10194.7776,
+      "mapped_sha256": "7ceadf5767d045473c731741da52dd382cc722fa0c28049fa6ed613ebe394597",
+      "rtl_sha256": "c47b0f60049a414114447774a89ee7b3c45f1527a46074fb638502bc24fd267c",
+      "log_sha256": "e8a2f181940b744854a760567a76212ddb8006416471328939de95f0e89aca79"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_01",
+      "constant": false,
+      "logic_area_um2": 10583.9008,
+      "mapped_sha256": "9ef171d30f1388336e088b0af093501123e9bf29b1c764e6d0ed63106a7d478d",
+      "rtl_sha256": "f20b88b539c05732bae246572e0900518807ae5662c3c4e2d643c3b15e7015a1",
+      "log_sha256": "75d0e6cadd9bdd09c2bcdf2b6210fb44043e11d4ab108b3fa388e5cfe74bf753"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_02",
+      "constant": false,
+      "logic_area_um2": 10551.3696,
+      "mapped_sha256": "7d8c7c03888d9eef2ba981a75f357cbc2fa1da8ed0cc30132a27fbb2faf6dd7b",
+      "rtl_sha256": "0c20923e813f4ebb02343a2c939cc212b4579a69a242f5ecdb903c1b9681f81b",
+      "log_sha256": "3ae3332b69c5d1a5a5da54482a6b1ff24dfa69d4d85d44e9ac5bbff6e8b7188f"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_03",
+      "constant": false,
+      "logic_area_um2": 10012.1024,
+      "mapped_sha256": "f91655590bfbec70e8a0dfc36b8c633891db35b0c3e3a41a1191c40f3dbce47e",
+      "rtl_sha256": "bf2d8ad9982e3c57b725050c92849bb41f672eea6370cdef8bd7852bd4789e3a",
+      "log_sha256": "1dce5b16d3abe9ef1345a812c038252f163f00bae0d8007e1dd26e1e4e0cb7db"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_04",
+      "constant": false,
+      "logic_area_um2": 10806.6144,
+      "mapped_sha256": "4843ebfd2b49821159cb2ffa1a4dd38f78abfeebb2f8fa7629f94e4e188a2d13",
+      "rtl_sha256": "23538140f01022d2f3af71a2f921b346ea90a32435a14ad48ca227735abae5dd",
+      "log_sha256": "355cec60e7dc2f3e6d35603cf8f0f72238d30944942939c9f431f822604591fe"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_05",
+      "constant": false,
+      "logic_area_um2": 10907.9616,
+      "mapped_sha256": "7d971c0156219503ef492a5a2fb3a87914465e6b37070b8aa203b8266284a8e0",
+      "rtl_sha256": "8c377e86ebecea10433eef919b4f549e9907b0149273859158542ec4a3be3538",
+      "log_sha256": "aec5aaa97780de24f61af42965eabf25a4045c4beb1603b75a65ad88abf88438"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_06",
+      "constant": false,
+      "logic_area_um2": 10411.2352,
+      "mapped_sha256": "16b0c784475802f824f9feef555bd0344b030b0d782ca93c2a61f466c0dca065",
+      "rtl_sha256": "348b688d62bc1520858bab72f6b975e47db70752a231fd7d31d243a7b8335bdf",
+      "log_sha256": "1036472480b793dcc93061f973d238d020f655b37c93d790d9a4d5075c02e07d"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_07",
+      "constant": false,
+      "logic_area_um2": 11130.6752,
+      "mapped_sha256": "b8b6bc53ef640b2cea7a223ceb8aa7cb091a27c9fd35b2bbb745632aa3027913",
+      "rtl_sha256": "81c982a528ab4d3a6537229e7a28ee25d58d51578a055c84fb4624743ab3e65c",
+      "log_sha256": "aae8891b5ff0845d41603d831407f8780ff3a4eefc7139952b5d35eec2fa1299"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_08",
+      "constant": false,
+      "logic_area_um2": 11128.1728,
+      "mapped_sha256": "2a5f9852afcc08a48903fe0c6dd8cb7539ff0caeb550300a1c889fb6656b6d15",
+      "rtl_sha256": "73330395484f0dacd626d62007d1ff7676a9ec1cc56f4fbc4b7f068e6a10a9a6",
+      "log_sha256": "a41f470920e5dc2fe98f832b8b3fe0b14e749a2e3856e2de583e9c773588ae4f"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_09",
+      "constant": false,
+      "logic_area_um2": 11191.984,
+      "mapped_sha256": "a5ca92042197aed86612e956c0382ca449ffd90af9feb019ed372b44c64c69c6",
+      "rtl_sha256": "21bb4c72ee7abfc834a60277b4016617af12c4ce616e494cc45eea7fa34602c3",
+      "log_sha256": "60870815ae9e8c4e6e71992fe46d534e4c4037501b997dc0ca02aa61950ff84d"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_10",
+      "constant": false,
+      "logic_area_um2": 11307.0944,
+      "mapped_sha256": "876d762d994dbd83551b0fb489f82c83ad42667def922f47d00106fe72a207fa",
+      "rtl_sha256": "7667ca7a207f80acb3d28ed582f8517d2888725ed6c0dbce46ac2e4215e9c003",
+      "log_sha256": "08760879a0163b5e0eeb4ed388da7a1287d2fe20b03ed2d10580a4d95ab8da21"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_11",
+      "constant": false,
+      "logic_area_um2": 9769.3696,
+      "mapped_sha256": "0cd70f78ed84ea03acdaae516e8551847663a50b11382841e05382a7cf63ad18",
+      "rtl_sha256": "f3e57c479038c145a4e4af3984f94ba029f149b735b121c2aa6335b728166cbe",
+      "log_sha256": "aa0fca36a8d9ec3b03963c384a62f9f530858c0354060cb9384a1ffb6686f5ae"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_12",
+      "constant": false,
+      "logic_area_um2": 10951.7536,
+      "mapped_sha256": "1917633e0e97aeae290a1589c80123c3af3264beb6508499057fc5adb9c2be52",
+      "rtl_sha256": "12a1b2c44ce159d5989f8dd5db51ec36bbfeea3d89ece45dcc3d7137b0b8bd81",
+      "log_sha256": "0ab98baaa7f4bed434837ce590062dc19f35669d5cb644cae2f1b6cadd565982"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_13",
+      "constant": false,
+      "logic_area_um2": 10865.4208,
+      "mapped_sha256": "a18ae0b4cd3e4ec090554286acc74b94a9dfdb5e6186ee67ff26ca685ac75184",
+      "rtl_sha256": "fb23be42857dd4fa053f18a177d764435a14b7770143518d237ed1784b3abe50",
+      "log_sha256": "d0b764cb89f71f8000b22ea4ee06683de6c626c109f3b71b68471f13bbb36953"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_14",
+      "constant": false,
+      "logic_area_um2": 11532.3104,
+      "mapped_sha256": "08761a0c42f1642330d2ebaff4996c4d31a48bc8269ddf9b5cc781a5c6f117dc",
+      "rtl_sha256": "c22cfa401bb30c1466a2c593a847b13a99234d389853d47ee294b078f35042d8",
+      "log_sha256": "85c1f3d05e1c05bdc9c0bab442aaadd6ab3ce5cacb0ebbf3b90aa0de4bdebcce"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_15",
+      "constant": false,
+      "logic_area_um2": 10651.4656,
+      "mapped_sha256": "787bd3babb237397c6077d74134f440f7967949fc872f0907f076114c558bb1f",
+      "rtl_sha256": "c99296469bac38121cf5440e40237b859affb5ef6e501b10dead7a93bfcae6c1",
+      "log_sha256": "545b639453957cd35cabc39736c2976cb2da4aeaea599fe3a5499482c0d22d07"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_16",
+      "constant": false,
+      "logic_area_um2": 4443.0112,
+      "mapped_sha256": "9544e78a36cf543dc5a66f64897b5fd8882d820cad96ee4aeb23eeae150f0411",
+      "rtl_sha256": "51f8ae0700d1f74d89bee9c657c512e8aa6a0d6118b84b7aff03ac2889d1ee92",
+      "log_sha256": "9f0bf52872b1373d3e082d9a30ba0a8e8218d57ee22bf3d3c4f0f03ad924d9ad"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_17",
+      "constant": false,
+      "logic_area_um2": 4410.48,
+      "mapped_sha256": "73a8912fe534e4645635ef8160f6057c19db7a046a5ee1c0601b96c6f1bd36bf",
+      "rtl_sha256": "4f2518a494bbb5a5b02095d08ae40927ab98e2e82959fcb752331d9d236e2231",
+      "log_sha256": "52c2d70f3bc913122dfca0e7dabfa2c651892b046f9e6f24079edad545cc3871"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_18",
+      "constant": false,
+      "logic_area_um2": 5510.2848,
+      "mapped_sha256": "2364ffa6c658fb25009c3a10984b4292af1c301f9b17cda653fe875f2d1ecef4",
+      "rtl_sha256": "cbbdc135643e2ca0649deac18af2984eab806bde1f0942c5fd2f192acb2e16b7",
+      "log_sha256": "8647034b78ed7680739bb359031c32e8fb106efaf46b127aa4a040940a727121"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_19",
+      "constant": false,
+      "logic_area_um2": 3420.7808,
+      "mapped_sha256": "dd84e47b7680b5336ee8748256dea390a5d186e24046f2855c771a1cc6bdc1ee",
+      "rtl_sha256": "97ba7bc8fb4a00567d3665737697ec9c987c630eac498f86c85e570aabbb86c6",
+      "log_sha256": "456e7093c7ecf65cfadc37ca303f2e711eef9afeb28d07dcc8712740bb982ad0"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_20",
+      "constant": false,
+      "logic_area_um2": 3250.6176,
+      "mapped_sha256": "36bd0d8202b2c7b6def8a5614a9d8949689a9a5b4831a4c13cc8cc25fe76461c",
+      "rtl_sha256": "c23044dafb2150294110526669d5f7465cade0a2f71bea3d60994086175f7172",
+      "log_sha256": "37ee7b13894949b890a47df5e2dfb72353b50b16ea4f344a3aeac238b1e32bf1"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_21",
+      "constant": true,
+      "logic_area_um2": 0,
+      "mapped_sha256": "43f4fb8a2f6a6472093fe93c8a9316e0c95ae0959b1b72df8a6e011c552e17ab",
+      "rtl_sha256": "68ea324b4f7ad2fd406c644e96dd04b50f5f27601214d581d59d90493a62b4de",
+      "log_sha256": "3d4129f7613b72703bccb4a4a0291f0ebb6284106968daabf364f3303e22e9a6"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_22",
+      "constant": true,
+      "logic_area_um2": 0,
+      "mapped_sha256": "03f133d81753b0c4832c209531428edafe16360111a4e5095612d03e518f0e99",
+      "rtl_sha256": "feda2485fa8170690e85cfb5e6d463adade245e94acdfc9b9a4183030682cee9",
+      "log_sha256": "b3e1bbaa600b118f95185bb37781441305abeba48c9631c1be087f09828c4328"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_23",
+      "constant": true,
+      "logic_area_um2": 0,
+      "mapped_sha256": "8e9c41aed14845ea04170a88f8429c2f7de321e56b72703a11476395ad2a89a0",
+      "rtl_sha256": "7c3ed3d99e7fb6df432750107bb324e63fbbe9ecadf030d1950d9c8967c80248",
+      "log_sha256": "30daebdbc1266d421b594b6c3349626b42e000240d402fc9f66f1f94e607f9db"
+    },
+    {
+      "role": "parent",
+      "bank": "student_mini_cpu_rom_bank_24",
+      "constant": true,
+      "logic_area_um2": 0,
+      "mapped_sha256": "f7bb2bb2ca78b70fbf7a9691eb8fcc38fda1f830ce7258c98340d6ed091cc514",
+      "rtl_sha256": "2ae96b73d0d3d6d402749a7df1f3b3187555c2f4c593690bbefb5b5732967acb",
+      "log_sha256": "4769dede787cea3cc579885781ed3a5e261d7541daebc8a98db50172b4c7231e"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_00",
+      "constant": false,
+      "logic_area_um2": 10657.7216,
+      "mapped_sha256": "5336579b7335e21b8999b38b230dc9844006ad9369a52abc75e995adc5ba1018",
+      "rtl_sha256": "9ab7d69b3387aca2c6197df4c5fb443f0113cb2c1ec4745dc017c1c7014e902f",
+      "log_sha256": "6020b403f382cb5a05ccd033d39b05b8d1174e96c423f40175bb9666debfa168"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_01",
+      "constant": false,
+      "logic_area_um2": 10717.7792,
+      "mapped_sha256": "60d5972a0a1c77b618b753d36e2a277582be98db57127c369830141fab537b6f",
+      "rtl_sha256": "0d94e54255595763a387adf698cdb4f204c24526b03f415450c0b4070254411e",
+      "log_sha256": "668578be08436f87ab057b98b36b1fab1f892bee1a5f92f7168a64271dac7d73"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_02",
+      "constant": false,
+      "logic_area_um2": 10336.1632,
+      "mapped_sha256": "65fffab9d72d41abf330585e9ca9384e533983346d2bd95ca61dac3058f0e226",
+      "rtl_sha256": "3da08c40528ffe848071a24714373d9c9aae7ad74e3f619e399d4f08cc2f7d3b",
+      "log_sha256": "cb8e6f23aeaf34d5f8306de99db0741311dfb5431e2f43873b3c3bf9d813c131"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_03",
+      "constant": false,
+      "logic_area_um2": 9909.504,
+      "mapped_sha256": "851cb823f1adf28d4a42b0bcb9826a09a9f843a1ca446a5b0cc0b0bb636035c3",
+      "rtl_sha256": "7d62fbed82ebe0fcdf2325621750b10e4555a23eeaf9dc52008ba4656b848d29",
+      "log_sha256": "b2957c3feb604a7b2bfce465a949efb8db2fed580614295344f6921b24d7f394"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_04",
+      "constant": false,
+      "logic_area_um2": 10872.928,
+      "mapped_sha256": "1d3bfd59bfcceda4fd29735e54f2cce1c6f1a9f63689c7c609b294835d5f23cb",
+      "rtl_sha256": "b53dfb8a074e40bc799e66fcd4d3a2001fbc1d2f69aeef58f0a2c92ba084cc76",
+      "log_sha256": "160e7256862fc1de65297adb5284b9b72e6a1290a41bf56fa78013761853aa1e"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_05",
+      "constant": false,
+      "logic_area_um2": 10254.8352,
+      "mapped_sha256": "1a18719e0d637bf8cca8a75d2bc91a1ecceddd41eedee70526026cdfd1dbaf90",
+      "rtl_sha256": "26e16683c339f256f9b456ef34f04d98ec1ba696d7d0433e72c08939c7b8e658",
+      "log_sha256": "e6dce76797eca50e22eda7d5e6313ed399515fd4a17d5ea8f0e44f804580a52c"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_06",
+      "constant": false,
+      "logic_area_um2": 11083.1296,
+      "mapped_sha256": "44f286977087faa3c1124ba91e5c25e4b734efefb36fcba0716a89af18f8c2c6",
+      "rtl_sha256": "e316b0fa3ba95f389454976d759e22eef0f06e6e8d1bc4639ad2042ab9bfd6ac",
+      "log_sha256": "710d2aeff348af1fda9699727e66f3e8a38bc446c5312a55323023bb61c918de"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_07",
+      "constant": false,
+      "logic_area_um2": 10442.5152,
+      "mapped_sha256": "88fd1cfc0c9b0ebc74ca908e5f3253ce64d150586d11a617770ef03a3c3a96be",
+      "rtl_sha256": "3532d3449ee6492bd33a176a2d1df61e9deed666ca1de4372494a3cbdbfcef71",
+      "log_sha256": "608f8782a2639d775819c4cc61256577d2f717ea8dbdcf6753f461daaf2c3181"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_08",
+      "constant": false,
+      "logic_area_um2": 11053.1008,
+      "mapped_sha256": "8fd057990d967d00f8c2a33c7c15e34cdb7f2ee735dbe19ebe9479de53a86a36",
+      "rtl_sha256": "9f1d0f43b4f380cd3198411d6fdc279cc80bcea802e3bb1e97dd17308b0ad809",
+      "log_sha256": "a180ce60ae9a19b2bd821931e5adcd4aeb8535a2f401b17ed850f380e8f75d47"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_09",
+      "constant": false,
+      "logic_area_um2": 11208.2496,
+      "mapped_sha256": "b83a77599ce83617d2dd4fa3d42a408040a5f7951358782e8e275c32b2f46c8f",
+      "rtl_sha256": "6c27b5d470446cbb2c5fbd92ed4bc538306099cdb63d8cfa803c074c5fc28983",
+      "log_sha256": "e5a5918c0489d8ed6cbde522977662e711ec909b37f6c4960837f7071f0cb419"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_10",
+      "constant": false,
+      "logic_area_um2": 11000.5504,
+      "mapped_sha256": "0eeba40e11609ad6a2d9e5630c0c456caa1721cb78c19888bd912cb36a3a5a04",
+      "rtl_sha256": "22d212a91c412adb403ae6e63768367f7fbb365c6acff9798f9c3cdb16b86dcd",
+      "log_sha256": "8b6d17a0a0df66df1a347404c86d36153e304a83f6890def35f09b285c7aaade"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_11",
+      "constant": false,
+      "logic_area_um2": 9819.4176,
+      "mapped_sha256": "deaf4520308e47d5552cd464a8b500e8eb4e208e9433a54d93c8165e07322738",
+      "rtl_sha256": "7a5da31fc4646eed8e70b72857ebfa2bce17032bd0f874736b96db624e9bb28c",
+      "log_sha256": "95dfead992e78a5d3de2705c89f9a1bd8acdad128360eb399278f95d65945f16"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_12",
+      "constant": false,
+      "logic_area_um2": 11090.6368,
+      "mapped_sha256": "de7cf3e2db26583eb452837daabcfdbe17fb68c9b93f554890296852bf57d034",
+      "rtl_sha256": "e4cb5e12fb0fcfb7c26938962d05754591ac7e6bfc6468b6d30b36d484b57885",
+      "log_sha256": "763c2ac5ff42559e7b64ddf532b9fb2fd7c92dfc63c65aa9b34357017fd75a4a"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_13",
+      "constant": false,
+      "logic_area_um2": 10832.8896,
+      "mapped_sha256": "390d64c048757b2cebfc6e5e6f942588e5225188556d777687f06b97abd78898",
+      "rtl_sha256": "d7de12afb8db4cb243c8f5227b70fc7af859afc1533156d97359352826ab5a60",
+      "log_sha256": "8eae9690353c84b944cb7d097d57169917c7e633a6108fb888adfb0423648ae1"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_14",
+      "constant": false,
+      "logic_area_um2": 11265.8048,
+      "mapped_sha256": "a7d6c00fa52dbf85e39e256bb1616d9563723cfe8c6420ec199997e113b8032c",
+      "rtl_sha256": "46b1ae73e14f2be9c33ac492190c4094210edbc1305662274a17d070d22c9d0d",
+      "log_sha256": "c5f2775569880475910234f7b50b9473e946618596f1ec7a5f672efb5b7004fc"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_15",
+      "constant": false,
+      "logic_area_um2": 11385.92,
+      "mapped_sha256": "655e5716a64f2a91dc5e95f5b2e27ba89ce3f2a411a6e0b50c08e6f48c24bbc1",
+      "rtl_sha256": "bb542602799c95aa8e2e22d02045afb6f57f35716d9cc0c0fe81efba69731b08",
+      "log_sha256": "61667273a3e69a33d9118fefdb3c8ba8db06848427b22d0b059060e1eb09ea91"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_16",
+      "constant": false,
+      "logic_area_um2": 4135.216,
+      "mapped_sha256": "0d98f41f4aef58e08f8592a4368d4b2ccdde268ae11e624b3d5ad699cd157c0d",
+      "rtl_sha256": "b827616fe39aaae55df6dae05fdcd5f3b21cc8e2601b6d7abcfded7e8b543623",
+      "log_sha256": "c18178fac077c50fd3472ff6e6ce5792b6624b480b998be08b848d0d5964b545"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_17",
+      "constant": false,
+      "logic_area_um2": 4571.8848,
+      "mapped_sha256": "315fa09424468959a5342f406d89abc2a0c258b162e1429b5e5e7bdf97327b5e",
+      "rtl_sha256": "6519ea8bcb822e844e4ebd2a16f77ea8c2a66761ce25aa375d1e2c2262d38246",
+      "log_sha256": "b9ba80eb47df1f3d432b852b05bdf18dc88b5a67dc093bd2657fbaf2e402d166"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_18",
+      "constant": false,
+      "logic_area_um2": 5642.912,
+      "mapped_sha256": "13dd16478bba08f3f01a78c12663197d995d079d96af4bded2539e83d74ab4bf",
+      "rtl_sha256": "7cbbdd98008c43518cb1cc35b56e278248908039615064c74535230fce341ef7",
+      "log_sha256": "9c2aad61ab79c166df47e9fce3df95613ca50649d4a08c1220a3a4d8b04047f5"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_19",
+      "constant": false,
+      "logic_area_um2": 3303.168,
+      "mapped_sha256": "cfa09cc6825bb9c6a3d795aca992cc3b1191936aab02fe5f6da13588596bdfc0",
+      "rtl_sha256": "8baff3acf585e6539fae6ae0cc0351f1591cf2c0f0e77da7a9c4b026d5e4cc30",
+      "log_sha256": "3c0b1c12eb30727132fd83213ae428c40afc9ac5fbbecb69a1c138c96d7fc8e7"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_20",
+      "constant": false,
+      "logic_area_um2": 3261.8784,
+      "mapped_sha256": "0d306bc77ed744fd2341ad39c67bcb13d60a3a762da3242279ad9b327b449005",
+      "rtl_sha256": "e3cd11a632615a2dfa06b1715224145abd969a9b594eb3d21d2f06a31a6d146d",
+      "log_sha256": "462b710d9bc1f21294a6cc91163613a92dfe34aa192c35065e412ba76eb5fec0"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_21",
+      "constant": true,
+      "logic_area_um2": 0,
+      "mapped_sha256": "43f4fb8a2f6a6472093fe93c8a9316e0c95ae0959b1b72df8a6e011c552e17ab",
+      "rtl_sha256": "68ea324b4f7ad2fd406c644e96dd04b50f5f27601214d581d59d90493a62b4de",
+      "log_sha256": "64ddac59664e91d7f5cc60f09314c35557d6b8c5a88bd10cb701c93581e1dc9b"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_22",
+      "constant": true,
+      "logic_area_um2": 0,
+      "mapped_sha256": "03f133d81753b0c4832c209531428edafe16360111a4e5095612d03e518f0e99",
+      "rtl_sha256": "feda2485fa8170690e85cfb5e6d463adade245e94acdfc9b9a4183030682cee9",
+      "log_sha256": "0461725b77c9caa6bcd0c3df30fca402114df8885a04f66161d8266d25bd3972"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_23",
+      "constant": true,
+      "logic_area_um2": 0,
+      "mapped_sha256": "8e9c41aed14845ea04170a88f8429c2f7de321e56b72703a11476395ad2a89a0",
+      "rtl_sha256": "7c3ed3d99e7fb6df432750107bb324e63fbbe9ecadf030d1950d9c8967c80248",
+      "log_sha256": "3c92279240ee212469f71e1dd986c03439e0b9a8fe417a101930e1cf2df16844"
+    },
+    {
+      "role": "candidate",
+      "bank": "student_mini_cpu_rom_bank_24",
+      "constant": true,
+      "logic_area_um2": 0,
+      "mapped_sha256": "f7bb2bb2ca78b70fbf7a9691eb8fcc38fda1f830ce7258c98340d6ed091cc514",
+      "rtl_sha256": "2ae96b73d0d3d6d402749a7df1f3b3187555c2f4c593690bbefb5b5732967acb",
+      "log_sha256": "a814799ff9869f43f1e77b36b20c2e43671ce6b6f53eb1062501ba35770f5445"
+    }
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794729567.5076547,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 48046023\nuser_usec 42436609\nsystem_usec 5609413\nnice_usec 0\nnr_periods 646\nnr_throttled 1\nthrottled_usec 1567\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "190468096",
+      "memory.peak": "190468096",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "284\n525\n528"
+    }
+  }
+}

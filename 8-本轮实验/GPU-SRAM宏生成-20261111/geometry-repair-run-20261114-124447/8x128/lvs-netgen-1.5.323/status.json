@@ -1,0 +1,13 @@
+{
+  "status": "LVS_TOOL_COMPLETED",
+  "exit_code": 0,
+  "shape": "8x128",
+  "markers": [
+    "Final result: "
+  ],
+  "physical_signoff": false,
+  "extracted_sha256": "78c6123c44218ad91834f5a2fab38253d989d103c5f6738a545cc8129008fed9",
+  "schematic_sha256": "f2f0ca8ba74996d6df8eabcacdb45b77e67634883bc4101fd0a7df4bfa372f84",
+  "rules_sha256": "b0b1013a1911d1fb41dc1a727c5a82330add975ada62919e0a8214814d9282a6",
+  "tool_status_sha256": "1855764be0744a079761cf25f1e424882f1477ccf085b495b10a94b93577877d"
+}

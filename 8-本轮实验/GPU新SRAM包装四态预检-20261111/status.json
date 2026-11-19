@@ -1,0 +1,68 @@
+{
+  "status": "FOUR_WRAPPERS_5326_SURROGATE_TRANSACTIONS_PASS",
+  "scope": "Real RTL wrappers with test-only surrogate SRAMs; no actual macro timing/layout or whole-GPU equivalence",
+  "physical_signoff": false,
+  "records": [
+    {
+      "shape": "vortex_dp_80x64_w4",
+      "transactions": 667,
+      "seconds": 0.15423979999999915,
+      "run_log": "vortex_dp_80x64_w4-run.log",
+      "run_log_sha256": "fa9bf55a833f3293464628078bf53cfbed6f82ddada910e5b6f730880ea98244",
+      "executable_sha256": "0818bdc16f2cc66355bef4414d13f55aabb5638e775f29f4d086151921b33e62"
+    },
+    {
+      "shape": "vortex_sp_32x1024_w4",
+      "transactions": 2587,
+      "seconds": 0.20426809299999604,
+      "run_log": "vortex_sp_32x1024_w4-run.log",
+      "run_log_sha256": "4897803b336efeed13f6b7d729f85c85c572c078536aec63d724b9e5be21a0dd",
+      "executable_sha256": "61ef6328366086b206bd3d1855a5212488bd7d937a518db0cf2c422f780ad13b"
+    },
+    {
+      "shape": "vortex_sp_32x256_w1",
+      "transactions": 1037,
+      "seconds": 0.11663366799999153,
+      "run_log": "vortex_sp_32x256_w1-run.log",
+      "run_log_sha256": "012466cbe8d8ecbc4a61099400e135ff4a97bd4d948d898040060b620a32837c",
+      "executable_sha256": "475774797ca6c94b789969a5f3af476073a6a2d083265b3bd375210b9826b9ee"
+    },
+    {
+      "shape": "vortex_sp_64x128_w8",
+      "transactions": 1035,
+      "seconds": 0.1547765310000102,
+      "run_log": "vortex_sp_64x128_w8-run.log",
+      "run_log_sha256": "0b17157e31f2392bfc4eff8c0b7a8b8451b8c8193f0a0a416f0bcbd974bb0597",
+      "executable_sha256": "4899a8d1aca880be5e029a70df86138e6a6229875d5341e0a96c2403fc4823c7"
+    }
+  ],
+  "seconds": 0.7325602129999993,
+  "source_bindings": {
+    "8-本轮实验/GPU新身份物理输入准备-20261110/rtl/openram_wrappers.v": "556f077d43bc7a68811e928cc334f4a8cdd67685f9a93716bab56b5ff61cbc5d",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/raw_halfcycle_surrogates.v": "35158bafc2fad1b4eb5b1ca235288e6ecf7429ac34c857dc19fa31e599cb3f65",
+    "7-审计与验收/run_new_gpu_sram_wrapper_preflight.py": "c148d881ca9195cfbbe101948aa927c2dfc816145029575be61de195731c37ef",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_dp_80x64_w4_openram.sv": "557451230331810201c617fb1eb9375dffb00cfb0230ef3a02bdf593b574546b",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/vortex_dp_80x64_w4.vectors": "a63cc002f9149c3fdd043511e3492efdc73dbe9483746fb59962e5f1cb061cf3",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_sp_32x1024_w4_openram.sv": "1ee7422074c56d6ff729aff057b32f7e47b4b5cf0a71326f0a6e21c794145c2e",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/vortex_sp_32x1024_w4.vectors": "64103db4f7583de47b5aa0aa6c5578e0eda685c4bdf3c148ad3ac4f782aa21e6",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_sp_32x256_w1_openram.sv": "ad243eb0adf92d374246f132323cf08cca2ba125b752e43a6dcd0bc36775ae8b",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/vortex_sp_32x256_w1.vectors": "00532520305168ee3a3447513f54df17e24f3d99252ce4c702ac43f973af8dcd",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_sp_64x128_w8_openram.sv": "42a704c394271e3704cbbab06d595b8ac42358d6d6ceeebe185769067ed9b7a7",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/verification/vortex_sp_64x128_w8.vectors": "d6cb62b9a499433045453951c13cfa6157706dfe1f8266bf310a774679479a20"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794406726.4797804,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 54614766\nuser_usec 47718048\nsystem_usec 6896717\nnice_usec 0\nnr_periods 1478\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "335290368",
+      "memory.peak": "5099593728",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "310\n437\n444"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "status": "TRANSCRIPTS_COLLECTED",
+  "variant": "topk_v3",
+  "question": "一加一等于几",
+  "repeat_requested": 3,
+  "formal_baseline": false,
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "19533f93ed95fdb79f8714b71d72732689b3e8ca8022c0a0f9797e7f6cf9c2be",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "runs": [
+    {
+      "run": 0,
+      "complete": true,
+      "console_sha256": "9430a629373e14dcfb24d8cc22d3d28941c2daaeba76e16d5861c91cf1c745de",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 3931345,
+      "per_token_decode_cycles": 846797.5,
+      "decode_intervals_cycles": [
+        806410,
+        834481,
+        861057,
+        885242
+      ],
+      "session_cycles": 7318764,
+      "operator_cycles": {
+        "1": 293634,
+        "2": 338506,
+        "3": 1280083
+      }
+    },
+    {
+      "run": 1,
+      "complete": true,
+      "console_sha256": "58dee36f5dbe0c48cf913034c0aaee3dfc913d77921fe11713b3ee5564fe9d25",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 3931345,
+      "per_token_decode_cycles": 846797.5,
+      "decode_intervals_cycles": [
+        806410,
+        834481,
+        861057,
+        885242
+      ],
+      "session_cycles": 7318764,
+      "operator_cycles": {
+        "1": 293634,
+        "2": 338506,
+        "3": 1280083
+      }
+    },
+    {
+      "run": 2,
+      "complete": true,
+      "console_sha256": "f081e60350b868012201faa26daa1a10a932ccf84426b9c08929ecce822461b5",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 3931345,
+      "per_token_decode_cycles": 846797.5,
+      "decode_intervals_cycles": [
+        806410,
+        834481,
+        861057,
+        885242
+      ],
+      "session_cycles": 7318764,
+      "operator_cycles": {
+        "1": 293634,
+        "2": 338506,
+        "3": 1280083
+      }
+    }
+  ],
+  "token_and_metrics_validation": "PASS",
+  "metrics_mean": {
+    "ttft_cycles": 3931345,
+    "per_token_decode_cycles": 846797.5,
+    "session_cycles": 7318764
+  },
+  "measurement_boundary": "mcycle around mini_native_generate; excludes boot, input transfer, host tokenization; EOS included in decode intervals",
+  "promotion": "NOT_EVALUATED"
+}

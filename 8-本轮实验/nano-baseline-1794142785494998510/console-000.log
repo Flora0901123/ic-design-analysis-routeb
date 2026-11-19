@@ -1,0 +1,87 @@
+[xgmii_ethernet] loaded (0x63948deca2f0)
+[spdeeprom] loaded (addr = 0x0)
+[serial2tcp] loaded (0x63948deca2f0)
+[serial2console] loaded (0x63948deca2f0)
+[jtagremote] loaded (0x63948deca2f0)
+[gmii_ethernet] loaded (0x63948deca2f0)
+[ethernet] loaded (0x63948deca2f0)
+[clocker] loaded
+[clocker] sys_clk: freq_hz=1000000, phase_deg=0
+
+
+[1m        __   _ __      _  __[0m
+
+[1m       / /  (_) /____ | |/_/[0m
+
+[1m      / /__/ / __/ -_)>  <[0m
+
+[1m     /____/_/\__/\__/_/|_|[0m
+
+[1m   Build your hardware, easily![0m
+
+
+ (c) Copyright 2012-2024 Enjoy-Digital
+
+ (c) Copyright 2007-2015 M-Labs
+
+
+ BIOS CRC passed (f3468598)
+
+
+ LiteX git sha1: --------
+
+
+--=============== [1mSoC[0m ==================--
+
+[1mCPU[0m:		VexRiscv_Full @ 1MHz
+
+[1mBUS[0m:		wishbone 32-bit @ 4GiB
+
+[1mCSR[0m:		32-bit data
+
+[1mROM[0m:		128.0KiB
+
+[1mSRAM[0m:		8.0KiB
+
+[1mL2[0m:		8.0KiB
+
+[1mSDRAM[0m:		256.0MiB 128-bit @ 1MT/s (CL-2 CWL-2)
+
+[1mMAIN-RAM[0m:	256.0MiB
+
+
+--========== [1mInitialization[0m ============--
+
+
+Initializing SDRAM @0x40000000...
+
+Switching SDRAM to software control.
+
+Switching SDRAM to hardware control.
+
+
+STUDENT_NATIVE_CPU_BEGIN prompt_tokens=7 max_tokens=12
+
+STUDENT_NATIVE_CPU status=0 count=7 cycles=0:7895967 instructions=0:4409522 ibus_bytes=0:2763264 dbus_bytes=0:1142248 dma_bytes=0:0
+
+STUDENT_NATIVE_TOKEN step=0 token=67 elapsed_cycles=0:3057819 hidden=befd,3f09,c032,c04d,be97,3eb1,3dee,3fb3,3f22,bfb7,bfea,bf5c,4005,bfdf,c001,bf8c logits=c000,bfbb,bff0,bfff,c064,c020,c02c,bff5,409d,c00f,c035,c020,c02c,c040,c006,bf27,c087,c012,c044,c009,bfe2,c00f,c014,3f79,c01c,c00c,bfd3,c025,c02a,c013,3f77,bfa0,c013,c005,c00e,c019,c009,c034,bff5,c013,c024,c027,c05b,c05b,bff5,bff4,c037,c01b,c044,c04f,bfdb,c044,401b,c046,bfd6,c00c,3ebb,c01c,3fdd,c027,bfd8,c043,c01c,c019,c038,c034,c021,4136,3ebd,3fad,bfe9,bfe7,c02f,c088,bff7,c00b,c009,c008,bffe,c004,c00e,c057,3fe7,c007,3fae,c004,c033,c02a,c018,c00f,3f8d,c01e,4071,c010,c016,c02d,c02b,3ef2,c02b,c014,c015,c000,c01e,bfa9,c003,c019,c006,c057,c00b,c082,c00b,c040,c003,bffd,c016,c06e,bfe4,c002,bfd8,c01a,c006,bfbd,c023,bffb,bfd1,c014,c042,bfaa,c03b,c037,c009,bfe6,c01e,c039,c022,c038,c01c,bfda,bfdb,c04f,c01c,c01f,c02b,c010,c065,c043,c048,c014,c00a,bff9,c04f,c007,bffe,bfd9,bfea,c01e,c007,bfc9,c014,bfa2,bff7,c014,c017,bffa,c00d,c017,c042,c04d,bfe2,c026,c00f,c013,c003,c014,bfec,c001,c05e,c035,c03e,c015,c013,c02b,c04d,c009,bfe8,c04b,bfd2,c029,c032,bfe4,c00b,c016,bfe9,c012,c01f,c029,c00c,c037,bff5,bfee,c02b,bff5,c017,c023,c040,c00a,c026,c021,c00d,c046,bfc9,c007,c01e,c00d,c01d,c023,bfdf,c005,c010,c00d,c009,c04b,c010,c00a,c022,c067,c03f,c003,c034,c005,c066,c03d,c034,c002,c00a,c013,c018,c009,bff5,c002,c019,c023,c002,c002,c012,c030,bfbd,c056,c022,bf8c,c00e,c01a,c033,bfb7,c016,c01f
+
+STUDENT_NATIVE_TOKEN step=1 token=73 elapsed_cycles=0:3800923 hidden=3f44,bf9a,4005,401c,3fec,bffc,400a,3f8a,4028,3d9a,3f27,4029,3f1a,bfb1,3dd0,3d90 logits=bfc7,bfcd,bfce,bf96,3fe5,bfc9,bfc4,bf88,4042,bfc7,bff4,bf93,bf8c,bfa2,bf9a,bf57,3fe2,bfc0,bfdd,bf8b,bfad,c019,bfa8,4072,bfb6,bfa3,bfeb,bff6,bfd8,c01a,3f25,bfb8,bfcb,bf01,bfdc,bfa9,bf8a,c007,bfd2,bf61,c004,bfef,bfd4,bf9e,bff7,c002,bfb3,c002,bfc2,bf9a,bf94,3f85,c0b1,bfc3,bf94,bffe,bf10,bfec,c078,bfce,bfb6,c002,bf79,bf9f,bf88,bfa0,bffd,c03e,c05a,3f83,bfba,c04a,bfd3,414d,bfce,bfeb,bf9e,c00b,bfc6,bfe6,bfa0,bffa,3fff,bfd0,bfc7,bf91,bf8f,bfbf,bfc7,bfb2,3f3d,bfe0,c069,bf92,bf41,c008,bfd1,c0e3,bfe1,bf87,bfd3,bfac,c001,bfb7,bfaf,bfbc,bfc0,bfd9,bfd4,3fd1,bfd5,bf84,bfa1,c002,bf96,bfc9,bfd8,bfa5,bfbf,bff9,bfa4,bf9d,bfc0,bfaf,bfc4,bfe3,bf93,bfd2,bfab,bfc1,bf56,bf9b,bfc7,bfa8,bfdb,bfdd,bf6d,bfac,bfb7,bf89,bfe9,bf9e,bfba,bfaf,bfa7,bfa3,bf72,c01e,bf75,bf6e,bfb7,bf9a,c017,bfe0,bfb3,bfd1,c00d,bf51,bfba,bf9d,c003,bf30,c012,bf51,bfa9,bfa4,bfdc,bfa0,bfa9,bfae,bfa0,bf9b,bfa7,bfdf,bfa2,bfb2,bff1,bff2,bfba,bf33,bfe4,bfcc,bfa3,bfd7,bfa3,bf95,bfbc,c00f,bfdd,bfa2,bfc2,bf92,bf91,bfc6,bfdf,bfb6,bf89,bfa9,bf99,c002,c004,bfd8,bffe,bf4c,bfe4,bf6c,bf67,bfb9,bfd8,bf7f,bfbf,bfd6,bfa2,bfd0,bfb1,bfc4,bfa0,bf29,bf9a,bfaf,bf8b,bfa2,beee,bfb0,bfdc,bfbf,bfc8,bff2,bff7,bfb0,c006,c00b,bf2d,bf52,bff5,bfd6,bfa1,bf9b,bfb8,bf85,bfa9,bfa4,bf87,bfbb,bfde,bfb1,bf2f,bfda,bfe7,bfac,bf7e,bff2,bff8,bfba,bfc1,bfaf
+
+STUDENT_NATIVE_TOKEN step=2 token=58 elapsed_cycles=0:4570914 hidden=bfca,3fac,bf8d,bfa7,3ee0,bf82,bf0d,4041,c01e,c004,bf08,3fad,bfac,3ffb,bf24,c002 logits=bf9a,bf6e,bf2d,bf56,c045,bf84,bf4e,bdee,be3d,bf9c,bfa1,bfd6,bfc3,bfbe,bfb0,4016,c03b,c003,bea5,c007,3d8b,bf72,c000,3eda,bfa9,bfde,bfd6,bfc7,c00e,be61,4035,bee6,bfa2,c00f,beac,bfb6,bf76,bfe1,bf92,bf39,bfba,bf9a,bf99,bf86,bfb8,bfb6,bed6,bf89,3ca4,bf81,bfbb,c058,bf65,bf16,bf76,3b63,c09a,bfcd,414d,bd83,bec2,be68,bf6c,bfab,bf44,bfa0,bfad,4045,3e9e,c083,be5a,4011,bfb8,c08b,bf7f,bfa5,bf96,bffb,bfcb,bfaf,bfc8,bf98,403e,bfa1,3ff6,bff0,bf8f,c019,bfb7,bf81,4053,bf8d,c069,bfd7,bfc9,c025,bfb8,c058,bf5f,bfea,bfee,bfe9,bf50,c013,bfb2,bfd3,bfe1,bf68,bfad,3fca,bfd2,c01c,bf9f,be8b,bf8c,beb0,bf39,bfaa,bfae,bfe3,bf4b,bef8,c000,beea,bfd6,3e2c,bf4a,c021,bf5f,bfc4,c015,c001,bfe8,bf52,bfbd,be70,bf7b,bf9f,bfd0,bfa6,bf65,bf95,bff5,bfd8,bf8e,beee,bfd8,bf81,bfba,bf9b,bf94,bfa8,bf21,bfb2,bfc5,be8f,bfa2,bfe9,c005,bf8e,bf9b,bfd6,beb5,bf4c,bf52,bd0e,bef8,bfc1,bf89,bf61,bf7d,bfa5,bf92,3ec7,bf8d,bfde,bfce,bf88,bf86,bfcd,bf83,bf6f,bf8b,bf3d,bf91,bf88,bf2e,bf6d,c011,bfd8,bfe2,c001,bfcd,bfb4,bf3c,bf92,bfb6,bf5e,c005,c00a,beeb,bfb8,bee4,bfe8,bee3,bfb0,c00f,bf89,bf58,bfab,bfb2,3d84,bf9d,bffe,bfab,bfd3,bf93,bf86,bfc1,bf79,bfee,bf02,bf3e,bf83,c001,bf84,bf76,bfd6,bf6a,bf36,bf90,bf37,bfe6,c01a,bfde,bfbf,bff9,befd,bfd7,bf65,bfee,c011,bfc2,bf5d,bf87,bf6c,bfa2,bfe7,bed9,bf82,c026,bfe1,bfbf,bfec,3e9c,c006
+
+STUDENT_NATIVE_TOKEN step=3 token=30 elapsed_cycles=0:5363444 hidden=3f88,c032,bf36,c020,3f97,3f8a,bfd8,3fe0,c006,3f92,bf29,3e9e,3f9f,be02,bf9d,c028 logits=c004,bfef,c002,c00e,bfa6,c063,c02d,bfb3,402f,c01b,c02a,c01a,c038,c03e,c05a,bf83,be80,c040,c038,c024,bf8c,c00f,c00a,bfca,c057,bfd2,c019,c040,c057,c016,410b,bfcd,c016,c014,bf8d,c033,c025,c055,c01f,bfe9,c010,c05c,c04f,c003,c040,bfd3,bffa,c00f,c001,c020,c038,3ffc,c01d,c014,bfd7,bfb6,bea1,c045,3fa2,bff7,bff1,c01c,c01d,c029,c006,c051,c055,4005,4000,bf3b,bf8f,c00c,c041,c079,c047,c038,c013,c014,c00b,c004,bfcf,c068,4072,c015,bfbe,c02a,c016,c085,bfd4,c02d,bd57,c064,40ce,c021,bfff,c059,c061,3fac,c036,c033,c067,c014,bfaf,c007,c018,c05f,c03c,c051,c03b,c0e8,c02a,c004,bffe,bfde,bff3,bfef,c011,c01d,bfd0,c04a,bfad,bf93,c047,bf95,c011,bfb3,c027,c003,c02f,c061,c042,c044,c052,c025,c034,bff7,c020,bfef,bfe9,bff2,c052,c01e,c04a,c05a,bff7,c03e,c039,c028,bfe1,c002,c003,c045,c002,c01f,bffd,bfc6,c005,c03a,c02c,bf9b,c021,c001,c00f,bff9,c03a,bfdb,c042,c01d,bfe0,c009,bff6,c04c,c000,bfe8,c034,c046,c000,c019,c05d,c01f,bff2,c045,c041,bfad,c028,c03e,c001,c01b,c03e,c04e,c04f,c028,c004,c015,bfd8,c007,c017,c03d,c008,c021,c040,c02b,bfd4,c033,bfe9,c01b,c054,c001,bfa4,c01c,c033,bfe6,c00e,c043,c038,bfd0,bfaf,bfc6,c003,c008,c005,c018,bf9d,bff3,c009,c02f,c059,c039,c039,c019,c018,c02a,c013,c054,c035,bff8,c032,bfef,c003,bff0,c04d,c052,bffb,bfc1,bfc6,c039,bfaf,c043,bfe2,c007,c07f,c028,c018,c024,bff3,c00b
+
+STUDENT_NATIVE_TOKEN step=4 token=68 elapsed_cycles=0:6182254 hidden=3e40,bf1b,bfa1,bfd6,3eec,3fab,3da1,c025,beb9,c00e,bf8d,4068,bfb6,3f52,3ff1,bfca logits=c07b,c018,c02a,c017,4035,c03c,c035,c004,404f,c011,c016,c02e,c011,c032,c01f,40d4,3f3f,c065,c01a,c040,bfdf,c00c,c053,bf8d,c034,c00e,c039,c033,c022,bff7,3fcd,bfe2,c01b,c051,c003,c054,c046,c025,c011,c020,c04e,c05d,c025,c029,c028,c03e,c009,c010,c020,c04d,c00e,bf95,c01b,bfec,c024,bfd7,befa,c064,4090,bff6,c00a,c040,c045,bfe5,c037,c035,c065,4005,4127,c099,c022,bfa5,c065,c047,c017,c029,c00b,c01f,c00a,c042,c030,c03f,3f76,c040,3fce,c061,c021,c044,c03c,c043,c088,c028,c050,c042,c02e,c03b,c06a,bfc7,c041,c01e,c081,c021,c002,c04b,c043,c04c,c069,c006,c03a,4035,c052,c03d,c025,c020,c056,bfdd,c022,c054,c055,c04a,c017,c00e,c017,bfef,c07c,bfd3,c001,c03d,c010,c047,c022,c038,c063,c032,c051,c009,c029,bffa,c074,c01f,c014,c006,c051,c06c,c027,bfed,c03c,c038,c052,c020,c03d,c014,c02e,c013,c023,c00e,c03a,c049,c01d,c005,bffe,bff9,c019,bfb4,c031,bfef,c035,c004,c055,bffa,bfeb,c037,c055,c004,c02a,c02a,c01a,c01c,bfee,c00f,c018,c02e,c054,c018,c066,c031,c01e,c02a,c020,c05b,c05e,c05e,c00e,c014,bfe1,c038,c028,c01d,c03a,c032,c050,c04a,c01f,c05a,c027,c004,c040,c035,c00c,bff8,c067,bfbe,c023,c053,c029,c02b,c02e,bf9e,c020,c009,c02b,c048,c016,bfdd,c047,c003,c03d,c057,c03e,c009,c007,c002,c027,c06f,c051,c02a,c073,c00f,c018,c031,c061,c038,c00f,c01a,c034,c059,c034,c032,c01f,c007,c056,c03c,c013,c068,bfe7,c083
+
+STUDENT_NATIVE_TOKEN step=5 token=8 elapsed_cycles=0:7026828 hidden=3f83,bff2,bdbe,bfee,3e95,c058,3fe8,c01e,3ef9,bfde,bec5,3fac,3f8b,c001,3e85,bf84 logits=c095,c07e,c08c,c093,401e,c09d,c098,c08d,4135,c083,c0ad,c0a2,c0ac,c0aa,c082,3f91,c07d,c0ae,c0b0,c092,c077,c09e,c0a0,bf1c,c0a6,c08a,c080,c0a2,c0a6,c09f,becb,c081,c098,c056,c09e,c093,c084,c09a,c09b,c077,c0bf,c0b1,c0c3,c09f,c092,c09e,c0ad,c0a1,c0a5,c093,c085,3faa,be89,c0ad,c07a,c0a7,4017,c0b0,bffe,c0a6,c07b,c0b9,c096,c098,c093,c0b4,c0b9,3f17,401f,3f31,c07a,c082,c0a1,4046,c096,c0b0,c07d,c083,c0a0,c0ab,c08e,c0c2,3f87,c096,be94,c083,c0bc,c0a8,c083,c0a5,c012,c0bb,c066,c090,c05e,c0b4,c0b5,c067,c0b2,c09a,c0ac,c069,c08c,c068,c07d,c097,c08a,c0be,c09e,400b,c0a3,c0aa,c08a,c09c,c081,c0c9,c09d,c090,c089,c09d,c093,c051,c091,c081,c079,c089,c0ab,c072,c0c8,c0aa,c084,c097,c0a9,c0b6,c0b0,c09d,c097,c08f,c056,c09e,c0ad,c09b,c092,c094,c09d,c0ba,c09b,c0b3,c092,c093,c0a2,c088,c0ab,c085,c08a,c0a4,c0a2,c067,c098,c06b,c08b,c095,c0af,c063,c0a1,c0aa,c0af,c07f,c09b,c0ac,c094,c09c,c06a,c092,c099,c0a4,c091,c0b2,c0bc,c086,c08c,c0b9,c09d,c090,c092,c09f,c081,c0b1,c092,c0a7,c098,c08e,c078,c07c,c075,c091,c098,c0bc,c093,c082,c0ad,c08d,c0af,c0a4,c0a5,c08d,c0a6,c090,c0a1,c091,c08d,c099,c09a,c0a9,c07b,c09c,c064,c06b,c09a,c0aa,c091,c09d,c06a,c096,c085,c0b3,c0b6,c0a5,c09a,c084,c0a9,c0aa,c086,c08c,c0a4,c08a,c083,c085,c08d,c085,c0a8,c0a5,c080,c08a,c08d,c0a2,c049,c0b1,c0ad,c060,c08d,c0a2,c09d,c070,c097,c08a
+
+STUDENT_NATIVE_TOKEN step=6 token=4 elapsed_cycles=0:7895738 hidden=3f07,3e40,3fb6,401d,bfca,3f1f,3ff7,c009,c00a,3f3a,bf86,3fd0,3f0c,bfec,3fdc,c017 logits=bfde,bffa,c003,c006,414a,c007,c019,bfe7,402f,c00b,c003,c00c,c00c,c018,c001,bfff,3f67,bff7,c00b,c001,bfe6,bfe7,c004,3fa3,bff7,bfe8,c010,c015,bff7,c00c,bfaf,bfcb,c00d,bfee,bfe3,c026,bfe3,c015,bfe4,c000,bff8,c016,c028,c029,bff8,c005,c01a,c016,c006,c025,bffb,4011,bf5c,c011,bffe,bfff,c0c2,c023,bfca,c00e,bfd4,c00e,c003,c001,c01c,c01b,c036,c048,3ff3,c0c4,bfed,c01d,c01d,3fc7,c013,bfee,c005,bfd4,bfc5,c001,c001,c02d,c085,bff3,400d,c003,bff9,c001,c010,bffe,c094,bfff,c081,c005,bfe3,bfe7,c01a,3f9a,c006,bff9,bff7,bfe2,c007,bf9f,c004,c000,bffa,c000,c014,be31,bfd5,c00a,c01c,c013,bffe,c023,bfdd,c006,bfdb,c006,c008,bfe3,c004,bff1,bfdd,c006,c01f,bfae,c019,c00a,bfda,bfb2,c006,c00b,c00a,c014,c000,c009,bfdd,c016,c02c,c01d,c00a,c012,c035,c017,c019,c022,bfe5,bffa,c020,c014,bfd6,bfec,bfea,bfd1,c014,bfdf,bff9,bfd3,bfdf,bfdb,c00c,bfb3,c015,bfdb,c02e,c00d,bfba,c022,c014,bfc8,bffd,c019,c006,bfe2,c027,c016,c015,bffa,c01d,c00d,c01a,c000,bfe9,c01b,bfe7,c014,c006,bfd4,bff7,bff3,bfec,c013,c008,c00f,bfee,c007,bfd5,bfd8,c054,c029,c003,c001,c002,bff8,bfe0,c007,c007,c013,bfe7,bfff,c018,c00d,c007,c01b,c00e,bfdc,c00c,bff4,bffb,c026,bfeb,c018,bfd7,c016,c03b,c00f,c014,c013,c027,c027,bffb,bfe1,bfe0,c005,c006,c003,bff0,bff2,c000,bff2,bfff,c013,c00c,c01d,bfe5,c017,c013,bfd1,bfee,c00d,bfe2,bfe6,c009,c006
+
+STUDENT_NATIVE_OPERATOR op=1 cycles=0:218452
+
+STUDENT_NATIVE_OPERATOR op=2 cycles=0:476145
+
+STUDENT_NATIVE_OPERATOR op=3 cycles=0:1266571
+
+STUDENT_NATIVE_CPU_COMPLETE count=7 p1=1 p2=6 p3=26

@@ -1,0 +1,95 @@
+{
+  "status": "PYTHON_CONTRACT_CHECKS_PASS_RTL_SIMULATION_NOT_RUN",
+  "shape_results": [
+    {
+      "macro_name": "vortex_dp_80x64_w4",
+      "transactions": 667,
+      "known_bit_comparisons": 49300,
+      "unknown_output_transactions": 67,
+      "all_masks_exhausted": 16,
+      "raw_same_address_reads_suppressed": 33,
+      "python_bit_reference_vs_slice_model": "PASS"
+    },
+    {
+      "macro_name": "vortex_sp_32x256_w1",
+      "transactions": 1037,
+      "known_bit_comparisons": 33120,
+      "unknown_output_transactions": 2,
+      "all_masks_exhausted": 2,
+      "raw_same_address_reads_suppressed": 3,
+      "python_bit_reference_vs_slice_model": "PASS"
+    },
+    {
+      "macro_name": "vortex_sp_32x1024_w4",
+      "transactions": 2587,
+      "known_bit_comparisons": 58120,
+      "unknown_output_transactions": 1027,
+      "all_masks_exhausted": 16,
+      "raw_same_address_reads_suppressed": 33,
+      "python_bit_reference_vs_slice_model": "PASS"
+    },
+    {
+      "macro_name": "vortex_sp_64x128_w8",
+      "transactions": 1035,
+      "known_bit_comparisons": 58888,
+      "unknown_output_transactions": 131,
+      "all_masks_exhausted": 256,
+      "raw_same_address_reads_suppressed": 1028,
+      "python_bit_reference_vs_slice_model": "PASS"
+    }
+  ],
+  "transactions": 5326,
+  "known_bit_comparisons": 199428,
+  "configs_checked": [
+    {
+      "file": "openram-configs/routeb_new_1w1r_20x64_analytical.py",
+      "sha256": "25fd3586574bcde193911f7080e3d05e7f49d221cda99305a76553090ee5e921",
+      "data_only_config_execution": "PASS"
+    },
+    {
+      "file": "openram-configs/routeb_new_1w1r_20x64_characterized.py",
+      "sha256": "2fcce6b6c19d2514f9e7a6da0386958d8ea0c6a8d70a227e4ee2a13916f08e00",
+      "data_only_config_execution": "PASS"
+    },
+    {
+      "file": "openram-configs/routeb_new_1w1r_32x256_analytical.py",
+      "sha256": "07707af92cbf5f3e358c1fb96d970ae71fc7a762407d78700cd7211011e84c6e",
+      "data_only_config_execution": "PASS"
+    },
+    {
+      "file": "openram-configs/routeb_new_1w1r_32x256_characterized.py",
+      "sha256": "6280c0712634d1d5d07c95ee41aac76f3e95edfb94022f0e52074bd3d1b5242a",
+      "data_only_config_execution": "PASS"
+    },
+    {
+      "file": "openram-configs/routeb_new_1w1r_8x1024_analytical.py",
+      "sha256": "0f603e310628377d28904e5b5b1ca1aca9dbefa446a046a91ad6551e244ffff6",
+      "data_only_config_execution": "PASS"
+    },
+    {
+      "file": "openram-configs/routeb_new_1w1r_8x1024_characterized.py",
+      "sha256": "963cf625d3c86437362644475aeba94b456a431f93855d3856d94b66e4901b0b",
+      "data_only_config_execution": "PASS"
+    },
+    {
+      "file": "openram-configs/routeb_new_1w1r_8x128_analytical.py",
+      "sha256": "8989e48d748900fc508d449cbb0fcf1ad36e5f7efafa146a8e7b2fc3cdff1d46",
+      "data_only_config_execution": "PASS"
+    },
+    {
+      "file": "openram-configs/routeb_new_1w1r_8x128_characterized.py",
+      "sha256": "84f8838320bcd9ead3e6b9c4d12b1b43a98c8ec32c365fd53274ef7740f101af",
+      "data_only_config_execution": "PASS"
+    }
+  ],
+  "four_state_rtl_simulation_executed": false,
+  "EDA_executed": false,
+  "scope": "Independent bit-level semantic reference compared with a separate slice/halfcycle transaction model. This is not a proof of the emitted RTL or real OpenRAM models.",
+  "remaining_gates": [
+    "Run emitted benches against FF RTL in a four-state simulator, including unknown initial contents.",
+    "Run OpenRAM wrappers first with the labeled test surrogate, then with actual generated macro simulation models; recheck model pin names, edge polarity and access delays.",
+    "Prove common-clock tie and output hold/latch timing; test all masked same-address cases and idle cycles.",
+    "Replay whole-GPU ports under the new backend and protocol/reset cases; OpenRAM halfcycle phase differs from the original posedge model.",
+    "Run hierarchy/check with no unresolved arithmetic modules, then actual standard-cell mapping and physical closure; no PPA acceptance before this."
+  ]
+}

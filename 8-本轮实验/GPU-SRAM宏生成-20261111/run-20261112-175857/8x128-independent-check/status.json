@@ -1,0 +1,10 @@
+{
+  "status": "GENERATED_8X128_MODEL_AND_VIEW_NAMES_PASS",
+  "transactions": 1035,
+  "physical_signoff": false,
+  "macro": "routeb_new_1w1r_8x128",
+  "model_sha256": "f651f1bbad6bd6faac442b1924b2818d31139ccf080ec51d609fb78d40390641",
+  "bench_sha256": "42a704c394271e3704cbbab06d595b8ac42358d6d6ceeebe185769067ed9b7a7",
+  "vectors_sha256": "d6cb62b9a499433045453951c13cfa6157706dfe1f8266bf310a774679479a20",
+  "run_log_sha256": "08cd45a912d3e5fecd44d9113d32e2ea8f10e7b7b47acdea55d07f8aceacb934"
+}

@@ -1,0 +1,32 @@
+%Warning-WIDTHTRUNC: /mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/8-æœ¬è½®å®éªŒ/GPUé€‚é…å™¨åè®®-20261105/tb.sv:29:87: Logical operator COND expects 1 bit on the Conditional Test, but Conditional Test's VARREF 'err' generates 32 bits.
+                                                                                                                                                  : ... note: In instance 'tb'
+   29 |  expected_data={16{32'h516b0000+seed}};expected_tag=10'(seed*3+port);expected_addr=err?26'h3800000:26'(seed+17);
+      |                                                                                       ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.040
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/8-æœ¬è½®å®éªŒ/GPUé€‚é…å™¨åè®®-20261105/tb.sv:34:40: Operator ASSIGN expects 1 bits on the Assign RHS, but Assign RHS's VARREF 'err' generates 32 bits.
+                                                                                                                                                  : ... note: In instance 'tb'
+   34 |  @(negedge clk);sv[port]=1;merror[port]=err;rd[port]=expected_data;rt[port]=expected_tag;sready[port]=0;tick();assert(vr[port] && vd[port]==expected_data && vt[port]==expected_tag)else $fatal(1,"response payload mismatch");
+      |                                        ^
+%Warning-WIDTHTRUNC: /mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/8-æœ¬è½®å®éªŒ/GPUé€‚é…å™¨åè®®-20261105/tb.sv:38:2: Logical operator IF expects 1 bit on the If, but If's VARREF 'err' generates 32 bits.
+                                                                                                                                                 : ... note: In instance 'tb'
+   38 |  if(err)begin assert(fault[port])else $fatal(1,"error not sticky");tick();assert(fault[port])else $fatal(1,"error lost");end
+      |  ^~
+%Warning-WIDTHEXPAND: /mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/8-æœ¬è½®å®éªŒ/GPUé€‚é…å™¨åè®®-20261105/tb.sv:43:26: Operator TASKREF 'transfer' expects 32 bits on the Function Argument, but Function Argument's EQ generates 1 bits.
+                                                                                                                                                   : ... note: In instance 'tb'
+   43 |  for(integer p=0;p<2;p++)transfer(p,seed,delay_cycles,mode==30);
+      |                          ^~~~~~~~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.040
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/8-æœ¬è½®å®éªŒ/GPUé€‚é…å™¨åè®®-20261105/tb.sv:45:2: Logical operator IF expects 1 bit on the If, but If's VARREF 'reset_reissue' generates 32 bits.
+                                                                                                                                                 : ... note: In instance 'tb'
+   45 |  if(reset_reissue)begin
+      |  ^~
+make: Entering directory '/mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/8-æœ¬è½®å®éªŒ/GPUé€‚é…å™¨åè®®-20261105/build-5.040-obj'
+make: Warning: File 'Vtb_classes.mk' has modification time 0.36 s in the future
+Vtb.mk:56: /mnt/c/Users/Camellia/Desktop/\351\233\206\346\210\220\347\224\265\350\267\257\350\256\276\350\256\241\344\270\216\345\210\206\346\236\220-RouteB\344\272\244\344\273\230/9-GPU\345\244\215\347\216\260/tools/verilator-5.040/share/verilator/include/verilated.mk: No such file or directory
+make: *** No rule to make target '/mnt/c/Users/Camellia/Desktop/\351\233\206\346\210\220\347\224\265\350\267\257\350\256\276\350\256\241\344\270\216\345\210\206\346\236\220-RouteB\344\272\244\344\273\230/9-GPU\345\244\215\347\216\260/tools/verilator-5.040/share/verilator/include/verilated.mk'.  Stop.
+make: Leaving directory '/mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/8-æœ¬è½®å®éªŒ/GPUé€‚é…å™¨åè®®-20261105/build-5.040-obj'
+%Error: make -C /mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/8-æœ¬è½®å®éªŒ/GPUé€‚é…å™¨åè®®-20261105/build-5.040-obj -f Vtb.mk -j 2 exited with 2
+        ... See the manual at https://verilator.org/verilator_doc.html?v=5.040 for more assistance.
+%Error: Command Failed ulimit -s unlimited 2>/dev/null; exec /mnt/c/Users/Camellia/Desktop/é›†æˆç”µè·¯è®¾è®¡ä¸åˆ†æ-RouteBäº¤ä»˜/9-GPUå¤ç°/tools/verilator-5.040/bin/verilator_bin --binary --timing --assert --top-module tb -Wno-fatal -j 2 --Mdir /mnt/c/Users/Camellia/Desktop/\é\›\†\æ\ˆ\\ç\”\µ\è\·\¯\è\®\¾\è\®\¡\ä\¸\\å\ˆ\†\æ\\-RouteB\ä\º\¤\ä\»\˜/8-\æ\œ\¬\è\½\®\å\®\\é\ª\Œ/GPU\é\€\‚\é\…\\å\™\¨\å\\\è\®\®-20261105/build-5.040-obj -o /mnt/c/Users/Camellia/Desktop/\é\›\†\æ\ˆ\\ç\”\µ\è\·\¯\è\®\¾\è\®\¡\ä\¸\\å\ˆ\†\æ\\-RouteB\ä\º\¤\ä\»\˜/8-\æ\œ\¬\è\½\®\å\®\\é\ª\Œ/GPU\é\€\‚\é\…\\å\™\¨\å\\\è\®\®-20261105/sim-adapter-5.040 /mnt/c/Users/Camellia/Desktop/\é\›\†\æ\ˆ\\ç\”\µ\è\·\¯\è\®\¾\è\®\¡\ä\¸\\å\ˆ\†\æ\\-RouteB\ä\º\¤\ä\»\˜/8-\æ\œ\¬\è\½\®\å\®\\é\ª\Œ/GPU\é\€\‚\é\…\\å\™\¨\å\\\è\®\®-20261105/tb.sv /mnt/c/Users/Camellia/Desktop/\é\›\†\æ\ˆ\\ç\”\µ\è\·\¯\è\®\¾\è\®\¡\ä\¸\\å\ˆ\†\æ\\-RouteB\ä\º\¤\ä\»\˜/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_fault_memory_adapter.sv /mnt/c/Users/Camellia/Desktop/\é\›\†\æ\ˆ\\ç\”\µ\è\·\¯\è\®\¾\è\®\¡\ä\¸\\å\ˆ\†\æ\\-RouteB\ä\º\¤\ä\»\˜/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_status_command_adapter.sv

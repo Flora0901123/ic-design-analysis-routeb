@@ -1,0 +1,8 @@
+{
+  "status": "STARTUP_FAILED_BEFORE_TARGET_RUN",
+  "interpreter": "/usr/bin/python3",
+  "error": "ModuleNotFoundError: No module named 'ml_dtypes'",
+  "correction": "use already-qualified CPU virtualenv, no dependency reinstall",
+  "target_executed": false,
+  "shared_native_source_written": false
+}

@@ -1,0 +1,89 @@
+Frontend:
+  impl: GEM5
+
+MemorySystem:
+  impl: GenericDRAM
+  total_num_other_requests: 0
+  total_num_write_requests: 164
+  total_num_read_requests: 1188
+  memory_system_cycles: 28198
+  DRAM:
+    impl: HBM2
+  AddrMapper:
+    impl: RoBaRaCoCh
+
+
+  Controller:
+    impl: Generic
+    id: Channel 0
+    avg_read_latency_0: 14.1245794
+    read_queue_len_avg_0: 0.290587991
+    write_queue_len_0: 281
+    queue_len_0: 8475
+    num_other_reqs_0: 0
+    num_write_reqs_0: 82
+    read_latency_0: 8390
+    priority_queue_len_avg_0: 0
+    row_hits_0: 647
+    priority_queue_len_0: 0
+    row_misses_0: 8
+    row_conflicts_0: 21
+    read_row_misses_0: 8
+    queue_len_avg_0: 0.300553232
+    read_row_conflicts_core_0: 20
+    read_row_hits_0: 566
+    write_queue_len_avg_0: 0.00996524561
+    read_row_conflicts_0: 20
+    write_row_misses_0: 0
+    write_row_conflicts_0: 1
+    read_queue_len_0: 8194
+    write_row_hits_0: 81
+    read_row_hits_core_0: 566
+    read_row_misses_core_0: 8
+    num_read_reqs_0: 594
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    RowPolicy:
+      impl: OpenRowPolicy
+
+
+
+  Controller:
+    impl: Generic
+    id: Channel 1
+    read_queue_len_avg_1: 0.289133996
+    priority_queue_len_1: 0
+    write_queue_len_1: 156
+    num_write_reqs_1: 82
+    row_hits_1: 647
+    row_misses_1: 8
+    avg_read_latency_1: 14.0589228
+    queue_len_avg_1: 0.29466629
+    read_queue_len_1: 8153
+    read_row_misses_1: 8
+    priority_queue_len_avg_1: 0
+    read_row_hits_1: 566
+    queue_len_1: 8309
+    read_row_conflicts_1: 20
+    num_read_reqs_1: 594
+    num_other_reqs_1: 0
+    row_conflicts_1: 21
+    write_row_hits_1: 81
+    write_queue_len_avg_1: 0.00553230708
+    write_row_misses_1: 0
+    write_row_conflicts_1: 1
+    read_row_hits_core_0: 566
+    read_row_misses_core_0: 8
+    read_latency_1: 8351
+    read_row_conflicts_core_0: 20
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    RowPolicy:
+      impl: OpenRowPolicy
+
+
+

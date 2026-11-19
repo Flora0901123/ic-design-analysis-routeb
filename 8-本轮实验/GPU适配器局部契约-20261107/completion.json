@@ -1,0 +1,34 @@
+{
+  "status": "LOCAL_INDUCTIVE_LOCAL_SAFETY_PASS",
+  "scope": "local adapter safety at full interface width; no core, no mapped SRAM, no whole-platform liveness or qualification",
+  "tools": "Yosys 0.33 (git sha1 2584903a060)",
+  "depth": 2,
+  "mode": "temporal induction, max 4 steps",
+  "assumptions": [
+    "initial sampled reset asserted; all other interface inputs unconstrained"
+  ],
+  "records": [
+    {
+      "top": "mem_contract",
+      "result": "INDUCTIVE_LOCAL_SAFETY_PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 19.911353086000076,
+      "bindings": {
+        "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_fault_memory_adapter.sv": "5ef56b0c67bc08c9e3629b6bdbd0b0fe443f084a413075e9e0210f36ab402663",
+        "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/7-\u5ba1\u8ba1\u4e0e\u9a8c\u6536/gpu_adapter_local_contract.sv": "4dd338e7e9322455c34361bdbb6298c74edac5ed07bf23c6a29cc22d2f306095"
+      },
+      "log_sha256": "2e305752bec5622b57e82d8e91f09285f66e3c1cc1b6bbbca83d6e592150cabd"
+    },
+    {
+      "top": "cmd_contract",
+      "result": "INDUCTIVE_LOCAL_SAFETY_PASS",
+      "exit_code": 0,
+      "elapsed_seconds": 0.9267652009999665,
+      "bindings": {
+        "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_status_command_adapter.sv": "be1bfa47470ecf242547e7b3a497a6384e2b69e34d041904de04d0e194e1d131",
+        "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/7-\u5ba1\u8ba1\u4e0e\u9a8c\u6536/gpu_adapter_local_contract.sv": "4dd338e7e9322455c34361bdbb6298c74edac5ed07bf23c6a29cc22d2f306095"
+      },
+      "log_sha256": "a9180f331fb72bb2e98783e4cd2aade00b2904fdc548b8443e3e803d862075ac"
+    }
+  ]
+}

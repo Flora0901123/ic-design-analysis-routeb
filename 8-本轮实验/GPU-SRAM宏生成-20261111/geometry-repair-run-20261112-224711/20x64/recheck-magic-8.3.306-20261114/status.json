@@ -1,0 +1,26 @@
+{
+  "status": "MACRO_DRC_OR_LVS_VIOLATIONS",
+  "shape": "20x64",
+  "layout_sha256": "75dbef80508d61f49baf6164c946336f61f6e47c4a525ca62dbeaecd3282dbee",
+  "schematic_sha256": "874981cc9972b3f5a0faad5ffb04cda5e4ec40eafb7557a6c669a3e2efe1fb25",
+  "magic_status_sha256": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9",
+  "physical_signoff": false,
+  "drc_errors": 11,
+  "lvs_errors": 11,
+  "seconds": 692.213018086,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794632111.408989,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1176944741\nuser_usec 1164256570\nsystem_usec 12688171\nnice_usec 0\nnr_periods 6878\nnr_throttled 7\nthrottled_usec 3552\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "729427968",
+      "memory.peak": "1211613184",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "340\n446\n466"
+    }
+  }
+}

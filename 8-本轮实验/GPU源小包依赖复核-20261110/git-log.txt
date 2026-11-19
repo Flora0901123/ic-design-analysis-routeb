@@ -1,0 +1,4 @@
+5be0d06c554bc80296208175a0c5a90b7654dab4 2026-09-16T12:54:39+08:00 docs: connect model layer to lesson roadmap
+0e7c2a078b7bf29d372b2941f3c6ce150dbf47a8 2026-09-16T12:12:52+08:00 docs: make first lesson beginner friendly
+f9f261db97e4c16549394419e8ba43c4a0acfb92 2026-09-16T11:53:48+08:00 feat: reframe course around DeepSeek-V3.2 inference
+91bf6553b034fba70e078a1a730cdcc7db848a95 2026-09-16T01:50:46+08:00 feat: scaffold open-source SoC AI lab course

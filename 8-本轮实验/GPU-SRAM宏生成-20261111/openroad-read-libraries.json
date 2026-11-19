@@ -1,0 +1,16 @@
+{
+  "status": "OPENROAD_SKY130A_AND_TWO_SRAM_VIEWS_LOAD_PASS",
+  "physical_signoff": false,
+  "version": "26Q2-1164-g08f67ee5ec",
+  "tool_receipt_sha256": "aff7ab3e570a397eea95032c8b51ee3df38a5c089c9a7169e4e4d3d6c541cf1b",
+  "log_sha256": "8ddb04932f38481c8ec952ecdd5b317e838495555506bfe2dc19582f174e5b78",
+  "inputs": {
+    "9-GPU\u590d\u73b0/downloads/openram-b2b069c/pdk/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef": "1a18b353fb5457caf0eca5b3cb28b2c0c9bbacdbbdeee7c4fc64a115932066c2",
+    "9-GPU\u590d\u73b0/downloads/openram-b2b069c/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef": "9cd94062fd5434f5e27314ef8e30aca831a9b78253f6a74bc932a63f858a136f",
+    "9-GPU\u590d\u73b0/downloads/openram-b2b069c/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib": "8725d472becbb2d016ee59cdc0207e1102f24a5c6f5fb4ed194cecc278372575",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u89c6\u56fe-20261111/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.lef": "f5389fa908c5876ef034c487b4363e755b3e13bf88ba924815c6fcea17965b92",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u89c6\u56fe-20261111/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib": "f36f91f35700d936c1c82aeaffed0084b938aceed60551588ae9a02cbd706f56",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u89c6\u56fe-20261111/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.lef": "21335003e08e9bde67b8a9f43ac192361a62b10ac0aa46d0d62cba1815a35843",
+    "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u89c6\u56fe-20261111/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8_TT_1p8V_25C.lib": "7cd70c91074a336d3ca9182237be49e1f3339fba293381fd8153f7e2e95b2a89"
+  }
+}

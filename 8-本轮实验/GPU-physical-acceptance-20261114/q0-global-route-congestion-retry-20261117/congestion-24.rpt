@@ -1,0 +1,132 @@
+violation type: Horizontal congestion
+	srcs: net:mem_rsp_data_i[523] net:mem_rsp_data_i[531] net:mem_rsp_data_i[553] net:mem_rsp_data_i[564] net:mem_rsp_data_i[592] net:mem_rsp_data_i[602] net:mem_rsp_data_i[610] net:mem_rsp_data_i[621] net:mem_rsp_data_i[628] net:mem_rsp_data_i[672] net:mem_rsp_data_i[679] net:mem_rsp_data_i[681] net:mem_rsp_data_i[682] net:mem_rsp_data_i[683] net:mem_rsp_data_i[690] net:mem_rsp_data_i[692] net:net13842 net:net14816 net:net14965 net:net14967 net:net14972 net:net14974 net:net15037 net:net35239 net:net35881 net:routeb_original_bit_452240 net:routeb_original_bit_452257 net:routeb_original_bit_452264 net:routeb_original_bit_453404 net:routeb_original_bit_453406 net:routeb_original_bit_453412 net:routeb_original_bit_453418
+	comment: capacity:30 usage:32 overflow:2
+	bbox = (2132.1000, 924.6000) - (2139.0000, 931.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:mem_rsp_data_i[529] net:mem_rsp_data_i[534] net:mem_rsp_data_i[566] net:mem_rsp_data_i[589] net:mem_rsp_data_i[590] net:mem_rsp_data_i[605] net:mem_rsp_data_i[607] net:net13846 net:net13850 net:net13854 net:net13857 net:net13861 net:net13865 net:net13868 net:net13874 net:net13884 net:net13888 net:net13903 net:net13907 net:net14738 net:net14774 net:net14819 net:net14964 net:net14969 net:net14979 net:net35263 net:net36049 net:routeb_original_bit_452253 net:routeb_original_bit_452254 net:routeb_original_bit_453416
+	comment: capacity:29 usage:30 overflow:1
+	bbox = (2132.1000, 938.4000) - (2139.0000, 945.3000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:mem_rsp_data_i[524] net:mem_rsp_data_i[525] net:mem_rsp_data_i[527] net:mem_rsp_data_i[559] net:mem_rsp_data_i[588] net:mem_rsp_data_i[663] net:mem_rsp_data_i[664] net:mem_rsp_data_i[667] net:mem_rsp_data_i[676] net:net14953 net:net14970 net:net34189 net:routeb_original_bit_452250 net:routeb_original_bit_453402 net:routeb_original_bit_453425 net:delaynet_26_core_clock
+	comment: capacity:15 usage:16 overflow:1
+	bbox = (2139.0000, 910.8000) - (2145.9000, 917.7000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:mem_rsp_data_i[565]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2139.0000, 903.9000) - (2145.9000, 910.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:mem_rsp_data_i[565]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2145.9000, 903.9000) - (2152.8000, 910.8000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:mem_rsp_data_i[537] net:mem_rsp_data_i[574] net:mem_rsp_data_i[579] net:mem_rsp_data_i[581] net:mem_rsp_data_i[626] net:net13878 net:net13881 net:net13895 net:net13899 net:net14750 net:net14751 net:net14817 net:net14957 net:net14958 net:net14961 net:net14962 net:net14966 net:net14975 net:net14992 net:net14995 net:net15043 net:net2104 net:net3016 net:net35834 net:routeb_original_bit_278512 net:routeb_original_bit_453265 net:routeb_original_bit_453413 net:routeb_original_bit_453421 net:routeb_original_bit_453427 net:clknet_1_0_0_clk_i
+	comment: capacity:29 usage:30 overflow:1
+	bbox = (2132.1000, 931.5000) - (2139.0000, 938.4000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:mem_rsp_data_i[531] net:mem_rsp_data_i[553] net:mem_rsp_data_i[564] net:mem_rsp_data_i[579] net:mem_rsp_data_i[592] net:mem_rsp_data_i[621] net:mem_rsp_data_i[628] net:mem_rsp_data_i[657] net:mem_rsp_data_i[672] net:mem_rsp_data_i[679] net:mem_rsp_data_i[681] net:mem_rsp_data_i[682] net:mem_rsp_data_i[683] net:mem_rsp_data_i[690] net:mem_rsp_data_i[692] net:net14752 net:net14816 net:net14955 net:net14965 net:net14967 net:net14972 net:net14974 net:net15037 net:net35239 net:net35881 net:routeb_original_bit_452240 net:routeb_original_bit_452257 net:routeb_original_bit_452264 net:routeb_original_bit_453406 net:routeb_original_bit_453412 net:routeb_original_bit_453418
+	comment: capacity:30 usage:31 overflow:1
+	bbox = (2139.0000, 924.6000) - (2145.9000, 931.5000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:mem_rsp_data_i[523] net:mem_rsp_data_i[528] net:mem_rsp_data_i[537] net:mem_rsp_data_i[541] net:mem_rsp_data_i[551] net:mem_rsp_data_i[556] net:mem_rsp_data_i[563] net:mem_rsp_data_i[587] net:mem_rsp_data_i[595] net:mem_rsp_data_i[627] net:mem_rsp_data_i[642] net:mem_rsp_data_i[644] net:mem_rsp_data_i[680] net:net13874 net:net14781 net:net14954 net:net14963 net:net14968 net:net14971 net:net14977 net:net15006 net:net34213 net:routeb_original_bit_278618 net:routeb_original_bit_452167 net:routeb_original_bit_452233 net:routeb_original_bit_452249 net:routeb_original_bit_452252 net:routeb_original_bit_452255 net:routeb_original_bit_453267 net:routeb_original_bit_453408 net:routeb_original_bit_453411 net:routeb_original_bit_453420
+	comment: capacity:29 usage:32 overflow:3
+	bbox = (2139.0000, 917.7000) - (2145.9000, 924.6000) on Layer -
+violation type: Horizontal congestion
+	srcs: net:delaynet_59_core_clock
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2132.1000, 959.1000) - (2139.0000, 966.0000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[527]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2235.6000, 910.8000) - (2242.5000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_453573 net:routeb_original_bit_453588
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (2442.6000, 910.8000) - (2449.5000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:delaynet_26_core_clock
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2208.0000, 910.8000) - (2214.9000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_452085 net:routeb_original_bit_453432
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (1807.8000, 910.8000) - (1814.7000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_453587 net:routeb_original_bit_453590
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (2470.2000, 910.8000) - (2477.1000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_453425
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2277.0000, 910.8000) - (2283.9000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:delaynet_59_core_clock
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2132.1000, 952.2000) - (2139.0000, 959.1000) on Layer -
+violation type: Vertical congestion
+	srcs: net:net14970
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2159.7000, 910.8000) - (2166.6000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:delaynet_59_core_clock
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2132.1000, 945.3000) - (2139.0000, 952.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_453402
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2187.3000, 910.8000) - (2194.2000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[565]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2152.8000, 910.8000) - (2159.7000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_454072 net:routeb_original_bit_454073
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (289.8000, 1345.5000) - (296.7000, 1352.4000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[667]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2263.2000, 910.8000) - (2270.1000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[663]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2249.4000, 910.8000) - (2256.3000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[559] net:routeb_original_bit_453571
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (2346.0000, 910.8000) - (2352.9000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[524] net:mem_rsp_data_i[588]
+	comment: capacity:0 usage:2 overflow:2
+	bbox = (2145.9000, 910.8000) - (2152.8000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_452086 net:routeb_original_bit_453405
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (1835.4000, 910.8000) - (1842.3000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[525]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2221.8000, 910.8000) - (2228.7000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[529] net:mem_rsp_data_i[573] net:clknet_1_0_0_clk_i
+	comment: capacity:0 usage:3 overflow:3
+	bbox = (2139.0000, 945.3000) - (2145.9000, 952.2000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_453240 net:routeb_original_bit_453263
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (1352.4000, 910.8000) - (1359.3000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_453244 net:routeb_original_bit_453250 net:routeb_original_bit_453259
+	comment: capacity:2 usage:3 overflow:1
+	bbox = (1435.2000, 910.8000) - (1442.1000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:routeb_original_bit_453594
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2511.6000, 910.8000) - (2518.5000, 917.7000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[565]
+	comment: capacity:0 usage:1 overflow:1
+	bbox = (2152.8000, 903.9000) - (2159.7000, 910.8000) on Layer -
+violation type: Vertical congestion
+	srcs: net:mem_rsp_data_i[683] net:routeb_original_bit_278508
+	comment: capacity:1 usage:2 overflow:1
+	bbox = (1780.2000, 910.8000) - (1787.1000, 917.7000) on Layer -

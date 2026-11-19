@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-07",
+  "moduleChecks": [
+    {
+      "actual": 20,
+      "expected": 20,
+      "id": "contract",
+      "links": 1,
+      "title": "课程合同与评分"
+    },
+    {
+      "actual": 19,
+      "expected": 19,
+      "id": "reference",
+      "links": 2,
+      "title": "原始参考包 / 离线复核"
+    },
+    {
+      "actual": 19,
+      "expected": 19,
+      "id": "stack",
+      "links": 2,
+      "title": "双后端工具栈"
+    },
+    {
+      "actual": 17,
+      "expected": 17,
+      "id": "freeze",
+      "links": 1,
+      "title": "冻结向量与 golden"
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "id": "model",
+      "links": 2,
+      "title": "极小 Nano 模型 / 字符表"
+    },
+    {
+      "actual": 6,
+      "expected": 6,
+      "id": "lock",
+      "links": 2,
+      "title": "锁定环境与版本审计"
+    },
+    {
+      "actual": 10,
+      "expected": 10,
+      "id": "cpu",
+      "links": 2,
+      "title": "CPU 标量算子 / RTL"
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "id": "simx",
+      "links": 2,
+      "title": "GPU 四组算子 / SimX"
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "id": "rtlbuild",
+      "links": 1,
+      "title": "GPU 开发 RTLSIM 构建"
+    },
+    {
+      "actual": 8,
+      "expected": 8,
+      "id": "topk",
+      "links": 2,
+      "title": "P1 Top-K 算子优化"
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "id": "rne",
+      "links": 1,
+      "title": "RNE15 舍入移位优化"
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "id": "fallback",
+      "links": 3,
+      "title": "Top-K 退化修补决策"
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "id": "ablation",
+      "links": 1,
+      "title": "CPU Nano 四组消融"
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "id": "gpuprobe",
+      "links": 1,
+      "title": "GPU RTL 四组探针"
+    },
+    {
+      "actual": 4,
+      "expected": 4,
+      "id": "repeat",
+      "links": 2,
+      "title": "CPU 独立 RTL 重复验证"
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "id": "chat",
+      "links": 2,
+      "title": "CPU / GPU 提问与模型边界"
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "id": "adapter",
+      "links": 2,
+      "title": "GPU 适配器 / 背压 / 恢复"
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "id": "mutation",
+      "links": 1,
+      "title": "协议测试灵敏度 / 突变"
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "id": "dma",
+      "links": 1,
+      "title": "整机 DMA 三个故障案例"
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "id": "formal",
+      "links": 3,
+      "title": "适配器形式验证"
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "id": "physical",
+      "links": 1,
+      "title": "映射硬件 / 物理来源"
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "id": "resources",
+      "links": 2,
+      "title": "资源限制 / 功耗 / 异机复现"
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "id": "promote",
+      "links": 2,
+      "title": "正式 baseline / PROMOTE 门"
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "id": "audit",
+      "links": 2,
+      "title": "证据保留与整理"
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "id": "review",
+      "links": 3,
+      "title": "教师审阅 / 评分证据索引"
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "id": "delivery",
+      "links": 3,
+      "title": "当前交付状态"
+    }
+  ],
+  "desktopWidth": 1265,
+  "mobileViewport": 390,
+  "mobileDocumentWidth": 375,
+  "escapeClears": true,
+  "originalScaleToggle": true,
+  "screenshotFiles": [
+    "工程全景-全页.png",
+    "工程全景-关联示例.png"
+  ]
+}

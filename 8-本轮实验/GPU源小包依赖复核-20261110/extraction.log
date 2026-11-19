@@ -1,0 +1,22 @@
+
+7-Zip 26.03 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-09-03
+
+Scanning the drive for archives:
+1 file, 387664 bytes (379 KiB)
+
+Extracting archive: D:\Users\Camellia\Desktop\集成电路设计与分析\open-soc-ai-labs (1).7z
+--
+Path = D:\Users\Camellia\Desktop\集成电路设计与分析\open-soc-ai-labs (1).7z
+Type = 7z
+Physical Size = 387664
+Headers Size = 23967
+Method = LZMA2:768k
+Solid = +
+Blocks = 1
+
+Everything is Ok
+
+Folders: 340
+Files: 790
+Size:       715755
+Compressed: 387664

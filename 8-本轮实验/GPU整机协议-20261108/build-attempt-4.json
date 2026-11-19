@@ -1,0 +1,21 @@
+{
+  "status": "FAILED",
+  "scope": "fresh functional macro-bound Vortex with seeded protocol bridge; distinct build from numeric replay; no original physical identity claim",
+  "parent_bindings": {
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sim/rtlsim/processor.cpp": "52b85baac7b18410fa341bce414f8649a74707042d03f7bec78010db69071ca1",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  },
+  "work": "/root/.cache/routeb-gpu-protocol-20261108",
+  "bindings": {
+    "/root/.cache/routeb-gpu-protocol-20261108/source/sim/rtlsim/processor.cpp": "cfd3ad84ce87946054a9fb6b154ccd23c90f482ab478620d5cc7ec88bbfd1d3c",
+    "/root/.cache/routeb-gpu-protocol-20261108/source/sim/rtlsim/protocol-bridge.sv": "0e30b53e7ef0a79adc813a7be554abb0d8095da6f13591946ff5838238cf1a67",
+    "/root/.cache/routeb-gpu-protocol-20261108/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-gpu-protocol-20261108/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/\u6574\u673aDMA\u91cd\u5efa/project-banked.v": "bf356095e874aac7c5e102673b46f08bdecc480fa401a62ea7023f6b943c5810"
+  },
+  "verilator_ascii_cache": "/root/.cache/routeb-protocol-tools/verilator-5.040",
+  "verilator_version": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "error": "AssertionError: protocol build/control failed: 2"
+}

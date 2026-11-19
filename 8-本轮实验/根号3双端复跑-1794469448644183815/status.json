@@ -1,0 +1,46 @@
+{
+  "prompt": "根号3等于几?",
+  "status": "BOTH_TARGETS_REPRODUCED",
+  "records": [
+    {
+      "backend": "Vortex SimX",
+      "status": "PASS",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "reply": "我无法获知实时天气。",
+      "log": "gpu-vortex-simx.log",
+      "sha256": "10df52c5e0f4f87c5c41646b2f04abcd17c4d7fa2daa1933ba392d3713bfe418"
+    },
+    {
+      "backend": "VexRiscv RTL",
+      "status": "PASS",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "reply": "我无法获知实时天气。",
+      "log": "cpu-vexriscv-rtl.log",
+      "sha256": "1db2bad200b55d4cbae6a678f502c9f62ce8b07ce2ce82097e47a1b6abd898cd"
+    }
+  ]
+}

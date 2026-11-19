@@ -1,0 +1,9 @@
+{
+  "status": "BACKGROUND_DRIVER_STARTED_NOT_YET_VALIDATED",
+  "windows_pid": 31992,
+  "started_at": "2026-11-09T22:04:19.7551940+08:00",
+  "stdout": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\8-本轮实验\\GPU同硬件全1000-20261108\\driver-20261109.log",
+  "stderr": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\8-本轮实验\\GPU同硬件全1000-20261108\\driver-20261109-stderr.log",
+  "target": "same macro-bound RTL and same executable, 2 independent processes, 2vCPU/8GiB",
+  "checkpoint_records": 366
+}

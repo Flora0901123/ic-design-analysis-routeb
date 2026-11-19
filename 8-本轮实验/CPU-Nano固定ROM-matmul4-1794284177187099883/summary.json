@@ -1,0 +1,50 @@
+{
+  "status": "FIXED_ROM_PAIR_VERIFIED",
+  "rom_capacity_bytes": 131072,
+  "same_compiled_simulator": true,
+  "simulator_sha256": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+  "verilator_version": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "verilator_launcher_sha256": "491c95e1a949a3df1f370c9d39318e159d08b246edf4363fb42d05ea88f74dbe",
+  "primary_metric": "ttft_cycles",
+  "ttft_improvement_percent": -1.7226632187318216,
+  "ttft_two_percent_threshold_met": false,
+  "all_metric_improvement_percent": {
+    "ttft_cycles": -1.7226632187318216,
+    "per_token_decode_cycles": 2.0725100315729135,
+    "session_cycles": 0.033599896221695846
+  },
+  "token_hidden_logits_bit_identical": true,
+  "compared_steps_per_run": 5,
+  "hidden_values_per_run": 80,
+  "logits_values_per_run": 1280,
+  "records": [
+    {
+      "variant": "baseline",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-baseline-1794284177187099883",
+      "runs": 1,
+      "bios_size_bytes": 46020,
+      "bios_sha256": "a785f1420368fbb5ba5932d17654975dd83fc5a1dbd9b1e8b01d8f71e823a59c",
+      "source_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "ttft_cycles": 3859315,
+      "per_token_decode_cycles": 831250.5,
+      "session_cycles": 7184546
+    },
+    {
+      "variant": "matmul4",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-matmul4-1794284597077911371",
+      "runs": 1,
+      "bios_size_bytes": 46324,
+      "bios_sha256": "70d3d6d5d2060e93e61b11651ab29670ce0d2bcc2d3273ad070c6750f186bff7",
+      "source_sha256": "ab4b25a25d1a4c0a2e52837d90cf3d3e0e397579d4ae240bb7bbc9acd58df059",
+      "ttft_cycles": 3925798,
+      "per_token_decode_cycles": 814022.75,
+      "session_cycles": 7182132
+    }
+  ],
+  "historical_baseline_cycles_used": false,
+  "formal_promote": false,
+  "scope": "one prompt on one frozen Nano checkpoint; fresh full VexRiscv RTL simulations; mcycle excludes boot and input transfer",
+  "remaining_gates": "larger coverage/repetitions, complete performance panel, new ROM model PPA/resource impacts and final integration remain separate; old PPA does not apply"
+}

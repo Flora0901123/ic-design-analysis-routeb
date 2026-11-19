@@ -1,0 +1,12 @@
+{
+  "8-本轮实验/GPU物理依赖公开来源核对-20261109/sky130_fd_sc_hd__tt_025C_1v80.lib": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/ff-mapped.v": "b18dc63c5f260455448b3e1e2703a23262905ccb081440b16c7fdf47e7c4bbfb",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/验收结论.json": "b1fddde6b4b6c4b8c6ef7e51cc01b34aac3affc4316d0d7babc215e203069236",
+  "9-GPU复现/tools/opensta-f8e13cb/sta": "6a9e1fef6ac36214569e15d258029928526be5b517b450d969232c354cb841c7",
+  "8-本轮实验/OpenSTA工具搭建-20261110-v4/status.json": "82c2beff5ad3100299fd7c4f09f35a5119710e6539bf1cfe891ac9c6d9ac73cb",
+  "7-审计与验收/run_new_gpu_ff_sta_v3.py": "989cb21731a9bc4d3b6160626c1f3c6e861fcaa51264c57b4d2030b952c9744c",
+  "8-本轮实验/GPU新FF综合后STA-20261110-v3/constraints.sdc": "c65de37d56ecf70f60aa85ead25e65a9840af778fcd4be1c665ef3fc81038823",
+  "8-本轮实验/GPU新FF综合后STA-20261110-v3/run.tcl": "f94fe243fcfe4bdf2caa960480768719d3db65de5939402dbc39e6bdda72a488",
+  "8-本轮实验/GPU新FF综合后STA-20261110-v3/sta.log": "118798ea72bced6f027078b4cdfb85b45b16277b251f58259ed6427e80053383",
+  "8-本轮实验/GPU新FF综合后STA-20261110-v3/status.json": "bfb52991f2b7967316832fb68092f62071bc2c5ac2151313c66c204c7c074ccb"
+}

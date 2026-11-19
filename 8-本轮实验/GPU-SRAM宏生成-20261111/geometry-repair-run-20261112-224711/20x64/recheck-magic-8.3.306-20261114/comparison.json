@@ -1,0 +1,271 @@
+{
+  "status": "REPAIR_V1_DRC_IMPROVED_LVS_REGRESSED",
+  "physical_signoff": false,
+  "baseline": {
+    "summary": {
+      "status": "MACRO_DRC_OR_LVS_VIOLATIONS",
+      "shape": "20x64",
+      "layout_sha256": "5ce3ba97110c15558cabfb955842e43dc20d17601534f2be0a419fd1677bdd9a",
+      "schematic_sha256": "a7c6fb72a8f3e465b261c3148fe28e10190b9e4f565d1858b0b9ecafe1de4e82",
+      "magic_status_sha256": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9",
+      "physical_signoff": false,
+      "drc_errors": 12,
+      "lvs_errors": 10,
+      "seconds": 560.255934793,
+      "resources": {
+        "path": "/sys/fs/cgroup/routeb-course-qualification",
+        "observed_epoch": 1794493223.0681465,
+        "limits": {
+          "cpu.max": "200000 100000",
+          "cpu.stat": "usage_usec 993883538\nuser_usec 966775115\nsystem_usec 27108422\nnice_usec 0\nnr_periods 5900\nnr_throttled 571\nthrottled_usec 597675\nnr_bursts 0\nburst_usec 0",
+          "memory.max": "8589934592",
+          "memory.current": "798261248",
+          "memory.peak": "4588122112",
+          "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+          "memory.swap.max": "0",
+          "memory.swap.current": "0",
+          "cgroup.procs": "409"
+        }
+      }
+    },
+    "lvs_log_sha256": "88000e1dc849155596c0267d2ef8a693784d074ff829f185471d9c0fa087aee7",
+    "hierarchy_counts": [
+      {
+        "module": "routeb_new_1w1r_20x64_pinv_dec",
+        "layout_devices": 2,
+        "schematic_devices": 2,
+        "layout_nets": 4,
+        "schematic_nets": 4
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_dp_cell_dummy",
+        "layout_devices": 12,
+        "schematic_devices": 10,
+        "layout_nets": 13,
+        "schematic_nets": 11
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_dp_cell_replica",
+        "layout_devices": 14,
+        "schematic_devices": 10,
+        "layout_nets": 11,
+        "schematic_nets": 9
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_dp_cell",
+        "layout_devices": 14,
+        "schematic_devices": 10,
+        "layout_nets": 12,
+        "schematic_nets": 10
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_and2_dec",
+        "layout_devices": 3,
+        "schematic_devices": 3,
+        "layout_nets": 7,
+        "schematic_nets": 6
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_dummy_array",
+        "layout_devices": 240,
+        "schematic_devices": 200,
+        "layout_nets": 203,
+        "schematic_nets": 163
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_replica_column",
+        "layout_devices": 660,
+        "schematic_devices": 530,
+        "layout_nets": 207,
+        "schematic_nets": 207
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_bitcell_array",
+        "layout_devices": 12920,
+        "schematic_devices": 10280,
+        "layout_nets": 2869,
+        "schematic_nets": 2770
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_replica_column_0",
+        "layout_devices": 660,
+        "schematic_devices": 530,
+        "layout_nets": 207,
+        "schematic_nets": 207
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_write_driver",
+        "layout_devices": 16,
+        "schematic_devices": 16,
+        "layout_nets": 14,
+        "schematic_nets": 13
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_sense_amp",
+        "layout_devices": 9,
+        "schematic_devices": 9,
+        "layout_nets": 10,
+        "schematic_nets": 9
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_hierarchical_predecode2x4",
+        "layout_devices": 16,
+        "schematic_devices": 16,
+        "layout_nets": 16,
+        "schematic_nets": 14
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_and3_dec",
+        "layout_devices": 3,
+        "schematic_devices": 3,
+        "layout_nets": 8,
+        "schematic_nets": 7
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_wordline_driver",
+        "layout_devices": 2,
+        "schematic_devices": 2,
+        "layout_nets": 7,
+        "schematic_nets": 6
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_replica_bitcell_array",
+        "layout_devices": 14480,
+        "schematic_devices": 11660,
+        "layout_nets": 3101,
+        "schematic_nets": 3080
+      }
+    ]
+  },
+  "repair": {
+    "summary": {
+      "status": "MACRO_DRC_OR_LVS_VIOLATIONS",
+      "shape": "20x64",
+      "layout_sha256": "75dbef80508d61f49baf6164c946336f61f6e47c4a525ca62dbeaecd3282dbee",
+      "schematic_sha256": "874981cc9972b3f5a0faad5ffb04cda5e4ec40eafb7557a6c669a3e2efe1fb25",
+      "magic_status_sha256": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9",
+      "physical_signoff": false,
+      "drc_errors": 11,
+      "lvs_errors": 11,
+      "seconds": 692.213018086,
+      "resources": {
+        "path": "/sys/fs/cgroup/routeb-course-qualification",
+        "observed_epoch": 1794632111.408989,
+        "limits": {
+          "cpu.max": "200000 100000",
+          "cpu.stat": "usage_usec 1176944741\nuser_usec 1164256570\nsystem_usec 12688171\nnice_usec 0\nnr_periods 6878\nnr_throttled 7\nthrottled_usec 3552\nnr_bursts 0\nburst_usec 0",
+          "memory.max": "8589934592",
+          "memory.current": "729427968",
+          "memory.peak": "1211613184",
+          "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+          "memory.swap.max": "0",
+          "memory.swap.current": "0",
+          "cgroup.procs": "340\n446\n466"
+        }
+      }
+    },
+    "lvs_log_sha256": "2327925e5c6b6ca203630b59dabc66be20a2fbc385a75c16aecb315039cded37",
+    "hierarchy_counts": [
+      {
+        "module": "sky130_fd_bd_sram__openram_dp_cell_dummy",
+        "layout_devices": 12,
+        "schematic_devices": 10,
+        "layout_nets": 13,
+        "schematic_nets": 11
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_dp_cell_replica",
+        "layout_devices": 14,
+        "schematic_devices": 10,
+        "layout_nets": 11,
+        "schematic_nets": 9
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_dp_cell",
+        "layout_devices": 14,
+        "schematic_devices": 10,
+        "layout_nets": 12,
+        "schematic_nets": 10
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_and2_dec",
+        "layout_devices": 2,
+        "schematic_devices": 2,
+        "layout_nets": 7,
+        "schematic_nets": 6
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_dummy_array",
+        "layout_devices": 240,
+        "schematic_devices": 200,
+        "layout_nets": 203,
+        "schematic_nets": 163
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_replica_column",
+        "layout_devices": 660,
+        "schematic_devices": 530,
+        "layout_nets": 207,
+        "schematic_nets": 207
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_bitcell_array",
+        "layout_devices": 12920,
+        "schematic_devices": 10280,
+        "layout_nets": 2869,
+        "schematic_nets": 2770
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_replica_column_0",
+        "layout_devices": 660,
+        "schematic_devices": 530,
+        "layout_nets": 207,
+        "schematic_nets": 207
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_write_driver",
+        "layout_devices": 16,
+        "schematic_devices": 16,
+        "layout_nets": 14,
+        "schematic_nets": 13
+      },
+      {
+        "module": "sky130_fd_bd_sram__openram_sense_amp",
+        "layout_devices": 9,
+        "schematic_devices": 9,
+        "layout_nets": 10,
+        "schematic_nets": 9
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_hierarchical_predecode2x4",
+        "layout_devices": 10,
+        "schematic_devices": 10,
+        "layout_nets": 16,
+        "schematic_nets": 14
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_and3_dec",
+        "layout_devices": 2,
+        "schematic_devices": 2,
+        "layout_nets": 8,
+        "schematic_nets": 7
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_wordline_driver",
+        "layout_devices": 2,
+        "schematic_devices": 2,
+        "layout_nets": 7,
+        "schematic_nets": 6
+      },
+      {
+        "module": "routeb_new_1w1r_20x64_replica_bitcell_array",
+        "layout_devices": 14480,
+        "schematic_devices": 11660,
+        "layout_nets": 3101,
+        "schematic_nets": 3080
+      }
+    ]
+  },
+  "remaining_drc_rule": "nwell.7",
+  "drc_detail_sha256": "a67aa3b92d662fd033527a1ea231f522126db6e8330f68e9de31ff34cf182e21"
+}

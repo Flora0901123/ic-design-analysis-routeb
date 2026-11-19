@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/VLSIDA/OpenRAM/b2b069ce119d1488cbe6883b2240bceb5c7ce29a/compiler/sram_config.py",
+  "commit": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+  "sha256": "c6a9d2397837ba778f854b47868b6b1e6b41e1a2ba1e5e197bf8f9f9c60c3f76",
+  "bytes": 9601,
+  "purpose": "Inspect fixed RW/W/R port order and row/column organization only",
+  "executed": false
+}

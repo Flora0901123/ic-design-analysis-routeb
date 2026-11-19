@@ -1,0 +1,45 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO ODB-0227] LEF file: tech.lef, created 13 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file sky130.lef at line 2.
+
+[INFO ODB-0227] LEF file: sky130.lef, created 437 library cells
+[INFO ODB-0227] LEF file: 32x256.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 8x1024.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 8x128.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 20x64.lef, created 1 library cells
+[WARNING IFP-0028] Core area lower left (10.000, 10.000) snapped to (10.120, 10.880).
+[INFO IFP-0001] Added 1435 rows of 8490 site unithd.
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 3925.640 3925.640 ) um
+[INFO IFP-0101] Core BBox: ( 10.120 10.880 ) ( 3915.520 3914.080 ) um
+[INFO IFP-0102] Core area:                     15243557.280 um^2
+[INFO IFP-0103] Total instances area:           5601733.531 um^2
+[INFO IFP-0104] Effective utilization:                0.367
+[INFO IFP-0105] Number of instances:                 186143
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (84.360um, 84.360um), (564.140um, 481.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[10\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (599.140um, 84.360um), (1078.920um, 481.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[11\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (1113.920um, 84.360um), (1593.700um, 481.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[12\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (1628.700um, 84.360um), (2108.480um, 481.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[13\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (2143.480um, 84.360um), (2623.260um, 481.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[14\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (2658.260um, 84.360um), (3138.040um, 481.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[15\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (3173.040um, 84.360um), (3652.820um, 481.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (84.360um, 516.860um), (564.140um, 914.360um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (599.140um, 516.860um), (1078.920um, 914.360um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (1113.920um, 516.860um), (1593.700um, 914.360um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (1628.700um, 516.860um), (2108.480um, 914.360um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (2143.480um, 516.860um), (2623.260um, 914.360um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (2658.260um, 516.860um), (3138.040um, 914.360um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (3173.040um, 516.860um), (3652.820um, 914.360um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[8\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (84.360um, 949.360um), (564.140um, 1346.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[9\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem placed. Bounding box (599.140um, 949.360um), (1078.920um, 1346.860um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_tags.tag_store.g_asic.dp_ram_asic.g_vortex_dp_80x64_w4.u_macro.g_slice\[0\].u_raw placed. Bounding box (1113.920um, 949.360um), (1434.780um, 1207.300um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_tags.tag_store.g_asic.dp_ram_asic.g_vortex_dp_80x64_w4.u_macro.g_slice\[1\].u_raw placed. Bounding box (1469.780um, 949.360um), (1790.640um, 1207.300um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_tags.tag_store.g_asic.dp_ram_asic.g_vortex_dp_80x64_w4.u_macro.g_slice\[2\].u_raw placed. Bounding box (1825.640um, 949.360um), (2146.500um, 1207.300um). Orientation R0
+[INFO MPL-0035] Macro core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_tags.tag_store.g_asic.dp_ram_asic.g_vortex_dp_80x64_w4.u_macro.g_slice\[3\].u_raw placed. Bounding box (2181.500um, 949.360um), (2502.360um, 1207.300um). Orientation R0
+[INFO ODB-0303] The initial 1435 rows (12183150 sites) were cut with 20 shapes for a total of 1945 rows (8726484 sites).
+STUDENT_MINI_PINS_PLACED 6687 of 6687
+ROUTEB_BLOCK_PREFLIGHT_PASS macros=20 signal_ports=6687

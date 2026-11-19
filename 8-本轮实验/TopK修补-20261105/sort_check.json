@@ -1,0 +1,10 @@
+{
+  "cases": 32096,
+  "failures": 0,
+  "length_range": [
+    1,
+    32
+  ],
+  "tie_break": "score descending, token id ascending",
+  "scope": "actual C fragment host equivalence; target performance separately measured"
+}

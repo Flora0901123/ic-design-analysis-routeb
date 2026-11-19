@@ -1,0 +1,9 @@
+{'passed': 1, 'requested': 1}
+{
+  "status": "PORTABLE_CPU_REPLAY_PASS",
+  "scope": "same-host copied-binary replay in newly created directories",
+  "different_computer": false,
+  "full_clean_toolchain_install": false,
+  "expected_questions": 1,
+  "compared_steps": 4
+}

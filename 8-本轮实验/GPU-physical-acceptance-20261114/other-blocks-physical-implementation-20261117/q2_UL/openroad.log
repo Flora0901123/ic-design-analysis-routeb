@@ -1,0 +1,906 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: ( 10.120 10.880 ) ( 3915.520 3914.080 ) um
+[INFO GPL-0036] Movable instances area:     877205.059 um^2
+[INFO GPL-0037] Total instances area:       7638581.005 um^2
+[INFO GPL-0035] Pin density area adjust:     93222.073 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:             72275
+[INFO GPL-0007] Movable instances:               61991
+[INFO GPL-0008] Fixed instances:                    64
+[INFO GPL-0009] Dummy instances:                 10220
+[INFO GPL-0010] Number of nets:                  66572
+[INFO GPL-0011] Number of pins:                 238394
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 3925.640 3925.640 ) um
+[INFO GPL-0013] Core BBox: ( 10.120 10.880 ) ( 3915.520 3914.080 ) um
+[INFO GPL-0016] Core area:                  15243557.280 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                15243557.280 um^2
+[INFO GPL-0017] Fixed instances area:       8541458.186 um^2
+[INFO GPL-0018] Movable instances area:     970427.133 um^2
+[INFO GPL-0019] Utilization:                    14.479 %
+[INFO GPL-0020] Standard cells area:        970427.133 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 61991	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.02434821 HPWL: 85755816640
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00531984 HPWL: 36041225438
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00087471 HPWL: 31361106758
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00060915 HPWL: 29684379572
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00056754 HPWL: 28594284590
+[InitialPlace]  Iter: 6 conjugate gradient residual: 0.00025263 HPWL: 27680169429
+[InitialPlace]  Iter: 7 conjugate gradient residual: 0.00025377 HPWL: 27012211111
+[InitialPlace]  Iter: 8 conjugate gradient residual: 0.00014044 HPWL: 26285322236
+[InitialPlace]  Iter: 9 conjugate gradient residual: 0.00014769 HPWL: 25847635613
+[InitialPlace]  Iter: 10 conjugate gradient residual: 0.00011552 HPWL: 25458424989
+[InitialPlace]  Iter: 11 conjugate gradient residual: 0.00011058 HPWL: 25140842799
+[InitialPlace]  Iter: 12 conjugate gradient residual: 0.00009027 HPWL: 24834658958
+[InitialPlace]  Iter: 13 conjugate gradient residual: 0.00008238 HPWL: 24586350077
+[InitialPlace]  Iter: 14 conjugate gradient residual: 0.00006167 HPWL: 24361120941
+[InitialPlace]  Iter: 15 conjugate gradient residual: 0.00005090 HPWL: 24230732972
+[InitialPlace]  Iter: 16 conjugate gradient residual: 0.00005153 HPWL: 24113364646
+[InitialPlace]  Iter: 17 conjugate gradient residual: 0.00004306 HPWL: 24028463869
+[InitialPlace]  Iter: 18 conjugate gradient residual: 0.00004221 HPWL: 23948660761
+[InitialPlace]  Iter: 19 conjugate gradient residual: 0.00003431 HPWL: 23879726793
+[InitialPlace]  Iter: 20 conjugate gradient residual: 0.00003751 HPWL: 23815948824
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.3000
+[INFO GPL-0024] Movable insts average area:     15.654 um^2
+[INFO GPL-0025] Ideal bin area:                 52.181 um^2
+[INFO GPL-0026] Ideal bin count:                292128
+[INFO GPL-0027] Total bin area:             15243557.280 um^2
+[INFO GPL-0028] Bin count (X, Y):         512 ,    512
+[INFO GPL-0029] Bin size (W * H):       7.628 *  7.623 um
+[INFO GPL-0030] Number of bins:                 262144
+[INFO GPL-0084] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9308 |  1.122555e+07 |   +0.00% |  2.22e-16 |      
+       10 |   0.8655 |  1.180336e+07 |   +5.15% |  2.90e-16 |      
+       20 |   0.8423 |  1.184149e+07 |   +0.32% |  4.60e-16 |      
+       30 |   0.8394 |  1.180914e+07 |   -0.27% |  7.47e-16 |      
+       40 |   0.8380 |  1.182712e+07 |   +0.15% |  1.21e-15 |      
+       50 |   0.8301 |  1.180069e+07 |   -0.22% |  1.97e-15 |      
+       60 |   0.8264 |  1.173585e+07 |   -0.55% |  3.21e-15 |      
+       70 |   0.8233 |  1.168121e+07 |   -0.47% |  5.22e-15 |      
+       80 |   0.8202 |  1.162799e+07 |   -0.46% |  8.51e-15 |      
+       90 |   0.8161 |  1.155872e+07 |   -0.60% |  1.39e-14 |      
+      100 |   0.8170 |  1.150417e+07 |   -0.47% |  2.26e-14 |      
+      110 |   0.8184 |  1.146925e+07 |   -0.30% |  3.68e-14 |      
+      120 |   0.8201 |  1.143014e+07 |   -0.34% |  5.99e-14 |      
+      130 |   0.8222 |  1.139918e+07 |   -0.27% |  9.76e-14 |      
+      140 |   0.8229 |  1.137529e+07 |   -0.21% |  1.59e-13 |      
+      150 |   0.8229 |  1.135553e+07 |   -0.17% |  2.59e-13 |      
+      160 |   0.8221 |  1.134969e+07 |   -0.05% |  4.22e-13 |      
+      170 |   0.8204 |  1.136407e+07 |   +0.13% |  6.85e-13 |      
+      180 |   0.8165 |  1.141275e+07 |   +0.43% |  1.11e-12 |      
+      190 |   0.8093 |  1.152043e+07 |   +0.94% |  1.76e-12 |      
+      200 |   0.7973 |  1.171459e+07 |   +1.69% |  2.75e-12 |      
+      210 |   0.7811 |  1.194968e+07 |   +2.01% |  4.26e-12 |      
+      220 |   0.7636 |  1.219666e+07 |   +2.07% |  6.57e-12 |      
+      230 |   0.7430 |  1.226755e+07 |   +0.58% |  1.05e-11 |      
+      240 |   0.7210 |  1.249638e+07 |   +1.87% |  1.64e-11 |      
+      250 |   0.6948 |  1.296054e+07 |   +3.71% |  2.39e-11 |      
+      260 |   0.6672 |  1.295751e+07 |   -0.02% |  3.85e-11 |      
+      270 |   0.6309 |  1.316118e+07 |   +1.57% |  6.01e-11 |      
+      280 |   0.6025 |  1.325577e+07 |   +0.72% |  9.54e-11 |      
+      290 |   0.5693 |  1.317701e+07 |   -0.59% |  1.55e-10 |      
+      300 |   0.5348 |  1.292813e+07 |   -1.89% |  2.53e-10 |      
+      310 |   0.4909 |  1.281253e+07 |   -0.89% |  4.10e-10 |      
+      320 |   0.4541 |  1.258697e+07 |   -1.76% |  6.69e-10 |      
+      330 |   0.4181 |  1.242945e+07 |   -1.25% |  1.09e-09 |      
+      340 |   0.3809 |  1.226084e+07 |   -1.36% |  1.77e-09 |      
+      350 |   0.3462 |  1.212640e+07 |   -1.10% |  2.89e-09 |      
+      360 |   0.3251 |  1.204254e+07 |   -0.69% |  4.25e-09 |      
+      370 |   0.3091 |  1.193312e+07 |   -0.91% |  6.27e-09 |      
+      380 |   0.2879 |  1.193505e+07 |   +0.02% |  9.20e-09 |      
+      390 |   0.2671 |  1.187859e+07 |   -0.47% |  1.35e-08 |      
+      400 |   0.2391 |  1.182338e+07 |   -0.46% |  1.97e-08 |      
+      410 |   0.2104 |  1.189218e+07 |   +0.58% |  2.87e-08 |      
+      420 |   0.1830 |  1.195206e+07 |   +0.50% |  4.19e-08 |      
+      430 |   0.1581 |  1.199336e+07 |   +0.35% |  6.12e-08 |      
+      440 |   0.1351 |  1.202907e+07 |   +0.30% |  8.96e-08 |      
+      450 |   0.1162 |  1.208297e+07 |   +0.45% |  1.31e-07 |      
+      460 |   0.0999 |  1.216602e+07 |   +0.69% |  1.90e-07 |      
+      460 |   0.0999 |  1.216602e+07 |          |  1.97e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 460
+[INFO GPL-1002] Placed Cell Area            970427.1327
+[INFO GPL-1003] Available Free Area         6702099.0944
+[INFO GPL-1004] Minimum Feasible Density        0.1500 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.1609
+[INFO GPL-1008]     - For 80% usage of free space: 0.1810
+[INFO GPL-1009]     - For 50% usage of free space: 0.2896
+[INFO GPL-1014] Final placement area: 970427.13 (+0.00%)
+[INFO DPL-0006] Core area: 15243557.28 um^2, Instances area: 877205.06 um^2, Utilization: 5.8%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1101] Legalizing using diamond search.
+Movements Summary
+---------------------------------------
+Total cells:                   61991
+Diamond Move Success:          61991 (100.00%)
+Diamond Move Failure:              0
+Rip-up and replace Success:        0 (  0.00% of diamond failures)
+Rip-up and replace Failure:        0
+Total Placement Failures:          0
+---------------------------------------
+Placement Analysis
+---------------------------------
+total displacement     601945.4 u
+average displacement        9.7 u
+max displacement         1806.6 u
+original HPWL        12164222.4 u
+legalized HPWL       12769266.7 u
+delta HPWL                    5 %
+
+ROUTEB_PLACEMENT_LEGAL
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[4\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[5\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[6\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[7\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[4\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[5\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[6\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[7\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[4\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[5\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[6\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[7\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[4\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[5\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[6\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[7\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[4\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[5\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[6\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[7\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[4\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[5\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[6\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[7\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[4\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[5\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[6\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[7\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[4\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[5\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[6\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.dcache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.genblk1.genblk1.g_vortex_sp_64x128_w8.u_macro.g_slice\[7\].u_raw
+[WARNING PDN-0110] No via inserted between met4 and met5 at (104.3100, 1294.0000) - (105.9100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (104.3100, 2572.1800) - (105.9100, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (131.4500, 1294.0000) - (133.0500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (131.4500, 2572.1800) - (133.0500, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (145.0200, 898.1600) - (146.6200, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (145.0200, 2176.5600) - (146.6200, 2176.9400) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (158.5900, 1294.0000) - (160.1900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (158.5900, 2572.1800) - (160.1900, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (185.7300, 1294.0000) - (187.3300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (185.7300, 2572.1800) - (187.3300, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (240.0100, 1294.0000) - (241.6100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (240.0100, 2572.1800) - (241.6100, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (267.1500, 1294.0000) - (268.7500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (267.1500, 2572.1800) - (268.7500, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (294.2900, 1294.0000) - (295.8900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (294.2900, 2572.1800) - (295.8900, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (321.4300, 1294.0000) - (323.0300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (321.4300, 2572.1800) - (323.0300, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (389.2800, 898.1600) - (390.8800, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (389.2800, 2176.5600) - (390.8800, 2176.9400) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (402.8500, 1294.0000) - (404.4500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (402.8500, 2572.1800) - (404.4500, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (429.9900, 1294.0000) - (431.5900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (429.9900, 2572.1800) - (431.5900, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (457.1300, 1294.0000) - (458.7300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (457.1300, 2572.1800) - (458.7300, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (484.2700, 1294.0000) - (485.8700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (484.2700, 2572.1800) - (485.8700, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (511.4100, 1294.0000) - (513.0100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (511.4100, 2572.1800) - (513.0100, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (538.5500, 1294.0000) - (540.1500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (538.5500, 2572.1800) - (540.1500, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (565.6900, 1294.0000) - (567.2900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (565.6900, 2572.1800) - (567.2900, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (592.8300, 1294.0000) - (594.4300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (592.8300, 2572.1800) - (594.4300, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (606.4000, 898.1600) - (608.0000, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (606.4000, 2176.5600) - (608.0000, 2176.9400) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (619.9700, 1294.0000) - (621.5700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (619.9700, 2572.1800) - (621.5700, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (647.1100, 1294.0000) - (648.7100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (647.1100, 2572.1800) - (648.7100, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (701.3900, 1294.0000) - (702.9900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (701.3900, 2572.1800) - (702.9900, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (728.5300, 1294.0000) - (730.1300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (728.5300, 2572.1800) - (730.1300, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (755.6700, 1294.0000) - (757.2700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (755.6700, 2572.1800) - (757.2700, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (769.2400, 898.1600) - (770.8400, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (769.2400, 2176.5600) - (770.8400, 2176.9400) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (782.8100, 1294.0000) - (784.4100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (782.8100, 2572.1800) - (784.4100, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (809.9500, 1294.0000) - (811.5500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (809.9500, 2572.1800) - (811.5500, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (837.0900, 1294.0000) - (838.6900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (837.0900, 2572.1800) - (838.6900, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (864.2300, 1294.0000) - (865.8300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (864.2300, 2572.1800) - (865.8300, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (891.3700, 1294.0000) - (892.9700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (891.3700, 2572.1800) - (892.9700, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (904.9400, 898.1600) - (906.5400, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (904.9400, 2176.5600) - (906.5400, 2176.9400) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (918.5100, 1294.0000) - (920.1100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (918.5100, 2572.1800) - (920.1100, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (945.6500, 1294.0000) - (947.2500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (945.6500, 2572.1800) - (947.2500, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (999.9300, 1294.0000) - (1001.5300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (999.9300, 2572.1800) - (1001.5300, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1027.0700, 1294.0000) - (1028.6700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1027.0700, 2572.1800) - (1028.6700, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1054.2100, 1294.0000) - (1055.8100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1054.2100, 2572.1800) - (1055.8100, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1067.7800, 898.1600) - (1069.3800, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1067.7800, 2176.5600) - (1069.3800, 2176.9400) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1081.3500, 1294.0000) - (1082.9500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1081.3500, 2572.1800) - (1082.9500, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1094.9200, 898.1600) - (1096.5200, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1094.9200, 2176.5600) - (1096.5200, 2176.9400) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1108.4900, 1294.0000) - (1110.0900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1108.4900, 2572.1800) - (1110.0900, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1135.6300, 1294.0000) - (1137.2300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1135.6300, 2572.1800) - (1137.2300, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1162.7700, 1294.0000) - (1164.3700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1162.7700, 2572.1800) - (1164.3700, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1189.9100, 1294.0000) - (1191.5100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1189.9100, 2572.1800) - (1191.5100, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1217.0500, 1294.0000) - (1218.6500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1217.0500, 2572.1800) - (1218.6500, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1244.1900, 1294.0000) - (1245.7900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1244.1900, 2572.1800) - (1245.7900, 2572.5600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1325.6100, 1294.0000) - (1327.2100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1352.7500, 1294.0000) - (1354.3500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1379.8900, 1294.0000) - (1381.4900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1393.4600, 898.1600) - (1395.0600, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1407.0300, 1294.0000) - (1408.6300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1461.3100, 1294.0000) - (1462.9100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1488.4500, 1294.0000) - (1490.0500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1515.5900, 1294.0000) - (1517.1900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1542.7300, 1294.0000) - (1544.3300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1624.1500, 1294.0000) - (1625.7500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1651.2900, 1294.0000) - (1652.8900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1678.4300, 1294.0000) - (1680.0300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1692.0000, 898.1600) - (1693.6000, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1705.5700, 1294.0000) - (1707.1700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1759.8500, 1294.0000) - (1761.4500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1786.9900, 1294.0000) - (1788.5900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1814.1300, 1294.0000) - (1815.7300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1841.2700, 1294.0000) - (1842.8700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1922.6900, 1294.0000) - (1924.2900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1949.8300, 1294.0000) - (1951.4300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1963.4000, 898.1600) - (1965.0000, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1976.9700, 1294.0000) - (1978.5700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2004.1100, 1294.0000) - (2005.7100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2058.3900, 1294.0000) - (2059.9900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2085.5300, 1294.0000) - (2087.1300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2112.6700, 1294.0000) - (2114.2700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2139.8100, 1294.0000) - (2141.4100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2207.6600, 898.1600) - (2209.2600, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2221.2300, 1294.0000) - (2222.8300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2248.3700, 1294.0000) - (2249.9700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2275.5100, 1294.0000) - (2277.1100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2302.6500, 1294.0000) - (2304.2500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2329.7900, 1294.0000) - (2331.3900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2356.9300, 1294.0000) - (2358.5300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2384.0700, 1294.0000) - (2385.6700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2411.2100, 1294.0000) - (2412.8100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2424.7800, 898.1600) - (2426.3800, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2438.3500, 1294.0000) - (2439.9500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2465.4900, 1294.0000) - (2467.0900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2519.7700, 1294.0000) - (2521.3700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2546.9100, 1294.0000) - (2548.5100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2574.0500, 1294.0000) - (2575.6500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2587.6200, 898.1600) - (2589.2200, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2601.1900, 1294.0000) - (2602.7900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2628.3300, 1294.0000) - (2629.9300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2682.6100, 1294.0000) - (2684.2100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2709.7500, 1294.0000) - (2711.3500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2723.3200, 898.1600) - (2724.9200, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2736.8900, 1294.0000) - (2738.4900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2764.0300, 1294.0000) - (2765.6300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2818.3100, 1294.0000) - (2819.9100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2845.4500, 1294.0000) - (2847.0500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2872.5900, 1294.0000) - (2874.1900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2886.1600, 898.1600) - (2887.7600, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2899.7300, 1294.0000) - (2901.3300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2926.8700, 1294.0000) - (2928.4700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2954.0100, 1294.0000) - (2955.6100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2981.1500, 1294.0000) - (2982.7500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3008.2900, 1294.0000) - (3009.8900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3035.4300, 1294.0000) - (3037.0300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3062.5700, 1294.0000) - (3064.1700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3143.9900, 1294.0000) - (3145.5900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3171.1300, 1294.0000) - (3172.7300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3198.2700, 1294.0000) - (3199.8700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3211.8400, 898.1600) - (3213.4400, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3225.4100, 1294.0000) - (3227.0100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3279.6900, 1294.0000) - (3281.2900, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3306.8300, 1294.0000) - (3308.4300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3333.9700, 1294.0000) - (3335.5700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3361.1100, 1294.0000) - (3362.7100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3442.5300, 1294.0000) - (3444.1300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3469.6700, 1294.0000) - (3471.2700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3496.8100, 1294.0000) - (3498.4100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3510.3800, 898.1600) - (3511.9800, 898.7600) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3523.9500, 1294.0000) - (3525.5500, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3578.2300, 1294.0000) - (3579.8300, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3605.3700, 1294.0000) - (3606.9700, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3632.5100, 1294.0000) - (3634.1100, 1294.1600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3659.6500, 1294.0000) - (3661.2500, 1294.1600) on VSS
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0040] All shapes on net VSS are connected.
+ROUTEB_PDN_CHECKED
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_2
+                    sky130_fd_sc_hd__clkbuf_4
+                    sky130_fd_sc_hd__clkbuf_8
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0007] Net "clk_i" found for clock "core_clock".
+[INFO CTS-0011]  Clock net "clk_i" for macros has 136 sinks.
+[INFO CTS-0011]  Clock net "clk_i_regs" for registers has 19169 sinks.
+[INFO CTS-0010]  Clock net "_035825_" has 64 sinks.
+[INFO CTS-0010]  Clock net "_035711_" has 64 sinks.
+[INFO CTS-0010]  Clock net "_035597_" has 64 sinks.
+[INFO CTS-0010]  Clock net "_035483_" has 64 sinks.
+[INFO CTS-0010]  Clock net "_035369_" has 64 sinks.
+[INFO CTS-0010]  Clock net "_035255_" has 64 sinks.
+[INFO CTS-0010]  Clock net "_035141_" has 64 sinks.
+[INFO CTS-0010]  Clock net "_035027_" has 64 sinks.
+[INFO CTS-0008] TritonCTS found 10 clock nets.
+[INFO CTS-0097] Characterization used 3 buffer(s) types.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk_i.
+[INFO CTS-0028]  Total number of sinks: 136.
+[INFO CTS-0029]  Macro  sinks will be clustered in groups of up to 4 and with maximum cluster diameter of 782.1 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 4 and clustering diameter of 782.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 35.
+[INFO CTS-0024]  Normalized sink region: [(8.90073, 3.63456), (250.071, 181.819)].
+[INFO CTS-0025]     Width:  241.1699.
+[INFO CTS-0026]     Height: 178.1846.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 18
+    Sub-region size: 120.5849 X 178.1846
+[INFO CTS-0034]     Segment length (rounded): 60.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 9
+    Sub-region size: 120.5849 X 89.0923
+[INFO CTS-0034]     Segment length (rounded): 44.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 35.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk_i_regs.
+[INFO CTS-0028]  Total number of sinks: 19169.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0206] Best clustering solution was found from max clustering size of 11 and max clustering diameter of 282.
+[INFO CTS-0019]  Total number of sinks after clustering: 2302.
+[INFO CTS-0024]  Normalized sink region: [(2.5031, 1.69912), (286.862, 287.099)].
+[INFO CTS-0025]     Width:  284.3587.
+[INFO CTS-0026]     Height: 285.4002.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 1151
+    Sub-region size: 284.3587 X 142.7001
+[INFO CTS-0034]     Segment length (rounded): 72.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 576
+    Sub-region size: 142.1794 X 142.7001
+[INFO CTS-0034]     Segment length (rounded): 72.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 288
+    Sub-region size: 142.1794 X 71.3501
+[INFO CTS-0034]     Segment length (rounded): 36.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 144
+    Sub-region size: 71.0897 X 71.3501
+[INFO CTS-0034]     Segment length (rounded): 36.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 72
+    Sub-region size: 71.0897 X 35.6750
+[INFO CTS-0034]     Segment length (rounded): 18.
+ Level 6
+    Direction: Horizontal
+    Sinks per sub-region: 36
+    Sub-region size: 35.5448 X 35.6750
+[INFO CTS-0034]     Segment length (rounded): 18.
+ Level 7
+    Direction: Vertical
+    Sinks per sub-region: 18
+    Sub-region size: 35.5448 X 17.8375
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 8
+    Direction: Horizontal
+    Sinks per sub-region: 9
+    Sub-region size: 17.7724 X 17.8375
+[INFO CTS-0034]     Segment length (rounded): 8.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 2302.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _035825_.
+[INFO CTS-0028]  Total number of sinks: 64.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(4746700, 4506930), (5581140, 5050930)].
+[INFO CTS-0024]  Normalized sink region: [(174.511, 165.696), (205.189, 185.696)].
+[INFO CTS-0025]     Width:  30.6779.
+[INFO CTS-0026]     Height: 20.0000.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 32
+    Sub-region size: 15.3390 X 20.0000
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 15.3390 X 10.0000
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 7.6695 X 10.0000
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 64.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _035711_.
+[INFO CTS-0028]  Total number of sinks: 64.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(3836820, 4496050), (4733820, 4762830)].
+[INFO CTS-0024]  Normalized sink region: [(141.06, 165.296), (174.037, 175.104)].
+[INFO CTS-0025]     Width:  32.9779.
+[INFO CTS-0026]     Height: 9.8081.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 32
+    Sub-region size: 16.4890 X 9.8081
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 16.4890 X 4.9040
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 8.2445 X 4.9040
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 64.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _035597_.
+[INFO CTS-0028]  Total number of sinks: 64.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(4433900, 4512590), (5188300, 4844210)].
+[INFO CTS-0024]  Normalized sink region: [(163.011, 165.904), (190.746, 178.096)].
+[INFO CTS-0025]     Width:  27.7353.
+[INFO CTS-0026]     Height: 12.1919.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 32
+    Sub-region size: 13.8676 X 12.1919
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 13.8676 X 6.0960
+[INFO CTS-0034]     Segment length (rounded): 4.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 6.9338 X 6.0960
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 64.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _035483_.
+[INFO CTS-0028]  Total number of sinks: 64.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(4444940, 4517810), (5603220, 4817230)].
+[INFO CTS-0024]  Normalized sink region: [(163.417, 166.096), (206.001, 177.104)].
+[INFO CTS-0025]     Width:  42.5838.
+[INFO CTS-0026]     Height: 11.0081.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 32
+    Sub-region size: 21.2919 X 11.0081
+[INFO CTS-0034]     Segment length (rounded): 10.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 21.2919 X 5.5040
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 10.6460 X 5.5040
+[INFO CTS-0034]     Segment length (rounded): 6.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 64.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _035369_.
+[INFO CTS-0028]  Total number of sinks: 64.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(4112820, 4545230), (4886540, 4746290)].
+[INFO CTS-0024]  Normalized sink region: [(151.207, 167.104), (179.652, 174.496)].
+[INFO CTS-0025]     Width:  28.4456.
+[INFO CTS-0026]     Height: 7.3919.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 32
+    Sub-region size: 14.2228 X 7.3919
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 14.2228 X 3.6960
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 7.1114 X 3.6960
+[INFO CTS-0034]     Segment length (rounded): 3.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 64.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _035255_.
+[INFO CTS-0028]  Total number of sinks: 64.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(4910460, 2815310), (7466220, 6840910)].
+[INFO CTS-0024]  Normalized sink region: [(180.532, 103.504), (274.493, 251.504)].
+[INFO CTS-0025]     Width:  93.9618.
+[INFO CTS-0026]     Height: 148.0000.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 32
+    Sub-region size: 93.9618 X 74.0000
+[INFO CTS-0034]     Segment length (rounded): 36.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 46.9809 X 74.0000
+[INFO CTS-0034]     Segment length (rounded): 24.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 46.9809 X 37.0000
+[INFO CTS-0034]     Segment length (rounded): 18.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 64.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _035141_.
+[INFO CTS-0028]  Total number of sinks: 64.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(6519540, 4060850), (7475420, 5665870)].
+[INFO CTS-0024]  Normalized sink region: [(239.689, 149.296), (274.832, 208.304)].
+[INFO CTS-0025]     Width:  35.1426.
+[INFO CTS-0026]     Height: 59.0081.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 32
+    Sub-region size: 35.1426 X 29.5040
+[INFO CTS-0034]     Segment length (rounded): 14.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 17.5713 X 29.5040
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 17.5713 X 14.7520
+[INFO CTS-0034]     Segment length (rounded): 8.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 64.
+[INFO CTS-0201] 64 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _035027_.
+[INFO CTS-0028]  Total number of sinks: 64.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(1414460, 1732530), (7767060, 7733070)].
+[INFO CTS-0024]  Normalized sink region: [(52.0022, 63.696), (285.554, 284.304)].
+[INFO CTS-0025]     Width:  233.5515.
+[INFO CTS-0026]     Height: 220.6081.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 32
+    Sub-region size: 116.7757 X 220.6081
+[INFO CTS-0034]     Segment length (rounded): 58.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 116.7757 X 110.3040
+[INFO CTS-0034]     Segment length (rounded): 56.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 58.3879 X 110.3040
+[INFO CTS-0034]     Segment length (rounded): 30.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 64.
+[INFO CTS-0018]     Created 43 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 4.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 5.
+[INFO CTS-0015]     Created 43 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 3:1, 4:33, 8:1, 9:3..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 2672 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 10.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 11.
+[INFO CTS-0015]     Created 2672 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 2:1, 3:21, 4:38, 5:59, 6:64, 7:278, 8:878, 9:928, 10:208, 11:20, 12:10, 13:10, 14:9, 15:9, 16:3, 17:4, 18:3, 19:2, 20:3, 21:1, 23:3, 24:1, 26:1, 31:1..
+[INFO CTS-0017]     Max level of the clock tree: 8.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:2, 7:2, 8:2, 11:2..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 6:2, 7:1, 9:2, 10:1, 12:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 7:3, 8:2, 10:1, 11:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 6:1, 7:1, 8:2, 9:1, 10:1, 11:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 6:1, 7:2, 8:1, 9:2, 13:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0018]     Created 15 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 4.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 4.
+[INFO CTS-0015]     Created 15 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 6:2, 8:2, 9:2, 13:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 6:2, 8:2, 9:2, 13:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0018]     Created 17 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 5.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 5.
+[INFO CTS-0015]     Created 17 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 6:2, 7:1, 8:1, 9:1, 10:1, 13:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0098] Clock net "clk_i"
+[INFO CTS-0099]  Sinks 136
+[INFO CTS-0100]  Leaf buffers 34
+[INFO CTS-0101]  Average sink wire length 5770.97 um
+[INFO CTS-0102]  Path depth 4 - 5
+[INFO CTS-0207]  Dummy loads inserted 5
+[INFO CTS-0098] Clock net "clk_i_regs"
+[INFO CTS-0099]  Sinks 21056
+[INFO CTS-0100]  Leaf buffers 2299
+[INFO CTS-0101]  Average sink wire length 3550.70 um
+[INFO CTS-0102]  Path depth 10 - 11
+[INFO CTS-0207]  Dummy loads inserted 1887
+[INFO CTS-0098] Clock net "_035825_"
+[INFO CTS-0099]  Sinks 70
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 269.89 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 6
+[INFO CTS-0098] Clock net "_035711_"
+[INFO CTS-0099]  Sinks 71
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 228.97 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 7
+[INFO CTS-0098] Clock net "_035597_"
+[INFO CTS-0099]  Sinks 71
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 195.57 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 7
+[INFO CTS-0098] Clock net "_035483_"
+[INFO CTS-0099]  Sinks 71
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 269.03 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 7
+[INFO CTS-0098] Clock net "_035369_"
+[INFO CTS-0099]  Sinks 71
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 176.36 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 7
+[INFO CTS-0098] Clock net "_035255_"
+[INFO CTS-0099]  Sinks 67
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 1363.74 um
+[INFO CTS-0102]  Path depth 4 - 4
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_035141_"
+[INFO CTS-0099]  Sinks 71
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 421.64 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 7
+[INFO CTS-0098] Clock net "_035027_"
+[INFO CTS-0099]  Sinks 68
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 2405.45 um
+[INFO CTS-0102]  Path depth 5 - 5
+[INFO CTS-0207]  Dummy loads inserted 4
+[INFO CTS-0033] Balancing latency for clock core_clock
+[INFO CTS-0036]  inserted 69 delay buffers
+[INFO CTS-0037] Total number of delay buffers: 69
+[INFO DPL-0006] Core area: 15243557.28 um^2, Instances area: 936200.39 um^2, Utilization: 6.1%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1101] Legalizing using diamond search.
+Movements Summary
+---------------------------------------
+Total cells:                   66802
+Diamond Move Success:          66802 (100.00%)
+Diamond Move Failure:              0
+Rip-up and replace Success:        0 (  0.00% of diamond failures)
+Rip-up and replace Failure:        0
+Total Placement Failures:          0
+---------------------------------------
+Placement Analysis
+---------------------------------
+total displacement      85776.4 u
+average displacement        1.3 u
+max displacement         1541.2 u
+original HPWL        13132284.8 u
+legalized HPWL       13158678.2 u
+delta HPWL                    0 %
+
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0040] All shapes on net VSS are connected.
+ROUTEB_CTS_COMPLETE
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met4
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 0.6150
+[INFO GRT-0003] Macros: 64
+[INFO GRT-0004] Blockages: 356573
+[INFO GRT-0019] Found 2880 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 895
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal    2869476       2869476          0.00%
+met2       Vertical      2392611       2392611          0.00%
+met3       Horizontal    1719887       1720655          -0.04%
+met4       Vertical      1150182       1151590          -0.12%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0102] Start extra iteration 1/30
+[INFO GRT-0102] Start extra iteration 2/30
+[INFO GRT-0102] Start extra iteration 3/30
+[INFO GRT-0102] Start extra iteration 4/30
+[INFO GRT-0102] Start extra iteration 5/30
+[INFO GRT-0102] Start extra iteration 6/30
+[INFO GRT-0102] Start extra iteration 7/30
+[INFO GRT-0102] Start extra iteration 8/30
+[INFO GRT-0102] Start extra iteration 9/30
+[INFO GRT-0102] Start extra iteration 10/30
+[INFO GRT-0102] Start extra iteration 11/30
+[INFO GRT-0102] Start extra iteration 12/30
+[INFO GRT-0102] Start extra iteration 13/30
+[INFO GRT-0102] Start extra iteration 14/30
+[INFO GRT-0197] Via related to pin nodes: 415557
+[INFO GRT-0198] Via related Steiner nodes: 18619
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 562935
+[INFO GRT-0112] Final usage 3D: 3823743
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1           2869476        687308           23.95%             0 /  0 /  0
+met2           2392611        799178           33.40%             0 /  0 /  0
+met3           1720655        396320           23.03%             0 /  0 /  0
+met4           1151590        252132           21.89%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total          8134332       2134938           26.25%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 16306287 um
+[INFO GRT-0014] Routed nets: 68814
+[INFO GRT-0303] Global routing runtime = 00:01:43
+worst slack max -7.09
+worst slack min -2.62
+ROUTEB_GRT_COMPLETE

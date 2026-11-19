@@ -1,0 +1,15 @@
+{
+  "8-本轮实验\\全100案例双后端-20261104T134532Z\\cpu-rtl\\status.json": "c72593e40062cb47be092c9b6f9b3a9c01e9df61547abab2bab911f70c48ab22",
+  "8-本轮实验\\全100案例双后端-20261104T134532Z\\cpu-rtl\\console.log": "6013c68284f4d3bff47b813f6f57cbecd8a8057b3725780ce74825067b501424",
+  "8-本轮实验\\全100案例双后端-20261104T134532Z\\cpu-rtl\\bindings.json": "b8de9d956af16a7c33a4efd90d964c11a2613dbf24dac85bc9edbe0f8ff6d0da",
+  "8-本轮实验\\全100案例双后端-20261104T134532Z\\cpu-rtl\\official-results.json": "cee09e1cd2e798ae6b1e983b6e05a13a9ada9fa75994d97652c7421b930858e5",
+  "8-本轮实验\\全100案例双后端-20261104T134332Z\\gpu-simx\\status.json": "c00a81e336d4edeb55b5b16dfa91dff8b921966db6db5d3df83f00ae9ab17ad0",
+  "8-本轮实验\\全100案例双后端-20261104T134332Z\\gpu-simx\\execute.log": "61d7e60d0395899a92498a15a3fbe47d6d5af9e10aa58317640e4d083a74ab49",
+  "8-本轮实验\\全100案例双后端-20261104T134332Z\\gpu-simx\\bindings.json": "5393a0ac72a31a970f2baa5e9ea22d5097e5331d9f31a22ceff73f6de90a412a",
+  "8-本轮实验\\全100案例双后端-20261104T134332Z\\gpu-simx\\official-results.json": "d1f5187a7fb91dde4cb55a2d6807e1633aad23a9eb6544fded3399e0bce9ba34",
+  "8-本轮实验\\全100案例双后端验收结果\\summary.json": "9393a818c5956441145ba17aeee8feeaaabad7a12a210b380ca60b16283c9ca7",
+  "8-本轮实验\\全100案例双后端验收结果\\证据SHA256-同库复核前.json": "a21e2d2c1452b6c70c6642b025889d047cb13f6b5d61c986c1368a935b269d3e",
+  "8-本轮实验\\全100案例双后端验收结果\\跨后端逐条核对.json": "729581e6b6f546eb34cea850b93a2712eaeeec50a84a1d7cf47a0fee7327c044",
+  "8-本轮实验\\全100案例双后端验收结果\\逐案例结果.json": "114856488417fceee91dc1fb2fde0c738c1911b0e9febedab61b7471c0ee09ee",
+  "8-本轮实验\\全100案例双后端验收结果\\验收说明.md": "3a224c19d5f0f69e5276b47b030ec646a8b9866dde12302b1221f4d3b70a8d59"
+}

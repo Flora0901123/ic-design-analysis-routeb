@@ -1,0 +1,13 @@
+{
+  "gpu": {
+    "status": "FAILED",
+    "backend": "vortex-simx",
+    "fresh_execution": true,
+    "records_expected": 1000,
+    "performance_eligible": false,
+    "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/gpu/954dce45bd62b0573bd9890e84c6686b54ed63bdfe6c638f8b60dc80721d24f8",
+    "stage": "execute",
+    "error": "RuntimeError: exit -15: /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/gpu-topk全100案例-20261104T140209Z/gpu-simx/execute.log"
+  },
+  "source_restored": true
+}

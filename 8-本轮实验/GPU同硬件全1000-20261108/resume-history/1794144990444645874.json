@@ -1,0 +1,6513 @@
+{
+  "status": "INTERRUPTED_FOR_STORAGE_MIGRATION",
+  "goal_records": 1000,
+  "hardware_identity": "fresh macro-bound Vortex + actual fault adapters + reconstructed functional SRAM",
+  "formal_baseline": false,
+  "protocol_scope": "numeric/status replay; full seeded handshake/reset qualification remains separate",
+  "bindings": {
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sim/rtlsim/processor.cpp": "52b85baac7b18410fa341bce414f8649a74707042d03f7bec78010db69071ca1",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  },
+  "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "records": [
+    {
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 0,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          48384,
+          15744,
+          15680,
+          15744,
+          48544,
+          15808,
+          0
+        ],
+        "actual": [
+          -0.015625,
+          -0.03125,
+          0.0625,
+          0.046875,
+          0.0625,
+          -0.078125,
+          0.09375,
+          0.0
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 95244,
+      "instructions": 8893,
+      "seconds": 15.941726223999922,
+      "reused_same_binary_log": true,
+      "log_sha256": "a57a4dd5ec5e924c086ea11d5c03d914c2df34e78350af102d5626bc51f39438"
+    },
+    {
+      "ordinal": 1,
+      "case_id": "P1-MINI-01",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 1,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15488,
+          48384,
+          48576,
+          48544,
+          48256,
+          15680,
+          15680
+        ],
+        "actual": [
+          -0.109375,
+          0.015625,
+          -0.03125,
+          -0.09375,
+          -0.078125,
+          -0.015625,
+          0.046875,
+          0.046875
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 100970,
+      "instructions": 9498,
+      "seconds": 20.459191392999998,
+      "reused_same_binary_log": false,
+      "log_sha256": "333cfa02109837a59d71bfc86471c17daf2cc0993e743e449c979677fde56b42"
+    },
+    {
+      "ordinal": 2,
+      "case_id": "P1-MINI-01",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 2,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15680,
+          15776,
+          48608,
+          15488,
+          15616,
+          15680,
+          48256,
+          15808
+        ],
+        "actual": [
+          0.046875,
+          0.078125,
+          -0.109375,
+          0.015625,
+          0.03125,
+          0.046875,
+          -0.015625,
+          0.09375
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 100970,
+      "instructions": 9498,
+      "seconds": 17.464277165,
+      "reused_same_binary_log": false,
+      "log_sha256": "2cc8860fa9332dfce931cff7c3d5b00305851bb7d85c01dfd1249f1f28ecf5e3"
+    },
+    {
+      "ordinal": 3,
+      "case_id": "P1-MINI-01",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 3,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48448,
+          48608,
+          15680,
+          48608,
+          48576,
+          15840,
+          48512,
+          48608
+        ],
+        "actual": [
+          -0.046875,
+          -0.109375,
+          0.046875,
+          -0.109375,
+          -0.09375,
+          0.109375,
+          -0.0625,
+          -0.109375
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 102471,
+      "instructions": 9655,
+      "seconds": 17.351890127000004,
+      "reused_same_binary_log": false,
+      "log_sha256": "631e30b04aec21d1eb55d33b8bb5d0d8da401023306c3f3c80616bac95dfc7fa"
+    },
+    {
+      "ordinal": 4,
+      "case_id": "P1-MINI-01",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 4,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15840,
+          48512,
+          48448,
+          0,
+          15488,
+          48544,
+          48640,
+          48512
+        ],
+        "actual": [
+          0.109375,
+          -0.0625,
+          -0.046875,
+          0.0,
+          0.015625,
+          -0.078125,
+          -0.125,
+          -0.0625
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 95860,
+      "instructions": 8957,
+      "seconds": 16.756663888000006,
+      "reused_same_binary_log": false,
+      "log_sha256": "b46c47117962b7253ea9d2e92e6a7de25272b42342f64aec4250e682fe9f1834"
+    },
+    {
+      "ordinal": 5,
+      "case_id": "P1-MINI-01",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 5,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15488,
+          0,
+          48640,
+          15840,
+          48640,
+          48256,
+          15744,
+          48256
+        ],
+        "actual": [
+          0.015625,
+          0.0,
+          -0.125,
+          0.109375,
+          -0.125,
+          -0.015625,
+          0.0625,
+          -0.015625
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 95270,
+      "instructions": 8895,
+      "seconds": 18.245093654000016,
+      "reused_same_binary_log": false,
+      "log_sha256": "12c2b1ce345f47b61e9938aa7d058a186b654026246532911feaa9b76896f323"
+    },
+    {
+      "ordinal": 6,
+      "case_id": "P1-MINI-01",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 6,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48544,
+          15744,
+          15616,
+          48256,
+          48256,
+          15680,
+          15488,
+          15616
+        ],
+        "actual": [
+          -0.078125,
+          0.0625,
+          0.03125,
+          -0.015625,
+          -0.015625,
+          0.046875,
+          0.015625,
+          0.03125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 100380,
+      "instructions": 9436,
+      "seconds": 19.23995835400001,
+      "reused_same_binary_log": false,
+      "log_sha256": "9d27a0f2b5996680889054313f55d7c87075e123bea46d3b246c5ae2a5f228a5"
+    },
+    {
+      "ordinal": 7,
+      "case_id": "P1-MINI-01",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 7,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15776,
+          15840,
+          48448,
+          15808,
+          15808,
+          15808,
+          48448,
+          15776
+        ],
+        "actual": [
+          0.078125,
+          0.109375,
+          -0.046875,
+          0.09375,
+          0.09375,
+          0.09375,
+          -0.046875,
+          0.078125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 102445,
+      "instructions": 9653,
+      "seconds": 18.211171193000013,
+      "reused_same_binary_log": false,
+      "log_sha256": "29c0e452e120ff47907d9b4ef3be14de5fa4ae975aca5932fdfb8952b3da22e4"
+    },
+    {
+      "ordinal": 8,
+      "case_id": "P1-MINI-01",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 8,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          48544,
+          15840,
+          48448,
+          48384,
+          48576,
+          48576,
+          48640
+        ],
+        "actual": [
+          -0.015625,
+          -0.078125,
+          0.109375,
+          -0.046875,
+          -0.03125,
+          -0.09375,
+          -0.09375,
+          -0.125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 102176,
+      "instructions": 9624,
+      "seconds": 16.522018137000003,
+      "reused_same_binary_log": false,
+      "log_sha256": "8dac6cce22bc6101f258cd810757f654527b42cc1f4ebd275069c61e46c1057f"
+    },
+    {
+      "ordinal": 9,
+      "case_id": "P1-MINI-01",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 9,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          48256,
+          15616,
+          15744,
+          15776,
+          48384,
+          15808,
+          48544
+        ],
+        "actual": [
+          -0.109375,
+          -0.015625,
+          0.03125,
+          0.0625,
+          0.078125,
+          -0.03125,
+          0.09375,
+          -0.078125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 101855,
+      "instructions": 9591,
+      "seconds": 18.540918963000024,
+      "reused_same_binary_log": false,
+      "log_sha256": "1e9cfff2bb54771c9f16ea29f56e9ccd240513e274246b937cb057b11cb5448a"
+    },
+    {
+      "ordinal": 10,
+      "case_id": "P1-MINI-02",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 10,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48424,
+          15715,
+          48596,
+          48471,
+          48483,
+          48313,
+          15463,
+          15823
+        ],
+        "actual": [
+          -0.041015625,
+          0.055419921875,
+          -0.103515625,
+          -0.052490234375,
+          -0.055419921875,
+          -0.0225830078125,
+          0.01409912109375,
+          0.10107421875
+        ],
+        "selected": [
+          2,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113502,
+      "instructions": 10704,
+      "seconds": 19.03951870399999,
+      "reused_same_binary_log": false,
+      "log_sha256": "807513ce862cd8f55e79a6dacf4a390a6345d0641fa3046d4801bcc5f0d84c0b"
+    },
+    {
+      "ordinal": 11,
+      "case_id": "P1-MINI-02",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 11,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48577,
+          15488,
+          48415,
+          48592,
+          48591,
+          48445,
+          15774,
+          15774
+        ],
+        "actual": [
+          -0.09423828125,
+          0.015625,
+          -0.038818359375,
+          -0.1015625,
+          -0.10107421875,
+          -0.046142578125,
+          0.0771484375,
+          0.0771484375
+        ],
+        "selected": [
+          0,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115196,
+      "instructions": 10880,
+      "seconds": 18.452820017000022,
+      "reused_same_binary_log": false,
+      "log_sha256": "c280ef8fec96ead738923c034c8984c5305167534c00f2f4d4819e7813f0e2fb"
+    },
+    {
+      "ordinal": 12,
+      "case_id": "P1-MINI-02",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 12,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15748,
+          48169,
+          48198,
+          48482,
+          15688,
+          48426,
+          48328,
+          15772
+        ],
+        "actual": [
+          0.064453125,
+          -0.01031494140625,
+          -0.0120849609375,
+          -0.05517578125,
+          0.048828125,
+          -0.04150390625,
+          -0.0244140625,
+          0.076171875
+        ],
+        "selected": [
+          0,
+          2
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113143,
+      "instructions": 10665,
+      "seconds": 18.46148469299999,
+      "reused_same_binary_log": false,
+      "log_sha256": "a1b11ee5aa41ef1e91901be604e65bae4b0e2e8b418a55696315c083c947244f"
+    },
+    {
+      "ordinal": 13,
+      "case_id": "P1-MINI-02",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 13,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48348,
+          48567,
+          15078,
+          48557,
+          48525,
+          15710,
+          48491,
+          48516
+        ],
+        "actual": [
+          -0.02685546875,
+          -0.08935546875,
+          0.0017547607421875,
+          -0.08447265625,
+          -0.06884765625,
+          0.05419921875,
+          -0.057373046875,
+          -0.064453125
+        ],
+        "selected": [
+          0,
+          2
+        ]
+      },
+      "device_fault": false,
+      "cycles": 112909,
+      "instructions": 10639,
+      "seconds": 18.841733067000007,
+      "reused_same_binary_log": false,
+      "log_sha256": "57ecbd20a6d56b36d8b648076559104f72aa4009b45f4cfafa6ae917eeb05558"
+    },
+    {
+      "ordinal": 14,
+      "case_id": "P1-MINI-02",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 14,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48258,
+          15385,
+          15513,
+          48379,
+          48601,
+          0,
+          48397,
+          15667
+        ],
+        "actual": [
+          -0.015869140625,
+          0.00933837890625,
+          0.0186767578125,
+          -0.0306396484375,
+          -0.10595703125,
+          0.0,
+          -0.034423828125,
+          0.043701171875
+        ],
+        "selected": [
+          1,
+          2
+        ]
+      },
+      "device_fault": false,
+      "cycles": 106002,
+      "instructions": 9911,
+      "seconds": 19.017248447000043,
+      "reused_same_binary_log": false,
+      "log_sha256": "3b6becbab4fd4ac3ca23dc1de6c25c2e3945179d0d09386c2466010a9b4dbdec"
+    },
+    {
+      "ordinal": 15,
+      "case_id": "P1-MINI-02",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 15,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48410,
+          48431,
+          48278,
+          48420,
+          48553,
+          48495,
+          15700,
+          48451
+        ],
+        "actual": [
+          -0.03759765625,
+          -0.042724609375,
+          -0.018310546875,
+          -0.0400390625,
+          -0.08251953125,
+          -0.058349609375,
+          0.0517578125,
+          -0.047607421875
+        ],
+        "selected": [
+          3,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113207,
+      "instructions": 10673,
+      "seconds": 18.95015512499998,
+      "reused_same_binary_log": false,
+      "log_sha256": "108144aecc6a52d5bb5224dbf644712466e5f7ef561e4cf028b08f8b48cc10d7"
+    },
+    {
+      "ordinal": 16,
+      "case_id": "P1-MINI-02",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 16,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48390,
+          15699,
+          15720,
+          15641,
+          15816,
+          48531,
+          48517,
+          15631
+        ],
+        "actual": [
+          -0.03271484375,
+          0.051513671875,
+          0.056640625,
+          0.037353515625,
+          0.09765625,
+          -0.07177734375,
+          -0.06494140625,
+          0.034912109375
+        ],
+        "selected": [
+          1,
+          2
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113179,
+      "instructions": 10669,
+      "seconds": 19.068195844,
+      "reused_same_binary_log": false,
+      "log_sha256": "0f693e0e74c3af236479a079492ecb18fd83cf1a1b8c2847339a9eadff0b973b"
+    },
+    {
+      "ordinal": 17,
+      "case_id": "P1-MINI-02",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 17,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15615,
+          15840,
+          48217,
+          15780,
+          15624,
+          15522,
+          48521,
+          15504
+        ],
+        "actual": [
+          0.0311279296875,
+          0.109375,
+          -0.01324462890625,
+          0.080078125,
+          0.033203125,
+          0.019775390625,
+          -0.06689453125,
+          0.017578125
+        ],
+        "selected": [
+          2,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 112878,
+      "instructions": 10640,
+      "seconds": 20.00960233500001,
+      "reused_same_binary_log": false,
+      "log_sha256": "8f02770e0c20813c7adce83f8fa690f5f9fa5f2db0ffcca9187401f51901879c"
+    },
+    {
+      "ordinal": 18,
+      "case_id": "P1-MINI-02",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 18,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15024,
+          48527,
+          15823,
+          48448,
+          15152,
+          48271,
+          48146,
+          48640
+        ],
+        "actual": [
+          0.0013427734375,
+          -0.06982421875,
+          0.10107421875,
+          -0.046875,
+          0.002685546875,
+          -0.0174560546875,
+          -0.0089111328125,
+          -0.125
+        ],
+        "selected": [
+          0,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 111721,
+      "instructions": 10515,
+      "seconds": 18.174496869999984,
+      "reused_same_binary_log": false,
+      "log_sha256": "75386856236fdfb542d1d4e4e6735c707a2d10e1a445e7dce17010e3f4d4409c"
+    },
+    {
+      "ordinal": 19,
+      "case_id": "P1-MINI-02",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 19,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48514,
+          15771,
+          15797,
+          48513,
+          15389,
+          48518,
+          15458,
+          48157
+        ],
+        "actual": [
+          -0.0634765625,
+          0.07568359375,
+          0.08837890625,
+          -0.06298828125,
+          0.00958251953125,
+          -0.0654296875,
+          0.0137939453125,
+          -0.00958251953125
+        ],
+        "selected": [
+          3,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 112000,
+      "instructions": 10546,
+      "seconds": 18.373528276000002,
+      "reused_same_binary_log": false,
+      "log_sha256": "611ac3a183c775f522edd3d32e451e68721f203a7e80d270d8a34295fd756e7f"
+    },
+    {
+      "ordinal": 20,
+      "case_id": "P1-MINI-03",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 20,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          15823,
+          48582,
+          48442,
+          48506,
+          15604,
+          48407,
+          15675
+        ],
+        "actual": [
+          -0.015625,
+          0.10107421875,
+          -0.0966796875,
+          -0.04541015625,
+          -0.06103515625,
+          0.02978515625,
+          -0.036865234375,
+          0.045654296875
+        ],
+        "selected": [
+          2,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115143,
+      "instructions": 10867,
+      "seconds": 19.188198704,
+      "reused_same_binary_log": false,
+      "log_sha256": "1a3021b8a1bf61d62428b28f1662e016f564e9e5eb84cc4a4264b4b6a383fd3b"
+    },
+    {
+      "ordinal": 21,
+      "case_id": "P1-MINI-03",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 21,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15791,
+          48342,
+          15780,
+          48469,
+          48572,
+          15783,
+          48463,
+          48406
+        ],
+        "actual": [
+          0.08544921875,
+          -0.026123046875,
+          0.080078125,
+          -0.052001953125,
+          -0.091796875,
+          0.08154296875,
+          -0.050537109375,
+          -0.03662109375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113935,
+      "instructions": 10737,
+      "seconds": 18.156343066000034,
+      "reused_same_binary_log": false,
+      "log_sha256": "9f21eea50d8eb6386819c8905b720fdd1df56521078c0792e54242a0237f7fe2"
+    },
+    {
+      "ordinal": 22,
+      "case_id": "P1-MINI-03",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 22,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15720,
+          48315,
+          48304,
+          15605,
+          48608,
+          15788,
+          15415,
+          15759
+        ],
+        "actual": [
+          0.056640625,
+          -0.0228271484375,
+          -0.021484375,
+          0.0299072265625,
+          -0.109375,
+          0.083984375,
+          0.01116943359375,
+          0.06982421875
+        ],
+        "selected": [
+          4,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114811,
+      "instructions": 10829,
+      "seconds": 20.520151322999993,
+      "reused_same_binary_log": false,
+      "log_sha256": "dd55fff4db072608b5bac295cbcf1e56838c7786d924d36087ae2f164b462c19"
+    },
+    {
+      "ordinal": 23,
+      "case_id": "P1-MINI-03",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 23,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48419,
+          48591,
+          15631,
+          48576,
+          48578,
+          15828,
+          48519,
+          48601
+        ],
+        "actual": [
+          -0.039794921875,
+          -0.10107421875,
+          0.034912109375,
+          -0.09375,
+          -0.0947265625,
+          0.103515625,
+          -0.06591796875,
+          -0.10595703125
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114768,
+      "instructions": 10820,
+      "seconds": 18.887521606000007,
+      "reused_same_binary_log": false,
+      "log_sha256": "babd1a9140e3d1458aa78be49e1ed110cec63c4cdb4b7ead144e007a83fb2801"
+    },
+    {
+      "ordinal": 24,
+      "case_id": "P1-MINI-03",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 24,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15601,
+          48048,
+          47771,
+          48396,
+          48109,
+          15449,
+          48640,
+          15503
+        ],
+        "actual": [
+          0.0294189453125,
+          -0.00537109375,
+          -0.00118255615234375,
+          -0.0341796875,
+          -0.007232666015625,
+          0.01324462890625,
+          -0.125,
+          0.0174560546875
+        ],
+        "selected": [
+          0,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 110098,
+      "instructions": 10332,
+      "seconds": 18.76144911299997,
+      "reused_same_binary_log": false,
+      "log_sha256": "788e4bc62104b9aed3b80a2a0125395f3db3912121370b5c922799f5455b0074"
+    },
+    {
+      "ordinal": 25,
+      "case_id": "P1-MINI-03",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 25,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15752,
+          48437,
+          47953,
+          48564,
+          15696,
+          15607,
+          48488,
+          15689
+        ],
+        "actual": [
+          0.06640625,
+          -0.044189453125,
+          -0.0031890869140625,
+          -0.087890625,
+          0.05078125,
+          0.0301513671875,
+          -0.056640625,
+          0.049072265625
+        ],
+        "selected": [
+          2,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114221,
+      "instructions": 10767,
+      "seconds": 20.13365239999996,
+      "reused_same_binary_log": false,
+      "log_sha256": "6a8b7f09c96976178bafd6313b178c205c8dc2455ffa76b51e8c15e9ed36db19"
+    },
+    {
+      "ordinal": 26,
+      "case_id": "P1-MINI-03",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 26,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15399,
+          15381,
+          15745,
+          48340,
+          48306,
+          15641,
+          15685
+        ],
+        "actual": [
+          -0.109375,
+          0.01019287109375,
+          0.00909423828125,
+          0.06298828125,
+          -0.02587890625,
+          -0.021728515625,
+          0.037353515625,
+          0.048095703125
+        ],
+        "selected": [
+          4,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113956,
+      "instructions": 10742,
+      "seconds": 13.464578140999947,
+      "reused_same_binary_log": false,
+      "log_sha256": "35b2ca14830ad6c611a32f6f8186c7a9e85367e6eb95d831ae24db757d4c6cbd"
+    },
+    {
+      "ordinal": 27,
+      "case_id": "P1-MINI-03",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 27,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48384,
+          48582,
+          48490,
+          48558,
+          48601,
+          15564,
+          15385,
+          48572
+        ],
+        "actual": [
+          -0.03125,
+          -0.0966796875,
+          -0.05712890625,
+          -0.0849609375,
+          -0.10595703125,
+          0.02490234375,
+          0.00933837890625,
+          -0.091796875
+        ],
+        "selected": [
+          2,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113340,
+      "instructions": 10678,
+      "seconds": 21.00381722999998,
+      "reused_same_binary_log": false,
+      "log_sha256": "45ff57b62b2ade4c97f75e5acd8cce6828fbd8fac9e734679a50984aa770beb7"
+    },
+    {
+      "ordinal": 28,
+      "case_id": "P1-MINI-03",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 28,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15025,
+          48565,
+          15763,
+          48373,
+          48412,
+          48569,
+          48569,
+          48550
+        ],
+        "actual": [
+          0.00135040283203125,
+          -0.08837890625,
+          0.07177734375,
+          -0.0299072265625,
+          -0.0380859375,
+          -0.09033203125,
+          -0.09033203125,
+          -0.0810546875
+        ],
+        "selected": [
+          0,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113011,
+      "instructions": 10639,
+      "seconds": 21.191546566000056,
+      "reused_same_binary_log": false,
+      "log_sha256": "198ec1de4f3e6d8d65f1866eb1ce1955fc72cfb9976b2cc0c5b560e46a6f7880"
+    },
+    {
+      "ordinal": 29,
+      "case_id": "P1-MINI-03",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 29,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15760,
+          48391,
+          48439,
+          15458,
+          15543,
+          15786,
+          48329
+        ],
+        "actual": [
+          -0.109375,
+          0.0703125,
+          -0.032958984375,
+          -0.044677734375,
+          0.0137939453125,
+          0.0223388671875,
+          0.0830078125,
+          -0.0245361328125
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114214,
+      "instructions": 10768,
+      "seconds": 22.182435491999968,
+      "reused_same_binary_log": false,
+      "log_sha256": "368442d51a3de7c90614c18820aeec1c3049766061715b35780174be67fe11b0"
+    },
+    {
+      "ordinal": 30,
+      "case_id": "P1-MINI-04",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 30,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15666,
+          15724,
+          48482,
+          47968,
+          48284,
+          15757,
+          48542,
+          48323,
+          48509,
+          48409,
+          48278,
+          48470,
+          48440,
+          48591,
+          15716,
+          15795
+        ],
+        "actual": [
+          0.04345703125,
+          0.0576171875,
+          -0.05517578125,
+          -0.00341796875,
+          -0.01904296875,
+          0.06884765625,
+          -0.0771484375,
+          -0.0238037109375,
+          -0.061767578125,
+          -0.037353515625,
+          -0.018310546875,
+          -0.05224609375,
+          -0.044921875,
+          -0.10107421875,
+          0.0556640625,
+          0.08740234375
+        ],
+        "selected": [
+          3,
+          2,
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 200190,
+      "instructions": 19699,
+      "seconds": 28.089103502999933,
+      "reused_same_binary_log": false,
+      "log_sha256": "7d1de2f3fed35cdf7118274332cc86a3865d70509e579a0fe3c478d70635f6a6"
+    },
+    {
+      "ordinal": 31,
+      "case_id": "P1-MINI-04",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 31,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48416,
+          48588,
+          15131,
+          15537,
+          48623,
+          15785,
+          48418,
+          15670,
+          48532,
+          15464,
+          48430,
+          48604,
+          48638,
+          48533,
+          15829,
+          15830
+        ],
+        "actual": [
+          -0.0390625,
+          -0.099609375,
+          0.0023651123046875,
+          0.0216064453125,
+          -0.11669921875,
+          0.08251953125,
+          -0.03955078125,
+          0.04443359375,
+          -0.072265625,
+          0.01416015625,
+          -0.04248046875,
+          -0.107421875,
+          -0.1240234375,
+          -0.07275390625,
+          0.10400390625,
+          0.1044921875
+        ],
+        "selected": [
+          0,
+          1,
+          2,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 198432,
+      "instructions": 19506,
+      "seconds": 26.713512476000005,
+      "reused_same_binary_log": false,
+      "log_sha256": "1874a4e5df1afe2a10aea3e61414d58a4d48b8fc451bbaa886cbde5be10cd151"
+    },
+    {
+      "ordinal": 32,
+      "case_id": "P1-MINI-04",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 32,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15776,
+          48327,
+          15374,
+          47836,
+          48559,
+          15647,
+          15636,
+          15744,
+          48346,
+          15496,
+          48421,
+          15717,
+          48473,
+          15711,
+          15647,
+          15542
+        ],
+        "actual": [
+          0.078125,
+          -0.0242919921875,
+          0.0086669921875,
+          -0.001678466796875,
+          -0.08544921875,
+          0.038818359375,
+          0.0361328125,
+          0.0625,
+          -0.026611328125,
+          0.0166015625,
+          -0.040283203125,
+          0.055908203125,
+          -0.052978515625,
+          0.054443359375,
+          0.038818359375,
+          0.022216796875
+        ],
+        "selected": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 197000,
+      "instructions": 19367,
+      "seconds": 28.09641468899997,
+      "reused_same_binary_log": false,
+      "log_sha256": "19b8dd00087029e90ede06a597e9ecb1935ebbfdff0cc924c17896aae509769f"
+    },
+    {
+      "ordinal": 33,
+      "case_id": "P1-MINI-04",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 33,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48328,
+          48448,
+          48549,
+          48439,
+          48365,
+          48439,
+          48526,
+          15507,
+          48634,
+          48447,
+          48446,
+          48537,
+          48499,
+          47642,
+          48632,
+          48237
+        ],
+        "actual": [
+          -0.0244140625,
+          -0.046875,
+          -0.08056640625,
+          -0.044677734375,
+          -0.0289306640625,
+          -0.044677734375,
+          -0.0693359375,
+          0.0179443359375,
+          -0.1220703125,
+          -0.046630859375,
+          -0.04638671875,
+          -0.07470703125,
+          -0.059326171875,
+          -0.00058746337890625,
+          -0.12109375,
+          -0.01446533203125
+        ],
+        "selected": [
+          3,
+          1,
+          4,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 196321,
+      "instructions": 19294,
+      "seconds": 28.258621817000062,
+      "reused_same_binary_log": false,
+      "log_sha256": "71f6c32f269b8a79f6e90662fdfac64eb4d194cb21647de1333e745b5b14727c"
+    },
+    {
+      "ordinal": 34,
+      "case_id": "P1-MINI-04",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 34,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          47796,
+          48056,
+          15396,
+          48483,
+          48579,
+          48395,
+          47932,
+          15524,
+          47682,
+          48227,
+          15629,
+          48589,
+          48600,
+          48316,
+          15405,
+          15764
+        ],
+        "actual": [
+          -0.001373291015625,
+          -0.005615234375,
+          0.010009765625,
+          -0.055419921875,
+          -0.09521484375,
+          -0.033935546875,
+          -0.00286865234375,
+          0.02001953125,
+          -0.00074005126953125,
+          -0.01385498046875,
+          0.034423828125,
+          -0.10009765625,
+          -0.10546875,
+          -0.02294921875,
+          0.01055908203125,
+          0.072265625
+        ],
+        "selected": [
+          0,
+          3,
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 192169,
+      "instructions": 18856,
+      "seconds": 27.32024774299998,
+      "reused_same_binary_log": false,
+      "log_sha256": "389c5260b0b4b63220df8125258d659c27e071143a3552bbf798d06fbc879299"
+    },
+    {
+      "ordinal": 35,
+      "case_id": "P1-MINI-04",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 35,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15619,
+          48470,
+          48463,
+          48521,
+          15692,
+          15253,
+          48223,
+          15657,
+          15825,
+          15616,
+          15823,
+          48608,
+          15793,
+          15744,
+          48575,
+          48443
+        ],
+        "actual": [
+          0.031982421875,
+          -0.05224609375,
+          -0.050537109375,
+          -0.06689453125,
+          0.0498046875,
+          0.004547119140625,
+          -0.01361083984375,
+          0.041259765625,
+          0.10205078125,
+          0.03125,
+          0.10107421875,
+          -0.109375,
+          0.08642578125,
+          0.0625,
+          -0.09326171875,
+          -0.045654296875
+        ],
+        "selected": [
+          0,
+          3,
+          4,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 200460,
+      "instructions": 19731,
+      "seconds": 27.840203610999993,
+      "reused_same_binary_log": false,
+      "log_sha256": "2ac4df9aca9d2eba9543acbe6f1dea0b37dded4c6e8edc4967704d26816b1fec"
+    },
+    {
+      "ordinal": 36,
+      "case_id": "P1-MINI-04",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 36,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48550,
+          48512,
+          48460,
+          15633,
+          15758,
+          48588,
+          15770,
+          48059,
+          48391,
+          15699,
+          15723,
+          15642,
+          15816,
+          48531,
+          48517,
+          15633
+        ],
+        "actual": [
+          -0.0810546875,
+          -0.0625,
+          -0.0498046875,
+          0.035400390625,
+          0.0693359375,
+          -0.099609375,
+          0.0751953125,
+          -0.005706787109375,
+          -0.032958984375,
+          0.051513671875,
+          0.057373046875,
+          0.03759765625,
+          0.09765625,
+          -0.07177734375,
+          -0.06494140625,
+          0.035400390625
+        ],
+        "selected": [
+          3,
+          1,
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 198743,
+      "instructions": 19545,
+      "seconds": 26.425190028999964,
+      "reused_same_binary_log": false,
+      "log_sha256": "aa1bd2f5210dc9bf1304551a306609b95ccd40812cc525f49db177b377b01639"
+    },
+    {
+      "ordinal": 37,
+      "case_id": "P1-MINI-04",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 37,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48520,
+          15768,
+          48008,
+          15816,
+          15731,
+          48568,
+          15435,
+          48536,
+          48478,
+          15840,
+          14848,
+          48092,
+          15332,
+          48576,
+          48529,
+          48262
+        ],
+        "actual": [
+          -0.06640625,
+          0.07421875,
+          -0.004150390625,
+          0.09765625,
+          0.059326171875,
+          -0.08984375,
+          0.01239013671875,
+          -0.07421875,
+          -0.05419921875,
+          0.109375,
+          0.00048828125,
+          -0.0067138671875,
+          0.0069580078125,
+          -0.09375,
+          -0.07080078125,
+          -0.016357421875
+        ],
+        "selected": [
+          0,
+          1,
+          1,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 196938,
+      "instructions": 19358,
+      "seconds": 26.608040754000058,
+      "reused_same_binary_log": false,
+      "log_sha256": "e661ad0bf368c2f27767237937de898aceceed099621519f1ca96c975a8d689d"
+    },
+    {
+      "ordinal": 38,
+      "case_id": "P1-MINI-04",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 38,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          48518,
+          48640,
+          48565,
+          48545,
+          48394,
+          48608,
+          48492,
+          15749,
+          48598,
+          48457,
+          15505,
+          48517,
+          48493,
+          48526,
+          15781
+        ],
+        "actual": [
+          -0.109375,
+          -0.0654296875,
+          -0.125,
+          -0.08837890625,
+          -0.07861328125,
+          -0.03369140625,
+          -0.109375,
+          -0.0576171875,
+          0.06494140625,
+          -0.1044921875,
+          -0.049072265625,
+          0.0177001953125,
+          -0.06494140625,
+          -0.057861328125,
+          -0.0693359375,
+          0.08056640625
+        ],
+        "selected": [
+          1,
+          0,
+          3,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 201328,
+      "instructions": 19818,
+      "seconds": 28.307612221,
+      "reused_same_binary_log": false,
+      "log_sha256": "4cf76104fac618e7eb9c58dfef264d43bc17efbc4798ab51ffec0a305f4f4120"
+    },
+    {
+      "ordinal": 39,
+      "case_id": "P1-MINI-04",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 39,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          14875,
+          15630,
+          15686,
+          48525,
+          15510,
+          48324,
+          48513,
+          48414,
+          15611,
+          15824,
+          15761,
+          48482,
+          15613,
+          15338,
+          48129,
+          48414
+        ],
+        "actual": [
+          0.000591278076171875,
+          0.03466796875,
+          0.04833984375,
+          -0.06884765625,
+          0.018310546875,
+          -0.02392578125,
+          -0.06298828125,
+          -0.03857421875,
+          0.0306396484375,
+          0.1015625,
+          0.07080078125,
+          -0.05517578125,
+          0.0308837890625,
+          0.00714111328125,
+          -0.00787353515625,
+          -0.03857421875
+        ],
+        "selected": [
+          2,
+          1,
+          2,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 197509,
+      "instructions": 19417,
+      "seconds": 26.38305389200002,
+      "reused_same_binary_log": false,
+      "log_sha256": "e6763724e8933bf4299e60b2f814d8c94f752514d0f639a10de03d77ffbcbc8d"
+    },
+    {
+      "ordinal": 40,
+      "case_id": "P1-MINI-05",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 40,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15666,
+          15724,
+          48482,
+          47968,
+          48284,
+          15757,
+          48542,
+          48323,
+          48509,
+          48409,
+          48278,
+          48470,
+          48440,
+          48591,
+          15716,
+          15795
+        ],
+        "actual": [
+          0.04345703125,
+          0.0576171875,
+          -0.05517578125,
+          -0.00341796875,
+          -0.01904296875,
+          0.06884765625,
+          -0.0771484375,
+          -0.0238037109375,
+          -0.061767578125,
+          -0.037353515625,
+          -0.018310546875,
+          -0.05224609375,
+          -0.044921875,
+          -0.10107421875,
+          0.0556640625,
+          0.08740234375
+        ],
+        "selected": [
+          3,
+          2,
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 201211,
+      "instructions": 19792,
+      "seconds": 27.42329819400004,
+      "reused_same_binary_log": false,
+      "log_sha256": "ffa9830ef3eb1efe3ce301f95c61b0fa86bd0d46b5a74c3c9e22b4ac7aeacba2"
+    },
+    {
+      "ordinal": 41,
+      "case_id": "P1-MINI-05",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 41,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48416,
+          48588,
+          15131,
+          15537,
+          48623,
+          15785,
+          48418,
+          15670,
+          48532,
+          15464,
+          48430,
+          48604,
+          48638,
+          48533,
+          15829,
+          15830
+        ],
+        "actual": [
+          -0.0390625,
+          -0.099609375,
+          0.0023651123046875,
+          0.0216064453125,
+          -0.11669921875,
+          0.08251953125,
+          -0.03955078125,
+          0.04443359375,
+          -0.072265625,
+          0.01416015625,
+          -0.04248046875,
+          -0.107421875,
+          -0.1240234375,
+          -0.07275390625,
+          0.10400390625,
+          0.1044921875
+        ],
+        "selected": [
+          0,
+          1,
+          2,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 199455,
+      "instructions": 19601,
+      "seconds": 26.320859834999965,
+      "reused_same_binary_log": false,
+      "log_sha256": "fb35d2e8a53fac1ac16959d8f23b529abad51a17f6d05c5ebb8fbcbf1b1cea17"
+    },
+    {
+      "ordinal": 42,
+      "case_id": "P1-MINI-05",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 42,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48023,
+          48351,
+          15275,
+          48346,
+          15640,
+          48443,
+          48062,
+          15611,
+          48346,
+          15496,
+          48421,
+          15717,
+          48473,
+          15711,
+          15647,
+          15542
+        ],
+        "actual": [
+          -0.004608154296875,
+          -0.0272216796875,
+          0.005218505859375,
+          -0.026611328125,
+          0.037109375,
+          -0.045654296875,
+          -0.00579833984375,
+          0.0306396484375,
+          -0.026611328125,
+          0.0166015625,
+          -0.040283203125,
+          0.055908203125,
+          -0.052978515625,
+          0.054443359375,
+          0.038818359375,
+          0.022216796875
+        ],
+        "selected": [
+          1,
+          4,
+          0,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 197953,
+      "instructions": 19453,
+      "seconds": 27.15823598999998,
+      "reused_same_binary_log": false,
+      "log_sha256": "b7d742dabffd99f09481a3194be2771bd399530e2e42c1f2e502fd20edd69449"
+    },
+    {
+      "ordinal": 43,
+      "case_id": "P1-MINI-05",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 43,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48578,
+          48436,
+          48423,
+          48427,
+          48366,
+          48071,
+          48559,
+          47972,
+          48634,
+          48447,
+          48446,
+          48537,
+          48499,
+          47642,
+          48632,
+          48237
+        ],
+        "actual": [
+          -0.0947265625,
+          -0.0439453125,
+          -0.040771484375,
+          -0.041748046875,
+          -0.029052734375,
+          -0.006072998046875,
+          -0.08544921875,
+          -0.00347900390625,
+          -0.1220703125,
+          -0.046630859375,
+          -0.04638671875,
+          -0.07470703125,
+          -0.059326171875,
+          -0.00058746337890625,
+          -0.12109375,
+          -0.01446533203125
+        ],
+        "selected": [
+          3,
+          4,
+          4,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 195252,
+      "instructions": 19171,
+      "seconds": 26.41346044599993,
+      "reused_same_binary_log": false,
+      "log_sha256": "22ac9ff7caecee78686e22c97b9ab63d0334de5f1a03c3884014180cb33cd72d"
+    },
+    {
+      "ordinal": 44,
+      "case_id": "P1-MINI-05",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 44,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          47796,
+          48056,
+          15396,
+          48483,
+          48579,
+          48395,
+          47932,
+          15524,
+          47682,
+          48227,
+          15629,
+          48589,
+          48600,
+          48316,
+          15405,
+          15764
+        ],
+        "actual": [
+          -0.001373291015625,
+          -0.005615234375,
+          0.010009765625,
+          -0.055419921875,
+          -0.09521484375,
+          -0.033935546875,
+          -0.00286865234375,
+          0.02001953125,
+          -0.00074005126953125,
+          -0.01385498046875,
+          0.034423828125,
+          -0.10009765625,
+          -0.10546875,
+          -0.02294921875,
+          0.01055908203125,
+          0.072265625
+        ],
+        "selected": [
+          0,
+          3,
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 193191,
+      "instructions": 18950,
+      "seconds": 26.72568651200004,
+      "reused_same_binary_log": false,
+      "log_sha256": "25c98fbf0d6d58408f3fbf464c09aa37cfcc0fabc9362e22d4fdb24a4dc0e75e"
+    },
+    {
+      "ordinal": 45,
+      "case_id": "P1-MINI-05",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 45,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15691,
+          15616,
+          15652,
+          48543,
+          15802,
+          15562,
+          48352,
+          48544,
+          15825,
+          15616,
+          15823,
+          48608,
+          15793,
+          15744,
+          48575,
+          48443
+        ],
+        "actual": [
+          0.049560546875,
+          0.03125,
+          0.0400390625,
+          -0.07763671875,
+          0.0908203125,
+          0.024658203125,
+          -0.02734375,
+          -0.078125,
+          0.10205078125,
+          0.03125,
+          0.10107421875,
+          -0.109375,
+          0.08642578125,
+          0.0625,
+          -0.09326171875,
+          -0.045654296875
+        ],
+        "selected": [
+          4,
+          0,
+          4,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 203854,
+      "instructions": 20074,
+      "seconds": 27.63635109900008,
+      "reused_same_binary_log": false,
+      "log_sha256": "8e61cfc893a4648b7249c1c42bba10c32cfe383b4dd96d48224681efdfbd6656"
+    },
+    {
+      "ordinal": 46,
+      "case_id": "P1-MINI-05",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 46,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48550,
+          48512,
+          48460,
+          15633,
+          15758,
+          48588,
+          15770,
+          48059,
+          48391,
+          15699,
+          15723,
+          15642,
+          15816,
+          48531,
+          48517,
+          15633
+        ],
+        "actual": [
+          -0.0810546875,
+          -0.0625,
+          -0.0498046875,
+          0.035400390625,
+          0.0693359375,
+          -0.099609375,
+          0.0751953125,
+          -0.005706787109375,
+          -0.032958984375,
+          0.051513671875,
+          0.057373046875,
+          0.03759765625,
+          0.09765625,
+          -0.07177734375,
+          -0.06494140625,
+          0.035400390625
+        ],
+        "selected": [
+          3,
+          1,
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 199765,
+      "instructions": 19639,
+      "seconds": 26.786685815000055,
+      "reused_same_binary_log": false,
+      "log_sha256": "c92f7512bbec909f52e0bff2781465bc14f3cb6f8f3b095ccc535dabb61435ce"
+    },
+    {
+      "ordinal": 47,
+      "case_id": "P1-MINI-05",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 47,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48544,
+          15771,
+          48292,
+          15717,
+          15790,
+          48585,
+          15525,
+          48449,
+          48478,
+          15840,
+          14848,
+          48092,
+          15332,
+          48576,
+          48529,
+          48262
+        ],
+        "actual": [
+          -0.078125,
+          0.07568359375,
+          -0.02001953125,
+          0.055908203125,
+          0.0849609375,
+          -0.09814453125,
+          0.0201416015625,
+          -0.047119140625,
+          -0.05419921875,
+          0.109375,
+          0.00048828125,
+          -0.0067138671875,
+          0.0069580078125,
+          -0.09375,
+          -0.07080078125,
+          -0.016357421875
+        ],
+        "selected": [
+          0,
+          4,
+          1,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 198524,
+      "instructions": 19510,
+      "seconds": 27.683420368000043,
+      "reused_same_binary_log": false,
+      "log_sha256": "f92925ff61415a409876539fccc6526af94f8d516c15cb787262c234de7a3093"
+    },
+    {
+      "ordinal": 48,
+      "case_id": "P1-MINI-05",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 48,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48232,
+          48413,
+          48443,
+          48544,
+          48576,
+          15557,
+          48509,
+          15382,
+          15749,
+          48598,
+          48457,
+          15505,
+          48517,
+          48493,
+          48526,
+          15781
+        ],
+        "actual": [
+          -0.01416015625,
+          -0.038330078125,
+          -0.045654296875,
+          -0.078125,
+          -0.09375,
+          0.0240478515625,
+          -0.061767578125,
+          0.0091552734375,
+          0.06494140625,
+          -0.1044921875,
+          -0.049072265625,
+          0.0177001953125,
+          -0.06494140625,
+          -0.057861328125,
+          -0.0693359375,
+          0.08056640625
+        ],
+        "selected": [
+          1,
+          4,
+          3,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 200953,
+      "instructions": 19761,
+      "seconds": 25.63655937700014,
+      "reused_same_binary_log": false,
+      "log_sha256": "e1edc5b7406f51ef743513f147c57c30862825f7731d41e0fa1235fe853a80c2"
+    },
+    {
+      "ordinal": 49,
+      "case_id": "P1-MINI-05",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 49,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48415,
+          15750,
+          15832,
+          48575,
+          47979,
+          48510,
+          48121,
+          48204,
+          15611,
+          15824,
+          15761,
+          48482,
+          15613,
+          15338,
+          48129,
+          48414
+        ],
+        "actual": [
+          -0.038818359375,
+          0.0654296875,
+          0.10546875,
+          -0.09326171875,
+          -0.0035858154296875,
+          -0.06201171875,
+          -0.007598876953125,
+          -0.012451171875,
+          0.0306396484375,
+          0.1015625,
+          0.07080078125,
+          -0.05517578125,
+          0.0308837890625,
+          0.00714111328125,
+          -0.00787353515625,
+          -0.03857421875
+        ],
+        "selected": [
+          4,
+          2,
+          2,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 198829,
+      "instructions": 19543,
+      "seconds": 24.070976430999963,
+      "reused_same_binary_log": false,
+      "log_sha256": "03054aac551f22e68c3b718f3437c84a34e41863318f83a56590fb231ab09c21"
+    },
+    {
+      "ordinal": 50,
+      "case_id": "P1-MINI-06",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 50,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          48384,
+          15744,
+          15680,
+          15744,
+          48544,
+          15808,
+          0
+        ],
+        "actual": [
+          -0.015625,
+          -0.03125,
+          0.0625,
+          0.046875,
+          0.0625,
+          -0.078125,
+          0.09375,
+          0.0
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 97353,
+      "instructions": 9094,
+      "seconds": 17.50199260599993,
+      "reused_same_binary_log": false,
+      "log_sha256": "faac2254d4b0b615c77ce1a0efcc4dcc358fcc33999a09cf10f3da4babc89f18"
+    },
+    {
+      "ordinal": 51,
+      "case_id": "P1-MINI-06",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 51,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15488,
+          48384,
+          48576,
+          48544,
+          48256,
+          15680,
+          15680
+        ],
+        "actual": [
+          -0.109375,
+          0.015625,
+          -0.03125,
+          -0.09375,
+          -0.078125,
+          -0.015625,
+          0.046875,
+          0.046875
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 103079,
+      "instructions": 9699,
+      "seconds": 16.64602106899997,
+      "reused_same_binary_log": false,
+      "log_sha256": "8bd06d44356046f89cbcf1070895d80efda868e0d14c035baad4423688a06bde"
+    },
+    {
+      "ordinal": 52,
+      "case_id": "P1-MINI-06",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 52,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15680,
+          15776,
+          48608,
+          15488,
+          15616,
+          15680,
+          48256,
+          15808
+        ],
+        "actual": [
+          0.046875,
+          0.078125,
+          -0.109375,
+          0.015625,
+          0.03125,
+          0.046875,
+          -0.015625,
+          0.09375
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 103079,
+      "instructions": 9699,
+      "seconds": 18.229536645999815,
+      "reused_same_binary_log": false,
+      "log_sha256": "0b07786de3ef1711570c4f2b5f1cf212fa7ad423dedd7b061d98795e087bc04f"
+    },
+    {
+      "ordinal": 53,
+      "case_id": "P1-MINI-06",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 53,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48448,
+          48608,
+          15680,
+          48608,
+          48576,
+          15840,
+          48512,
+          48608
+        ],
+        "actual": [
+          -0.046875,
+          -0.109375,
+          0.046875,
+          -0.109375,
+          -0.09375,
+          0.109375,
+          -0.0625,
+          -0.109375
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 104554,
+      "instructions": 9854,
+      "seconds": 19.1020421180001,
+      "reused_same_binary_log": false,
+      "log_sha256": "71b870da1114d23dddf437ca996990bfcab9d6a3c7b30fb2bcf2755b33689780"
+    },
+    {
+      "ordinal": 54,
+      "case_id": "P1-MINI-06",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 54,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15840,
+          48512,
+          48448,
+          0,
+          15488,
+          48544,
+          48640,
+          48512
+        ],
+        "actual": [
+          0.109375,
+          -0.0625,
+          -0.046875,
+          0.0,
+          0.015625,
+          -0.078125,
+          -0.125,
+          -0.0625
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 97943,
+      "instructions": 9156,
+      "seconds": 19.242035951999924,
+      "reused_same_binary_log": false,
+      "log_sha256": "f38d34f720a1fd0a6c3ecebce5f7fc737cfb07b38f26c3b1caef8282a9a943bd"
+    },
+    {
+      "ordinal": 55,
+      "case_id": "P1-MINI-06",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 55,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15488,
+          0,
+          48640,
+          15840,
+          48640,
+          48256,
+          15744,
+          48256
+        ],
+        "actual": [
+          0.015625,
+          0.0,
+          -0.125,
+          0.109375,
+          -0.125,
+          -0.015625,
+          0.0625,
+          -0.015625
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 97353,
+      "instructions": 9094,
+      "seconds": 17.504139878999922,
+      "reused_same_binary_log": false,
+      "log_sha256": "b3dad7561610360577a216f19760828faf57e0334d330ba16add9eff0de56e5d"
+    },
+    {
+      "ordinal": 56,
+      "case_id": "P1-MINI-06",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 56,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48544,
+          15744,
+          15616,
+          48256,
+          48256,
+          15680,
+          15488,
+          15616
+        ],
+        "actual": [
+          -0.078125,
+          0.0625,
+          0.03125,
+          -0.015625,
+          -0.015625,
+          0.046875,
+          0.015625,
+          0.03125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 102489,
+      "instructions": 9637,
+      "seconds": 19.97671867500003,
+      "reused_same_binary_log": false,
+      "log_sha256": "c32faa49e91247d96d775243dc46ecad32c8ed86d948bdf945e390c63b7eed0a"
+    },
+    {
+      "ordinal": 57,
+      "case_id": "P1-MINI-06",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 57,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15776,
+          15840,
+          48448,
+          15808,
+          15808,
+          15808,
+          48448,
+          15776
+        ],
+        "actual": [
+          0.078125,
+          0.109375,
+          -0.046875,
+          0.09375,
+          0.09375,
+          0.09375,
+          -0.046875,
+          0.078125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 104554,
+      "instructions": 9854,
+      "seconds": 19.307809301000134,
+      "reused_same_binary_log": false,
+      "log_sha256": "ebff7fdbe8abd0f250bebcc1e864c1027ff7f69fe4b0839d64b30a68a1e26d94"
+    },
+    {
+      "ordinal": 58,
+      "case_id": "P1-MINI-06",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 58,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          48544,
+          15840,
+          48448,
+          48384,
+          48576,
+          48576,
+          48640
+        ],
+        "actual": [
+          -0.015625,
+          -0.078125,
+          0.109375,
+          -0.046875,
+          -0.03125,
+          -0.09375,
+          -0.09375,
+          -0.125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 104259,
+      "instructions": 9823,
+      "seconds": 19.258291882000094,
+      "reused_same_binary_log": false,
+      "log_sha256": "d4f825280503769def9975d80815103c011b52433790b80ddf0c8ba4b2c88476"
+    },
+    {
+      "ordinal": 59,
+      "case_id": "P1-MINI-06",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 59,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          48256,
+          15616,
+          15744,
+          15776,
+          48384,
+          15808,
+          48544
+        ],
+        "actual": [
+          -0.109375,
+          -0.015625,
+          0.03125,
+          0.0625,
+          0.078125,
+          -0.03125,
+          0.09375,
+          -0.078125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 103964,
+      "instructions": 9792,
+      "seconds": 19.180782668999882,
+      "reused_same_binary_log": false,
+      "log_sha256": "74f33468daba31846b33f9bee6fcea3c03760db83f8623a5c408534c52c4f3b9"
+    },
+    {
+      "ordinal": 60,
+      "case_id": "P1-MINI-07",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 60,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 20.89200822199996,
+      "reused_same_binary_log": false,
+      "log_sha256": "54288e5b9c6357d9c2c396f71311719f701403aebbc05da2b8fbf6a343a44bf4"
+    },
+    {
+      "ordinal": 61,
+      "case_id": "P1-MINI-07",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 61,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 20.156680671999993,
+      "reused_same_binary_log": false,
+      "log_sha256": "fac8c70ab64860ed84eba2cae8cccfdb7dd694f541ff0f3e08fd3b9a9686f0ca"
+    },
+    {
+      "ordinal": 62,
+      "case_id": "P1-MINI-07",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 62,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 20.979902481999943,
+      "reused_same_binary_log": false,
+      "log_sha256": "72b90787780c8a7232adbd8638ca5d16c90757547b1fe274847862f7234d5a5f"
+    },
+    {
+      "ordinal": 63,
+      "case_id": "P1-MINI-07",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 63,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 20.323945784000216,
+      "reused_same_binary_log": false,
+      "log_sha256": "db534caa3123002b2c40556a034dad3b7aaf68f3973d0ce772c45d806be512c1"
+    },
+    {
+      "ordinal": 64,
+      "case_id": "P1-MINI-07",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 64,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 20.86678445000007,
+      "reused_same_binary_log": false,
+      "log_sha256": "ac544d0c168279a69695751fcfa0e4b0c830254c011b45b67ddeeeb6219242fa"
+    },
+    {
+      "ordinal": 65,
+      "case_id": "P1-MINI-07",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 65,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 20.07572115899984,
+      "reused_same_binary_log": false,
+      "log_sha256": "626a7213383bf5d5cc749159f4a31059487ae30f18ea410b2ee4db8c15ed353b"
+    },
+    {
+      "ordinal": 66,
+      "case_id": "P1-MINI-07",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 66,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 20.193680965999874,
+      "reused_same_binary_log": false,
+      "log_sha256": "24f88d5e0d0bd51029cb2c62dd9d70136e5f98460fc1954a1e5e3546a97b45a6"
+    },
+    {
+      "ordinal": 67,
+      "case_id": "P1-MINI-07",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 67,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 21.04064465600004,
+      "reused_same_binary_log": false,
+      "log_sha256": "e9c167c9006cfa84efda8774fb989e6a24def8de37eafcf556549822907decb2"
+    },
+    {
+      "ordinal": 68,
+      "case_id": "P1-MINI-07",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 68,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 21.59810290900009,
+      "reused_same_binary_log": false,
+      "log_sha256": "8593ce2073551d6b1eeaa7187ea9eeb74072d040e7dbd42dc3dc031374174f4f"
+    },
+    {
+      "ordinal": 69,
+      "case_id": "P1-MINI-07",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 69,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795,
+          15795
+        ],
+        "actual": [
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375,
+          0.08740234375
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115444,
+      "instructions": 10886,
+      "seconds": 19.881332208000003,
+      "reused_same_binary_log": false,
+      "log_sha256": "0b9f9b8632e7c96a58cf91e33b30438b1c486a733816d6192de5b3de7861bcba"
+    },
+    {
+      "ordinal": 70,
+      "case_id": "P1-MINI-08",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 70,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          48384,
+          15744,
+          15680,
+          15744,
+          48544,
+          15808,
+          0
+        ],
+        "actual": [
+          -0.015625,
+          -0.03125,
+          0.0625,
+          0.046875,
+          0.0625,
+          -0.078125,
+          0.09375,
+          0.0
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 95194,
+      "instructions": 8891,
+      "seconds": 19.34970476500007,
+      "reused_same_binary_log": false,
+      "log_sha256": "93d6d8883aa45cfc2eb7905df6e53cd11f91014f2d8aa7fd46cc41344a1f566d"
+    },
+    {
+      "ordinal": 71,
+      "case_id": "P1-MINI-08",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 71,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15488,
+          48384,
+          48576,
+          48544,
+          48256,
+          15680,
+          15680
+        ],
+        "actual": [
+          -0.109375,
+          0.015625,
+          -0.03125,
+          -0.09375,
+          -0.078125,
+          -0.015625,
+          0.046875,
+          0.046875
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 100920,
+      "instructions": 9496,
+      "seconds": 18.890493299000127,
+      "reused_same_binary_log": false,
+      "log_sha256": "0dfb4cd8f11fae59b213dbe816096b68ac30b9778a77ed7bf1f1f4aa14a9c69c"
+    },
+    {
+      "ordinal": 72,
+      "case_id": "P1-MINI-08",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 72,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15680,
+          15776,
+          48608,
+          15488,
+          15616,
+          15680,
+          48256,
+          15808
+        ],
+        "actual": [
+          0.046875,
+          0.078125,
+          -0.109375,
+          0.015625,
+          0.03125,
+          0.046875,
+          -0.015625,
+          0.09375
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 100920,
+      "instructions": 9496,
+      "seconds": 19.559209411999973,
+      "reused_same_binary_log": false,
+      "log_sha256": "3e67f55d04ef68d8b5886dea59a4e221f5f574a2ab0c43f4ccd55da756d1dcac"
+    },
+    {
+      "ordinal": 73,
+      "case_id": "P1-MINI-08",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 73,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48448,
+          48608,
+          15680,
+          48608,
+          48576,
+          15840,
+          48512,
+          48608
+        ],
+        "actual": [
+          -0.046875,
+          -0.109375,
+          0.046875,
+          -0.109375,
+          -0.09375,
+          0.109375,
+          -0.0625,
+          -0.109375
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 102421,
+      "instructions": 9653,
+      "seconds": 19.844975099000067,
+      "reused_same_binary_log": false,
+      "log_sha256": "db6d856717f2cd901b64b16b2df459db7afe69c03209dc656bc1056427865ac1"
+    },
+    {
+      "ordinal": 74,
+      "case_id": "P1-MINI-08",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 74,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15840,
+          48512,
+          48448,
+          0,
+          15488,
+          48544,
+          48640,
+          48512
+        ],
+        "actual": [
+          0.109375,
+          -0.0625,
+          -0.046875,
+          0.0,
+          0.015625,
+          -0.078125,
+          -0.125,
+          -0.0625
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 95810,
+      "instructions": 8955,
+      "seconds": 18.297989899999948,
+      "reused_same_binary_log": false,
+      "log_sha256": "9eea83618b93568e115d24b57965e4ed210e0726e54dae6799de3f736ffcce52"
+    },
+    {
+      "ordinal": 75,
+      "case_id": "P1-MINI-08",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 75,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15488,
+          0,
+          48640,
+          15840,
+          48640,
+          48256,
+          15744,
+          48256
+        ],
+        "actual": [
+          0.015625,
+          0.0,
+          -0.125,
+          0.109375,
+          -0.125,
+          -0.015625,
+          0.0625,
+          -0.015625
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 95220,
+      "instructions": 8893,
+      "seconds": 17.265009260999932,
+      "reused_same_binary_log": false,
+      "log_sha256": "7878b8d0927feab4bcaefc202e073d272a43228f2e2d62069108667a0294206e"
+    },
+    {
+      "ordinal": 76,
+      "case_id": "P1-MINI-08",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 76,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48544,
+          15744,
+          15616,
+          48256,
+          48256,
+          15680,
+          15488,
+          15616
+        ],
+        "actual": [
+          -0.078125,
+          0.0625,
+          0.03125,
+          -0.015625,
+          -0.015625,
+          0.046875,
+          0.015625,
+          0.03125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 100330,
+      "instructions": 9434,
+      "seconds": 19.028757312999915,
+      "reused_same_binary_log": false,
+      "log_sha256": "75bd135bf5dee37b410e18ec5426a8216366381dd538e9604b06dd1986ff5348"
+    },
+    {
+      "ordinal": 77,
+      "case_id": "P1-MINI-08",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 77,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15776,
+          15840,
+          48448,
+          15808,
+          15808,
+          15808,
+          48448,
+          15776
+        ],
+        "actual": [
+          0.078125,
+          0.109375,
+          -0.046875,
+          0.09375,
+          0.09375,
+          0.09375,
+          -0.046875,
+          0.078125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 102395,
+      "instructions": 9651,
+      "seconds": 23.370856815000025,
+      "reused_same_binary_log": false,
+      "log_sha256": "76818af3a9c3a8413bdb53a6212a01829f0e4cd06c32911ecc616ec0aa772ea3"
+    },
+    {
+      "ordinal": 78,
+      "case_id": "P1-MINI-08",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 78,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          48544,
+          15840,
+          48448,
+          48384,
+          48576,
+          48576,
+          48640
+        ],
+        "actual": [
+          -0.015625,
+          -0.078125,
+          0.109375,
+          -0.046875,
+          -0.03125,
+          -0.09375,
+          -0.09375,
+          -0.125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 102126,
+      "instructions": 9622,
+      "seconds": 23.07012471500002,
+      "reused_same_binary_log": false,
+      "log_sha256": "9d1902d21142794c05c06188136547aa80e960db94494c1b6c051882d12a9f89"
+    },
+    {
+      "ordinal": 79,
+      "case_id": "P1-MINI-08",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 79,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          48256,
+          15616,
+          15744,
+          15776,
+          48384,
+          15808,
+          48544
+        ],
+        "actual": [
+          -0.109375,
+          -0.015625,
+          0.03125,
+          0.0625,
+          0.078125,
+          -0.03125,
+          0.09375,
+          -0.078125
+        ],
+        "selected": [
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 101805,
+      "instructions": 9589,
+      "seconds": 22.954459508000127,
+      "reused_same_binary_log": false,
+      "log_sha256": "b0dda6b86cdbe9030b5019dab6241cb0a0f0901863a157d1197d790f062a654e"
+    },
+    {
+      "ordinal": 80,
+      "case_id": "P1-MINI-09",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 80,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          15823,
+          48582,
+          48442,
+          48506,
+          15604,
+          48407,
+          15675
+        ],
+        "actual": [
+          -0.015625,
+          0.10107421875,
+          -0.0966796875,
+          -0.04541015625,
+          -0.06103515625,
+          0.02978515625,
+          -0.036865234375,
+          0.045654296875
+        ],
+        "selected": [
+          2,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115143,
+      "instructions": 10867,
+      "seconds": 26.962874832000125,
+      "reused_same_binary_log": false,
+      "log_sha256": "5c9643aa2e8cc45942cfcdfa9e38bcee3168cfba1320eeded9ce729fb8e5d309"
+    },
+    {
+      "ordinal": 81,
+      "case_id": "P1-MINI-09",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 81,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15791,
+          48342,
+          15780,
+          48469,
+          48572,
+          15783,
+          48463,
+          48406
+        ],
+        "actual": [
+          0.08544921875,
+          -0.026123046875,
+          0.080078125,
+          -0.052001953125,
+          -0.091796875,
+          0.08154296875,
+          -0.050537109375,
+          -0.03662109375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113935,
+      "instructions": 10737,
+      "seconds": 24.13934826600007,
+      "reused_same_binary_log": false,
+      "log_sha256": "05cee1917806ed6089cb1b3638607ecc1963a5aca6f4d974d088132558980745"
+    },
+    {
+      "ordinal": 82,
+      "case_id": "P1-MINI-09",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 82,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15720,
+          48315,
+          48304,
+          15605,
+          48608,
+          15788,
+          15415,
+          15759
+        ],
+        "actual": [
+          0.056640625,
+          -0.0228271484375,
+          -0.021484375,
+          0.0299072265625,
+          -0.109375,
+          0.083984375,
+          0.01116943359375,
+          0.06982421875
+        ],
+        "selected": [
+          4,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114811,
+      "instructions": 10829,
+      "seconds": 26.673568658000022,
+      "reused_same_binary_log": false,
+      "log_sha256": "6f59f6475c2f696890699ee67bdfe1d8de8ecdb0e6f36038ea6ae87eb4c192c1"
+    },
+    {
+      "ordinal": 83,
+      "case_id": "P1-MINI-09",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 83,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48419,
+          48591,
+          15631,
+          48576,
+          48578,
+          15828,
+          48519,
+          48601
+        ],
+        "actual": [
+          -0.039794921875,
+          -0.10107421875,
+          0.034912109375,
+          -0.09375,
+          -0.0947265625,
+          0.103515625,
+          -0.06591796875,
+          -0.10595703125
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114768,
+      "instructions": 10820,
+      "seconds": 24.88930261900009,
+      "reused_same_binary_log": false,
+      "log_sha256": "31fd403b76d70b35f0e10ea8b3276b8c55868256f07db402ea58e12c077c8712"
+    },
+    {
+      "ordinal": 84,
+      "case_id": "P1-MINI-09",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 84,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15601,
+          48048,
+          47771,
+          48396,
+          48109,
+          15449,
+          48640,
+          15503
+        ],
+        "actual": [
+          0.0294189453125,
+          -0.00537109375,
+          -0.00118255615234375,
+          -0.0341796875,
+          -0.007232666015625,
+          0.01324462890625,
+          -0.125,
+          0.0174560546875
+        ],
+        "selected": [
+          0,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 110098,
+      "instructions": 10332,
+      "seconds": 19.664871707999964,
+      "reused_same_binary_log": false,
+      "log_sha256": "c681d6d9a5f93b7eb41875f94365af6eb01df6b84b8389c2300daed0ee41e3a6"
+    },
+    {
+      "ordinal": 85,
+      "case_id": "P1-MINI-09",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 85,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15752,
+          48437,
+          47953,
+          48564,
+          15696,
+          15607,
+          48488,
+          15689
+        ],
+        "actual": [
+          0.06640625,
+          -0.044189453125,
+          -0.0031890869140625,
+          -0.087890625,
+          0.05078125,
+          0.0301513671875,
+          -0.056640625,
+          0.049072265625
+        ],
+        "selected": [
+          2,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114221,
+      "instructions": 10767,
+      "seconds": 25.212597554000013,
+      "reused_same_binary_log": false,
+      "log_sha256": "39616ec247c64cdd6bdb7960dd55e0d5825e7d2d7da92ed841472548b94ec616"
+    },
+    {
+      "ordinal": 86,
+      "case_id": "P1-MINI-09",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 86,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15399,
+          15381,
+          15745,
+          48340,
+          48306,
+          15641,
+          15685
+        ],
+        "actual": [
+          -0.109375,
+          0.01019287109375,
+          0.00909423828125,
+          0.06298828125,
+          -0.02587890625,
+          -0.021728515625,
+          0.037353515625,
+          0.048095703125
+        ],
+        "selected": [
+          4,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113956,
+      "instructions": 10742,
+      "seconds": 24.750477692000004,
+      "reused_same_binary_log": false,
+      "log_sha256": "e76adbb064feefd48d2fac749bcc3da18d93d9b47524fb240a49a453e1c9139e"
+    },
+    {
+      "ordinal": 87,
+      "case_id": "P1-MINI-09",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 87,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48384,
+          48582,
+          48490,
+          48558,
+          48601,
+          15564,
+          15385,
+          48572
+        ],
+        "actual": [
+          -0.03125,
+          -0.0966796875,
+          -0.05712890625,
+          -0.0849609375,
+          -0.10595703125,
+          0.02490234375,
+          0.00933837890625,
+          -0.091796875
+        ],
+        "selected": [
+          2,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113340,
+      "instructions": 10678,
+      "seconds": 24.45804757499991,
+      "reused_same_binary_log": false,
+      "log_sha256": "223105292c32722c47a8811fc8389ae2ab8c0a2e78be5db01e542c34715afabc"
+    },
+    {
+      "ordinal": 88,
+      "case_id": "P1-MINI-09",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 88,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15025,
+          48565,
+          15763,
+          48373,
+          48412,
+          48569,
+          48569,
+          48550
+        ],
+        "actual": [
+          0.00135040283203125,
+          -0.08837890625,
+          0.07177734375,
+          -0.0299072265625,
+          -0.0380859375,
+          -0.09033203125,
+          -0.09033203125,
+          -0.0810546875
+        ],
+        "selected": [
+          0,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113011,
+      "instructions": 10639,
+      "seconds": 24.773993504000146,
+      "reused_same_binary_log": false,
+      "log_sha256": "931ce8897667528dd074e2e9ccaabd1b73aa08d1f05846b987a20dae421287f5"
+    },
+    {
+      "ordinal": 89,
+      "case_id": "P1-MINI-09",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 89,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15760,
+          48391,
+          48439,
+          15458,
+          15543,
+          15786,
+          48329
+        ],
+        "actual": [
+          -0.109375,
+          0.0703125,
+          -0.032958984375,
+          -0.044677734375,
+          0.0137939453125,
+          0.0223388671875,
+          0.0830078125,
+          -0.0245361328125
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114214,
+      "instructions": 10768,
+      "seconds": 25.15931904299987,
+      "reused_same_binary_log": false,
+      "log_sha256": "f6d0fb48686fb083c08e522057ff056d1a6dfda00afd4bde074ef9f345c58e6a"
+    },
+    {
+      "ordinal": 90,
+      "case_id": "P1-MINI-10",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 90,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48256,
+          15823,
+          48582,
+          48442,
+          48506,
+          15604,
+          48407,
+          15675
+        ],
+        "actual": [
+          -0.015625,
+          0.10107421875,
+          -0.0966796875,
+          -0.04541015625,
+          -0.06103515625,
+          0.02978515625,
+          -0.036865234375,
+          0.045654296875
+        ],
+        "selected": [
+          2,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 115143,
+      "instructions": 10867,
+      "seconds": 19.946942514000057,
+      "reused_same_binary_log": false,
+      "log_sha256": "e350027ebacf94a0bad2d8608d4d5420b4f59eef596661b9b4a3d521935c8621"
+    },
+    {
+      "ordinal": 91,
+      "case_id": "P1-MINI-10",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 91,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15791,
+          48342,
+          15780,
+          48469,
+          48572,
+          15783,
+          48463,
+          48406
+        ],
+        "actual": [
+          0.08544921875,
+          -0.026123046875,
+          0.080078125,
+          -0.052001953125,
+          -0.091796875,
+          0.08154296875,
+          -0.050537109375,
+          -0.03662109375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113935,
+      "instructions": 10737,
+      "seconds": 21.409019195999917,
+      "reused_same_binary_log": false,
+      "log_sha256": "ed826fcf05d03cfbd15a97356cc1120623e3442c0173a7f68d8f4c1058feef1b"
+    },
+    {
+      "ordinal": 92,
+      "case_id": "P1-MINI-10",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 92,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15720,
+          48315,
+          48304,
+          15605,
+          48608,
+          15788,
+          15415,
+          15759
+        ],
+        "actual": [
+          0.056640625,
+          -0.0228271484375,
+          -0.021484375,
+          0.0299072265625,
+          -0.109375,
+          0.083984375,
+          0.01116943359375,
+          0.06982421875
+        ],
+        "selected": [
+          4,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114811,
+      "instructions": 10829,
+      "seconds": 21.54469341799995,
+      "reused_same_binary_log": false,
+      "log_sha256": "d058021d03468e7684292177d1a721723d9720e1332c4231d87d73af927e10bb"
+    },
+    {
+      "ordinal": 93,
+      "case_id": "P1-MINI-10",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 93,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48419,
+          48591,
+          15631,
+          48576,
+          48578,
+          15828,
+          48519,
+          48601
+        ],
+        "actual": [
+          -0.039794921875,
+          -0.10107421875,
+          0.034912109375,
+          -0.09375,
+          -0.0947265625,
+          0.103515625,
+          -0.06591796875,
+          -0.10595703125
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114768,
+      "instructions": 10820,
+      "seconds": 21.986325379999926,
+      "reused_same_binary_log": false,
+      "log_sha256": "2d660653e193a1de15f693fcb560ae43d51ae0ceaeafa9102e1827588e828347"
+    },
+    {
+      "ordinal": 94,
+      "case_id": "P1-MINI-10",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 94,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15601,
+          48048,
+          47771,
+          48396,
+          48109,
+          15449,
+          48640,
+          15503
+        ],
+        "actual": [
+          0.0294189453125,
+          -0.00537109375,
+          -0.00118255615234375,
+          -0.0341796875,
+          -0.007232666015625,
+          0.01324462890625,
+          -0.125,
+          0.0174560546875
+        ],
+        "selected": [
+          0,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 110098,
+      "instructions": 10332,
+      "seconds": 27.797826850000092,
+      "reused_same_binary_log": false,
+      "log_sha256": "73fc8e4bd24e37df7cd30f246be0c1f1c461808b55a138004745a3f85fae72fe"
+    },
+    {
+      "ordinal": 95,
+      "case_id": "P1-MINI-10",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 95,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15752,
+          48437,
+          47953,
+          48564,
+          15696,
+          15607,
+          48488,
+          15689
+        ],
+        "actual": [
+          0.06640625,
+          -0.044189453125,
+          -0.0031890869140625,
+          -0.087890625,
+          0.05078125,
+          0.0301513671875,
+          -0.056640625,
+          0.049072265625
+        ],
+        "selected": [
+          2,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114221,
+      "instructions": 10767,
+      "seconds": 24.256951314000162,
+      "reused_same_binary_log": false,
+      "log_sha256": "6577dcdf7c48cc43ddb9971f5274fb3a2c3cad537a39f6fd945c69ec995a71ff"
+    },
+    {
+      "ordinal": 96,
+      "case_id": "P1-MINI-10",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 96,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15399,
+          15381,
+          15745,
+          48340,
+          48306,
+          15641,
+          15685
+        ],
+        "actual": [
+          -0.109375,
+          0.01019287109375,
+          0.00909423828125,
+          0.06298828125,
+          -0.02587890625,
+          -0.021728515625,
+          0.037353515625,
+          0.048095703125
+        ],
+        "selected": [
+          4,
+          3
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113956,
+      "instructions": 10742,
+      "seconds": 23.659189333000086,
+      "reused_same_binary_log": false,
+      "log_sha256": "1b6123260e7a021514c1fb9f588bf5d8f6b50841c4f9de001e4b307247c32659"
+    },
+    {
+      "ordinal": 97,
+      "case_id": "P1-MINI-10",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 97,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48384,
+          48582,
+          48490,
+          48558,
+          48601,
+          15564,
+          15385,
+          48572
+        ],
+        "actual": [
+          -0.03125,
+          -0.0966796875,
+          -0.05712890625,
+          -0.0849609375,
+          -0.10595703125,
+          0.02490234375,
+          0.00933837890625,
+          -0.091796875
+        ],
+        "selected": [
+          2,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113340,
+      "instructions": 10678,
+      "seconds": 21.71215178200009,
+      "reused_same_binary_log": false,
+      "log_sha256": "88a2e76e455213750ab33e57a67ba8519550a099e99a3dbc13eefd1207c36d4b"
+    },
+    {
+      "ordinal": 98,
+      "case_id": "P1-MINI-10",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 98,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15025,
+          48565,
+          15763,
+          48373,
+          48412,
+          48569,
+          48569,
+          48550
+        ],
+        "actual": [
+          0.00135040283203125,
+          -0.08837890625,
+          0.07177734375,
+          -0.0299072265625,
+          -0.0380859375,
+          -0.09033203125,
+          -0.09033203125,
+          -0.0810546875
+        ],
+        "selected": [
+          0,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 113011,
+      "instructions": 10639,
+      "seconds": 24.663753342999826,
+      "reused_same_binary_log": false,
+      "log_sha256": "253ca78853ae812bae62338aa98a524d12aa311fb48cdd174ccac0730254b507"
+    },
+    {
+      "ordinal": 99,
+      "case_id": "P1-MINI-10",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 99,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48608,
+          15760,
+          48391,
+          48439,
+          15458,
+          15543,
+          15786,
+          48329
+        ],
+        "actual": [
+          -0.109375,
+          0.0703125,
+          -0.032958984375,
+          -0.044677734375,
+          0.0137939453125,
+          0.0223388671875,
+          0.0830078125,
+          -0.0245361328125
+        ],
+        "selected": [
+          4,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 114214,
+      "instructions": 10768,
+      "seconds": 28.045762261000164,
+      "reused_same_binary_log": false,
+      "log_sha256": "b1cbb30f657635769920d7c717250ab18469e060a222df4a07e8fce6146b0a3e"
+    },
+    {
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 100,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          47970,
+          15823,
+          48591,
+          15412,
+          48437,
+          15509,
+          48524,
+          15621,
+          48306,
+          48335,
+          48355,
+          48339,
+          48326,
+          48476,
+          15523,
+          15749
+        ],
+        "actual": [
+          -0.003448486328125,
+          0.10107421875,
+          -0.10107421875,
+          0.010986328125,
+          -0.044189453125,
+          0.0181884765625,
+          -0.068359375,
+          0.032470703125,
+          -0.021728515625,
+          -0.0252685546875,
+          -0.0277099609375,
+          -0.0257568359375,
+          -0.024169921875,
+          -0.0537109375,
+          0.0198974609375,
+          0.06494140625
+        ],
+        "selected": [
+          1,
+          6,
+          2,
+          5,
+          4,
+          0,
+          3,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 239990,
+      "instructions": 23733,
+      "seconds": 45.38011627200012,
+      "reused_same_binary_log": false,
+      "log_sha256": "baf6258c1c8bd3659c29bf542f08daab134ad8f5e7c7168ebb97eef1d15d20cb"
+    },
+    {
+      "ordinal": 101,
+      "case_id": "P1-MINI-11",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 101,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48239,
+          48556,
+          47840,
+          48263,
+          48603,
+          15710,
+          48282,
+          15671,
+          48531,
+          47976,
+          48407,
+          48556,
+          48626,
+          48496,
+          15798,
+          15804
+        ],
+        "actual": [
+          -0.01458740234375,
+          -0.083984375,
+          -0.001708984375,
+          -0.0164794921875,
+          -0.10693359375,
+          0.05419921875,
+          -0.018798828125,
+          0.044677734375,
+          -0.07177734375,
+          -0.0035400390625,
+          -0.036865234375,
+          -0.083984375,
+          -0.1181640625,
+          -0.05859375,
+          0.0888671875,
+          0.091796875
+        ],
+        "selected": [
+          7,
+          1,
+          0,
+          5,
+          1,
+          2,
+          6,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 241351,
+      "instructions": 23878,
+      "seconds": 42.687615003000246,
+      "reused_same_binary_log": false,
+      "log_sha256": "7ed6b9acc40ced2f8b7691a2f22abe3738fd163d74e3c0b98ddf77cc201fb4d1"
+    },
+    {
+      "ordinal": 102,
+      "case_id": "P1-MINI-11",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 102,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15587,
+          48287,
+          48280,
+          48507,
+          15651,
+          48575,
+          48414,
+          48304,
+          48292,
+          15093,
+          48446,
+          15620,
+          48549,
+          15765,
+          15033,
+          15635
+        ],
+        "actual": [
+          0.0277099609375,
+          -0.0194091796875,
+          -0.0185546875,
+          -0.061279296875,
+          0.039794921875,
+          -0.09326171875,
+          -0.03857421875,
+          -0.021484375,
+          -0.02001953125,
+          0.00186920166015625,
+          -0.04638671875,
+          0.0322265625,
+          -0.08056640625,
+          0.07275390625,
+          0.00141143798828125,
+          0.035888671875
+        ],
+        "selected": [
+          5,
+          2,
+          6,
+          1,
+          3,
+          4,
+          7,
+          0
+        ]
+      },
+      "device_fault": false,
+      "cycles": 237626,
+      "instructions": 23499,
+      "seconds": 28.65237486199976,
+      "reused_same_binary_log": false,
+      "log_sha256": "d38fcc30b8f5c2fa3cd66d142e309f74cc5ef9c5e30cf4973dc93798b9cdf6e0"
+    },
+    {
+      "ordinal": 103,
+      "case_id": "P1-MINI-11",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 103,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15497,
+          48374,
+          48459,
+          47361,
+          15043,
+          48393,
+          48473,
+          48199,
+          48355,
+          15406,
+          15627,
+          48357,
+          48520,
+          15302,
+          48548,
+          48366
+        ],
+        "actual": [
+          0.0167236328125,
+          -0.030029296875,
+          -0.049560546875,
+          -0.00012302398681640625,
+          0.00148773193359375,
+          -0.033447265625,
+          -0.052978515625,
+          -0.01214599609375,
+          -0.0277099609375,
+          0.0106201171875,
+          0.033935546875,
+          -0.0279541015625,
+          -0.06640625,
+          0.00604248046875,
+          -0.080078125,
+          -0.029052734375
+        ],
+        "selected": [
+          2,
+          1,
+          4,
+          5,
+          2,
+          6,
+          3,
+          7
+        ]
+      },
+      "device_fault": false,
+      "cycles": 234580,
+      "instructions": 23173,
+      "seconds": 31.108217450999746,
+      "reused_same_binary_log": false,
+      "log_sha256": "b47cc0832f1d42039d80939269e0baa3630127800d9dcfeabe668d128b632d20"
+    },
+    {
+      "ordinal": 104,
+      "case_id": "P1-MINI-11",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 104,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15249,
+          47501,
+          15502,
+          48524,
+          48440,
+          15490,
+          48521,
+          15710,
+          15282,
+          48279,
+          15694,
+          15348,
+          48547,
+          15546,
+          48512,
+          15692
+        ],
+        "actual": [
+          0.004425048828125,
+          -0.0002689361572265625,
+          0.017333984375,
+          -0.068359375,
+          -0.044921875,
+          0.015869140625,
+          -0.06689453125,
+          0.05419921875,
+          0.00543212890625,
+          -0.0184326171875,
+          0.05029296875,
+          0.0074462890625,
+          -0.07958984375,
+          0.022705078125,
+          -0.0625,
+          0.0498046875
+        ],
+        "selected": [
+          2,
+          6,
+          4,
+          0,
+          7,
+          1,
+          0,
+          5
+        ]
+      },
+      "device_fault": false,
+      "cycles": 238000,
+      "instructions": 23529,
+      "seconds": 35.847315841999716,
+      "reused_same_binary_log": false,
+      "log_sha256": "18ecca8f0516e63f1a2ded59d6548b04adba39d38c6a657109ead32ceb5cabc6"
+    },
+    {
+      "ordinal": 105,
+      "case_id": "P1-MINI-11",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 105,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15690,
+          15444,
+          15669,
+          48285,
+          15156,
+          15600,
+          15637,
+          48408,
+          48425,
+          48422,
+          15497,
+          48567,
+          48228,
+          48510,
+          15695,
+          48510
+        ],
+        "actual": [
+          0.04931640625,
+          0.012939453125,
+          0.044189453125,
+          -0.0191650390625,
+          0.00274658203125,
+          0.029296875,
+          0.036376953125,
+          -0.037109375,
+          -0.041259765625,
+          -0.04052734375,
+          0.0167236328125,
+          -0.08935546875,
+          -0.013916015625,
+          -0.06201171875,
+          0.050537109375,
+          -0.06201171875
+        ],
+        "selected": [
+          4,
+          2,
+          6,
+          3,
+          0,
+          2,
+          4,
+          5
+        ]
+      },
+      "device_fault": false,
+      "cycles": 238575,
+      "instructions": 23588,
+      "seconds": 41.183139732999734,
+      "reused_same_binary_log": false,
+      "log_sha256": "dbdee34b4ae373382751f8df626f732538e214624a1e4f54f7f76cda449e8de4"
+    },
+    {
+      "ordinal": 106,
+      "case_id": "P1-MINI-11",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 106,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48528,
+          48521,
+          48032,
+          48202,
+          15262,
+          48483,
+          15779,
+          15601,
+          48584,
+          15643,
+          15454,
+          15553,
+          48510,
+          48268,
+          48385,
+          15199
+        ],
+        "actual": [
+          -0.0703125,
+          -0.06689453125,
+          -0.0048828125,
+          -0.0123291015625,
+          0.00482177734375,
+          -0.055419921875,
+          0.07958984375,
+          0.0294189453125,
+          -0.09765625,
+          0.037841796875,
+          0.0135498046875,
+          0.0235595703125,
+          -0.06201171875,
+          -0.01708984375,
+          -0.031494140625,
+          0.0034027099609375
+        ],
+        "selected": [
+          1,
+          3,
+          7,
+          5,
+          6,
+          2,
+          1,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 240331,
+      "instructions": 23775,
+      "seconds": 43.72530571800007,
+      "reused_same_binary_log": false,
+      "log_sha256": "b6a75de606f4a6e9f4c3b90a4b1ce0d5bfc1b07c6215e1a439de40f1578528b2"
+    },
+    {
+      "ordinal": 107,
+      "case_id": "P1-MINI-11",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 107,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15352,
+          48425,
+          15302,
+          48403,
+          48269,
+          48307,
+          48447,
+          48455,
+          15617,
+          15641,
+          15617,
+          47953,
+          15726,
+          48513,
+          48488,
+          15262
+        ],
+        "actual": [
+          0.007568359375,
+          -0.041259765625,
+          0.00604248046875,
+          -0.035888671875,
+          -0.0172119140625,
+          -0.0218505859375,
+          -0.046630859375,
+          -0.048583984375,
+          0.031494140625,
+          0.037353515625,
+          0.031494140625,
+          -0.0031890869140625,
+          0.05810546875,
+          -0.06298828125,
+          -0.056640625,
+          0.00482177734375
+        ],
+        "selected": [
+          4,
+          6,
+          3,
+          2,
+          4,
+          7,
+          2,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 236338,
+      "instructions": 23368,
+      "seconds": 38.600791371000014,
+      "reused_same_binary_log": false,
+      "log_sha256": "d5b4af38f48bce8b7ca670c17af315a86986459cda16ec503a9aa08bf1efac8a"
+    },
+    {
+      "ordinal": 108,
+      "case_id": "P1-MINI-11",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 108,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          48260,
+          48483,
+          48114,
+          48400,
+          48455,
+          15659,
+          15574,
+          48484,
+          48390,
+          48523,
+          48152,
+          48520,
+          48422,
+          15546,
+          48295,
+          48538
+        ],
+        "actual": [
+          -0.01611328125,
+          -0.055419921875,
+          -0.00738525390625,
+          -0.03515625,
+          -0.048583984375,
+          0.041748046875,
+          0.026123046875,
+          -0.0556640625,
+          -0.03271484375,
+          -0.06787109375,
+          -0.00927734375,
+          -0.06640625,
+          -0.04052734375,
+          0.022705078125,
+          -0.0203857421875,
+          -0.0751953125
+        ],
+        "selected": [
+          2,
+          7,
+          1,
+          5,
+          2,
+          1,
+          6,
+          4
+        ]
+      },
+      "device_fault": false,
+      "cycles": 239479,
+      "instructions": 23687,
+      "seconds": 41.42217310499973,
+      "reused_same_binary_log": false,
+      "log_sha256": "c290b74c80615c019125a58fbdeea663ffb89fab531dde32596f4938579c4d51"
+    },
+    {
+      "ordinal": 109,
+      "case_id": "P1-MINI-11",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 109,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          15303,
+          48037,
+          15477,
+          15288,
+          15758,
+          15553,
+          48531,
+          48429,
+          48550,
+          15623,
+          15620,
+          15650,
+          15767,
+          15577,
+          48007,
+          48263
+        ],
+        "actual": [
+          0.006072998046875,
+          -0.005035400390625,
+          0.01495361328125,
+          0.005615234375,
+          0.0693359375,
+          0.0235595703125,
+          -0.07177734375,
+          -0.042236328125,
+          -0.0810546875,
+          0.032958984375,
+          0.0322265625,
+          0.03955078125,
+          0.07373046875,
+          0.0264892578125,
+          -0.004119873046875,
+          -0.0164794921875
+        ],
+        "selected": [
+          7,
+          1,
+          6,
+          5,
+          0,
+          1,
+          3,
+          7
+        ]
+      },
+      "device_fault": false,
+      "cycles": 236394,
+      "instructions": 23365,
+      "seconds": 46.3390343369997,
+      "reused_same_binary_log": false,
+      "log_sha256": "d1fe600d1c54893cdb82a174aeaec5319cf30d2aeb5eb4111dca50abd84af913"
+    },
+    {
+      "ordinal": 110,
+      "case_id": "P1-MINI-12",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 110,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 9.905291261000002,
+      "reused_same_binary_log": false,
+      "log_sha256": "c5200350f1de2dd052cda08a5be44e70135cb21148cd25df35ff75d01f0f925b"
+    },
+    {
+      "ordinal": 111,
+      "case_id": "P1-MINI-12",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 111,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 12.676283263999721,
+      "reused_same_binary_log": false,
+      "log_sha256": "5cc3e1100de828edeed35a88398a4c897ab4224080aaaba682f951641c4930f4"
+    },
+    {
+      "ordinal": 112,
+      "case_id": "P1-MINI-12",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 112,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 10.171031215999847,
+      "reused_same_binary_log": false,
+      "log_sha256": "cb15cf397efd553b3d52db1eb134919551b498f812a68772d4a6024ad1073104"
+    },
+    {
+      "ordinal": 113,
+      "case_id": "P1-MINI-12",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 113,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 11.413191241999812,
+      "reused_same_binary_log": false,
+      "log_sha256": "71c8a0d4a3a33d1a5fd9a464be443f3d8b0c24f943872766188028dc24fe8ff2"
+    },
+    {
+      "ordinal": 114,
+      "case_id": "P1-MINI-12",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 114,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 11.695815504000166,
+      "reused_same_binary_log": false,
+      "log_sha256": "8149aeee388d68d51e1af8cf0eb354e4da174003c3d936139504101b676a65c4"
+    },
+    {
+      "ordinal": 115,
+      "case_id": "P1-MINI-12",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 115,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 13.771952762999717,
+      "reused_same_binary_log": false,
+      "log_sha256": "d9a32c09815d60ae6c2d35d9877acd75977c38509e53b68a0557221bf23924a9"
+    },
+    {
+      "ordinal": 116,
+      "case_id": "P1-MINI-12",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 116,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 10.65683031000026,
+      "reused_same_binary_log": false,
+      "log_sha256": "fd6439b86ca3cf9e22d2917a5f53ae886e4a488862b3f67f813c943b67f855f0"
+    },
+    {
+      "ordinal": 117,
+      "case_id": "P1-MINI-12",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 117,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 11.435846595000385,
+      "reused_same_binary_log": false,
+      "log_sha256": "6a68fb44feea982c48965d1b861585eed68ee4eb5b61ba1cae41e313f58c7fd6"
+    },
+    {
+      "ordinal": 118,
+      "case_id": "P1-MINI-12",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 118,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 9.803409057999943,
+      "reused_same_binary_log": false,
+      "log_sha256": "2a7fa52619de954a95355e8623dd7d427b88180f58b1a763963b377ebf18ba6b"
+    },
+    {
+      "ordinal": 119,
+      "case_id": "P1-MINI-12",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 119,
+        "actual_status": "BAD_LENGTH",
+        "primitive": 0,
+        "actual_bits": [],
+        "actual": [],
+        "selected": []
+      },
+      "device_fault": false,
+      "cycles": 24145,
+      "instructions": 1675,
+      "seconds": 13.480037451000044,
+      "reused_same_binary_log": false,
+      "log_sha256": "b0af9356a1d1c0ce9688d4c34ed2a79134f46310bb3892e55b982324cccbefee"
+    },
+    {
+      "ordinal": 120,
+      "case_id": "P1-MINI-13",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 120,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 16.952601163000054,
+      "reused_same_binary_log": false,
+      "log_sha256": "669c1c2226617f3b0851f99f7023df33f29eccc569341d2c968f5a89fdf2bff9"
+    },
+    {
+      "ordinal": 121,
+      "case_id": "P1-MINI-13",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 121,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 16.859290424000392,
+      "reused_same_binary_log": false,
+      "log_sha256": "c42e719465c7d5d90243f27288c3db08e82d6993be6481c7e61ae951af862802"
+    },
+    {
+      "ordinal": 122,
+      "case_id": "P1-MINI-13",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 122,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 21.207823441000073,
+      "reused_same_binary_log": false,
+      "log_sha256": "34f21c77c072477773f7a8400bfc1e1ae32e5363f674ee79ebbdb5734f011bcd"
+    },
+    {
+      "ordinal": 123,
+      "case_id": "P1-MINI-13",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 123,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 21.562413045000085,
+      "reused_same_binary_log": false,
+      "log_sha256": "b73fe4e5ac9ad40e28e5863f7da9b6d85746e267af1ea797324c0ee846dfe2e9"
+    },
+    {
+      "ordinal": 124,
+      "case_id": "P1-MINI-13",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 124,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 19.03464209899994,
+      "reused_same_binary_log": false,
+      "log_sha256": "bc0ce93c1c394aacde37e341231cf2556baf232aed886d71d2e42340d0e59479"
+    },
+    {
+      "ordinal": 125,
+      "case_id": "P1-MINI-13",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 125,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 20.367173490999903,
+      "reused_same_binary_log": false,
+      "log_sha256": "cc6d5d898961dc26c44e392cdabeba0085f72efd00d43d97fb5c32accf14ba7e"
+    },
+    {
+      "ordinal": 126,
+      "case_id": "P1-MINI-13",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 126,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 20.967583855999692,
+      "reused_same_binary_log": false,
+      "log_sha256": "8708f8c671a049d181085f1d20b14b138d59151de84ae4726f7416c23f42abaa"
+    },
+    {
+      "ordinal": 127,
+      "case_id": "P1-MINI-13",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 127,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 19.59365909799999,
+      "reused_same_binary_log": false,
+      "log_sha256": "dda8fabbb414c8a714648986b325c0cf7df1e19ccc0133980bbf7cb087ec73dd"
+    },
+    {
+      "ordinal": 128,
+      "case_id": "P1-MINI-13",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 128,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 19.737242956000046,
+      "reused_same_binary_log": false,
+      "log_sha256": "3f432a6ff18e692341718723ee36c88033baba81cec06259bc37d48159f40130"
+    },
+    {
+      "ordinal": 129,
+      "case_id": "P1-MINI-13",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 129,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 62386,
+      "instructions": 5310,
+      "seconds": 18.91920747899985,
+      "reused_same_binary_log": false,
+      "log_sha256": "990769c5e38ea94f03905381762e56f1a4f352a1bb3d556991151db5d2b2b50a"
+    },
+    {
+      "ordinal": 130,
+      "case_id": "P1-MINI-14",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 130,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 37.849982510000245,
+      "reused_same_binary_log": false,
+      "log_sha256": "1ae2276fb182d3d65fd76c1641dc52e12bd58fac47302a99c7f8a1ded41f4baf"
+    },
+    {
+      "ordinal": 131,
+      "case_id": "P1-MINI-14",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 131,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 33.17670751600008,
+      "reused_same_binary_log": false,
+      "log_sha256": "189c6359413d226c329aa658e68248ec8717e5415b9dc783896cb2dda6963241"
+    },
+    {
+      "ordinal": 132,
+      "case_id": "P1-MINI-14",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 132,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 36.99865051799998,
+      "reused_same_binary_log": false,
+      "log_sha256": "bf0f63e90da7b334bb0a30027b183c0896f5cf252d1f45dd89037ed81b7cb81e"
+    },
+    {
+      "ordinal": 133,
+      "case_id": "P1-MINI-14",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 133,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 32.20913542900007,
+      "reused_same_binary_log": false,
+      "log_sha256": "f342685f4ebdb2cf67760cf08345af18b52849cf04ddeaef064176e805af639f"
+    },
+    {
+      "ordinal": 134,
+      "case_id": "P1-MINI-14",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 134,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 39.95471128600002,
+      "reused_same_binary_log": false,
+      "log_sha256": "fcd521bfb8ea8b694f118f2025e0a8ad583f99db567196b52e662f3399c59404"
+    },
+    {
+      "ordinal": 135,
+      "case_id": "P1-MINI-14",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 135,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 31.105094989999998,
+      "reused_same_binary_log": false,
+      "log_sha256": "b1026c8cb2207dd5433ef0fb2acc626bec1da1914f6c20d662f47c29709c3e52"
+    },
+    {
+      "ordinal": 136,
+      "case_id": "P1-MINI-14",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 136,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 37.58102229699989,
+      "reused_same_binary_log": false,
+      "log_sha256": "1cc47adb7a6493c7335e201f04a1aec48f7053ce68708d328af885b1e6a2ed92"
+    },
+    {
+      "ordinal": 137,
+      "case_id": "P1-MINI-14",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 137,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 32.77023469400001,
+      "reused_same_binary_log": false,
+      "log_sha256": "d57b5b6f89017355164f10604f7c9b3c004000efaede82257e33e3690c7ba1e1"
+    },
+    {
+      "ordinal": 138,
+      "case_id": "P1-MINI-14",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 138,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 35.785194931000206,
+      "reused_same_binary_log": false,
+      "log_sha256": "47a16ae343c722aa5c9d2d3d5e408623ceed580ce3369bc102d892bb44f4f41f"
+    },
+    {
+      "ordinal": 139,
+      "case_id": "P1-MINI-14",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 139,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152,
+          49152
+        ],
+        "actual": [
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 127218,
+      "instructions": 12134,
+      "seconds": 37.97476218699967,
+      "reused_same_binary_log": false,
+      "log_sha256": "22f53e62b2c76855bbd24379c94ee4aa643a9444930c3d6c312f0150a92ec338"
+    },
+    {
+      "ordinal": 140,
+      "case_id": "P1-MINI-15",
+      "seed": 1,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 140,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 30.44768756400026,
+      "reused_same_binary_log": false,
+      "log_sha256": "cdb93cb149df8163be558bcd68b47384dad2af19a54ed0f7a8f06b37b8497ec2"
+    },
+    {
+      "ordinal": 141,
+      "case_id": "P1-MINI-15",
+      "seed": 2,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 141,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 39.575486505999834,
+      "reused_same_binary_log": false,
+      "log_sha256": "594d648ce748d88119f250915288cbcef19c5e3e7a3b235a46dec13b4d90aac1"
+    },
+    {
+      "ordinal": 142,
+      "case_id": "P1-MINI-15",
+      "seed": 3,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 142,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 40.43261762500015,
+      "reused_same_binary_log": false,
+      "log_sha256": "99faf598ccc4972710913b03cd9feacb3f3fd11a9e155f85f0161d4e7e7b1cc7"
+    },
+    {
+      "ordinal": 143,
+      "case_id": "P1-MINI-15",
+      "seed": 4,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 143,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 40.304594385999735,
+      "reused_same_binary_log": false,
+      "log_sha256": "fd80da13e94ad9618c08054cd5f3f61dd1852f26b735e9430fb26da0979808d9"
+    },
+    {
+      "ordinal": 144,
+      "case_id": "P1-MINI-15",
+      "seed": 5,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 144,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 39.117847470000015,
+      "reused_same_binary_log": false,
+      "log_sha256": "966208370f0bfe86ed14a7fd4a8f7ce717bef13ad467b70ec78d340e77bbf543"
+    },
+    {
+      "ordinal": 145,
+      "case_id": "P1-MINI-15",
+      "seed": 6,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 145,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 38.40877864000004,
+      "reused_same_binary_log": false,
+      "log_sha256": "07e3b5ed5699059198f57dff2845b1b8991aeb02b0c00a2e1499ed3d180ff343"
+    },
+    {
+      "ordinal": 146,
+      "case_id": "P1-MINI-15",
+      "seed": 7,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 146,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 48.888763484000265,
+      "reused_same_binary_log": false,
+      "log_sha256": "082b6637069fc16869b168bc57d7f52e2dfb2bbf5af59d5679167229d99f754a"
+    },
+    {
+      "ordinal": 147,
+      "case_id": "P1-MINI-15",
+      "seed": 8,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 147,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 41.16281566199996,
+      "reused_same_binary_log": false,
+      "log_sha256": "c9b6162995e3d791b5fefcd59bd6fea70fadc218c9d0b2ae6218c10a441a266c"
+    },
+    {
+      "ordinal": 148,
+      "case_id": "P1-MINI-15",
+      "seed": 9,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 148,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 31.164437746999738,
+      "reused_same_binary_log": false,
+      "log_sha256": "a67cb31d2bcfa908d68c4acc3bc2770f2a8362e7359e51db99de19c21c10a185"
+    },
+    {
+      "ordinal": 149,
+      "case_id": "P1-MINI-15",
+      "seed": 10,
+      "numeric_status_match": true,
+      "observation": {
+        "ordinal": 149,
+        "actual_status": "OK",
+        "primitive": 0,
+        "actual_bits": [
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382,
+          16382
+        ],
+        "actual": [
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375,
+          1.984375
+        ],
+        "selected": [
+          0,
+          1
+        ]
+      },
+      "device_fault": false,
+      "cycles": 124858,
+      "instructions": 11886,
+      "seconds": 33.745467921,
+      "reused_same_binary_log": false,
+      "log_sha256": "e8547034afd5c509b63d8079a8c85c2e1ee6df34d991d29dee14d1b95e7cb2e4"
+    }
+  ],
+  "elapsed_seconds": 3612.916360374,
+  "interruption": {
+    "reason": "user requested moving both complete folders to D drive",
+    "checkpoint_records": 150,
+    "resume_requires_inspecting_incomplete_case_logs": true,
+    "progress_not_counted_as_full_pass": true
+  }
+}

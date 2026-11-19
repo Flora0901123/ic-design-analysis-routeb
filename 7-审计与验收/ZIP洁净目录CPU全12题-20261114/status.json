@@ -1,0 +1,8 @@
+{
+  "status": "ZIP_CPU_RTL_ALL_12_PASS",
+  "archive": "RouteB-\u672c\u673a\u9a8c\u6536\u5feb\u7167-20261114.zip",
+  "archive_sha256": "4f01d04c6770433b920ca68e383156f85925269f3e695531c6fce08babc94a5b",
+  "questions": 12,
+  "steps": 81,
+  "scope": "same host, clean extracted directory, CPU only"
+}

@@ -1,0 +1,23 @@
+/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/software/bios/bios.elf  :
+section               size        addr
+.text                28500           0
+.rodata              12948       28500
+.srodata.cst4           48       41448
+.srodata                12       41496
+.commands               76       41508
+.init                    4       41584
+.data                  320   268435456
+.bss                  1656   268435776
+.riscv.attributes       67           0
+.debug_line          67677           0
+.debug_line_str      14563           0
+.debug_info          57889           0
+.debug_abbrev        19905           0
+.debug_aranges        1752           0
+.debug_str           75588           0
+.debug_loclists      27272           0
+.debug_rnglists       3019           0
+.debug_macro         41349           0
+Total               352645
+
+

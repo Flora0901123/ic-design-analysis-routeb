@@ -1,0 +1,26 @@
+{
+  "source_receipt_sha256": "ba41437df332c58c66fc1883c7f63e8b4069200e03fc3b8e2cb3968fdcbe4a8b",
+  "physical_signoff": false,
+  "exit_code": -9,
+  "router_returned": false,
+  "router_drc_counts": [],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794927088.9855895,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 5709273111\nuser_usec 5606172044\nsystem_usec 103101067\nnice_usec 0\nnr_periods 32250\nnr_throttled 3896\nthrottled_usec 4195964\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "10960896",
+      "memory.peak": "7737651200",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 3\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "587"
+    }
+  },
+  "elapsed_seconds": 582.4471667270004,
+  "outputs": {
+    "openroad.log": "9bec321dafe45d75ebe23e9a5886968c6acdd1a2002a2d95cf0663596590c153"
+  }
+}

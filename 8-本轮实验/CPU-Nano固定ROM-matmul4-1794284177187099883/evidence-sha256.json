@@ -1,0 +1,23 @@
+{
+  "8-本轮实验/nano-fixedrom-baseline-1794284177187099883/status.json": "5c4d10a0424c20980e1293240bda2fa2360fe105c27376ffe4d87f601a781f46",
+  "8-本轮实验/nano-fixedrom-baseline-1794284177187099883/rom-policy.json": "d62b13de9df5282fedd33a8446d768882dc4f0d1aa6e577f3a70a366c1f78086",
+  "8-本轮实验/nano-fixedrom-baseline-1794284177187099883/build.log": "6f5a1dc5c14e933c6b21db484a18c8585c07448696c7e5d537ce73a094db96b9",
+  "8-本轮实验/nano-fixedrom-baseline-1794284177187099883/student_mini_native_nano.c": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "8-本轮实验/nano-fixedrom-baseline-1794284177187099883/image/manifest.json": "09ce3f300dc5fd0705d6a64925f0fc7d23977214ff53584623db171171661c7d",
+  "8-本轮实验/nano-fixedrom-baseline-1794284177187099883/soc/gateware/sim.v": "b3681c8512b3c9d1c1703d50c1bce40fae7e076a5e4d714b5a7d1790ba290d14",
+  "8-本轮实验/nano-fixedrom-baseline-1794284177187099883/soc/gateware/obj_dir/Vsim": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "8-本轮实验/nano-fixedrom-baseline-1794284177187099883/console-000.log": "6021029082a0c85789538ca069e389525932192a0bb417d82f16c23b8c5515a0",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/status.json": "b40e1620ce227a93c765b932b726cf4ca4f496e32feeefa8876bec2c87482525",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/rom-policy.json": "259f38594b79894e62849d127193a2e7632141f359392acfb383787f6a9eff49",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/build.log": "f12b5330c9135778c854ab286f38e5dd26fa6f87c535d80ac1420166fea30771",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/student_mini_native_nano.c": "ab4b25a25d1a4c0a2e52837d90cf3d3e0e397579d4ae240bb7bbc9acd58df059",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/image/manifest.json": "09ce3f300dc5fd0705d6a64925f0fc7d23977214ff53584623db171171661c7d",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/soc/gateware/sim.v": "7dffec75a748750917bcd872ee8e218e27c0b2843a3d80f1be07867c7c269b7f",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/soc/gateware/obj_dir/Vsim": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/console-000.log": "b764a87ca2cc138e5a7c7f5e663d149c471f60bbb15bb95848d3aa8ce4ee3145",
+  "8-本轮实验/nano-fixedrom-matmul4-1794284597077911371/rtl-reuse.json": "be9f13e0201fd7401f278fc5910c06c69bcad45d03d5b9ee3f1852276c800e4a",
+  "7-审计与验收/run_cpu_matmul_fixedrom_trial.py": "01fb2d3e0a59961c24f511fe17d0975c30ce6366194d1d3f59c9a7abe68087d1",
+  "7-审计与验收/summarize_cpu_fixedrom_matmul.py": "361e2b9e8565f79cc13ca1dc5b14e687cb98f9c69df2429bb3940701c343f763",
+  "7-审计与验收/reproduce_cpu_matmul_fixedrom_pair.py": "46c1af9a0cad02be42442bbe19b626f102ff583e19ab5cb189f4343583c1c1f8",
+  "3-优化链-P1/nano_matmul4.cfrag": "5fd64cd46f4fbf6b05b65d01a3cc940334b7873d5d1dbc41f6de818a5cf97d2f"
+}

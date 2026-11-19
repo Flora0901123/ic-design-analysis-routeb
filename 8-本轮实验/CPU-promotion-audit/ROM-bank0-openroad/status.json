@@ -1,0 +1,49 @@
+{
+  "status": "DEVELOPMENT_ROUTE_CHECKPOINT",
+  "scope": "signal routing development, no extracted signoff, PDN audit or top-level integration",
+  "physical_signoff": false,
+  "records": {
+    "parent": {
+      "returncode": 1,
+      "global_route": true,
+      "detailed_route": false,
+      "slacks_ns": {
+        "max": "3.68",
+        "min": "2.79"
+      },
+      "errors": [
+        "[ERROR DRT-0305] Net one_ of signal type POWER is not routable by TritonRoute. Move to special nets.",
+        "Error: route.tcl, 29 DRT-0305"
+      ],
+      "seconds": 7.771710851000023,
+      "input_netlist_sha256": "7ceadf5767d045473c731741da52dd382cc722fa0c28049fa6ed613ebe394597",
+      "artifacts": {
+        "openroad.log": "e20b180d19393d650e09cc84560350dd56ad466fec42999fcefbc4c8281521ab"
+      }
+    },
+    "candidate": {
+      "returncode": 1,
+      "global_route": true,
+      "detailed_route": false,
+      "slacks_ns": {
+        "max": "3.55",
+        "min": "2.79"
+      },
+      "errors": [
+        "[ERROR DRT-0305] Net one_ of signal type POWER is not routable by TritonRoute. Move to special nets.",
+        "Error: route.tcl, 29 DRT-0305"
+      ],
+      "seconds": 6.4589883740000005,
+      "input_netlist_sha256": "5336579b7335e21b8999b38b230dc9844006ad9369a52abc75e995adc5ba1018",
+      "artifacts": {
+        "openroad.log": "4cace2d295027e5da4476d40d5f48951dd607f237fb635ae99cafedc83993ed1"
+      }
+    }
+  },
+  "inputs": {
+    "tech.lef": "5f5fe1e61dcb1c72c670574277604ee9a77e9b4351ba3c6c3278ab11299a0517",
+    "sky130.lef": "9cd94062fd5434f5e27314ef8e30aca831a9b78253f6a74bc932a63f858a136f",
+    "sky130.lib": "8725d472becbb2d016ee59cdc0207e1102f24a5c6f5fb4ed194cecc278372575",
+    "constraint.sdc": "e6286418bba9d605e24f1bd3bdd4c204e6edf35a8af6ebba9f043728084e4e07"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "student-mini-numeric-paths-v1",
+  "revision": "20261008-path-assignment-1",
+  "approved_on": "2026-10-08",
+  "approval": "User explicitly approved P1/P2 BF16-RNE and P3/common INT8 requantization/saturation, retaining every case and precision requirement.",
+  "base_spec_sha256": "67c1bbfb43e90533463130202f30542fe65f0d2505f76f4a980b5bbe6162827b",
+  "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "preserve": [
+    "case_ids",
+    "seeds_1_to_10",
+    "complete_inputs",
+    "golden_values",
+    "dtype",
+    "range",
+    "bit_exact",
+    "fp32_semantic_error",
+    "protocol",
+    "physical",
+    "nano",
+    "rubric"
+  ],
+  "operator_output": {
+    "p1": "bf16-rne",
+    "p2": "bf16-rne",
+    "p3": "bf16-rne"
+  },
+  "auxiliary_witness_owner": {
+    "p1": "common-numeric",
+    "p2": "common-numeric",
+    "p3": "p3-requantization"
+  },
+  "auxiliary_witness_kinds": [
+    "rne-integer-division",
+    "int8-saturation"
+  ],
+  "auxiliary_arithmetic": "Exact Q22-to-INT8 RNE and saturation; existing n/2 witnesses use value_q22=n*2^21 and scale=1, without changing expected integers.",
+  "attention_int8_output_required": false,
+  "required_layers": [
+    "whole-operator-output",
+    "assigned-auxiliary-witness",
+    "bf16-rne-directed-component",
+    "protocol",
+    "physical",
+    "nano"
+  ],
+  "component_pass_is_operator_pass": false,
+  "assignment_alone_is_pass": false,
+  "legacy_reports": "Preserve unchanged; do not relabel historical HOLD as PASS. A new revision must bind this addendum, original inputs, actual evidence and the hardware scope."
+}

@@ -1,0 +1,612 @@
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 279 tests from 16 test suites.
+[----------] Global test environment set-up.
+[----------] 11 tests from VerilogNamespaceTest
+[ RUN      ] VerilogNamespaceTest.CellSimpleName
+[       OK ] VerilogNamespaceTest.CellSimpleName (0 ms)
+[ RUN      ] VerilogNamespaceTest.CellEscapedName
+[       OK ] VerilogNamespaceTest.CellEscapedName (0 ms)
+[ RUN      ] VerilogNamespaceTest.InstanceSimpleName
+[       OK ] VerilogNamespaceTest.InstanceSimpleName (0 ms)
+[ RUN      ] VerilogNamespaceTest.InstanceHierarchicalName
+[       OK ] VerilogNamespaceTest.InstanceHierarchicalName (0 ms)
+[ RUN      ] VerilogNamespaceTest.NetSimpleName
+[       OK ] VerilogNamespaceTest.NetSimpleName (0 ms)
+[ RUN      ] VerilogNamespaceTest.NetBusName
+[       OK ] VerilogNamespaceTest.NetBusName (0 ms)
+[ RUN      ] VerilogNamespaceTest.PortSimpleName
+[       OK ] VerilogNamespaceTest.PortSimpleName (0 ms)
+[ RUN      ] VerilogNamespaceTest.PortBusName
+[       OK ] VerilogNamespaceTest.PortBusName (0 ms)
+[ RUN      ] VerilogNamespaceTest.ModuleVerilogToSta
+[       OK ] VerilogNamespaceTest.ModuleVerilogToSta (0 ms)
+[ RUN      ] VerilogNamespaceTest.InstanceVerilogToSta
+[       OK ] VerilogNamespaceTest.InstanceVerilogToSta (0 ms)
+[ RUN      ] VerilogNamespaceTest.EscapedNameRoundTrip
+[       OK ] VerilogNamespaceTest.EscapedNameRoundTrip (0 ms)
+[----------] 11 tests from VerilogNamespaceTest (0 ms total)
+
+[----------] 14 tests from PortDirectionTest
+[ RUN      ] PortDirectionTest.InputSingleton
+[       OK ] PortDirectionTest.InputSingleton (0 ms)
+[ RUN      ] PortDirectionTest.OutputSingleton
+[       OK ] PortDirectionTest.OutputSingleton (0 ms)
+[ RUN      ] PortDirectionTest.TristateSingleton
+[       OK ] PortDirectionTest.TristateSingleton (0 ms)
+[ RUN      ] PortDirectionTest.BidirectSingleton
+[       OK ] PortDirectionTest.BidirectSingleton (0 ms)
+[ RUN      ] PortDirectionTest.InternalSingleton
+[       OK ] PortDirectionTest.InternalSingleton (0 ms)
+[ RUN      ] PortDirectionTest.GroundSingleton
+[       OK ] PortDirectionTest.GroundSingleton (0 ms)
+[ RUN      ] PortDirectionTest.PowerSingleton
+[       OK ] PortDirectionTest.PowerSingleton (0 ms)
+[ RUN      ] PortDirectionTest.WellSingleton
+[       OK ] PortDirectionTest.WellSingleton (0 ms)
+[ RUN      ] PortDirectionTest.UnknownSingleton
+[       OK ] PortDirectionTest.UnknownSingleton (0 ms)
+[ RUN      ] PortDirectionTest.FindByName
+[       OK ] PortDirectionTest.FindByName (0 ms)
+[ RUN      ] PortDirectionTest.IsAnyInput
+[       OK ] PortDirectionTest.IsAnyInput (0 ms)
+[ RUN      ] PortDirectionTest.IsAnyOutput
+[       OK ] PortDirectionTest.IsAnyOutput (0 ms)
+[ RUN      ] PortDirectionTest.IsAnyTristate
+[       OK ] PortDirectionTest.IsAnyTristate (0 ms)
+[ RUN      ] PortDirectionTest.IsPowerGround
+[       OK ] PortDirectionTest.IsPowerGround (0 ms)
+[----------] 14 tests from PortDirectionTest (0 ms total)
+
+[----------] 8 tests from ConcreteLibraryTest
+[ RUN      ] ConcreteLibraryTest.CreateAndFind
+[       OK ] ConcreteLibraryTest.CreateAndFind (0 ms)
+[ RUN      ] ConcreteLibraryTest.BusBrackets
+[       OK ] ConcreteLibraryTest.BusBrackets (0 ms)
+[ RUN      ] ConcreteLibraryTest.MakeCell
+[       OK ] ConcreteLibraryTest.MakeCell (0 ms)
+[ RUN      ] ConcreteLibraryTest.DeleteCell
+[       OK ] ConcreteLibraryTest.DeleteCell (0 ms)
+[ RUN      ] ConcreteLibraryTest.CellIterator
+[       OK ] ConcreteLibraryTest.CellIterator (0 ms)
+[ RUN      ] ConcreteLibraryTest.IsLiberty
+[       OK ] ConcreteLibraryTest.IsLiberty (0 ms)
+[ RUN      ] ConcreteLibraryTest.BusBracketsChange
+[       OK ] ConcreteLibraryTest.BusBracketsChange (0 ms)
+[ RUN      ] ConcreteLibraryTest.FilenameAndId
+[       OK ] ConcreteLibraryTest.FilenameAndId (0 ms)
+[----------] 8 tests from ConcreteLibraryTest (0 ms total)
+
+[----------] 16 tests from ConcreteCellTest
+[ RUN      ] ConcreteCellTest.MakePort
+[       OK ] ConcreteCellTest.MakePort (0 ms)
+[ RUN      ] ConcreteCellTest.PortCount
+[       OK ] ConcreteCellTest.PortCount (0 ms)
+[ RUN      ] ConcreteCellTest.SetIsLeaf
+[       OK ] ConcreteCellTest.SetIsLeaf (0 ms)
+[ RUN      ] ConcreteCellTest.PortBitCount
+[       OK ] ConcreteCellTest.PortBitCount (0 ms)
+[ RUN      ] ConcreteCellTest.MakeBusPort
+[       OK ] ConcreteCellTest.MakeBusPort (0 ms)
+[ RUN      ] ConcreteCellTest.SetName
+[       OK ] ConcreteCellTest.SetName (0 ms)
+[ RUN      ] ConcreteCellTest.PortIterator
+[       OK ] ConcreteCellTest.PortIterator (0 ms)
+[ RUN      ] ConcreteCellTest.PortBitIterator
+[       OK ] ConcreteCellTest.PortBitIterator (0 ms)
+[ RUN      ] ConcreteCellTest.SetLibertyCell
+[       OK ] ConcreteCellTest.SetLibertyCell (0 ms)
+[ RUN      ] ConcreteCellTest.SetExtCell
+[       OK ] ConcreteCellTest.SetExtCell (0 ms)
+[ RUN      ] ConcreteCellTest.MakeBundlePort
+[       OK ] ConcreteCellTest.MakeBundlePort (0 ms)
+[ RUN      ] ConcreteCellTest.MakeBusPortAscending
+[       OK ] ConcreteCellTest.MakeBusPortAscending (0 ms)
+[ RUN      ] ConcreteCellTest.Filename
+[       OK ] ConcreteCellTest.Filename (0 ms)
+[ RUN      ] ConcreteCellTest.FindCellsMatching
+[       OK ] ConcreteCellTest.FindCellsMatching (0 ms)
+[ RUN      ] ConcreteCellTest.GroupBusPorts
+[       OK ] ConcreteCellTest.GroupBusPorts (0 ms)
+[ RUN      ] ConcreteCellTest.FindBusBitByName
+[       OK ] ConcreteCellTest.FindBusBitByName (0 ms)
+[----------] 16 tests from ConcreteCellTest (0 ms total)
+
+[----------] 20 tests from ConcretePortTest
+[ RUN      ] ConcretePortTest.ScalarPortProperties
+[       OK ] ConcretePortTest.ScalarPortProperties (0 ms)
+[ RUN      ] ConcretePortTest.SetDirection
+[       OK ] ConcretePortTest.SetDirection (0 ms)
+[ RUN      ] ConcretePortTest.BusPortBit
+[       OK ] ConcretePortTest.BusPortBit (0 ms)
+[ RUN      ] ConcretePortTest.BusIndexInRange
+[       OK ] ConcretePortTest.BusIndexInRange (0 ms)
+[ RUN      ] ConcretePortTest.MemberIterator
+[       OK ] ConcretePortTest.MemberIterator (0 ms)
+[ RUN      ] ConcretePortTest.PinIndex
+[       OK ] ConcretePortTest.PinIndex (0 ms)
+[ RUN      ] ConcretePortTest.SetLibertyPort
+[       OK ] ConcretePortTest.SetLibertyPort (0 ms)
+[ RUN      ] ConcretePortTest.SetExtPort
+[       OK ] ConcretePortTest.SetExtPort (0 ms)
+[ RUN      ] ConcretePortTest.BusPortBusName
+[       OK ] ConcretePortTest.BusPortBusName (0 ms)
+[ RUN      ] ConcretePortTest.ScalarBusName
+[       OK ] ConcretePortTest.ScalarBusName (0 ms)
+[ RUN      ] ConcretePortTest.FindMember
+[       OK ] ConcretePortTest.FindMember (0 ms)
+[ RUN      ] ConcretePortTest.SetPinIndex
+[       OK ] ConcretePortTest.SetPinIndex (0 ms)
+[ RUN      ] ConcretePortTest.BusBitIndex
+[       OK ] ConcretePortTest.BusBitIndex (0 ms)
+[ RUN      ] ConcretePortTest.SetDirectionOnBus
+[       OK ] ConcretePortTest.SetDirectionOnBus (0 ms)
+[ RUN      ] ConcretePortTest.AddPortBit
+[       OK ] ConcretePortTest.AddPortBit (0 ms)
+[ RUN      ] ConcretePortTest.BusMemberIterator
+[       OK ] ConcretePortTest.BusMemberIterator (0 ms)
+[ RUN      ] ConcretePortTest.BundlePortSetDirection
+[       OK ] ConcretePortTest.BundlePortSetDirection (0 ms)
+[ RUN      ] ConcretePortTest.BundleBusBitIndex
+[       OK ] ConcretePortTest.BundleBusBitIndex (0 ms)
+[ RUN      ] ConcretePortTest.SetBundlePort
+[       OK ] ConcretePortTest.SetBundlePort (0 ms)
+[ RUN      ] ConcretePortTest.BusPortDefaultConstructor
+[       OK ] ConcretePortTest.BusPortDefaultConstructor (0 ms)
+[----------] 20 tests from ConcretePortTest (0 ms total)
+
+[----------] 7 tests from HpinDrvrLoadTest
+[ RUN      ] HpinDrvrLoadTest.FullConstructorNull
+[       OK ] HpinDrvrLoadTest.FullConstructorNull (0 ms)
+[ RUN      ] HpinDrvrLoadTest.FullConstructorWithPins
+[       OK ] HpinDrvrLoadTest.FullConstructorWithPins (0 ms)
+[ RUN      ] HpinDrvrLoadTest.SetDrvr
+[       OK ] HpinDrvrLoadTest.SetDrvr (0 ms)
+[ RUN      ] HpinDrvrLoadTest.LessComparisonDifferentLoads
+[       OK ] HpinDrvrLoadTest.LessComparisonDifferentLoads (0 ms)
+[ RUN      ] HpinDrvrLoadTest.LessComparisonSameLoad
+[       OK ] HpinDrvrLoadTest.LessComparisonSameLoad (0 ms)
+[ RUN      ] HpinDrvrLoadTest.LessComparisonEqual
+[       OK ] HpinDrvrLoadTest.LessComparisonEqual (0 ms)
+[ RUN      ] HpinDrvrLoadTest.NullDrvrAndLoad
+[       OK ] HpinDrvrLoadTest.NullDrvrAndLoad (0 ms)
+[----------] 7 tests from HpinDrvrLoadTest (0 ms total)
+
+[----------] 28 tests from ConcreteNetworkTest
+[ RUN      ] ConcreteNetworkTest.FindLibrary
+[       OK ] ConcreteNetworkTest.FindLibrary (0 ms)
+[ RUN      ] ConcreteNetworkTest.MakeLibrary
+[       OK ] ConcreteNetworkTest.MakeLibrary (0 ms)
+[ RUN      ] ConcreteNetworkTest.LibraryIterator
+[       OK ] ConcreteNetworkTest.LibraryIterator (0 ms)
+[ RUN      ] ConcreteNetworkTest.FindCell
+[       OK ] ConcreteNetworkTest.FindCell (0 ms)
+[ RUN      ] ConcreteNetworkTest.CellName
+[       OK ] ConcreteNetworkTest.CellName (0 ms)
+[ RUN      ] ConcreteNetworkTest.CellIsLeaf
+[       OK ] ConcreteNetworkTest.CellIsLeaf (0 ms)
+[ RUN      ] ConcreteNetworkTest.CellPorts
+[       OK ] ConcreteNetworkTest.CellPorts (0 ms)
+[ RUN      ] ConcreteNetworkTest.PortProperties
+[       OK ] ConcreteNetworkTest.PortProperties (0 ms)
+[ RUN      ] ConcreteNetworkTest.FindPort
+[       OK ] ConcreteNetworkTest.FindPort (0 ms)
+[ RUN      ] ConcreteNetworkTest.PortBitCount
+[       OK ] ConcreteNetworkTest.PortBitCount (0 ms)
+[ RUN      ] ConcreteNetworkTest.FindLibraryByName
+[       OK ] ConcreteNetworkTest.FindLibraryByName (0 ms)
+[ RUN      ] ConcreteNetworkTest.LibraryName
+[       OK ] ConcreteNetworkTest.LibraryName (0 ms)
+[ RUN      ] ConcreteNetworkTest.LibraryId
+[       OK ] ConcreteNetworkTest.LibraryId (0 ms)
+[ RUN      ] ConcreteNetworkTest.DeleteLibrary
+[       OK ] ConcreteNetworkTest.DeleteLibrary (0 ms)
+[ RUN      ] ConcreteNetworkTest.MakeCell
+[       OK ] ConcreteNetworkTest.MakeCell (0 ms)
+[ RUN      ] ConcreteNetworkTest.FindCellViaNetwork
+[       OK ] ConcreteNetworkTest.FindCellViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkTest.FindAnyCell
+[       OK ] ConcreteNetworkTest.FindAnyCell (0 ms)
+[ RUN      ] ConcreteNetworkTest.CellNameViaNetwork
+[       OK ] ConcreteNetworkTest.CellNameViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkTest.CellIdViaNetwork
+[       OK ] ConcreteNetworkTest.CellIdViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkTest.SetCellName
+[       OK ] ConcreteNetworkTest.SetCellName (0 ms)
+[ RUN      ] ConcreteNetworkTest.SetIsLeaf
+[       OK ] ConcreteNetworkTest.SetIsLeaf (0 ms)
+[ RUN      ] ConcreteNetworkTest.CellLibrary
+[       OK ] ConcreteNetworkTest.CellLibrary (0 ms)
+[ RUN      ] ConcreteNetworkTest.CellFilename
+[       OK ] ConcreteNetworkTest.CellFilename (0 ms)
+[ RUN      ] ConcreteNetworkTest.DeleteCell
+[       OK ] ConcreteNetworkTest.DeleteCell (0 ms)
+[ RUN      ] ConcreteNetworkTest.FindPortViaNetwork
+[       OK ] ConcreteNetworkTest.FindPortViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkTest.LibertyCellFromCell
+[       OK ] ConcreteNetworkTest.LibertyCellFromCell (0 ms)
+[ RUN      ] ConcreteNetworkTest.ConstLibertyCellFromCell
+[       OK ] ConcreteNetworkTest.ConstLibertyCellFromCell (0 ms)
+[ RUN      ] ConcreteNetworkTest.FindCellsMatchingViaNetwork
+[       OK ] ConcreteNetworkTest.FindCellsMatchingViaNetwork (0 ms)
+[----------] 28 tests from ConcreteNetworkTest (0 ms total)
+
+[----------] 5 tests from PortDirectionExtraTest
+[ RUN      ] PortDirectionExtraTest.AllDirections
+[       OK ] PortDirectionExtraTest.AllDirections (0 ms)
+[ RUN      ] PortDirectionExtraTest.DirectionProperties
+[       OK ] PortDirectionExtraTest.DirectionProperties (0 ms)
+[ RUN      ] PortDirectionExtraTest.DirectionNames
+[       OK ] PortDirectionExtraTest.DirectionNames (0 ms)
+[ RUN      ] PortDirectionExtraTest.FindAllByName
+[       OK ] PortDirectionExtraTest.FindAllByName (0 ms)
+[ RUN      ] PortDirectionExtraTest.DirectionIndex
+[       OK ] PortDirectionExtraTest.DirectionIndex (0 ms)
+[----------] 5 tests from PortDirectionExtraTest (0 ms total)
+
+[----------] 1 test from NetworkCmpTest
+[ RUN      ] NetworkCmpTest.PortDirectionCmp
+[       OK ] NetworkCmpTest.PortDirectionCmp (0 ms)
+[----------] 1 test from NetworkCmpTest (0 ms total)
+
+[----------] 153 tests from ConcreteNetworkLinkedTest
+[ RUN      ] ConcreteNetworkLinkedTest.TopInstance
+[       OK ] ConcreteNetworkLinkedTest.TopInstance (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsTopInstance
+[       OK ] ConcreteNetworkLinkedTest.IsTopInstance (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceName
+[       OK ] ConcreteNetworkLinkedTest.InstanceName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceId
+[       OK ] ConcreteNetworkLinkedTest.InstanceId (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceCell
+[       OK ] ConcreteNetworkLinkedTest.InstanceCell (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceCellName
+[       OK ] ConcreteNetworkLinkedTest.InstanceCellName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceParent
+[       OK ] ConcreteNetworkLinkedTest.InstanceParent (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceIsLeaf
+[       OK ] ConcreteNetworkLinkedTest.InstanceIsLeaf (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceIsHierarchical
+[       OK ] ConcreteNetworkLinkedTest.InstanceIsHierarchical (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceFindChild
+[       OK ] ConcreteNetworkLinkedTest.InstanceFindChild (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstancePathName
+[       OK ] ConcreteNetworkLinkedTest.InstancePathName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ChildIterator
+[       OK ] ConcreteNetworkLinkedTest.ChildIterator (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstancePinIterator
+[       OK ] ConcreteNetworkLinkedTest.InstancePinIterator (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceNetIterator
+[       OK ] ConcreteNetworkLinkedTest.InstanceNetIterator (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinId
+[       OK ] ConcreteNetworkLinkedTest.PinId (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinInstance
+[       OK ] ConcreteNetworkLinkedTest.PinInstance (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinNet
+[       OK ] ConcreteNetworkLinkedTest.PinNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinPort
+[       OK ] ConcreteNetworkLinkedTest.PinPort (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinDirection
+[       OK ] ConcreteNetworkLinkedTest.PinDirection (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinTerm
+[       OK ] ConcreteNetworkLinkedTest.PinTerm (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinVertexId
+[       OK ] ConcreteNetworkLinkedTest.PinVertexId (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinName
+[       OK ] ConcreteNetworkLinkedTest.PinName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinPortName
+[       OK ] ConcreteNetworkLinkedTest.PinPortName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinPathName
+[       OK ] ConcreteNetworkLinkedTest.PinPathName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinIsLeaf
+[       OK ] ConcreteNetworkLinkedTest.PinIsLeaf (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinIsDriver
+[       OK ] ConcreteNetworkLinkedTest.PinIsDriver (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinIsLoad
+[       OK ] ConcreteNetworkLinkedTest.PinIsLoad (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindPinByName
+[       OK ] ConcreteNetworkLinkedTest.FindPinByName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindPinByPort
+[       OK ] ConcreteNetworkLinkedTest.FindPinByPort (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetName
+[       OK ] ConcreteNetworkLinkedTest.NetName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetId
+[       OK ] ConcreteNetworkLinkedTest.NetId (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetInstance
+[       OK ] ConcreteNetworkLinkedTest.NetInstance (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetPathName
+[       OK ] ConcreteNetworkLinkedTest.NetPathName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetIsPowerGround
+[       OK ] ConcreteNetworkLinkedTest.NetIsPowerGround (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetPinIterator
+[       OK ] ConcreteNetworkLinkedTest.NetPinIterator (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetTermIterator
+[       OK ] ConcreteNetworkLinkedTest.NetTermIterator (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindNetByName
+[       OK ] ConcreteNetworkLinkedTest.FindNetByName (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.DisconnectPin
+[       OK ] ConcreteNetworkLinkedTest.DisconnectPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.DeleteNet
+[       OK ] ConcreteNetworkLinkedTest.DeleteNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.DeleteInstance
+[       OK ] ConcreteNetworkLinkedTest.DeleteInstance (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.MergeIntoNet
+[       OK ] ConcreteNetworkLinkedTest.MergeIntoNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.MakePins
+[       OK ] ConcreteNetworkLinkedTest.MakePins (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ReplaceCell
+[       OK ] ConcreteNetworkLinkedTest.ReplaceCell (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameLessInst
+[       OK ] ConcreteNetworkLinkedTest.PathNameLessInst (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameCmpInst
+[       OK ] ConcreteNetworkLinkedTest.PathNameCmpInst (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameLessPin
+[       OK ] ConcreteNetworkLinkedTest.PathNameLessPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameCmpPin
+[       OK ] ConcreteNetworkLinkedTest.PathNameCmpPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameLessNet
+[       OK ] ConcreteNetworkLinkedTest.PathNameLessNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameCmpNet
+[       OK ] ConcreteNetworkLinkedTest.PathNameCmpNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameFirst
+[       OK ] ConcreteNetworkLinkedTest.PathNameFirst (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameLast
+[       OK ] ConcreteNetworkLinkedTest.PathNameLast (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathNameFirstNoDivider
+[       OK ] ConcreteNetworkLinkedTest.PathNameFirstNoDivider (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathDivider
+[       OK ] ConcreteNetworkLinkedTest.PathDivider (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PathEscape
+[       OK ] ConcreteNetworkLinkedTest.PathEscape (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsLinked
+[       OK ] ConcreteNetworkLinkedTest.IsLinked (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsEditable
+[       OK ] ConcreteNetworkLinkedTest.IsEditable (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinLess
+[       OK ] ConcreteNetworkLinkedTest.PinLess (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinLocation
+[       OK ] ConcreteNetworkLinkedTest.PinLocation (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceCount
+[       OK ] ConcreteNetworkLinkedTest.InstanceCount (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinCount
+[       OK ] ConcreteNetworkLinkedTest.PinCount (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetCount
+[       OK ] ConcreteNetworkLinkedTest.NetCount (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.LeafInstanceCount
+[       OK ] ConcreteNetworkLinkedTest.LeafInstanceCount (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.LeafPinCount
+[       OK ] ConcreteNetworkLinkedTest.LeafPinCount (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.LeafInstances
+[       OK ] ConcreteNetworkLinkedTest.LeafInstances (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.LeafInstanceIterator
+[       OK ] ConcreteNetworkLinkedTest.LeafInstanceIterator (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindPinsMatching
+[       OK ] ConcreteNetworkLinkedTest.FindPinsMatching (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindChildrenMatching
+[       OK ] ConcreteNetworkLinkedTest.FindChildrenMatching (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindInstancesMatching
+[       OK ] ConcreteNetworkLinkedTest.FindInstancesMatching (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindNetsMatching
+[       OK ] ConcreteNetworkLinkedTest.FindNetsMatching (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindInstNetsMatching
+[       OK ] ConcreteNetworkLinkedTest.FindInstNetsMatching (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsInsideInst
+[       OK ] ConcreteNetworkLinkedTest.IsInsideInst (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsInsideNet
+[       OK ] ConcreteNetworkLinkedTest.IsInsideNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsConnectedNetPin
+[       OK ] ConcreteNetworkLinkedTest.IsConnectedNetPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsConnectedNetNet
+[       OK ] ConcreteNetworkLinkedTest.IsConnectedNetNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.HighestNetAbove
+[       OK ] ConcreteNetworkLinkedTest.HighestNetAbove (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ConnectedNetsFromNet
+[       OK ] ConcreteNetworkLinkedTest.ConnectedNetsFromNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ConnectedNetsFromPin
+[       OK ] ConcreteNetworkLinkedTest.ConnectedNetsFromPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.DriversFromPin
+[       OK ] ConcreteNetworkLinkedTest.DriversFromPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.DriversFromNet
+[       OK ] ConcreteNetworkLinkedTest.DriversFromNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstancePath
+[       OK ] ConcreteNetworkLinkedTest.InstancePath (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ConnectedPinIteratorFromPin
+[       OK ] ConcreteNetworkLinkedTest.ConnectedPinIteratorFromPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ConnectedPinIteratorFromNet
+[       OK ] ConcreteNetworkLinkedTest.ConnectedPinIteratorFromNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ConstantPinIterator
+[       OK ] ConcreteNetworkLinkedTest.ConstantPinIterator (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.AddConstantNet
+[       OK ] ConcreteNetworkLinkedTest.AddConstantNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.SortByPathNamePins
+[       OK ] ConcreteNetworkLinkedTest.SortByPathNamePins (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.SortByPathNameInstances
+[       OK ] ConcreteNetworkLinkedTest.SortByPathNameInstances (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.SortByPathNameNets
+[       OK ] ConcreteNetworkLinkedTest.SortByPathNameNets (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.SortByNamePorts
+[       OK ] ConcreteNetworkLinkedTest.SortByNamePorts (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetworkCmpConstructors
+[       OK ] ConcreteNetworkLinkedTest.NetworkCmpConstructors (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.MakePinAndTerm
+[       OK ] ConcreteNetworkLinkedTest.MakePinAndTerm (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.TermId
+[       OK ] ConcreteNetworkLinkedTest.TermId (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindInstanceByPath
+[       OK ] ConcreteNetworkLinkedTest.FindInstanceByPath (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindNetByPath
+[       OK ] ConcreteNetworkLinkedTest.FindNetByPath (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindPinByPath
+[       OK ] ConcreteNetworkLinkedTest.FindPinByPath (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindInstanceRelative
+[       OK ] ConcreteNetworkLinkedTest.FindInstanceRelative (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindPinRelative
+[       OK ] ConcreteNetworkLinkedTest.FindPinRelative (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.DeletePin
+[       OK ] ConcreteNetworkLinkedTest.DeletePin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindPortsMatching
+[       OK ] ConcreteNetworkLinkedTest.FindPortsMatching (64 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortIdViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortIdViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortCellViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortCellViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortSizeViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortSizeViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortFromToIndexViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortFromToIndexViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortBusNameViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortBusNameViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortFindBusBitViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortFindBusBitViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortFindMemberViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortFindMemberViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortMemberIteratorViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortMemberIteratorViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortLibertyPortViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortLibertyPortViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortHasMembersViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.PortHasMembersViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.CellPortBitIterator
+[       OK ] ConcreteNetworkLinkedTest.CellPortBitIterator (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.LibertyCellOnInstance
+[       OK ] ConcreteNetworkLinkedTest.LibertyCellOnInstance (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.LibertyPortOnPin
+[       OK ] ConcreteNetworkLinkedTest.LibertyPortOnPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsTopLevelPort
+[       OK ] ConcreteNetworkLinkedTest.IsTopLevelPort (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinIsHierarchical
+[       OK ] ConcreteNetworkLinkedTest.PinIsHierarchical (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.GroupBusPortsViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.GroupBusPortsViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.MakeBusPortViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.MakeBusPortViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.MakeBundlePortViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.MakeBundlePortViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.SetDirectionViaNetwork
+[       OK ] ConcreteNetworkLinkedTest.SetDirectionViaNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindNetRelative
+[       OK ] ConcreteNetworkLinkedTest.FindNetRelative (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindNetsHierMatching
+[       OK ] ConcreteNetworkLinkedTest.FindNetsHierMatching (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindPinsHierMatching
+[       OK ] ConcreteNetworkLinkedTest.FindPinsHierMatching (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindInstancesHierMatching
+[       OK ] ConcreteNetworkLinkedTest.FindInstancesHierMatching (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinIdLessConstructor
+[       OK ] ConcreteNetworkLinkedTest.PinIdLessConstructor (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetIdLessConstructor
+[       OK ] ConcreteNetworkLinkedTest.NetIdLessConstructor (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceIdLessConstructor
+[       OK ] ConcreteNetworkLinkedTest.InstanceIdLessConstructor (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortIdLessConstructor
+[       OK ] ConcreteNetworkLinkedTest.PortIdLessConstructor (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.CellIdLessConstructor
+[       OK ] ConcreteNetworkLinkedTest.CellIdLessConstructor (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinSetWithNetwork
+[       OK ] ConcreteNetworkLinkedTest.PinSetWithNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinSetCompare
+[       OK ] ConcreteNetworkLinkedTest.PinSetCompare (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.InstanceSetWithNetwork
+[       OK ] ConcreteNetworkLinkedTest.InstanceSetWithNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetSetWithNetwork
+[       OK ] ConcreteNetworkLinkedTest.NetSetWithNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetSetCompare
+[       OK ] ConcreteNetworkLinkedTest.NetSetCompare (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.CellSetWithNetwork
+[       OK ] ConcreteNetworkLinkedTest.CellSetWithNetwork (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.DriversFromNetExercise
+[       OK ] ConcreteNetworkLinkedTest.DriversFromNetExercise (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ConstantPinIterator2
+[       OK ] ConcreteNetworkLinkedTest.ConstantPinIterator2 (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.AddConstantNetExercise
+[       OK ] ConcreteNetworkLinkedTest.AddConstantNetExercise (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PinIdHashConstructor
+[       OK ] ConcreteNetworkLinkedTest.PinIdHashConstructor (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindNetDriversFromPin
+[       OK ] ConcreteNetworkLinkedTest.FindNetDriversFromPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ConnectedPinsViaNet
+[       OK ] ConcreteNetworkLinkedTest.ConnectedPinsViaNet (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortDirectionAccess
+[       OK ] ConcreteNetworkLinkedTest.PortDirectionAccess (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.LibraryNameAccess
+[       OK ] ConcreteNetworkLinkedTest.LibraryNameAccess (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.CellNameAccess
+[       OK ] ConcreteNetworkLinkedTest.CellNameAccess (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.PortNameAccess
+[       OK ] ConcreteNetworkLinkedTest.PortNameAccess (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.NetNameAccess
+[       OK ] ConcreteNetworkLinkedTest.NetNameAccess (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.CellFilename
+[       OK ] ConcreteNetworkLinkedTest.CellFilename (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.ConnectNewPin
+[       OK ] ConcreteNetworkLinkedTest.ConnectNewPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsCheckClk
+[       OK ] ConcreteNetworkLinkedTest.IsCheckClk (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.BusIndexInRangeScalar
+[       OK ] ConcreteNetworkLinkedTest.BusIndexInRangeScalar (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.BusIndexInRangeBus
+[       OK ] ConcreteNetworkLinkedTest.BusIndexInRangeBus (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.HasMembersBus
+[       OK ] ConcreteNetworkLinkedTest.HasMembersBus (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindMemberBus
+[       OK ] ConcreteNetworkLinkedTest.FindMemberBus (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.IsInsidePinPin
+[       OK ] ConcreteNetworkLinkedTest.IsInsidePinPin (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.LeafInstanceIteratorHier
+[       OK ] ConcreteNetworkLinkedTest.LeafInstanceIteratorHier (0 ms)
+[ RUN      ] ConcreteNetworkLinkedTest.FindPinByPort2
+[       OK ] ConcreteNetworkLinkedTest.FindPinByPort2 (0 ms)
+[----------] 153 tests from ConcreteNetworkLinkedTest (65 ms total)
+
+[----------] 11 tests from ConcreteNetworkExtraTest
+[ RUN      ] ConcreteNetworkExtraTest.ReadNetlistBefore
+[       OK ] ConcreteNetworkExtraTest.ReadNetlistBefore (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.SetLinkFunc
+[       OK ] ConcreteNetworkExtraTest.SetLinkFunc (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.CellNetworkView
+[       OK ] ConcreteNetworkExtraTest.CellNetworkView (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.MakeLibertyLibrary
+[       OK ] ConcreteNetworkExtraTest.MakeLibertyLibrary (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.FindLiberty
+[       OK ] ConcreteNetworkExtraTest.FindLiberty (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.LibertyLibraryIterator
+[       OK ] ConcreteNetworkExtraTest.LibertyLibraryIterator (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.NextObjectId
+[       OK ] ConcreteNetworkExtraTest.NextObjectId (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.DeleteTopInstance
+[       OK ] ConcreteNetworkExtraTest.DeleteTopInstance (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.FindLibertyFilename
+[       OK ] ConcreteNetworkExtraTest.FindLibertyFilename (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.CellFromLibertyCell
+[       OK ] ConcreteNetworkExtraTest.CellFromLibertyCell (0 ms)
+[ RUN      ] ConcreteNetworkExtraTest.CellFromConstLibertyCell
+[       OK ] ConcreteNetworkExtraTest.CellFromConstLibertyCell (0 ms)
+[----------] 11 tests from ConcreteNetworkExtraTest (0 ms total)
+
+[----------] 1 test from HpinDrvrLoadExtraTest
+[ RUN      ] HpinDrvrLoadExtraTest.WithPinSets
+[       OK ] HpinDrvrLoadExtraTest.WithPinSets (0 ms)
+[----------] 1 test from HpinDrvrLoadExtraTest (0 ms total)
+
+[----------] 1 test from LogicValueStringTest
+[ RUN      ] LogicValueStringTest.AllValues
+[       OK ] LogicValueStringTest.AllValues (0 ms)
+[----------] 1 test from LogicValueStringTest (0 ms total)
+
+[----------] 1 test from PinSetDefaultTest
+[ RUN      ] PinSetDefaultTest.EmptySet
+[       OK ] PinSetDefaultTest.EmptySet (0 ms)
+[----------] 1 test from PinSetDefaultTest (0 ms total)
+
+[----------] 1 test from InstanceSetDefaultTest
+[ RUN      ] InstanceSetDefaultTest.EmptySet
+[       OK ] InstanceSetDefaultTest.EmptySet (0 ms)
+[----------] 1 test from InstanceSetDefaultTest (0 ms total)
+
+[----------] 1 test from NetSetDefaultTest
+[ RUN      ] NetSetDefaultTest.EmptySet
+[       OK ] NetSetDefaultTest.EmptySet (0 ms)
+[----------] 1 test from NetSetDefaultTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 279 tests from 16 test suites ran. (66 ms total)
+[  PASSED  ] 279 tests.

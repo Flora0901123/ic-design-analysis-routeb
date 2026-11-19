@@ -1,0 +1,38 @@
+--- topk
++++ combined
+@@ -214,6 +214,13 @@
+     if (r*2u>(uint64_t)d || (r*2u==(uint64_t)d && (q&1u))) ++q;
+     return n<0 ? -(int64_t)q : (int64_t)q;
+ }
++__device__ static int64_t rne15(int64_t n) {
++    uint64_t m=gpu_signed_magnitude_i64(n);
++    uint64_t q=m>>15,r=m&0x7fffu;
++    if(r>0x4000u || (r==0x4000u && (q&1u))) ++q;
++    return n<0 ? -(int64_t)q : (int64_t)q;
++}
++
+ typedef struct {int32_t max,sum;int64_t value[8];unsigned valid;} state;
+ __device__ static void update(state *s,int32_t score,const int8_t *v) {
+     if (!s->valid) {
+@@ -223,8 +230,8 @@
+     }
+     int32_t m=s->max>score?s->max:score;
+     int32_t a=course_exp_neg_q15(s->max-m),b=course_exp_neg_q15(score-m);
+-    s->sum=(int32_t)rne((int64_t)s->sum*a,32768)+b;
+-    for(unsigned j=0;j<8;++j)s->value[j]=rne(s->value[j]*a,32768)+(int32_t)v[j]*b;
++    s->sum=(int32_t)rne15((int64_t)s->sum*a)+b;
++    for(unsigned j=0;j<8;++j)s->value[j]=rne15(s->value[j]*a)+(int32_t)v[j]*b;
+     s->max=m;
+ }
+ __device__ static void merge(state *a,const state *b) {
+@@ -232,8 +239,8 @@
+     if(!a->valid){*a=*b;return;}
+     int32_t m=a->max>b->max?a->max:b->max;
+     int32_t x=course_exp_neg_q15(a->max-m),y=course_exp_neg_q15(b->max-m);
+-    a->sum=(int32_t)(rne((int64_t)a->sum*x,32768)+rne((int64_t)b->sum*y,32768));
+-    for(unsigned j=0;j<8;++j)a->value[j]=rne(a->value[j]*x,32768)+rne(b->value[j]*y,32768);
++    a->sum=(int32_t)(rne15((int64_t)a->sum*x)+rne15((int64_t)b->sum*y));
++    for(unsigned j=0;j<8;++j)a->value[j]=rne15(a->value[j]*x)+rne15(b->value[j]*y);
+     a->max=m;
+ }
+ __device__ static int32_t dot(const int8_t *a,const int8_t *b,unsigned n) {

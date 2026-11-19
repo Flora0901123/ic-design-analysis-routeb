@@ -1,0 +1,1039 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: ( 10.120 10.880 ) ( 3915.520 3914.080 ) um
+[INFO GPL-0036] Movable instances area:     2219282.218 um^2
+[INFO GPL-0037] Total instances area:       5623694.819 um^2
+[INFO GPL-0035] Pin density area adjust:    174880.760 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:            189385
+[INFO GPL-0007] Movable instances:              186123
+[INFO GPL-0008] Fixed instances:                    20
+[INFO GPL-0009] Dummy instances:                  3242
+[INFO GPL-0010] Number of nets:                 190505
+[INFO GPL-0011] Number of pins:                 669623
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 3925.640 3925.640 ) um
+[INFO GPL-0013] Core BBox: ( 10.120 10.880 ) ( 3915.520 3914.080 ) um
+[INFO GPL-0016] Core area:                  15243557.280 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                15243557.280 um^2
+[INFO GPL-0017] Fixed instances area:       4324980.499 um^2
+[INFO GPL-0018] Movable instances area:     2394162.978 um^2
+[INFO GPL-0019] Utilization:                    21.927 %
+[INFO GPL-0020] Standard cells area:        2394162.978 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 186123	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.00328132 HPWL: 84547901360
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00412969 HPWL: 43266595319
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00154127 HPWL: 39675261783
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00054682 HPWL: 36905317945
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00027056 HPWL: 34520449403
+[InitialPlace]  Iter: 6 conjugate gradient residual: 0.00020869 HPWL: 32664626321
+[InitialPlace]  Iter: 7 conjugate gradient residual: 0.00017600 HPWL: 31387194282
+[InitialPlace]  Iter: 8 conjugate gradient residual: 0.00014515 HPWL: 30367097817
+[InitialPlace]  Iter: 9 conjugate gradient residual: 0.00014366 HPWL: 29557305951
+[InitialPlace]  Iter: 10 conjugate gradient residual: 0.00019887 HPWL: 28877399479
+[InitialPlace]  Iter: 11 conjugate gradient residual: 0.00013619 HPWL: 28496096565
+[InitialPlace]  Iter: 12 conjugate gradient residual: 0.00013520 HPWL: 28001670208
+[InitialPlace]  Iter: 13 conjugate gradient residual: 0.00010293 HPWL: 27620246553
+[InitialPlace]  Iter: 14 conjugate gradient residual: 0.00011325 HPWL: 27325317654
+[InitialPlace]  Iter: 15 conjugate gradient residual: 0.00010916 HPWL: 27075403849
+[InitialPlace]  Iter: 16 conjugate gradient residual: 0.00010580 HPWL: 26874456849
+[InitialPlace]  Iter: 17 conjugate gradient residual: 0.00008822 HPWL: 26672632794
+[InitialPlace]  Iter: 18 conjugate gradient residual: 0.00012075 HPWL: 26511723719
+[InitialPlace]  Iter: 19 conjugate gradient residual: 0.00009231 HPWL: 26366142259
+[InitialPlace]  Iter: 20 conjugate gradient residual: 0.00012029 HPWL: 26244181851
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.3000
+[INFO GPL-0024] Movable insts average area:     12.863 um^2
+[INFO GPL-0025] Ideal bin area:                 42.878 um^2
+[INFO GPL-0026] Ideal bin count:                355511
+[INFO GPL-0027] Total bin area:             15243557.280 um^2
+[INFO GPL-0028] Bin count (X, Y):         512 ,    512
+[INFO GPL-0029] Bin size (W * H):       7.628 *  7.623 um
+[INFO GPL-0030] Number of bins:                 262144
+[INFO GPL-0084] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9408 |  1.197351e+07 |   +0.00% |  1.28e-16 |      
+       10 |   0.8756 |  1.296023e+07 |   +8.24% |  1.52e-16 |      
+       20 |   0.8465 |  1.314080e+07 |   +1.39% |  2.36e-16 |      
+       30 |   0.8344 |  1.314490e+07 |   +0.03% |  3.81e-16 |      
+       40 |   0.8286 |  1.315162e+07 |   +0.05% |  6.18e-16 |      
+       50 |   0.8250 |  1.314660e+07 |   -0.04% |  1.00e-15 |      
+       60 |   0.8224 |  1.309998e+07 |   -0.35% |  1.64e-15 |      
+       70 |   0.8230 |  1.302148e+07 |   -0.60% |  2.67e-15 |      
+       80 |   0.8245 |  1.294344e+07 |   -0.60% |  4.34e-15 |      
+       90 |   0.8269 |  1.286853e+07 |   -0.58% |  7.07e-15 |      
+      100 |   0.8287 |  1.279219e+07 |   -0.59% |  1.15e-14 |      
+      110 |   0.8295 |  1.271234e+07 |   -0.62% |  1.88e-14 |      
+      120 |   0.8312 |  1.260640e+07 |   -0.83% |  3.06e-14 |      
+      130 |   0.8307 |  1.249306e+07 |   -0.90% |  4.98e-14 |      
+      140 |   0.8296 |  1.236684e+07 |   -1.01% |  8.11e-14 |      
+      150 |   0.8319 |  1.223310e+07 |   -1.08% |  1.32e-13 |      
+      160 |   0.8338 |  1.210261e+07 |   -1.07% |  2.15e-13 |      
+      170 |   0.8362 |  1.198293e+07 |   -0.99% |  3.51e-13 |      
+      180 |   0.8369 |  1.190150e+07 |   -0.68% |  5.71e-13 |      
+      190 |   0.8353 |  1.193752e+07 |   +0.30% |  9.24e-13 |      
+      200 |   0.8302 |  1.222121e+07 |   +2.38% |  1.42e-12 |      
+      210 |   0.8208 |  1.286266e+07 |   +5.25% |  2.03e-12 |      
+      220 |   0.8050 |  1.384889e+07 |   +7.67% |  2.68e-12 |      
+      230 |   0.7867 |  1.487289e+07 |   +7.39% |  3.48e-12 |      
+      240 |   0.7728 |  1.559741e+07 |   +4.87% |  4.79e-12 |      
+      250 |   0.7590 |  1.586495e+07 |   +1.72% |  7.31e-12 |      
+      260 |   0.7376 |  1.622168e+07 |   +2.25% |  1.11e-11 |      
+      270 |   0.7159 |  1.735225e+07 |   +6.97% |  1.44e-11 |      
+      280 |   0.7008 |  1.822959e+07 |   +5.06% |  1.89e-11 |      
+      290 |   0.6930 |  1.798989e+07 |   -1.31% |  3.04e-11 |      
+      300 |   0.6614 |  1.796139e+07 |   -0.16% |  4.87e-11 |      
+      310 |   0.6359 |  1.796978e+07 |   +0.05% |  7.78e-11 |      
+      320 |   0.5974 |  1.789709e+07 |   -0.40% |  1.27e-10 |      
+      330 |   0.5640 |  1.812524e+07 |   +1.27% |  1.94e-10 |      
+      340 |   0.5330 |  1.760992e+07 |   -2.84% |  3.17e-10 |      
+      350 |   0.4933 |  1.770916e+07 |   +0.56% |  5.02e-10 |      
+      360 |   0.4559 |  1.731563e+07 |   -2.22% |  7.98e-10 |      
+      370 |   0.4084 |  1.716521e+07 |   -0.87% |  1.30e-09 |      
+      380 |   0.3726 |  1.688839e+07 |   -1.61% |  2.12e-09 |      
+      390 |   0.3350 |  1.668157e+07 |   -1.22% |  3.38e-09 |      
+      400 |   0.3080 |  1.647111e+07 |   -1.26% |  4.98e-09 |      
+      410 |   0.2818 |  1.629793e+07 |   -1.05% |  7.33e-09 |      
+      420 |   0.2561 |  1.609296e+07 |   -1.26% |  1.08e-08 |      
+      430 |   0.2308 |  1.594849e+07 |   -0.90% |  1.59e-08 |      
+      440 |   0.2074 |  1.584455e+07 |   -0.65% |  2.34e-08 |      
+      450 |   0.1823 |  1.580135e+07 |   -0.27% |  3.45e-08 |      
+      460 |   0.1593 |  1.578991e+07 |   -0.07% |  5.08e-08 |      
+      470 |   0.1376 |  1.579759e+07 |   +0.05% |  7.47e-08 |      
+      480 |   0.1181 |  1.581224e+07 |   +0.09% |  1.10e-07 |      
+      490 |   0.1019 |  1.583221e+07 |   +0.13% |  1.61e-07 |      
+      492 |   0.0987 |  1.583855e+07 |          |  1.81e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 492
+[INFO GPL-1002] Placed Cell Area            2394162.9778
+[INFO GPL-1003] Available Free Area         10918576.7808
+[INFO GPL-1004] Minimum Feasible Density        0.2200 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.2436
+[INFO GPL-1008]     - For 80% usage of free space: 0.2741
+[INFO GPL-1009]     - For 50% usage of free space: 0.4385
+[INFO GPL-1014] Final placement area: 2394162.98 (+0.00%)
+[INFO DPL-0006] Core area: 15243557.28 um^2, Instances area: 5601733.53 um^2, Utilization: 36.7%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1101] Legalizing using diamond search.
+Movements Summary
+---------------------------------------
+Total cells:                  186123
+Diamond Move Success:         186123 (100.00%)
+Diamond Move Failure:              0
+Rip-up and replace Success:        0 (  0.00% of diamond failures)
+Rip-up and replace Failure:        0
+Total Placement Failures:          0
+---------------------------------------
+Placement Analysis
+---------------------------------
+total displacement     369903.2 u
+average displacement        2.0 u
+max displacement          625.0 u
+original HPWL        15836964.9 u
+legalized HPWL       16153064.3 u
+delta HPWL                    2 %
+
+ROUTEB_PLACEMENT_LEGAL
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_tags.tag_store.g_asic.dp_ram_asic.g_vortex_dp_80x64_w4.u_macro.g_slice\[0\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_tags.tag_store.g_asic.dp_ram_asic.g_vortex_dp_80x64_w4.u_macro.g_slice\[1\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_tags.tag_store.g_asic.dp_ram_asic.g_vortex_dp_80x64_w4.u_macro.g_slice\[2\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_tags.tag_store.g_asic.dp_ram_asic.g_vortex_dp_80x64_w4.u_macro.g_slice\[3\].u_raw
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[0\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[10\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[11\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[12\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[13\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[14\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[15\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[1\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[2\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[3\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[4\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[5\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[6\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[7\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[8\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.icache.g_cache_wrap\[0\].cache_wrap.g_cache.cache.g_banks\[0\].bank.cache_data.g_data_slice\[9\].data_store.g_asic.sp_ram_asic.g_vortex_sp_32x256_w1.u_macro.g_slice\[0\].u_raw.mem
+[WARNING PDN-0110] No via inserted between met4 and met5 at (267.1500, 513.2800) - (268.7500, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (294.2900, 513.2800) - (295.8900, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (348.5700, 513.2800) - (350.1700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (728.5300, 513.2800) - (730.1300, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (782.8100, 513.2800) - (784.4100, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (809.9500, 513.2800) - (811.5500, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (837.0900, 513.2800) - (838.6900, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (864.2300, 513.2800) - (865.8300, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1189.9100, 513.2800) - (1191.5100, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1244.1900, 513.2800) - (1245.7900, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1271.3300, 513.2800) - (1272.9300, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1298.4700, 513.2800) - (1300.0700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1325.6100, 513.2800) - (1327.2100, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1352.7500, 513.2800) - (1354.3500, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1379.8900, 513.2800) - (1381.4900, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1434.1700, 513.2800) - (1435.7700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1705.5700, 513.2800) - (1707.1700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1759.8500, 513.2800) - (1761.4500, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1786.9900, 513.2800) - (1788.5900, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1841.2700, 513.2800) - (1842.8700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1868.4100, 513.2800) - (1870.0100, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1949.8300, 513.2800) - (1951.4300, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2221.2300, 513.2800) - (2222.8300, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2248.3700, 513.2800) - (2249.9700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2302.6500, 513.2800) - (2304.2500, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2384.0700, 513.2800) - (2385.6700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2438.3500, 513.2800) - (2439.9500, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2465.4900, 513.2800) - (2467.0900, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2764.0300, 513.2800) - (2765.6300, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2818.3100, 513.2800) - (2819.9100, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2845.4500, 513.2800) - (2847.0500, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2872.5900, 513.2800) - (2874.1900, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2899.7300, 513.2800) - (2901.3300, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2926.8700, 513.2800) - (2928.4700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2954.0100, 513.2800) - (2955.6100, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3279.6900, 513.2800) - (3281.2900, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3361.1100, 513.2800) - (3362.7100, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3388.2500, 513.2800) - (3389.8500, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3442.5300, 513.2800) - (3444.1300, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (3469.6700, 513.2800) - (3471.2700, 514.2600) on VSS
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1113.9200, 1206.8800) - (1115.8600, 1207.3000) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1432.8400, 1206.8800) - (1434.7800, 1207.3000) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1469.7800, 1206.8800) - (1471.7200, 1207.3000) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1788.7000, 1206.8800) - (1790.6400, 1207.3000) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1825.6400, 1206.8800) - (1827.5800, 1207.3000) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2144.5600, 1206.8800) - (2146.5000, 1207.3000) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2181.5000, 1206.8800) - (2183.4400, 1207.3000) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2500.4200, 1206.8800) - (2502.3600, 1207.3000) on VDD
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0040] All shapes on net VSS are connected.
+ROUTEB_PDN_CHECKED
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_2
+                    sky130_fd_sc_hd__clkbuf_4
+                    sky130_fd_sc_hd__clkbuf_8
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0007] Net "clk_i" found for clock "core_clock".
+[INFO CTS-0011]  Clock net "clk_i" for macros has 57 sinks.
+[INFO CTS-0011]  Clock net "clk_i_regs" for registers has 41536 sinks.
+[INFO CTS-0010]  Clock net "_281090_" has 80 sinks.
+[INFO CTS-0010]  Clock net "_277908_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277853_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277798_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277743_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277688_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277633_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277578_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277523_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277468_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277413_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277358_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277303_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277248_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277193_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277138_" has 32 sinks.
+[INFO CTS-0010]  Clock net "_277083_" has 32 sinks.
+[INFO CTS-0008] TritonCTS found 19 clock nets.
+[INFO CTS-0097] Characterization used 3 buffer(s) types.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk_i.
+[INFO CTS-0028]  Total number of sinks: 57.
+[INFO CTS-0029]  Macro  sinks will be clustered in groups of up to 4 and with maximum cluster diameter of 959.6 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0204] A clustering solution was found from clustering size of 4 and clustering diameter of 960.
+[INFO CTS-0205] Better solution may be possible if either -sink_clustering_size, -sink_clustering_max_diameter, or both options are omitted to enable automatic clustering.
+[INFO CTS-0019]  Total number of sinks after clustering: 15.
+[INFO CTS-0024]  Normalized sink region: [(29.1109, 6.00294), (250.478, 104.409)].
+[INFO CTS-0025]     Width:  221.3672.
+[INFO CTS-0026]     Height: 98.4059.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 110.6836 X 98.4059
+[INFO CTS-0034]     Segment length (rounded): 56.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 15.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk_i_regs.
+[INFO CTS-0028]  Total number of sinks: 41536.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0206] Best clustering solution was found from max clustering size of 11 and max clustering diameter of 421.
+[INFO CTS-0019]  Total number of sinks after clustering: 4979.
+[INFO CTS-0024]  Normalized sink region: [(2.41673, 1.29559), (287.283, 287)].
+[INFO CTS-0025]     Width:  284.8660.
+[INFO CTS-0026]     Height: 285.7044.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 2490
+    Sub-region size: 284.8660 X 142.8522
+[INFO CTS-0034]     Segment length (rounded): 72.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 1245
+    Sub-region size: 142.4330 X 142.8522
+[INFO CTS-0034]     Segment length (rounded): 72.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 623
+    Sub-region size: 142.4330 X 71.4261
+[INFO CTS-0034]     Segment length (rounded): 36.
+ Level 4
+    Direction: Horizontal
+    Sinks per sub-region: 312
+    Sub-region size: 71.2165 X 71.4261
+[INFO CTS-0034]     Segment length (rounded): 36.
+ Level 5
+    Direction: Vertical
+    Sinks per sub-region: 156
+    Sub-region size: 71.2165 X 35.7131
+[INFO CTS-0034]     Segment length (rounded): 18.
+ Level 6
+    Direction: Horizontal
+    Sinks per sub-region: 78
+    Sub-region size: 35.6082 X 35.7131
+[INFO CTS-0034]     Segment length (rounded): 18.
+ Level 7
+    Direction: Vertical
+    Sinks per sub-region: 39
+    Sub-region size: 35.6082 X 17.8565
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 8
+    Direction: Horizontal
+    Sinks per sub-region: 20
+    Sub-region size: 17.8041 X 17.8565
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 9
+    Direction: Vertical
+    Sinks per sub-region: 10
+    Sub-region size: 17.8041 X 8.9283
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 4979.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _281090_.
+[INFO CTS-0028]  Total number of sinks: 80.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(2303180, 2575950), (2607700, 2972850)].
+[INFO CTS-0024]  Normalized sink region: [(84.6757, 94.704), (95.8713, 109.296)].
+[INFO CTS-0025]     Width:  11.1956.
+[INFO CTS-0026]     Height: 14.5919.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 40
+    Sub-region size: 11.1956 X 7.2960
+[INFO CTS-0034]     Segment length (rounded): 4.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 20
+    Sub-region size: 5.5978 X 7.2960
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 3
+    Direction: Vertical
+    Sinks per sub-region: 10
+    Sub-region size: 5.5978 X 3.6480
+[INFO CTS-0034]     Segment length (rounded): 2.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 80.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277908_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(1526700, 2847950), (2068580, 2961970)].
+[INFO CTS-0024]  Normalized sink region: [(56.1287, 104.704), (76.0507, 108.896)].
+[INFO CTS-0025]     Width:  19.9221.
+[INFO CTS-0026]     Height: 4.1919.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 9.9610 X 4.1919
+[INFO CTS-0034]     Segment length (rounded): 4.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 9.9610 X 2.0960
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277853_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(831180, 2837070), (1295780, 2902350)].
+[INFO CTS-0024]  Normalized sink region: [(30.5581, 104.304), (47.639, 106.704)].
+[INFO CTS-0025]     Width:  17.0809.
+[INFO CTS-0026]     Height: 2.4000.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 8.5404 X 2.4000
+[INFO CTS-0034]     Segment length (rounded): 4.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 8.5404 X 1.2000
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277798_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(6214100, 1982770), (6320820, 2086350)].
+[INFO CTS-0024]  Normalized sink region: [(228.46, 72.896), (232.383, 76.704)].
+[INFO CTS-0025]     Width:  3.9235.
+[INFO CTS-0026]     Height: 3.8081.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 1.9618 X 3.8081
+[INFO CTS-0034]     Segment length (rounded): 1.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 1.9618 X 1.9040
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277743_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(5249940, 1977550), (5461540, 2037170)].
+[INFO CTS-0024]  Normalized sink region: [(193.012, 72.704), (200.792, 74.896)].
+[INFO CTS-0025]     Width:  7.7794.
+[INFO CTS-0026]     Height: 2.1919.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 3.8897 X 2.1919
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 3.8897 X 1.0960
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277688_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(5059500, 1993650), (5158860, 2412750)].
+[INFO CTS-0024]  Normalized sink region: [(186.011, 73.296), (189.664, 88.704)].
+[INFO CTS-0025]     Width:  3.6529.
+[INFO CTS-0026]     Height: 15.4081.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 3.6529 X 7.7040
+[INFO CTS-0034]     Segment length (rounded): 4.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 1.8265 X 7.7040
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277633_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(4066820, 2559410), (4386060, 2581170)].
+[INFO CTS-0024]  Normalized sink region: [(149.515, 94.096), (161.252, 94.896)].
+[INFO CTS-0025]     Width:  11.7368.
+[INFO CTS-0026]     Height: 0.8000.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 5.8684 X 0.8000
+[INFO CTS-0034]     Segment length (rounded): 3.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 5.8684 X 0.4000
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277578_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(2357460, 2755250), (2628860, 2853170)].
+[INFO CTS-0024]  Normalized sink region: [(86.6713, 101.296), (96.6493, 104.896)].
+[INFO CTS-0025]     Width:  9.9779.
+[INFO CTS-0026]     Height: 3.6000.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 4.9890 X 3.6000
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 4.9890 X 1.8000
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277523_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(1426420, 2842290), (1992220, 2924110)].
+[INFO CTS-0024]  Normalized sink region: [(52.4419, 104.496), (73.2434, 107.504)].
+[INFO CTS-0025]     Width:  20.8015.
+[INFO CTS-0026]     Height: 3.0081.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 10.4007 X 3.0081
+[INFO CTS-0034]     Segment length (rounded): 5.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 10.4007 X 1.5040
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277468_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(46420, 2662990), (1175260, 3125170)].
+[INFO CTS-0024]  Normalized sink region: [(1.70662, 97.904), (43.2081, 114.896)].
+[INFO CTS-0025]     Width:  41.5015.
+[INFO CTS-0026]     Height: 16.9919.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 16
+    Sub-region size: 20.7507 X 16.9919
+[INFO CTS-0034]     Segment length (rounded): 10.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 8
+    Sub-region size: 20.7507 X 8.4960
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277413_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(6662140, 737230), (7734860, 2499790)].
+[INFO CTS-0024]  Normalized sink region: [(244.932, 27.104), (284.37, 91.904)].
+[INFO CTS-0025]     Width:  39.4382.
+[INFO CTS-0026]     Height: 64.8000.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 39.4382 X 32.4000
+[INFO CTS-0034]     Segment length (rounded): 16.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 19.7191 X 32.4000
+[INFO CTS-0034]     Segment length (rounded): 10.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277358_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(5521340, 35250), (7543500, 3429810)].
+[INFO CTS-0024]  Normalized sink region: [(202.99, 1.29596), (277.335, 126.096)].
+[INFO CTS-0025]     Width:  74.3441.
+[INFO CTS-0026]     Height: 124.8000.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 74.3441 X 62.4000
+[INFO CTS-0034]     Segment length (rounded): 32.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 37.1721 X 62.4000
+[INFO CTS-0034]     Segment length (rounded): 18.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277303_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(4487260, 35250), (5749500, 3457230)].
+[INFO CTS-0024]  Normalized sink region: [(164.973, 1.29596), (211.379, 127.104)].
+[INFO CTS-0025]     Width:  46.4059.
+[INFO CTS-0026]     Height: 125.8081.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 46.4059 X 62.9040
+[INFO CTS-0034]     Segment length (rounded): 32.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 23.2029 X 62.9040
+[INFO CTS-0034]     Segment length (rounded): 12.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277248_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(3879140, 30030), (5025460, 4071730)].
+[INFO CTS-0024]  Normalized sink region: [(142.615, 1.10404), (184.76, 149.696)].
+[INFO CTS-0025]     Width:  42.1441.
+[INFO CTS-0026]     Height: 148.5919.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 42.1441 X 74.2960
+[INFO CTS-0034]     Segment length (rounded): 38.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 21.0721 X 74.2960
+[INFO CTS-0034]     Segment length (rounded): 10.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277193_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(2333540, 2554190), (2750300, 3043790)].
+[INFO CTS-0024]  Normalized sink region: [(85.7919, 93.904), (101.114, 111.904)].
+[INFO CTS-0025]     Width:  15.3221.
+[INFO CTS-0026]     Height: 18.0000.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 15.3221 X 9.0000
+[INFO CTS-0034]     Segment length (rounded): 4.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 7.6610 X 9.0000
+[INFO CTS-0034]     Segment length (rounded): 4.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277138_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(1350060, 35250), (2245220, 2934990)].
+[INFO CTS-0024]  Normalized sink region: [(49.6346, 1.29596), (82.5449, 107.904)].
+[INFO CTS-0025]     Width:  32.9103.
+[INFO CTS-0026]     Height: 106.6081.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 32.9103 X 53.3040
+[INFO CTS-0034]     Segment length (rounded): 26.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 16.4551 X 53.3040
+[INFO CTS-0034]     Segment length (rounded): 8.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0201] 20 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net _277083_.
+[INFO CTS-0028]  Total number of sinks: 32.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 27200  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(67580, 1112370), (99780, 1574990)].
+[INFO CTS-0024]  Normalized sink region: [(2.48456, 40.896), (3.66838, 57.904)].
+[INFO CTS-0025]     Width:  1.1838.
+[INFO CTS-0026]     Height: 17.0081.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 16
+    Sub-region size: 1.1838 X 8.5040
+[INFO CTS-0034]     Segment length (rounded): 4.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 8
+    Sub-region size: 0.5919 X 8.5040
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 32.
+[INFO CTS-0018]     Created 17 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 17 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 4:14, 6:1, 9:1..
+[INFO CTS-0017]     Max level of the clock tree: 1.
+[INFO CTS-0018]     Created 5862 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 11.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 12.
+[INFO CTS-0015]     Created 5862 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 2:4, 3:15, 4:69, 5:126, 6:222, 7:526, 8:1726, 9:2018, 10:585, 11:59, 12:34, 13:16, 14:25, 15:12, 16:19, 17:13, 18:7, 19:4, 20:4, 22:1, 23:1, 24:2, 25:1..
+[INFO CTS-0017]     Max level of the clock tree: 9.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 8:3, 10:1, 12:1, 14:2..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 8:2, 11:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:2, 9:1, 11:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 8:2, 10:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 8:2, 10:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 5:1, 8:2, 11:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 7:2, 8:1, 10:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 7:1, 8:1, 11:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 8:4..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 7:2, 12:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 7:2, 12:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 7 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 7 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 8:2, 10:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 7 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 7 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 7:1, 8:1, 11:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 7 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 7 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 7:1, 8:2, 9:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 7:2, 12:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 7 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 7 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 7:2, 12:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0018]     Created 5 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 5 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:1, 8:2, 10:1..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0098] Clock net "clk_i"
+[INFO CTS-0099]  Sinks 57
+[INFO CTS-0100]  Leaf buffers 14
+[INFO CTS-0101]  Average sink wire length 4360.94 um
+[INFO CTS-0102]  Path depth 2 - 3
+[INFO CTS-0207]  Dummy loads inserted 9
+[INFO CTS-0098] Clock net "clk_i_regs"
+[INFO CTS-0099]  Sinks 45534
+[INFO CTS-0100]  Leaf buffers 4977
+[INFO CTS-0101]  Average sink wire length 3488.51 um
+[INFO CTS-0102]  Path depth 11 - 12
+[INFO CTS-0207]  Dummy loads inserted 3998
+[INFO CTS-0098] Clock net "_281090_"
+[INFO CTS-0099]  Sinks 86
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 111.02 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 6
+[INFO CTS-0098] Clock net "_277908_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 118.44 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277853_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 99.49 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277798_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 36.86 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277743_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 50.26 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277688_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 84.83 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277633_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 58.22 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277578_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 59.82 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277523_"
+[INFO CTS-0099]  Sinks 32
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 121.47 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 0
+[INFO CTS-0098] Clock net "_277468_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 276.43 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277413_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 503.89 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277358_"
+[INFO CTS-0099]  Sinks 34
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 1082.02 um
+[INFO CTS-0102]  Path depth 3 - 3
+[INFO CTS-0207]  Dummy loads inserted 2
+[INFO CTS-0098] Clock net "_277303_"
+[INFO CTS-0099]  Sinks 34
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 956.09 um
+[INFO CTS-0102]  Path depth 3 - 3
+[INFO CTS-0207]  Dummy loads inserted 2
+[INFO CTS-0098] Clock net "_277248_"
+[INFO CTS-0099]  Sinks 33
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 1109.91 um
+[INFO CTS-0102]  Path depth 3 - 3
+[INFO CTS-0207]  Dummy loads inserted 1
+[INFO CTS-0098] Clock net "_277193_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 147.50 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0098] Clock net "_277138_"
+[INFO CTS-0099]  Sinks 34
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 1207.47 um
+[INFO CTS-0102]  Path depth 3 - 3
+[INFO CTS-0207]  Dummy loads inserted 2
+[INFO CTS-0098] Clock net "_277083_"
+[INFO CTS-0099]  Sinks 35
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 89.45 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 3
+[INFO CTS-0033] Balancing latency for clock core_clock
+[INFO CTS-0036]  inserted 70 delay buffers
+[INFO CTS-0037] Total number of delay buffers: 70
+[INFO DPL-0006] Core area: 15243557.28 um^2, Instances area: 5726221.68 um^2, Utilization: 37.6%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1101] Legalizing using diamond search.
+Movements Summary
+---------------------------------------
+Total cells:                  196223
+Diamond Move Success:         196223 (100.00%)
+Diamond Move Failure:              0
+Rip-up and replace Success:        0 (  0.00% of diamond failures)
+Rip-up and replace Failure:        0
+Total Placement Failures:          0
+---------------------------------------
+Placement Analysis
+---------------------------------
+total displacement      59277.0 u
+average displacement        0.3 u
+max displacement          696.3 u
+original HPWL        16772762.0 u
+legalized HPWL       16787400.7 u
+delta HPWL                    0 %
+
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0040] All shapes on net VSS are connected.
+ROUTEB_CTS_COMPLETE
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met4
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 0.6150
+[INFO GRT-0003] Macros: 20
+[INFO GRT-0004] Blockages: 733009
+[INFO GRT-0019] Found 6065 clock nets.
+[WARNING GRT-0281] Net part_zero_ has a large fanout of 3723 terminals.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 3723
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal    3694061       3694061          0.00%
+met2       Vertical      3268277       3268277          0.00%
+met3       Horizontal    2388132       2388376          -0.01%
+met4       Vertical      1600874       1602790          -0.12%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0102] Start extra iteration 1/30
+[INFO GRT-0102] Start extra iteration 2/30
+[INFO GRT-0102] Start extra iteration 3/30
+[INFO GRT-0102] Start extra iteration 4/30
+[INFO GRT-0102] Start extra iteration 5/30
+[INFO GRT-0102] Start extra iteration 6/30
+[INFO GRT-0102] Start extra iteration 7/30
+[INFO GRT-0102] Start extra iteration 8/30
+[INFO GRT-0102] Start extra iteration 9/30
+[INFO GRT-0102] Start extra iteration 10/30
+[INFO GRT-0102] Start extra iteration 11/30
+[INFO GRT-0102] Start extra iteration 12/30
+[INFO GRT-0102] Start extra iteration 13/30
+[INFO GRT-0102] Start extra iteration 14/30
+[INFO GRT-0102] Start extra iteration 15/30
+[INFO GRT-0102] Start extra iteration 16/30
+[INFO GRT-0102] Start extra iteration 17/30
+[INFO GRT-0102] Start extra iteration 18/30
+[INFO GRT-0102] Start extra iteration 19/30
+[INFO GRT-0102] Start extra iteration 20/30
+[INFO GRT-0102] Start extra iteration 21/30
+[INFO GRT-0102] Start extra iteration 22/30
+[INFO GRT-0102] Start extra iteration 23/30
+[INFO GRT-0102] Start extra iteration 24/30
+[INFO GRT-0102] Start extra iteration 25/30
+[INFO GRT-0102] Start extra iteration 26/30
+[INFO GRT-0102] Start extra iteration 27/30
+[INFO GRT-0102] Start extra iteration 28/30
+[INFO GRT-0102] Start extra iteration 29/30
+[INFO GRT-0102] Start extra iteration 30/30
+[INFO GRT-0197] Via related to pin nodes: 1182119
+[INFO GRT-0198] Via related Steiner nodes: 33622
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 1574281
+[INFO GRT-0112] Final usage 3D: 7584093
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1           3694061       1221573           33.07%             0 /  0 /  0
+met2           3268277       1134821           34.72%             0 /  1 /  5
+met3           2388376        400922           16.79%             4 /  0 / 66
+met4           1602790        103934            6.48%             0 /  1 /  1
+---------------------------------------------------------------------------------------
+Total         10953504       2861250           26.12%             4 /  2 / 72
+
+[INFO GRT-0018] Total wirelength: 23688783 um
+[INFO GRT-0014] Routed nets: 195322
+[ERROR GRT-0116] Global routing finished with congestion. Check the congestion regions in the DRC Viewer.
+Error: run.tcl, 30 GRT-0116

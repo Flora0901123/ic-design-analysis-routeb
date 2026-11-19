@@ -1,0 +1,1174 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.33 (git sha1 2584903a060)
+
+
+-- Running command `read -formal -sv vortex_command_adapter.sv vortex_memory_adapter.sv student_mini_gpu_adapters_harness.sv; prep -top student_mini_gpu_adapters_harness; delete t:$print; write_smt2 -wires model.smt2' --
+
+1. Executing Verilog-2005 frontend: vortex_command_adapter.sv
+Parsing formal SystemVerilog input from `vortex_command_adapter.sv' to AST representation.
+Storing AST representation for module `$abstract\vortex_command_adapter'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: vortex_memory_adapter.sv
+Parsing formal SystemVerilog input from `vortex_memory_adapter.sv' to AST representation.
+Storing AST representation for module `$abstract\vortex_memory_adapter'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: student_mini_gpu_adapters_harness.sv
+Parsing formal SystemVerilog input from `student_mini_gpu_adapters_harness.sv' to AST representation.
+Storing AST representation for module `$abstract\student_mini_gpu_adapters_harness'.
+Successfully finished Verilog frontend.
+
+4. Executing PREP pass.
+
+4.1. Executing HIERARCHY pass (managing design hierarchy).
+
+4.2. Executing AST frontend in derive mode using pre-parsed AST for module `\student_mini_gpu_adapters_harness'.
+Generating RTLIL representation for module `\student_mini_gpu_adapters_harness'.
+
+4.2.1. Analyzing design hierarchy..
+Top module:  \student_mini_gpu_adapters_harness
+Parameter \ADDR_WIDTH = 26
+Parameter \DATA_WIDTH = 512
+Parameter \TAG_WIDTH = 10
+
+4.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\vortex_memory_adapter'.
+Parameter \ADDR_WIDTH = 26
+Parameter \DATA_WIDTH = 512
+Parameter \TAG_WIDTH = 10
+Generating RTLIL representation for module `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter'.
+Parameter \ADDR_WIDTH = 26
+Parameter \DATA_WIDTH = 512
+Parameter \TAG_WIDTH = 10
+Found cached RTLIL representation for module `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter'.
+
+4.2.3. Executing AST frontend in derive mode using pre-parsed AST for module `\vortex_command_adapter'.
+Generating RTLIL representation for module `\vortex_command_adapter'.
+
+4.2.4. Analyzing design hierarchy..
+Top module:  \student_mini_gpu_adapters_harness
+Used module:     $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter
+Used module:     \vortex_command_adapter
+
+4.2.5. Analyzing design hierarchy..
+Top module:  \student_mini_gpu_adapters_harness
+Used module:     $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter
+Used module:     \vortex_command_adapter
+Removing unused module `$abstract\student_mini_gpu_adapters_harness'.
+Removing unused module `$abstract\vortex_memory_adapter'.
+Removing unused module `$abstract\vortex_command_adapter'.
+Removed 3 unused modules.
+Module student_mini_gpu_adapters_harness directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4.3. Executing PROC pass (convert processes to netlists).
+
+4.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+4.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 3 switch rules as full_case in process $proc$vortex_command_adapter.sv:41$612 in module vortex_command_adapter.
+Marked 1 switch rules as full_case in process $proc$vortex_memory_adapter.sv:52$603 in module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+Marked 3 switch rules as full_case in process $proc$student_mini_gpu_adapters_harness.sv:77$325 in module student_mini_gpu_adapters_harness.
+Marked 3 switch rules as full_case in process $proc$student_mini_gpu_adapters_harness.sv:77$221 in module student_mini_gpu_adapters_harness.
+Marked 2 switch rules as full_case in process $proc$student_mini_gpu_adapters_harness.sv:25$113 in module student_mini_gpu_adapters_harness.
+Removed a total of 0 dead cases.
+
+4.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 2 redundant assignments.
+Promoted 111 assignments to connections.
+
+4.3.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$597'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:98$103_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$595'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:97$102_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$593'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:96$101_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$591'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:95$100_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$589'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:94$99_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$587'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:94$98_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$585'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:93$97_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$583'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:93$96_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$581'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:90$95_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$579'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:90$94_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$577'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:89$93_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$575'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:87$92_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$573'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:85$91_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$571'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:84$90_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$569'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:83$89_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$567'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:81$88_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$565'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:79$87_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$563'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:79$86_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$561'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:78$85_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$559'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:77$84_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$557'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:98$83_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$555'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:97$82_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$553'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:96$81_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$551'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:95$80_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$549'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:94$79_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$547'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:94$78_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$545'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:93$77_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$543'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:93$76_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$541'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:90$75_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$539'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:90$74_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$537'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:89$73_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$535'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:87$72_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$533'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:85$71_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$531'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:84$70_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$529'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:83$69_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$527'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:81$68_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$525'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:79$67_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$523'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:79$66_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$521'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:78$65_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$519'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:77$64_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$517'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:55$63_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$515'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:54$62_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$513'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:53$61_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$511'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:52$60_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$509'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:51$59_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$507'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:50$58_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$505'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:46$57_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$503'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:46$56_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$501'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:45$55_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$499'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:43$54_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$497'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:42$53_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$495'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:41$52_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$493'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:41$51_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$491'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:41$50_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$489'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:40$49_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$487'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:40$48_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$485'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:38$47_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$483'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:37$46_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$481'.
+  Set init value: $formal$student_mini_gpu_adapters_harness.sv:27$45_EN = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:16$480'.
+  Set init value: \expected_error = 1'0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:15$479'.
+  Set init value: \expected_response = 0
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:14$478'.
+  Set init value: \phase = 2'00
+Found init rule in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:5$477'.
+  Set init value: \past_valid = 1'0
+
+4.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+4.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~40 debug messages>
+
+4.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+     1/8: $0\start_o[0:0]
+     2/8: $0\dcr_req_valid_o[0:0]
+     3/8: $0\response_error_q[0:0]
+     4/8: $0\response_q[31:0]
+     5/8: $0\state_q[1:0]
+     6/8: $0\dcr_req_data_o[31:0]
+     7/8: $0\dcr_req_addr_o[11:0]
+     8/8: $0\dcr_req_rw_o[0:0]
+Creating decoders for process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:0$605'.
+Creating decoders for process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+     1/9: $0\rsp_tag_q[9:0]
+     2/9: $0\rsp_data_q[511:0]
+     3/9: $0\rsp_valid_q[0:0]
+     4/9: $0\req_tag_q[9:0]
+     5/9: $0\req_data_q[511:0]
+     6/9: $0\req_addr_q[25:0]
+     7/9: $0\req_byteen_q[63:0]
+     8/9: $0\req_rw_q[0:0]
+     9/9: $0\req_valid_q[0:0]
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$597'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$595'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$593'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$591'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$589'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$587'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$585'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$583'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$581'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$579'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$577'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$575'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$573'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$571'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$569'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$567'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$565'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$563'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$561'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$559'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$557'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$555'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$553'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$551'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$549'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$547'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$545'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$543'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$541'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$539'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$537'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$535'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$533'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$531'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$529'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$527'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$525'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$523'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$521'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$519'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$517'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$515'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$513'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$511'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$509'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$507'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$505'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$503'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$501'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$499'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$497'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$495'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$493'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$491'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$489'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$487'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$485'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$483'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$481'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:16$480'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:15$479'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:14$478'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:5$477'.
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+     1/40: $0$formal$student_mini_gpu_adapters_harness.sv:77$84_EN[0:0]$344
+     2/40: $0$formal$student_mini_gpu_adapters_harness.sv:77$84_CHECK[0:0]$343
+     3/40: $0$formal$student_mini_gpu_adapters_harness.sv:78$85_EN[0:0]$346
+     4/40: $0$formal$student_mini_gpu_adapters_harness.sv:78$85_CHECK[0:0]$345
+     5/40: $0$formal$student_mini_gpu_adapters_harness.sv:79$86_EN[0:0]$348
+     6/40: $0$formal$student_mini_gpu_adapters_harness.sv:79$86_CHECK[0:0]$347
+     7/40: $0$formal$student_mini_gpu_adapters_harness.sv:79$87_EN[0:0]$350
+     8/40: $0$formal$student_mini_gpu_adapters_harness.sv:79$87_CHECK[0:0]$349
+     9/40: $0$formal$student_mini_gpu_adapters_harness.sv:81$88_EN[0:0]$352
+    10/40: $0$formal$student_mini_gpu_adapters_harness.sv:81$88_CHECK[0:0]$351
+    11/40: $0$formal$student_mini_gpu_adapters_harness.sv:83$89_EN[0:0]$354
+    12/40: $0$formal$student_mini_gpu_adapters_harness.sv:83$89_CHECK[0:0]$353
+    13/40: $0$formal$student_mini_gpu_adapters_harness.sv:84$90_EN[0:0]$356
+    14/40: $0$formal$student_mini_gpu_adapters_harness.sv:84$90_CHECK[0:0]$355
+    15/40: $0$formal$student_mini_gpu_adapters_harness.sv:85$91_EN[0:0]$358
+    16/40: $0$formal$student_mini_gpu_adapters_harness.sv:85$91_CHECK[0:0]$357
+    17/40: $0$formal$student_mini_gpu_adapters_harness.sv:87$92_EN[0:0]$360
+    18/40: $0$formal$student_mini_gpu_adapters_harness.sv:87$92_CHECK[0:0]$359
+    19/40: $0$formal$student_mini_gpu_adapters_harness.sv:89$93_EN[0:0]$362
+    20/40: $0$formal$student_mini_gpu_adapters_harness.sv:89$93_CHECK[0:0]$361
+    21/40: $0$formal$student_mini_gpu_adapters_harness.sv:90$94_EN[0:0]$364
+    22/40: $0$formal$student_mini_gpu_adapters_harness.sv:90$94_CHECK[0:0]$363
+    23/40: $0$formal$student_mini_gpu_adapters_harness.sv:90$95_EN[0:0]$366
+    24/40: $0$formal$student_mini_gpu_adapters_harness.sv:90$95_CHECK[0:0]$365
+    25/40: $0$formal$student_mini_gpu_adapters_harness.sv:93$96_EN[0:0]$368
+    26/40: $0$formal$student_mini_gpu_adapters_harness.sv:93$96_CHECK[0:0]$367
+    27/40: $0$formal$student_mini_gpu_adapters_harness.sv:93$97_EN[0:0]$370
+    28/40: $0$formal$student_mini_gpu_adapters_harness.sv:93$97_CHECK[0:0]$369
+    29/40: $0$formal$student_mini_gpu_adapters_harness.sv:94$98_EN[0:0]$372
+    30/40: $0$formal$student_mini_gpu_adapters_harness.sv:94$98_CHECK[0:0]$371
+    31/40: $0$formal$student_mini_gpu_adapters_harness.sv:94$99_EN[0:0]$374
+    32/40: $0$formal$student_mini_gpu_adapters_harness.sv:94$99_CHECK[0:0]$373
+    33/40: $0$formal$student_mini_gpu_adapters_harness.sv:95$100_EN[0:0]$376
+    34/40: $0$formal$student_mini_gpu_adapters_harness.sv:95$100_CHECK[0:0]$375
+    35/40: $0$formal$student_mini_gpu_adapters_harness.sv:96$101_EN[0:0]$378
+    36/40: $0$formal$student_mini_gpu_adapters_harness.sv:96$101_CHECK[0:0]$377
+    37/40: $0$formal$student_mini_gpu_adapters_harness.sv:97$102_EN[0:0]$380
+    38/40: $0$formal$student_mini_gpu_adapters_harness.sv:97$102_CHECK[0:0]$379
+    39/40: $0$formal$student_mini_gpu_adapters_harness.sv:98$103_EN[0:0]$382
+    40/40: $0$formal$student_mini_gpu_adapters_harness.sv:98$103_CHECK[0:0]$381
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+     1/40: $0$formal$student_mini_gpu_adapters_harness.sv:77$64_EN[0:0]$240
+     2/40: $0$formal$student_mini_gpu_adapters_harness.sv:77$64_CHECK[0:0]$239
+     3/40: $0$formal$student_mini_gpu_adapters_harness.sv:78$65_EN[0:0]$242
+     4/40: $0$formal$student_mini_gpu_adapters_harness.sv:78$65_CHECK[0:0]$241
+     5/40: $0$formal$student_mini_gpu_adapters_harness.sv:79$66_EN[0:0]$244
+     6/40: $0$formal$student_mini_gpu_adapters_harness.sv:79$66_CHECK[0:0]$243
+     7/40: $0$formal$student_mini_gpu_adapters_harness.sv:79$67_EN[0:0]$246
+     8/40: $0$formal$student_mini_gpu_adapters_harness.sv:79$67_CHECK[0:0]$245
+     9/40: $0$formal$student_mini_gpu_adapters_harness.sv:81$68_EN[0:0]$248
+    10/40: $0$formal$student_mini_gpu_adapters_harness.sv:81$68_CHECK[0:0]$247
+    11/40: $0$formal$student_mini_gpu_adapters_harness.sv:83$69_EN[0:0]$250
+    12/40: $0$formal$student_mini_gpu_adapters_harness.sv:83$69_CHECK[0:0]$249
+    13/40: $0$formal$student_mini_gpu_adapters_harness.sv:84$70_EN[0:0]$252
+    14/40: $0$formal$student_mini_gpu_adapters_harness.sv:84$70_CHECK[0:0]$251
+    15/40: $0$formal$student_mini_gpu_adapters_harness.sv:85$71_EN[0:0]$254
+    16/40: $0$formal$student_mini_gpu_adapters_harness.sv:85$71_CHECK[0:0]$253
+    17/40: $0$formal$student_mini_gpu_adapters_harness.sv:87$72_EN[0:0]$256
+    18/40: $0$formal$student_mini_gpu_adapters_harness.sv:87$72_CHECK[0:0]$255
+    19/40: $0$formal$student_mini_gpu_adapters_harness.sv:89$73_EN[0:0]$258
+    20/40: $0$formal$student_mini_gpu_adapters_harness.sv:89$73_CHECK[0:0]$257
+    21/40: $0$formal$student_mini_gpu_adapters_harness.sv:90$74_EN[0:0]$260
+    22/40: $0$formal$student_mini_gpu_adapters_harness.sv:90$74_CHECK[0:0]$259
+    23/40: $0$formal$student_mini_gpu_adapters_harness.sv:90$75_EN[0:0]$262
+    24/40: $0$formal$student_mini_gpu_adapters_harness.sv:90$75_CHECK[0:0]$261
+    25/40: $0$formal$student_mini_gpu_adapters_harness.sv:93$76_EN[0:0]$264
+    26/40: $0$formal$student_mini_gpu_adapters_harness.sv:93$76_CHECK[0:0]$263
+    27/40: $0$formal$student_mini_gpu_adapters_harness.sv:93$77_EN[0:0]$266
+    28/40: $0$formal$student_mini_gpu_adapters_harness.sv:93$77_CHECK[0:0]$265
+    29/40: $0$formal$student_mini_gpu_adapters_harness.sv:94$78_EN[0:0]$268
+    30/40: $0$formal$student_mini_gpu_adapters_harness.sv:94$78_CHECK[0:0]$267
+    31/40: $0$formal$student_mini_gpu_adapters_harness.sv:94$79_EN[0:0]$270
+    32/40: $0$formal$student_mini_gpu_adapters_harness.sv:94$79_CHECK[0:0]$269
+    33/40: $0$formal$student_mini_gpu_adapters_harness.sv:95$80_EN[0:0]$272
+    34/40: $0$formal$student_mini_gpu_adapters_harness.sv:95$80_CHECK[0:0]$271
+    35/40: $0$formal$student_mini_gpu_adapters_harness.sv:96$81_EN[0:0]$274
+    36/40: $0$formal$student_mini_gpu_adapters_harness.sv:96$81_CHECK[0:0]$273
+    37/40: $0$formal$student_mini_gpu_adapters_harness.sv:97$82_EN[0:0]$276
+    38/40: $0$formal$student_mini_gpu_adapters_harness.sv:97$82_CHECK[0:0]$275
+    39/40: $0$formal$student_mini_gpu_adapters_harness.sv:98$83_EN[0:0]$278
+    40/40: $0$formal$student_mini_gpu_adapters_harness.sv:98$83_CHECK[0:0]$277
+Creating decoders for process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+     1/41: $0$formal$student_mini_gpu_adapters_harness.sv:27$45_EN[0:0]$124
+     2/41: $0$formal$student_mini_gpu_adapters_harness.sv:27$45_CHECK[0:0]$123
+     3/41: $0$formal$student_mini_gpu_adapters_harness.sv:37$46_EN[0:0]$126
+     4/41: $0$formal$student_mini_gpu_adapters_harness.sv:37$46_CHECK[0:0]$125
+     5/41: $0$formal$student_mini_gpu_adapters_harness.sv:38$47_EN[0:0]$128
+     6/41: $0$formal$student_mini_gpu_adapters_harness.sv:38$47_CHECK[0:0]$127
+     7/41: $0$formal$student_mini_gpu_adapters_harness.sv:40$48_EN[0:0]$130
+     8/41: $0$formal$student_mini_gpu_adapters_harness.sv:40$48_CHECK[0:0]$129
+     9/41: $0$formal$student_mini_gpu_adapters_harness.sv:40$49_EN[0:0]$132
+    10/41: $0$formal$student_mini_gpu_adapters_harness.sv:40$49_CHECK[0:0]$131
+    11/41: $0$formal$student_mini_gpu_adapters_harness.sv:41$50_EN[0:0]$134
+    12/41: $0$formal$student_mini_gpu_adapters_harness.sv:41$50_CHECK[0:0]$133
+    13/41: $0$formal$student_mini_gpu_adapters_harness.sv:41$51_EN[0:0]$136
+    14/41: $0$formal$student_mini_gpu_adapters_harness.sv:41$51_CHECK[0:0]$135
+    15/41: $0$formal$student_mini_gpu_adapters_harness.sv:41$52_EN[0:0]$138
+    16/41: $0$formal$student_mini_gpu_adapters_harness.sv:41$52_CHECK[0:0]$137
+    17/41: $0$formal$student_mini_gpu_adapters_harness.sv:42$53_EN[0:0]$140
+    18/41: $0$formal$student_mini_gpu_adapters_harness.sv:42$53_CHECK[0:0]$139
+    19/41: $0$formal$student_mini_gpu_adapters_harness.sv:43$54_EN[0:0]$142
+    20/41: $0$formal$student_mini_gpu_adapters_harness.sv:43$54_CHECK[0:0]$141
+    21/41: $0$formal$student_mini_gpu_adapters_harness.sv:45$55_EN[0:0]$144
+    22/41: $0$formal$student_mini_gpu_adapters_harness.sv:45$55_CHECK[0:0]$143
+    23/41: $0$formal$student_mini_gpu_adapters_harness.sv:46$56_EN[0:0]$146
+    24/41: $0$formal$student_mini_gpu_adapters_harness.sv:46$56_CHECK[0:0]$145
+    25/41: $0$formal$student_mini_gpu_adapters_harness.sv:46$57_EN[0:0]$148
+    26/41: $0$formal$student_mini_gpu_adapters_harness.sv:46$57_CHECK[0:0]$147
+    27/41: $0$formal$student_mini_gpu_adapters_harness.sv:50$58_EN[0:0]$150
+    28/41: $0$formal$student_mini_gpu_adapters_harness.sv:50$58_CHECK[0:0]$149
+    29/41: $0$formal$student_mini_gpu_adapters_harness.sv:51$59_EN[0:0]$152
+    30/41: $0$formal$student_mini_gpu_adapters_harness.sv:51$59_CHECK[0:0]$151
+    31/41: $0$formal$student_mini_gpu_adapters_harness.sv:52$60_EN[0:0]$154
+    32/41: $0$formal$student_mini_gpu_adapters_harness.sv:52$60_CHECK[0:0]$153
+    33/41: $0$formal$student_mini_gpu_adapters_harness.sv:53$61_EN[0:0]$156
+    34/41: $0$formal$student_mini_gpu_adapters_harness.sv:53$61_CHECK[0:0]$155
+    35/41: $0$formal$student_mini_gpu_adapters_harness.sv:54$62_EN[0:0]$158
+    36/41: $0$formal$student_mini_gpu_adapters_harness.sv:54$62_CHECK[0:0]$157
+    37/41: $0$formal$student_mini_gpu_adapters_harness.sv:55$63_EN[0:0]$160
+    38/41: $0$formal$student_mini_gpu_adapters_harness.sv:55$63_CHECK[0:0]$159
+    39/41: $0\expected_error[0:0]
+    40/41: $0\expected_response[31:0]
+    41/41: $0\phase[1:0]
+
+4.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\vortex_command_adapter.\host_cmd_ready_o' from process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:0$605'.
+No latch inferred for signal `\vortex_command_adapter.\host_rsp_valid_o' from process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:0$605'.
+No latch inferred for signal `\vortex_command_adapter.\host_rsp_data_o' from process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:0$605'.
+No latch inferred for signal `\vortex_command_adapter.\host_rsp_error_o' from process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:0$605'.
+
+4.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\vortex_command_adapter.\dcr_req_valid_o' using process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+  created $dff cell `$procdff$1437' with positive edge clock.
+Creating register for signal `\vortex_command_adapter.\dcr_req_rw_o' using process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+  created $dff cell `$procdff$1438' with positive edge clock.
+Creating register for signal `\vortex_command_adapter.\dcr_req_addr_o' using process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+  created $dff cell `$procdff$1439' with positive edge clock.
+Creating register for signal `\vortex_command_adapter.\dcr_req_data_o' using process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+  created $dff cell `$procdff$1440' with positive edge clock.
+Creating register for signal `\vortex_command_adapter.\start_o' using process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+  created $dff cell `$procdff$1441' with positive edge clock.
+Creating register for signal `\vortex_command_adapter.\state_q' using process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+  created $dff cell `$procdff$1442' with positive edge clock.
+Creating register for signal `\vortex_command_adapter.\response_q' using process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+  created $dff cell `$procdff$1443' with positive edge clock.
+Creating register for signal `\vortex_command_adapter.\response_error_q' using process `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+  created $dff cell `$procdff$1444' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\req_valid_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1445' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\req_rw_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1446' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\req_byteen_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1447' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\req_addr_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1448' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\req_data_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1449' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\req_tag_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1450' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\rsp_valid_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1451' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\rsp_data_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1452' with positive edge clock.
+Creating register for signal `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.\rsp_tag_q' using process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+  created $dff cell `$procdff$1453' with positive edge clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:79$28$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1454' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:81$29$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1455' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:82$30$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1456' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:83$31$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1457' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:83$32$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1458' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:85$33$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1459' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:87$34$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1460' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:88$35$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1461' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:89$36$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1462' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:89$37$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1463' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:90$38$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1464' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:92$39$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1465' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:93$40$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1466' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:93$41$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1467' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:94$42$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1468' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:94$43$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1469' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:99$44$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1470' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:77$84_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1471' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:77$84_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1472' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:78$85_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1473' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:78$85_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1474' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:79$86_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1475' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:79$86_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1476' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:79$87_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1477' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:79$87_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1478' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:81$88_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1479' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:81$88_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1480' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:83$89_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1481' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:83$89_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1482' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:84$90_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1483' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:84$90_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1484' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:85$91_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1485' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:85$91_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1486' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:87$92_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1487' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:87$92_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1488' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:89$93_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1489' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:89$93_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1490' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:90$94_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1491' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:90$94_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1492' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:90$95_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1493' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:90$95_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1494' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:93$96_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1495' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:93$96_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1496' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:93$97_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1497' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:93$97_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1498' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:94$98_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1499' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:94$98_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1500' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:94$99_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1501' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:94$99_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1502' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:95$100_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1503' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:95$100_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1504' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:96$101_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1505' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:96$101_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1506' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:97$102_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1507' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:97$102_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1508' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:98$103_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1509' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:98$103_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+  created $ff cell `$procdff$1510' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:79$11$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1511' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:81$12$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1512' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:82$13$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1513' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:83$14$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1514' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:83$15$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1515' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:85$16$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1516' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:87$17$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1517' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:88$18$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1518' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:89$19$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1519' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:89$20$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1520' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:90$21$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1521' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:92$22$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1522' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:93$23$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1523' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:93$24$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1524' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:94$25$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1525' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:94$26$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1526' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:99$27$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1527' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:77$64_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1528' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:77$64_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1529' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:78$65_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1530' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:78$65_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1531' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:79$66_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1532' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:79$66_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1533' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:79$67_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1534' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:79$67_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1535' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:81$68_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1536' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:81$68_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1537' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:83$69_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1538' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:83$69_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1539' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:84$70_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1540' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:84$70_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1541' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:85$71_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1542' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:85$71_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1543' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:87$72_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1544' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:87$72_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1545' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:89$73_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1546' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:89$73_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1547' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:90$74_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1548' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:90$74_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1549' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:90$75_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1550' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:90$75_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1551' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:93$76_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1552' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:93$76_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1553' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:93$77_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1554' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:93$77_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1555' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:94$78_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1556' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:94$78_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1557' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:94$79_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1558' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:94$79_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1559' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:95$80_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1560' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:95$80_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1561' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:96$81_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1562' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:96$81_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1563' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:97$82_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1564' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:97$82_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1565' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:98$83_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1566' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:98$83_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+  created $ff cell `$procdff$1567' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.\past_valid' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1568' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.\phase' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1569' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.\expected_response' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1570' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.\expected_error' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1571' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:41$2$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1572' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:43$3$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1573' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:44$4$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1574' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:46$5$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1575' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:46$6$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1576' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:47$7$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1577' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:47$8$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1578' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:50$9$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1579' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$past$student_mini_gpu_adapters_harness.sv:51$10$0' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1580' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:27$45_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1581' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:27$45_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1582' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:37$46_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1583' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:37$46_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1584' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:38$47_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1585' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:38$47_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1586' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:40$48_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1587' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:40$48_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1588' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:40$49_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1589' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:40$49_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1590' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:41$50_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1591' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:41$50_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1592' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:41$51_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1593' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:41$51_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1594' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:41$52_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1595' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:41$52_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1596' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:42$53_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1597' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:42$53_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1598' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:43$54_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1599' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:43$54_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1600' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:45$55_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1601' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:45$55_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1602' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:46$56_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1603' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:46$56_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1604' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:46$57_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1605' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:46$57_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1606' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:50$58_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1607' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:50$58_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1608' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:51$59_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1609' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:51$59_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1610' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:52$60_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1611' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:52$60_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1612' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:53$61_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1613' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:53$61_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1614' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:54$62_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1615' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:54$62_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1616' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:55$63_CHECK' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1617' with global clock.
+Creating register for signal `\student_mini_gpu_adapters_harness.$formal$student_mini_gpu_adapters_harness.sv:55$63_EN' using process `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+  created $ff cell `$procdff$1618' with global clock.
+
+4.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+4.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 6 empty switches in `\vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+Removing empty process `vortex_command_adapter.$proc$vortex_command_adapter.sv:41$612'.
+Removing empty process `vortex_command_adapter.$proc$vortex_command_adapter.sv:0$605'.
+Found and cleaned up 5 empty switches in `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+Removing empty process `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.$proc$vortex_memory_adapter.sv:52$603'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$597'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$595'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$593'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$591'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$589'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$587'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$585'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$583'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$581'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$579'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$577'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$575'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$573'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$571'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$569'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$567'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$565'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$563'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$561'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$559'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$557'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$555'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$553'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$551'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$549'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$547'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$545'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$543'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$541'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$539'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$537'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$535'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$533'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$531'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$529'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$527'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$525'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$523'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$521'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$519'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$517'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$515'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$513'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$511'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$509'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$507'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$505'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$503'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$501'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$499'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$497'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$495'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$493'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$491'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$489'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$487'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$485'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$483'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:0$481'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:16$480'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:15$479'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:14$478'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:5$477'.
+Found and cleaned up 9 empty switches in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$325'.
+Found and cleaned up 9 empty switches in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:77$221'.
+Found and cleaned up 11 empty switches in `\student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+Removing empty process `student_mini_gpu_adapters_harness.$proc$student_mini_gpu_adapters_harness.sv:25$113'.
+Cleaned up 40 empty switches.
+
+4.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module vortex_command_adapter.
+<suppressed ~22 debug messages>
+Optimizing module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+<suppressed ~9 debug messages>
+Optimizing module student_mini_gpu_adapters_harness.
+<suppressed ~67 debug messages>
+
+4.4. Executing OPT_EXPR pass (perform const folding).
+Optimizing module vortex_command_adapter.
+Optimizing module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+Optimizing module student_mini_gpu_adapters_harness.
+
+4.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \vortex_command_adapter..
+Finding unused cells or wires in module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter..
+Finding unused cells or wires in module \student_mini_gpu_adapters_harness..
+Removed 7 unused cells and 604 unused wires.
+<suppressed ~10 debug messages>
+
+4.6. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter...
+Checking module student_mini_gpu_adapters_harness...
+Warning: Wire student_mini_gpu_adapters_harness.\clk is used but has no driver.
+Checking module vortex_command_adapter...
+Found and reported 1 problems.
+
+4.7. Executing OPT pass (performing simple optimizations).
+
+4.7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+Optimizing module student_mini_gpu_adapters_harness.
+Optimizing module vortex_command_adapter.
+
+4.7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter'.
+Finding identical cells in module `\student_mini_gpu_adapters_harness'.
+<suppressed ~54 debug messages>
+Finding identical cells in module `\vortex_command_adapter'.
+<suppressed ~63 debug messages>
+Removed a total of 39 cells.
+
+4.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \student_mini_gpu_adapters_harness..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \vortex_command_adapter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~139 debug messages>
+
+4.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+  Optimizing cells in module \student_mini_gpu_adapters_harness.
+  Optimizing cells in module \vortex_command_adapter.
+    New ctrl vector for $pmux cell $procmux$633: $auto$opt_reduce.cc:134:opt_pmux$1620
+    New ctrl vector for $pmux cell $procmux$647: $auto$opt_reduce.cc:134:opt_pmux$1622
+    New ctrl vector for $pmux cell $procmux$712: $auto$opt_reduce.cc:134:opt_pmux$1624
+  Optimizing cells in module \vortex_command_adapter.
+Performed a total of 3 changes.
+
+4.7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter'.
+Finding identical cells in module `\student_mini_gpu_adapters_harness'.
+<suppressed ~285 debug messages>
+Finding identical cells in module `\vortex_command_adapter'.
+<suppressed ~3 debug messages>
+Removed a total of 96 cells.
+
+4.7.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter..
+Finding unused cells or wires in module \student_mini_gpu_adapters_harness..
+Finding unused cells or wires in module \vortex_command_adapter..
+Removed 0 unused cells and 135 unused wires.
+<suppressed ~2 debug messages>
+
+4.7.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+Optimizing module student_mini_gpu_adapters_harness.
+Optimizing module vortex_command_adapter.
+
+4.7.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+4.7.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \student_mini_gpu_adapters_harness..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \vortex_command_adapter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~105 debug messages>
+
+4.7.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+  Optimizing cells in module \student_mini_gpu_adapters_harness.
+  Optimizing cells in module \vortex_command_adapter.
+Performed a total of 0 changes.
+
+4.7.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter'.
+Finding identical cells in module `\student_mini_gpu_adapters_harness'.
+Finding identical cells in module `\vortex_command_adapter'.
+Removed a total of 0 cells.
+
+4.7.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter..
+Finding unused cells or wires in module \student_mini_gpu_adapters_harness..
+Finding unused cells or wires in module \vortex_command_adapter..
+
+4.7.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+Optimizing module student_mini_gpu_adapters_harness.
+Optimizing module vortex_command_adapter.
+
+4.7.14. Finished OPT passes. (There is nothing left to do.)
+
+4.8. Executing WREDUCE pass (reducing word size of cells).
+Removed top 1 bits (of 2) from port B of cell student_mini_gpu_adapters_harness.$eq$student_mini_gpu_adapters_harness.sv:32$166 ($eq).
+Removed top 30 bits (of 32) from mux cell student_mini_gpu_adapters_harness.$ternary$student_mini_gpu_adapters_harness.sv:32$167 ($mux).
+Removed top 30 bits (of 32) from port B of cell student_mini_gpu_adapters_harness.$lt$student_mini_gpu_adapters_harness.sv:44$204 ($lt).
+Removed top 1 bits (of 2) from port B of cell student_mini_gpu_adapters_harness.$procmux$1417_CMP0 ($eq).
+Removed top 30 bits (of 32) from wire student_mini_gpu_adapters_harness.$ternary$student_mini_gpu_adapters_harness.sv:32$167_Y.
+Removed top 1 bits (of 2) from port B of cell vortex_command_adapter.$procmux$634_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell vortex_command_adapter.$procmux$663_CMP0 ($eq).
+
+4.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter..
+Finding unused cells or wires in module \student_mini_gpu_adapters_harness..
+Finding unused cells or wires in module \vortex_command_adapter..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
+
+4.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+4.11. Executing OPT pass (performing simple optimizations).
+
+4.11.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+Optimizing module student_mini_gpu_adapters_harness.
+Optimizing module vortex_command_adapter.
+
+4.11.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter'.
+Finding identical cells in module `\student_mini_gpu_adapters_harness'.
+Finding identical cells in module `\vortex_command_adapter'.
+Removed a total of 0 cells.
+
+4.11.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter..
+Finding unused cells or wires in module \student_mini_gpu_adapters_harness..
+Finding unused cells or wires in module \vortex_command_adapter..
+
+4.11.4. Finished fast OPT passes.
+
+4.12. Printing statistics.
+
+=== $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter ===
+
+   Number of wires:                 60
+   Number of wire bits:           6828
+   Number of public wires:          33
+   Number of public wire bits:    3417
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 38
+     $dff                            9
+     $logic_not                      2
+     $logic_or                       2
+     $mux                           25
+
+=== student_mini_gpu_adapters_harness ===
+
+   Number of wires:                507
+   Number of wire bits:          12275
+   Number of public wires:          67
+   Number of public wire bits:    4758
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                537
+     $anyseq                        31
+     $assert                        36
+     $assume                        11
+     $cover                         12
+     $eq                            35
+     $ff                           131
+     $logic_and                     35
+     $logic_not                     23
+     $logic_or                       5
+     $lt                             1
+     $mux                          211
+     $ne                             1
+     $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter      2
+     $pmux                           2
+     vortex_command_adapter          1
+
+=== vortex_command_adapter ===
+
+   Number of wires:                 68
+   Number of wire bits:            576
+   Number of public wires:          22
+   Number of public wire bits:     201
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 56
+     $dff                            8
+     $eq                             4
+     $logic_and                      2
+     $logic_not                      3
+     $logic_or                       1
+     $mux                           31
+     $ne                             1
+     $pmux                           4
+     $reduce_or                      2
+
+=== design hierarchy ===
+
+   student_mini_gpu_adapters_harness      1
+     $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter      2
+     vortex_command_adapter          1
+
+   Number of wires:                695
+   Number of wire bits:          26507
+   Number of public wires:         155
+   Number of public wire bits:   11793
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                666
+     $anyseq                        31
+     $assert                        36
+     $assume                        11
+     $cover                         12
+     $dff                           26
+     $eq                            39
+     $ff                           131
+     $logic_and                     37
+     $logic_not                     30
+     $logic_or                      10
+     $lt                             1
+     $mux                          292
+     $ne                             2
+     $pmux                           6
+     $reduce_or                      2
+
+4.13. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter...
+Checking module student_mini_gpu_adapters_harness...
+Warning: Wire student_mini_gpu_adapters_harness.\clk is used but has no driver.
+Checking module vortex_command_adapter...
+Found and reported 1 problems.
+
+5. Executing SMT2 backend.
+
+5.1. Executing BMUXMAP pass.
+
+5.2. Executing DEMUXMAP pass.
+Creating SMT-LIBv2 representation of module vortex_command_adapter.
+Creating SMT-LIBv2 representation of module $paramod$4d86f75bdc18cc840683f943bf16dafdf1cb208d\vortex_memory_adapter.
+Creating SMT-LIBv2 representation of module student_mini_gpu_adapters_harness.
+
+Warnings: 1 unique messages, 2 total
+End of script. Logfile hash: bb93f46b44, CPU: user 0.90s system 0.05s, MEM: 28.92 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 29% 5x opt_clean (0 sec), 29% 2x check (0 sec), ...

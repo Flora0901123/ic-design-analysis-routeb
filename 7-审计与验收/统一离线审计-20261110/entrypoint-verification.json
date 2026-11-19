@@ -1,0 +1,6 @@
+{
+  "normal_audit_exit": 0,
+  "final_gate_exit": 2,
+  "final_gate_expected_exit": 2,
+  "fresh_target_execution": false
+}

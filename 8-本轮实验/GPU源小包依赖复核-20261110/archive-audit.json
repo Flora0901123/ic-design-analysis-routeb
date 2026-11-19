@@ -1,0 +1,685 @@
+{
+  "status": "ARCHIVE_AND_GIT_INSPECTED",
+  "archive": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析\\open-soc-ai-labs (1).7z",
+  "archive_sha256": "2212b9db656bf54abd61170a0603ad062c971bb215ac035457f47a23a2b6400f",
+  "archive_bytes": 387664,
+  "entries": 1130,
+  "files": 790,
+  "non_git_files": 197,
+  "uncompressed_file_bytes": 715755,
+  "filename_hits": [
+    "open-soc-ai-labs\\ppa\\common\\constraint.sdc",
+    "open-soc-ai-labs\\shared\\rtl\\sram_1rw.sv"
+  ],
+  "worktree_content_hits": [
+    {
+      "path": "course.yml",
+      "sha256": "c5523e76e23e79e057cef8563bec52f6cb942f4b588e44a157e8c1de8f59424e",
+      "size": 1261,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "path": "README.md",
+      "sha256": "c9b1d40fde9f013fad0afe2738a297331e6db6f029f787d79cdd12bab7c0ddd3",
+      "size": 2706,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130"
+      ]
+    },
+    {
+      "path": "sbom.spdx.json",
+      "sha256": "f4cf3264f7be79138a1f5c2d836a1d668f09a1be82eefff20ef4acc0bb8b9a45",
+      "size": 1689,
+      "matched_terms": [
+        "OpenRAM",
+        "openram"
+      ]
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "677343fa6bf4cb0ecc87050d7fa76be752d4fe47377d5d2085d1535d762e271a",
+      "size": 2017,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "openram"
+      ]
+    },
+    {
+      "path": "containers/README.md",
+      "sha256": "28d0882fd46d66515f43ba50f97eb1231d1a6afd0fe2a844c766ef16e826cb80",
+      "size": 590,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "path": "docs/assessment.md",
+      "sha256": "7e1cf26ed631d8809da6ba5c8b90902b15012fbe2625292f1dbe5b85d1d6001c",
+      "size": 1004,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "path": "docs/optional-project-bank.md",
+      "sha256": "4559fd1d4a1647ade83b45df2f9f6083f70dc2d87abf4e25d8964966854320c4",
+      "size": 730,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "path": "docs/reading-list.md",
+      "sha256": "9b1da7e8d085271a8e13aa95f6051ecae90d2830d404a580a16688682778bf12",
+      "size": 1287,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "openram"
+      ]
+    },
+    {
+      "path": "ppa/README.md",
+      "sha256": "7179d9cbb85bedf4cb5a32d01e574924358de7502e44d67dde99f8d580fbcbeb",
+      "size": 680,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "sky130"
+      ]
+    },
+    {
+      "path": "ppa/run_openroad.sh",
+      "sha256": "3bf69edf67000f07563d9d23429861bab9669a9c506efdca809352ab8d7257c5",
+      "size": 607,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "path": "third_party/sources.lock.json",
+      "sha256": "3067c9b946e5a568efe57e9c73dbb8902f705b56d51b70fb3a39fb2dd1ae9bfe",
+      "size": 1501,
+      "matched_terms": [
+        "OpenRAM",
+        "openram"
+      ]
+    },
+    {
+      "path": "ppa/common/constraint.sdc",
+      "sha256": "d37e4c6fae2d6c52bc2da31f65a77051196c75969e977f0cf0b2649ee6af34ed",
+      "size": 210,
+      "matched_terms": []
+    },
+    {
+      "path": "ppa/designs/p1/config.mk",
+      "sha256": "28a0e2a93c284285240b1fa141555529fefc3b3ac336588da5e0de548e6e50ff",
+      "size": 356,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "path": "ppa/designs/p2/config.mk",
+      "sha256": "9afab8d13f5e9d035cb491e327b80e3079321405fc661a56cefb225a905aa10e",
+      "size": 340,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "path": "ppa/designs/p3/config.mk",
+      "sha256": "8c47c8bb5977e9729045c55b470a3cc190b3e432ff28c6586869a54db7dcd684",
+      "size": 329,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "path": "ppa/designs/p4/config.mk",
+      "sha256": "faac3259dc6f972a2f3dd9f62406fe44a52824217f022b3721cd9ba3eaac78fe",
+      "size": 346,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "path": "ppa/designs/p5/config.mk",
+      "sha256": "74598d1977bccdd2baad3a31f2438346b7a21463521a8940826859cce5cb371c",
+      "size": 376,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "path": "shared/rtl/sram_1rw.sv",
+      "sha256": "e615638564d585f0c185feb36ebe822b8aec02ac384910e39e57af6c88a0221f",
+      "size": 943,
+      "matched_terms": [
+        "OpenRAM"
+      ]
+    },
+    {
+      "path": "shared/python/open_soc_ai_labs.egg-info/PKG-INFO",
+      "sha256": "98a58af25e12bd078b2d0eb0a24a25d91ddec863c1b4db83941658f869c43a2b",
+      "size": 3499,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130"
+      ]
+    }
+  ],
+  "git_objects": 570,
+  "git_blobs_scanned": 401,
+  "git_content_hits": [
+    {
+      "oid": "02fdfdb90a65325dbebe39e39fabbde69c49c4aa",
+      "sha256": "92023da49d1100980849324ed11d2209b518ff28f532b04794e642c3f6bc95c4",
+      "bytes": 413,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "03368a3e0dc3f3aab0b2f9757ad5e3a60b8e2828",
+      "sha256": "54be47bba55b85d921d7be8473a652c39e7946721057e4b2b5fb256a89a527ad",
+      "bytes": 1044,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "openram"
+      ]
+    },
+    {
+      "oid": "05ebd106a48762cff0c858e22a194ae4fb6f8018",
+      "sha256": "7e1cf26ed631d8809da6ba5c8b90902b15012fbe2625292f1dbe5b85d1d6001c",
+      "bytes": 1004,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "111dd3c43243d5a705b17ae3512bd5a8e9eaffb7",
+      "sha256": "677343fa6bf4cb0ecc87050d7fa76be752d4fe47377d5d2085d1535d762e271a",
+      "bytes": 2017,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "openram"
+      ]
+    },
+    {
+      "oid": "13f32afdc73dac55e749e41371b4aef08f57ca81",
+      "sha256": "6d95057fa882907ab90723a2130bcf9939c1289d7f4f40e543c1df90d2a0c186",
+      "bytes": 330,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "16cfc143ead02300845a2921acd4d5422a6bee11",
+      "sha256": "9afab8d13f5e9d035cb491e327b80e3079321405fc661a56cefb225a905aa10e",
+      "bytes": 340,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "1ccab15b2df624f8b9401c199883df929b62333e",
+      "sha256": "759e8e078255e16fe111d0b449f27095528fa0f6cdee612e6c56c5ff02551bd6",
+      "bytes": 1262,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "1ce6034fe8ef9904ed40c13aa0d9973117c6a43a",
+      "sha256": "c5523e76e23e79e057cef8563bec52f6cb942f4b588e44a157e8c1de8f59424e",
+      "bytes": 1261,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "1e3afc2360d520339c2df359513434c77111e136",
+      "sha256": "0c087ab9ffdd991140b9d609a2bd78b141dab2290838c5cb7918a283103ba503",
+      "bytes": 986,
+      "matched_terms": [
+        "OpenRAM",
+        "openram"
+      ]
+    },
+    {
+      "oid": "218b82a5b8f28bbb84cb9c34cb3f8aa0b3b9fc0e",
+      "sha256": "9d8c6b4be498c982df6f64b2b6e3f7c16d3774258574bc278bb115bca78b6f96",
+      "bytes": 1173,
+      "matched_terms": [
+        "OpenRAM",
+        "openram"
+      ]
+    },
+    {
+      "oid": "250edbf81fb8a7474f1ba1f9815599d77b9eb836",
+      "sha256": "3067c9b946e5a568efe57e9c73dbb8902f705b56d51b70fb3a39fb2dd1ae9bfe",
+      "bytes": 1501,
+      "matched_terms": [
+        "OpenRAM",
+        "openram"
+      ]
+    },
+    {
+      "oid": "2c8395b881296e9c76f7610df15cdd9f1457ea8d",
+      "sha256": "2bcb9cac1c3e93bb71c3a0bd193af5f8cec349995290c859a3880a47db98390c",
+      "bytes": 732,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "3403dba8e5a33cac6615cf0791e88c9ff253fb2f",
+      "sha256": "3bf69edf67000f07563d9d23429861bab9669a9c506efdca809352ab8d7257c5",
+      "bytes": 607,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "399031d64bb11240eaac683954f8897b9eae7ef2",
+      "sha256": "28a0e2a93c284285240b1fa141555529fefc3b3ac336588da5e0de548e6e50ff",
+      "bytes": 356,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "425ad0ac922cb633345ec64bc62af1a1f46a1e85",
+      "sha256": "48ff8650f86697e41632472c97e45173b61743bd6f5bd6d4597d06c548fcaa65",
+      "bytes": 629,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "427126985436df9de34b5d118b6332337cb84a91",
+      "sha256": "c95414eb035209b63823eb38f169cb53fa8b183c85ff54f10f0c9a1999fe14d6",
+      "bytes": 628,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "448dfb000ce84290056746779c6d067af6e0451a",
+      "sha256": "c59779f3bd00a2cf0d94d798a35c65003d320aa8d486d4200aa52896e726dbff",
+      "bytes": 1761,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "openram"
+      ]
+    },
+    {
+      "oid": "450ab741f9a18af7bb45d94e8004280561e430a6",
+      "sha256": "56e2cf12db14722ba8d7d7e86c32ce26e60bc2e0d44ebad51aab9748ae2734dc",
+      "bytes": 343,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "4b730a6b2833683ed18da614cce593f394755e59",
+      "sha256": "4559fd1d4a1647ade83b45df2f9f6083f70dc2d87abf4e25d8964966854320c4",
+      "bytes": 730,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "59df6e84a9dc4b4ed0f46cd68d2f16e90d331107",
+      "sha256": "427253a4ae3b801c2e016bdf8cb96223a7e93bb254672796705c77be4d22280e",
+      "bytes": 330,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "5a38bc37b93f5a52cd17576dbfa7bc612c1971cb",
+      "sha256": "4340f97909b44231928efc859aeba170162623b373fa662966c43062f29b128d",
+      "bytes": 412,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "5bddf4a5b8a5315b8289f0627d98cbe80782a241",
+      "sha256": "884fbc7f1fc740342b92daee39454b59b68c36fdae4a18307d1c2396a64c6776",
+      "bytes": 544,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "62f165f5452af0de0349c7c23ea86c4fbbbcd47c",
+      "sha256": "28d0882fd46d66515f43ba50f97eb1231d1a6afd0fe2a844c766ef16e826cb80",
+      "bytes": 590,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "6377851bb2ad0f3d64948de32fb8993866b8ede6",
+      "sha256": "337445cd6899cfb828ce2c7ac6776f1a20dc20ddb03fd05599a6df647ed20d34",
+      "bytes": 329,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "673d78d359f8720667319e72a19cbd375e82c09b",
+      "sha256": "1ac0ef434d2c544d53a7da596ec0554b74c977df534fcae5f75de4f07c468655",
+      "bytes": 731,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "6f166f6b0cd004958faa58a7d23f43d34bd28320",
+      "sha256": "8c47c8bb5977e9729045c55b470a3cc190b3e432ff28c6586869a54db7dcd684",
+      "bytes": 329,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "77c196ee59758e6f075feda09bea1d096644b8b2",
+      "sha256": "d8a95694ceca2c98ee182130bc3fb8389c798530ff7de2e9755a6660e5274e67",
+      "bytes": 347,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "7e4141b29aaca22127eb4d93ae5cd3b4d77e3f54",
+      "sha256": "9a2f7cf5a8654e08e4deb651a8074db4c820b1b75ae32759fa4c723b09b213de",
+      "bytes": 326,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "99c08b8222038c4a60e5ecc48c2dbafb678d71bb",
+      "sha256": "6b0aa14d3e0d54ebd9e219f6e75125776769c7e6327873b64d9867c2e4897958",
+      "bytes": 404,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "9ba2d515fc4ed7d48b810b03bcf66e939ed5fd32",
+      "sha256": "16860f21a4fdd92bbcc18ce6c406f88fd0d0fa5d717e0e7125140b20729673f6",
+      "bytes": 2914,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "9ec99ac7f61480f04a6b0eb098bfe4860359608d",
+      "sha256": "35764eadb5a9e8615f0ce0642b331b27fca10f41125518f60c6db26f323e545c",
+      "bytes": 327,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "a0f5d32033b46a2b3b199b4bfc8d79e5e4aa4a28",
+      "sha256": "74598d1977bccdd2baad3a31f2438346b7a21463521a8940826859cce5cb371c",
+      "bytes": 376,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "a15632d521ee34cb51bfd8d5ac0f576313a00826",
+      "sha256": "a8010c7d6cf8cbd798f979007b89870d2f34ce5bcba7ebb001a5e205847e3db0",
+      "bytes": 944,
+      "matched_terms": [
+        "OpenRAM"
+      ]
+    },
+    {
+      "oid": "a1867402e52c8eea1508aeae7069c038d52a7ef1",
+      "sha256": "c48aef32523a749c6ea60dcc901f119ab98f3daa2a7d301accc4c34f6852fac4",
+      "bytes": 2707,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "b3ce68ddaf98d860789d3b76ade5373d62826dcb",
+      "sha256": "7179d9cbb85bedf4cb5a32d01e574924358de7502e44d67dde99f8d580fbcbeb",
+      "bytes": 680,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "sky130"
+      ]
+    },
+    {
+      "oid": "bcf7d23248f74dcceac10157f30b7233f70db641",
+      "sha256": "bf02ebc4c157356b8a74f8633c354997c4d69d9da94d27a206ce98326b41c77d",
+      "bytes": 405,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "bf6a1b2779d9fa4ac74200fbe3a885f1902564c8",
+      "sha256": "0fd20adf52fcc430580ed5e6499ba0b08635cf77f43c086e7f3384fe019ebbd3",
+      "bytes": 985,
+      "matched_terms": [
+        "OpenRAM",
+        "openram"
+      ]
+    },
+    {
+      "oid": "c00e73c947166812dfae703fd635634591c91c8b",
+      "sha256": "1f71033ef8becd40cfc98e177cbce9f1b5e481a871372f0774c59e941983610c",
+      "bytes": 631,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "sky130"
+      ]
+    },
+    {
+      "oid": "c230e02b9d6a4941ab637fe007f43a9a3aa67a5d",
+      "sha256": "1f80c99f91c7ce88e039a74d4d3859354ef13e11110c544dae2a9174dd19e574",
+      "bytes": 1760,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "openram"
+      ]
+    },
+    {
+      "oid": "c49f62814756089a6a162b64d41743981a9228a7",
+      "sha256": "7d250715a23b102d16ce9b5d24a2edd4bf81d53d092dd76cc94f78fa263a68d8",
+      "bytes": 613,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "c4ea4d1802bcb0372a6cd02d115b04d3c3978f29",
+      "sha256": "9b1da7e8d085271a8e13aa95f6051ecae90d2830d404a580a16688682778bf12",
+      "bytes": 1287,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "openram"
+      ]
+    },
+    {
+      "oid": "caf9eca5a0a202d0bd34c654cafbf6bbfae92465",
+      "sha256": "930bb69b05153c4889965574920bd50a98cf558fb256df10fd7dc2835378e954",
+      "bytes": 341,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "ce8a4e23909f4fadba4dc55c44b405ff587508a1",
+      "sha256": "c9b1d40fde9f013fad0afe2738a297331e6db6f029f787d79cdd12bab7c0ddd3",
+      "bytes": 2706,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "d2ffaa56bca27a92e79190e1d768f6f4a21f2f30",
+      "sha256": "f7b4b6c1ca6833ec60ee8c3b6f91f0a9d09829a12e24113e806687888591f48b",
+      "bytes": 1172,
+      "matched_terms": [
+        "OpenRAM",
+        "openram"
+      ]
+    },
+    {
+      "oid": "d80076f268b7a511e2778e2e7b84df7051d6aaea",
+      "sha256": "f4cf3264f7be79138a1f5c2d836a1d668f09a1be82eefff20ef4acc0bb8b9a45",
+      "bytes": 1689,
+      "matched_terms": [
+        "OpenRAM",
+        "openram"
+      ]
+    },
+    {
+      "oid": "da6ea8dbece11e7ee73426186b56f87411e31eef",
+      "sha256": "38723f28ca2921e29537309abdf4e2b423de6db57c84ac12d02b038ffb984d8d",
+      "bytes": 545,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "dc7944036db93cb5868a6266b906c2d2c72c721b",
+      "sha256": "e615638564d585f0c185feb36ebe822b8aec02ac384910e39e57af6c88a0221f",
+      "bytes": 943,
+      "matched_terms": [
+        "OpenRAM"
+      ]
+    },
+    {
+      "oid": "ea795a1d4bd0566cc1d0f07590b762a4b442048e",
+      "sha256": "faac3259dc6f972a2f3dd9f62406fe44a52824217f022b3721cd9ba3eaac78fe",
+      "bytes": 346,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "ecd689a328e3fb8042b462891610bc325b65711b",
+      "sha256": "ea458d693d038de124760e6d3fc717f1d67a50c7adb92af698004c37407826c3",
+      "bytes": 342,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "ed5cd918f60b4a3455374a7055c94ac5ef0b3c0b",
+      "sha256": "bf4b4298c58a228dffb6a95127dcd26f1186932eb7d985fd79b64f7d621c5c35",
+      "bytes": 332,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "ee8da6c07d39bfe922229806a7ab5e0f4da5c3b8",
+      "sha256": "b4ee42be2c29f1bd95f797045740a0d27482db8ef950cbe09d75e949bc5a9bd0",
+      "bytes": 733,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "eeae20d014660d49406bdcd631af519ba677f258",
+      "sha256": "71d4a335e524a771165341ff9eca3198691e3cdfcb22a2f6c822cc2b5a6f325d",
+      "bytes": 1045,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "openram"
+      ]
+    },
+    {
+      "oid": "ef062fb0d140643ff475c944aa792fc57027d2c2",
+      "sha256": "a9be5968da1f949d1bba24585a57ad03caf3eefd6f1fcf8fd6b657803e67ffb7",
+      "bytes": 614,
+      "matched_terms": [
+        "SKY130"
+      ]
+    },
+    {
+      "oid": "f112c50589c69c1f111f8faa8d374fe68afc5583",
+      "sha256": "a824dfde22c911cd3f21b9f8c4f13b004014de7a595f0ca78f2e669c87aaad3b",
+      "bytes": 333,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "f24a67e9673039c61f38705567f52a41b7ed79f7",
+      "sha256": "f89f8d627f1c222e5123cc84c394e305c70ddf9ecc1cd6d87079a513eb314843",
+      "bytes": 357,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "f50bfe5c32e4794c721e85c6c1b3e72b25530a00",
+      "sha256": "7207bf7a482e506e3b366b6508492b47f0a159f3f6d657007daeddef04efda6a",
+      "bytes": 329,
+      "matched_terms": [
+        "sky130"
+      ]
+    },
+    {
+      "oid": "f53577e1c79ec68215f936883a1bf665c5a15d26",
+      "sha256": "b48ef3e40904d3f0b8f7ff509667b4e3e9b2b7697106b7b4ca8eb6a9a19eef15",
+      "bytes": 630,
+      "matched_terms": [
+        "OpenRAM",
+        "SKY130",
+        "sky130"
+      ]
+    },
+    {
+      "oid": "f9e1a1bee9f9e9b8c325c965567148f5bde746ed",
+      "sha256": "c79731f8d5f0505c4d9cc0a2798439a701c93aed241510358e0b64e0df6664e2",
+      "bytes": 330,
+      "matched_terms": [
+        "sky130"
+      ]
+    }
+  ],
+  "git_log": [
+    "5be0d06c554bc80296208175a0c5a90b7654dab4 2026-09-16T12:54:39+08:00 docs: connect model layer to lesson roadmap",
+    "0e7c2a078b7bf29d372b2941f3c6ce150dbf47a8 2026-09-16T12:12:52+08:00 docs: make first lesson beginner friendly",
+    "f9f261db97e4c16549394419e8ba43c4a0acfb92 2026-09-16T11:53:48+08:00 feat: reframe course around DeepSeek-V3.2 inference",
+    "91bf6553b034fba70e078a1a730cdcc7db848a95 2026-09-16T01:50:46+08:00 feat: scaffold open-source SoC AI lab course"
+  ],
+  "remaining_binding_checks": 18,
+  "new_exact_matches": [],
+  "prior_binding_matches": 32,
+  "total_binding_matches": 32,
+  "archive_unchanged": true,
+  "prior_experiment_manifest_unchanged": true,
+  "eda_commands_run": [],
+  "downloads": []
+}

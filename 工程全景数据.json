@@ -1,0 +1,2006 @@
+{
+  "title": "Route B · CPU + GPU 工程生产流程全景",
+  "completion": 84.375,
+  "counts": {
+    "done": 12,
+    "partial": 3,
+    "todo": 1
+  },
+  "gpu_numeric_progress": {
+    "status": "SAME_HARDWARE_1000_NUMERIC_STATUS_PASS",
+    "records_validated": 1000,
+    "independently_sealed": true,
+    "status_sha256": "9400f9b593467d197b1c1ae2d354959fd0601882b8a29b95af23b07676628ba5"
+  },
+  "gpu_candidate_progress": {
+    "independently_sealed": true,
+    "official_weighted_gain": null,
+    "formal_promotion": "HOLD"
+  },
+  "frozen_delivery_verified": true,
+  "physical_recovery": {
+    "status": "PARTIAL_GENERATION_RULE_RECOVERY_PHYSICAL_IDENTITY_STILL_HOLD",
+    "date": "2026-11-10T12:14:34.387967+08:00",
+    "original_checks": 50,
+    "exact_matches_after_source_recovery": 32,
+    "remaining_unmatched_checks": 18,
+    "previous_gzip_audit_matches": 26,
+    "new_public_source_matches": 1,
+    "teacher_originals_modified": false,
+    "teacher_physical_identity_established": false,
+    "fresh_functional_boundary_replaced": false,
+    "source_url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/aabf2a397059704f68ddafe7e2c8bd1a0e7c65f5/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+    "resolved_commit": "aabf2a397059704f68ddafe7e2c8bd1a0e7c65f5",
+    "bindings": [
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+        "expected_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+        "verified_local_files": [
+          "8-本轮实验/GPU物理依赖公开来源核对-20261109/sky130_fd_sc_hd__tt_025C_1v80.lib"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_dp_80x64_w4/vortex_dp_80x64_w4_TT_1p8V_25C.lib",
+        "expected_sha256": "f4742fb2e9c42f374b530881b53e96ed7a0f75e9cf9f50ca78f69bd249965886",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_128x128_w16/vortex_sp_128x128_w16_TT_1p8V_25C.lib",
+        "expected_sha256": "8b942ab557c8437788dc867f494ba31346ceef1e1182b3efe399018d15d46b5e",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x1024_w4/vortex_sp_32x1024_w4_TT_1p8V_25C.lib",
+        "expected_sha256": "05a9685f05b441f680ad062074d647241ca649a3c608e8951e9408a04e53519c",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x256_w1/vortex_sp_32x256_w1_TT_1p8V_25C.lib",
+        "expected_sha256": "bec3c12fae51e95a0c0615e3afd6cc12255bfa9db94d02ed2149f88bfcc2bd16",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x512_w4/vortex_sp_32x512_w4_TT_1p8V_25C.lib",
+        "expected_sha256": "8fde4c93af38d6f39ed947faea8496e4d90ee3c5374e1b7f537d483e1f9d43ad",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_64x128_w8/vortex_sp_64x128_w8_TT_1p8V_25C.lib",
+        "expected_sha256": "993bc3b30374cd2c5aa3cfa3a57ad6a891e9ea197bb3f461daf353278830f7eb",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-b7ec62286c946774/6_final.v",
+        "expected_sha256": "1986b073afda29bed1003432daefb23c2595b6367156281050a462c5b5edde55",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/top/6_final.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-b7ec62286c946774/6_final.sdc",
+        "expected_sha256": "786307b748e83ada7928d8bfe38f19f483e70b868a798a2cd920d4b6a54496ec",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/top/6_final.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q0/student-mini-gpu-block-final-1161c4163d2556ad/6_final.v",
+        "expected_sha256": "e76c47db887ce9b588e0b4c41ff48c4e592396ca98f9a98b6eb2e14183a52ce7",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/vortex_physical_top_q0/6_final.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q1/student-mini-gpu-block-final-e9f0cde51ef9dd12/6_final.v",
+        "expected_sha256": "1f6333af107ad1f2b274459ce8a0d5e50c326cbfdd1fa17c3c4b003996e72ea7",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/vortex_physical_top_q1/6_final.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q2/student-mini-gpu-block-final-940bd5533128d2b1/6_final.v",
+        "expected_sha256": "561f2c306203fc28e59fc55b55c9273f42dcfb4563dd7bb3fee6822716495a31",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/vortex_physical_top_q2/6_final.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q3/student-mini-gpu-block-final-189841ed9ce2e063/6_final.v",
+        "expected_sha256": "30cee57b8cd74ddffbd6b3e1c35d69c83ab29afd3eda5a798b2c6372211a8fdf",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/vortex_physical_top_q3/6_final.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/flat_3_place.v",
+        "expected_sha256": "e0564801e66a1c131dc0d5f887e52de64a5cde3a774838f9e54f3cb2990fdb69",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/part_fast28/quad.v",
+        "expected_sha256": "61f6382fbdb253a347488d718bc84cf89bb4392dd4688dadfa527a43e258e760",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/top.v",
+        "expected_sha256": "61aa93404b559374660d6a6f7b8a5e09aae4fb87b4430c9b6425f31cdadfa10f",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/top.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q0_LL/block.v",
+        "expected_sha256": "272eb5990d74d26690bf90e618ab1be59f33d6486a32e28d5a22c0ef08fc5fdf",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/q0_LL/block.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q0_LL/constraint.sdc",
+        "expected_sha256": "b6fdf5ceff4ba7c1dd1dbb82962bad24e1afe73c1e5c76ecccf17bc8082ba3a3",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/partition/q0_LL/constraint.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q1_LR/block.v",
+        "expected_sha256": "a628c19252152455effa910964005d858f190bdf1aa56b9a2446731542ad6faf",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/q1_LR/block.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q1_LR/constraint.sdc",
+        "expected_sha256": "096f82b35b6633252a66a1f2f554527a8b8ea14e2b0b40d5d63fe92ed813a1e1",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/partition/q1_LR/constraint.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q2_UL/block.v",
+        "expected_sha256": "78c4803d544316d65e44abee95349a4c9c8b1edae0eba73ed545fe689a53647e",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/q2_UL/block.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q2_UL/constraint.sdc",
+        "expected_sha256": "39d9cf930610b62408a26fdb39965e9923b20d6adf47b98e531caf5841a5afd4",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/partition/q2_UL/constraint.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q3_UR/block.v",
+        "expected_sha256": "87a42b1b2c04208091a84a1c95fcc58475a1c430ae2ff3a8418dcb2a64b41da1",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/q3_UR/block.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q3_UR/constraint.sdc",
+        "expected_sha256": "676823806f6075741a29fda40d531e9df87d1c7f961a0a9c11e5c31f0ba63eff",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/partition/q3_UR/constraint.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/top.v",
+        "expected_sha256": "81c048900358ca9c1bc1fd2099dc65b78bbb3801a808f275616376fd84604de3",
+        "verified_local_files": [
+          "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/top.v"
+        ],
+        "status": "EXACT_SHA_MATCH",
+        "recovery_method": "Original direct_chip_feedthroughs applied to original partition top and SHA-verified current final block netlists; append one LF."
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/constraint.sdc",
+        "expected_sha256": "7d899af1fc02af4b1134f009efa34fcd7977b21185d1c4b33a493ae54e819ae1",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q0.lef",
+        "expected_sha256": "390a12eca0c7f8eeed3a8676bba05194b43a3386246b3ff7899c19b785bd2262",
+        "verified_local_files": [
+          "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/vortex_physical_top_q0.lef"
+        ],
+        "status": "EXACT_SHA_MATCH",
+        "recovery_method": "Decompress packaged abstract LEF; apply original prepare_student_mini_gpu_top.py single met5 OBS removal expression."
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q1.lef",
+        "expected_sha256": "54d9b35d0fbd316edcb58c67740ace3cb1397504f8d611a6000d746e6be95aa3",
+        "verified_local_files": [
+          "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/vortex_physical_top_q1.lef"
+        ],
+        "status": "EXACT_SHA_MATCH",
+        "recovery_method": "Decompress packaged abstract LEF; apply original prepare_student_mini_gpu_top.py single met5 OBS removal expression."
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q2.lef",
+        "expected_sha256": "1e537dae0e0a2c04316e659068e946d09f7a80de4b41ef8b6746b61f091c270c",
+        "verified_local_files": [
+          "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/vortex_physical_top_q2.lef"
+        ],
+        "status": "EXACT_SHA_MATCH",
+        "recovery_method": "Decompress packaged abstract LEF; apply original prepare_student_mini_gpu_top.py single met5 OBS removal expression."
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q3.lef",
+        "expected_sha256": "8eac94b624766e146c73efab1bb74e6ebb24689f6282f644b54ddf0705d0e8c9",
+        "verified_local_files": [
+          "8-本轮实验/GPU生成规则物理恢复-20261110/recovered/top-config/vortex_physical_top_q3.lef"
+        ],
+        "status": "EXACT_SHA_MATCH",
+        "recovery_method": "Decompress packaged abstract LEF; apply original prepare_student_mini_gpu_top.py single met5 OBS removal expression."
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q0_LL/block.v",
+        "expected_sha256": "272eb5990d74d26690bf90e618ab1be59f33d6486a32e28d5a22c0ef08fc5fdf",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/q0_LL/block.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q0_LL/constraint.sdc",
+        "expected_sha256": "b6fdf5ceff4ba7c1dd1dbb82962bad24e1afe73c1e5c76ecccf17bc8082ba3a3",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/partition/q0_LL/constraint.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_dp_80x64_w4.lef",
+        "expected_sha256": "3bfd53c64bf2118d65183d6f6de3ef565f34b0bba00f527d27790e49232a29ea",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_128x128_w16.lef",
+        "expected_sha256": "08fd2d8a20e17d9d6c65ca1361c139f672de3e24923142d71045892396d5ba0d",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x1024_w4.lef",
+        "expected_sha256": "081d85f5333715fc12b173c5cb2f093361b10f8d8eb347721c8178f1e2355f85",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x256_w1.lef",
+        "expected_sha256": "fd37d59f653cc2174c3c6995c44846b2559a8875d21df23c3b5fccbc87e8316c",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x512_w4.lef",
+        "expected_sha256": "707f052d54d4c4721ba87b543732b2fc5cb7c069074b737dcf104f354e5a542a",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_64x128_w8.lef",
+        "expected_sha256": "abfd48d4bf5218229e180f54ed2ccf4c3cae899a5398332f6823a2af39fd4dca",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q1_LR/block.v",
+        "expected_sha256": "a628c19252152455effa910964005d858f190bdf1aa56b9a2446731542ad6faf",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/q1_LR/block.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q1_LR/constraint.sdc",
+        "expected_sha256": "096f82b35b6633252a66a1f2f554527a8b8ea14e2b0b40d5d63fe92ed813a1e1",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/partition/q1_LR/constraint.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-block-context/91bcb20ede62602eb17c0d9194becde741191330282fc3f84ac3dd23583426cf/vortex_physical_top_q1_inst.sdc",
+        "expected_sha256": "86a9395d7d2395dd2acd2f7b3393ed086774568accf456958ca083301d682bc9",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q1/eco-context/vortex_physical_top_q1_inst.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q2_UL/block.v",
+        "expected_sha256": "78c4803d544316d65e44abee95349a4c9c8b1edae0eba73ed545fe689a53647e",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/q2_UL/block.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q2_UL/constraint.sdc",
+        "expected_sha256": "39d9cf930610b62408a26fdb39965e9923b20d6adf47b98e531caf5841a5afd4",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/partition/q2_UL/constraint.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-block-context/91bcb20ede62602eb17c0d9194becde741191330282fc3f84ac3dd23583426cf/vortex_physical_top_q2_inst.sdc",
+        "expected_sha256": "87c8e083c6bb759bb1c806ab6b07eea5a40c46a4acfc834dbbc006bb1815a923",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/vortex_physical_top_q2/eco-context/vortex_physical_top_q2_inst.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q3\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q3_UR/block.v",
+        "expected_sha256": "87a42b1b2c04208091a84a1c95fcc58475a1c430ae2ff3a8418dcb2a64b41da1",
+        "verified_local_files": [
+          "8-本轮实验/GPU压缩物理视图复核-20261108/recovered/physical/gpu/partition/q3_UR/block.v"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q3\\completion.json",
+        "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q3_UR/constraint.sdc",
+        "expected_sha256": "676823806f6075741a29fda40d531e9df87d1c7f961a0a9c11e5c31f0ba63eff",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/partition/q3_UR/constraint.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-a674da82bde3113d/6_final.v",
+        "expected_sha256": "f861659e55732864c2d642064a4fecd3d95be7b6be84781c2ad1a67298f417c7",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-a674da82bde3113d/6_final.sdc",
+        "expected_sha256": "786307b748e83ada7928d8bfe38f19f483e70b868a798a2cd920d4b6a54496ec",
+        "verified_local_files": [
+          "6-源码引用/原始参考包/physical/gpu/top/6_final.sdc"
+        ],
+        "status": "EXACT_SHA_MATCH"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q1/student-mini-gpu-block-final-e9f0cde51ef9dd12/6_final.v",
+        "expected_sha256": "2f3cf5a19cdb9783cd37e8da057b3616a2997e10ed39e337e11d11520cce3416",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      },
+      {
+        "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+        "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q2/student-mini-gpu-block-final-940bd5533128d2b1/6_final.v",
+        "expected_sha256": "b5aa9fd0a5f047346f0965d61f12a00548724c06ef33dfe51db961a5866e3392",
+        "verified_local_files": [],
+        "status": "UNMATCHED"
+      }
+    ],
+    "previous_audit_sha256": "681dfba00e72f4e84350ea095d52c8501a88837137d4a7608a1e616f90a58a9d",
+    "fetch_receipt_sha256": "4a7ea91e1016125f00c7a9f21492c04dab259e1ff5c94d9e26ffdc30b317c609",
+    "previous_exact_matches": 27,
+    "new_generation_rule_matches": 5,
+    "previous_audit": "8-本轮实验/GPU物理依赖公开来源核对-20261109/binding-recheck.json",
+    "recovery_script": "8-本轮实验/GPU生成规则物理恢复-20261110/recover_gpu_generated_sources.py",
+    "recovery_script_sha256": "c1a08565d22cc8bdc090de7fa55063158338bcf3ff5ada2f47a262913c4b5726"
+  },
+  "new_physical_preflight": {
+    "status": "NEW_FF_FOUR_STATE_AND_STRUCTURAL_PREFLIGHT_INDEPENDENTLY_SEALED",
+    "sealed_at": "2026-11-10T12:02:15.490717+00:00",
+    "status_sha256": "daddb8267f59628a172c6a1c3107a0b86c6574215354f4510b08ed28e9c7316a",
+    "shapes": [
+      {
+        "shape": "vortex_dp_80x64_w4",
+        "four_state_records": 667
+      },
+      {
+        "shape": "vortex_sp_32x1024_w4",
+        "four_state_records": 2587
+      },
+      {
+        "shape": "vortex_sp_32x256_w1",
+        "four_state_records": 1037
+      },
+      {
+        "shape": "vortex_sp_64x128_w8",
+        "four_state_records": 1035
+      }
+    ],
+    "total_four_state_records": 5326,
+    "structural_check": "hierarchy -check; proc; check -assert",
+    "recorded_seconds": 62.495333863997075,
+    "original_physical_identity": false,
+    "standard_cell_mapping_accepted": false,
+    "place_route_executed": false,
+    "STA_executed": false,
+    "power_energy_measured": false,
+    "physical_signoff": false,
+    "formal_promotion": "HOLD",
+    "limits": "FF memory shape semantics and elaborated structural/process checks only; not whole mapped GPU functional equivalence or PPA",
+    "evidence_manifest_sha256": "3f1f1c5ce0086cd268e43ee153b9049c225f995f9654571626801c1554fbd185"
+  },
+  "new_physical_mapping": {
+    "status": "NEW_FF_GPU_STANDARD_CELL_MAPPING_INDEPENDENTLY_SEALED_NOT_PPA",
+    "sealed_at": "2026-11-10T12:25:27.127089+00:00",
+    "mapped_netlist_sha256": "b18dc63c5f260455448b3e1e2703a23262905ccb081440b16c7fdf47e7c4bbfb",
+    "independent_reparse_seconds": 127.60337264600093,
+    "synthesis_seconds": 1168.4815895299998,
+    "standard_cell_count": 1547376,
+    "library_cell_area_um2": 21095538.544001,
+    "library_cell_area_mm2": 21.095538544001,
+    "mapped_cell_types": 79,
+    "unresolved_leaf_types": 0,
+    "remaining_memories": 0,
+    "remaining_processes": 0,
+    "source_library_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+    "hierarchy_check": "PASS",
+    "four_state_preflight_seal": "8-本轮实验/GPU新物理入口实测-20261110-v2/验收结论.json",
+    "full_mapped_functional_equivalence": false,
+    "place_route_executed": false,
+    "STA_executed": false,
+    "power_energy_measured": false,
+    "original_physical_identity": false,
+    "physical_signoff": false,
+    "formal_promotion": "HOLD",
+    "limits": "Cell library area is synthesis area only, not routed die/core area. FF storage cost is retained; no original physical identity or resource eligibility claimed.",
+    "evidence_manifest_sha256": "94c21ac37e353757b7c20a11a083b36f87f81e785f03aa1f5760022ede48aa53",
+    "resources": {
+      "path": "/sys/fs/cgroup/routeb-course-qualification",
+      "observed_epoch": 1794313528.241024,
+      "limits": {
+        "cpu.max": "200000 100000",
+        "cpu.stat": "usage_usec 24785204944\nuser_usec 24396213555\nsystem_usec 388991388\nnice_usec 0\nnr_periods 147309\nnr_throttled 851\nthrottled_usec 6050713\nnr_bursts 0\nburst_usec 0",
+        "memory.max": "8589934592",
+        "memory.current": "1299988480",
+        "memory.peak": "5584429056",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.swap.max": "0",
+        "memory.swap.current": "0",
+        "cgroup.procs": "4100\n29162\n61436\n63237\n63893\n65230\n65231\n65454\n65455\n65458"
+      }
+    }
+  },
+  "new_physical_followup": {
+    "target_period_ns": 10,
+    "setup_worst_slack_ns": -2121.78,
+    "hold_worst_slack_ns": 0.31,
+    "wrapper_transactions": 5326,
+    "macro_instance_counts": {
+      "routeb_new_1w1r_32x256": 16,
+      "routeb_new_1w1r_20x64": 4,
+      "routeb_new_1w1r_8x128": 128,
+      "routeb_new_1w1r_8x1024": 16
+    },
+    "physical_signoff": false,
+    "sta_status_sha256": "0fb6c8fe81ff87266d2da9d2457c5d50fc04e6197bb1d2ad37b36e9913c84b80",
+    "wrapper_status_sha256": "30490cbc1e548b179972b92b3406dc4c8d599b6d43493a7d64f76108f1a27a7e",
+    "binding_status_sha256": "8ed793e017b335be8c203acc836fd2de445ff26966494695e2e061b74d7e93e2",
+    "public_macro_model_transactions": 3624,
+    "public_view_check_sha256": "789610a9d6044bf79e2ac07752d21dc642e4e9292cc05d831f7652547f43f8c7",
+    "public_sim_status_sha256": "1848d915a9801212e38906a6cf1fd3e9ee881c9a1270b899d87576e4464cf34e",
+    "public_gds_check_sha256": "27c731cd226ed219d2d5ccaa2646f97f3c2174641da61027750d5011cc7ba3a5",
+    "public_macro_view_sets": 2
+  },
+  "snapshot": "2026-11-14",
+  "nodes": [
+    {
+      "id": "contract",
+      "lane": 0,
+      "title": "课程合同与评分",
+      "status": "done",
+      "summary": "B 路线 · 20 / 40 / 20 / 20",
+      "detail": "以教师 rubric 为评分依据：技术报告20、合规正确性40、理解研究20、优化交互20。此图仅展示证据状态，教师尚未评定分数。",
+      "links": [
+        "7-审计与验收/老师网页合同快照/rubric.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "7-审计与验收/老师网页合同快照/rubric.json",
+          "exists": true,
+          "sha256": "9df3c357c76848455be52969fc70da470227b62dd74bd4ed0c101cd28b007d25"
+        }
+      ]
+    },
+    {
+      "id": "reference",
+      "lane": 0,
+      "title": "原始参考包 / 离线复核",
+      "status": "ref",
+      "summary": "参考证据 ≠ 本轮重建",
+      "detail": "保留老师资料与原始参考包。离线校验可证明参考文件与记录一致，不能据此声称当前工程完成物理实现或整机协议验收。",
+      "links": [
+        "6-源码引用/原始参考包",
+        "8-本轮实验/20261105T084027590707Z-verify-reference-baseline/status.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "6-源码引用/原始参考包",
+          "exists": true,
+          "sha256": null
+        },
+        {
+          "path": "8-本轮实验/20261105T084027590707Z-verify-reference-baseline/status.json",
+          "exists": true,
+          "sha256": "31a53093b15d84100860d0cb1350c713535162fabe8a17f815f4f360ad3505c7"
+        }
+      ]
+    },
+    {
+      "id": "stack",
+      "lane": 0,
+      "title": "双后端工具栈",
+      "status": "partial",
+      "summary": "VexRiscv RTL / Vortex SimX",
+      "detail": "Windows + WSL2；CPU RTL、GPU SimX 以及开发版 RTLSIM 已运行。历史实验存在工具版本差异，需要分别保留每次环境指纹。",
+      "links": [
+        "1-技术栈与环境/toolchain-snapshot.json",
+        "9-GPU复现/rtlsim-optimization/status.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "1-技术栈与环境/toolchain-snapshot.json",
+          "exists": true,
+          "sha256": "8c3f2e7f4a2748c6fa2f4d07b3d7cc0750279ed3d5faceecc06896367b703330"
+        },
+        {
+          "path": "9-GPU复现/rtlsim-optimization/status.json",
+          "exists": true,
+          "sha256": "505bb9a1008fd9e014a24249c5f2cf9b589a327c468bab1b7dcb3337831d607a"
+        }
+      ]
+    },
+    {
+      "id": "freeze",
+      "lane": 1,
+      "title": "冻结向量与 golden",
+      "status": "done",
+      "summary": "100 案例 × seed 1–10",
+      "detail": "P1 33例、P2 34例、P3 33例，共100例、每后端每变体1000条记录。使用冻结输入与黄金输出，禁止把缺失或不支持记录算作通过。",
+      "links": [
+        "student-mini-v1-cpu-gpu/sources/grading/student-mini"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "student-mini-v1-cpu-gpu/sources/grading/student-mini",
+          "exists": true,
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "model",
+      "lane": 1,
+      "title": "极小 Nano 模型 / 字符表",
+      "status": "done",
+      "summary": "1 层 · hidden 16 · vocab 256",
+      "detail": "三个算子作为模型注意力及专家计算的元素：P1→DSA/MLA prefill；P2→paged MLA decode；P3→MoE 专家。属于教学极小模型，不能据此宣称完整 DeepSeek 模型部署。",
+      "links": [
+        "2-CPU算子与Nano复现",
+        "nano.py"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "2-CPU算子与Nano复现",
+          "exists": true,
+          "sha256": null
+        },
+        {
+          "path": "nano.py",
+          "exists": true,
+          "sha256": "8c55d86bdcba41a05b787329d0a49eaf00b00900742fa540eec4579d91d77314"
+        }
+      ]
+    },
+    {
+      "id": "lock",
+      "lane": 1,
+      "title": "锁定环境与版本审计",
+      "status": "partial",
+      "summary": "5.040 已安装 · 适配器复跑通过",
+      "detail": "官方5.040来源与SHA固定，适配器120探针、新宏绑定整机DMA30条及协议90条实际使用5.040。旧5.050性能数据保留版本边界，不追认；原物理硬件身份仍未建立。",
+      "links": [
+        "9-GPU复现/locked-verilator-5.040/status.json",
+        "8-本轮实验/GPU来源与锁定环境-20261105/acceptance-20261107.json"
+      ],
+      "seconds": 304.04610341800014,
+      "time_scope": "成功安装的4阶段墙钟和；不含此前失败与等待",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "9-GPU复现/locked-verilator-5.040/status.json",
+          "exists": true,
+          "sha256": "2a58bf504ca3b95b4e2470a91902d2cb9384afb907dd2dd7b337c59adc27cd57"
+        },
+        {
+          "path": "8-本轮实验/GPU来源与锁定环境-20261105/acceptance-20261107.json",
+          "exists": true,
+          "sha256": "78f721bb8f96bd53f8d58e4aa12b8d2c1383e2933249df8a4f860868b0a68b40"
+        }
+      ]
+    },
+    {
+      "id": "cpu",
+      "lane": 2,
+      "title": "CPU 标量算子 / RTL",
+      "status": "done",
+      "summary": "baseline 与 Top-K 各1000条匹配",
+      "detail": "VexRiscv 目标端实际运行，位模式与 golden 比较。完成数值证据；协议、资源约束和正式发布资格仍是独立门槛。耗时仅列出一次原始 baseline 构建及执行。",
+      "links": [
+        "8-本轮实验/20261029T053512179194Z-cpu-baseline/completion.json",
+        "8-本轮实验/CPU完整优化对照/summary.json"
+      ],
+      "seconds": 964.585044401,
+      "time_scope": "单次 baseline 构建+执行；其中构建 856.5 s",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/20261029T053512179194Z-cpu-baseline/completion.json",
+          "exists": true,
+          "sha256": "0e70a24884580820689f1e08d014c898950504279a11dbd2f5f50a957dffa724"
+        },
+        {
+          "path": "8-本轮实验/CPU完整优化对照/summary.json",
+          "exists": true,
+          "sha256": "d9cfb21ee1555576ef845a10364244ec732fcf62eeea0cd76d1d8bbf657a5a9f"
+        }
+      ]
+    },
+    {
+      "id": "simx",
+      "lane": 2,
+      "title": "GPU 四组算子 / SimX",
+      "status": "partial",
+      "summary": "每组 970 匹配 + 30 不支持",
+      "detail": "baseline / Top-K / RNE / combined 各执行1000条，数值失败0，30条 UNSUPPORTED_BUS_INJECTION。SimX 主机墙钟与 aggregate PERF 均不作为 GPU 优化性能结论。",
+      "links": [
+        "8-本轮实验/全100案例双后端-20261104T134332Z/gpu-simx/status-runtime-confirmed.json",
+        "9-GPU复现"
+      ],
+      "seconds": 76.50434410899993,
+      "time_scope": "一次 baseline 已构建后的直接执行",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/全100案例双后端-20261104T134332Z/gpu-simx/status-runtime-confirmed.json",
+          "exists": true,
+          "sha256": "8dc49c34afd796f90ff8509ed26b8e0ef8bc2956d71fffd1aa68ac321d70b854"
+        },
+        {
+          "path": "9-GPU复现",
+          "exists": true,
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "rtlbuild",
+      "lane": 2,
+      "title": "GPU 开发 RTLSIM 构建",
+      "status": "done",
+      "summary": "Verilator 5.050 · 开发用",
+      "detail": "实际构建的原生 Vortex RTL 仿真器供开发探针使用。与课程锁定工具、映射硬件及物理包身份尚未完成绑定，构建成功不等于正式验收。",
+      "links": [
+        "9-GPU复现/rtlsim-optimization/status.json"
+      ],
+      "seconds": 1094.2322702019999,
+      "time_scope": "一次开发 RTL 仿真器构建",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "9-GPU复现/rtlsim-optimization/status.json",
+          "exists": true,
+          "sha256": "505bb9a1008fd9e014a24249c5f2cf9b589a327c468bab1b7dcb3337831d607a"
+        }
+      ]
+    },
+    {
+      "id": "topk",
+      "lane": 3,
+      "title": "P1 Top-K 算子优化",
+      "status": "partial",
+      "summary": "CPU 标量有收益；Nano 有退化",
+      "detail": "CPU 标量全1000条优化对照已保留；等权探索值不代表冻结权重总分。Nano 旧 Top-K 首token退化1.572%，不能把算子收益直接当成会话收益。",
+      "links": [
+        "8-本轮实验/CPU完整优化对照/summary.json",
+        "8-本轮实验/CPU-Nano四组消融/summary.json",
+        "8-本轮实验/20261029T055241769167Z-cpu-topk/completion.json"
+      ],
+      "seconds": 1129.512077843,
+      "time_scope": "一次 CPU 标量 Top-K 构建+执行；其中构建 1015.6 s",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/CPU完整优化对照/summary.json",
+          "exists": true,
+          "sha256": "d9cfb21ee1555576ef845a10364244ec732fcf62eeea0cd76d1d8bbf657a5a9f"
+        },
+        {
+          "path": "8-本轮实验/CPU-Nano四组消融/summary.json",
+          "exists": true,
+          "sha256": "6bb97639f93aa8749130e2bbb692e8e8e006483d80f8abd4dce3d1ee4e1aeae0"
+        },
+        {
+          "path": "8-本轮实验/20261029T055241769167Z-cpu-topk/completion.json",
+          "exists": true,
+          "sha256": "30181cfb32c9f5aef48e8552d99c5727d6d70b2b0bc4be5b5e4fde57b05e88f5"
+        }
+      ]
+    },
+    {
+      "id": "rne",
+      "lane": 3,
+      "title": "RNE15 舍入移位优化",
+      "status": "done",
+      "summary": "462,233 个宿主等价用例",
+      "detail": "用移位和掩码代替特定32768除数下的舍入除法。独立整数参考等价检查462233例通过，仅属宿主语义证据，目标收益由后续 RTL 计数验证。",
+      "links": [
+        "8-本轮实验/RNE独立等价检查/result.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/RNE独立等价检查/result.json",
+          "exists": true,
+          "sha256": "7ff6af5daab6088e50ba70cb2e560c8cbea4637ec3c4f9796fd3691ba65a9b9d"
+        }
+      ]
+    },
+    {
+      "id": "fallback",
+      "lane": 3,
+      "title": "Top-K 退化修补决策",
+      "status": "partial",
+      "summary": "v2 / v3 拒绝 · 默认回退基线",
+      "detail": "有界插入 v2 与 noinline v3 均实际测过，仍退化，保留失败证据。nano.py 的 topk 请求默认选择 baseline；这解决默认选择退化问题，但不构成独立 Top-K 加速成功。combined 分支保持独立。",
+      "links": [
+        "8-本轮实验/TopK修补-20261105/修补决策.json",
+        "8-本轮实验/TopK修补-20261105/修补说明.md",
+        "8-本轮实验/TopK修补-20261105/fallback_check.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/TopK修补-20261105/修补决策.json",
+          "exists": true,
+          "sha256": "0ff31d3c1fc1fd1e8d71425dc860f107552a96d682e702866c51dff0a6e6b74a"
+        },
+        {
+          "path": "8-本轮实验/TopK修补-20261105/修补说明.md",
+          "exists": true,
+          "sha256": "de85629de066b2e56ae7c7649617ab6206562ee4258ad62e936d7aa232b6f7e5"
+        },
+        {
+          "path": "8-本轮实验/TopK修补-20261105/fallback_check.json",
+          "exists": true,
+          "sha256": "18b7acde171691d76eb6cb75a7de9fb69f983e1ab52c6143e92314b7183b84ca"
+        }
+      ]
+    },
+    {
+      "id": "ablation",
+      "lane": 4,
+      "title": "CPU Nano 历史四组消融",
+      "status": "partial",
+      "summary": "新固定ROM组合TTFT改善4.607%",
+      "detail": "5.040/128KiB新基线下，stride与RNE15的2x2组合TTFT改善4.607%，decode7.242%，会话5.826%。3+3交错独立重启三指标各组完全相同，12冻结题81步完整张量一致。旧ROM0.792%是历史结果，不混比。布局/取指交互保留，物理/PPA仍HOLD。",
+      "links": [
+        "8-本轮实验/CPU-Nano组合最终确认-20261110/验收结论.json",
+        "8-本轮实验/CPU-Nano固定ROM-StrideRNE2x2-1794284177187099883/summary.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/CPU-Nano组合最终确认-20261110/验收结论.json",
+          "exists": true,
+          "sha256": "2f60af2adb9a539b6df16da05c3c3577f9a46d96ff14a6dedc3650205c2447a0"
+        },
+        {
+          "path": "8-本轮实验/CPU-Nano固定ROM-StrideRNE2x2-1794284177187099883/summary.json",
+          "exists": true,
+          "sha256": "569967003c2f481925b50565c014383a9fb3a572caf8046c11f4664031e51d48"
+        }
+      ]
+    },
+    {
+      "id": "gpuprobe",
+      "lane": 4,
+      "title": "GPU RTL 四组探针",
+      "status": "partial",
+      "summary": "新5.040四组16次；分派8次修补",
+      "detail": "新模型4案例seed1四组输出一致，原始组合P1减少2.083%/2.624%，但P3回退0.128%。按算子分派后8控制通过，P3及纯TopK P2走原基线，周期/指令/访存相同。最小P1没有选择收益时保守回退，P2 RNE额外访存保留。同硬件100案例×10seed候选对照板已独立封存；周期、流量与回退逐条留存。 不代表PROMOTE。",
+      "links": [
+        "8-本轮实验/GPU锁定硬件四组候选-20261109/验收结论.json",
+        "8-本轮实验/GPU锁定硬件四组候选-20261109/control-status.json",
+        "8-本轮实验/GPU锁定硬件四组候选-20261109/routed-control-status-v2.json"
+      ],
+      "seconds": 947.3462589070002,
+      "time_scope": "新16对照+8分派控制墙钟；不含旧5.050对照、首次验证器失败或人工耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU锁定硬件四组候选-20261109/验收结论.json",
+          "exists": true,
+          "sha256": "0594296e43a7abe11fc36f50eb4db93cc45bd636e1ef12be296517902e3cf1e0"
+        },
+        {
+          "path": "8-本轮实验/GPU锁定硬件四组候选-20261109/control-status.json",
+          "exists": true,
+          "sha256": "f4ec3b3e89163334ecbf15229006283d4e272bb1d032f3d35c242d74ffd71bab"
+        },
+        {
+          "path": "8-本轮实验/GPU锁定硬件四组候选-20261109/routed-control-status-v2.json",
+          "exists": true,
+          "sha256": "c3bb6bc50cb3403615779b4c8a04fad6b94537d03ad43689f59aacafd281d367"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "lane": 4,
+      "title": "CPU 独立 RTL 重复验证",
+      "status": "done",
+      "summary": "baseline 100 + combined 100",
+      "detail": "各100次新启动目标 RTL 均通过，计数无波动。200次属于重复性证据，不增加冻结案例覆盖数量；无完整墙钟日志，不推算制作工时。",
+      "links": [
+        "8-本轮实验/Nano基线组合100次重复/summary.json",
+        "8-本轮实验/Nano基线组合100次重复/重复验证说明.md"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/Nano基线组合100次重复/summary.json",
+          "exists": true,
+          "sha256": "319adbc899445ac962f77de83e77aaf77c6a50b24b0e8e043679be2992ef2ba0"
+        },
+        {
+          "path": "8-本轮实验/Nano基线组合100次重复/重复验证说明.md",
+          "exists": true,
+          "sha256": "f96c7c198ab6998a404aac70e3b8829b7220618e57fc17a5e9ff381dce19b550"
+        }
+      ]
+    },
+    {
+      "id": "chat",
+      "lane": 4,
+      "title": "CPU / GPU 提问与模型边界",
+      "status": "partial",
+      "summary": "冻结12题双端通过；扩展√3仍答错",
+      "detail": "同一冻结模型和输入，CPU RTL/GPU SimX各12题通过，81步token、1296个hidden值和20736个logits值逐位一致。问候、自我介绍、天气诚实回退和固定加法覆盖齐；根号3扩展回答错误保留。SimX不用于GPU性能结论，开放表达质量仍需教师审核。",
+      "links": [
+        "8-本轮实验/Nano冻结问题双端验收-20261108/completion.json",
+        "8-本轮实验/根号3提问结果/result.json",
+        "8-本轮实验/根号3提问结果/跨后端核对.json"
+      ],
+      "seconds": 2280.4454010259997,
+      "time_scope": "GPU12题全流程+本次CPU恢复5题流程；不含迁移前CPU7题，非双端完整总工时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/Nano冻结问题双端验收-20261108/completion.json",
+          "exists": true,
+          "sha256": "431df3da8cbb794786843382196bf721e6fee6f27113972c58cf8c464c1a234b"
+        },
+        {
+          "path": "8-本轮实验/根号3提问结果/result.json",
+          "exists": true,
+          "sha256": "a5485405a93d2bf660ae9eaf05c12f25a2bf68acceaaacb207b2b9fa318fd944"
+        },
+        {
+          "path": "8-本轮实验/根号3提问结果/跨后端核对.json",
+          "exists": true,
+          "sha256": "1542e163210ee274c4b60e985f79575c8129973c069a83a8c2fd721f6e4e94a3"
+        }
+      ]
+    },
+    {
+      "id": "adapter",
+      "lane": 5,
+      "title": "GPU 适配器 / 背压 / 恢复",
+      "status": "done",
+      "summary": "120局部探针 + 90整机协议通过",
+      "detail": "局部适配器120探针之外，新宏绑定Vortex整机的P1/P2/P3 × MINI-31/32/33 × 10seed共90条通过：背压、响应保持、忙态64周期复位重发各30条；稳定性违例0，命令响应数相等，数值输出匹配。物理身份仍单独核验。",
+      "links": [
+        "8-本轮实验/GPU整机协议-20261108/验收结论.json",
+        "8-本轮实验/GPU锁定版适配器-20261107/status.json"
+      ],
+      "seconds": 4154.224776911001,
+      "time_scope": "120局部探针编译运行+90条整机协议逐条墙钟和；不含整机构建，不当作项目历时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU整机协议-20261108/验收结论.json",
+          "exists": true,
+          "sha256": "113658b64aa9060212809d464a3fa986dc37192af31310bb1d3b8898b5a49959"
+        },
+        {
+          "path": "8-本轮实验/GPU锁定版适配器-20261107/status.json",
+          "exists": true,
+          "sha256": "e51471a2a6869382d807c254ab32ae05416b30f3cd33468af8e9b623d2cf60c7"
+        }
+      ]
+    },
+    {
+      "id": "mutation",
+      "lane": 5,
+      "title": "协议测试灵敏度 / 突变",
+      "status": "done",
+      "summary": "8 / 8 注入缺陷被检测",
+      "detail": "Icarus 动态回归：正常版本通过，地址、数据、mask、tag、忙启动、响应不稳定、fault缺失、复位不冲刷八个突变均被断言捕获。这是动态测试灵敏度，不是形式证明。",
+      "links": [
+        "8-本轮实验/GPU适配器突变-20261107/completion.json"
+      ],
+      "seconds": 2.8543816619999234,
+      "time_scope": "修正后Icarus正常版与8个突变，9轮墙钟和",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU适配器突变-20261107/completion.json",
+          "exists": true,
+          "sha256": "8293b25d67eb8ca22c611eac6b9962200105b1c68e41fdfaf3b9cdf5c6477f0f"
+        }
+      ]
+    },
+    {
+      "id": "dma",
+      "lane": 5,
+      "title": "整机 DMA 三个故障案例",
+      "status": "done",
+      "summary": "新重建边界 30/30 · 3条正常控制",
+      "detail": "已生成新的宏绑定RTL网表、manifest与4种SRAM功能模型，37宏实例；2272模型检查通过。三例DMA各10seed实际运行，设备DCR故障与错误请求/响应可观测，数值输出为空，错误后无新输入payload请求；3条正常控制golden匹配。属于新功能硬件，不是原老师物理包身份复原，不与旧SimX970条拼接为正式baseline。",
+      "links": [
+        "9-GPU复现/整机DMA重建/验收报告.md",
+        "9-GPU复现/整机DMA重建/DMA验收结论.json",
+        "9-GPU复现/整机DMA重建/dma-event-qualification.json",
+        "9-GPU复现/整机DMA重建/staged-openram-banked-manifest.json"
+      ],
+      "seconds": 407.25142038199965,
+      "time_scope": "新重建边界30条DMA+3条正常控制的33次运行墙钟和",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "9-GPU复现/整机DMA重建/验收报告.md",
+          "exists": true,
+          "sha256": "7e1fa38da94ac9bad496e7989881441b82124853ed6d0b43045e2f9aa6405875"
+        },
+        {
+          "path": "9-GPU复现/整机DMA重建/DMA验收结论.json",
+          "exists": true,
+          "sha256": "18a1f1b25f851eedcd4b65981ce22d3d3c304c99f9c52dfc3d62f20463ddb1c7"
+        },
+        {
+          "path": "9-GPU复现/整机DMA重建/dma-event-qualification.json",
+          "exists": true,
+          "sha256": "c8e1f9de9f260907c74915af617ad94fc2394a83a5c8906e0e8b926e0d4e49c7"
+        },
+        {
+          "path": "9-GPU复现/整机DMA重建/staged-openram-banked-manifest.json",
+          "exists": true,
+          "sha256": "063aac20b8d1ab5a00901fef0a5ab92ada27c2e31bbe5073e5cc6de8af203e07"
+        }
+      ]
+    },
+    {
+      "id": "formal",
+      "lane": 5,
+      "title": "适配器形式验证",
+      "status": "done",
+      "summary": "原32步安全 / 12覆盖 / 8突变通过",
+      "detail": "真实fault适配器局部归纳通过；另将原generic命令/两个512位内存接口分区，保留全部原断言与假设。命令32步BMC、内存初始检查+归纳通过，12覆盖可达、8原突变被检出。GPU核、SRAM与全系统活性不在该形式证明范围。",
+      "links": [
+        "8-本轮实验/GPU原协议门-20261108/smt32/completion.json",
+        "8-本轮实验/GPU适配器局部契约-20261107/completion.json"
+      ],
+      "seconds": 75.72899782299999,
+      "time_scope": "两项局部归纳与原组合协议门成功选中运行墙钟和；不含早期失败",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU原协议门-20261108/smt32/completion.json",
+          "exists": true,
+          "sha256": "e787256e5c3ff65b838e707e815e5b3898b3c102e2dcadbe469abcc753e69a1a"
+        },
+        {
+          "path": "8-本轮实验/GPU适配器局部契约-20261107/completion.json",
+          "exists": true,
+          "sha256": "34563d9515286672fa4592d1f434c55c8d891adad09a077bb260f7ccb3e1d56f"
+        }
+      ]
+    },
+    {
+      "id": "physical",
+      "lane": 6,
+      "title": "映射硬件 / 物理来源",
+      "status": "blocked",
+      "summary": "164 宏平面规划通过 · 签核 HOLD",
+      "detail": "164 个 SRAM 宏的边界和重叠检查通过，328 个供电引脚通过逻辑绑定检查。整机 10 ns 布局前 setup -7.42 ns、hold +0.31 ns。8×128 v3 DRC 0，20×64 v2 DRC 1，两种宏 LVS 均有顶层引脚不匹配。标准单元布局通过。布局估算 setup -7.96 ns，hold +0.31 ns。固定中线分块预检有 7 个宏跨线。重排宏、四块及顶层布线后签核与活动功耗待完成。 历史物理来源 32/50 项 SHA 匹配，仍有 18 项。",
+      "links": [
+        "8-本轮实验/GPU-physical-acceptance-20261114/GPU物理验收.md",
+        "8-本轮实验/GPU-physical-acceptance-20261114/gpu-floorplan/status.json",
+        "8-本轮实验/GPU-physical-acceptance-20261114/gpu-macro-supply-audit-v2/status.json",
+        "8-本轮实验/GPU-physical-acceptance-20261114/8x128-v3-native-lvs/status.json",
+        "8-本轮实验/GPU-physical-acceptance-20261114/gpu-placement-v2/status.json",
+        "8-本轮实验/GPU生成规则物理恢复-20261110/binding-recheck.json",
+        "8-本轮实验/GPU生成规则物理恢复-20261110/verification.json",
+        "8-本轮实验/GPU生成规则物理恢复-20261110/completion.json",
+        "8-本轮实验/GPU物理依赖公开来源核对-20261109/binding-recheck.json",
+        "8-本轮实验/GPU压缩物理视图复核-20261108/completion.json"
+      ],
+      "seconds": 814.6355254920002,
+      "time_scope": "OpenROAD 平面规划、布局前时序复测及布局成功轮墙钟之和；宏 LVS 和失败轮见验收记录",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU-physical-acceptance-20261114/GPU物理验收.md",
+          "exists": true,
+          "sha256": "b397313493ee69f5287bde46d0f57ef65841a9f9227ba9002adfe776dcdc6c91"
+        },
+        {
+          "path": "8-本轮实验/GPU-physical-acceptance-20261114/gpu-floorplan/status.json",
+          "exists": true,
+          "sha256": "ab9663468ad627987ec0f4812d760a6385ee6bea4040f5f8c37ac73691ba30a3"
+        },
+        {
+          "path": "8-本轮实验/GPU-physical-acceptance-20261114/gpu-macro-supply-audit-v2/status.json",
+          "exists": true,
+          "sha256": "bb8867a71c3c39e8bdedc81c7b1379109c4cad7171955524dc475d979eb9c5bf"
+        },
+        {
+          "path": "8-本轮实验/GPU-physical-acceptance-20261114/8x128-v3-native-lvs/status.json",
+          "exists": true,
+          "sha256": "dedf4ca1a8794e31d24e5559cdddf35b0e823b7faf6ba5e2e2b43dd0a4a65a0f"
+        },
+        {
+          "path": "8-本轮实验/GPU-physical-acceptance-20261114/gpu-placement-v2/status.json",
+          "exists": true,
+          "sha256": "b77feb9c09e67cc3bc7d783bd0a3b4d060d7332637f776768842f1ba5aeee312"
+        },
+        {
+          "path": "8-本轮实验/GPU生成规则物理恢复-20261110/binding-recheck.json",
+          "exists": true,
+          "sha256": "8e3bfc2c2dbf62ca6d03a08c72f74068ec40ef6b9c8dc05fddf6dae644ff80d8"
+        },
+        {
+          "path": "8-本轮实验/GPU生成规则物理恢复-20261110/verification.json",
+          "exists": true,
+          "sha256": "d611acc583249442e24aa8109afc53ccf3498d32a2646e1d35fe6569d400e723"
+        },
+        {
+          "path": "8-本轮实验/GPU生成规则物理恢复-20261110/completion.json",
+          "exists": true,
+          "sha256": "5e324334d15d2458acf664c11063c1eca729af1d6d07c3eb2613cda982e65dbe"
+        },
+        {
+          "path": "8-本轮实验/GPU物理依赖公开来源核对-20261109/binding-recheck.json",
+          "exists": true,
+          "sha256": "681dfba00e72f4e84350ea095d52c8501a88837137d4a7608a1e616f90a58a9d"
+        },
+        {
+          "path": "8-本轮实验/GPU压缩物理视图复核-20261108/completion.json",
+          "exists": true,
+          "sha256": "7a69b86f2b8b7c82a182f292c21f19887a88bf2e8e807235c097bd11ae81d468"
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "lane": 6,
+      "title": "资源限制 / 功耗 / 异机复现",
+      "status": "partial",
+      "summary": "2vCPU/8GiB；三类计数4控制通过",
+      "detail": "恢复的GPU整机协议与CPU冻结题进程置于同一cgroup，CPU配额2核、内存8GiB、swap为0；实际峰值和OOM计数留存。旧记录不追认资源资格。面积、功耗/能耗与异机复现仍未闭合。 单轮执行后读取MPM0/4/7，4个控制的外存读写数与实际DMA握手一致；原目标周期/指令不变。完整候选板外存读写已封存；PPA与能耗仍待齐。",
+      "links": [
+        "8-本轮实验/GPU整机协议-20261108/status.json",
+        "8-本轮实验/资源限制-20261108/activation.json",
+        "8-本轮实验/GPU单轮多类计数运行库-20261108/completion.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU整机协议-20261108/status.json",
+          "exists": true,
+          "sha256": "84e03bdd2e11b6eb99f3f454427dd982b156e8fd2009b1680114f98020b7d0f2"
+        },
+        {
+          "path": "8-本轮实验/资源限制-20261108/activation.json",
+          "exists": true,
+          "sha256": "771ba61e1b6c692e47b84a7802b29777fdeb164be8c69760e9f010a483cb4f01"
+        },
+        {
+          "path": "8-本轮实验/GPU单轮多类计数运行库-20261108/completion.json",
+          "exists": true,
+          "sha256": "31863f7eb005b2b6774d3827f65aa4f5d9af501c7cd2ce1086af2155fecc8079"
+        }
+      ]
+    },
+    {
+      "id": "promote",
+      "lane": 6,
+      "title": "正式 baseline / PROMOTE 门",
+      "status": "blocked",
+      "summary": "开发结果不构成正式晋升",
+      "detail": "需要数值、协议、锁定环境、完整冻结性能板、物理身份及资源门槛共同满足。当前仍 HOLD，不填写晋升通过或虚构优化分数。",
+      "links": [
+        "3-优化链-P1/本轮优化总结.md",
+        "00-教师审阅/04-未完成事项.md"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "3-优化链-P1/本轮优化总结.md",
+          "exists": true,
+          "sha256": "5929ea139f614f3f788efcedc89d0f0537a662b8f4b1c6791bc9032a02f0d1a4"
+        },
+        {
+          "path": "00-教师审阅/04-未完成事项.md",
+          "exists": true,
+          "sha256": "01477e3ea4c626b265bec57f7cbb6f940a32c9d98fdf20d9696721190609e799"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "lane": 7,
+      "title": "证据保留与整理",
+      "status": "done",
+      "summary": "原始证据 / 失败过程保留",
+      "detail": "整理时仅删除明确可重建缓存；保留原始参考、日志、合规检查、复现与优化失败过程。删除清单及保留文件哈希核对可审查。",
+      "links": [
+        "7-审计与验收/整理记录-20261105/整理后保留核对.json",
+        "7-审计与验收/整理记录-20261105/删除清单.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "7-审计与验收/整理记录-20261105/整理后保留核对.json",
+          "exists": true,
+          "sha256": "da3adc514e51a807eb15fbb3295b737f367cd5ac937ef4779f4a9e2949ce66d2"
+        },
+        {
+          "path": "7-审计与验收/整理记录-20261105/删除清单.json",
+          "exists": true,
+          "sha256": "5a8c22149cb6d00d668146bba9cf9b181281a200d6bd30caf9d66291a17c7483"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "lane": 7,
+      "title": "教师审阅 / 评分证据索引",
+      "status": "done",
+      "summary": "22 项评分条目 · 分数待老师评",
+      "detail": "工作包已设审阅入口、评分证据索引、合规复现检查、优化导航和未完成项。页面的状态数量是展示盘点，不是考核分数。",
+      "links": [
+        "00-教师审阅/开始审阅.html",
+        "00-教师审阅/01-评分证据索引.md",
+        "成果汇报与考核对照.html"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "00-教师审阅/开始审阅.html",
+          "exists": true,
+          "sha256": null
+        },
+        {
+          "path": "00-教师审阅/01-评分证据索引.md",
+          "exists": true,
+          "sha256": "2b298baba37c636d241195053ebe174b9c1ce22c19e6b9bf820ffb8cc4f85cde"
+        },
+        {
+          "path": "成果汇报与考核对照.html",
+          "exists": true,
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "lane": 7,
+      "title": "当前交付状态",
+      "status": "partial",
+      "summary": "本机冻结包与 CPU/GPU 复现通过",
+      "detail": "CPU RTL 12题、GPU 1000条 ZIP 复跑、洁净工具迁移六例通过；归档尺寸、CRC 与逐文件 SHA 已核验。物理与正式晋升仍待验。",
+      "links": [
+        "8-本轮实验/NanoCPU可搬移运行包-20261109/completion.json",
+        "README.md",
+        "package_delivery.py",
+        "00-教师审阅/04-未完成事项.md",
+        "7-审计与验收/打包预检-20261108/completion.json",
+        "8-本轮实验/NanoCPU可搬移运行包-20261109/验收封存.json",
+        "7-审计与验收/打包预检-20261109/completion.json",
+        "8-本轮实验/GPU同硬件全1000-20261108/验收结论.json",
+        "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+        "7-审计与验收/GPU全量复跑与冻结封包-20261114/status.json"
+      ],
+      "seconds": 681.30762064,
+      "time_scope": "新目录12题CPU实跑墙钟；不含独立入口单题、封包或人工耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/NanoCPU可搬移运行包-20261109/completion.json",
+          "exists": true,
+          "sha256": "a0e62cd6cdf17edfd9b670693cdb9a342853c96d467b60968bca51defffedf64"
+        },
+        {
+          "path": "README.md",
+          "exists": true,
+          "sha256": "3d7867ec8f8c13a289c9b7e09d959b2644a4bfdc42e5b43dc9d4134ce55a5dfc"
+        },
+        {
+          "path": "package_delivery.py",
+          "exists": true,
+          "sha256": "fd215a9387e42b1f2000e51212f162dc78b877938755c6689b172898fcb0e9ba"
+        },
+        {
+          "path": "00-教师审阅/04-未完成事项.md",
+          "exists": true,
+          "sha256": "01477e3ea4c626b265bec57f7cbb6f940a32c9d98fdf20d9696721190609e799"
+        },
+        {
+          "path": "7-审计与验收/打包预检-20261108/completion.json",
+          "exists": true,
+          "sha256": "d0502681add29f520cd4cbaaa03289ba58a804ea06861c2b2b84aa758a49bad0"
+        },
+        {
+          "path": "8-本轮实验/NanoCPU可搬移运行包-20261109/验收封存.json",
+          "exists": true,
+          "sha256": "f659ecfd870e51276632cd1f9970357fa67e4a0b412cee0970fc70b1e367921f"
+        },
+        {
+          "path": "7-审计与验收/打包预检-20261109/completion.json",
+          "exists": true,
+          "sha256": "3699c6d1c99afac7dfc908052b4bd7370730524b82f67240f5e3848bff6240f8"
+        },
+        {
+          "path": "8-本轮实验/GPU同硬件全1000-20261108/验收结论.json",
+          "exists": true,
+          "sha256": "c5ea2ec03a819a1b99239bac201cac617cec30dfdfcebccde2a1d3ae1dadb4db"
+        },
+        {
+          "path": "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+          "exists": true,
+          "sha256": "d9dd9f9101a328ad3bca92d74315339ddd3c66825b974fb7d2fca9f13d8c5a8b"
+        },
+        {
+          "path": "7-审计与验收/GPU全量复跑与冻结封包-20261114/status.json",
+          "exists": true,
+          "sha256": "3271294713aaaa25f7dc1a5b548f4fcc7e599f4e8d00a7c137dc14f8357a4788"
+        }
+      ]
+    },
+    {
+      "id": "gpunumeric",
+      "lane": 2,
+      "title": "新宏绑定 GPU 全1000数值回归",
+      "status": "done",
+      "summary": "1000/1000 · 独立封存",
+      "detail": "100案例×10seed已独立封存；其他候选、物理身份与正式资格分别验收。 与旧SimX四组数据分开；不自动追认其余候选或老师原物理身份。",
+      "links": [
+        "8-本轮实验/GPU同硬件全1000-20261108/验收结论.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU同硬件全1000-20261108/验收结论.json",
+          "exists": true,
+          "sha256": "c5ea2ec03a819a1b99239bac201cac617cec30dfdfcebccde2a1d3ae1dadb4db"
+        }
+      ]
+    },
+    {
+      "id": "fullboard",
+      "lane": 4,
+      "title": "新同硬件完整候选对照板",
+      "status": "done",
+      "summary": "1000条独立封存",
+      "detail": "同硬件100案例×10seed候选对照板已独立封存；周期、流量与回退逐条留存。 官方冻结权重未提供，不计算官方加权收益；物理、PPA与正式晋升仍HOLD。",
+      "links": [
+        "8-本轮实验/GPU完整候选板-20261109/验收结论.json"
+      ],
+      "seconds": null,
+      "time_scope": "未记录完整制作耗时",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU完整候选板-20261109/验收结论.json",
+          "exists": true,
+          "sha256": "d9dd9f9101a328ad3bca92d74315339ddd3c66825b974fb7d2fca9f13d8c5a8b"
+        }
+      ]
+    },
+    {
+      "id": "ffpreflight",
+      "lane": 6,
+      "title": "新FF物理输入 / 四态与结构实测",
+      "status": "done",
+      "summary": "4形状 · 5326条 · 已独立封存",
+      "detail": "新FF物理输入：4种存储形状5326条四态检查及整机结构检查已独立封存；标准单元映射另有独立收据；布局布线、STA及功耗继续验收。原物理身份与PPA仍HOLD。 检查范围：未初始化X、写掩码、同址读写和输出保持，以及hierarchy/proc/check；不代表映射网表整机等价或PPA签核。",
+      "links": [
+        "8-本轮实验/GPU新物理入口实测-20261110-v2/验收结论.json"
+      ],
+      "seconds": 62.495333863997075,
+      "time_scope": "4种形状编译+四态运行+整机层级/进程检查实测墙钟；不含准备与失败尝试",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU新物理入口实测-20261110-v2/验收结论.json",
+          "exists": true,
+          "sha256": "628bc3df5cd3ce9091b7814ff535c60c41261dcdd3dd61bd205eb05b213f7204"
+        }
+      ]
+    },
+    {
+      "id": "ffmapping",
+      "lane": 6,
+      "title": "新FF标准单元映射 / 独立重读",
+      "status": "done",
+      "summary": "154.7万单元 · 21.096mm²综合面积",
+      "detail": "新FF标准单元映射已独立重读封存：1547376个单元、79种真实库单元，未解析叶单元为0；综合单元面积21.096mm²，属于代价测量。整机映射后等价、布局布线、STA和功耗仍待验，不代表PPA合格。",
+      "links": [
+        "8-本轮实验/GPU新FF标准单元映射-20261110-v2/验收结论.json"
+      ],
+      "seconds": 1296.0849621760008,
+      "time_scope": "成功映射1168.48秒+独立网表重读127.60秒；不含首次路径失败与人工准备",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU新FF标准单元映射-20261110-v2/验收结论.json",
+          "exists": true,
+          "sha256": "b1fddde6b4b6c4b8c6ef7e51cc01b34aac3affc4316d0d7babc215e203069236"
+        }
+      ]
+    },
+    {
+      "id": "ffsta",
+      "lane": 6,
+      "title": "整机FF综合后STA",
+      "status": "partial",
+      "summary": "10 ns目标 · setup裕量 −2121.78 ns",
+      "detail": "10 ns综合后STA已完成，setup最差裕量-2121.78 ns，hold最差裕量0.31 ns。最差setup路径从指令缓存寄存器进入FF存储写入逻辑。当前使用理想时钟和单元延迟，布线寄生与CTS待补，PPA保持HOLD。",
+      "links": [
+        "8-本轮实验/GPU新FF综合后STA-20261111-v5/status.json",
+        "8-本轮实验/GPU新FF综合后STA-20261111-v5/sta.log"
+      ],
+      "seconds": 51.042273791999996,
+      "time_scope": "固定网表单元延迟分析，含最差setup路径",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU新FF综合后STA-20261111-v5/status.json",
+          "exists": true,
+          "sha256": "0fb6c8fe81ff87266d2da9d2457c5d50fc04e6197bb1d2ad37b36e9913c84b80"
+        },
+        {
+          "path": "8-本轮实验/GPU新FF综合后STA-20261111-v5/sta.log",
+          "exists": true,
+          "sha256": "3fb67691035f58944a2239d13f7ba7ab2198ff574dca120b55d5da0610b3e11e"
+        }
+      ]
+    },
+    {
+      "id": "sramrtl",
+      "lane": 6,
+      "title": "SRAM包装与整机宏绑定",
+      "status": "partial",
+      "summary": "5326条四态事务 · 164个宏实例",
+      "detail": "4种SRAM包装通过5326条四态事务，整机Yosys层级和端口检查确认164个宏实例。事务使用半周期替代模型，层级检查绑定接口声明。两种公开宏的原版模型通过3624条事务，LEF端口、TT Liberty和GDS单元名均已核对。剩余两种宏、整机时序等价及物理签核待验。 两种新宏的 1,702 条四态事务通过。OpenROAD 已链接整机 164 个实宏；10 ns 布局前缓冲修复后 setup −11.95 ns，原为 −326.54 ns。FMA 候选路径 setup +1.58 ns，整机 −7.42 ns。新宏 DRC/LVS 仍有违规。",
+      "links": [
+        "8-本轮实验/GPU新SRAM整机绑定预检-20261111/status.json",
+        "8-本轮实验/GPU新SRAM包装四态预检-20261111/status.json",
+        "8-本轮实验/GPU公开SRAM原版模型预检-20261111/status.json",
+        "8-本轮实验/GPU公开SRAM轻量视图-20261111/view-check.json",
+        "8-本轮实验/GPU公开SRAM视图-20261111/gds-check.json",
+        "8-本轮实验/GPU公开实宏综合入口预检-20261112-v2/status.json",
+        "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-135027/8x128/layout-diagnostics/status.json",
+        "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/independent-check/status.json",
+        "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/openroad-four-views/status.json",
+        "8-本轮实验/GPU新实宏标准单元映射-20261112-221037/openroad-link/status.json",
+        "8-本轮实验/GPU新实宏标准单元映射-20261112-221037/openroad-prelayout-sta/status.json",
+        "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/20x64/recheck-magic-8.3.306/status.json",
+        "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/8x128/recheck-magic-8.3.306/status.json",
+        "8-本轮实验/GPU公开SRAM独立通道替代预检-20261112/status.json",
+        "8-本轮实验/GPU新实宏标准单元映射-20261112-221037/openroad-preplacement-repair/status.json",
+        "8-本轮实验/GPU-FMA候选实宏映射-20261112-224536/openroad-fma-cone/status.json",
+        "8-本轮实验/GPU-FMA候选实宏映射-20261112-224536/openroad-fma-timing/status.json"
+      ],
+      "seconds": 48.99059738200003,
+      "time_scope": "4形状仿真与整机层级/端口检查墙钟之和",
+      "human_time": null,
+      "evidence": [
+        {
+          "path": "8-本轮实验/GPU新SRAM整机绑定预检-20261111/status.json",
+          "exists": true,
+          "sha256": "8ed793e017b335be8c203acc836fd2de445ff26966494695e2e061b74d7e93e2"
+        },
+        {
+          "path": "8-本轮实验/GPU新SRAM包装四态预检-20261111/status.json",
+          "exists": true,
+          "sha256": "30490cbc1e548b179972b92b3406dc4c8d599b6d43493a7d64f76108f1a27a7e"
+        },
+        {
+          "path": "8-本轮实验/GPU公开SRAM原版模型预检-20261111/status.json",
+          "exists": true,
+          "sha256": "1848d915a9801212e38906a6cf1fd3e9ee881c9a1270b899d87576e4464cf34e"
+        },
+        {
+          "path": "8-本轮实验/GPU公开SRAM轻量视图-20261111/view-check.json",
+          "exists": true,
+          "sha256": "789610a9d6044bf79e2ac07752d21dc642e4e9292cc05d831f7652547f43f8c7"
+        },
+        {
+          "path": "8-本轮实验/GPU公开SRAM视图-20261111/gds-check.json",
+          "exists": true,
+          "sha256": "27c731cd226ed219d2d5ccaa2646f97f3c2174641da61027750d5011cc7ba3a5"
+        },
+        {
+          "path": "8-本轮实验/GPU公开实宏综合入口预检-20261112-v2/status.json",
+          "exists": true,
+          "sha256": "faf9093209e3f1eb8e78b8ef41c6e252834623966e4f88674de713fdfe941baf"
+        },
+        {
+          "path": "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-135027/8x128/layout-diagnostics/status.json",
+          "exists": true,
+          "sha256": "e3201dfe86b364683960bea83c3d389ebfd41eee2ecb46185db26e803b60d9ed"
+        },
+        {
+          "path": "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/independent-check/status.json",
+          "exists": true,
+          "sha256": "5fd9fa2f1507d0198934a77d23d0423ca6b2919b7cce61282e25ef862733cc01"
+        },
+        {
+          "path": "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/openroad-four-views/status.json",
+          "exists": true,
+          "sha256": "fd83765ff04bfc265cc4ebeb4cdaec937e9fe1b481c986d8a004b8c5a12e563b"
+        },
+        {
+          "path": "8-本轮实验/GPU新实宏标准单元映射-20261112-221037/openroad-link/status.json",
+          "exists": true,
+          "sha256": "b4a36d16154b253038f52d4c6cbe4a4dc04e30f4975739002a766c9034241cf9"
+        },
+        {
+          "path": "8-本轮实验/GPU新实宏标准单元映射-20261112-221037/openroad-prelayout-sta/status.json",
+          "exists": true,
+          "sha256": "dfa981558eebb4350fa6eb5dd1ab1524f2b301f4728711d703a0d85e06eeb225"
+        },
+        {
+          "path": "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/20x64/recheck-magic-8.3.306/status.json",
+          "exists": true,
+          "sha256": "44740f79c804131b93b3c37f350ad4bc677929acd64b77b56a44019b880d2289"
+        },
+        {
+          "path": "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/8x128/recheck-magic-8.3.306/status.json",
+          "exists": true,
+          "sha256": "e6c775a01e9fb404feb4eabcb881f652c0a8a9c7c2b7af4579263680dccc3af4"
+        },
+        {
+          "path": "8-本轮实验/GPU公开SRAM独立通道替代预检-20261112/status.json",
+          "exists": true,
+          "sha256": "7a93254dd82f168aa1186e9d4fb767179c255ece3deac2e0079e4dff0965be97"
+        },
+        {
+          "path": "8-本轮实验/GPU新实宏标准单元映射-20261112-221037/openroad-preplacement-repair/status.json",
+          "exists": true,
+          "sha256": "ed1796c0a253833a5b579eaa18504ba659adaa65c9ad716f369951742aed5597"
+        },
+        {
+          "path": "8-本轮实验/GPU-FMA候选实宏映射-20261112-224536/openroad-fma-cone/status.json",
+          "exists": true,
+          "sha256": "46e24a6ada3ce8d399d63c311c65eb3b2afb3a22b55937f714ea83dc4cbe344f"
+        },
+        {
+          "path": "8-本轮实验/GPU-FMA候选实宏映射-20261112-224536/openroad-fma-timing/status.json",
+          "exists": true,
+          "sha256": "e97af7ff3d7ef8dfd771fc0a8c16956b1238cd6e360e8a38d8b033c0fe04da47"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    [
+      "contract",
+      "freeze"
+    ],
+    [
+      "contract",
+      "model"
+    ],
+    [
+      "contract",
+      "lock"
+    ],
+    [
+      "contract",
+      "review"
+    ],
+    [
+      "reference",
+      "freeze"
+    ],
+    [
+      "reference",
+      "physical"
+    ],
+    [
+      "reference",
+      "audit"
+    ],
+    [
+      "stack",
+      "cpu"
+    ],
+    [
+      "stack",
+      "simx"
+    ],
+    [
+      "stack",
+      "rtlbuild"
+    ],
+    [
+      "stack",
+      "lock"
+    ],
+    [
+      "freeze",
+      "cpu"
+    ],
+    [
+      "freeze",
+      "simx"
+    ],
+    [
+      "freeze",
+      "adapter"
+    ],
+    [
+      "model",
+      "ablation"
+    ],
+    [
+      "model",
+      "chat"
+    ],
+    [
+      "lock",
+      "adapter"
+    ],
+    [
+      "lock",
+      "promote"
+    ],
+    [
+      "cpu",
+      "topk"
+    ],
+    [
+      "cpu",
+      "rne"
+    ],
+    [
+      "cpu",
+      "ablation"
+    ],
+    [
+      "simx",
+      "gpuprobe"
+    ],
+    [
+      "simx",
+      "chat"
+    ],
+    [
+      "rtlbuild",
+      "gpuprobe"
+    ],
+    [
+      "rtlbuild",
+      "adapter"
+    ],
+    [
+      "topk",
+      "fallback"
+    ],
+    [
+      "topk",
+      "ablation"
+    ],
+    [
+      "topk",
+      "gpuprobe"
+    ],
+    [
+      "rne",
+      "ablation"
+    ],
+    [
+      "rne",
+      "gpuprobe"
+    ],
+    [
+      "fallback",
+      "repeat"
+    ],
+    [
+      "fallback",
+      "review"
+    ],
+    [
+      "ablation",
+      "repeat"
+    ],
+    [
+      "ablation",
+      "promote"
+    ],
+    [
+      "gpuprobe",
+      "promote"
+    ],
+    [
+      "repeat",
+      "promote"
+    ],
+    [
+      "repeat",
+      "audit"
+    ],
+    [
+      "chat",
+      "review"
+    ],
+    [
+      "adapter",
+      "mutation"
+    ],
+    [
+      "adapter",
+      "dma"
+    ],
+    [
+      "adapter",
+      "formal"
+    ],
+    [
+      "mutation",
+      "promote"
+    ],
+    [
+      "dma",
+      "promote"
+    ],
+    [
+      "formal",
+      "promote"
+    ],
+    [
+      "physical",
+      "promote"
+    ],
+    [
+      "resources",
+      "promote"
+    ],
+    [
+      "promote",
+      "delivery"
+    ],
+    [
+      "audit",
+      "review"
+    ],
+    [
+      "review",
+      "delivery"
+    ],
+    [
+      "freeze",
+      "gpunumeric"
+    ],
+    [
+      "dma",
+      "gpunumeric"
+    ],
+    [
+      "gpunumeric",
+      "fullboard"
+    ],
+    [
+      "gpuprobe",
+      "fullboard"
+    ],
+    [
+      "fullboard",
+      "promote"
+    ],
+    [
+      "dma",
+      "ffpreflight"
+    ],
+    [
+      "ffpreflight",
+      "physical"
+    ],
+    [
+      "ffpreflight",
+      "resources"
+    ],
+    [
+      "ffpreflight",
+      "promote"
+    ],
+    [
+      "ffpreflight",
+      "ffmapping"
+    ],
+    [
+      "ffmapping",
+      "physical"
+    ],
+    [
+      "ffmapping",
+      "resources"
+    ],
+    [
+      "ffmapping",
+      "promote"
+    ],
+    [
+      "ffmapping",
+      "ffsta"
+    ],
+    [
+      "ffsta",
+      "sramrtl"
+    ],
+    [
+      "sramrtl",
+      "physical"
+    ],
+    [
+      "sramrtl",
+      "resources"
+    ]
+  ],
+  "lanes": [
+    "资料与合同",
+    "冻结与环境",
+    "双后端基线",
+    "优化与修补",
+    "目标端实测",
+    "协议与故障",
+    "资格与门槛",
+    "证据与交付"
+  ],
+  "timings": [
+    {
+      "id": "lock",
+      "label": "锁定环境与版本审计",
+      "seconds": 304.04610341800014,
+      "scope": "成功安装的4阶段墙钟和；不含此前失败与等待",
+      "source": "9-GPU复现/locked-verilator-5.040/status.json"
+    },
+    {
+      "id": "cpu",
+      "label": "CPU 标量算子 / RTL",
+      "seconds": 964.585044401,
+      "scope": "单次 baseline 构建+执行；其中构建 856.5 s",
+      "source": "8-本轮实验/20261029T053512179194Z-cpu-baseline/completion.json"
+    },
+    {
+      "id": "simx",
+      "label": "GPU 四组算子 / SimX",
+      "seconds": 76.50434410899993,
+      "scope": "一次 baseline 已构建后的直接执行",
+      "source": "8-本轮实验/全100案例双后端-20261104T134332Z/gpu-simx/status-runtime-confirmed.json"
+    },
+    {
+      "id": "rtlbuild",
+      "label": "GPU 开发 RTLSIM 构建",
+      "seconds": 1094.2322702019999,
+      "scope": "一次开发 RTL 仿真器构建",
+      "source": "9-GPU复现/rtlsim-optimization/status.json"
+    },
+    {
+      "id": "topk",
+      "label": "P1 Top-K 算子优化",
+      "seconds": 1129.512077843,
+      "scope": "一次 CPU 标量 Top-K 构建+执行；其中构建 1015.6 s",
+      "source": "8-本轮实验/20261029T055241769167Z-cpu-topk/completion.json"
+    },
+    {
+      "id": "gpuprobe",
+      "label": "GPU RTL 四组探针",
+      "seconds": 947.3462589070002,
+      "scope": "新16对照+8分派控制墙钟；不含旧5.050对照、首次验证器失败或人工耗时",
+      "source": "8-本轮实验/GPU锁定硬件四组候选-20261109/验收结论.json"
+    },
+    {
+      "id": "chat",
+      "label": "CPU / GPU 提问与模型边界",
+      "seconds": 2280.4454010259997,
+      "scope": "GPU12题全流程+本次CPU恢复5题流程；不含迁移前CPU7题，非双端完整总工时",
+      "source": "2-CPU算子与Nano复现"
+    },
+    {
+      "id": "adapter",
+      "label": "GPU 适配器 / 背压 / 恢复",
+      "seconds": 4154.224776911001,
+      "scope": "120局部探针编译运行+90条整机协议逐条墙钟和；不含整机构建，不当作项目历时",
+      "source": "8-本轮实验/GPU整机协议-20261108/验收结论.json"
+    },
+    {
+      "id": "mutation",
+      "label": "协议测试灵敏度 / 突变",
+      "seconds": 2.8543816619999234,
+      "scope": "修正后Icarus正常版与8个突变，9轮墙钟和",
+      "source": "8-本轮实验/GPU适配器突变-20261107/completion.json"
+    },
+    {
+      "id": "dma",
+      "label": "整机 DMA 三个故障案例",
+      "seconds": 407.25142038199965,
+      "scope": "新重建边界30条DMA+3条正常控制的33次运行墙钟和",
+      "source": "9-GPU复现/整机DMA重建/验收报告.md"
+    },
+    {
+      "id": "formal",
+      "label": "适配器形式验证",
+      "seconds": 75.72899782299999,
+      "scope": "两项局部归纳与原组合协议门成功选中运行墙钟和；不含早期失败",
+      "source": "8-本轮实验/GPU原协议门-20261108/smt32/completion.json"
+    },
+    {
+      "id": "delivery",
+      "label": "当前交付状态",
+      "seconds": 681.30762064,
+      "scope": "新目录12题CPU实跑墙钟；不含独立入口单题、封包或人工耗时",
+      "source": "8-本轮实验/NanoCPU可搬移运行包-20261109/completion.json"
+    },
+    {
+      "id": "ffpreflight",
+      "label": "新FF物理输入 / 四态与结构实测",
+      "seconds": 62.495333863997075,
+      "scope": "4种形状编译+四态运行+整机层级/进程检查实测墙钟；不含准备与失败尝试",
+      "source": "8-本轮实验/GPU新物理入口实测-20261110-v2/验收结论.json"
+    },
+    {
+      "id": "ffmapping",
+      "label": "新FF标准单元映射 / 独立重读",
+      "seconds": 1296.0849621760008,
+      "scope": "成功映射1168.48秒+独立网表重读127.60秒；不含首次路径失败与人工准备",
+      "source": "8-本轮实验/GPU新FF标准单元映射-20261110-v2/验收结论.json"
+    },
+    {
+      "id": "ffsta",
+      "label": "整机FF综合后STA",
+      "seconds": 51.042273791999996,
+      "scope": "固定网表单元延迟分析，含最差setup路径",
+      "source": "8-本轮实验/GPU新FF综合后STA-20261111-v5/status.json"
+    },
+    {
+      "id": "sramrtl",
+      "label": "SRAM包装与整机宏绑定",
+      "seconds": 48.99059738200003,
+      "scope": "4形状仿真与整机层级/端口检查墙钟之和",
+      "source": "8-本轮实验/GPU新SRAM整机绑定预检-20261111/status.json"
+    },
+    {
+      "id": "cpu",
+      "label": "CPU 1000条重新执行",
+      "seconds": 116.442231703,
+      "scope": "缓存构建后的另一次独立执行",
+      "source": "8-本轮实验/全100案例双后端-20261104T134532Z/cpu-rtl/status.json"
+    }
+  ],
+  "total_recorded_seconds": 13693.094096240999,
+  "timing_note": "仅为下列互不重复的已记录运行墙钟之和，不是整个项目耗时；不包含人工、未记录实验或失败尝试。"
+}

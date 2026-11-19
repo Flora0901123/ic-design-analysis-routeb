@@ -1,0 +1,240 @@
+{
+  "status": "INCOMPLETE_EVIDENCE",
+  "rubric_supported_tier": 0,
+  "teacher_score": null,
+  "candidate": "CPU-P1-A1-selection-topk",
+  "gates": {
+    "source_direct_parent": "PASS_PATCH_APPLIED_WITHOUT_FUZZ_AND_MATCHED_BYTE_FOR_BYTE",
+    "formal_parent_eligible": false,
+    "same_frozen_input": true,
+    "same_physical_identity_proven": false,
+    "teacher_frozen_performance_weights": "NOT_FOUND",
+    "candidate_protocol_formal_mutation": "WISHBONE_BRIDGE_BOUNDED_PASS_FULL_SOC_PROTOCOL_UNBOUND",
+    "candidate_routed_10ns_and_activity_power": "UNBOUND",
+    "rtl_sim_rom_words": {
+      "parent": 10478,
+      "candidate": 10492
+    }
+  },
+  "exploratory_statistics": {
+    "p1": {
+      "records": 330,
+      "equal_weight_exploratory_speedup_percent": 7.398236517758802,
+      "slower_records": 1,
+      "over_5pct_regressions": 0,
+      "worst_case": {
+        "case": "P1-MINI-25",
+        "seed": 1,
+        "operator": "p1",
+        "expected_status": "NUMERIC_ERROR",
+        "cycles_parent": 1375,
+        "cycles_candidate": 1380,
+        "instructions_parent": 591,
+        "instructions_candidate": 591,
+        "ibus_bytes_parent": 736,
+        "ibus_bytes_candidate": 768,
+        "dbus_bytes_parent": 248,
+        "dbus_bytes_candidate": 248,
+        "dma_bytes_parent": 0,
+        "dma_bytes_candidate": 0
+      },
+      "worst_cycle_change_percent": 0.363636363636366
+    },
+    "p2": {
+      "records": 340,
+      "equal_weight_exploratory_speedup_percent": 6.215187194769998,
+      "slower_records": 1,
+      "over_5pct_regressions": 0,
+      "worst_case": {
+        "case": "P2-MINI-25",
+        "seed": 1,
+        "operator": "p2",
+        "expected_status": "NUMERIC_ERROR",
+        "cycles_parent": 1388,
+        "cycles_candidate": 1411,
+        "instructions_parent": 593,
+        "instructions_candidate": 593,
+        "ibus_bytes_parent": 768,
+        "ibus_bytes_candidate": 800,
+        "dbus_bytes_parent": 248,
+        "dbus_bytes_candidate": 248,
+        "dma_bytes_parent": 0,
+        "dma_bytes_candidate": 0
+      },
+      "worst_cycle_change_percent": 1.6570605187319787
+    },
+    "p3": {
+      "records": 330,
+      "equal_weight_exploratory_speedup_percent": 3.539986220418511,
+      "slower_records": 1,
+      "over_5pct_regressions": 0,
+      "worst_case": {
+        "case": "P3-MINI-20",
+        "seed": 6,
+        "operator": "p3",
+        "expected_status": "OK",
+        "cycles_parent": 106709,
+        "cycles_candidate": 107933,
+        "instructions_parent": 50156,
+        "instructions_candidate": 50156,
+        "ibus_bytes_parent": 47968,
+        "ibus_bytes_candidate": 42912,
+        "dbus_bytes_parent": 12756,
+        "dbus_bytes_candidate": 18868,
+        "dma_bytes_parent": 0,
+        "dma_bytes_candidate": 0
+      },
+      "worst_cycle_change_percent": 1.1470447666082517
+    },
+    "all": {
+      "records": 1000,
+      "equal_weight_exploratory_speedup_percent": 5.710513860701493,
+      "slower_records": 3,
+      "over_5pct_regressions": 0,
+      "worst_case": {
+        "case": "P2-MINI-25",
+        "seed": 1,
+        "operator": "p2",
+        "expected_status": "NUMERIC_ERROR",
+        "cycles_parent": 1388,
+        "cycles_candidate": 1411,
+        "instructions_parent": 593,
+        "instructions_candidate": 593,
+        "ibus_bytes_parent": 768,
+        "ibus_bytes_candidate": 800,
+        "dbus_bytes_parent": 248,
+        "dbus_bytes_candidate": 248,
+        "dma_bytes_parent": 0,
+        "dma_bytes_candidate": 0
+      },
+      "worst_cycle_change_percent": 1.6570605187319787
+    }
+  },
+  "replay_receipts": {
+    "parent": {
+      "path": "8-本轮实验/CPU-promotion-audit/parent/replay.json",
+      "sha256": "9b7b47db3ca927e7bee5f01bed0439a0d24bdf955ef84eebdff30c251b9beae4"
+    },
+    "candidate": {
+      "path": "8-本轮实验/CPU-promotion-audit/candidate/replay.json",
+      "sha256": "79d797381f2cf26319634ab780054a49bdc58b5b2b4e71c6ccfeb8d3540787df"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "8-本轮实验/20261029T053512179194Z-cpu-baseline/status.json",
+      "sha256": "3446f2c1db6dcb6b4a099d42808a1b1d9d4cf76f03b078404449bbdd134d2734"
+    },
+    {
+      "path": "8-本轮实验/20261029T053512179194Z-cpu-baseline/student_mini_scalar.c",
+      "sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f"
+    },
+    {
+      "path": "8-本轮实验/20261029T053512179194Z-cpu-baseline/completion.json",
+      "sha256": "0e70a24884580820689f1e08d014c898950504279a11dbd2f5f50a957dffa724"
+    },
+    {
+      "path": "8-本轮实验/20261029T053512179194Z-cpu-baseline/console.log",
+      "sha256": "d45ea0410b82c20a18b25c3328131cd220baa256ccacc28b1b6e728786b67986"
+    },
+    {
+      "path": "8-本轮实验/20261029T053512179194Z-cpu-baseline/official-numeric-report.json",
+      "sha256": "2f9782d5a0168999798c5a8598b053dd90d4739402b4fc92484e47ac4db43c68"
+    },
+    {
+      "path": "8-本轮实验/20261029T055241769167Z-cpu-topk/status.json",
+      "sha256": "0ae4fdffa3ae8763a24830b21fa8ee80a78198723d21e8a27a128031511f10ae"
+    },
+    {
+      "path": "8-本轮实验/20261029T055241769167Z-cpu-topk/student_mini_scalar.c",
+      "sha256": "729eb4aeabdab2d3ad1302eddfc46264ff4419f04c09c033c85d36f253152ee1"
+    },
+    {
+      "path": "8-本轮实验/20261029T055241769167Z-cpu-topk/completion.json",
+      "sha256": "30181cfb32c9f5aef48e8552d99c5727d6d70b2b0bc4be5b5e4fde57b05e88f5"
+    },
+    {
+      "path": "8-本轮实验/20261029T055241769167Z-cpu-topk/console.log",
+      "sha256": "a6b2cf5a4bbb34ca79256376baf9e29b3e093863dde6163a63694f8ce815b0fe"
+    },
+    {
+      "path": "8-本轮实验/20261029T055241769167Z-cpu-topk/official-numeric-report.json",
+      "sha256": "551720b7adba3475893e5bd09d1bf5cbbd921ab2dc21b26611c50c786190a3f9"
+    },
+    {
+      "path": "student-mini-v1-cpu-gpu/data/golden/vectors.jsonl",
+      "sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974"
+    },
+    {
+      "path": "8-本轮实验/20261029T055241769167Z-cpu-topk/source.diff",
+      "sha256": "065466daada6e0719cf51c9ff6e25fe4c08df57b0d94f363c4ed7fc40106f22b"
+    },
+    {
+      "path": "8-本轮实验/CPU-promotion-audit/paired-cycles.json",
+      "sha256": "ca1c795723819a7dd02d2c9005a27a61ffaaca669f919defab9a1b8d5c409766"
+    }
+  ],
+  "input_binary_sha256": "baafeaeb6b75e03a6df72a6841d043140154d74bfcbede6011eaf69948c83bf6",
+  "variant_artifact_hashes": {
+    "parent": {
+      "soc/software/bios/bios.bin": "1e0e121856f1b88647c5cd6dad93176db116d2ec98b6eff4b947a3c9bff83694",
+      "soc/gateware/obj_dir/Vsim": "9b7507d3273d78ae4039e3603d73427b62456ddfbb4a9608fc62ad82e12976d1",
+      "soc/gateware/sim.v": "4ee3f961e62b826573e195d39ba7e0d73dcd8c2a05b1fdcb94a2b615706c1532"
+    },
+    "candidate": {
+      "soc/software/bios/bios.bin": "cf0449fcb91ba28d4591e236fea090f07c5a1ec67851550c8b097f1032408db4",
+      "soc/gateware/obj_dir/Vsim": "2efbcdca519bbf362fb819df2167d598449fe65530a16f1a7ccddd65ec418785",
+      "soc/gateware/sim.v": "b613fe0af4dcb226b1c17fac34adaa9a6e898b9137dbb10845f58dfa66cf157b"
+    }
+  },
+  "target_gateware_difference": {
+    "path": "8-本轮实验/CPU-promotion-audit/target-gateware.diff",
+    "sha256": "b87eb9e9635fc00993644db2a030999d7e4939a7fd26cbd1689c73820d4d6d99"
+  },
+  "ranking_equivalence": {
+    "path": "8-本轮实验/CPU-promotion-audit/topk_order_equivalence.json",
+    "sha256": "3886789370665fe82b546425670c1e703df24147903dd27fc098446cf4056744"
+  },
+  "followup_20261115": {
+    "same_simulator": {
+      "path": "8-本轮实验/CPU-shared-ROM-qualification-20261115-154813/status.json",
+      "sha256": "90ef275b595f51d0a769350556c02b19164b8c6096619a43c0865a0421f048ca"
+    },
+    "wishbone_formal": {
+      "path": "8-本轮实验/CPU-Wishbone-formal-20261115-155408/status.json",
+      "sha256": "12ad2dd3861d9f7f45d4bad4841ee4482d0090440fa2e78a69a6e77f048fccbe"
+    },
+    "wishbone_variant_binding": {
+      "path": "8-本轮实验/CPU-promotion-audit/wishbone-variant-binding.json",
+      "sha256": "13bdb87625ae75551f402d43b0c3b3c4ef4eea603ec24beb634fdaf34825c9e9"
+    },
+    "physical_parent_identity": {
+      "path": "8-本轮实验/CPU-promotion-audit/physical-parent-identity.json",
+      "sha256": "698b688cbf5369b73e0a22d9a1242697cd5f8a8ebaa9d7472bc05e9a64636fcd"
+    },
+    "rom_bank_identity": {
+      "path": "8-本轮实验/CPU-promotion-audit/rom-bank-identity.json",
+      "sha256": "b4362bca815061f90455dd292ced685b24442db2b4c91ef0c7ebb40aef8d17f8"
+    },
+    "mapped_rom_banks": {
+      "path": "8-本轮实验/CPU-promotion-audit/ROM-sky130hd-all-banks/status.json",
+      "sha256": "46a981a8ed983c54988dc3543aa37abd13d1b547d572ced015aae7fc59454e8c"
+    },
+    "bank0_gate_replay": {
+      "path": "8-本轮实验/CPU-promotion-audit/ROM-bank-rebuild-preflight-155439/bank0-equivalence.json",
+      "sha256": "37b794697eda1c7e8ec25861feb43a84594425da3d61e1aa7a85e1e67568064c"
+    },
+    "all_bank_gate_replay": {
+      "path": "8-本轮实验/CPU-promotion-audit/ROM-all-banks-gate-replay/status.json",
+      "sha256": "26eb8d31bc808fdbfdac19481150dcd5a650556167ab01c6b76e93a59fc8621f"
+    },
+    "bank0_route": {
+      "path": "8-本轮实验/CPU-promotion-audit/ROM-bank0-openroad/status.json",
+      "sha256": "6b0c5c8af1008dadc350c57e5affd96bcf20574bb5c060e13949f3060bcaf4db"
+    },
+    "bank0_route_timeout": {
+      "path": "8-本轮实验/CPU-promotion-audit/ROM-bank0-openroad-tie/timeout-receipt.json",
+      "sha256": "4a86b7923a547e160c779bd77d5c44c4b4c2af31b57869105f81b406fcdbc562"
+    }
+  }
+}

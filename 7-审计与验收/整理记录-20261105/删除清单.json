@@ -1,0 +1,153 @@
+[
+  {
+    "path": "9-GPU复现/chipstar.joined.tar.bz2",
+    "bytes": 13212921,
+    "sha256": "77f35070a3982ef1ce584d8283ffd3cb38c155572a02863f7e636759e8e6d05d",
+    "reason": "已解压且与保留下载分片逐字节相同的合并缓存",
+    "rebuild": "WSL: python3 9-GPU复现/extract_tools.py；已有解压标记会跳过，重新解压时可由保留分片合并生成"
+  },
+  {
+    "path": "9-GPU复现/libc32.joined.tar.bz2",
+    "bytes": 841452,
+    "sha256": "b7c8dfb18443db801f87520664a90e658552934de073c6bf2d69866f62d0e079",
+    "reason": "已解压且与保留下载分片逐字节相同的合并缓存",
+    "rebuild": "WSL: python3 9-GPU复现/extract_tools.py；已有解压标记会跳过，重新解压时可由保留分片合并生成"
+  },
+  {
+    "path": "9-GPU复现/libcrt32.joined.tar.bz2",
+    "bytes": 74000,
+    "sha256": "305c7f3703c3ea8137fac465486d726b66b8a178ffb0a6793d12946da8ee5855",
+    "reason": "已解压且与保留下载分片逐字节相同的合并缓存",
+    "rebuild": "WSL: python3 9-GPU复现/extract_tools.py；已有解压标记会跳过，重新解压时可由保留分片合并生成"
+  },
+  {
+    "path": "9-GPU复现/llvm-vortex.joined.tar.bz2",
+    "bytes": 108645998,
+    "sha256": "f697a472e83b88a0137ed615d582dcfc729bb738901ed217166e546946393f69",
+    "reason": "已解压且与保留下载分片逐字节相同的合并缓存",
+    "rebuild": "WSL: python3 9-GPU复现/extract_tools.py；已有解压标记会跳过，重新解压时可由保留分片合并生成"
+  },
+  {
+    "path": "9-GPU复现/pocl.joined.tar.bz2",
+    "bytes": 4259368,
+    "sha256": "07182b08f49f678de40f30d9969e8a8bfda6ad9ba9a639a9f8c4a9ac4dc19061",
+    "reason": "已解压且与保留下载分片逐字节相同的合并缓存",
+    "rebuild": "WSL: python3 9-GPU复现/extract_tools.py；已有解压标记会跳过，重新解压时可由保留分片合并生成"
+  },
+  {
+    "path": "9-GPU复现/riscv32-gnu-toolchain.joined.tar.bz2",
+    "bytes": 535298801,
+    "sha256": "f66a58eac53c02334b08a9f386942b394efd315c9bb990e5acda9d5f5fcb800b",
+    "reason": "已解压且与保留下载分片逐字节相同的合并缓存",
+    "rebuild": "WSL: python3 9-GPU复现/extract_tools.py；已有解压标记会跳过，重新解压时可由保留分片合并生成"
+  },
+  {
+    "path": "9-GPU复现/verilator.joined.tar.bz2",
+    "bytes": 113881095,
+    "sha256": "5ecd02218ea0e2d4d63c3b3ecf349200f2fde273a75fbe6717142d94444ae0dd",
+    "reason": "已解压且与保留下载分片逐字节相同的合并缓存",
+    "rebuild": "WSL: python3 9-GPU复现/extract_tools.py；已有解压标记会跳过，重新解压时可由保留分片合并生成"
+  },
+  {
+    "path": "3-优化链-P1/__pycache__/optimize_p1.cpython-312.pyc",
+    "bytes": 13490,
+    "sha256": "83c6bbe45083050a974a96933967af05f1d1b32d49e4aa1567389e3c9a5b698f",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/scripts/__pycache__/assemble_student_mini_cpu_results.cpython-312.pyc",
+    "bytes": 14334,
+    "sha256": "1ce76e10cf06027bd3b364b91a1d292d8afc1763c8dfeccf352ed36506ad89d4",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/scripts/__pycache__/assemble_student_mini_gpu_results.cpython-312.pyc",
+    "bytes": 12657,
+    "sha256": "0b5747aa4330928038f957498b7f91afc90d273c2170c222924a3fd83a737a6e",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/scripts/__pycache__/export_student_mini_input.cpython-312.pyc",
+    "bytes": 8030,
+    "sha256": "8b603deeae765a9bff9f123d0591c1fc4be2f5a27c43fd367ce1b9cdb98bd17d",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/scripts/__pycache__/export_student_mini_native_image.cpython-312.pyc",
+    "bytes": 13655,
+    "sha256": "f667ddc713599ac2af97578645157c132636ad3673c6657831ca30c37576be79",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/scripts/__pycache__/preflight_student_mini_native_nano.cpython-312.pyc",
+    "bytes": 11959,
+    "sha256": "fba539cf2c7b016a26f78abb1d6a3515d448b2cf133a3b64ce2bbeb9649c3bc9",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/scripts/__pycache__/prepare_student_mini_gpu.cpython-312.pyc",
+    "bytes": 6268,
+    "sha256": "6f1cd30a28744f8f11d89da39c9c15e386a23d1186df053ab460a825235867fa",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/scripts/__pycache__/student_mini.cpython-312.pyc",
+    "bytes": 17612,
+    "sha256": "9ede39e030bb71c03d5faa54e444450d4e9d018944ddfaf4e3b262e188e58dc2",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/shared/python/soc_ai_labs/__pycache__/deepseek_v32.cpython-312.pyc",
+    "bytes": 585,
+    "sha256": "cc2e4d98c264156cf07391b2909590b4a08694f093a44bb2c0d5090b6036c8b7",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/shared/python/soc_ai_labs/__pycache__/dsa.cpython-312.pyc",
+    "bytes": 2874,
+    "sha256": "eefa446e469a79992fb0c2c45e0b2e06d27a4408b54396d98f30f7781eb0aee0",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/shared/python/soc_ai_labs/__pycache__/litex_contract.cpython-312.pyc",
+    "bytes": 7629,
+    "sha256": "2c9a90f16b487b1ff46f509df35b97a141476d4ab5c3a7074eeb5663349db823",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/shared/python/soc_ai_labs/__pycache__/nano_chat_runtime.cpython-312.pyc",
+    "bytes": 40293,
+    "sha256": "0fc02db264b509ef612739919e447dc0beead1912f7b54786823289fa67a6226",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/shared/python/soc_ai_labs/__pycache__/numeric.cpython-312.pyc",
+    "bytes": 4464,
+    "sha256": "9d2c7e48ba9be06bec2ff4180513a93188456504be00c5ca5aada49df878308c",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/shared/python/soc_ai_labs/__pycache__/rtl_oracle.cpython-312.pyc",
+    "bytes": 24339,
+    "sha256": "5034d8b02199beb210a016741fcbe332a12acf8240cac2a230b315a61147d04c",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/shared/python/soc_ai_labs/__pycache__/student_mini_nano_runtime.cpython-312.pyc",
+    "bytes": 7885,
+    "sha256": "d424021c030f223e6a4d9aa8fa21c9840cdc4384570e5744aa4d4664a7cfb1eb",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "student-mini-v1-cpu-gpu/sources/shared/python/soc_ai_labs/__pycache__/tiny_model.cpython-312.pyc",
+    "bytes": 33437,
+    "sha256": "91354fc0dda64e4221b905a2db38a9ded80716e9253ce9b1d9eeffa40324c60f",
+    "reason": "可由保留Python源码自动再生成的字节码缓存"
+  },
+  {
+    "path": "7-审计与验收/成果页脚本校验.js",
+    "bytes": 5577,
+    "sha256": "90a9c9826d69aab340aae3bda6347767bcb3f8b649db71b9173ab63b16080a49",
+    "reason": "与保留HTML内联脚本相同的临时语法校验副本"
+  }
+]

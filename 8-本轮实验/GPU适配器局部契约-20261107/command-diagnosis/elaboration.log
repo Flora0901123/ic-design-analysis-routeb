@@ -1,0 +1,497 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.33 (git sha1 2584903a060)
+
+
+-- Running command `read -formal -sv adapter.sv contract.sv; prep -top cmd_contract -flatten; write_json design.json' --
+
+1. Executing Verilog-2005 frontend: adapter.sv
+Parsing formal SystemVerilog input from `adapter.sv' to AST representation.
+Storing AST representation for module `$abstract\gpu_status_command_adapter'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: contract.sv
+Parsing formal SystemVerilog input from `contract.sv' to AST representation.
+Storing AST representation for module `$abstract\mem_contract'.
+Storing AST representation for module `$abstract\cmd_contract'.
+Successfully finished Verilog frontend.
+
+3. Executing PREP pass.
+
+3.1. Executing HIERARCHY pass (managing design hierarchy).
+
+3.2. Executing AST frontend in derive mode using pre-parsed AST for module `\cmd_contract'.
+Generating RTLIL representation for module `\cmd_contract'.
+
+3.2.1. Analyzing design hierarchy..
+Top module:  \cmd_contract
+
+3.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\gpu_status_command_adapter'.
+Generating RTLIL representation for module `\gpu_status_command_adapter'.
+
+3.2.3. Analyzing design hierarchy..
+Top module:  \cmd_contract
+Used module:     \gpu_status_command_adapter
+
+3.2.4. Analyzing design hierarchy..
+Top module:  \cmd_contract
+Used module:     \gpu_status_command_adapter
+Removing unused module `$abstract\cmd_contract'.
+Removing unused module `$abstract\mem_contract'.
+Removing unused module `$abstract\gpu_status_command_adapter'.
+Removed 3 unused modules.
+Module cmd_contract directly or indirectly contains formal properties -> setting "keep" attribute.
+
+3.3. Executing PROC pass (convert processes to netlists).
+
+3.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$contract.sv:38$44 in module cmd_contract.
+Removed 1 dead cases from process $proc$adapter.sv:47$218 in module gpu_status_command_adapter.
+Marked 4 switch rules as full_case in process $proc$adapter.sv:47$218 in module gpu_status_command_adapter.
+Removed a total of 1 dead cases.
+
+3.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 2 redundant assignments.
+Promoted 44 assignments to connections.
+
+3.3.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `\cmd_contract.$proc$contract.sv:0$209'.
+  Set init value: $formal$contract.sv:54$32_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$207'.
+  Set init value: $formal$contract.sv:51$31_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$205'.
+  Set init value: $formal$contract.sv:51$30_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$203'.
+  Set init value: $formal$contract.sv:50$29_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$201'.
+  Set init value: $formal$contract.sv:49$28_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$199'.
+  Set init value: $formal$contract.sv:48$27_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$197'.
+  Set init value: $formal$contract.sv:47$26_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$195'.
+  Set init value: $formal$contract.sv:47$25_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$193'.
+  Set init value: $formal$contract.sv:47$24_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$191'.
+  Set init value: $formal$contract.sv:46$23_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$189'.
+  Set init value: $formal$contract.sv:46$22_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$187'.
+  Set init value: $formal$contract.sv:46$21_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$185'.
+  Set init value: $formal$contract.sv:44$20_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$183'.
+  Set init value: $formal$contract.sv:44$19_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$181'.
+  Set init value: $formal$contract.sv:44$18_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$179'.
+  Set init value: $formal$contract.sv:42$17_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:0$177'.
+  Set init value: $formal$contract.sv:40$16_EN = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:37$176'.
+  Set init value: \ppv = 1'0
+Found init rule in `\cmd_contract.$proc$contract.sv:37$175'.
+  Set init value: \pv = 1'0
+
+3.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+3.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~18 debug messages>
+
+3.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$209'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$207'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$205'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$203'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$201'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$199'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$197'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$195'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$193'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$191'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$189'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$187'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$185'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$183'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$181'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$179'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:0$177'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:37$176'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:37$175'.
+Creating decoders for process `\cmd_contract.$proc$contract.sv:38$44'.
+     1/34: $0$formal$contract.sv:40$16_EN[0:0]$65
+     2/34: $0$formal$contract.sv:40$16_CHECK[0:0]$64
+     3/34: $0$formal$contract.sv:42$17_EN[0:0]$67
+     4/34: $0$formal$contract.sv:42$17_CHECK[0:0]$66
+     5/34: $0$formal$contract.sv:44$18_EN[0:0]$69
+     6/34: $0$formal$contract.sv:44$18_CHECK[0:0]$68
+     7/34: $0$formal$contract.sv:44$19_EN[0:0]$71
+     8/34: $0$formal$contract.sv:44$19_CHECK[0:0]$70
+     9/34: $0$formal$contract.sv:44$20_EN[0:0]$73
+    10/34: $0$formal$contract.sv:44$20_CHECK[0:0]$72
+    11/34: $0$formal$contract.sv:46$21_EN[0:0]$75
+    12/34: $0$formal$contract.sv:46$21_CHECK[0:0]$74
+    13/34: $0$formal$contract.sv:46$22_EN[0:0]$77
+    14/34: $0$formal$contract.sv:46$22_CHECK[0:0]$76
+    15/34: $0$formal$contract.sv:46$23_EN[0:0]$79
+    16/34: $0$formal$contract.sv:46$23_CHECK[0:0]$78
+    17/34: $0$formal$contract.sv:47$24_EN[0:0]$81
+    18/34: $0$formal$contract.sv:47$24_CHECK[0:0]$80
+    19/34: $0$formal$contract.sv:47$25_EN[0:0]$83
+    20/34: $0$formal$contract.sv:47$25_CHECK[0:0]$82
+    21/34: $0$formal$contract.sv:47$26_EN[0:0]$85
+    22/34: $0$formal$contract.sv:47$26_CHECK[0:0]$84
+    23/34: $0$formal$contract.sv:48$27_EN[0:0]$87
+    24/34: $0$formal$contract.sv:48$27_CHECK[0:0]$86
+    25/34: $0$formal$contract.sv:49$28_EN[0:0]$89
+    26/34: $0$formal$contract.sv:49$28_CHECK[0:0]$88
+    27/34: $0$formal$contract.sv:50$29_EN[0:0]$91
+    28/34: $0$formal$contract.sv:50$29_CHECK[0:0]$90
+    29/34: $0$formal$contract.sv:51$30_EN[0:0]$93
+    30/34: $0$formal$contract.sv:51$30_CHECK[0:0]$92
+    31/34: $0$formal$contract.sv:51$31_EN[0:0]$95
+    32/34: $0$formal$contract.sv:51$31_CHECK[0:0]$94
+    33/34: $0$formal$contract.sv:54$32_EN[0:0]$97
+    34/34: $0$formal$contract.sv:54$32_CHECK[0:0]$96
+Creating decoders for process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+     1/8: $0\start_o[0:0]
+     2/8: $0\dcr_req_valid_o[0:0]
+     3/8: $0\response_error_q[0:0]
+     4/8: $0\response_q[31:0]
+     5/8: $0\state_q[1:0]
+     6/8: $0\dcr_req_data_o[31:0]
+     7/8: $0\dcr_req_addr_o[11:0]
+     8/8: $0\dcr_req_rw_o[0:0]
+Creating decoders for process `\gpu_status_command_adapter.$proc$adapter.sv:0$211'.
+
+3.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\gpu_status_command_adapter.\host_cmd_ready_o' from process `\gpu_status_command_adapter.$proc$adapter.sv:0$211'.
+No latch inferred for signal `\gpu_status_command_adapter.\host_rsp_valid_o' from process `\gpu_status_command_adapter.$proc$adapter.sv:0$211'.
+No latch inferred for signal `\gpu_status_command_adapter.\host_rsp_data_o' from process `\gpu_status_command_adapter.$proc$adapter.sv:0$211'.
+No latch inferred for signal `\gpu_status_command_adapter.\host_rsp_error_o' from process `\gpu_status_command_adapter.$proc$adapter.sv:0$211'.
+
+3.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\cmd_contract.\pv' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$572' with positive edge clock.
+Creating register for signal `\cmd_contract.\ppv' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$573' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:42$1$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$574' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:44$2$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$575' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:44$3$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$576' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:45$4$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$577' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:46$5$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$578' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:46$6$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$579' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:47$7$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$580' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:47$8$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$581' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:48$9$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$582' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:49$10$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$583' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:50$11$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$584' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:51$12$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$585' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:51$12$1' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$586' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:51$13$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$587' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:51$13$1' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$588' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:51$14$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$589' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:51$14$1' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$590' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:51$15$0' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$591' with positive edge clock.
+Creating register for signal `\cmd_contract.$past$contract.sv:51$15$1' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$592' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:40$16_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$593' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:40$16_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$594' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:42$17_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$595' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:42$17_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$596' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:44$18_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$597' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:44$18_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$598' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:44$19_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$599' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:44$19_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$600' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:44$20_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$601' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:44$20_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$602' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:46$21_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$603' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:46$21_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$604' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:46$22_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$605' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:46$22_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$606' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:46$23_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$607' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:46$23_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$608' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:47$24_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$609' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:47$24_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$610' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:47$25_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$611' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:47$25_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$612' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:47$26_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$613' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:47$26_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$614' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:48$27_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$615' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:48$27_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$616' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:49$28_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$617' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:49$28_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$618' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:50$29_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$619' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:50$29_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$620' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:51$30_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$621' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:51$30_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$622' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:51$31_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$623' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:51$31_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$624' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:54$32_CHECK' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$625' with positive edge clock.
+Creating register for signal `\cmd_contract.$formal$contract.sv:54$32_EN' using process `\cmd_contract.$proc$contract.sv:38$44'.
+  created $dff cell `$procdff$626' with positive edge clock.
+Creating register for signal `\gpu_status_command_adapter.\dcr_req_valid_o' using process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+  created $dff cell `$procdff$627' with positive edge clock.
+Creating register for signal `\gpu_status_command_adapter.\dcr_req_rw_o' using process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+  created $dff cell `$procdff$628' with positive edge clock.
+Creating register for signal `\gpu_status_command_adapter.\dcr_req_addr_o' using process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+  created $dff cell `$procdff$629' with positive edge clock.
+Creating register for signal `\gpu_status_command_adapter.\dcr_req_data_o' using process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+  created $dff cell `$procdff$630' with positive edge clock.
+Creating register for signal `\gpu_status_command_adapter.\start_o' using process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+  created $dff cell `$procdff$631' with positive edge clock.
+Creating register for signal `\gpu_status_command_adapter.\state_q' using process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+  created $dff cell `$procdff$632' with positive edge clock.
+Creating register for signal `\gpu_status_command_adapter.\response_q' using process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+  created $dff cell `$procdff$633' with positive edge clock.
+Creating register for signal `\gpu_status_command_adapter.\response_error_q' using process `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+  created $dff cell `$procdff$634' with positive edge clock.
+
+3.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `cmd_contract.$proc$contract.sv:0$209'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$207'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$205'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$203'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$201'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$199'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$197'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$195'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$193'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$191'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$189'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$187'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$185'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$183'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$181'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$179'.
+Removing empty process `cmd_contract.$proc$contract.sv:0$177'.
+Removing empty process `cmd_contract.$proc$contract.sv:37$176'.
+Removing empty process `cmd_contract.$proc$contract.sv:37$175'.
+Found and cleaned up 11 empty switches in `\cmd_contract.$proc$contract.sv:38$44'.
+Removing empty process `cmd_contract.$proc$contract.sv:38$44'.
+Found and cleaned up 7 empty switches in `\gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+Removing empty process `gpu_status_command_adapter.$proc$adapter.sv:47$218'.
+Removing empty process `gpu_status_command_adapter.$proc$adapter.sv:0$211'.
+Cleaned up 18 empty switches.
+
+3.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cmd_contract.
+<suppressed ~35 debug messages>
+Optimizing module gpu_status_command_adapter.
+<suppressed ~22 debug messages>
+
+3.4. Executing FLATTEN pass (flatten design).
+Deleting now unused module gpu_status_command_adapter.
+<suppressed ~1 debug messages>
+
+3.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cmd_contract.
+
+3.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cmd_contract..
+Removed 3 unused cells and 217 unused wires.
+<suppressed ~4 debug messages>
+
+3.7. Executing CHECK pass (checking for obvious problems).
+Checking module cmd_contract...
+Found and reported 0 problems.
+
+3.8. Executing OPT pass (performing simple optimizations).
+
+3.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cmd_contract.
+
+3.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cmd_contract'.
+<suppressed ~132 debug messages>
+Removed a total of 44 cells.
+
+3.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \cmd_contract..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~42 debug messages>
+
+3.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \cmd_contract.
+    New ctrl vector for $pmux cell $flatten\dut.$procmux$467: $auto$opt_reduce.cc:134:opt_pmux$636
+  Optimizing cells in module \cmd_contract.
+Performed a total of 1 changes.
+
+3.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cmd_contract'.
+<suppressed ~72 debug messages>
+Removed a total of 24 cells.
+
+3.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cmd_contract..
+Removed 0 unused cells and 68 unused wires.
+<suppressed ~1 debug messages>
+
+3.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cmd_contract.
+
+3.8.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+3.8.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \cmd_contract..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~36 debug messages>
+
+3.8.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \cmd_contract.
+Performed a total of 0 changes.
+
+3.8.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cmd_contract'.
+Removed a total of 0 cells.
+
+3.8.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cmd_contract..
+
+3.8.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cmd_contract.
+
+3.8.14. Finished OPT passes. (There is nothing left to do.)
+
+3.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 30 bits (of 32) from port B of cell cmd_contract.$eq$contract.sv:51$132 ($eq).
+Removed top 1 bits (of 2) from port B of cell cmd_contract.$eq$contract.sv:47$142 ($eq).
+Removed top 1 bits (of 2) from port B of cell cmd_contract.$flatten\dut.$procmux$483_CMP0 ($eq).
+Removed top 11 bits (of 12) from port B of cell cmd_contract.$flatten\dut.$eq$adapter.sv:73$221 ($eq).
+
+3.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cmd_contract..
+
+3.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+3.12. Executing OPT pass (performing simple optimizations).
+
+3.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cmd_contract.
+
+3.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cmd_contract'.
+Removed a total of 0 cells.
+
+3.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cmd_contract..
+
+3.12.4. Finished fast OPT passes.
+
+3.13. Printing statistics.
+
+=== cmd_contract ===
+
+   Number of wires:                253
+   Number of wire bits:           1068
+   Number of public wires:          46
+   Number of public wire bits:     372
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                247
+     $anyseq                        10
+     $assert                        16
+     $assume                         1
+     $dff                           57
+     $eq                            13
+     $logic_and                     21
+     $logic_not                     12
+     $logic_or                       1
+     $mux                          107
+     $ne                             2
+     $pmux                           6
+     $reduce_or                      1
+
+3.14. Executing CHECK pass (checking for obvious problems).
+Checking module cmd_contract...
+Found and reported 0 problems.
+
+4. Executing JSON backend.
+
+End of script. Logfile hash: fcc86aed18, CPU: user 0.10s system 0.01s, MEM: 12.27 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 19% 6x opt_expr (0 sec), 18% 5x opt_clean (0 sec), ...

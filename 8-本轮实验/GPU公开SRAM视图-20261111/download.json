@@ -1,0 +1,63 @@
+{
+  "status": "PINNED_PUBLIC_SRAM_VIEWS_DOWNLOADED",
+  "source": "https://github.com/VLSIDA/sky130_sram_macros",
+  "commit": "965df150c754fe2b3f93a0bd1f9883eb114279b2",
+  "records": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.v",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.v",
+      "bytes": 3161,
+      "sha256": "88eaee9f0c480065545479143bfef1e3186a5d97e4a7f79b8c57ad57637cdfeb"
+    },
+    {
+      "path": "sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.lef",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.lef",
+      "bytes": 25654,
+      "sha256": "f5389fa908c5876ef034c487b4363e755b3e13bf88ba924815c6fcea17965b92"
+    },
+    {
+      "path": "sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.gds",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.gds",
+      "bytes": 9567942,
+      "sha256": "f05100d51cca469d8832f6494680e30ee9df3e38baca0e086deda4fb2b8edf21"
+    },
+    {
+      "path": "sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib",
+      "bytes": 15919,
+      "sha256": "f36f91f35700d936c1c82aeaffed0084b938aceed60551588ae9a02cbd706f56"
+    },
+    {
+      "path": "sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.v",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.v",
+      "bytes": 2909,
+      "sha256": "2172abc41cd54fbf51fabdfafabe341f761cb2f43a65707fe99f74b8df54b8a7"
+    },
+    {
+      "path": "sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.lef",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.lef",
+      "bytes": 13238,
+      "sha256": "21335003e08e9bde67b8a9f43ac192361a62b10ac0aa46d0d62cba1815a35843"
+    },
+    {
+      "path": "sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.gds",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.gds",
+      "bytes": 8989460,
+      "sha256": "42749f09c362607db833617cfd127a6499f8319cd1188ff8341ec1ee2f94c5f0"
+    },
+    {
+      "path": "sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8_TT_1p8V_25C.lib",
+      "url": "https://raw.githubusercontent.com/VLSIDA/sky130_sram_macros/965df150c754fe2b3f93a0bd1f9883eb114279b2/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8_TT_1p8V_25C.lib",
+      "bytes": 15916,
+      "sha256": "7cd70c91074a336d3ca9182237be49e1f3339fba293381fd8153f7e2e95b2a89"
+    }
+  ],
+  "teacher_original_identity": false,
+  "physical_signoff": false
+}

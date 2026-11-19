@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "runtime_libraries_identical": {
+    "libsimx.so": "ba063fd1ff5f246ab1999551ad30445fe3a5ae3e7add2679cc0f48b013ad373e",
+    "libvortex-simx.so": "2b3d36ccbd12c031fc0273f4186e86523153fb70596cb496cd71a6116b209f48",
+    "libvortex.so": "997e66b8a88dddb21160929d99b388cfb7566dd50e6a3997ef4d0757d2232d12"
+  },
+  "baseline_actual_log": "../全100案例双后端-20261104T134332Z/gpu-simx/execute-runtime-confirmed.log",
+  "candidate_actual_log": "../gpu-topk全100案例-20261104T140209Z/gpu-simx/execute-direct.log",
+  "records_each": 1000,
+  "golden_matches_each": 970,
+  "numeric_failures_each": 0,
+  "unsupported_dma_each": 30
+}

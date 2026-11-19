@@ -1,0 +1,6 @@
+{
+  "reason": "Yosys 0.33 elaborated original all-ones unbased literal as 1-bit comparator operand; contract expects 12-bit FFF, independently verified by Verilator/Icarus tests",
+  "before_sha256": "97bb899ba7d7202031e906046d8b6aeb70200b346d791df82b322f10ae942021",
+  "after_sha256": "be1bfa47470ecf242547e7b3a497a6384e2b69e34d041904de04d0e194e1d131",
+  "scope": "semantically explicit all-ones localparam; no golden or case changes"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "REPLAY_AND_FROZEN_ZIP_VERIFIED",
+  "archive": "RouteB-\u590d\u73b0\u9a8c\u6536\u51bb\u7ed3\u5feb\u7167-20261114.zip",
+  "archive_sha256": "4ac61d5aa8c765dc7ae9337aaf7f68ff202a4fea988b553291f01b778ca24c9c",
+  "receipt_sha256": "2797f31411928e4da3b568876a59b341336284e59717a731d0bd9f626853c5e8",
+  "cpu_questions": 12,
+  "gpu_target_records": 1000,
+  "gpu_relocated_controls": 6,
+  "physical_signoff": false
+}

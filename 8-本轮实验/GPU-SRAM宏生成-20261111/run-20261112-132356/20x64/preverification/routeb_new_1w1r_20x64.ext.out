@@ -1,0 +1,13 @@
+Thu Nov 12 13:32:48 CST 2026: Starting GDS to MAG using Magic /usr/bin/magic
+
+Magic 8.3 revision 105 - Compiled on Mon, 06 Dec 2021 22:32:27 +0200.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+Loading sky130A Device Generator Menu ...
+Scaled tech values by 2 / 1 to match internal grid scaling
+Thu Nov 12 13:32:50 CST 2026: Finished (139) GDS to MAG using Magic /usr/bin/magic

@@ -1,0 +1,32 @@
+{
+  "status": "ABORTED_IMPLEMENTATION_REVISED",
+  "variant": "stride",
+  "requested_variant": "stride",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "一加一等于几",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "rom_capacity_bytes": 131072,
+  "resource_before": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794284958.9652615,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2047923838\nuser_usec 1996478480\nsystem_usec 51445358\nnice_usec 0\nnr_periods 12268\nnr_throttled 165\nthrottled_usec 69736\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "713342976",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n5762\n5816\n5862"
+    }
+  },
+  "comparison_policy": "fresh baseline and candidate on exactly one newly compiled 128KiB ROM RTL model; no historical cycles used",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "5fcc3bc0ba0f2fb051d967cc0a411fa2ec79032bd5416164bc0c6a4bd0d90832",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "error": "Final zero-input review moved weight-pointer construction inside if(in); no performance result accepted."
+}

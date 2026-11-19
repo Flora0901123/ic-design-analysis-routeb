@@ -1,0 +1,3 @@
+Error setup.tcl:485 (ignoring), invalid command name "::netgen::format"
+*** buffer overflow detected ***: terminated
+Aborted (core dumped)

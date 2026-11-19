@@ -1,0 +1,30 @@
+{
+  "rom_capacity_bytes": 131072,
+  "method": "identical non-comment RTL bytes and byte-identical simulator interface files; rebuilt BIOS and fresh model/input data; target process freshly reset",
+  "parent_simulator": "/mnt/d/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/nano-fixedrom-baseline-1794284177187099883/soc/gateware/obj_dir/Vsim",
+  "simulator_sha256": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "guard_files": {
+    "sim.v": "71d83e62c834e121528160013814cde6408fad5bda8209dc7558f19c300c9f53",
+    "sim_header.h": "ad5b7fca0027a411d70737e73979572ac26177d1826679e79a9d8cbd65c9832c",
+    "sim_init.cpp": "41bc69b2295f02ceabf4db2706aeceeeec404c188ca6b2b408145a95f894ce28",
+    "sim_config.js": "e0e6119353e6ae983eec0ae56fdcec58a6ddc0236e6f16905618644481efa3b7"
+  },
+  "reference_runtime_modules": {
+    "modules/clocker.so": "213945c2ed4ee1e4c8211ae3aa6c4367f5532024cb1d3372dfd67a6e76262184",
+    "modules/ethernet.so": "5447038e673b31920fca1c82936809642ea77fcd06d72a810e93af1e7ab81298",
+    "modules/gmii_ethernet.so": "27db99ee5f8e472f61418d080bf481ef5f837bb1db9ec9f7d8ece8adbcde566c",
+    "modules/jtagremote.so": "7d874533838800cd83405a4d6fb90064662e5e4668da7812a54aa5cd41da111c",
+    "modules/serial2console.so": "04ed2e1b3c5ab65a67dc0666f919ccf0daa6f2f8b18fd64ef2a786c112840590",
+    "modules/serial2tcp.so": "fef0a31cbbeed70865798103b380dca6b94e1be9142e2b82174ee2dbfda0d66a",
+    "modules/spdeeprom.so": "4d64255aa0787c318228895865b7ec5cc1c82d2a5f39fdb039d49379222a1122",
+    "modules/xgmii_ethernet.so": "1d473a9f374ef2d0309529db377d9daea14965821630a22d205ff7f44aed7f2c",
+    "modules/clocker/clocker.so": "213945c2ed4ee1e4c8211ae3aa6c4367f5532024cb1d3372dfd67a6e76262184",
+    "modules/ethernet/ethernet.so": "5447038e673b31920fca1c82936809642ea77fcd06d72a810e93af1e7ab81298",
+    "modules/gmii_ethernet/gmii_ethernet.so": "27db99ee5f8e472f61418d080bf481ef5f837bb1db9ec9f7d8ece8adbcde566c",
+    "modules/jtagremote/jtagremote.so": "7d874533838800cd83405a4d6fb90064662e5e4668da7812a54aa5cd41da111c",
+    "modules/serial2console/serial2console.so": "04ed2e1b3c5ab65a67dc0666f919ccf0daa6f2f8b18fd64ef2a786c112840590",
+    "modules/serial2tcp/serial2tcp.so": "fef0a31cbbeed70865798103b380dca6b94e1be9142e2b82174ee2dbfda0d66a",
+    "modules/spdeeprom/spdeeprom.so": "4d64255aa0787c318228895865b7ec5cc1c82d2a5f39fdb039d49379222a1122",
+    "modules/xgmii_ethernet/xgmii_ethernet.so": "1d473a9f374ef2d0309529db377d9daea14965821630a22d205ff7f44aed7f2c"
+  }
+}

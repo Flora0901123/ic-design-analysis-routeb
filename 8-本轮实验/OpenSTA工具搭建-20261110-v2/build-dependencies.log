@@ -1,0 +1,14 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+tcl-dev is already the newest version (8.6.14build1).
+swig is already the newest version (4.2.0-2ubuntu1).
+libeigen3-dev is already the newest version (3.4.0-4build0.1).
+libfmt-dev is already the newest version (9.1.0+ds1-2).
+autoconf is already the newest version (2.71-3).
+autoconf set to manually installed.
+automake is already the newest version (1:1.16.5-1.3ubuntu1).
+automake set to manually installed.
+libtool is already the newest version (2.4.7-7build1).
+libtool set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 42 not upgraded.

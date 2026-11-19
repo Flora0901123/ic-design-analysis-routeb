@@ -1,0 +1,11 @@
+from pathlib import Path
+import json,hashlib
+R=Path(__file__).resolve().parents[1];O=R/'8-本轮实验/NanoCPU可搬移运行包-20261109';P=O/'package';s=json.loads((O/'completion.json').read_text());entry=json.loads((O/'独立入口检查/completion.json').read_text());assert s['status']=='MOVABLE_CPU_BINARY_CLEAN_DIRECTORY_12_PASS' and len(s['records'])==12 and s['total_steps']==81;assert entry['status']=='PORTABLE_CPU_REPLAY_PASS' and len(entry['records'])==1;sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();manifest=json.loads((P/'SHA256.json').read_text());assert all(sha(P/n)==h for n,h in manifest.items())
+for x in s['records']:
+ n=f"{x['index']:02d}";assert sha(O/f'replay-{n}.log')==x['log_sha256'];assert x['token_hidden_logits_bit_identical'] and x['target_logical_counters_identical'] and x['explicit_target_completion_seen'];cwd=O/'clean-runtime'/n
+ for f in (P/'common').rglob('*'):
+  if f.is_file():assert sha(cwd/f.relative_to(P/'common'))==sha(f)
+ for f in (P/'cases'/n).glob('*.init'):assert sha(cwd/f.name)==sha(f)
+ assert json.loads((P/'cases'/n/'manifest.json').read_text())['contains_expected_tokens'] is False
+for x in entry['records']:assert sha(O/'独立入口检查'/f"{x['index']:02d}"/'console.log')==x['raw_log_sha256']
+files={p.relative_to(O).as_posix():sha(p) for p in O.rglob('*') if p.is_file() and p.name not in ['evidence-sha256.json','验收封存.json'] and '__pycache__' not in p.parts};(O/'evidence-sha256.json').write_text(json.dumps(files,ensure_ascii=False,indent=2));result={'status':'MOVABLE_CPU_12_AND_ENTRY_SEALED','date':'2026-11-09','questions_passed':12,'total_token_hidden_logits_steps':81,'logical_target_counts_unchanged':True,'private_old_build_module_dependencies':False,'target_input_contains_expected_tokens':False,'independent_entry_real_smoke_questions':1,'artifact_hashes':len(files),'full_clean_toolchain_install':False,'different_computer':False,'final_submission':False,'scope':'same-host replay from copied binary/fixtures in clean directories; standalone entry works with standard Python and system Linux libraries'};(O/'验收封存.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps(result,ensure_ascii=False,indent=2))

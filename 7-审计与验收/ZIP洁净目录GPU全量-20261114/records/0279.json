@@ -1,0 +1,9 @@
+{
+  "ordinal": 279,
+  "case_id": "P1-MINI-28",
+  "seed": 10,
+  "cycles": 25041,
+  "instructions": 1748,
+  "device_fault": false,
+  "log_sha256": "b7427aca50c37efe78b0b62c0dcfc39da4baaad184656781adde08d5fd762d36"
+}

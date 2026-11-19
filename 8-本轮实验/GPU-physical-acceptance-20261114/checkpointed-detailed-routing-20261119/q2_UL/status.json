@@ -1,0 +1,33 @@
+{
+  "status": "RUNNING",
+  "physical_signoff": false,
+  "source_receipt_sha256": "7ac2a10af8f85b2491d59c2a6b9223d2dc98797a948352154ab04c89f2e012ce",
+  "tool_sha256": "fcd7dcfc37d329bd43a7ede75805319a2e70e6879da11d42b4fd1c2e50e645c3",
+  "scratch": "/root/.cache/routeb-detail-checkpoints-20261119/q2_UL",
+  "signal_routing_layers": [
+    "met1",
+    "met4"
+  ],
+  "threads": 1,
+  "source_odb_sha256": "35b4d73db5d25449af039d37b1019b0f95b5ff127045685fba0824c851266159",
+  "run_tcl_sha256": "d0b69ac4f24ebdf3d6e286b29a63c630cebf88bd678e2b0d5ecd1dd75c882f54",
+  "pid": 373,
+  "memory_events_at_start": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+  "last_violations": 151498,
+  "iteration": 1,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1795071970.3834374,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 3038957287\nuser_usec 3035104950\nsystem_usec 3852337\nnice_usec 0\nnr_periods 31386\nnr_throttled 56\nthrottled_usec 3846914\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "5703073792",
+      "memory.peak": "5742026752",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "370\n373"
+    }
+  }
+}

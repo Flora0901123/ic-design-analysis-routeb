@@ -1,0 +1,17 @@
+##   0:00:00  Solver: z3
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Checking cover reachability in step 1..
+##   0:00:00  Checking cover reachability in step 2..
+##   0:00:00  Checking cover reachability in step 3..
+##   0:00:00  Reached cover statement at student_mini_gpu_adapters_harness.sv:52.10-53.51 ($cover$student_mini_gpu_adapters_harness.sv:52$150) in step 3.
+##   0:00:00  Writing trace to VCD file: cover0.vcd
+##   0:00:00  Checking cover reachability in step 3..
+##   0:00:00  Reached cover statement at student_mini_gpu_adapters_harness.sv:55.44-56.56 ($cover$student_mini_gpu_adapters_harness.sv:55$153) in step 3.
+##   0:00:00  Writing trace to VCD file: cover1.vcd
+##   0:00:00  Checking cover reachability in step 3..
+##   0:00:00  Reached cover statement at student_mini_gpu_adapters_harness.sv:53.52-54.28 ($cover$student_mini_gpu_adapters_harness.sv:53$151) in step 3.
+##   0:00:00  Writing trace to VCD file: cover2.vcd
+##   0:00:00  Checking cover reachability in step 3..
+##   0:00:00  Reached cover statement at student_mini_gpu_adapters_harness.sv:54.29-55.43 ($cover$student_mini_gpu_adapters_harness.sv:54$152) in step 3.
+##   0:00:00  Writing trace to VCD file: cover3.vcd
+##   0:00:00  Status: PASSED

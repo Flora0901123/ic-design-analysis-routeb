@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-11-10T12:21:03.205706+08:00",
+  "active_numeric_driver_snapshot": "D:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\7-审计与验收\\验收器加固-20261110\\run_gpu_same_hardware_1000_parallel.py",
+  "active_numeric_driver_snapshot_sha256": "363e009c3d51ac68d4c1dcc1d291ff29d5165d0b12cea96cce9c179d2515100a",
+  "note": "The currently running numeric process loaded its pre-hardening source before disk edits. Snapshot retained. Target binaries, fixtures and numeric conditions were not changed; disk changes add failure codes, locking and immutable guards for future launches.",
+  "active_numeric_driver_snapshot_relative": "7-审计与验收/验收器加固-20261110/run_gpu_same_hardware_1000_parallel.py"
+}

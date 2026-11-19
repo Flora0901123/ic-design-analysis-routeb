@@ -1,0 +1,15 @@
+--- base/sram_1bank.py
++++ candidate/sram_1bank.py
+@@ -1282,7 +1282,11 @@
+                     continue
+                 src_pin = self.control_logic_insts[port].get_pin(signal)
+                 dest_pin = self.bank_inst.get_pin(signal + "{}".format(port))
+-                self.connect_vbus(src_pin, dest_pin)
++                # Keep write control outside the M3/M4 data-DFF channel.
++                if port == 0 and signal in ("p_en_bar", "w_en"):
++                    self.connect_vbus(src_pin, dest_pin, hlayer="m2", vlayer="m1")
++                else:
++                    self.connect_vbus(src_pin, dest_pin)
+ 
+         if self.has_rbl:
+             for port in self.all_ports:

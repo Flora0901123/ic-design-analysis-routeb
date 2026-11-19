@@ -1,0 +1,2 @@
+read_liberty -ignore_miss_func sky130.lib
+write_verilog -noattr cell-functional.v

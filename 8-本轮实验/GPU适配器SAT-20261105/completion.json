@@ -1,0 +1,7 @@
+{
+  "status": "FAILED",
+  "scope": "32-step bounded safety of generic adapters, not whole GPU or fault extension; no unbounded equivalence claim",
+  "tools": "Yosys 0.33 (git sha1 2584903a060)",
+  "records": [],
+  "error": "AssertionError: baseline missing proof/counterexample"
+}

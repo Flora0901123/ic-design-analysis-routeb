@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3-run-20261114-140621/8x128/routeb_new_1w1r_8x128.gds": "5fa6b85418c2ad80738b64af004b7a99d75bccc6c9c76e446e95d254d885c699",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3-run-20261114-140621/8x128/routeb_new_1w1r_8x128.lvs.sp": "80f1f5539303cfc5fe506f0f417240fa5ff6585baabfee7c6046bec43a60f280",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3-run-20261114-140621/8x128/.magicrc": "f717a54ec62b7df3e77426c38c6fbe925b4872b57a193b66d4d336e56e1fb88b",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3-run-20261114-140621/8x128/setup.tcl": "84cb9d3193951823187cdf82597b953918a02c3201800ba2664be9f74574db8d",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3-run-20261114-140621/8x128/recheck-magic-8.3.306/run_ext.sh": "3f86d6f39524e4908dad61c52cf005543a9c44db373d7eb1f7a64f86840a401a",
+    "9-GPU复现/downloads/openram-b2b069c/pdk/sky130A/libs.tech/magic/sky130A.tech": "8f4debca9f51ced32dd24666168ea039363a8e35afda951e39646ffa4bd33aab"
+  },
+  "tools": {
+    "/root/.cache/routeb-magic-8.3.306/install/bin/magic": "c1c4d238035472e8f1f0bd1e0122a8d9f64cf8b3d499bbd6e5d9264e4de9da34",
+    "/root/.cache/routeb-netgen-1.5.323/install/bin/netgen": "aeaae8480c9f7d1ea89500174934d4f4fecd25e94f25d67c51c5927ad4d3d3ec"
+  }
+}

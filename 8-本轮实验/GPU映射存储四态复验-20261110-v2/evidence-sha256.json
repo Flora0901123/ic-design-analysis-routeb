@@ -1,0 +1,21 @@
+{
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/ff-mapped.v": "b18dc63c5f260455448b3e1e2703a23262905ccb081440b16c7fdf47e7c4bbfb",
+  "8-本轮实验/GPU新FF标准单元映射-20261110-v2/验收结论.json": "b1fddde6b4b6c4b8c6ef7e51cc01b34aac3affc4316d0d7babc215e203069236",
+  "8-本轮实验/GPU物理依赖公开来源核对-20261109/sky130_fd_sc_hd__tt_025C_1v80.lib": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "7-审计与验收/run_mapped_memory_four_state_v2.py": "06419143813a5f767fb5273ff5f8213b0112b559b3a5c5a4cddd60843be518b4",
+  "8-本轮实验/GPU新身份物理输入准备-20261110/verification/vortex_dp_80x64_w4.vectors": "a63cc002f9149c3fdd043511e3492efdc73dbe9483746fb59962e5f1cb061cf3",
+  "8-本轮实验/GPU新身份物理输入准备-20261110/verification/vortex_sp_32x1024_w4.vectors": "64103db4f7583de47b5aa0aa6c5578e0eda685c4bdf3c148ad3ac4f782aa21e6",
+  "8-本轮实验/GPU新身份物理输入准备-20261110/verification/vortex_sp_32x256_w1.vectors": "00532520305168ee3a3447513f54df17e24f3d99252ce4c702ac43f973af8dcd",
+  "8-本轮实验/GPU新身份物理输入准备-20261110/verification/vortex_sp_64x128_w8.vectors": "d6cb62b9a499433045453951c13cfa6157706dfe1f8266bf310a774679479a20",
+  "8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_dp_80x64_w4_ff.sv": "5d3e9729827498c34add78f0bbd0c96bb62c59cebb64e956611f912ee0c65033",
+  "8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_sp_32x1024_w4_ff.sv": "e6ac866138a301d57c28afb64ed07f38bdc2558493bc9e2d24a21dd3017b50ae",
+  "8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_sp_32x256_w1_ff.sv": "297912658310c9521264847d3dea819a86f116be53ba15a802a3c2973cd29c3b",
+  "8-本轮实验/GPU新身份物理输入准备-20261110/verification/tb_vortex_sp_64x128_w8_ff.sv": "79b3bbdeb4cea8f11d9192dcc0ec03b96e8447492be98ada5e678c7655dc06cb",
+  "8-本轮实验/GPU映射存储四态复验-20261110-v2/cell-functional.v": "684f8a76f0ff692bbb36704b3ebd0f3580a3ad06e129a7219b3598125d1acf75",
+  "8-本轮实验/GPU映射存储四态复验-20261110-v2/lib-model.ys": "25eaf99ce40c29e01e5cfb7b1bedf2d9b6287ebc337cc2ec3e1d3c779374fd6b",
+  "8-本轮实验/GPU映射存储四态复验-20261110-v2/library-model.log": "f88f606f826a3a2617ec51cf9929f9086e481d550fe93e6df2c27d6322b33636",
+  "8-本轮实验/GPU映射存储四态复验-20261110-v2/status.json": "29f6b10db32d73aa04cb2a92b98d32d412562e1c95da05f608b59c54237009fc",
+  "8-本轮实验/GPU映射存储四态复验-20261110-v2/vortex_dp_80x64_w4-compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "8-本轮实验/GPU映射存储四态复验-20261110-v2/vortex_dp_80x64_w4-run.log": "100f61a3b9a156337c70825aff3475ddf3ec31eca2c80c41ae82941143e0dcc0",
+  "8-本轮实验/GPU映射存储四态复验-20261110-v2/vortex_sp_32x1024_w4-compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,635 @@
+{
+  "status": "BLOCKED_MISSING_PHYSICAL_BUILD_INPUTS",
+  "formal_eligible": false,
+  "whole_gpu_dma_records_passed": 0,
+  "expected_records": 30,
+  "unique_cases": 3,
+  "checks": [
+    {
+      "item": "whole-platform counter assembler",
+      "path": "C:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\student-mini-v1-cpu-gpu\\sources\\scripts\\assemble_student_mini_gpu_counters.py",
+      "exists": false
+    },
+    {
+      "item": "banked SRAM manifest",
+      "path": "C:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\student-mini-v1-cpu-gpu\\sources\\grading\\evidence\\vortex-physical\\staged-openram-banked-manifest.json",
+      "exists": false
+    },
+    {
+      "item": "mapped project-banked.v in supplied materials",
+      "exists": false,
+      "found": []
+    },
+    {
+      "item": "manifest-bound SRAM behavioral models",
+      "exists": false,
+      "models": []
+    }
+  ],
+  "cases": [
+    {
+      "ordinal": 290,
+      "case_id": "P1-MINI-30",
+      "seed": 1,
+      "protocol": {
+        "backpressure_seed": 1,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 291,
+      "case_id": "P1-MINI-30",
+      "seed": 2,
+      "protocol": {
+        "backpressure_seed": 2,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 292,
+      "case_id": "P1-MINI-30",
+      "seed": 3,
+      "protocol": {
+        "backpressure_seed": 3,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 293,
+      "case_id": "P1-MINI-30",
+      "seed": 4,
+      "protocol": {
+        "backpressure_seed": 4,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 294,
+      "case_id": "P1-MINI-30",
+      "seed": 5,
+      "protocol": {
+        "backpressure_seed": 5,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 295,
+      "case_id": "P1-MINI-30",
+      "seed": 6,
+      "protocol": {
+        "backpressure_seed": 6,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 296,
+      "case_id": "P1-MINI-30",
+      "seed": 7,
+      "protocol": {
+        "backpressure_seed": 7,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 297,
+      "case_id": "P1-MINI-30",
+      "seed": 8,
+      "protocol": {
+        "backpressure_seed": 8,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 298,
+      "case_id": "P1-MINI-30",
+      "seed": 9,
+      "protocol": {
+        "backpressure_seed": 9,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 299,
+      "case_id": "P1-MINI-30",
+      "seed": 10,
+      "protocol": {
+        "backpressure_seed": 10,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 620,
+      "case_id": "P2-MINI-30",
+      "seed": 1,
+      "protocol": {
+        "backpressure_seed": 1,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 621,
+      "case_id": "P2-MINI-30",
+      "seed": 2,
+      "protocol": {
+        "backpressure_seed": 2,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 622,
+      "case_id": "P2-MINI-30",
+      "seed": 3,
+      "protocol": {
+        "backpressure_seed": 3,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 623,
+      "case_id": "P2-MINI-30",
+      "seed": 4,
+      "protocol": {
+        "backpressure_seed": 4,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 624,
+      "case_id": "P2-MINI-30",
+      "seed": 5,
+      "protocol": {
+        "backpressure_seed": 5,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 625,
+      "case_id": "P2-MINI-30",
+      "seed": 6,
+      "protocol": {
+        "backpressure_seed": 6,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 626,
+      "case_id": "P2-MINI-30",
+      "seed": 7,
+      "protocol": {
+        "backpressure_seed": 7,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 627,
+      "case_id": "P2-MINI-30",
+      "seed": 8,
+      "protocol": {
+        "backpressure_seed": 8,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 628,
+      "case_id": "P2-MINI-30",
+      "seed": 9,
+      "protocol": {
+        "backpressure_seed": 9,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 629,
+      "case_id": "P2-MINI-30",
+      "seed": 10,
+      "protocol": {
+        "backpressure_seed": 10,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 950,
+      "case_id": "P3-MINI-30",
+      "seed": 1,
+      "protocol": {
+        "backpressure_seed": 1,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 951,
+      "case_id": "P3-MINI-30",
+      "seed": 2,
+      "protocol": {
+        "backpressure_seed": 2,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 952,
+      "case_id": "P3-MINI-30",
+      "seed": 3,
+      "protocol": {
+        "backpressure_seed": 3,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 953,
+      "case_id": "P3-MINI-30",
+      "seed": 4,
+      "protocol": {
+        "backpressure_seed": 4,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 954,
+      "case_id": "P3-MINI-30",
+      "seed": 5,
+      "protocol": {
+        "backpressure_seed": 5,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 955,
+      "case_id": "P3-MINI-30",
+      "seed": 6,
+      "protocol": {
+        "backpressure_seed": 6,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 956,
+      "case_id": "P3-MINI-30",
+      "seed": 7,
+      "protocol": {
+        "backpressure_seed": 7,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 957,
+      "case_id": "P3-MINI-30",
+      "seed": 8,
+      "protocol": {
+        "backpressure_seed": 8,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 958,
+      "case_id": "P3-MINI-30",
+      "seed": 9,
+      "protocol": {
+        "backpressure_seed": 9,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    },
+    {
+      "ordinal": 959,
+      "case_id": "P3-MINI-30",
+      "seed": 10,
+      "protocol": {
+        "backpressure_seed": 10,
+        "backpressure_probability": 0,
+        "response_hold_cycles": 0,
+        "inject_dma_error": true,
+        "reset_and_reissue": false
+      },
+      "expected_status": "BUS_ERROR",
+      "expected_events": [
+        "error-response",
+        "no-output-commit",
+        "no-new-payload-dma-after-error"
+      ],
+      "actual_status": "NOT_EXECUTED",
+      "whole_gpu_pass": false
+    }
+  ],
+  "frozen_vectors_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "adapter_evidence_scope": "sticky bus fault, backpressure and reset probes only; does not establish no-output-commit or no-new-payload-DMA-after-error in whole GPU",
+  "physical_binding_audit": "8-本轮实验/GPU来源与锁定环境-20261105/physical-source-audit.json",
+  "elapsed_seconds": 2.8280000000013388
+}

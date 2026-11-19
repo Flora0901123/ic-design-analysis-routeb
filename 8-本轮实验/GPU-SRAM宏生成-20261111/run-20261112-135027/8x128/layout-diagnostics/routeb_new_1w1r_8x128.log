@@ -1,0 +1,58 @@
+[2026-11-12 14:14:28.530800] WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+
+[2026-11-12 14:14:31.527749] |==============================================================================|
+[2026-11-12 14:14:31.535723] |=========                      OpenRAM v1.2.49                       =========|
+[2026-11-12 14:14:31.539082] |=========                                                            =========|
+[2026-11-12 14:14:31.551459] |=========               VLSI Design and Automation Lab               =========|
+[2026-11-12 14:14:31.553409] |=========        Computer Science and Engineering Department         =========|
+[2026-11-12 14:14:31.555425] |=========            University of California Santa Cruz             =========|
+[2026-11-12 14:14:31.557290] |=========                                                            =========|
+[2026-11-12 14:14:31.559251] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2026-11-12 14:14:31.560922] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2026-11-12 14:14:31.563243] |=========                See LICENSE for license info                =========|
+[2026-11-12 14:14:31.564913] |==============================================================================|
+[2026-11-12 14:14:31.566596] ** Start: 11/12/2026 14:14:31
+[2026-11-12 14:14:31.568197] Technology: sky130
+[2026-11-12 14:14:31.570024] Total size: 1024 bits
+[2026-11-12 14:14:31.571797] Word size: 8
+Words: 128
+Banks: 1
+[2026-11-12 14:14:31.573523] RW ports: 0
+R-only ports: 1
+W-only ports: 1
+[2026-11-12 14:14:31.575256] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2026-11-12 14:14:31.576950] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2026-11-12 14:14:31.579071] Only generating nominal corner timing.
+[2026-11-12 14:14:31.581748] Words per row: 1
+[2026-11-12 14:14:31.583489] Output files are: 
+[2026-11-12 14:14:31.585232] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.lvs
+[2026-11-12 14:14:31.586821] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.sp
+[2026-11-12 14:14:31.588557] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.v
+[2026-11-12 14:14:31.590218] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.lib
+[2026-11-12 14:14:31.592358] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.py
+[2026-11-12 14:14:31.593979] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.html
+[2026-11-12 14:14:31.595947] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.log
+[2026-11-12 14:14:31.597527] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.lef
+[2026-11-12 14:14:31.599044] /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.gds
+[2026-11-12 14:14:37.543509] ** Submodules: 5.9 seconds
+[2026-11-12 14:14:37.567713] ** Placement: 0.0 seconds
+[2026-11-12 14:29:37.972691] ** Routing: 900.4 seconds
+[2026-11-12 14:35:15.053972] WARNING: file magic.py: line 254: DRC Errors routeb_new_1w1r_8x128	14
+
+[2026-11-12 14:35:27.236435] ERROR: file magic.py: line 385: routeb_new_1w1r_8x128	LVS mismatch (results in /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/tmp/routeb_new_1w1r_8x128.lvs.report)
+
+[2026-11-12 14:35:27.241617] ** Verification: 349.2 seconds
+[2026-11-12 14:35:27.246024] ** SRAM creation: 1255.6 seconds
+[2026-11-12 14:35:27.250443] SP: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.sp
+[2026-11-12 14:35:27.336487] ** Spice writing: 0.1 seconds
+[2026-11-12 14:35:27.339987] DELAY: Writing stimulus...
+[2026-11-12 14:35:27.586543] ** DELAY: 0.2 seconds
+[2026-11-12 14:35:27.612641] GDS: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.gds
+[2026-11-12 14:35:27.861096] ** GDS: 0.3 seconds
+[2026-11-12 14:35:27.863011] LEF: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.lef
+[2026-11-12 14:35:27.869787] ** LEF: 0.0 seconds
+[2026-11-12 14:35:27.871930] LVS: Writing to /root/.cache/routeb-openram-b2b069c/run-20261112-135027/8x128/views/routeb_new_1w1r_8x128.lvs.sp
+[2026-11-12 14:35:27.960393] ** LVS writing: 0.1 seconds
+[2026-11-12 14:35:27.962224] LIB: Characterizing... 
+[2026-11-12 14:35:27.966766] WARNING: file lib.py: line 112: Nominal corner only option ignored if use only config corners is set.
+

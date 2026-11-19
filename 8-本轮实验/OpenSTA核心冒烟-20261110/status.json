@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_NOT_QUALIFIED",
+  "stage": "full TestLibertyStaBasics",
+  "reason": "60-second timeout; network279 passed; partial Liberty stdout was not retained by first helper",
+  "counts_as_full_suite_pass": false
+}

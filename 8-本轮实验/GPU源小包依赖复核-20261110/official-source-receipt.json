@@ -1,0 +1,45 @@
+{
+  "status": "FOUR_SMALL_OFFICIAL_SOURCE_FILES_ONLY",
+  "commit": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+  "downloaded_bytes": 72595,
+  "records": [
+    {
+      "repository": "https://github.com/VLSIDA/OpenRAM",
+      "commit": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+      "url": "https://raw.githubusercontent.com/VLSIDA/OpenRAM/b2b069ce119d1488cbe6883b2240bceb5c7ce29a/README.md",
+      "file": "official-source/README.md",
+      "bytes": 5331,
+      "sha256": "c7ef6f8811909c0d4502ab51f527229f97efcb892a541f08032f2cde1c48973f",
+      "purpose": "dependency-inspection-only; not a recovered macro physical view"
+    },
+    {
+      "repository": "https://github.com/VLSIDA/OpenRAM",
+      "commit": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+      "url": "https://raw.githubusercontent.com/VLSIDA/OpenRAM/b2b069ce119d1488cbe6883b2240bceb5c7ce29a/compiler/options.py",
+      "file": "official-source/compiler/options.py",
+      "bytes": 7881,
+      "sha256": "d7ba79354e7bf4ca0fe53093fdd5fd1a78c309a7912c539d8eeebb3a4a8f2d4e",
+      "purpose": "dependency-inspection-only; not a recovered macro physical view"
+    },
+    {
+      "repository": "https://github.com/VLSIDA/OpenRAM",
+      "commit": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+      "url": "https://raw.githubusercontent.com/VLSIDA/OpenRAM/b2b069ce119d1488cbe6883b2240bceb5c7ce29a/compiler/globals.py",
+      "file": "official-source/compiler/globals.py",
+      "bytes": 26498,
+      "sha256": "3361dfb84cf9b03fd974888955c62f88b8e68c6370c303df91b1e609a0f06f92",
+      "purpose": "dependency-inspection-only; not a recovered macro physical view"
+    },
+    {
+      "repository": "https://github.com/VLSIDA/OpenRAM",
+      "commit": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+      "url": "https://raw.githubusercontent.com/VLSIDA/OpenRAM/b2b069ce119d1488cbe6883b2240bceb5c7ce29a/technology/sky130/tech/tech.py",
+      "file": "official-source/technology/sky130/tech/tech.py",
+      "bytes": 32885,
+      "sha256": "39e7a46f332cd103a726c3c6da373898eeab3e752c1867c1b0d798f859112aae",
+      "purpose": "dependency-inspection-only; not a recovered macro physical view"
+    }
+  ],
+  "executed": false,
+  "original_binding_matches_added": 0
+}

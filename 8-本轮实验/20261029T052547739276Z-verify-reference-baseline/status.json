@@ -1,0 +1,7 @@
+{
+  "action": "verify-reference",
+  "variant": "baseline",
+  "status": "RUNNING",
+  "formal_baseline": false,
+  "promotion": "NOT_EVALUATED"
+}

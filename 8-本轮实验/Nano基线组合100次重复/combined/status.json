@@ -1,0 +1,831 @@
+{
+  "status": "COMPLETE",
+  "variant": "combined",
+  "source_run": "nano-combined-1793254628177918766",
+  "requested": 100,
+  "completed": 100,
+  "primary_metric": "ttft_cycles",
+  "build_reused": true,
+  "runs": [
+    {
+      "run": 0,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "b69cf73e62ff7959124fd41114921ae3670d4d70c6184b25a5fc41786134f8bd"
+    },
+    {
+      "run": 1,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "549b4d09927df89d38d4fd7454216491fbee1cb890669d9fcefb853bfc6ef42a"
+    },
+    {
+      "run": 2,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "734fd0bd84da12aa7897fcb4331821308185ae58be8a28823fdd610133c38d72"
+    },
+    {
+      "run": 3,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "26bee7c41bffa8454597781ee849ea2ed603e36c2f7e33ed737cc8de16122b7e"
+    },
+    {
+      "run": 4,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "ed74cb1271f35e9695fa56bdb2d4d84f30e8663829e5537f6a7284d713bf4012"
+    },
+    {
+      "run": 5,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "c39285ff6770bc2d5ed0970c40dcd52566b333c008d45e591ed7c0f0ac05fdc2"
+    },
+    {
+      "run": 6,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "62d0fe24eefb4b0c6415d449224346f97c5d3405d4aa38f89b5d870cb18f626a"
+    },
+    {
+      "run": 7,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "9d86fcbbaa6827a80b8fcb3c9ed11df7adb087beebb70b69ecc89a8e902060f7"
+    },
+    {
+      "run": 8,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "7e6cd9286693424ee03d440114f866d65f78e7c35b95192943caa08a699ce6cf"
+    },
+    {
+      "run": 9,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "e81f203b58ac774fe5c292ab6a544144a80862c9f12af93666653b2c7c90b4a8"
+    },
+    {
+      "run": 10,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "e7fa7f885ffaca06f39913ca82878098ee0e1089c8a91d9271f12da0bdb0f105"
+    },
+    {
+      "run": 11,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "be70940c5355a96537963bbf384e569002d7230b4305de84bd5a4cbdc58e9950"
+    },
+    {
+      "run": 12,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "83e1f3169d5a5f2ad75068130a412055993bace2c6f73a684c845979cd8e9697"
+    },
+    {
+      "run": 13,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "b1eaf7920cfce97d0919615c69556fdb21702bc98c8f26f33be7163a390bf072"
+    },
+    {
+      "run": 14,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "cc52eb4687450b6a6597c22097edb97e165ff1c97bac25c1a63fd721c42b1c80"
+    },
+    {
+      "run": 15,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "d4f41a54c6ad0fc4fc369bd64fc1c9c77fca1ba06bedfdf44bf91a3bf4a68612"
+    },
+    {
+      "run": 16,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "df6bc8a4c38815898c9975fe3fb9e577cd8737985cf181b4b358828a8708b830"
+    },
+    {
+      "run": 17,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "f682249e35a18cba6099a45829d2adc34d8b602aa27c0b7d9f94728ac55c39aa"
+    },
+    {
+      "run": 18,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "26b6271bcc158aeb878d6efdad546311809d9c4124aa928143ba51ae7cbffe81"
+    },
+    {
+      "run": 19,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "48cbfefc66da8313b6b42979c32e7cc7aee30cdf5ac775feb076254699bde831"
+    },
+    {
+      "run": 20,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "9fd59d4d9c82fa612ebad49494b9be26b517ef36620b21db76807b408285bd9e"
+    },
+    {
+      "run": 21,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "9acb0070668fb8076c22121ddf2a8a01e75770b2d4cb931803df136083c10df9"
+    },
+    {
+      "run": 22,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "08c99e580a110c61200c9398bb6329f521027f735ca87b072398a417f7fa8240"
+    },
+    {
+      "run": 23,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "c3bf182dd1db11a5f56aa0048a19681187b4204915eb3d6484b36979e0610ae0"
+    },
+    {
+      "run": 24,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "4ffc5dcbf31a4c2f95748746ddbd12ed96dc2a970c2fb32e7368c6fbb5793626"
+    },
+    {
+      "run": 25,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "89c42e3cd2369fa0c7c5133b5b194935a2b73721fcb57764f144fc94446172bc"
+    },
+    {
+      "run": 26,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "5cf7ebac180b4a79f63b03fcf23983d24226c80ca764c08ab69dd9aae57b2ed7"
+    },
+    {
+      "run": 27,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "b0c5eee9d029ed801c9bafb6369e898573f4fd29de8bf426b75af321c06fab4a"
+    },
+    {
+      "run": 28,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "8e1c7045690b4f8300b1dbb93a09072b161c0b2f06d9fd9df6a2ed368a849120"
+    },
+    {
+      "run": 29,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "7e907ed60254ede47729f3cf114992a02efa997c0a3bd8ddcb1ae4dbccb15c1a"
+    },
+    {
+      "run": 30,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "f53f178b54b79c1ec56386c838cbbcd1fc7844c56d3a394e3420a7746345ea43"
+    },
+    {
+      "run": 31,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "a749acec21caf80ff061f4a7792c648d50f69d8b02f2f200d81bbbebae71e984"
+    },
+    {
+      "run": 32,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "c1588e299a6c6643a309fd1c748858b0b083f3b1fe73dc4bdb08557145d27477"
+    },
+    {
+      "run": 33,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "de5210b78458af410193c91347ac5b6a3418893d1bd02e18076d7e40ed19f761"
+    },
+    {
+      "run": 34,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "e168032ac73ed63bfc576712d18d570a52bc03e89b57441a5b04717378b1fb53"
+    },
+    {
+      "run": 35,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "7ae44cb4605da66ecefbd96f8d25f6abeb1114fdfd4774ae82b959a4e45836ad"
+    },
+    {
+      "run": 36,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "4e72b010420ca4a5bcd0c24b16a608ede4d105c334adfe25182fda9167849257"
+    },
+    {
+      "run": 37,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "0945f645bd6aa6e0a34f6e7c0dca9cf6998caecb8b394a70fcea18e84e632329"
+    },
+    {
+      "run": 38,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "2f13da147f599e4407cfcaa4796f0ba7436b03029095c4e94eb074acd56f258d"
+    },
+    {
+      "run": 39,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "842b999acb4b239632d120388ae77c8a0a7386049b6aabb983e14d2d558bd2fe"
+    },
+    {
+      "run": 40,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "b4ce641da689b22027ed0cd01d67f35a4522b14dcb0b29b4a9523fdd75845007"
+    },
+    {
+      "run": 41,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "02a9160e79107774fa6fdf53d6023e870826bce467b808ad2c3e7de6e82776a0"
+    },
+    {
+      "run": 42,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "1a9baa674fffdae616b39db24cdeda89021c33e8e09dd716a4429f9df40ede7d"
+    },
+    {
+      "run": 43,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "e95eaa31c71a44782f35cbeef903c057e5f954895e1cad1ac16a1f13d0903637"
+    },
+    {
+      "run": 44,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "031d5582a9a529d47b1e9bdc2a5b53d954877385f3baacdf38966a0f11df7334"
+    },
+    {
+      "run": 45,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "f801884f574e5bd79a368a4439ea1ccbe6cae7bdd9f2bacb9807e7ef4ed36ad8"
+    },
+    {
+      "run": 46,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "97e45b625043030b64036c7cb0c1fa456e49ee29aa861b8dec2eb8f19c01eb9f"
+    },
+    {
+      "run": 47,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "7782d16dedbddc0049144042db804bc1ec8bdc89a62bc98b9c1604b7e7fb028c"
+    },
+    {
+      "run": 48,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "dd017d7d38036e4298a905d57317cce11ad363c3012f0b4f37a765df3eaa1f63"
+    },
+    {
+      "run": 49,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "1bc107e398ce31693831327d47bcb8747ae1e29a8015ed01aef6ae05020d4ed7"
+    },
+    {
+      "run": 50,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "894acd69adae023cf1971b99c0d2df259f7acbf96dcde72ea1a304611707d457"
+    },
+    {
+      "run": 51,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "aa2943c4cbe742ce62058871b91f8b92ff918fcee4354bf595b19d80efb2c2a5"
+    },
+    {
+      "run": 52,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "cb2592c7d300b712bb70f38d1a518811ee65990f35a55ff6843ed28fe83bad7e"
+    },
+    {
+      "run": 53,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "f8df420446e5cd876a0527e740d4f7dca825f36ef35be49fee5c445dc8cff447"
+    },
+    {
+      "run": 54,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "7cd5b86902ea7ec880b6c9cca00674b2a1abd685c05e5b94a3ce968fc3581cde"
+    },
+    {
+      "run": 55,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "30276cacc6d68e961ef059b5264dd9ee383dac9d53dccc3139a6b6a5d93eb3ef"
+    },
+    {
+      "run": 56,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "e800819545726c9f609ce641ea585d8c4ef6f180d1eb841a61b6c73d7141d3c0"
+    },
+    {
+      "run": 57,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "b91eeedfb95ab90c954960521ddc85abe2d87852ba50c9189b1926465075c588"
+    },
+    {
+      "run": 58,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "4bf034271c6efa9b1421be494014afdc35c3d62f466a265b38ad087891fb2017"
+    },
+    {
+      "run": 59,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "d0556cb5c0895402fc779d705f7c840425b7ab5ff6d29a3c8883abe32b38cc17"
+    },
+    {
+      "run": 60,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "9775ca2cfcd179dc04b4a9eb017fbedef70116ca70dd6b697531ac85fbf3b93a"
+    },
+    {
+      "run": 61,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "5e58c9c3d624a0b125ee360f132bb7361e94e5661116e00f924f07d482d4765c"
+    },
+    {
+      "run": 62,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "c342fe0f528cf27a79ecca5eecb90cd0f8bd16a8d624f72dfb8481a6dafae3f7"
+    },
+    {
+      "run": 63,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "7c697f47d58bfbe47c65c99b684a1a9c8e0aa4f38758ce423f98137412e6feb6"
+    },
+    {
+      "run": 64,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "1ad4f5fccb71ec4480e5c357faeaa40c41d3f13bd7f2040f66ca488c47b7a5b4"
+    },
+    {
+      "run": 65,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "789a8b99d28f2eba0a40a3f3075e4211bbe286f578c79c2ac9946b5e45abf99a"
+    },
+    {
+      "run": 66,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "0940aee291c0162c1c9cb2c3e6268bf54a58b6843d727e9552a570dad47b4bc7"
+    },
+    {
+      "run": 67,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "5d986c6c01e2234a6832ed3579e1313d907f8ecc031d9abb7e78a71361d2d438"
+    },
+    {
+      "run": 68,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "620c5267938f6118c891c0fb3475bcbe417abea3cc5a9cd92c8d8536f99f8064"
+    },
+    {
+      "run": 69,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "0c0c8aa725ff89ab33d73e77f37c53d71761f5c943df257b1a08f2a0cd749441"
+    },
+    {
+      "run": 70,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "19302afcad688928d95083382fff65cc917091dda31d037cac6bd7e6b5c07942"
+    },
+    {
+      "run": 71,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "d4170fa5f945e5ad80beb9e067fb9b3e3663d7072f1e18214065caee3e729026"
+    },
+    {
+      "run": 72,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "99e306b5efd3defd337f5fd4a630a53283161784a70e5c97d7e6680417acff24"
+    },
+    {
+      "run": 73,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "80c7f69c018a891ff239bc127c3240c6093e15200908a3403c4dba4b99fd2fb7"
+    },
+    {
+      "run": 74,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "53378c464cce3fe69b91883fe9d492e9167347ee6bcd3c2412160743e325ee77"
+    },
+    {
+      "run": 75,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "4a78504502d8ef2e15a138688918a517f88664f8f0e88b65772b2eb7a6bfd6b2"
+    },
+    {
+      "run": 76,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "3e5a86f63da2fb6f80014aad043c914c18fcfe036ad1f97d2172839cd7790945"
+    },
+    {
+      "run": 77,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "69daefa434c79e70d074d8a00bff7627cf1cc7f4ad698a942ef4d1801c0a8d8f"
+    },
+    {
+      "run": 78,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "910ebc23314527320b857039f1280ecb5196daf5ddb5afae6c4111ccff89730c"
+    },
+    {
+      "run": 79,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "e62a122b92280a34349fe77bad0957d578c6bfb32b5dc433085c86012ae3bdc2"
+    },
+    {
+      "run": 80,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "a5e1fc8b7d05ec8e3e859dcc1f0feafb0b5880578d6df5736abb37eb38f792d2"
+    },
+    {
+      "run": 81,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "ecc3cf3c21dbeb6a6a3edd05b4a66d204d5ef1dd2069f8d64ba7a6bc31a68112"
+    },
+    {
+      "run": 82,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "0223ad07c189db847ab1fdfd5aec5a4e3a06b72551620c8c7910dd8729f4f1cc"
+    },
+    {
+      "run": 83,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "b4d9bc7d7d11a36b3660dfc1d1326ffe8f81070b9f3d5849c12c8cf6270505a9"
+    },
+    {
+      "run": 84,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "6bc511e89e3a058393059f98bf8fc122ee9311d66cab70ae92f3f17e2f8e97c4"
+    },
+    {
+      "run": 85,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "f3c862fc671b6a0d2367d4454e3301e335ea231e8289b7b6e9f21da256984438"
+    },
+    {
+      "run": 86,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "ff676c2229ac89db1392b7f4f7dc82ce8fa53e1ccd02af42cbeb1e74e8bd4df2"
+    },
+    {
+      "run": 87,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "0f00630a2624601904cab527faf3afdb6d87f5e354e91858e204d69cdb36815f"
+    },
+    {
+      "run": 88,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "ab792a20fd3eee99ae67b1c4d2d18460ea07a06f927fe66f19b49b0f8e31ce8b"
+    },
+    {
+      "run": 89,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "4cf7e63fb372b24d263cf1823a9e4155abf59a622e61497a90537637489b3428"
+    },
+    {
+      "run": 90,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "2b1cf6c2a18ad61897e401ab40b431be32c63b9d2151ad39ee7c1bb255ee0480"
+    },
+    {
+      "run": 91,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "a8f1668e4d2a538e3bdcb1ff674317f521c8f7d71477b6566ffb1fc9a55f3f72"
+    },
+    {
+      "run": 92,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "2fd15cab0a21c14194ae3cc5ba0dde609319515d2d9bcd42dc0adf59ae3b369c"
+    },
+    {
+      "run": 93,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "81612667295002ca7373aecf1726e9716e34f6dcd4921234426bd39dbc761a6e"
+    },
+    {
+      "run": 94,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "dc505aa6e8a5aa531551b6ef715245cbad292009853381fdaa0c5ba67c0c4820"
+    },
+    {
+      "run": 95,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "aea88400d4127319568fb374d6f517c0fd2b87465393153ffb733cac83119ea6"
+    },
+    {
+      "run": 96,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "2e71e6cb99859f4d2dfd6e00d4d21dad0ac90bb791d2250f44a42fa91b610746"
+    },
+    {
+      "run": 97,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "9992d55f79d821b7be1401c784e421a28f1d1fc9c11b446164f0f25d543eee06"
+    },
+    {
+      "run": 98,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "4b542edfe4f4b40fd7c500fcc2e4cc8f5e60e66f5c0978b465b13a8fd2f6fb60"
+    },
+    {
+      "run": 99,
+      "ttft_cycles": 3828746,
+      "per_token_decode_cycles": 811714.25,
+      "session_cycles": 7075832,
+      "full_tensor_match": true,
+      "console_sha256": "9ffdb1d563f131e5313a0284f36945a1ea382fe29a463f0f1c674b82f1a0d3b8"
+    }
+  ],
+  "metrics": {
+    "ttft_cycles": {
+      "mean": 3828746,
+      "min": 3828746,
+      "max": 3828746,
+      "stdev": 0.0
+    },
+    "per_token_decode_cycles": {
+      "mean": 811714.25,
+      "min": 811714.25,
+      "max": 811714.25,
+      "stdev": 0.0
+    },
+    "session_cycles": {
+      "mean": 7075832,
+      "min": 7075832,
+      "max": 7075832,
+      "stdev": 0.0
+    }
+  }
+}

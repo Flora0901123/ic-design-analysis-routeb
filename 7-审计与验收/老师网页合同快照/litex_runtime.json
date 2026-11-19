@@ -1,0 +1,554 @@
+{
+  "status": "ARCHIVE_DEPENDENCIES_RESOLVED_NOT_ENVIRONMENT_QUALIFIED",
+  "clean_environment_qualified": false,
+  "reconstruction_policy": "Public archive dependency closure differs from Ubuntu dist-packages metadata; fresh venv and actual CPU build required",
+  "packages": [
+    {
+      "name": "pythondata-misc-tapcfg",
+      "version": "0.0.post517",
+      "dependencies": [],
+      "installed_bytes": 967128,
+      "kind": "git-source",
+      "url": "https://github.com/litex-hub/pythondata-misc-tapcfg",
+      "commit": "a12c3f592c99f9c082fdc68c065b81cbd6e6b238",
+      "exact_source_url": "https://github.com/litex-hub/pythondata-misc-tapcfg/tree/a12c3f592c99f9c082fdc68c065b81cbd6e6b238",
+      "submodules": [],
+      "source_tree_sha256": "09a5d50bba076869df740eb8d9f4f7760ef31ec5f510acf80b320b2aca2394f4",
+      "source_bytes": 850470,
+      "canonical_git_content_verified": true,
+      "checkout_policy": {
+        "raw_status_clean": true,
+        "core_autocrlf": true,
+        "core_filemode": false,
+        "working_bytes_hashed_without_normalization": true,
+        "upstream_byte_identity_not_claimed": true
+      },
+      "installed_agreement": {
+        "matching_files": 141,
+        "verified_file_list_sha256": "ff966d42098c1d5a9d85d38787ea9f3d83b3f2bfd5ec0bf398ab61bb60f61db0"
+      },
+      "license_files": {
+        "LICENSE": "41fccdcefcca3fcbe28e27ef162eea24946ac952fcb28591292aba333067cbbb"
+      },
+      "license_note": "Exact upstream license files pinned; subcomponent licenses remain in source manifest"
+    },
+    {
+      "name": "pythondata-software-compiler-rt",
+      "version": "0.0.post6206",
+      "dependencies": [],
+      "installed_bytes": 28824450,
+      "kind": "git-source",
+      "url": "https://github.com/litex-hub/pythondata-software-compiler_rt",
+      "commit": "6eb76609c9627bf26635e57c63fb22cda7115887",
+      "exact_source_url": "https://github.com/litex-hub/pythondata-software-compiler_rt/tree/6eb76609c9627bf26635e57c63fb22cda7115887",
+      "submodules": [],
+      "source_tree_sha256": "095c4222216fd6bdc5de9bf17985006a3157bf4cf9c13360bfb34aac475c1ee4",
+      "source_bytes": 28428404,
+      "canonical_git_content_verified": true,
+      "checkout_policy": {
+        "raw_status_clean": true,
+        "core_autocrlf": true,
+        "core_filemode": false,
+        "working_bytes_hashed_without_normalization": true,
+        "upstream_byte_identity_not_claimed": true
+      },
+      "installed_agreement": {
+        "matching_files": 1960,
+        "verified_file_list_sha256": "774c3953014977cb9e0c352dea1c2ff633b7e528e722e6e934d8cb0145e268b0"
+      },
+      "license_files": {
+        "LICENSE": "46d721e8b09a829ebacf7e1c51e863ef7492eb30e94103c852b2966ae3c5901a"
+      },
+      "license_note": "Exact upstream license files pinned; subcomponent licenses remain in source manifest"
+    },
+    {
+      "name": "pythondata-software-picolibc",
+      "version": "1.7.9.post181",
+      "dependencies": [],
+      "installed_bytes": 43452573,
+      "kind": "git-source",
+      "url": "https://github.com/litex-hub/pythondata-software-picolibc",
+      "commit": "9264d9771ae37b4d39d8fbe336aafef1f34c3e48",
+      "exact_source_url": "https://github.com/litex-hub/pythondata-software-picolibc/tree/9264d9771ae37b4d39d8fbe336aafef1f34c3e48",
+      "submodules": [
+        {
+          "path": "pythondata_software_picolibc/data",
+          "commit": "f7edb0869e64b9d687f46961adeef7154921fe92",
+          "url": "https://github.com/picolibc/picolibc",
+          "exact_source_url": "https://github.com/picolibc/picolibc/tree/f7edb0869e64b9d687f46961adeef7154921fe92"
+        }
+      ],
+      "source_tree_sha256": "ebdd2f4ff99dcb0eaf444b9d5a05b8197e8be6c482b1afd9e928630f93a94aaa",
+      "source_bytes": 42954851,
+      "canonical_git_content_verified": true,
+      "checkout_policy": {
+        "raw_status_clean": false,
+        "core_autocrlf": true,
+        "core_filemode": false,
+        "working_bytes_hashed_without_normalization": true,
+        "upstream_byte_identity_not_claimed": true
+      },
+      "installed_agreement": {
+        "matching_files": 3630,
+        "verified_file_list_sha256": "191984e479e4af21e2bff8773dae8a6f2ff5b30a80dc912308ee58c3c026ad3a"
+      },
+      "license_files": {
+        "LICENSE": "6c76535cb6ee419d91c55c2550282621d068ed86b841335ccc3d0d4db40b4b65"
+      },
+      "license_note": "Exact upstream license files pinned; subcomponent licenses remain in source manifest"
+    },
+    {
+      "name": "pythondata-cpu-vexriscv",
+      "version": "1.0.1.post407",
+      "dependencies": [],
+      "installed_bytes": 51339059,
+      "kind": "git-source",
+      "url": "https://github.com/litex-hub/pythondata-cpu-vexriscv",
+      "commit": "056d57f5a3cd0ccd7fef861480c4cc0878e183fa",
+      "exact_source_url": "https://github.com/litex-hub/pythondata-cpu-vexriscv/tree/056d57f5a3cd0ccd7fef861480c4cc0878e183fa",
+      "submodules": [
+        {
+          "path": "pythondata_cpu_vexriscv/verilog/ext/VexRiscv",
+          "commit": "b6118e5cc2a33323425df6455697139021d50c72",
+          "url": "https://github.com/SpinalHDL/VexRiscv",
+          "exact_source_url": "https://github.com/SpinalHDL/VexRiscv/tree/b6118e5cc2a33323425df6455697139021d50c72"
+        },
+        {
+          "path": "pythondata_cpu_vexriscv/verilog/ext/VexRiscv/src/test/resources/VexRiscvRegressionData",
+          "commit": "539398c1481203a51115b5f1228ea961f0ac9bd3",
+          "url": "https://github.com/SpinalHDL/VexRiscvRegressionData",
+          "exact_source_url": "https://github.com/SpinalHDL/VexRiscvRegressionData/tree/539398c1481203a51115b5f1228ea961f0ac9bd3"
+        }
+      ],
+      "source_tree_sha256": "b793743725166ee152b6aa8cde89df091bc1c404bd74b2748b20d2fe69be9b40",
+      "source_bytes": 51186100,
+      "canonical_git_content_verified": true,
+      "checkout_policy": {
+        "raw_status_clean": false,
+        "core_autocrlf": true,
+        "core_filemode": false,
+        "working_bytes_hashed_without_normalization": true,
+        "upstream_byte_identity_not_claimed": true
+      },
+      "installed_agreement": {
+        "matching_files": 1032,
+        "verified_file_list_sha256": "db0692df24b0b95b57c89745bee28b97f27177d69f81f6c921a256e4443ad570"
+      },
+      "license_files": {
+        "LICENSE": "0459805ebfeff6e7cbe7a1913fe79e75ad192965dcfebceac11ec4c233acf53c"
+      },
+      "license_note": "Exact upstream license files pinned; subcomponent licenses remain in source manifest"
+    },
+    {
+      "name": "liteeth",
+      "version": "2026.4",
+      "dependencies": [
+        "pyyaml",
+        "litex",
+        "liteiclink"
+      ],
+      "installed_bytes": 1530579,
+      "kind": "git-source",
+      "url": "https://github.com/enjoy-digital/liteeth",
+      "commit": "14ac00c8b8f370b98c71bb63328dba0a662f338e",
+      "exact_source_url": "https://github.com/enjoy-digital/liteeth/tree/14ac00c8b8f370b98c71bb63328dba0a662f338e",
+      "submodules": [],
+      "source_tree_sha256": "73e367e30f25786f530e0410abc3043faac5edddfae48a13bb424c62da61f71b",
+      "source_bytes": 1439771,
+      "canonical_git_content_verified": true,
+      "checkout_policy": {
+        "raw_status_clean": false,
+        "core_autocrlf": true,
+        "core_filemode": false,
+        "working_bytes_hashed_without_normalization": true,
+        "upstream_byte_identity_not_claimed": true
+      },
+      "installed_agreement": {
+        "matching_files": 54,
+        "verified_file_list_sha256": "d015a1c0d41f3b7c86ff2fc3855ae65c639a41ca86f86d588c4466e7998b575d"
+      },
+      "license_files": {
+        "LICENSE": "95b882f70800a71acfa6e47558e8e99693c57231ad7138f0efa4f45051444311"
+      },
+      "license_note": "Exact upstream license files pinned; subcomponent licenses remain in source manifest"
+    },
+    {
+      "name": "liteiclink",
+      "version": "2025.4",
+      "dependencies": [
+        "pyyaml",
+        "litex"
+      ],
+      "installed_bytes": 1012451,
+      "kind": "pypi",
+      "download_url": "https://files.pythonhosted.org/packages/89/4a/c38c23734477d571e5c5ae762133cadf365fe8575f516a70d92a6d754097/liteiclink-2025.4.tar.gz",
+      "filename": "liteiclink-2025.4.tar.gz",
+      "sha256": "4e4315339b32340555a646818df361e01a6addc45887e95b6796bea75cc662d4",
+      "download_bytes": 93206,
+      "official_page": "https://pypi.org/project/liteiclink/2025.4/",
+      "metadata_sha256": "39a588f331a75aa71e03c9755cfe84d594ad5e98950136759dd5ff59e7b07341",
+      "archive_verified": true,
+      "license": "BSD",
+      "observed_installed_dependencies": [
+        "pyyaml",
+        "litex"
+      ],
+      "published_metadata_sha256": "39a588f331a75aa71e03c9755cfe84d594ad5e98950136759dd5ff59e7b07341",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "litex",
+      "version": "2026.4",
+      "dependencies": [
+        "migen",
+        "packaging",
+        "pyserial",
+        "requests"
+      ],
+      "installed_bytes": 9111159,
+      "kind": "git-source",
+      "url": "https://github.com/enjoy-digital/litex",
+      "commit": "8ae30928574e9b28e630473651d6b0e2b1cdcc77",
+      "exact_source_url": "https://github.com/enjoy-digital/litex/tree/8ae30928574e9b28e630473651d6b0e2b1cdcc77",
+      "submodules": [],
+      "source_tree_sha256": "f13d3139e1f6648d78a4a48bf9b87ba5b895630a20cd6fcb19e504424c92dce6",
+      "source_bytes": 11061285,
+      "canonical_git_content_verified": true,
+      "checkout_policy": {
+        "raw_status_clean": false,
+        "core_autocrlf": true,
+        "core_filemode": false,
+        "working_bytes_hashed_without_normalization": true,
+        "upstream_byte_identity_not_claimed": true
+      },
+      "installed_agreement": {
+        "matching_files": 620,
+        "verified_file_list_sha256": "33fc0f311a08b0e6f8e92980df499f32c6ed48bdf80992866a1bdf0889d12e15"
+      },
+      "license_files": {
+        "LICENSE": "605709d102d1f57ef5606a9e6cbb5a6fef9762a67a6dda05ddb539382c9a1a2e"
+      },
+      "license_note": "Exact upstream license files pinned; subcomponent licenses remain in source manifest"
+    },
+    {
+      "name": "requests",
+      "version": "2.31.0",
+      "dependencies": [
+        "charset-normalizer<4,>=2",
+        "idna<4,>=2.5",
+        "urllib3<3,>=1.21.1",
+        "certifi>=2017.4.17"
+      ],
+      "installed_bytes": 0,
+      "kind": "pypi",
+      "download_url": "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl",
+      "filename": "requests-2.31.0-py3-none-any.whl",
+      "sha256": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+      "download_bytes": 62574,
+      "official_page": "https://pypi.org/project/requests/2.31.0/",
+      "metadata_sha256": "d9f9143e87ae832bb1ac5273596fa7167c24328845813797d633f9c3284b5a73",
+      "archive_verified": true,
+      "license": "Apache 2.0",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "d9f9143e87ae832bb1ac5273596fa7167c24328845813797d633f9c3284b5a73",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "pyserial",
+      "version": "3.5",
+      "dependencies": [],
+      "installed_bytes": 0,
+      "kind": "pypi",
+      "download_url": "https://files.pythonhosted.org/packages/07/bc/587a445451b253b285629263eb51c2d8e9bcea4fc97826266d186f96f558/pyserial-3.5-py2.py3-none-any.whl",
+      "filename": "pyserial-3.5-py2.py3-none-any.whl",
+      "sha256": "c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0",
+      "download_bytes": 90585,
+      "official_page": "https://pypi.org/project/pyserial/3.5/",
+      "metadata_sha256": "7d1d5b73084f2fcfc980728ef6375177f6da3f553a815977890a82b24684d8ab",
+      "archive_verified": true,
+      "license": "BSD",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "7d1d5b73084f2fcfc980728ef6375177f6da3f553a815977890a82b24684d8ab",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "dependencies": [],
+      "installed_bytes": 995586,
+      "kind": "pypi",
+      "download_url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "download_bytes": 129956,
+      "official_page": "https://pypi.org/project/packaging/26.3/",
+      "metadata_sha256": "4f190d2f0b312b3086058cee64ab4333bf3ce67fb78b4c2bdb43899049b29f4d",
+      "archive_verified": true,
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "4f190d2f0b312b3086058cee64ab4333bf3ce67fb78b4c2bdb43899049b29f4d",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "migen",
+      "version": "0.9.2",
+      "dependencies": [
+        "colorama"
+      ],
+      "installed_bytes": 1696000,
+      "kind": "git-source",
+      "url": "https://github.com/m-labs/migen",
+      "commit": "e19524c963a8342952840983047557707fbe0b6a",
+      "exact_source_url": "https://github.com/m-labs/migen/tree/e19524c963a8342952840983047557707fbe0b6a",
+      "submodules": [],
+      "source_tree_sha256": "e3c7582d13160e9e458cf09443628bd72c4efcb5465b64037cb300e032885390",
+      "source_bytes": 908822,
+      "canonical_git_content_verified": true,
+      "checkout_policy": {
+        "raw_status_clean": false,
+        "core_autocrlf": true,
+        "core_filemode": false,
+        "working_bytes_hashed_without_normalization": true,
+        "upstream_byte_identity_not_claimed": true
+      },
+      "installed_agreement": {
+        "matching_files": 136,
+        "verified_file_list_sha256": "316b7514729cd7aba713a8010ea2fb0f5896c8e7733b0c7b44ca880fcf3f0f6e"
+      },
+      "license_files": {
+        "LICENSE": "b7a15318c3339378a2223b826f5d532a1f6906494d622240341f2032f1a9b4e7"
+      },
+      "license_note": "Exact upstream license files pinned; subcomponent licenses remain in source manifest"
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "dependencies": [],
+      "installed_bytes": 0,
+      "kind": "pypi",
+      "download_url": "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl",
+      "filename": "colorama-0.4.6-py2.py3-none-any.whl",
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+      "download_bytes": 25335,
+      "official_page": "https://pypi.org/project/colorama/0.4.6/",
+      "metadata_sha256": "43fb351344384a44c2b7d7fff1c63496b89ac830aea714301525c1f3718addd1",
+      "archive_verified": true,
+      "license": "",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "43fb351344384a44c2b7d7fff1c63496b89ac830aea714301525c1f3718addd1",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0.1",
+      "dependencies": [],
+      "installed_bytes": 0,
+      "kind": "pypi",
+      "download_url": "https://files.pythonhosted.org/packages/b4/33/720548182ffa8344418126017aa1d4ab4aeec9a2275f04ce3f3573d8ace8/PyYAML-6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "PyYAML-6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "6c22bec3fbe2524cde73d7ada88f6566758a8f7227bfbf93a408a9d86bcc12a0",
+      "download_bytes": 724969,
+      "official_page": "https://pypi.org/project/pyyaml/6.0.1/",
+      "metadata_sha256": "3f18af043ba820434c7b1f7c6e85d14d96cf1f0c848e8ac9f245c5b856192677",
+      "archive_verified": true,
+      "license": "MIT",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "3f18af043ba820434c7b1f7c6e85d14d96cf1f0c848e8ac9f245c5b856192677",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "litedram",
+      "version": "2026.4",
+      "dependencies": [
+        "pyyaml",
+        "litex"
+      ],
+      "installed_bytes": 1834417,
+      "kind": "git-source",
+      "url": "https://github.com/enjoy-digital/litedram",
+      "commit": "4e2b0a2ac2524ededba58d5330d3a60ed8d2a621",
+      "exact_source_url": "https://github.com/enjoy-digital/litedram/tree/4e2b0a2ac2524ededba58d5330d3a60ed8d2a621",
+      "submodules": [],
+      "source_tree_sha256": "8649fd5c3acadca0c43ab56b656af223ebd5a9d3b36a00eec8b2895e0c7b4116",
+      "source_bytes": 1702252,
+      "canonical_git_content_verified": true,
+      "checkout_policy": {
+        "raw_status_clean": false,
+        "core_autocrlf": true,
+        "core_filemode": false,
+        "working_bytes_hashed_without_normalization": true,
+        "upstream_byte_identity_not_claimed": true
+      },
+      "installed_agreement": {
+        "matching_files": 58,
+        "verified_file_list_sha256": "c751d1a9de2ef6c4c95d114c6135da6e434b985f036f65d38125258306ec8d92"
+      },
+      "license_files": {
+        "LICENSE": "31ee0595ff23d0ea772ea605899ea1b6e1c561f312c2b721cc9de35b2fbb89e5"
+      },
+      "license_note": "Exact upstream license files pinned; subcomponent licenses remain in source manifest"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.3.2",
+      "kind": "pypi",
+      "dependencies": [],
+      "observed_installed_version": false,
+      "installed_bytes": null,
+      "download_url": "https://files.pythonhosted.org/packages/ee/fb/14d30eb4956408ee3ae09ad34299131fb383c47df355ddb428a7331cfa1e/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "filename": "charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "90d558489962fd4918143277a773316e56c72da56ec7aa3dc3dbbe20fdfed15b",
+      "download_bytes": 141869,
+      "official_page": "https://pypi.org/project/charset-normalizer/3.3.2/",
+      "metadata_sha256": "0eff9d3c7a93ce235c4805cac39c1b819d0d9d4ff779f1137deeac88b12aef5d",
+      "archive_verified": true,
+      "license": "MIT",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "0eff9d3c7a93ce235c4805cac39c1b819d0d9d4ff779f1137deeac88b12aef5d",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "idna",
+      "version": "3.6",
+      "kind": "pypi",
+      "dependencies": [],
+      "observed_installed_version": true,
+      "installed_bytes": null,
+      "download_url": "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl",
+      "filename": "idna-3.6-py3-none-any.whl",
+      "sha256": "c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f",
+      "download_bytes": 61567,
+      "official_page": "https://pypi.org/project/idna/3.6/",
+      "metadata_sha256": "f3d53baca4a18830f302eaa9b9d13d418cc3a52f674548f9311e2232dc947166",
+      "archive_verified": true,
+      "license": "",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "f3d53baca4a18830f302eaa9b9d13d418cc3a52f674548f9311e2232dc947166",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "urllib3",
+      "version": "2.0.7",
+      "kind": "pypi",
+      "dependencies": [],
+      "observed_installed_version": true,
+      "installed_bytes": null,
+      "download_url": "https://files.pythonhosted.org/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl",
+      "filename": "urllib3-2.0.7-py3-none-any.whl",
+      "sha256": "fdb6d215c776278489906c2f8916e6e7d4f5a9b602ccbcfdf7f016fc8da0596e",
+      "download_bytes": 124213,
+      "official_page": "https://pypi.org/project/urllib3/2.0.7/",
+      "metadata_sha256": "d6cdd690a9ff6768c801b8e4315134cc9b6cd660f8fe5374e2d86998f019c9fb",
+      "archive_verified": true,
+      "license": "",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "d6cdd690a9ff6768c801b8e4315134cc9b6cd660f8fe5374e2d86998f019c9fb",
+      "public_archive_equals_installed_distro_not_claimed": true
+    },
+    {
+      "name": "certifi",
+      "version": "2023.11.17",
+      "kind": "pypi",
+      "dependencies": [],
+      "observed_installed_version": true,
+      "installed_bytes": null,
+      "download_url": "https://files.pythonhosted.org/packages/64/62/428ef076be88fa93716b576e4a01f919d25968913e817077a386fcbe4f42/certifi-2023.11.17-py3-none-any.whl",
+      "filename": "certifi-2023.11.17-py3-none-any.whl",
+      "sha256": "e036ab49d5b79556f99cfc2d9320b34cfbe5be05c5871b51de9329f0603b0474",
+      "download_bytes": 162530,
+      "official_page": "https://pypi.org/project/certifi/2023.11.17/",
+      "metadata_sha256": "12c3297e50b8d734a39745f50a5f9dc5fd930cb90c4eb3d55b76524e71e0d296",
+      "archive_verified": true,
+      "license": "MPL-2.0",
+      "observed_installed_dependencies": [],
+      "published_metadata_sha256": "12c3297e50b8d734a39745f50a5f9dc5fd930cb90c4eb3d55b76524e71e0d296",
+      "public_archive_equals_installed_distro_not_claimed": true
+    }
+  ],
+  "isolated_stage": {
+    "status": "PYTHON_LITEX_ENVIRONMENT_STAGE_PASS",
+    "complete_student_environment": false,
+    "full_cpu_replay": false,
+    "installed_bytes": 289391380,
+    "checks": [
+      {
+        "name": "bootstrap",
+        "exit_code": 0,
+        "log": "bootstrap.log",
+        "sha256": "578c0c6577605a6fa862e374155007a5ba6289167a711166297091d7eb50a1b0"
+      },
+      {
+        "name": "runtime",
+        "exit_code": 0,
+        "log": "runtime.log",
+        "sha256": "2d1c1aabb418cd4d31512a28c6336cfa2aa7ccbb0a249d0e55aafab708a603e5"
+      },
+      {
+        "name": "source-pythondata-misc-tapcfg",
+        "exit_code": 0,
+        "log": "source-pythondata-misc-tapcfg.log",
+        "sha256": "c5693fc18c8d3895fa6665860d824a91148f1620a6010c5bd0da4fcee954da2f"
+      },
+      {
+        "name": "source-pythondata-software-compiler-rt",
+        "exit_code": 0,
+        "log": "source-pythondata-software-compiler-rt.log",
+        "sha256": "f2ba1121e57778cdfdbdecc2d9dfa79e3300f412ec8dcca758c2646cb90b8214"
+      },
+      {
+        "name": "source-pythondata-software-picolibc",
+        "exit_code": 0,
+        "log": "source-pythondata-software-picolibc.log",
+        "sha256": "094d384eb018ea853c25dbb46be8d58b30d21a70b658dc17720041351b14007f"
+      },
+      {
+        "name": "source-pythondata-cpu-vexriscv",
+        "exit_code": 0,
+        "log": "source-pythondata-cpu-vexriscv.log",
+        "sha256": "efc46f279a71aa87beb219e527d82b717ac67fa2cb63ab3a14976c425ce76b9a"
+      },
+      {
+        "name": "source-liteeth",
+        "exit_code": 0,
+        "log": "source-liteeth.log",
+        "sha256": "082654033ff1cb8e670f93718425b8649073e0865a43f2db03f4a2658b151df6"
+      },
+      {
+        "name": "source-litex",
+        "exit_code": 0,
+        "log": "source-litex.log",
+        "sha256": "1593c699e9aba84ca580bd72bd01a4b9704c7c63c0b3083540f054b8c6197cda"
+      },
+      {
+        "name": "source-migen",
+        "exit_code": 0,
+        "log": "source-migen.log",
+        "sha256": "e2e4a7f5b11e7b15ab6d402a256e926a739f72b6f0a94781bd8db53b191fbafe"
+      },
+      {
+        "name": "source-litedram",
+        "exit_code": 0,
+        "log": "source-litedram.log",
+        "sha256": "bf5754cd592e10844a29dfad157682b4384a2ac1897bc4037978f3408664a757"
+      },
+      {
+        "name": "pip-check",
+        "exit_code": 0,
+        "log": "pip-check.log",
+        "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+      },
+      {
+        "name": "imports",
+        "exit_code": 0,
+        "log": "imports.log",
+        "sha256": "3fcc3274fdab417611914b060cc46ab9d5e4d03af54c477b718104af9e1768d1"
+      },
+      {
+        "name": "generator-tests",
+        "exit_code": 0,
+        "log": "generator-tests.log",
+        "sha256": "ef2709daf322070ba4c8c57ba430f899e95be47b393610e493145d56b81c87e3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "compiled_artifacts": {
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/inputs.bin": "baafeaeb6b75e03a6df72a6841d043140154d74bfcbede6011eaf69948c83bf6",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/inputs.json": "ee429b056ab03a05287c0c9552e9af814d97d35fbfb7846d82ea31bb3530e609",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/software/bios/bios.bin": "1e0e121856f1b88647c5cd6dad93176db116d2ec98b6eff4b947a3c9bff83694",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/obj_dir/Vsim": "9b7507d3273d78ae4039e3603d73427b62456ddfbb4a9608fc62ad82e12976d1",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim.v": "4ee3f961e62b826573e195d39ba7e0d73dcd8c2a05b1fdcb94a2b615706c1532",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/csr.csv": "bca4ef4e7d0f7e151994dbc303414a1565f281c4b51e39479ac8534a449758a9"
+  },
+  "memory_initializers": {
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim_mem.init": "f39497a4ac818a49482bc685ccf171c32d6b92b85eede0b075ec3c443682bbca",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim_mem_1.init": "32271c1643ede0c0fb73c3d16daa4502ae58380926bd0c92c61735dfee8cecf2",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim_mem_2.init": "4950cd5f068e04b928ba48446a14bb3cd09b9012fbc0600032fa4597884440e2",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim_mem_3.init": "851946906ee1bcd471e20f9ef18cf709a83da96f6dd10f2bd60ee84ca85fb1a7",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim_mem_4.init": "9c20e75a3c9e47ba6dc0011c0805dcde04614926dd6ee6325a9465b012e326d9",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim_rom.init": "dc19016835fc85cb5ef1c9e906d6e5c1b0f204e579d8cbfa25a8fb8c39bfa833",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/cpu/dcf304b723c11d9865ed109c805845e882c129a1688687f3eb45a3bb3262dd30/soc/gateware/sim_sram.init": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "scalar_sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f",
+  "build_reused": true
+}

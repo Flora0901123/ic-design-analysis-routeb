@@ -1,0 +1,1 @@
+read -formal -sv /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_status_command_adapter.sv /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/gpu_adapter_local_contract.sv; prep -top cmd_contract -flatten; opt_clean; sat -tempinduct -seq 2 -maxsteps 4 -prove-asserts -set-assumes -verify -timeout 90

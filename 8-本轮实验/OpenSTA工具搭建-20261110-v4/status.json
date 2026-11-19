@@ -1,0 +1,110 @@
+{
+  "status": "PINNED_OPENSTA_BUILD_PASS_NOT_GPU_STA",
+  "scope": "STA tool source and build qualification only; no GPU timing acceptance",
+  "opensta_source_url": "https://github.com/The-OpenROAD-Project/OpenSTA.git",
+  "opensta_commit": "f8e13cbf12d02a07a2d1ec4a64f3e6985b747eab",
+  "records": [
+    {
+      "stage": "opensta-build",
+      "command": [
+        "cmake",
+        "--build",
+        "/root/.cache/routeb-opensta-20261110/build",
+        "--target",
+        "sta",
+        "--parallel",
+        "2"
+      ],
+      "seconds": 100.20525445899875,
+      "log_sha256": "2b73ec51ddbb44b2754a5347cbfadca423e6a705163bd51588e8eb538c3c4721"
+    },
+    {
+      "stage": "opensta-version",
+      "command": [
+        "/root/.cache/routeb-opensta-20261110/build/sta",
+        "-version"
+      ],
+      "seconds": 2.017074119001336,
+      "log_sha256": "b2f44d3b6e29f8b1b73ea4735f006affc4d198e1fd9c7d50e736159b1ef636c6"
+    },
+    {
+      "stage": "source-archive",
+      "command": [
+        "git",
+        "archive",
+        "--format=tar.gz",
+        "-o",
+        "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/OpenSTA工具搭建-20261110-v4/OpenSTA-source.tar.gz",
+        "HEAD"
+      ],
+      "seconds": 44.036615334998714,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "cudd-archive",
+      "command": [
+        "git",
+        "archive",
+        "--format=tar.gz",
+        "-o",
+        "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/OpenSTA工具搭建-20261110-v4/CUDD-source.tar.gz",
+        "HEAD"
+      ],
+      "seconds": 2.026546025001153,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "dependency-versions",
+      "command": [
+        "dpkg-query",
+        "-W",
+        "tcl-dev",
+        "swig",
+        "libeigen3-dev",
+        "libfmt-dev",
+        "zlib1g-dev"
+      ],
+      "seconds": 2.063787424000111,
+      "log_sha256": "faab3171b5e9c3f3dc70e929e11c244d7a508306395b36aa488fc6782a21ace9"
+    },
+    {
+      "stage": "runtime-dependencies",
+      "command": [
+        "ldd",
+        "/root/.cache/routeb-opensta-20261110/build/sta"
+      ],
+      "seconds": 2.0229977529997996,
+      "log_sha256": "c6b27b8fc0a47d0f30029763e37fdffab19bb242e7fa59ee76700e0fa0fec783"
+    }
+  ],
+  "formal_promotion": "HOLD",
+  "PPA_signoff": false,
+  "resumed_from": {
+    "status_sha256": "8e0a5c6611dd55d72e7208064565f531585799617239e1795b9460b020df187d",
+    "source": "8-本轮实验/OpenSTA工具搭建-20261110-v3",
+    "reason": "Core and partial tests compiled; root stopped all-target build to prioritize executable",
+    "prerequisite_stages_verified": 6
+  },
+  "cudd_commit": "f54f533303640afd5dbe47a05ebeabb3066f2a25",
+  "cudd_source_url": "https://github.com/cuddorg/cudd.git",
+  "stage": "runtime-dependencies",
+  "seconds": 153.89189830600117,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794315543.4124815,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 27102017303\nuser_usec 26600508934\nsystem_usec 501508369\nnice_usec 0\nnr_periods 160294\nnr_throttled 919\nthrottled_usec 6078753\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1918660608",
+      "memory.peak": "5584429056",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n84357\n85150\n85152"
+    }
+  },
+  "binary_relative": "9-GPU复现/tools/opensta-f8e13cb/sta",
+  "binary_sha256": "6a9e1fef6ac36214569e15d258029928526be5b517b450d969232c354cb841c7",
+  "gpu_STA_executed": false
+}

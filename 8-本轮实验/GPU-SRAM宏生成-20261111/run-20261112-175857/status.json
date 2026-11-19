@@ -1,0 +1,87 @@
+{
+  "status": "LAYOUT_VIEWS_GENERATED_NEEDS_INDEPENDENT_CHECK",
+  "records": [
+    {
+      "shape": "8x128",
+      "status": "LAYOUT_VIEWS_GENERATED",
+      "base_config_sha256": "8989e48d748900fc508d449cbb0fcf1ad36e5f7efafa146a8e7b2fc3cdff1d46",
+      "config_sha256": "bc9625897247d4162da3e969a1b2afc4267481bea1832f2a0158255c32197682",
+      "files": {
+        "datasheet.info": "03032afad978b69a4b5e8f5ba3f88da460af57693fd7b915574fb4a7435a6d34",
+        "routeb_new_1w1r_8x128_TT_1p8V_25C.lib": "656589955205efa2a989b8af308bfb63e4f200b7b629cec3848c6fde19033a85",
+        "routeb_new_1w1r_8x128.log": "a8cc2704360d93d88537ef85c99b7dfd1056e0d674574a2399074670e500ab23",
+        "routeb_new_1w1r_8x128.py": "bc9625897247d4162da3e969a1b2afc4267481bea1832f2a0158255c32197682",
+        "routeb_new_1w1r_8x128.lvs.sp": "976e5a11c56039443be0f2cee3bf52c952a543308b3f10f3de2be1e15a647af7",
+        "sram.sp": "bcf26ad90f73797b64d24a69bde3b9a56c55981977a6b8247a67525663e1552f",
+        "routeb_new_1w1r_8x128.lef": "effad6050ab093faf98804e5faf762606dc863dffbcbdda3a48d7f73a51a5ac3",
+        "delay_stim.sp": "343f482080e59a22c8563d30fee21bb79697c6f95150eaf6cbcae3e8483db282",
+        "routeb_new_1w1r_8x128.html": "0b5540212f3de9b9300bff42ec7ee55dda6fc53d7b5f5864ccdd0980c941ee61",
+        "routeb_new_1w1r_8x128.gds": "e627a067388a483bc0eab70090effd0557eabf04b352aac3b4d8ebca62d13f03",
+        "delay_meas.sp": "17e688844ec7787e6a0a238e4be7b2f3a87d764115e8cebc412164740dbf6350",
+        "trimmed.sp": "6fb7fc849031c331f5dc5a66e45e57838bdb3be1237961d587b05f687b0875d9",
+        "routeb_new_1w1r_8x128.sp": "bcf26ad90f73797b64d24a69bde3b9a56c55981977a6b8247a67525663e1552f",
+        "functional_stim.sp": "e70caca5053b9b4dbea8f61eed75d1bf0e3064e4dc34a52b7513d8d20c2c97b1",
+        "routeb_new_1w1r_8x128.v": "f651f1bbad6bd6faac442b1924b2818d31139ccf080ec51d609fb78d40390641",
+        "functional_meas.sp": "4bf6f6b5c4ca65ac71c33dc4f8fb2c53cadccfaf355b7404ca5da83c79c4695e"
+      },
+      "seconds": 939.2863067999999
+    },
+    {
+      "shape": "20x64",
+      "status": "LAYOUT_VIEWS_GENERATED",
+      "base_config_sha256": "25fd3586574bcde193911f7080e3d05e7f49d221cda99305a76553090ee5e921",
+      "config_sha256": "4ce5041162534f4b82b8371da246c1f3a34dd18fe6a346f77aba8d3a8bdbfd4e",
+      "files": {
+        "datasheet.info": "34dd4037a66e52057a5b35899b8fabf98fc5742df2e9e06133f101f6edeb5d5c",
+        "routeb_new_1w1r_20x64.gds": "5ce3ba97110c15558cabfb955842e43dc20d17601534f2be0a419fd1677bdd9a",
+        "routeb_new_1w1r_20x64.py": "4ce5041162534f4b82b8371da246c1f3a34dd18fe6a346f77aba8d3a8bdbfd4e",
+        "sram.sp": "a7c6fb72a8f3e465b261c3148fe28e10190b9e4f565d1858b0b9ecafe1de4e82",
+        "delay_stim.sp": "62f6bc85f8e1725aa7ca4cc671526b364ba7f046956f183c33857d05dba2ef6c",
+        "routeb_new_1w1r_20x64.log": "eeff2743f03a9be4b6e30fd4241e9f8cad93f0fb4bb330bfc48f4a288dec3ac3",
+        "delay_meas.sp": "06d5702b59988e50c69a31a71e2da0aae8b0c5c15d3ba311a213120c097b27b1",
+        "routeb_new_1w1r_20x64.html": "4dc60446163ca80b8c4473ba00adf0b1f0ba7c3f64e54b948c1af6313972f48b",
+        "routeb_new_1w1r_20x64.v": "36de38f9ad43c2f279f79922fed5dc54229c315626cff87a93a5aec03ec9d2bf",
+        "routeb_new_1w1r_20x64.sp": "a7c6fb72a8f3e465b261c3148fe28e10190b9e4f565d1858b0b9ecafe1de4e82",
+        "routeb_new_1w1r_20x64.lvs.sp": "8006e8bd4aa273b5ab94bda741d1bcc5d2702283ee4b58e4760f0b7cb0865b5d",
+        "routeb_new_1w1r_20x64.lef": "b11126cf47b3c3c25fb47a59dd77f760e4ef0e42a67c489e7d2e59d29cd1e839",
+        "trimmed.sp": "0f66b556907c8aec9e57586d54575feaed621819132f922c6172fe37f3789258",
+        "routeb_new_1w1r_20x64_TT_1p8V_25C.lib": "51005e460c83663a624a5aab4da15f61daae18ac5a44760f06fdb0437833139d",
+        "functional_stim.sp": "f90ddd8a7b1e5f507369b7d519ac56f0dc960ff8c85486ccfcff410dada5027e",
+        "functional_meas.sp": "012230b184e645e444b1dae1f5e1512bdcf13a8ca848af4af37e7874b3e5e942"
+      },
+      "seconds": 265.04653953800016
+    }
+  ],
+  "physical_signoff": false,
+  "layout_view_mode": "analytical Liberty",
+  "layout_verification_requested": false,
+  "source_pins": {
+    "openram": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+    "bitcells": "dd64256961317205343a3fd446908b42bafba388",
+    "hd_latch": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1"
+  },
+  "inputs": {
+    "8-本轮实验/GPU-SRAM宏生成-20261111/macro-pdk-ready.json": "6ae22e5dbc70c11acade41552da1dc5f0eba302c7e848e75b114ea5abe6a9b0a",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/magic-8.3.306-v4/status.json": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.gds": "d7f91d31f0a3f51ce42522a0089e052a615109a3b08b94561198d8c5cfc86b38",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.spice": "97d2a2fad044ddd1cb4601b885f34af026c46ea5394ab1dea127f7579e334209",
+    "9-GPU复现/downloads/openram-b2b069c/OpenRAM-source.tar.gz": "bbbdf2bc13cf779b1b11fd485d52a39494b79cdc7b37861c025874cdb8bc0cd3",
+    "9-GPU复现/downloads/openram-b2b069c/Sky130-SRAM-bitcells.tar.gz": "4a9b8adf7c3ca65a97b2715aa7589149d6aacc5ed9fcff832d046d43bc1d87e9",
+    "7-审计与验收/generate_missing_sky130_sram_v5.py": "b1efdba829c0337e6307cd805bc885e44ed630fb0ec6d602cd76915515be552c"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794479994.9025607,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2458777801\nuser_usec 2447089244\nsystem_usec 11688557\nnice_usec 0\nnr_periods 24480\nnr_throttled 43\nthrottled_usec 101445\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "308346880",
+      "memory.peak": "851001344",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "2415"
+    }
+  }
+}

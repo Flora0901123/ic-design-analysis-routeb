@@ -1,0 +1,10 @@
+{
+  "status": "OPENROAD_8X128_LEF_LIBERTY_LOAD_PASS",
+  "physical_signoff": false,
+  "dbu_per_micron": 2000,
+  "technology_original_sha256": "1a18b353fb5457caf0eca5b3cb28b2c0c9bbacdbbdeee7c4fc64a115932066c2",
+  "technology_dbu_variant_sha256": "5f5fe1e61dcb1c72c670574277604ee9a77e9b4351ba3c6c3278ab11299a0517",
+  "macro_lef_sha256": "effad6050ab093faf98804e5faf762606dc863dffbcbdda3a48d7f73a51a5ac3",
+  "macro_liberty_sha256": "656589955205efa2a989b8af308bfb63e4f200b7b629cec3848c6fde19033a85",
+  "log_sha256": "bf1b080302ce44809375356529f8f0cfb1c3eabb19098719a0164616c369fc2b"
+}

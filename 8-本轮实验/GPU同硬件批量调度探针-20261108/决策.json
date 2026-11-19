@@ -1,0 +1,1 @@
+{"decision":"REJECT_BATCH_PATH_FOR_QUALIFICATION","reason":"P3 batch transcript has CP poll timeout and no terminal completion; anomalous addresses observed, root cause not yet established.","p1_probe_10_outputs_matched":true,"p3_probe_qualified":false,"adopted_method":"one case and one kernel launch per fresh process","baseline_changed":false}

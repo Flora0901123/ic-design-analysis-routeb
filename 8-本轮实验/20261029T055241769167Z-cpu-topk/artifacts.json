@@ -1,0 +1,13 @@
+{
+  "build.log": "c27b8fddf43335c4345007ff5426dc2c51f0740dc91a05ecf72a797c28f2e402",
+  "completion.json": "30181cfb32c9f5aef48e8552d99c5727d6d70b2b0bc4be5b5e4fde57b05e88f5",
+  "console.log": "a6b2cf5a4bbb34ca79256376baf9e29b3e093863dde6163a63694f8ce815b0fe",
+  "export.log": "26467b9bec70bac5d49105648525ca55db85399658f0893e8a47565af3289a97",
+  "inputs.json": "1dad866eae51b6d3258ce9b2d7acfacaf53fb8d2c5da54eca279ed0ff77a41e8",
+  "joined.jsonl": "06b8d37e305554f638beff279986807ca036ae2b457bbb4ff0d95a1a818a5ab6",
+  "official-numeric-report.json": "551720b7adba3475893e5bd09d1bf5cbbd921ab2dc21b26611c50c786190a3f9",
+  "run.log": "45e4ab4a415de229ef620ed2f40181a12722e372e9cb7ce6dc4323b73b3acb19",
+  "source.diff": "065466daada6e0719cf51c9ff6e25fe4c08df57b0d94f363c4ed7fc40106f22b",
+  "status.json": "0ae4fdffa3ae8763a24830b21fa8ee80a78198723d21e8a27a128031511f10ae",
+  "student_mini_scalar.c": "729eb4aeabdab2d3ad1302eddfc46264ff4419f04c09c033c85d36f253152ee1"
+}

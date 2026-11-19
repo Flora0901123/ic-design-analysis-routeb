@@ -1,0 +1,311 @@
+{
+  "status": "FIXED_ROM_2X2_VERIFIED",
+  "experiment": "stride x fixed32768-RNE15; final two additional variants only",
+  "primary_metric": "ttft_cycles",
+  "rom_capacity_bytes": 131072,
+  "simulator_sha256": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+  "verilator_version": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "same_compiled_simulator": true,
+  "all_token_hidden_logits_bit_identical": true,
+  "compared_steps_per_run": 5,
+  "hidden_values_per_run": 80,
+  "logits_values_per_run": 1280,
+  "records": [
+    {
+      "variant": "baseline",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-baseline-1794284177187099883",
+      "runs": 1,
+      "source_size_bytes": 10684,
+      "source_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "bios_size_bytes": 46020,
+      "bios_sha256": "a785f1420368fbb5ba5932d17654975dd83fc5a1dbd9b1e8b01d8f71e823a59c",
+      "metrics_mean": {
+        "ttft_cycles": 3859315,
+        "per_token_decode_cycles": 831250.5,
+        "session_cycles": 7184546
+      },
+      "target_logical_counters_mean": {
+        "instructions": 3987658,
+        "ibus_bytes": 2556800,
+        "dbus_bytes": 1045926,
+        "dma_bytes": 0
+      },
+      "code_symbols": {
+        "object": [
+          {
+            "name": "mini_native_scalar_attention",
+            "address_hex": "00000970",
+            "size_bytes": 88
+          },
+          {
+            "name": "matmul",
+            "address_hex": "000009c8",
+            "size_bytes": 280
+          },
+          {
+            "name": "rne_div",
+            "address_hex": "00000000",
+            "size_bytes": 284
+          },
+          {
+            "name": "mini_native_scalar_attention.part.0",
+            "address_hex": "00000580",
+            "size_bytes": 1008
+          }
+        ],
+        "elf": [
+          {
+            "name": "mini_native_scalar_attention",
+            "address_hex": "0000375c",
+            "size_bytes": 84
+          },
+          {
+            "name": "matmul",
+            "address_hex": "000037b0",
+            "size_bytes": 260
+          },
+          {
+            "name": "rne_div",
+            "address_hex": "00002e84",
+            "size_bytes": 276
+          },
+          {
+            "name": "mini_native_scalar_attention.part.0",
+            "address_hex": "0000339c",
+            "size_bytes": 960
+          }
+        ]
+      }
+    },
+    {
+      "variant": "stride",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-stride-1794284999705911797",
+      "runs": 1,
+      "source_size_bytes": 10915,
+      "source_sha256": "1b604eaf9d17240301c0dbe76e8343cae50147f88eb60b2e537f189dc66a8305",
+      "bios_size_bytes": 46044,
+      "bios_sha256": "be59f22abaf3378abf02d77d2ea3f0282a73f4adaa05dde2986841f43cfb1bb9",
+      "metrics_mean": {
+        "ttft_cycles": 3785717,
+        "per_token_decode_cycles": 805294,
+        "session_cycles": 7007122
+      },
+      "target_logical_counters_mean": {
+        "instructions": 3866297,
+        "ibus_bytes": 2481056,
+        "dbus_bytes": 1041434,
+        "dma_bytes": 0
+      },
+      "code_symbols": {
+        "object": [
+          {
+            "name": "mini_native_scalar_attention",
+            "address_hex": "00000970",
+            "size_bytes": 88
+          },
+          {
+            "name": "rne_div",
+            "address_hex": "00000000",
+            "size_bytes": 284
+          },
+          {
+            "name": "matmul",
+            "address_hex": "000009c8",
+            "size_bytes": 304
+          },
+          {
+            "name": "mini_native_scalar_attention.part.0",
+            "address_hex": "00000580",
+            "size_bytes": 1008
+          }
+        ],
+        "elf": [
+          {
+            "name": "mini_native_scalar_attention",
+            "address_hex": "0000375c",
+            "size_bytes": 84
+          },
+          {
+            "name": "rne_div",
+            "address_hex": "00002e84",
+            "size_bytes": 276
+          },
+          {
+            "name": "matmul",
+            "address_hex": "000037b0",
+            "size_bytes": 284
+          },
+          {
+            "name": "mini_native_scalar_attention.part.0",
+            "address_hex": "0000339c",
+            "size_bytes": 960
+          }
+        ]
+      }
+    },
+    {
+      "variant": "rne15",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-final-rne15-1794285416597010558",
+      "runs": 1,
+      "source_size_bytes": 10964,
+      "source_sha256": "4118bad108b87377676f012de5393e601634dfc1f6ee9f21fa7505d698ea255e",
+      "bios_size_bytes": 45972,
+      "bios_sha256": "2a4dc71e8c8957a53723176212249935555eacd93c84383f8d4bcd2a495e9a1d",
+      "metrics_mean": {
+        "ttft_cycles": 3851571,
+        "per_token_decode_cycles": 811830.25,
+        "session_cycles": 7099120
+      },
+      "target_logical_counters_mean": {
+        "instructions": 3881861,
+        "ibus_bytes": 2668544,
+        "dbus_bytes": 970902,
+        "dma_bytes": 0
+      },
+      "code_symbols": {
+        "object": [
+          {
+            "name": "mini_native_scalar_attention",
+            "address_hex": "00000938",
+            "size_bytes": 88
+          },
+          {
+            "name": "rne15",
+            "address_hex": "00000000",
+            "size_bytes": 116
+          },
+          {
+            "name": "matmul",
+            "address_hex": "00000990",
+            "size_bytes": 280
+          },
+          {
+            "name": "mini_native_scalar_attention.part.0",
+            "address_hex": "000004d8",
+            "size_bytes": 1120
+          }
+        ],
+        "elf": [
+          {
+            "name": "mini_native_scalar_attention",
+            "address_hex": "00003728",
+            "size_bytes": 84
+          },
+          {
+            "name": "rne15",
+            "address_hex": "00002e84",
+            "size_bytes": 116
+          },
+          {
+            "name": "matmul",
+            "address_hex": "0000377c",
+            "size_bytes": 260
+          },
+          {
+            "name": "mini_native_scalar_attention.part.0",
+            "address_hex": "000032fc",
+            "size_bytes": 1068
+          }
+        ]
+      }
+    },
+    {
+      "variant": "stride_rne15",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-final-stride_rne15-1794285560216420872",
+      "runs": 1,
+      "source_size_bytes": 11195,
+      "source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "bios_sha256": "026855f44d763dc68b8db1af2666a915f9da50cdc6d4427844bad39a1909f248",
+      "metrics_mean": {
+        "ttft_cycles": 3681514,
+        "per_token_decode_cycles": 771051.75,
+        "session_cycles": 6765949
+      },
+      "target_logical_counters_mean": {
+        "instructions": 3760500,
+        "ibus_bytes": 2377696,
+        "dbus_bytes": 973514,
+        "dma_bytes": 0
+      },
+      "code_symbols": {
+        "object": [
+          {
+            "name": "mini_native_scalar_attention",
+            "address_hex": "00000938",
+            "size_bytes": 88
+          },
+          {
+            "name": "rne15",
+            "address_hex": "00000000",
+            "size_bytes": 116
+          },
+          {
+            "name": "matmul",
+            "address_hex": "00000990",
+            "size_bytes": 304
+          },
+          {
+            "name": "mini_native_scalar_attention.part.0",
+            "address_hex": "000004d8",
+            "size_bytes": 1120
+          }
+        ],
+        "elf": [
+          {
+            "name": "mini_native_scalar_attention",
+            "address_hex": "00003728",
+            "size_bytes": 84
+          },
+          {
+            "name": "rne15",
+            "address_hex": "00002e84",
+            "size_bytes": 116
+          },
+          {
+            "name": "matmul",
+            "address_hex": "0000377c",
+            "size_bytes": 284
+          },
+          {
+            "name": "mini_native_scalar_attention.part.0",
+            "address_hex": "000032fc",
+            "size_bytes": 1068
+          }
+        ]
+      }
+    }
+  ],
+  "improvement_percent_vs_baseline": {
+    "baseline": {
+      "ttft_cycles": 0.0,
+      "per_token_decode_cycles": 0.0,
+      "session_cycles": 0.0
+    },
+    "stride": {
+      "ttft_cycles": 1.9070223601856806,
+      "per_token_decode_cycles": 3.122584587919045,
+      "session_cycles": 2.4695227784747984
+    },
+    "rne15": {
+      "ttft_cycles": 0.2006573705437364,
+      "per_token_decode_cycles": 2.3362692714169797,
+      "session_cycles": 1.189024330834544
+    },
+    "stride_rne15": {
+      "ttft_cycles": 4.6070610976300195,
+      "per_token_decode_cycles": 7.241950531157575,
+      "session_cycles": 5.82635284122337
+    }
+  },
+  "combination_ttft_two_percent_and_no_other_metric_regression": true,
+  "formal_promote": false,
+  "next_gate": "limited independent resets and frozen12 correctness",
+  "physical_ppa": "HOLD: old ROM hardware PPA does not apply",
+  "scope": "one question per variant at this stage; excludes boot/input transfer; EOS included; target mcycle not host wall time",
+  "dynamic_rne_preserved": true,
+  "fixed_rne_call_sites_changed": 2,
+  "historical_baseline_cycles_used": false
+}

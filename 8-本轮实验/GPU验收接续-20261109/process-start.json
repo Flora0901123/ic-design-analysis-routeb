@@ -1,0 +1,15 @@
+{
+  "status": "STARTED_WAITING_FOR_FULL_BASELINE",
+  "windows_pid": 15820,
+  "started_at": "2026-11-09T23:00:03.0216864+08:00",
+  "sequence": [
+    "wait full baseline",
+    "independently seal 1000",
+    "refresh HTML",
+    "run full candidate1000",
+    "independently seal candidate",
+    "refresh HTML"
+  ],
+  "recurring_automation": false,
+  "formal_promotion": "HOLD"
+}

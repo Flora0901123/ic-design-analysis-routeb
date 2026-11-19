@@ -1,0 +1,205 @@
+{
+  "segments": {
+    "weight.attention_ckv": {
+      "offset": 0,
+      "size": 128
+    },
+    "weight.attention_index_k": {
+      "offset": 128,
+      "size": 128
+    },
+    "weight.attention_index_q": {
+      "offset": 256,
+      "size": 128
+    },
+    "weight.attention_kpe": {
+      "offset": 384,
+      "size": 64
+    },
+    "weight.attention_norm": {
+      "offset": 448,
+      "size": 16
+    },
+    "weight.attention_out": {
+      "offset": 512,
+      "size": 128
+    },
+    "weight.attention_q_nope": {
+      "offset": 640,
+      "size": 128
+    },
+    "weight.attention_q_pe": {
+      "offset": 768,
+      "size": 64
+    },
+    "weight.down": {
+      "offset": 832,
+      "size": 512
+    },
+    "weight.embedding": {
+      "offset": 1344,
+      "size": 4096
+    },
+    "weight.final_norm": {
+      "offset": 5440,
+      "size": 16
+    },
+    "weight.gate": {
+      "offset": 5504,
+      "size": 512
+    },
+    "weight.lm_head": {
+      "offset": 6016,
+      "size": 4096
+    },
+    "weight.moe_norm": {
+      "offset": 10112,
+      "size": 16
+    },
+    "weight.router": {
+      "offset": 10176,
+      "size": 32
+    },
+    "weight.shared_down": {
+      "offset": 10240,
+      "size": 256
+    },
+    "weight.shared_gate": {
+      "offset": 10496,
+      "size": 256
+    },
+    "weight.shared_up": {
+      "offset": 10752,
+      "size": 256
+    },
+    "weight.up": {
+      "offset": 11008,
+      "size": 512
+    },
+    "rtl.p3.layer0.weights": {
+      "offset": 11520,
+      "size": 2304
+    },
+    "scales.fp32": {
+      "offset": 13824,
+      "size": 76
+    },
+    "tokenizer.offsets.u32": {
+      "offset": 13952,
+      "size": 1028
+    },
+    "tokenizer.bytes": {
+      "offset": 15040,
+      "size": 314
+    },
+    "user.utf8": {
+      "offset": 15360,
+      "size": 21
+    },
+    "prompt.tokens.u32": {
+      "offset": 15424,
+      "size": 40
+    },
+    "generated.tokens.u32": {
+      "offset": 15488,
+      "size": 48
+    },
+    "kv_cache.bf16": {
+      "offset": 15552,
+      "size": 2048
+    },
+    "descriptors": {
+      "offset": 17600,
+      "size": 256
+    },
+    "operator_scratch": {
+      "offset": 17856,
+      "size": 1048576
+    }
+  },
+  "scale_order": [
+    "attention_ckv",
+    "attention_index_k",
+    "attention_index_q",
+    "attention_kpe",
+    "attention_norm",
+    "attention_out",
+    "attention_q_nope",
+    "attention_q_pe",
+    "down",
+    "embedding",
+    "final_norm",
+    "gate",
+    "lm_head",
+    "moe_norm",
+    "router",
+    "shared_down",
+    "shared_gate",
+    "shared_up",
+    "up"
+  ],
+  "scale_index": {
+    "attention_ckv": 0,
+    "attention_index_k": 1,
+    "attention_index_q": 2,
+    "attention_kpe": 3,
+    "attention_norm": 4,
+    "attention_out": 5,
+    "attention_q_nope": 6,
+    "attention_q_pe": 7,
+    "down": 8,
+    "embedding": 9,
+    "final_norm": 10,
+    "gate": 11,
+    "lm_head": 12,
+    "moe_norm": 13,
+    "router": 14,
+    "shared_down": 15,
+    "shared_gate": 16,
+    "shared_up": 17,
+    "up": 18
+  },
+  "prompt_tokens": [
+    1,
+    2,
+    9,
+    29,
+    9,
+    92,
+    16,
+    27,
+    111,
+    3
+  ],
+  "question": "\u4e00\u52a0\u4e00\u7b49\u4e8e\u51e0\uff1f",
+  "model_config": {
+    "name": "student-mini-v1",
+    "layers": 1,
+    "hidden": 16,
+    "heads": 1,
+    "kv_latent": 12,
+    "experts": 2,
+    "active_experts": 1,
+    "intermediate": 16,
+    "vocab": 256,
+    "context": 32,
+    "max_generated_tokens": 12,
+    "d_nope": 8,
+    "d_rope": 4,
+    "indexer_dim": 8,
+    "value_dim": 8
+  },
+  "max_generated_tokens": 12,
+  "tokenizer_special_tokens": {
+    "PAD": 0,
+    "BOS": 1,
+    "USER": 2,
+    "ASSISTANT": 3,
+    "EOS": 4,
+    "UNK": 5
+  },
+  "contains_expected_tokens": false,
+  "image_sha256": "6c51d6680ed34474bfe9a2267ecddeca2c492724faa857044ab1ee9d6067f5f5",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "size_bytes": 1066432
+}

@@ -1,0 +1,37 @@
+{
+  "status": "FAILED_NOT_QUALIFIED",
+  "scope": "Whole new FF mapping, cell-delay STA exploration at10ns; no wire RC/SPEF/CTS or post-route signoff",
+  "physical_signoff": false,
+  "formal_promotion": "HOLD",
+  "source_bindings": {
+    "8-本轮实验/GPU物理依赖公开来源核对-20261109/sky130_fd_sc_hd__tt_025C_1v80.lib": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+    "8-本轮实验/GPU新FF标准单元映射-20261110-v2/ff-mapped.v": "b18dc63c5f260455448b3e1e2703a23262905ccb081440b16c7fdf47e7c4bbfb",
+    "8-本轮实验/GPU新FF标准单元映射-20261110-v2/验收结论.json": "b1fddde6b4b6c4b8c6ef7e51cc01b34aac3affc4316d0d7babc215e203069236",
+    "9-GPU复现/tools/opensta-f8e13cb/sta": "6a9e1fef6ac36214569e15d258029928526be5b517b450d969232c354cb841c7",
+    "8-本轮实验/OpenSTA工具搭建-20261110-v4/status.json": "82c2beff5ad3100299fd7c4f09f35a5119710e6539bf1cfe891ac9c6d9ac73cb",
+    "7-审计与验收/run_new_gpu_ff_sta.py": "1929b3e8bf9a2466b9c617719b449e9ab2f98ae82c79b7c9d2aee016a40ec9cf",
+    "8-本轮实验/GPU新FF综合后STA-20261110/constraints.sdc": "c65de37d56ecf70f60aa85ead25e65a9840af778fcd4be1c665ef3fc81038823",
+    "8-本轮实验/GPU新FF综合后STA-20261110/run.tcl": "f7e90b6c8f1fc6f8257829c2af09b18b5429d8556cf8ccba80e741ef862ea877"
+  },
+  "tool_commit": "f8e13cbf12d02a07a2d1ec4a64f3e6985b747eab",
+  "target_period_ns": 10,
+  "interconnect_parasitics": "not extracted; no wire delay qualification",
+  "power_energy_measured": false,
+  "seconds": 2.1641143479992024,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794315585.6811368,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 27171578277\nuser_usec 26668899158\nsystem_usec 502679119\nnice_usec 0\nnr_periods 160742\nnr_throttled 919\nthrottled_usec 6078753\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "2001113088",
+      "memory.peak": "5584429056",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n85382\n85389\n85388"
+    }
+  },
+  "error": "AssertionError: ('STA exit', 1)"
+}

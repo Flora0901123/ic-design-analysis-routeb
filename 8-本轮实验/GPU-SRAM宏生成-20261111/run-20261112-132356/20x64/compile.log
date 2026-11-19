@@ -1,0 +1,56 @@
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+ERROR: file magic.py: line 245: Unable to find the total error line in Magic output.
+|==============================================================================|
+|=========                      OpenRAM v1.2.49                       =========|
+|=========                                                            =========|
+|=========               VLSI Design and Automation Lab               =========|
+|=========        Computer Science and Engineering Department         =========|
+|=========            University of California Santa Cruz             =========|
+|=========                                                            =========|
+|=========          Usage help: openram-user-group@ucsc.edu           =========|
+|=========        Development help: openram-dev-group@ucsc.edu        =========|
+|=========                See LICENSE for license info                =========|
+|==============================================================================|
+** Start: 11/12/2026 13:24:05
+Technology: sky130
+Total size: 1280 bits
+Word size: 20
+Words: 64
+Banks: 1
+RW ports: 0
+R-only ports: 1
+W-only ports: 1
+DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+Only generating nominal corner timing.
+Words per row: 1
+Output files are: 
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.lvs
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.sp
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.v
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.lib
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.py
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.html
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.log
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.lef
+/root/.cache/routeb-openram-b2b069c/run-20261112-132356/20x64/views/routeb_new_1w1r_20x64.gds
+** Submodules: 10.1 seconds
+** Placement: -6.3 seconds
+** Routing: 518.6 seconds
+Traceback (most recent call last):
+  File "/root/.cache/routeb-openram-b2b069c/source/sram_compiler.py", line 73, in <module>
+    s = sram()
+        ^^^^^^
+  File "/root/.cache/routeb-openram-b2b069c/source/compiler/sram.py", line 58, in __init__
+    self.s.create_layout()
+  File "/root/.cache/routeb-openram-b2b069c/source/compiler/modules/sram_1bank.py", line 239, in create_layout
+    self.DRC_LVS(final_verification=OPTS.route_supplies, force_check=OPTS.check_lvsdrc)
+  File "/root/.cache/routeb-openram-b2b069c/source/compiler/base/hierarchy_design.py", line 70, in DRC_LVS
+    self.drc_errors = verify.run_drc(self.cell_name, tempgds, tempspice, extract=True, final_verification=final_verification)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.cache/routeb-openram-b2b069c/source/compiler/verify/magic.py", line 245, in run_drc
+    debug.error("Unable to find the total error line in Magic output.", 1)
+  File "/root/.cache/routeb-openram-b2b069c/source/compiler/debug.py", line 48, in error
+    assert return_value == 0
+           ^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,54 @@
+{
+  "status": "HOST_O3_CONTROL_PROBES_PASS",
+  "no_target_RTL_or_kernel_change": true,
+  "no_target_speedup_claim": true,
+  "library_runtime_location": "tmpfs RAM only; persistent binary retained on D drive",
+  "host_library_sha256": "783385541b15c8952b8401deb66d0555c23d86307b779ce871829d93ce3b2d7f",
+  "records": [
+    {
+      "ordinal": 0,
+      "seconds": 73.70440313100062,
+      "parent_seconds": 15.941726223999922,
+      "cycles": 95244,
+      "instructions": 8893,
+      "outputs_match": true,
+      "counts_identical_to_parent": true,
+      "log_sha256": "7f198b8e50566514358b111a142e70415d3e55203172e11f37a95fff9c029e80"
+    },
+    {
+      "ordinal": 100,
+      "seconds": 50.31834913700004,
+      "parent_seconds": 45.38011627200012,
+      "cycles": 239990,
+      "instructions": 23733,
+      "outputs_match": true,
+      "counts_identical_to_parent": true,
+      "log_sha256": "46b2a5e5676da1655b83f5eca3ed064dedc6be9740e00d200065c42fdce37694"
+    },
+    {
+      "ordinal": 660,
+      "seconds": 47.13367993199972,
+      "parent_seconds": null,
+      "cycles": 193616,
+      "instructions": 18818,
+      "outputs_match": true,
+      "counts_identical_to_parent": true,
+      "log_sha256": "edbd0ebcf741755d94e8e9f632d49f957dc87e6c3c2869f8fc3964f925e81d1e"
+    }
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794149103.5190928,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 3937768012\nuser_usec 3752767845\nsystem_usec 185000166\nnice_usec 0\nnr_periods 45853\nnr_throttled 171\nthrottled_usec 3261894\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "564109312",
+      "memory.peak": "1597546496",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "883\n14029\n14314\n14372\n14373\n14377"
+    }
+  }
+}

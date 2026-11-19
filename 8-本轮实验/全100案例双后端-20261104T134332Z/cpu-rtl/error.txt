@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/replay_all100.py", line 40, in cpu
+    text=(out/'console.log').read_text(errors='replace')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1030, in read_text
+    return f.read()
+           ^^^^^^^^
+OSError: [Errno 61] No data available

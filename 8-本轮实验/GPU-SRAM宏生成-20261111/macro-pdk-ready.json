@@ -1,0 +1,10 @@
+{
+  "status": "PINNED_SKY130A_SRAM_INPUTS_READY",
+  "pdk_source": "open_pdks e8294524e5f67c533c5d0c3afa0bcc5b2a5fa066",
+  "tech_files": {
+    "magic/sky130A.magicrc": "f717a54ec62b7df3e77426c38c6fbe925b4872b57a193b66d4d336e56e1fb88b",
+    "ngspice/sky130.lib.spice": "5efa041a988893c1a3580d0ecd57870ea3146b27741c7d42b56baaa336b9549e",
+    "netgen/setup.tcl": "b0b1013a1911d1fb41dc1a727c5a82330add975ada62919e0a8214814d9282a6"
+  },
+  "scope": "Common and transistor packages extracted; standalone macro input check"
+}

@@ -1,0 +1,20 @@
+{
+  "runner_sha256": "04835a8c5f51233590b97ba21644410b2826fde4b1081f86b0df7a512bc7d980",
+  "comparison_sha256": "2594050c22d1583184eb7be1ebbd5c6def36d72c6b1e4a136c7847ece3d4b75d",
+  "inputs_sha256": "baafeaeb6b75e03a6df72a6841d043140154d74bfcbede6011eaf69948c83bf6",
+  "dispatch_sha256": "2a117b32da9b034f402cf7f28c8b613835c983bd7cf3c239bab28f2e4bdf90f2",
+  "reference_boards": {
+    "baseline": "a3fc73cc5f78df65684e0a8a9ecbfeac4eefce6d29b02e375f46f3c010ddf59f",
+    "candidate": "ceaffdfe5b93e72c271665cefb212e72504a657793639b7d4ee2304726db9544"
+  },
+  "runtime": {
+    "libvortex.so": "5ecc049752034fd2f6e3a28953c5965a403941f39f612da30a6c21bfd5c16907",
+    "libvortex-rtlsim.so": "9a55437cacc1e60a231dac5da1b9d07a455ba00797f1dd375f372e38642c5b35",
+    "librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  },
+  "executables": {
+    "baseline": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "rne": "5dce4f7556fb6c00046a7b4257f02020eedec3bffcdcc411ae2ba08b3dfbb3eb",
+    "combined": "9cd7b584b43d05d12ac7f5ca15a382b040b4f220780328dd7a33f7620e7358a9"
+  }
+}

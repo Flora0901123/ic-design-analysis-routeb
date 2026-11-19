@@ -1,0 +1,4 @@
+Makefile:18: warning: overriding recipe for target '/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline/kernel_compat/libvortex2.a'
+/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/tests/hip/common.mk:130: warning: ignoring old recipe for target '/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline/kernel_compat/libvortex2.a'
+make: Warning: File '/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline/student_mini.cu' has modification time 2.6 s in the future
+make: *** No rule to make target 'common.h', needed by 'student_mini'.  Stop.

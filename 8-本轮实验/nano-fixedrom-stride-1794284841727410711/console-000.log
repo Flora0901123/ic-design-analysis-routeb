@@ -1,0 +1,70 @@
+[xgmii_ethernet] loaded (0x5bc0a14c52f0)
+[spdeeprom] loaded (addr = 0x0)
+[serial2tcp] loaded (0x5bc0a14c52f0)
+[serial2console] loaded (0x5bc0a14c52f0)
+[jtagremote] loaded (0x5bc0a14c52f0)
+[gmii_ethernet] loaded (0x5bc0a14c52f0)
+[ethernet] loaded (0x5bc0a14c52f0)
+[clocker] loaded
+[clocker] sys_clk: freq_hz=1000000, phase_deg=0
+
+
+[1m        __   _ __      _  __[0m
+
+[1m       / /  (_) /____ | |/_/[0m
+
+[1m      / /__/ / __/ -_)>  <[0m
+
+[1m     /____/_/\__/\__/_/|_|[0m
+
+[1m   Build your hardware, easily![0m
+
+
+ (c) Copyright 2012-2024 Enjoy-Digital
+
+ (c) Copyright 2007-2015 M-Labs
+
+
+ BIOS CRC passed (3cea4192)
+
+
+ LiteX git sha1: --------
+
+
+--=============== [1mSoC[0m ==================--
+
+[1mCPU[0m:		VexRiscv_Full @ 1MHz
+
+[1mBUS[0m:		wishbone 32-bit @ 4GiB
+
+[1mCSR[0m:		32-bit data
+
+[1mROM[0m:		128.0KiB
+
+[1mSRAM[0m:		8.0KiB
+
+[1mL2[0m:		8.0KiB
+
+[1mSDRAM[0m:		256.0MiB 128-bit @ 1MT/s (CL-2 CWL-2)
+
+[1mMAIN-RAM[0m:	256.0MiB
+
+
+--========== [1mInitialization[0m ============--
+
+
+Initializing SDRAM @0x40000000...
+
+Switching SDRAM to software control.
+
+Switching SDRAM to hardware control.
+
+
+STUDENT_NATIVE_CPU_BEGIN prompt_tokens=9 max_tokens=12
+
+STUDENT_NATIVE_CPU status=0 count=5 cycles=0:7040623 instructions=0:3878501 ibus_bytes=0:2531776 dbus_bytes=0:1042042 dma_bytes=0:0
+
+STUDENT_NATIVE_TOKEN step=0 token=92 elapsed_cycles=0:3801202 hidden=bf9e,bffc,bfb9,c00e,3fab,3fef,bf85,bf00,3f65,4020,3ef9,c02c,3eb3,bf74,bfda,c006 logits=bf46,bf4b,bf98,bf84,c085,c006,bfa0,bf81,bfad,bf88,bfc3,bfa8,bfe6,bfce,bfcb,bd6d,3fd5,bf8c,bf7f,bfbd,bf1a,bf47,bf5c,3ffb,bfe9,bf47,bf7f,bf9f,bf96,bf8d,401a,bf6e,bf55,bf85,bf5d,bfd9,bf88,bf82,bf98,bf5f,bfbb,bfec,bfb5,bf88,bf87,bf3c,bf11,bf59,bf25,bf9b,bfcc,3f98,3fdd,bf91,bf32,bfbd,4033,bfb3,c0a4,bf6f,bf04,bf76,bfa4,bf99,bf94,bfb7,bf8c,4062,bf53,3ff9,bfb8,c092,bfed,c0bc,bfac,bff6,bf53,bf61,bfaa,bf67,bede,bfa5,3f59,bf2c,402b,bf90,bfc4,bfc4,bf1c,bf8a,c034,bfe9,414e,bfa2,bf77,bfcb,bf89,3fad,bf9f,bfe4,bfb0,bf87,bf1a,bea2,bf8d,bfdf,bf41,bfed,bfb4,c111,bf08,bf7d,bed5,be1b,bf87,bfc9,bfb4,c01b,bf7a,bf72,bf60,bebc,bf61,bf88,bf68,bf5a,bff5,bf29,bfc1,bfa1,bf65,bfcc,bf82,bfa0,bf93,bfdf,bf64,bf6e,bf1f,bfd2,bfae,bfa7,bf83,bfa5,bf9d,bfea,bfcb,bf93,bf3d,bfca,bf88,bfdf,bf70,bf52,bf63,bf9b,bf85,bfdd,bfab,bedf,bf8c,bf8e,bf73,bf4e,bfe3,bf87,bf99,bfd5,bf89,bf89,bf97,bfbb,bf45,bee1,bfcb,bff1,bf4f,bf83,bfec,bf77,bf25,bf91,bfd0,bebf,bfc9,c013,bf90,bfc8,bfa9,bfa2,c003,bf13,becd,bf4e,bfbb,bf93,bf61,c017,bfaa,bf41,bf50,bf36,bec4,bf99,bf4f,bf9d,bfc1,bf69,bf36,bf9f,bfac,bf2e,bf8d,bfe2,bf79,bfa9,bf87,bef1,bf60,bfcf,bf24,bfc3,bf14,bf4c,bee3,bfc2,bf93,bfe6,bf3e,bf6f,bf3b,bf4d,bf90,bfe7,bf6f,bf8b,bf97,bf47,bf6f,bfb5,bf89,bf78,bedd,bf3e,bf4b,bfa1,beca,bf44,bf5c,bf35,bfdf,bf36,bf1a,bf98,bf87,bf8d
+
+STUDENT_NATIVE_TOKEN step=1 token=16 elapsed_cycles=0:4571655 hidden=c00d,c016,4024,3fe2,3da4,3fcd,bfd8,3e2c,3f15,bf0d,bf93,3f81,bfd4,bfee,bff7,3f32 logits=bfde,bfff,bf93,bf02,3fa3,bf1b,bf06,bf32,bfb3,bf08,bf97,bf8a,beba,bf72,be47,3eb9,413d,bf45,bed0,bfdd,bf7b,bf0a,3df0,bea5,bef5,bf0a,bfd4,bf38,be12,bf4f,3f11,befa,bf77,bfa3,bf33,c004,bfb5,bf34,bdb5,bfc0,bf8b,bf81,bf72,be76,bf26,bf8e,3ea6,bf31,bf64,bfaa,bf09,bfc7,3f37,bd25,bf18,bf27,4004,c003,c01e,be94,bd36,bf72,bfb4,3eca,bf62,bf02,bf57,c001,c090,c021,c000,3f4b,bffa,4050,bf2f,bf82,bf4c,bef0,3ec7,bf1b,bf4a,bf49,bfc9,bf5d,bf3f,bfee,bf3b,bf86,bf87,beee,40af,3cf1,400f,bf81,bf77,bf95,bf16,3ece,beea,bf78,bfd5,bf49,bf36,bf56,bf1d,bfa9,bf60,bf29,bfa9,beee,3e1e,bf01,3ca7,be2d,bfec,3d89,bfe4,c004,bfe4,bf22,bf34,bf27,bf40,bf93,c012,bea1,bf12,bf52,bf46,bea9,bf38,bf31,bfa3,bfe1,bf38,bfa6,bf60,3cc1,bff6,bf86,bf1b,bde4,bf4f,bfb5,bf75,bd8c,bfa2,bfa7,bee5,bfc3,bf8f,bf65,bfb7,bf4c,bf6f,bf2e,bfc4,bfed,beee,be90,bee7,3dd4,bf64,3f16,bfd2,beca,bf50,bf57,bff5,3e8f,bf58,bf09,bfc1,beb5,bf23,be7d,bf59,3e33,3e57,bdda,bf82,bfb6,c011,bf29,bfa3,bfa3,bfdb,bf1d,bf42,beeb,c00f,bf52,bf0a,bee8,bf52,bf2d,bfcb,bf8a,bf95,bf27,bf9b,bfcc,bf11,bf61,bf60,bef9,bf06,bf78,be99,bf1a,bf99,bed6,bf60,bfce,bf7a,bfb1,bfe5,be32,be8d,bf6e,3d44,bff8,bd96,3e15,c003,beee,bf10,bff2,bf84,bf0e,be8d,bf59,bf8e,bffe,bfb1,bf53,bfce,bf2c,bdc8,bfd6,bee2,bf02,be3f,bf6c,bf83,bf89,bf90,be1e,befe,bf12,bfb5,bf92,bccd,c040,be36,bfb9
+

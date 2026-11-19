@@ -1,0 +1,35 @@
+{
+  "status": "FAILED",
+  "records": [],
+  "physical_signoff": false,
+  "layout_view_mode": "analytical Liberty",
+  "source_pins": {
+    "openram": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+    "bitcells": "dd64256961317205343a3fd446908b42bafba388",
+    "hd_latch": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1"
+  },
+  "inputs": {
+    "8-本轮实验/GPU-SRAM宏生成-20261111/macro-pdk-ready.json": "6ae22e5dbc70c11acade41552da1dc5f0eba302c7e848e75b114ea5abe6a9b0a",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.gds": "d7f91d31f0a3f51ce42522a0089e052a615109a3b08b94561198d8c5cfc86b38",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.spice": "97d2a2fad044ddd1cb4601b885f34af026c46ea5394ab1dea127f7579e334209",
+    "9-GPU复现/downloads/openram-b2b069c/OpenRAM-source.tar.gz": "bbbdf2bc13cf779b1b11fd485d52a39494b79cdc7b37861c025874cdb8bc0cd3",
+    "9-GPU复现/downloads/openram-b2b069c/Sky130-SRAM-bitcells.tar.gz": "4a9b8adf7c3ca65a97b2715aa7589149d6aacc5ed9fcff832d046d43bc1d87e9",
+    "7-审计与验收/generate_missing_sky130_sram.py": "8a314e117fa4817b1bbf68c9df8bf5d3401e84b15e2f79a3cced1ce1ddd39c9a"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794460976.1947966,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 665747215\nuser_usec 654142924\nsystem_usec 11604291\nnice_usec 0\nnr_periods 5198\nnr_throttled 86\nthrottled_usec 84374\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "441610240",
+      "memory.peak": "473534464",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "406\n1231\n2303\n2334\n2415"
+    }
+  },
+  "error": "CalledProcessError: Command '['make', '-j2', 'sky130-install', 'SRAM_LIB_DIR=/root/.cache/routeb-openram-b2b069c/bitcells', 'PDK_ROOT=/root/.cache/routeb-openram-b2b069c/pdk']' returned non-zero exit status 2."
+}

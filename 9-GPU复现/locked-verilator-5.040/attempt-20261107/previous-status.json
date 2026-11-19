@@ -1,0 +1,21 @@
+{
+  "status": "BUILDING",
+  "prefix": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/tools/verilator-5.040",
+  "source": {
+    "url": "https://codeload.github.com/verilator/verilator/tar.gz/refs/tags/v5.040",
+    "tag": "v5.040",
+    "sha256": "56c7c46314adfad06dd093b77823bfd9b49ebef72342549f790718199c3e8223",
+    "bytes": 35762924,
+    "source": "official verilator/verilator release tag"
+  },
+  "stages": [
+    {
+      "stage": "autoconf",
+      "exit_code": 0
+    },
+    {
+      "stage": "configure",
+      "exit_code": 0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "TRANSCRIPTS_COLLECTED",
+  "variant": "baseline",
+  "requested_variant": "baseline",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "嗨",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "runs": [
+    {
+      "run": 0,
+      "complete": true,
+      "console_sha256": "4f805dc53d5623f470d421902dcc3c461965522d3ec7bfcb626da6873925a843",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 1847115,
+      "per_token_decode_cycles": 691695.6666666666,
+      "decode_intervals_cycles": [
+        666194,
+        691700,
+        717193
+      ],
+      "session_cycles": 3922431,
+      "operator_cycles": {
+        "1": 103488,
+        "2": 151579,
+        "3": 683262
+      }
+    }
+  ],
+  "token_and_metrics_validation": "PASS",
+  "metrics_mean": {
+    "ttft_cycles": 1847115,
+    "per_token_decode_cycles": 691695.6666666666,
+    "session_cycles": 3922431
+  },
+  "measurement_boundary": "mcycle around mini_native_generate; excludes boot, input transfer, host tokenization; EOS included in decode intervals",
+  "promotion": "NOT_EVALUATED"
+}

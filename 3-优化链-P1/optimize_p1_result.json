@@ -1,0 +1,36 @@
+{
+  "platform": "cpu",
+  "operator": "p1",
+  "candidate": "CPU-P1-A1-selection-topk",
+  "limit": 40,
+  "cases": [
+    {
+      "case": "P1-MINI-01",
+      "baseline": 14311,
+      "optimized": 12452,
+      "speedup_pct": 13.0
+    },
+    {
+      "case": "P1-MINI-02",
+      "baseline": 28209,
+      "optimized": 26783,
+      "speedup_pct": 5.1
+    },
+    {
+      "case": "P1-MINI-03",
+      "baseline": 28827,
+      "optimized": 27464,
+      "speedup_pct": 4.7
+    },
+    {
+      "case": "P1-MINI-04",
+      "baseline": 54270,
+      "optimized": 51518,
+      "speedup_pct": 5.1
+    }
+  ],
+  "equal_weight_speedup_pct": 7.0,
+  "baseline_mismatch": 0,
+  "optimized_mismatch": 0,
+  "correctness_regression_pass": true
+}

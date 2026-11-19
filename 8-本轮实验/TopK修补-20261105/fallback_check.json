@@ -1,0 +1,6 @@
+{
+  "normalized_source_matches_100_trial_baseline": true,
+  "source_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "new_algorithm_speedup_claimed": false,
+  "scope": "same fixed question and baseline source; candidate v2/v3 rejected"
+}

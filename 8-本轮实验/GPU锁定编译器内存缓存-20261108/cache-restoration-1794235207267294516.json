@@ -1,0 +1,8 @@
+{
+  "status": "LOCKED_HOST_LIBRARY_CACHE_VERIFIED",
+  "files": 325,
+  "restored_files": 0,
+  "seconds": 1.3532541140000376,
+  "path": "/dev/shm/routeb-llvm-libs-20261108",
+  "reason": "RAM cache is ephemeral across WSL shutdown; restore only SHA-identical locked bytes"
+}

@@ -1,0 +1,13 @@
+{
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/gateware/obj_dir/Vsim": "ce5bc142c48b1832cbbbdd5da89db238e9a5e040d0d4415476089a6441550695",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/software/bios/bios.elf": "7cbe5aeebc1087001c2e4f319fc5b54853488e6f0c0da9a92731bc92df2678f8",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/student_mini_native_nano.c": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/image/image.bin": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/gateware/sim_mem.init": "f39497a4ac818a49482bc685ccf171c32d6b92b85eede0b075ec3c443682bbca",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/gateware/sim_mem_1.init": "99da1f88c1d6cd2d525f95f400e3a1703e41b9292e7b15bf55c5edaf064c4ac7",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/gateware/sim_mem_2.init": "2efa63fad2edd00ba1a16d00e37f4d95730e7162db2027cb982cb5628fe1ed3a",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/gateware/sim_mem_3.init": "c43356ecf1c00b7857c0f89368201a5b2d7607deeac012df976101f6adf1677e",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/gateware/sim_mem_4.init": "51441fbfefd2440e2789f6877487cfcd0410cede4f81177d72d34e0b51d5f061",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/gateware/sim_rom.init": "495d1ebdc636a907d198147ce83072ba0a7e57c52eeaef2639b38bac0abfc9c1",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793253668984369265/soc/gateware/sim_sram.init": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

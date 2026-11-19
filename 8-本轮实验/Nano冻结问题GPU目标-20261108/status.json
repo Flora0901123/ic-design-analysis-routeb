@@ -1,0 +1,367 @@
+{
+  "status": "FROZEN_GPU_SIMX_12_PASS",
+  "backend": "Vortex-SimX",
+  "performance_eligible": false,
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "scope": "12 frozen questions, real target full-model generation; no expected tokens in device image or host launcher",
+  "records": [
+    {
+      "index": 0,
+      "question": "你好呀",
+      "domain": "greeting",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_text": "你好！",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/dcc89284535325e77db3315035b5bfbd571ddf7760d2aae014bbb42425f5254d",
+      "image_sha256": "8f27d85e2e1c9abd62415c42e7e65bdac3d34589de6c91a33a3e7240dd8606c0",
+      "executable_sha256": "d1fa240e466d31f5475b086107d0ce9e96ee57582217a92075babeb962f4090b",
+      "log_sha256": "5fd5c168e4b9c02c42d2a2904040052022bdbc0661035904c0fb684f7db44780"
+    },
+    {
+      "index": 1,
+      "question": "早上好",
+      "domain": "greeting",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_text": "你好！",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/eb4c2637a63199d583cefd13a98c4fcb02829e4ecada8aa579b4aed8c5b91e33",
+      "image_sha256": "7a231e329ed220b90d6ad8640d825e1a98e7c43de970d160a3ff266eb8861157",
+      "executable_sha256": "553db4e20df73c1a5f2e10a525d994b91f147d5c709c93571ed4f02ad0fd8cc0",
+      "log_sha256": "7711ab3a3b55db434e927c84e8afb450e67fdca171f96b27a06592e37017d2ac"
+    },
+    {
+      "index": 2,
+      "question": "嗨",
+      "domain": "greeting",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_text": "你好！",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/66dbc167bb8a3982d58a671db15328f0b42b4d73ff63771971208608dd2b1b9b",
+      "image_sha256": "916941cb2e26280e30be46a82e9769bdd68fa7a44d641171ee16af2da3b34fda",
+      "executable_sha256": "09dd9002859cd12bef7ba5d565bddbc7b0d5c8630d8e7bca4b95bcff50eb6ae5",
+      "log_sha256": "ff992051ca42e657df99a72b6ab7d31ee63b5d44ffc4b8f7beb9152edd463313"
+    },
+    {
+      "index": 3,
+      "question": "你叫什么",
+      "domain": "identity",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_text": "我是小助手。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/f1c17d42918638d14de9c4893cfbc5cf5459450c76b074d75db53cf2aa300ddf",
+      "image_sha256": "4db433925cc2ba45974dbe54b5332d55754b96b2740051b0e9b642685c72dd78",
+      "executable_sha256": "8cf2e77ea79b10df1629e18885e2a052441e5a16e84da0e605feddafa88714e1",
+      "log_sha256": "3c335ebe15810dfb90282678d47c11fb5c8270a526467f856d60739529f18d36"
+    },
+    {
+      "index": 4,
+      "question": "你是谁呀",
+      "domain": "identity",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_text": "我是小助手。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/e475585de813a9c6f7b99dd22bbd7793ca362716609eb18bb8fcd33ecea20199",
+      "image_sha256": "018d6b5a10b135e4237572979d05b74b1e48f5d0da72d6d65de00580571f133f",
+      "executable_sha256": "4e7060187070c55b2b74cf3c68acbd03930fc63f43990fc3ffd53e1187c0fcf1",
+      "log_sha256": "183c7370bfd03a9c24a5b4ce2aadb1d11690114cb8dae8b8bf937ee00e112d06"
+    },
+    {
+      "index": 5,
+      "question": "介绍自己",
+      "domain": "identity",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_text": "我是小助手。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/ec89bae87a20803c01297fbd021ed744be81c066e5bd576f4ad56ec2c9586a18",
+      "image_sha256": "949f39d138c41884a55b20aa5aec12eb214d29940ea3bfb3bb59f4439e24a47c",
+      "executable_sha256": "b69950fd192022dd9db6c1a55f8044474f990bbf42e902422887db138823400f",
+      "log_sha256": "b7c2b66139665eb7dc17d4b01c1f17a900cef753f2be927d704ee2687f49305f"
+    },
+    {
+      "index": 6,
+      "question": "今天天气怎么样？",
+      "domain": "weather",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_text": "我无法获知实时天气。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/34d74596db69102e2de90367c9b6549600f31f2b370060fb66f25e2aa6597d9d",
+      "image_sha256": "94d7434739bf16bc8c4e488804e5a92cc6a90a1bbf3dfcb2f57e79c2a7976d96",
+      "executable_sha256": "96f2052ff4996faa37bbfb567a9e45cf4667de2a7f66d5c2d721cda2f2760fa1",
+      "log_sha256": "85d61f8b9eaecb6f3b70b459ec30894419918cf5e85d94e599bd36e1756384ed"
+    },
+    {
+      "index": 7,
+      "question": "今天会下雨吗？",
+      "domain": "weather",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_text": "我无法获知实时天气。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/1f9e4c2c6d76b9548c45c3a2a36af4d4c73438de95ca3a843b7aeb3c7dd894dc",
+      "image_sha256": "2b9df4e33f76f4b72ebf4898ed5fab4bb4f126daa804f4c3ef1a18218100cae4",
+      "executable_sha256": "1fdcda5fd19b7b0c4cfce56da556fa22bc4bcead59d6b29ca4c103bb76110f3e",
+      "log_sha256": "b054443a0518ff325075eb53e697282bceb53facc795c388019e93f818e44f20"
+    },
+    {
+      "index": 8,
+      "question": "现在冷不冷？",
+      "domain": "weather",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_text": "我无法获知实时天气。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/d39e6454c31008bb62fdb9ff7284a169bd771acf5d1bfa4ff5bce245bb712493",
+      "image_sha256": "69ec337087c32a541cb484ea5469529803adc0754d7403774da493d72767aba2",
+      "executable_sha256": "19d49436faf45a3838019235492f65effc264eff5ac3b7f489aec5cc9fbf6718",
+      "log_sha256": "df994806bb5108c46981ad82f68694511743ddced146be84acbc4142d56bb162"
+    },
+    {
+      "index": 9,
+      "question": "一加一等于几？",
+      "domain": "arithmetic",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_text": "等于二。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/1b56ee801f706dc59f049d10e99e41f93e872b713520feb11a5188d29e1cf4c9",
+      "image_sha256": "6c51d6680ed34474bfe9a2267ecddeca2c492724faa857044ab1ee9d6067f5f5",
+      "executable_sha256": "35fc43bf9f29814548e79d98cf66ea5dc5a252cc93e4c7d3786ce2ab7e23c131",
+      "log_sha256": "0a1f49934650385693930f3731603e8055261a2a6f7be2c859ee7cb5fafecbb3"
+    },
+    {
+      "index": 10,
+      "question": "1+1是多少？",
+      "domain": "arithmetic",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_text": "等于二。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/87f6b9e89125b18f52f1a68fafe873d78e450aeb7437e1b3b1b62b798a9a35d1",
+      "image_sha256": "273538f160b6289b351f70f649d647df4e67690bb5fca590b4476cb5a385657f",
+      "executable_sha256": "a64758c0388e826a44be779a789c423a1f76982184aba8301bb8a8ccb8c3fd8e",
+      "log_sha256": "1c53c0144d5aaa10938671a6c572d21bf16410953c603e8d69c5a29ce4ab4216"
+    },
+    {
+      "index": 11,
+      "question": "一加一？",
+      "domain": "arithmetic",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_text": "等于二。",
+      "pass": true,
+      "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/61633edf5dcad79f45a19988e249a41f0aa6d6dbc2a5148d11203612d89b257e",
+      "image_sha256": "666c39a97a385eb9e9bb7777eb4a33e5e79bdbf703fe7a1ae84c2447f6170c04",
+      "executable_sha256": "bf674735bae3c172715f3fc92a7cdf1609052f076b6fda83202471a6d80a8110",
+      "log_sha256": "b43556a9e9dd8f6c7b17da1064fdb6668ae7b61118061bb742878de7d6c90950"
+    }
+  ],
+  "elapsed_seconds": 765.73872544,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794143099.1688073,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2558233441\nuser_usec 2461838515\nsystem_usec 96394926\nnice_usec 0\nnr_periods 16107\nnr_throttled 219\nthrottled_usec 3832086\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "474206208",
+      "memory.peak": "1209659392",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "299\n7335\n9836\n10700\n15696\n15809\n15969\n15971\n15972\n15973\n16000\n16001\n16002"
+    }
+  }
+}

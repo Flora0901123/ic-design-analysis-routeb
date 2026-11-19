@@ -1,0 +1,211 @@
+{
+  "primary_metric": "ttft_cycles",
+  "promotion": "HOLD_PENDING_GATES",
+  "runs": {
+    "baseline": {
+      "run": "nano-baseline-1793253668984369265",
+      "source_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+      "metrics": {
+        "ttft_cycles": 3859315,
+        "per_token_decode_cycles": 831250.5,
+        "session_cycles": 7184546
+      },
+      "operator_cycles": {
+        "1": 293328,
+        "2": 342286,
+        "3": 1264956
+      },
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "functions_and_calls": {
+        "00002e84 <rne_div>:": [
+          "__udivdi3",
+          "__umoddi3"
+        ],
+        "0000339c <mini_native_scalar_attention.part.0>:": [
+          "course_int32_scale_to_q5_11",
+          "memset",
+          "rne_div",
+          "__floatsisf",
+          "__mulsf3",
+          "__mulsf3",
+          "course_bf16_rne_bits",
+          "course_int32_scale_to_q5_11",
+          "course_exp_neg_q15",
+          "course_exp_neg_q15",
+          "rne_div",
+          "rne_div"
+        ]
+      },
+      "single_trial": true,
+      "reduction_pct_vs_baseline": {
+        "ttft_cycles": 0.0,
+        "per_token_decode_cycles": 0.0,
+        "session_cycles": 0.0
+      },
+      "hidden_logits_token_identical_to_baseline": true
+    },
+    "topk": {
+      "run": "nano-topk-1793255650650794953",
+      "source_sha256": "2e18a8362b1b9cc66ef8f14bcacb2f89598144f02da31bd2fcbda242bdf8dc8c",
+      "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+      "metrics": {
+        "ttft_cycles": 3919990,
+        "per_token_decode_cycles": 844703.5,
+        "session_cycles": 7299047
+      },
+      "operator_cycles": {
+        "1": 291906,
+        "2": 337966,
+        "3": 1286625
+      },
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "functions_and_calls": {
+        "00002e84 <rne_div>:": [
+          "__udivdi3",
+          "__umoddi3"
+        ],
+        "0000339c <mini_native_scalar_attention.part.0>:": [
+          "memset",
+          "rne_div",
+          "__floatsisf",
+          "__mulsf3",
+          "__mulsf3",
+          "course_bf16_rne_bits",
+          "course_int32_scale_to_q5_11",
+          "course_int32_scale_to_q5_11",
+          "course_exp_neg_q15",
+          "course_exp_neg_q15",
+          "rne_div",
+          "rne_div"
+        ]
+      },
+      "single_trial": true,
+      "reduction_pct_vs_baseline": {
+        "ttft_cycles": -1.5721701908240193,
+        "per_token_decode_cycles": -1.6184050415608773,
+        "session_cycles": -1.5937123932396007
+      },
+      "hidden_logits_token_identical_to_baseline": true
+    },
+    "rne": {
+      "run": "nano-rne-1793800891379470871",
+      "source_sha256": "4118bad108b87377676f012de5393e601634dfc1f6ee9f21fa7505d698ea255e",
+      "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+      "metrics": {
+        "ttft_cycles": 3851571,
+        "per_token_decode_cycles": 811830.25,
+        "session_cycles": 7099120
+      },
+      "operator_cycles": {
+        "1": 197977,
+        "2": 156299,
+        "3": 1234348
+      },
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "functions_and_calls": {
+        "00002e84 <rne15>:": [],
+        "000032fc <mini_native_scalar_attention.part.0>:": [
+          "course_int32_scale_to_q5_11",
+          "memset",
+          "__udivdi3",
+          "__umoddi3",
+          "__floatsisf",
+          "__mulsf3",
+          "__mulsf3",
+          "course_bf16_rne_bits",
+          "course_int32_scale_to_q5_11",
+          "course_exp_neg_q15",
+          "course_exp_neg_q15",
+          "rne15",
+          "rne15"
+        ]
+      },
+      "single_trial": true,
+      "reduction_pct_vs_baseline": {
+        "ttft_cycles": 0.2006573705437364,
+        "per_token_decode_cycles": 2.3362692714169797,
+        "session_cycles": 1.189024330834544
+      },
+      "hidden_logits_token_identical_to_baseline": true
+    },
+    "combined": {
+      "run": "nano-combined-1793254628177918766",
+      "source_sha256": "c6839a596d090db206fa4520e2877079d83dd23c69ceb33602c1d561316f7f4e",
+      "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+      "metrics": {
+        "ttft_cycles": 3828746,
+        "per_token_decode_cycles": 811714.25,
+        "session_cycles": 7075832
+      },
+      "operator_cycles": {
+        "1": 206233,
+        "2": 164012,
+        "3": 1150360
+      },
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "functions_and_calls": {
+        "00002e84 <rne15>:": [],
+        "000032fc <mini_native_scalar_attention.part.0>:": [
+          "memset",
+          "__udivdi3",
+          "__umoddi3",
+          "__floatsisf",
+          "__mulsf3",
+          "__mulsf3",
+          "course_bf16_rne_bits",
+          "course_int32_scale_to_q5_11",
+          "course_int32_scale_to_q5_11",
+          "course_exp_neg_q15",
+          "course_exp_neg_q15",
+          "rne15",
+          "rne15"
+        ]
+      },
+      "single_trial": true,
+      "reduction_pct_vs_baseline": {
+        "ttft_cycles": 0.7920835692344367,
+        "per_token_decode_cycles": 2.3502241502411128,
+        "session_cycles": 1.5131645061497274
+      },
+      "hidden_logits_token_identical_to_baseline": true
+    }
+  },
+  "limits": [
+    "single input and single trial per build",
+    "source size/address layout differs; P3 change is not proof of P3 arithmetic optimization",
+    "frozen performance weights and independent protocol/resource gates outstanding"
+  ]
+}

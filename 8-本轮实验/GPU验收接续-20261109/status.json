@@ -1,0 +1,44 @@
+{
+  "status": "BASELINE_AND_CANDIDATE_DATA_SEALED_STILL_HOLD",
+  "started_at": "2026-11-12T13:14:16.403642+08:00",
+  "stages": [
+    {
+      "script": "seal_gpu_same_hardware_1000.py",
+      "exit_code": 0,
+      "seconds": 22.816249634000002
+    },
+    {
+      "script": "build_project_panorama.py",
+      "exit_code": 0,
+      "seconds": 34.16947820099999
+    },
+    {
+      "script": "build_achievements_html.py",
+      "exit_code": 0,
+      "seconds": 36.774931527999996
+    },
+    {
+      "script": "run_gpu_full_candidate_board.py",
+      "exit_code": 0,
+      "seconds": 4269.864202987
+    },
+    {
+      "script": "seal_gpu_full_candidate_board.py",
+      "exit_code": 0,
+      "seconds": 32.19265005300076
+    },
+    {
+      "script": "build_project_panorama.py",
+      "exit_code": 0,
+      "seconds": 63.37220812600026
+    },
+    {
+      "script": "build_achievements_html.py",
+      "exit_code": 0,
+      "seconds": 53.526411972999995
+    }
+  ],
+  "baseline_records": 1000,
+  "baseline_status": "SAME_HARDWARE_1000_NUMERIC_STATUS_PASS",
+  "updated_at": "2026-11-12T14:24:56.948991+08:00"
+}

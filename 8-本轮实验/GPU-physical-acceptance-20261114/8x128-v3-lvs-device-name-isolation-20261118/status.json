@@ -1,0 +1,82 @@
+{
+  "scope": "Diagnostic schematic device model-label alias only; locked PDK and GDS unchanged",
+  "physical_signoff": false,
+  "pinned_netgen_sha256": "aeaae8480c9f7d1ea89500174934d4f4fecd25e94f25d67c51c5927ad4d3d3ec",
+  "layout_extract_sha256": "55bb74781990b5ddd7a51af20670d6f77a04c1ea9fe914e9309f98694a9725ad",
+  "original_reference_sha256": "80f1f5539303cfc5fe506f0f417240fa5ff6585baabfee7c6046bec43a60f280",
+  "narrow_device_label_changes": 4,
+  "results": [
+    {
+      "scope": "control_logic_r",
+      "exit_code": 0,
+      "pin_or_match_lines": [
+        "Netlists match uniquely.",
+        "Netlists match uniquely.",
+        "Netlists match with 18 symmetries.",
+        "Netlists match uniquely.",
+        "Final result: Netlists do not match."
+      ],
+      "last_mismatch_counts": [
+        "Number of nets: 9 **Mismatch**                                                                                            |Number of nets: 8 **Mismatch**",
+        "Number of nets: 7 **Mismatch**                                                                                            |Number of nets: 6 **Mismatch**",
+        "Number of nets: 18 **Mismatch**                                                                                           |Number of nets: 16 **Mismatch**"
+      ],
+      "elapsed_seconds": 2.2691091009999127,
+      "report_sha256": "2372c4a77e6ce4ccaba42422032b251595e88a2ad7c769f551c3344173a7ff35"
+    },
+    {
+      "scope": "control_logic_w",
+      "exit_code": 0,
+      "pin_or_match_lines": [
+        "Netlists match uniquely.",
+        "Netlists match with 18 symmetries.",
+        "Netlists match uniquely.",
+        "Netlists match uniquely.",
+        "Final result: Netlists do not match."
+      ],
+      "last_mismatch_counts": [
+        "Number of nets: 7 **Mismatch**                                                                                            |Number of nets: 6 **Mismatch**",
+        "Number of nets: 9 **Mismatch**                                                                                            |Number of nets: 8 **Mismatch**",
+        "Number of nets: 19 **Mismatch**                                                                                           |Number of nets: 17 **Mismatch**"
+      ],
+      "elapsed_seconds": 1.7653861759999927,
+      "report_sha256": "c09bda03b936175b41fc24b64e42f32ef1bd663f92a1f47d20aedd5345dd2b53"
+    },
+    {
+      "scope": "bank",
+      "exit_code": 0,
+      "pin_or_match_lines": [
+        "Netlists match uniquely.",
+        "Netlists match uniquely.",
+        "Netlists match uniquely.",
+        "Netlists match uniquely.",
+        "Final result: Netlists do not match."
+      ],
+      "last_mismatch_counts": [
+        "Number of nets: 56 **Mismatch**                                                                                           |Number of nets: 54 **Mismatch**",
+        "Number of nets: 576 **Mismatch**                                                                                          |Number of nets: 563 **Mismatch**",
+        "Number of nets: 1298 **Mismatch**                                                                                         |Number of nets: 1264 **Mismatch**"
+      ],
+      "elapsed_seconds": 18.89661106299991,
+      "report_sha256": "3efd260998f3438495b828ba8214931b378281a6f7abca1896be401595d45110"
+    },
+    {
+      "scope": "top",
+      "exit_code": 0,
+      "pin_or_match_lines": [
+        "Netlists match uniquely.",
+        "Netlists match uniquely.",
+        "Netlists match uniquely.",
+        "Netlists match uniquely.",
+        "Final result: Top level cell failed pin matching."
+      ],
+      "last_mismatch_counts": [
+        "Number of nets: 18 **Mismatch**                                                                                           |Number of nets: 16 **Mismatch**",
+        "Number of nets: 19 **Mismatch**                                                                                           |Number of nets: 17 **Mismatch**",
+        "Number of nets: 1305 **Mismatch**                                                                                         |Number of nets: 1307 **Mismatch**"
+      ],
+      "elapsed_seconds": 21.708641385000192,
+      "report_sha256": "5868e1e72105ba15f1f9d06342e00c79c922358d9d24522bba9c86699142087f"
+    }
+  ]
+}

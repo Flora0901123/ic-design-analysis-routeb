@@ -1,0 +1,5 @@
+./scripts/mkdirs /root/.cache/routeb-netgen-1.5.323/install/bin
+mkdir /root/.cache/routeb-netgen-1.5.323/install
+mkdir /root/.cache/routeb-netgen-1.5.323/install/bin
+--- installing executable to /root/.cache/routeb-netgen-1.5.323/install/bin
+--- installing run-time files to /root/.cache/routeb-netgen-1.5.323/install/lib

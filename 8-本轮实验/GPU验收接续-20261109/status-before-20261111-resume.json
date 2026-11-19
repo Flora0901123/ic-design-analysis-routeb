@@ -1,0 +1,25 @@
+{
+  "status": "FULL_CANDIDATE_BOARD_RUNNING",
+  "started_at": "2026-11-10T12:22:57.501307+08:00",
+  "stages": [
+    {
+      "script": "seal_gpu_same_hardware_1000.py",
+      "exit_code": 0,
+      "seconds": 53.321065548999286
+    },
+    {
+      "script": "build_project_panorama.py",
+      "exit_code": 0,
+      "seconds": 56.602731074000076
+    },
+    {
+      "script": "build_achievements_html.py",
+      "exit_code": 0,
+      "seconds": 54.834922037999604
+    }
+  ],
+  "baseline_records": 1000,
+  "baseline_status": "SAME_HARDWARE_1000_NUMERIC_STATUS_PASS",
+  "updated_at": "2026-11-10T17:34:50.785021+08:00",
+  "baseline_writer_lock_owned": true
+}

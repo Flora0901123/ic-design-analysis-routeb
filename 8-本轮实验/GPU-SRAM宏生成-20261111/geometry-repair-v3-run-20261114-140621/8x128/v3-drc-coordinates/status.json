@@ -1,0 +1,8 @@
+{
+  "shape": "8x128",
+  "results": [
+    "Total DRC errors found: 0",
+    "ROUTEB_DRC_DETAILS "
+  ],
+  "physical_signoff": false
+}

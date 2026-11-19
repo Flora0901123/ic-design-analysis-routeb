@@ -1,0 +1,314 @@
+00002e84 <rne15>:
+    2e84:	00058693          	mv	a3,a1
+    2e88:	00058793          	mv	a5,a1
+    2e8c:	0005da63          	bgez	a1,2ea0 <rne15+0x1c>
+    2e90:	00a03733          	snez	a4,a0
+    2e94:	40b007b3          	neg	a5,a1
+    2e98:	40e787b3          	sub	a5,a5,a4
+    2e9c:	40a00533          	neg	a0,a0
+    2ea0:	00f55713          	srli	a4,a0,0xf
+    2ea4:	01151513          	slli	a0,a0,0x11
+    2ea8:	01179613          	slli	a2,a5,0x11
+    2eac:	00f7d593          	srli	a1,a5,0xf
+    2eb0:	01155513          	srli	a0,a0,0x11
+    2eb4:	000047b7          	lui	a5,0x4
+    2eb8:	00e66733          	or	a4,a2,a4
+    2ebc:	00a7e863          	bltu	a5,a0,2ecc <rne15+0x48>
+    2ec0:	00f51e63          	bne	a0,a5,2edc <rne15+0x58>
+    2ec4:	00177793          	andi	a5,a4,1
+    2ec8:	00078a63          	beqz	a5,2edc <rne15+0x58>
+    2ecc:	00170793          	addi	a5,a4,1
+    2ed0:	00e7b633          	sltu	a2,a5,a4
+    2ed4:	00b605b3          	add	a1,a2,a1
+    2ed8:	00078713          	mv	a4,a5
+    2edc:	00070513          	mv	a0,a4
+    2ee0:	0006da63          	bgez	a3,2ef4 <rne15+0x70>
+    2ee4:	00e037b3          	snez	a5,a4
+    2ee8:	40b005b3          	neg	a1,a1
+    2eec:	40f585b3          	sub	a1,a1,a5
+    2ef0:	40e00533          	neg	a0,a4
+    2ef4:	00008067          	ret
+
+
+000032fc <mini_native_scalar_attention.part.0>:
+    32fc:	e8010113          	addi	sp,sp,-384
+    3300:	00f12c23          	sw	a5,24(sp)
+    3304:	40b605b3          	sub	a1,a2,a1
+    3308:	00160793          	addi	a5,a2,1
+    330c:	16812c23          	sw	s0,376(sp)
+    3310:	17412423          	sw	s4,360(sp)
+    3314:	15712e23          	sw	s7,348(sp)
+    3318:	16112e23          	sw	ra,380(sp)
+    331c:	16912a23          	sw	s1,372(sp)
+    3320:	17212823          	sw	s2,368(sp)
+    3324:	17312623          	sw	s3,364(sp)
+    3328:	17512223          	sw	s5,356(sp)
+    332c:	17612023          	sw	s6,352(sp)
+    3330:	15812c23          	sw	s8,344(sp)
+    3334:	15912a23          	sw	s9,340(sp)
+    3338:	15a12823          	sw	s10,336(sp)
+    333c:	15b12623          	sw	s11,332(sp)
+    3340:	00a12623          	sw	a0,12(sp)
+    3344:	00d12823          	sw	a3,16(sp)
+    3348:	00e12a23          	sw	a4,20(sp)
+    334c:	01012e23          	sw	a6,28(sp)
+    3350:	03112023          	sw	a7,32(sp)
+    3354:	00158413          	addi	s0,a1,1
+    3358:	00f12423          	sw	a5,8(sp)
+    335c:	00000b93          	li	s7,0
+    3360:	00000a13          	li	s4,0
+    3364:	00812783          	lw	a5,8(sp)
+    3368:	00f41663          	bne	s0,a5,3374 <mini_native_scalar_attention.part.0+0x78>
+    336c:	00000513          	li	a0,0
+    3370:	3b00006f          	j	3720 <mini_native_scalar_attention.part.0+0x424>
+    3374:	01812783          	lw	a5,24(sp)
+    3378:	0c010993          	addi	s3,sp,192
+    337c:	08010913          	addi	s2,sp,128
+    3380:	00098a93          	mv	s5,s3
+    3384:	00000493          	li	s1,0
+    3388:	01478b33          	add	s6,a5,s4
+    338c:	14849a63          	bne	s1,s0,34e0 <mini_native_scalar_attention.part.0+0x1e4>
+    3390:	00c12783          	lw	a5,12(sp)
+    3394:	00040c13          	mv	s8,s0
+    3398:	00078e63          	beqz	a5,33b4 <mini_native_scalar_attention.part.0+0xb8>
+    339c:	00400793          	li	a5,4
+    33a0:	0087f463          	bgeu	a5,s0,33a8 <mini_native_scalar_attention.part.0+0xac>
+    33a4:	00400c13          	li	s8,4
+    33a8:	00098613          	mv	a2,s3
+    33ac:	00000693          	li	a3,0
+    33b0:	18dc1663          	bne	s8,a3,353c <mini_native_scalar_attention.part.0+0x240>
+    33b4:	04000613          	li	a2,64
+    33b8:	00000593          	li	a1,0
+    33bc:	04010513          	addi	a0,sp,64
+    33c0:	659010ef          	jal	5218 <memset>
+    33c4:	01012783          	lw	a5,16(sp)
+    33c8:	00000a93          	li	s5,0
+    33cc:	00000493          	li	s1,0
+    33d0:	017787b3          	add	a5,a5,s7
+    33d4:	00000b13          	li	s6,0
+    33d8:	00c00c93          	li	s9,12
+    33dc:	02f12223          	sw	a5,36(sp)
+    33e0:	00800d13          	li	s10,8
+    33e4:	1f8a9c63          	bne	s5,s8,35dc <mini_native_scalar_attention.part.0+0x2e0>
+    33e8:	18812783          	lw	a5,392(sp)
+    33ec:	001a1d13          	slli	s10,s4,0x1
+    33f0:	04010993          	addi	s3,sp,64
+    33f4:	01a78d33          	add	s10,a5,s10
+    33f8:	0000b7b7          	lui	a5,0xb
+    33fc:	1b87a783          	lw	a5,440(a5) # b1b8 <_erodata+0x8>
+    3400:	41f4dc13          	srai	s8,s1,0x1f
+    3404:	00f12223          	sw	a5,4(sp)
+    3408:	0009ab03          	lw	s6,0(s3)
+    340c:	0049aa83          	lw	s5,4(s3)
+    3410:	010b5793          	srli	a5,s6,0x10
+    3414:	010a9a93          	slli	s5,s5,0x10
+    3418:	0157eab3          	or	s5,a5,s5
+    341c:	010b1b13          	slli	s6,s6,0x10
+    3420:	000a8913          	mv	s2,s5
+    3424:	000ada63          	bgez	s5,3438 <mini_native_scalar_attention.part.0+0x13c>
+    3428:	01603733          	snez	a4,s6
+    342c:	415007b3          	neg	a5,s5
+    3430:	40e78933          	sub	s2,a5,a4
+    3434:	41600b33          	neg	s6,s6
+    3438:	00048613          	mv	a2,s1
+    343c:	000c0693          	mv	a3,s8
+    3440:	000b0513          	mv	a0,s6
+    3444:	00090593          	mv	a1,s2
+    3448:	039030ef          	jal	6c80 <__udivdi3>
+    344c:	00050d93          	mv	s11,a0
+    3450:	00050c93          	mv	s9,a0
+    3454:	00048613          	mv	a2,s1
+    3458:	000c0693          	mv	a3,s8
+    345c:	000b0513          	mv	a0,s6
+    3460:	00090593          	mv	a1,s2
+    3464:	025030ef          	jal	6c88 <__umoddi3>
+    3468:	01f55793          	srli	a5,a0,0x1f
+    346c:	00159593          	slli	a1,a1,0x1
+    3470:	00b7e5b3          	or	a1,a5,a1
+    3474:	00151793          	slli	a5,a0,0x1
+    3478:	00bc6e63          	bltu	s8,a1,3494 <mini_native_scalar_attention.part.0+0x198>
+    347c:	01859463          	bne	a1,s8,3484 <mini_native_scalar_attention.part.0+0x188>
+    3480:	00f4ea63          	bltu	s1,a5,3494 <mini_native_scalar_attention.part.0+0x198>
+    3484:	00f49a63          	bne	s1,a5,3498 <mini_native_scalar_attention.part.0+0x19c>
+    3488:	00bc1863          	bne	s8,a1,3498 <mini_native_scalar_attention.part.0+0x19c>
+    348c:	001df793          	andi	a5,s11,1
+    3490:	00078463          	beqz	a5,3498 <mini_native_scalar_attention.part.0+0x19c>
+    3494:	001d8c93          	addi	s9,s11,1
+    3498:	000c8513          	mv	a0,s9
+    349c:	000ad463          	bgez	s5,34a4 <mini_native_scalar_attention.part.0+0x1a8>
+    34a0:	41900533          	neg	a0,s9
+    34a4:	508030ef          	jal	69ac <__floatsisf>
+    34a8:	00412583          	lw	a1,4(sp)
+    34ac:	00898993          	addi	s3,s3,8
+    34b0:	002d0d13          	addi	s10,s10,2
+    34b4:	52d020ef          	jal	61e0 <__mulsf3>
+    34b8:	18412583          	lw	a1,388(sp)
+    34bc:	525020ef          	jal	61e0 <__mulsf3>
+    34c0:	15c010ef          	jal	461c <course_bf16_rne_bits>
+    34c4:	fead1f23          	sh	a0,-2(s10)
+    34c8:	08010793          	addi	a5,sp,128
+    34cc:	f3379ee3          	bne	a5,s3,3408 <mini_native_scalar_attention.part.0+0x10c>
+    34d0:	008a0a13          	addi	s4,s4,8
+    34d4:	00140413          	addi	s0,s0,1
+    34d8:	00cb8b93          	addi	s7,s7,12
+    34dc:	e89ff06f          	j	3364 <mini_native_scalar_attention.part.0+0x68>
+    34e0:	01c12783          	lw	a5,28(sp)
+    34e4:	00349693          	slli	a3,s1,0x3
+    34e8:	009aa023          	sw	s1,0(s5)
+    34ec:	00d786b3          	add	a3,a5,a3
+    34f0:	00000513          	li	a0,0
+    34f4:	00000793          	li	a5,0
+    34f8:	00fb0733          	add	a4,s6,a5
+    34fc:	00f68633          	add	a2,a3,a5
+    3500:	00070703          	lb	a4,0(a4)
+    3504:	00060603          	lb	a2,0(a2)
+    3508:	00178793          	addi	a5,a5,1
+    350c:	02c70733          	mul	a4,a4,a2
+    3510:	00e50533          	add	a0,a0,a4
+    3514:	00800713          	li	a4,8
+    3518:	fee790e3          	bne	a5,a4,34f8 <mini_native_scalar_attention.part.0+0x1fc>
+    351c:	18012583          	lw	a1,384(sp)
+    3520:	00090613          	mv	a2,s2
+    3524:	004a8a93          	addi	s5,s5,4
+    3528:	1d0010ef          	jal	46f8 <course_int32_scale_to_q5_11>
+    352c:	00290913          	addi	s2,s2,2
+    3530:	1e051663          	bnez	a0,371c <mini_native_scalar_attention.part.0+0x420>
+    3534:	00148493          	addi	s1,s1,1
+    3538:	e55ff06f          	j	338c <mini_native_scalar_attention.part.0+0x90>
+    353c:	00168513          	addi	a0,a3,1
+    3540:	00050713          	mv	a4,a0
+    3544:	00068793          	mv	a5,a3
+    3548:	02876a63          	bltu	a4,s0,357c <mini_native_scalar_attention.part.0+0x280>
+    354c:	02f68263          	beq	a3,a5,3570 <mini_native_scalar_attention.part.0+0x274>
+    3550:	00279793          	slli	a5,a5,0x2
+    3554:	03010693          	addi	a3,sp,48
+    3558:	11078793          	addi	a5,a5,272
+    355c:	00d787b3          	add	a5,a5,a3
+    3560:	f807a683          	lw	a3,-128(a5)
+    3564:	00062703          	lw	a4,0(a2)
+    3568:	00d62023          	sw	a3,0(a2)
+    356c:	f8e7a023          	sw	a4,-128(a5)
+    3570:	00460613          	addi	a2,a2,4
+    3574:	00050693          	mv	a3,a0
+    3578:	e39ff06f          	j	33b0 <mini_native_scalar_attention.part.0+0xb4>
+    357c:	00271593          	slli	a1,a4,0x2
+    3580:	00b985b3          	add	a1,s3,a1
+    3584:	0005a883          	lw	a7,0(a1)
+    3588:	03010813          	addi	a6,sp,48
+    358c:	03010e13          	addi	t3,sp,48
+    3590:	00189593          	slli	a1,a7,0x1
+    3594:	11058593          	addi	a1,a1,272
+    3598:	010585b3          	add	a1,a1,a6
+    359c:	f4059303          	lh	t1,-192(a1)
+    35a0:	00279593          	slli	a1,a5,0x2
+    35a4:	11058593          	addi	a1,a1,272
+    35a8:	010585b3          	add	a1,a1,a6
+    35ac:	f805a803          	lw	a6,-128(a1)
+    35b0:	00181593          	slli	a1,a6,0x1
+    35b4:	11058593          	addi	a1,a1,272
+    35b8:	01c585b3          	add	a1,a1,t3
+    35bc:	f4059583          	lh	a1,-192(a1)
+    35c0:	0065ca63          	blt	a1,t1,35d4 <mini_native_scalar_attention.part.0+0x2d8>
+    35c4:	00b31463          	bne	t1,a1,35cc <mini_native_scalar_attention.part.0+0x2d0>
+    35c8:	0108e663          	bltu	a7,a6,35d4 <mini_native_scalar_attention.part.0+0x2d8>
+    35cc:	00170713          	addi	a4,a4,1
+    35d0:	f79ff06f          	j	3548 <mini_native_scalar_attention.part.0+0x24c>
+    35d4:	00070793          	mv	a5,a4
+    35d8:	ff5ff06f          	j	35cc <mini_native_scalar_attention.part.0+0x2d0>
+    35dc:	0009a903          	lw	s2,0(s3)
+    35e0:	01412783          	lw	a5,20(sp)
+    35e4:	00000513          	li	a0,0
+    35e8:	032c8933          	mul	s2,s9,s2
+    35ec:	01278933          	add	s2,a5,s2
+    35f0:	00000793          	li	a5,0
+    35f4:	02412703          	lw	a4,36(sp)
+    35f8:	00f906b3          	add	a3,s2,a5
+    35fc:	00068683          	lb	a3,0(a3)
+    3600:	00f70733          	add	a4,a4,a5
+    3604:	00070703          	lb	a4,0(a4)
+    3608:	00178793          	addi	a5,a5,1
+    360c:	02d70733          	mul	a4,a4,a3
+    3610:	00e50533          	add	a0,a0,a4
+    3614:	ff9790e3          	bne	a5,s9,35f4 <mini_native_scalar_attention.part.0+0x2f8>
+    3618:	02012583          	lw	a1,32(sp)
+    361c:	03e10613          	addi	a2,sp,62
+    3620:	0d8010ef          	jal	46f8 <course_int32_scale_to_q5_11>
+    3624:	0e051c63          	bnez	a0,371c <mini_native_scalar_attention.part.0+0x420>
+    3628:	03e11783          	lh	a5,62(sp)
+    362c:	00078d93          	mv	s11,a5
+    3630:	040a9263          	bnez	s5,3674 <mini_native_scalar_attention.part.0+0x378>
+    3634:	04010613          	addi	a2,sp,64
+    3638:	00000693          	li	a3,0
+    363c:	00d90733          	add	a4,s2,a3
+    3640:	00070703          	lb	a4,0(a4)
+    3644:	00168693          	addi	a3,a3,1
+    3648:	00860613          	addi	a2,a2,8
+    364c:	00f71713          	slli	a4,a4,0xf
+    3650:	fee62c23          	sw	a4,-8(a2)
+    3654:	41f75713          	srai	a4,a4,0x1f
+    3658:	fee62e23          	sw	a4,-4(a2)
+    365c:	ffa690e3          	bne	a3,s10,363c <mini_native_scalar_attention.part.0+0x340>
+    3660:	000084b7          	lui	s1,0x8
+    3664:	001a8a93          	addi	s5,s5,1
+    3668:	00498993          	addi	s3,s3,4
+    366c:	000d8b13          	mv	s6,s11
+    3670:	d75ff06f          	j	33e4 <mini_native_scalar_attention.part.0+0xe8>
+    3674:	0167d463          	bge	a5,s6,367c <mini_native_scalar_attention.part.0+0x380>
+    3678:	000b0d93          	mv	s11,s6
+    367c:	41bb0533          	sub	a0,s6,s11
+    3680:	7d1000ef          	jal	4650 <course_exp_neg_q15>
+    3684:	00050b13          	mv	s6,a0
+    3688:	03e11503          	lh	a0,62(sp)
+    368c:	41b50533          	sub	a0,a0,s11
+    3690:	7c1000ef          	jal	4650 <course_exp_neg_q15>
+    3694:	0364a5b3          	mulhsu	a1,s1,s6
+    3698:	00a12223          	sw	a0,4(sp)
+    369c:	029b0533          	mul	a0,s6,s1
+    36a0:	fe4ff0ef          	jal	2e84 <rne15>
+    36a4:	00412783          	lw	a5,4(sp)
+    36a8:	04010613          	addi	a2,sp,64
+    36ac:	00000813          	li	a6,0
+    36b0:	00a784b3          	add	s1,a5,a0
+    36b4:	00062503          	lw	a0,0(a2)
+    36b8:	00462703          	lw	a4,4(a2)
+    36bc:	03012623          	sw	a6,44(sp)
+    36c0:	036535b3          	mulhu	a1,a0,s6
+    36c4:	02c12423          	sw	a2,40(sp)
+    36c8:	03670733          	mul	a4,a4,s6
+    36cc:	03650533          	mul	a0,a0,s6
+    36d0:	00b705b3          	add	a1,a4,a1
+    36d4:	fb0ff0ef          	jal	2e84 <rne15>
+    36d8:	02c12803          	lw	a6,44(sp)
+    36dc:	00412783          	lw	a5,4(sp)
+    36e0:	02812603          	lw	a2,40(sp)
+    36e4:	01090733          	add	a4,s2,a6
+    36e8:	00070703          	lb	a4,0(a4)
+    36ec:	00180813          	addi	a6,a6,1
+    36f0:	00860613          	addi	a2,a2,8
+    36f4:	02f70733          	mul	a4,a4,a5
+    36f8:	41f75893          	srai	a7,a4,0x1f
+    36fc:	00a70533          	add	a0,a4,a0
+    3700:	00e53733          	sltu	a4,a0,a4
+    3704:	00b888b3          	add	a7,a7,a1
+    3708:	01170733          	add	a4,a4,a7
+    370c:	fea62c23          	sw	a0,-8(a2)
+    3710:	fee62e23          	sw	a4,-4(a2)
+    3714:	fba810e3          	bne	a6,s10,36b4 <mini_native_scalar_attention.part.0+0x3b8>
+    3718:	f4dff06f          	j	3664 <mini_native_scalar_attention.part.0+0x368>
+    371c:	ffe00513          	li	a0,-2
+    3720:	17c12083          	lw	ra,380(sp)
+    3724:	17812403          	lw	s0,376(sp)
+    3728:	17412483          	lw	s1,372(sp)
+    372c:	17012903          	lw	s2,368(sp)
+    3730:	16c12983          	lw	s3,364(sp)
+    3734:	16812a03          	lw	s4,360(sp)
+    3738:	16412a83          	lw	s5,356(sp)
+    373c:	16012b03          	lw	s6,352(sp)
+    3740:	15c12b83          	lw	s7,348(sp)
+    3744:	15812c03          	lw	s8,344(sp)
+    3748:	15412c83          	lw	s9,340(sp)
+    374c:	15012d03          	lw	s10,336(sp)
+    3750:	14c12d83          	lw	s11,332(sp)
+    3754:	18010113          	addi	sp,sp,384
+    3758:	00008067          	ret
+

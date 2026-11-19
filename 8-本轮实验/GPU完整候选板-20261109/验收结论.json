@@ -1,0 +1,1533 @@
+{
+  "status": "FULL_1000_CANDIDATE_BOARD_INDEPENDENTLY_SEALED",
+  "records": 1000,
+  "cases": 100,
+  "seeds_per_case": 10,
+  "all_records_fresh_target_processes": true,
+  "exact_outputs_status_selected_primitive_pass": 1000,
+  "real_DMA_fault_records": 30,
+  "cycle_regressions_over_5_percent": [],
+  "total_external_beat_increases_over_5_percent": [
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 1,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 2,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 3,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 4,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 5,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 6,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 7,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 8,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 9,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-02",
+      "seed": 10,
+      "total_external_beat_change_pct": 19.30585683297179
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.157480314960626
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-04",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 1,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 2,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 3,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 4,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 5,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 6,
+      "total_external_beat_change_pct": 14.901960784313717
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 7,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 8,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 9,
+      "total_external_beat_change_pct": 14.901960784313717
+    },
+    {
+      "case_id": "P2-MINI-05",
+      "seed": 10,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-06",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-07",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.187376725838275
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 1,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 2,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 3,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 4,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 5,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 6,
+      "total_external_beat_change_pct": 14.901960784313717
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 7,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 8,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 9,
+      "total_external_beat_change_pct": 14.901960784313717
+    },
+    {
+      "case_id": "P2-MINI-08",
+      "seed": 10,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.157480314960626
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-09",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.157480314960626
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-10",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 1,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 2,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 3,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 4,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 5,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 6,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 7,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 8,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 9,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-12",
+      "seed": 10,
+      "total_external_beat_change_pct": 5.246913580246915
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 1,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 2,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 3,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 4,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 5,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 6,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 7,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 8,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 9,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-13",
+      "seed": 10,
+      "total_external_beat_change_pct": 14.999999999999991
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-14",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-15",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-16",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-17",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.217391304347828
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-18",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.476190476190466
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 1,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 2,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 3,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 4,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 5,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 6,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 7,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 8,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 9,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-19",
+      "seed": 10,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 1,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 2,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 3,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 4,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 5,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 6,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 7,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 8,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 9,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-20",
+      "seed": 10,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 1,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 2,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 3,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 4,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 5,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 6,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 7,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 8,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 9,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-21",
+      "seed": 10,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 1,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 2,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 3,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 4,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 5,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 6,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 7,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 8,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 9,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-22",
+      "seed": 10,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.0390625
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.0390625
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.0390625
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-23",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.0390625
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.0390625
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.0390625
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.0390625
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.068493150684926
+    },
+    {
+      "case_id": "P2-MINI-24",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.0390625
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 1,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 2,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 3,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 4,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 5,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 6,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 7,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 8,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 9,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-25",
+      "seed": 10,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 1,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 2,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 3,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 4,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 5,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 6,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 7,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 8,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 9,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-26",
+      "seed": 10,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 1,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 2,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 3,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 4,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 5,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 6,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 7,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 8,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 9,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-27",
+      "seed": 10,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 1,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 2,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 3,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 4,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 5,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 6,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 7,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 8,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 9,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-28",
+      "seed": 10,
+      "total_external_beat_change_pct": 5.167173252279644
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 1,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 2,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 3,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 4,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 5,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 6,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 7,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 8,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 9,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-29",
+      "seed": 10,
+      "total_external_beat_change_pct": 5.487804878048785
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.157480314960626
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-31",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.157480314960626
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-32",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 1,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 2,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 3,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 4,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 5,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 6,
+      "total_external_beat_change_pct": 15.157480314960626
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 7,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 8,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 9,
+      "total_external_beat_change_pct": 15.127701375245572
+    },
+    {
+      "case_id": "P2-MINI-33",
+      "seed": 10,
+      "total_external_beat_change_pct": 15.098039215686265
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 1,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 2,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 3,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 4,
+      "total_external_beat_change_pct": 14.84375
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 5,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 6,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 7,
+      "total_external_beat_change_pct": 14.87279843444227
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 8,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 9,
+      "total_external_beat_change_pct": 14.814814814814813
+    },
+    {
+      "case_id": "P2-MINI-34",
+      "seed": 10,
+      "total_external_beat_change_pct": 14.84375
+    }
+  ],
+  "official_weighted_gain": null,
+  "official_weights_supplied": false,
+  "teacher_physical_identity": false,
+  "formal_promotion": "HOLD",
+  "formal_score_eligible": false,
+  "status_sha256": "a2cefbdb593ac75bb931e5bcdbfbe4161a0cfc2f60f2ae1ea85defe40c95cfb2",
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794464590.4539917,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 7767856503\nuser_usec 7689600948\nsystem_usec 78255555\nnice_usec 0\nnr_periods 43960\nnr_throttled 1938\nthrottled_usec 20036764\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1213063168",
+      "memory.peak": "2017497088",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "406\n17295\n23822\n24864"
+    }
+  }
+}

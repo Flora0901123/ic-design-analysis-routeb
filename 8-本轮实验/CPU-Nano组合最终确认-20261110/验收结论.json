@@ -1,0 +1,37 @@
+{
+  "status": "CPU_COMBO_RESET3X2_FROZEN12_INDEPENDENTLY_SEALED",
+  "date": "2026-11-10",
+  "fresh_interleaved_resets_per_variant": 3,
+  "frozen_questions_passed": 12,
+  "token_steps_compared": 81,
+  "hidden_bf16_values_compared": 1296,
+  "logit_bf16_values_compared": 20736,
+  "all_inputs_match_frozen_images": true,
+  "target_input_contains_expected_answers": false,
+  "same_compiled_simulator": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "rom_capacity_bytes": 131072,
+  "metrics": {
+    "baseline": {
+      "ttft_cycles": 3859315,
+      "per_token_decode_cycles": 831250.5,
+      "session_cycles": 7184546
+    },
+    "stride_rne15": {
+      "ttft_cycles": 3681514,
+      "per_token_decode_cycles": 771051.75,
+      "session_cycles": 6765949
+    }
+  },
+  "cycle_reduction_percent": {
+    "ttft_cycles": 4.607061097630016,
+    "per_token_decode_cycles": 7.2419505311575705,
+    "session_cycles": 5.82635284122337
+  },
+  "primary_metric": "ttft_cycles",
+  "primary_threshold_reached": true,
+  "repeat_counters_identical": true,
+  "formal_promote": false,
+  "physical_ppa": "HOLD",
+  "performance_scope": "one preregistered question, matched new ROM/model; frozen12 validates correctness, not historical timing speedup",
+  "evidence_files": 286
+}

@@ -1,0 +1,25 @@
+{
+  "status": "EXACT_PUBLIC_STDCELL_BINDING_RECOVERED",
+  "expected_stdcell_lib_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "requests": [
+    {
+      "url": "https://api.github.com/repos/The-OpenROAD-Project/OpenROAD-flow-scripts/commits/aabf2a",
+      "bytes": 27173,
+      "seconds": 1.0159999999999627,
+      "sha256": "3aa3d254cee856f384cfc0d8d12e28b8b48548cc07a99fcf1e59e9b9bf552b89",
+      "status": "OK"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/aabf2a397059704f68ddafe7e2c8bd1a0e7c65f5/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+      "bytes": 12800135,
+      "seconds": 3.125,
+      "sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "status": "OK"
+    }
+  ],
+  "teacher_physical_identity_established": false,
+  "resolved_commit": "aabf2a397059704f68ddafe7e2c8bd1a0e7c65f5",
+  "source_url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/aabf2a397059704f68ddafe7e2c8bd1a0e7c65f5/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+  "actual_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "exact_bound_hash_match": true
+}

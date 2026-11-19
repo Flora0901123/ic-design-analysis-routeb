@@ -1,0 +1,98 @@
+{
+  "status": "LAYOUT_VIEWS_GENERATED_NEEDS_INDEPENDENT_CHECK",
+  "records": [
+    {
+      "shape": "20x64",
+      "status": "LAYOUT_VIEWS_GENERATED",
+      "base_config_sha256": "25fd3586574bcde193911f7080e3d05e7f49d221cda99305a76553090ee5e921",
+      "config_sha256": "a0a3a1cc9a931535d4b72110ad0048b94a7e1853486fd5d1c0f5a05b2fa190ec",
+      "files": {
+        "datasheet.info": "c5b2383c154455568d408f99283ca516ab0f12d7ce3bc1b5f330b63523b25d43",
+        "run_lvs.sh": "7c44e2588f299c400852e90aa94dc86486c1ed812274fbefa66e7a3dd6af982f",
+        "routeb_new_1w1r_20x64.gds": "dc5ffbac960a693df13d8abc4f86392a116b3b98fc92fef02280239658624557",
+        "routeb_new_1w1r_20x64.py": "a0a3a1cc9a931535d4b72110ad0048b94a7e1853486fd5d1c0f5a05b2fa190ec",
+        "sram.sp": "0fde8098e7dd0b6bb7e4b8c8a449ee8812fb96b5b924f1f19742c09ea65a5a69",
+        "delay_stim.sp": "50b27cb463ef69d261754950a1f59790d23802f00f01bc9b8ad86704c86574a6",
+        ".magicrc": "f717a54ec62b7df3e77426c38c6fbe925b4872b57a193b66d4d336e56e1fb88b",
+        "routeb_new_1w1r_20x64.log": "7ba0b4d801e35a98310c1f7fe0b67651ba2a93d5627b365287fdaed58adb4954",
+        "run_ext.sh": "07fd73e94b816d6c2ae7fa7568a9c79ec5c2259f38183734b14930b3b012572a",
+        "delay_meas.sp": "06d5702b59988e50c69a31a71e2da0aae8b0c5c15d3ba311a213120c097b27b1",
+        "routeb_new_1w1r_20x64.html": "0e6762a70173de82d1315fad469d25252016e94e57889fb1787246252e21df96",
+        "routeb_new_1w1r_20x64.v": "36de38f9ad43c2f279f79922fed5dc54229c315626cff87a93a5aec03ec9d2bf",
+        "routeb_new_1w1r_20x64.sp": "0fde8098e7dd0b6bb7e4b8c8a449ee8812fb96b5b924f1f19742c09ea65a5a69",
+        "routeb_new_1w1r_20x64.lvs.sp": "6db11b54fbdbf6de0e724a0e58b0fa1e9844eef4fb08d93c01d4b689a0865e5a",
+        "routeb_new_1w1r_20x64.lef": "9f643ddf10802b33e8eedeb91d689f4115346d5dafad5d7537b42f850f20ec26",
+        "trimmed.sp": "bcde2b6c146d3718bc5f7babad1a3f39c876038828cec7d83837cfc73c202d50",
+        "routeb_new_1w1r_20x64_TT_1p8V_25C.lib": "a0e305097ddab9838c11461485638026c42cdddc355c57ec40f72a886da49c81",
+        "setup.tcl": "84cb9d3193951823187cdf82597b953918a02c3201800ba2664be9f74574db8d",
+        "functional_stim.sp": "0304efc683e393c0f93bab899e8717136a6cebd5cbdf59cbd4324bdf370dd49d",
+        "functional_meas.sp": "a20ae8c45999c579ebe3aa2a61f9e667627bc1ea86704d58212729bb5066c174",
+        "run_drc.sh": "0d075b7d8627a84259b30bfe6d4169cf318d065dddac454143961928e9064952"
+      },
+      "seconds": 1551.88858784
+    },
+    {
+      "shape": "8x128",
+      "status": "LAYOUT_VIEWS_GENERATED",
+      "base_config_sha256": "8989e48d748900fc508d449cbb0fcf1ad36e5f7efafa146a8e7b2fc3cdff1d46",
+      "config_sha256": "8afb9cee98834c2f316a6a429c45b54c2a152c1ff4f6802baed23951506d8d85",
+      "files": {
+        "datasheet.info": "7caa5933f9f055d6e95ff565a2092322b9979e7287a54365722b609120b70ef4",
+        "run_lvs.sh": "94a686079e7459106ff1ba9b4fe72e5f044d98173e67636b6b81ebf9e9e54080",
+        "routeb_new_1w1r_8x128_TT_1p8V_25C.lib": "931569385cbc0d3b4d0c7ffb6c1978c9cb71742e0f7cb647504a376fca6a5dc6",
+        "routeb_new_1w1r_8x128.log": "7b9304f52d45ca87311db248cc3d98d7f839b0188c92e5da15925a2b5d941aa4",
+        "routeb_new_1w1r_8x128.py": "8afb9cee98834c2f316a6a429c45b54c2a152c1ff4f6802baed23951506d8d85",
+        "routeb_new_1w1r_8x128.lvs.sp": "80f1f5539303cfc5fe506f0f417240fa5ff6585baabfee7c6046bec43a60f280",
+        "sram.sp": "b41abf3905876db69147703df88b9804e1e6753275f5f808fe950b8ea0491763",
+        "routeb_new_1w1r_8x128.lef": "fc215e2178c09c3ae50e664de873b3a742598573f7b128574f0c214f749fedcd",
+        "delay_stim.sp": "635051b46d47a7dba80faa4a2484fde675b5aba861d1b1e7f415a50b6ee35f32",
+        ".magicrc": "f717a54ec62b7df3e77426c38c6fbe925b4872b57a193b66d4d336e56e1fb88b",
+        "routeb_new_1w1r_8x128.html": "3c5700c771edd768d95368724f2fb1f310fd2fb85af7231b51fb4ec9c56b75ab",
+        "routeb_new_1w1r_8x128.gds": "5fa6b85418c2ad80738b64af004b7a99d75bccc6c9c76e446e95d254d885c699",
+        "run_ext.sh": "76b643626058a8c031bba693473d22e479a8fb9c1de20bfd6689761736f8c9d8",
+        "delay_meas.sp": "17e688844ec7787e6a0a238e4be7b2f3a87d764115e8cebc412164740dbf6350",
+        "trimmed.sp": "fe67521c254cfcf6c1b43cefb0466f2e5ebe871b822d50d8bd22bb5b77ed9b92",
+        "setup.tcl": "84cb9d3193951823187cdf82597b953918a02c3201800ba2664be9f74574db8d",
+        "routeb_new_1w1r_8x128.sp": "b41abf3905876db69147703df88b9804e1e6753275f5f808fe950b8ea0491763",
+        "functional_stim.sp": "af5b2d28ffd7039764a61f131f0d1473a6030d35472fa97d059ba428106797d4",
+        "routeb_new_1w1r_8x128.v": "f651f1bbad6bd6faac442b1924b2818d31139ccf080ec51d609fb78d40390641",
+        "functional_meas.sp": "5cc81fffda1f32eb89700376806dee0964f93cf02fa9e0759576b1b4540f945c",
+        "run_drc.sh": "d8187d056637ed2a1fd479aa138ff1ce8abbf574ce068b88aed80460c6e44c07"
+      },
+      "seconds": 2253.6855107429997
+    }
+  ],
+  "physical_signoff": false,
+  "layout_view_mode": "analytical Liberty",
+  "layout_verification_requested": true,
+  "source_pins": {
+    "openram": "b2b069ce119d1488cbe6883b2240bceb5c7ce29a",
+    "bitcells": "dd64256961317205343a3fd446908b42bafba388",
+    "hd_latch": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1"
+  },
+  "inputs": {
+    "8-本轮实验/GPU-SRAM宏生成-20261111/macro-pdk-ready.json": "6ae22e5dbc70c11acade41552da1dc5f0eba302c7e848e75b114ea5abe6a9b0a",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/magic-8.3.306-v4/status.json": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3/status.json": "a7a66955e3681ea0045a50f9958a551375e4d593097140dacad06cade4d28981",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.gds": "d7f91d31f0a3f51ce42522a0089e052a615109a3b08b94561198d8c5cfc86b38",
+    "9-GPU复现/downloads/openram-b2b069c/hd-latch/sky130_fd_sc_hd__dlxtn_1.spice": "97d2a2fad044ddd1cb4601b885f34af026c46ea5394ab1dea127f7579e334209",
+    "9-GPU复现/downloads/openram-b2b069c/OpenRAM-source.tar.gz": "bbbdf2bc13cf779b1b11fd485d52a39494b79cdc7b37861c025874cdb8bc0cd3",
+    "9-GPU复现/downloads/openram-b2b069c/Sky130-SRAM-bitcells.tar.gz": "4a9b8adf7c3ca65a97b2715aa7589149d6aacc5ed9fcff832d046d43bc1d87e9",
+    "7-审计与验收/generate_sram_geometry_repair_v3.py": "13ba3833285a4c92888e534c3be03b0c77b9b46795944935c537913acc10cc02"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794639845.5073078,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 6489830304\nuser_usec 6369149084\nsystem_usec 120681219\nnice_usec 0\nnr_periods 43059\nnr_throttled 542\nthrottled_usec 895702\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "525438976",
+      "memory.peak": "1605996544",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "399\n2051\n11789\n11848"
+    }
+  }
+}

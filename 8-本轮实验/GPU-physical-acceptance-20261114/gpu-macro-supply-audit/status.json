@@ -1,0 +1,17 @@
+{
+  "status": "LOGICAL_MACRO_SUPPLY_BINDING_FAILED",
+  "physical_signoff": false,
+  "checks_actual_pdn_routes": false,
+  "returncode": 1,
+  "seconds": 20.872365653000088,
+  "inputs": {
+    "8-本轮实验/GPU-physical-acceptance-20261114/gpu-floorplan/floorplan.odb": "91290fb3a9170a2dbe043f73c3965e4d7f8cf960b3037129a2bc00953ca49b2d",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/connect_openram_power.tcl": "45ca6422b37b64ead979beedb0f8e7d50f9414a856e39535b397bfa49c3d54b2",
+    "9-GPU复现/tools/openroad-08f67ee5ec/usr/bin/openroad": "fcd7dcfc37d329bd43a7ede75805319a2e70e6879da11d42b4fd1c2e50e645c3"
+  },
+  "outputs": {
+    "macro-supply.tsv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "openroad.log": "687fc44c6a2d8d06c8b6b10d1ce5443000020250e42bc630e4db996393041209",
+    "supply.tcl": "7e109e6e214684950ab23799e17a0e2842c80ac6e3336c31d8c7f1c664d271d8"
+  }
+}

@@ -1,0 +1,4 @@
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+WARNING: file magic.py: line 254: DRC Errors routeb_new_1w1r_20x64	1
+ERROR: file magic.py: line 385: routeb_new_1w1r_20x64	LVS mismatch (results in /tmp/routeb-sram-recheck-8nya42if/temp/routeb_new_1w1r_20x64.lvs.report)
+{"status": "MACRO_DRC_OR_LVS_VIOLATIONS", "shape": "20x64", "layout_sha256": "b61ccaddc4c6af6257c3eecc1bb9baaac53716f5bde0045f0135005d4241c9f8", "schematic_sha256": "f28564ee6e6dd540cd71adbf69d8298ea0b4e43a1ba4d403e2ce2c4ae7914b64", "magic_status_sha256": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9", "physical_signoff": false, "drc_errors": 1, "lvs_errors": 10, "seconds": 686.465305727}

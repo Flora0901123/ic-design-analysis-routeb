@@ -1,0 +1,13 @@
+{
+  "scope": "Shared RouteB course cgroup, peak is cumulative over cgroup lifetime",
+  "recorded_at": "2026-11-14T23:06:14+0800",
+  "values": {
+    "cpu.max": "200000 100000",
+    "cpu.stat": "usage_usec 660433228\nuser_usec 618328577\nsystem_usec 42104650\nnice_usec 0\nnr_periods 5521\nnr_throttled 56\nthrottled_usec 36130\nnr_bursts 0\nburst_usec 0",
+    "memory.max": "8589934592",
+    "memory.peak": "4715356160",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+    "memory.swap.max": "0"
+  },
+  "temporary_fs_free_bytes": 1008408178688
+}

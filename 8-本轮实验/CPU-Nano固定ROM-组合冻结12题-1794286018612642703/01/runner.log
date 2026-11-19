@@ -1,0 +1,126 @@
+{
+  "out": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-1-1794286144483242763",
+  "status": "TRANSCRIPTS_COLLECTED",
+  "experiment": "fixed-ROM combo frozen correctness",
+  "frozen_index": 1,
+  "performance_eligible": false,
+  "frozen_golden_log_sha256": "22783e12466ed00538ce5e4e7becade30a4a61d1ff11240eeffc8b123882e02c",
+  "fixed_rne_replacements": 2,
+  "dynamic_rne_preserved": true,
+  "variant": "stride_rne15",
+  "requested_variant": "stride_rne15",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "早上好",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "rom_capacity_bytes": 131072,
+  "resource_before": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794286145.0215735,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 4408190576\nuser_usec 4317647979\nsystem_usec 90542596\nnice_usec 0\nnr_periods 25102\nnr_throttled 446\nthrottled_usec 2937695\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "725827584",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n10519\n11062\n11143\n11196"
+    }
+  },
+  "comparison_policy": "same new128KiB model, frozen question image byte-identical to sealed fixture; historical trace is correctness golden only, never a performance baseline",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "verilator_path": "/root/.cache/routeb-protocol-tools/verilator-5.040/bin/verilator",
+  "verilator_launcher_sha256": "491c95e1a949a3df1f370c9d39318e159d08b246edf4363fb42d05ea88f74dbe",
+  "verilator_version": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "target_fp_flags": [
+    "-ffp-contract=off",
+    "-fno-fast-math"
+  ],
+  "build_jobs": 2,
+  "bios_size_bytes": 45996,
+  "bios_sha256": "ef8ed9ee2912a841f122f33efb811afcf1a47ad9f69888bf70ae289214787ee3",
+  "rom_init_words": 11499,
+  "simulator_sha256": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "rtl_sha256": "dfa0146af1422303449e7060e04341f151954e4206cfa8d853b47f4e4c2554e7",
+  "resource_after_build": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794286227.8484209,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 4572526908\nuser_usec 4476281428\nsystem_usec 96245479\nnice_usec 0\nnr_periods 26006\nnr_throttled 446\nthrottled_usec 2937695\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "767340544",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n10519\n11196\n11570\n11707"
+    }
+  },
+  "build_script_sha256": "bc876ec70b81bec7a9120a414f88a87100469342b0c08f8995214dce475e7eaa",
+  "runs": [
+    {
+      "run": 0,
+      "complete": true,
+      "console_sha256": "1cc027dd67e2c2acdbdf4191fb9396529a6fb24ae929fad7b7ccbcff9b97e0b3",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 2527558,
+      "per_token_decode_cycles": 696533.3333333334,
+      "decode_intervals_cycles": [
+        675229,
+        696733,
+        717638
+      ],
+      "session_cycles": 4617386,
+      "operator_cycles": {
+        "1": 124330,
+        "2": 100467,
+        "3": 804598
+      },
+      "token_hidden_logits_trace_sha256": "96af3ede2d85a20aa5bef1eff5d5a1685eb60a7d92a5295d0fa794526d3f9462",
+      "paired_token_hidden_logits_bit_identical": true,
+      "target_logical_counters": {
+        "instructions": 2583012,
+        "ibus_bytes": 1562112,
+        "dbus_bytes": 678178,
+        "dma_bytes": 0
+      }
+    }
+  ],
+  "token_and_metrics_validation": "PASS",
+  "metrics_mean": {
+    "ttft_cycles": 2527558,
+    "per_token_decode_cycles": 696533.3333333334,
+    "session_cycles": 4617386
+  },
+  "measurement_boundary": "mcycle around mini_native_generate; excludes boot, input transfer, host tokenization; EOS included in decode intervals",
+  "promotion": "NOT_EVALUATED",
+  "resource_final": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794286257.8642826,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 4632475280\nuser_usec 4535741174\nsystem_usec 96734106\nnice_usec 0\nnr_periods 26331\nnr_throttled 446\nthrottled_usec 2937695\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "767852544",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n10519\n11196\n11707\n11796"
+    }
+  }
+}

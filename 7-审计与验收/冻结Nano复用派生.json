@@ -1,0 +1,7 @@
+{
+  "parent": "nano.py",
+  "parent_sha256": "8c55d86bdcba41a05b787329d0a49eaf00b00900742fa540eec4579d91d77314",
+  "derived": "7-审计与验收\\run_frozen_cpu_nano_reuse.py",
+  "derived_sha256": "28b41d2d63d48aaeb361fc9b6ed53f4afb73785cf46735227c2829caffbea26e",
+  "purpose": "Frozen CPU sessions, unchanged baseline algorithm, byte-identical hardware guard; independent BIOS/input/target reset per question."
+}

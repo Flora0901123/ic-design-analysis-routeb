@@ -1,0 +1,25 @@
+{
+  "status": "FAILED_NOT_QUALIFIED",
+  "scope": "4 mapped memory shapes; zero-delay behavioral models derived from the bound Liberty, not transistor signoff or whole-GPU mapped equivalence",
+  "physical_signoff": false,
+  "formal_promotion": "HOLD",
+  "records": [],
+  "stage": "library-model",
+  "seconds": 2.3137005699991278,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794314900.9754708,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 25851529285\nuser_usec 25412112269\nsystem_usec 439417016\nnice_usec 0\nnr_periods 153342\nnr_throttled 919\nthrottled_usec 6078753\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "2070032384",
+      "memory.peak": "5584429056",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n72897\n76693\n76694\n76698\n76790\n79142\n79143\n79211\n79215\n79216\n79224\n79225"
+    }
+  },
+  "error": "AssertionError: ('library-model', 1)"
+}

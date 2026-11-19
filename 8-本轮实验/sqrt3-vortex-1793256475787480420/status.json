@@ -1,0 +1,47 @@
+{
+  "question": "根号3等于几?",
+  "backend": "vortex-simx",
+  "performance_eligible": false,
+  "image": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1793256277077000207/image",
+  "image_sha256": "7a343657ceffb7631d9ff8487de9dc6e553c881ce119e72ad25bc6bac81f6da2",
+  "stages": [
+    {
+      "stage": "prepare",
+      "exit_code": 0
+    },
+    {
+      "stage": "configure",
+      "exit_code": 0
+    },
+    {
+      "stage": "kernel",
+      "exit_code": 0
+    },
+    {
+      "stage": "compile",
+      "exit_code": 0
+    }
+  ],
+  "gpu_image": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/sqrt3-vortex-1793256475787480420/image",
+  "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17",
+  "stage": "complete",
+  "status": "TARGET_EXECUTED",
+  "latest_log": "execute-resumed-1793261741110571503.log",
+  "previous_errors": [
+    "RuntimeError: run-simx exit 2",
+    "RuntimeError: GPU resume timeout"
+  ],
+  "tokens": [
+    67,
+    69,
+    84,
+    97,
+    90,
+    56,
+    71,
+    51,
+    82,
+    8,
+    4
+  ]
+}

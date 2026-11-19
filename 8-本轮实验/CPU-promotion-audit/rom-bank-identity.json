@@ -1,0 +1,299 @@
+{
+  "status": "ROM_BANK_CONTENT_IDENTITY_AUDIT",
+  "shape": {
+    "banks": 25,
+    "words_per_bank": 512
+  },
+  "compared": 25,
+  "parent_matching_teacher": 0,
+  "candidate_matching_teacher": 0,
+  "banks_changed_between_experiment_variants": 21,
+  "words_changed_between_experiment_variants": 7306,
+  "firmware": {
+    "parent": {
+      "bios_sha256": "1e0e121856f1b88647c5cd6dad93176db116d2ec98b6eff4b947a3c9bff83694",
+      "rom_init_sha256": "dc19016835fc85cb5ef1c9e906d6e5c1b0f204e579d8cbfa25a8fb8c39bfa833"
+    },
+    "candidate": {
+      "bios_sha256": "cf0449fcb91ba28d4591e236fea090f07c5a1ec67851550c8b097f1032408db4",
+      "rom_init_sha256": "e3c1f2549fd44d749d0faafa87497e9ad11f9eea5a899082d411f326beb3034e"
+    }
+  },
+  "records": [
+    {
+      "bank": 0,
+      "teacher_source_sha256": "883bcd1b26065ad750637a6952d142d8e10251b33d4e6e9f4dc06887e4e1268f",
+      "experiment_source_sha256": {
+        "parent": "c47b0f60049a414114447774a89ee7b3c45f1527a46074fb638502bc24fd267c",
+        "candidate": "9ab7d69b3387aca2c6197df4c5fb443f0113cb2c1ec4745dc017c1c7014e902f"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 21
+    },
+    {
+      "bank": 1,
+      "teacher_source_sha256": "be8c5ddf1bd15762c74562062506c76748384aef2e541fca259074820cb167a2",
+      "experiment_source_sha256": {
+        "parent": "f20b88b539c05732bae246572e0900518807ae5662c3c4e2d643c3b15e7015a1",
+        "candidate": "0d94e54255595763a387adf698cdb4f204c24526b03f415450c0b4070254411e"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 82
+    },
+    {
+      "bank": 2,
+      "teacher_source_sha256": "c78e5f9016f5b81d83756e64746c66a7790f8236f394786882b8f49cd745dbaf",
+      "experiment_source_sha256": {
+        "parent": "0c20923e813f4ebb02343a2c939cc212b4579a69a242f5ecdb903c1b9681f81b",
+        "candidate": "3da08c40528ffe848071a24714373d9c9aae7ad74e3f619e399d4f08cc2f7d3b"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 81
+    },
+    {
+      "bank": 3,
+      "teacher_source_sha256": "1e8d45756564ce8acf05cba8742b7e0bd4fa5b1fccc6a57a26df749d6d135e9d",
+      "experiment_source_sha256": {
+        "parent": "bf2d8ad9982e3c57b725050c92849bb41f672eea6370cdef8bd7852bd4789e3a",
+        "candidate": "7d62fbed82ebe0fcdf2325621750b10e4555a23eeaf9dc52008ba4656b848d29"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 136
+    },
+    {
+      "bank": 4,
+      "teacher_source_sha256": "4060eb0361cfd055081bc8fbc6b96af69199a76c2351acc78c9f69580d088783",
+      "experiment_source_sha256": {
+        "parent": "23538140f01022d2f3af71a2f921b346ea90a32435a14ad48ca227735abae5dd",
+        "candidate": "b53dfb8a074e40bc799e66fcd4d3a2001fbc1d2f69aeef58f0a2c92ba084cc76"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 44
+    },
+    {
+      "bank": 5,
+      "teacher_source_sha256": "03c28506b2e484ae67602ee4a5db22c5fc0fe8ae0d66257856f142d44d205a1c",
+      "experiment_source_sha256": {
+        "parent": "8c377e86ebecea10433eef919b4f549e9907b0149273859158542ec4a3be3538",
+        "candidate": "26e16683c339f256f9b456ef34f04d98ec1ba696d7d0433e72c08939c7b8e658"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 66
+    },
+    {
+      "bank": 6,
+      "teacher_source_sha256": "87cd28da2765340f658fec04ae6f922eae26046b0da56aa8eeb371f33cd38b2d",
+      "experiment_source_sha256": {
+        "parent": "348b688d62bc1520858bab72f6b975e47db70752a231fd7d31d243a7b8335bdf",
+        "candidate": "e316b0fa3ba95f389454976d759e22eef0f06e6e8d1bc4639ad2042ab9bfd6ac"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 383
+    },
+    {
+      "bank": 7,
+      "teacher_source_sha256": "5050d5782ddc94db3024b30ce65f5cf7b5441408f1c1c9b2ce5656c150ccca83",
+      "experiment_source_sha256": {
+        "parent": "81c982a528ab4d3a6537229e7a28ee25d58d51578a055c84fb4624743ab3e65c",
+        "candidate": "3532d3449ee6492bd33a176a2d1df61e9deed666ca1de4372494a3cbdbfcef71"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 511
+    },
+    {
+      "bank": 8,
+      "teacher_source_sha256": "f37252a1769fd50837721f86faf00040b416f166f3d226040b41f45665ac397f",
+      "experiment_source_sha256": {
+        "parent": "73330395484f0dacd626d62007d1ff7676a9ec1cc56f4fbc4b7f068e6a10a9a6",
+        "candidate": "9f1d0f43b4f380cd3198411d6fdc279cc80bcea802e3bb1e97dd17308b0ad809"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 497
+    },
+    {
+      "bank": 9,
+      "teacher_source_sha256": "01e8ca4b1ce97734889ae5a2b97c80100bcc8dd4c3cebbc355eb305950521a77",
+      "experiment_source_sha256": {
+        "parent": "21bb4c72ee7abfc834a60277b4016617af12c4ce616e494cc45eea7fa34602c3",
+        "candidate": "6c27b5d470446cbb2c5fbd92ed4bc538306099cdb63d8cfa803c074c5fc28983"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 509
+    },
+    {
+      "bank": 10,
+      "teacher_source_sha256": "fe0c52235b234141d208375456395475ad3a55f8d03acf9c546ef1bd8577d9bd",
+      "experiment_source_sha256": {
+        "parent": "7667ca7a207f80acb3d28ed582f8517d2888725ed6c0dbce46ac2e4215e9c003",
+        "candidate": "22d212a91c412adb403ae6e63768367f7fbb365c6acff9798f9c3cdb16b86dcd"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 500
+    },
+    {
+      "bank": 11,
+      "teacher_source_sha256": "957f6fd8d9bde74c6601866f521fc81ca924f37b20dc9853a433e1d6968dc520",
+      "experiment_source_sha256": {
+        "parent": "f3e57c479038c145a4e4af3984f94ba029f149b735b121c2aa6335b728166cbe",
+        "candidate": "7a5da31fc4646eed8e70b72857ebfa2bce17032bd0f874736b96db624e9bb28c"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 510
+    },
+    {
+      "bank": 12,
+      "teacher_source_sha256": "157708abef6deaa4d260957fb5920e5cc5250c0f8432f52289615f5df8f5da64",
+      "experiment_source_sha256": {
+        "parent": "12a1b2c44ce159d5989f8dd5db51ec36bbfeea3d89ece45dcc3d7137b0b8bd81",
+        "candidate": "e4cb5e12fb0fcfb7c26938962d05754591ac7e6bfc6468b6d30b36d484b57885"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 506
+    },
+    {
+      "bank": 13,
+      "teacher_source_sha256": "fd368433fff0dc4d88046955d95bd09eea95b1f5cd36806ccfb4b707a349bd96",
+      "experiment_source_sha256": {
+        "parent": "fb23be42857dd4fa053f18a177d764435a14b7770143518d237ed1784b3abe50",
+        "candidate": "d7de12afb8db4cb243c8f5227b70fc7af859afc1533156d97359352826ab5a60"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 509
+    },
+    {
+      "bank": 14,
+      "teacher_source_sha256": "868a601e4b9e691317319297533d9cfdcd28d8aea24c3dc45016aec1e1005d09",
+      "experiment_source_sha256": {
+        "parent": "c22cfa401bb30c1466a2c593a847b13a99234d389853d47ee294b078f35042d8",
+        "candidate": "46b1ae73e14f2be9c33ac492190c4094210edbc1305662274a17d070d22c9d0d"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 512
+    },
+    {
+      "bank": 15,
+      "teacher_source_sha256": "9f747f48396453cb1c29c33b09197d661aed296e59d071fef351f84fe1794e9d",
+      "experiment_source_sha256": {
+        "parent": "c99296469bac38121cf5440e40237b859affb5ef6e501b10dead7a93bfcae6c1",
+        "candidate": "bb542602799c95aa8e2e22d02045afb6f57f35716d9cc0c0fe81efba69731b08"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 479
+    },
+    {
+      "bank": 16,
+      "teacher_source_sha256": "6dad2a308173b8df89d78d88cac7135c84775617708cd69c6e6c35a8228651a0",
+      "experiment_source_sha256": {
+        "parent": "51f8ae0700d1f74d89bee9c657c512e8aa6a0d6118b84b7aff03ac2889d1ee92",
+        "candidate": "b827616fe39aaae55df6dae05fdcd5f3b21cc8e2601b6d7abcfded7e8b543623"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 357
+    },
+    {
+      "bank": 17,
+      "teacher_source_sha256": "86bd847b7045ed24cd9c96ac77214a438d0ff20213416e67b5d552b49e21e8f2",
+      "experiment_source_sha256": {
+        "parent": "4f2518a494bbb5a5b02095d08ae40927ab98e2e82959fcb752331d9d236e2231",
+        "candidate": "6519ea8bcb822e844e4ebd2a16f77ea8c2a66761ce25aa375d1e2c2262d38246"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 485
+    },
+    {
+      "bank": 18,
+      "teacher_source_sha256": "37e22497eb1a7b0b405eb1c84360e95f75c928b6167249e723fa23952d5d4fc8",
+      "experiment_source_sha256": {
+        "parent": "cbbdc135643e2ca0649deac18af2984eab806bde1f0942c5fd2f192acb2e16b7",
+        "candidate": "7cbbdd98008c43518cb1cc35b56e278248908039615064c74535230fce341ef7"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 374
+    },
+    {
+      "bank": 19,
+      "teacher_source_sha256": "bfbaab8d9ba7f5018432237a60c6de2582140bdfd6d7fda720d18d664b3e144b",
+      "experiment_source_sha256": {
+        "parent": "97ba7bc8fb4a00567d3665737697ec9c987c630eac498f86c85e570aabbb86c6",
+        "candidate": "8baff3acf585e6539fae6ae0cc0351f1591cf2c0f0e77da7a9c4b026d5e4cc30"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 493
+    },
+    {
+      "bank": 20,
+      "teacher_source_sha256": "f978695d5359bc4ee43a75b2d1f792824341c07e62f2f683179fbf8b8b0fa77c",
+      "experiment_source_sha256": {
+        "parent": "c23044dafb2150294110526669d5f7465cade0a2f71bea3d60994086175f7172",
+        "candidate": "e3cd11a632615a2dfa06b1715224145abd969a9b594eb3d21d2f06a31a6d146d"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 251
+    },
+    {
+      "bank": 21,
+      "teacher_source_sha256": "ae4151c05fe3ddb2c9568b712ea1662fd6d90606caa6784787592e496b34f58e",
+      "experiment_source_sha256": {
+        "parent": "68ea324b4f7ad2fd406c644e96dd04b50f5f27601214d581d59d90493a62b4de",
+        "candidate": "68ea324b4f7ad2fd406c644e96dd04b50f5f27601214d581d59d90493a62b4de"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 0
+    },
+    {
+      "bank": 22,
+      "teacher_source_sha256": "c8ade3fcd5463f41e3a8f38bfc2f4548b18289eab7269f83ad0262aeaf752d79",
+      "experiment_source_sha256": {
+        "parent": "feda2485fa8170690e85cfb5e6d463adade245e94acdfc9b9a4183030682cee9",
+        "candidate": "feda2485fa8170690e85cfb5e6d463adade245e94acdfc9b9a4183030682cee9"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 0
+    },
+    {
+      "bank": 23,
+      "teacher_source_sha256": "3a75157f8e98b7e05b4bcad8fc846684cb7b44e10c1363db0c87c060c0bec26e",
+      "experiment_source_sha256": {
+        "parent": "7c3ed3d99e7fb6df432750107bb324e63fbbe9ecadf030d1950d9c8967c80248",
+        "candidate": "7c3ed3d99e7fb6df432750107bb324e63fbbe9ecadf030d1950d9c8967c80248"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 0
+    },
+    {
+      "bank": 24,
+      "teacher_source_sha256": "dc14e500da5fffd85bf98e66f4f4faaea2c2fc8067937d3a00ff6629a08b3398",
+      "experiment_source_sha256": {
+        "parent": "2ae96b73d0d3d6d402749a7df1f3b3187555c2f4c593690bbefb5b5732967acb",
+        "candidate": "2ae96b73d0d3d6d402749a7df1f3b3187555c2f4c593690bbefb5b5732967acb"
+      },
+      "parent_equals_teacher": false,
+      "candidate_equals_teacher": false,
+      "parent_candidate_changed_words": 0
+    }
+  ]
+}

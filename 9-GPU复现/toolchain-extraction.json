@@ -1,0 +1,30 @@
+[
+  {
+    "component": "chipstar",
+    "status": "ALREADY_EXTRACTED"
+  },
+  {
+    "component": "libc32",
+    "status": "ALREADY_EXTRACTED"
+  },
+  {
+    "component": "libcrt32",
+    "status": "ALREADY_EXTRACTED"
+  },
+  {
+    "component": "llvm-vortex",
+    "status": "ALREADY_EXTRACTED"
+  },
+  {
+    "component": "pocl",
+    "status": "ALREADY_EXTRACTED"
+  },
+  {
+    "component": "riscv32-gnu-toolchain",
+    "status": "EXTRACTED"
+  },
+  {
+    "component": "verilator",
+    "status": "EXTRACTED"
+  }
+]

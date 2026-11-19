@@ -1,0 +1,431 @@
+{
+  "status": "FROZEN_COMBO_FIXEDROM_12_PASS",
+  "backend": "VexRiscv RTL / Verilator5.040",
+  "rom_capacity_bytes": 131072,
+  "simulator_sha256": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+  "source_2x2": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/CPU-Nano固定ROM-StrideRNE2x2-1794284177187099883",
+  "reset_confirmation": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/CPU-Nano固定ROM-组合有限重启-1794285753919289018",
+  "planned_questions": 12,
+  "records": [
+    {
+      "index": 0,
+      "question": "你好呀",
+      "domain": "greeting",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-0-1794286022081920850",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "steps": 4,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "8f27d85e2e1c9abd62415c42e7e65bdac3d34589de6c91a33a3e7240dd8606c0",
+      "console_sha256": "06d47800043e1ba1f6d8da0a047709e60b672aba4009401edcf96ce7f8e644f3",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 2590568,
+        "ibus_bytes": 1566272,
+        "dbus_bytes": 677710,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 2538186,
+        "per_token_decode_cycles": 697040.6666666666,
+        "session_cycles": 4629536
+      }
+    },
+    {
+      "index": 1,
+      "question": "早上好",
+      "domain": "greeting",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-1-1794286144483242763",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "steps": 4,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "7a231e329ed220b90d6ad8640d825e1a98e7c43de970d160a3ff266eb8861157",
+      "console_sha256": "1cc027dd67e2c2acdbdf4191fb9396529a6fb24ae929fad7b7ccbcff9b97e0b3",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 2583012,
+        "ibus_bytes": 1562112,
+        "dbus_bytes": 678178,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 2527558,
+        "per_token_decode_cycles": 696533.3333333334,
+        "session_cycles": 4617386
+      }
+    },
+    {
+      "index": 2,
+      "question": "嗨",
+      "domain": "greeting",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-2-1794286263120878014",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "steps": 4,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "916941cb2e26280e30be46a82e9769bdd68fa7a44d641171ee16af2da3b34fda",
+      "console_sha256": "9a62f51a98f71f73261a2db7e2a3ad1b494675ab2604e73ca00702459354d81a",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 2098584,
+        "ibus_bytes": 1216736,
+        "dbus_bytes": 553576,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 1774218,
+        "per_token_decode_cycles": 651563.6666666666,
+        "session_cycles": 3729137
+      }
+    },
+    {
+      "index": 3,
+      "question": "你叫什么",
+      "domain": "identity",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-3-1794286383067554314",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "steps": 7,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "4db433925cc2ba45974dbe54b5332d55754b96b2740051b0e9b642685c72dd78",
+      "console_sha256": "2e4f8b866f41f2655dfb751fc08ae0b03896569218051cb3a5ca112108f97bb7",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 4130731,
+        "ibus_bytes": 2575936,
+        "dbus_bytes": 1059928,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 2921362,
+        "per_token_decode_cycles": 749572.5,
+        "session_cycles": 7419025
+      }
+    },
+    {
+      "index": 4,
+      "question": "你是谁呀",
+      "domain": "identity",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-4-1794286513395376469",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "steps": 7,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "018d6b5a10b135e4237572979d05b74b1e48f5d0da72d6d65de00580571f133f",
+      "console_sha256": "0217e002bc346bd340e0175d375204613d1f70f6e2e25a86fcc34a00319571b8",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 4131458,
+        "ibus_bytes": 2576544,
+        "dbus_bytes": 1056676,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 2917543,
+        "per_token_decode_cycles": 749843.5,
+        "session_cycles": 7416832
+      }
+    },
+    {
+      "index": 5,
+      "question": "介绍自己",
+      "domain": "identity",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-5-1794286637949240936",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "steps": 7,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "949f39d138c41884a55b20aa5aec12eb214d29940ea3bfb3bb59f4439e24a47c",
+      "console_sha256": "5866b155efc946a6337ee7e747dd234e104c038dc554a1d7f00e4e5dd32fc4a7",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 4131440,
+        "ibus_bytes": 2576096,
+        "dbus_bytes": 1057208,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 2918017,
+        "per_token_decode_cycles": 749690.8333333334,
+        "session_cycles": 7416390
+      }
+    },
+    {
+      "index": 6,
+      "question": "今天天气怎么样？",
+      "domain": "weather",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-6-1794286775460708154",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "steps": 11,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "94d7434739bf16bc8c4e488804e5a92cc6a90a1bbf3dfcb2f57e79c2a7976d96",
+      "console_sha256": "292fa518ceb8d1b4dff3417ec76894b4f1f2fa1db5cea92a1b7e5b2ebee9ae66",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 7293074,
+        "ibus_bytes": 4829504,
+        "dbus_bytes": 1821604,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 4446863,
+        "per_token_decode_cycles": 876868,
+        "session_cycles": 13215771
+      }
+    },
+    {
+      "index": 7,
+      "question": "今天会下雨吗？",
+      "domain": "weather",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-7-1794286933343418219",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "steps": 11,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "2b9df4e33f76f4b72ebf4898ed5fab4bb4f126daa804f4c3ef1a18218100cae4",
+      "console_sha256": "6d436a0c8bd15179ed4f73a4974985ea211f2cfd48893aa1e71e223aa66a2df9",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 6959120,
+        "ibus_bytes": 4576800,
+        "dbus_bytes": 1745134,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 4058377,
+        "per_token_decode_cycles": 855208,
+        "session_cycles": 12610685
+      }
+    },
+    {
+      "index": 8,
+      "question": "现在冷不冷？",
+      "domain": "weather",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-8-1794287094120246911",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "steps": 11,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "69ec337087c32a541cb484ea5469529803adc0754d7403774da493d72767aba2",
+      "console_sha256": "d4f7ad2d7716a71614808f18791f8dd3817f47b11bd61be0e4e2a3494b27aa4f",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 6639955,
+        "ibus_bytes": 4300352,
+        "dbus_bytes": 1667402,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 3673790,
+        "per_token_decode_cycles": 832207.7,
+        "session_cycles": 11996095
+      }
+    },
+    {
+      "index": 9,
+      "question": "一加一等于几？",
+      "domain": "arithmetic",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-9-1794287258786866224",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "steps": 5,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "6c51d6680ed34474bfe9a2267ecddeca2c492724faa857044ab1ee9d6067f5f5",
+      "console_sha256": "7bcda264971be139ada901f469e01327a5fce247bf54e42bec7352011518dc0f",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 4017805,
+        "ibus_bytes": 2563456,
+        "dbus_bytes": 1037226,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 4064743,
+        "per_token_decode_cycles": 793444,
+        "session_cycles": 7238747
+      }
+    },
+    {
+      "index": 10,
+      "question": "1+1是多少？",
+      "domain": "arithmetic",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-10-1794287380863923517",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "steps": 5,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "273538f160b6289b351f70f649d647df4e67690bb5fca590b4476cb5a385657f",
+      "console_sha256": "a11198b063142a376b43ac5f1476d475239bffde2c73272cad7cd5ee3d37054c",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 4014603,
+        "ibus_bytes": 2554912,
+        "dbus_bytes": 1033502,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 4053533,
+        "per_token_decode_cycles": 792613.25,
+        "session_cycles": 7224214
+      }
+    },
+    {
+      "index": 11,
+      "question": "一加一？",
+      "domain": "arithmetic",
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-frozen-combo-11-1794291074672010244",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "steps": 5,
+      "token_hidden_logits_bit_identical": true,
+      "explicit_target_completion_seen": true,
+      "frozen_image_sha256": "666c39a97a385eb9e9bb7777eb4a33e5e79bdbf703fe7a1ae84c2447f6170c04",
+      "console_sha256": "14639768a121b44b93400ea800332969e54304380eac17be376bd1658caf9713",
+      "candidate_source_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+      "bios_size_bytes": 45996,
+      "target_counts": {
+        "instructions": 3246439,
+        "ibus_bytes": 2006304,
+        "dbus_bytes": 844324,
+        "dma_bytes": 0
+      },
+      "fresh_target_metrics_ineligible_for_historical_comparison": {
+        "ttft_cycles": 2916162,
+        "per_token_decode_cycles": 726386.5,
+        "session_cycles": 5821936
+      }
+    }
+  ],
+  "scope": "fresh candidate execution for all12 sealed frozen input images; historical tensor trace is correctness golden only, never a timing baseline",
+  "performance_comparison_to_historical_rom": false,
+  "formal_promote": false,
+  "physical_ppa": "HOLD",
+  "elapsed_seconds": 1730.851049372,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794291169.9774408,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 7303954559\nuser_usec 7136714239\nsystem_usec 167240319\nnice_usec 0\nnr_periods 41047\nnr_throttled 525\nthrottled_usec 2975609\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "716550144",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n10519\n19753\n19832"
+    }
+  },
+  "total_steps": 81,
+  "hidden_values_compared": 1296,
+  "logits_values_compared": 20736,
+  "all12_frozen_images_identical_to_sealed_fixtures": true,
+  "all_target_completions_seen": true
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PINNED_SKY130A_TECH_FILES_READY",
+  "version": "e8294524e5f67c533c5d0c3afa0bcc5b2a5fa066",
+  "release": "https://github.com/fossi-foundation/ciel-releases/releases/tag/sky130-e8294524e5f67c533c5d0c3afa0bcc5b2a5fa066",
+  "archives": [
+    {
+      "file": "common.tar.zst",
+      "sha256": "a37160e9a00e39e540e5e7746c064537c7331d6542ebd7a3b05b5801ef7cf044",
+      "bytes": 17987727
+    },
+    {
+      "file": "sky130_fd_pr.tar.zst",
+      "sha256": "9795dee2b08e0ca794e39a041f661b72168cba1dd4140474bde94320d75bcb46",
+      "bytes": 14013361
+    },
+    {
+      "file": "sky130_fd_sc_hd.tar.zst",
+      "sha256": "8f3f9cf649d2a2d12bf02d922476fbcdae3bb2182f28a35b0dd9c08e594e9289",
+      "bytes": 166756044
+    }
+  ],
+  "sources_sha256": "0baa36c553ca29558b6a654e26202418383a1a2fad3633d84b433c421c23e364"
+}

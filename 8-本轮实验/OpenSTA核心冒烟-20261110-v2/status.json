@@ -1,0 +1,42 @@
+{
+  "status": "OPENSTA_284_SELECTED_CORE_TESTS_PASS",
+  "scope": "279 upstream network tests plus 5 selected Liberty tests; not full upstream suite or GPU STA qualification",
+  "records": [
+    {
+      "test": "TestNetwork",
+      "filter": [],
+      "result": "PASS",
+      "tests_passed": 279,
+      "binary_sha256": "35239143489a6891c8588233efc2bbb26c96e3289a725365d4d83f6cba9a2ea1",
+      "log_sha256": "7f1dce5653e358f6132146c720b50f0f36c830a7f88ab406da3b0412defd9fef",
+      "seconds": 0.05049907200009329
+    },
+    {
+      "test": "TestLibertyStaBasics",
+      "filter": [
+        "--gtest_filter=StaLibertyTest.LibraryNotNull:StaLibertyTest.CellArea:StaLibertyTest.CellHasTimingArcs:StaLibertyTest.CellFindLibertyPort:StaLibertyTest.LibraryUnits"
+      ],
+      "result": "PASS",
+      "tests_passed": 5,
+      "binary_sha256": "d0b39e0402422d553a28bf49db9662fe677916452fb03ecb05dfc9471198b178",
+      "log_sha256": "3d81253bb9fd1fc1517aa0a75e631e2a7905d8fb4256f8c739390a4f1702b6db",
+      "seconds": 3.211283069000274
+    }
+  ],
+  "physical_signoff": false,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794315717.9834323,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 27411082805\nuser_usec 26900191026\nsystem_usec 510891778\nnice_usec 0\nnr_periods 162192\nnr_throttled 919\nthrottled_usec 6078753\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "5784625152",
+      "memory.peak": "5821730816",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n85834\n85848\n85850\n85851\n85963"
+    }
+  }
+}

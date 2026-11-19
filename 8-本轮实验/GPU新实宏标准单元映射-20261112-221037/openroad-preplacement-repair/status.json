@@ -1,0 +1,32 @@
+{
+  "status": "OPENROAD_PREPLACEMENT_REPAIR_MEASURED",
+  "physical_signoff": false,
+  "netlist_sha256": "20b7317c54e7290627378943cc32c57c5bdea0d822065acdaf9ee3bde4512928",
+  "prelayout_sta_sha256": "dfa981558eebb4350fa6eb5dd1ab1524f2b301f4728711d703a0d85e06eeb225",
+  "script_sha256": "654d1184503777fdc13a66b5f13fca2ff59d86a26651e78539f87a650cddf3af",
+  "scope": "development floorplan rows and repair_design -pre_placement; macros and cells unplaced",
+  "before": {
+    "max": -326.54,
+    "min": 0.31
+  },
+  "after": {
+    "max": -11.95,
+    "min": 0.31
+  },
+  "log_sha256": "10045cf09d98c83cb0597158c6f186531967f3d5c6cd6931a447e10e3c0876b0",
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794493522.5032816,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 137904552\nuser_usec 134599692\nsystem_usec 3304859\nnice_usec 0\nnr_periods 1584\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "56135680",
+      "memory.peak": "3360518144",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "283"
+    }
+  }
+}

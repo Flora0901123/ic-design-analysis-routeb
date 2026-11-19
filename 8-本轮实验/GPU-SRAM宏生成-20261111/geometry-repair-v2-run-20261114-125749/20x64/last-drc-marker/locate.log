@@ -1,0 +1,26 @@
+Sat Nov 14 13:43:59 CST 2026: Starting DRC using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic
+
+Magic 8.3 revision 306 - Compiled on Thu Nov 12 13:42:28 CST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.291-63-ge829452
+routeb_new_1w1r_20x64: 10000 rects
+Finished loading cell routeb_new_1w1r_20x64
+Scaled magic input cell routeb_new_1w1r_20x64_contact_33 geometry by factor of 2
+Processing timestamp mismatches: sky130_fd_bd_sram__openram_dp_cell, sky130_fd_bd_sram__openram_dp_cell_dummy, sky130_fd_bd_sram__openram_dp_cell_replica.
+Finished expanding
+Finished drc check
+Loading DRC CIF style.
+Finished drc catchup
+Total DRC errors found: 1
+ROUTEB_DRC_DETAILS {Deep N-well spacing to N-well < 4.5um (nwell.7)} {{40320 40320 40563 40556}}
+Sat Nov 14 13:44:04 CST 2026: Finished (0) DRC using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic

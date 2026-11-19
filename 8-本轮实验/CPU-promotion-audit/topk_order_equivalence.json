@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "score_weak_orderings": 598445,
+  "checks": 2992225,
+  "scope": "Exact extracted ranking loops, all weak orderings up to eight visible slots and K 0-4; kernel ranking only",
+  "program_sha256": "3d4424fd216dcb15f3b7189c2584c0122ca2afc6c976e088db3a24af02f113b3"
+}

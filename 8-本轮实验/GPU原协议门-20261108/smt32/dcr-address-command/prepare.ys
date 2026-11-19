@@ -1,0 +1,1 @@
+read -formal -sv vortex_command_adapter.sv student_mini_gpu_adapters_harness.sv; prep -top student_mini_gpu_adapters_harness -flatten; formalff -clk2ff; opt -keepdc; dffunmap; write_smt2 -wires model.smt2

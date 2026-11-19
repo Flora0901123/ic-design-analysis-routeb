@@ -1,0 +1,32 @@
+static void matmul(const mini_native_model *m, unsigned id, const float *x,
+                   unsigned in, unsigned out, unsigned transpose, float *y) {
+    int8_t a[16];
+    float s=quantize(x,in,a)*m->scale[id];
+    const int8_t *w=m->weight[id];
+    if(transpose) {
+        for(unsigned j=0;j<out;++j) {
+            const int8_t *row=w+j*in;
+            int32_t acc=0; unsigned k=0;
+            for(;k+3<in;k+=4) {
+                acc+=(int32_t)a[k]*row[k];
+                acc+=(int32_t)a[k+1]*row[k+1];
+                acc+=(int32_t)a[k+2]*row[k+2];
+                acc+=(int32_t)a[k+3]*row[k+3];
+            }
+            for(;k<in;++k) acc+=(int32_t)a[k]*row[k];
+            y[j]=rounded((float)acc*s);
+        }
+    } else {
+        for(unsigned j=0;j<out;++j) {
+            int32_t acc=0; unsigned k=0;
+            for(;k+3<in;k+=4) {
+                acc+=(int32_t)a[k]*w[k*out+j];
+                acc+=(int32_t)a[k+1]*w[(k+1)*out+j];
+                acc+=(int32_t)a[k+2]*w[(k+2)*out+j];
+                acc+=(int32_t)a[k+3]*w[(k+3)*out+j];
+            }
+            for(;k<in;++k) acc+=(int32_t)a[k]*w[k*out+j];
+            y[j]=rounded((float)acc*s);
+        }
+    }
+}

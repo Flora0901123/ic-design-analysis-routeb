@@ -1,0 +1,534 @@
+--- errors and warnings logged in file make.log
+make[1]: Entering directory '/root/.cache/routeb-magic-8.3.306/source'
+--- making dependencies
+rm -f */Depend
+for dir in bplane cmwind commands database dbwind debug drc extflat extract graphics netmenu plow resis select sim textio tiles utils windows wiring ext2sim ext2spice calma cif plot lef garouter grouter irouter mzrouter router gcr tcltk readline lisp magic net2ir tcltk; do \
+	(cd $dir && make depend) || exit 1; done
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/bplane'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM bpDump.c bpUtils.c bpBins.c bpEnum.c bpMain.c bpStat.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/bplane'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/cmwind'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM CMWmain.c CMWcmmnds.c CMWundo.c CMWrgbhsv.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/cmwind'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/commands'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM CmdSubrs.c CmdAB.c CmdCD.c CmdE.c CmdFI.c CmdLQ.c CmdRS.c CmdTZ.c CmdWizard.c CmdAuto.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/commands'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/database'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM DBbound.c DBcell.c DBcellbox.c DBcellcopy.c DBcellname.c DBcellsrch.c DBcellsel.c DBcellsubr.c DBconnect.c DBcount.c DBexpand.c DBio.c DBlabel.c DBlabel2.c DBpaint2.c DBpaint.c DBprop.c DBtech.c DBtcontact.c DBtechname.c DBtpaint.c DBtpaint2.c DBtechtype.c DBtiles.c DBtimestmp.c DBundo.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/database'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/dbwind'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM DBWcommands.c DBWdisplay.c DBWbuttons.c DBWelement.c DBWfdback.c DBWhlights.c DBWprocs.c DBWtools.c DBWundo.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/dbwind'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/debug'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM debugFlags.c hist.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/debug'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/drc'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM DRCarray.c DRCbasic.c DRCcif.c DRCcontin.c DRCmain.c DRCsubcell.c DRCtech.c DRCprint.c DRCextend.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/drc'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/extflat'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM EFargs.c EFbuild.c EFdef.c EFerr.c EFflat.c EFhier.c EFname.c EFread.c EFsym.c EFvisit.c EFantenna.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/extflat'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/extract'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM ExtArray.c ExtBasic.c ExtCell.c ExtCouple.c ExtHard.c ExtHier.c ExtLength.c ExtMain.c ExtNghbors.c ExtPerim.c ExtRegion.c ExtSubtree.c ExtTech.c ExtTest.c ExtTimes.c ExtYank.c ExtInter.c ExtUnique.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/extract'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/graphics'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6  -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -DX11 -DXLIB -DOGL -DNDEBUG -MM grMain.c grLock.c grDStyle.c grText.c grCMap.c grClip.c grGlyphs.c grNull.c W3Dmain.c grX11su1.c grX11su2.c grX11su3.c grX11su4.c grX11su5.c grTk1.c grTk2.c grTk3.c grTk4.c grTk5.c grTOGL1.c grTOGL2.c grTOGL3.c grTOGL4.c grTOGL5.c grTkCommon.c grOGL1.c grOGL2.c grOGL3.c grOGL4.c grOGL5.c X11Helper.c grX11thread.c grTCairo1.c grTCairo2.c grTCairo3.c grTCairo4.c grTCairo5.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/graphics'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/netmenu'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM NMbutton.c NMcmdAK.c NMcmdLZ.c NMlabel.c NMmain.c NMnetlist.c NMshowpt.c NMshowcell.c NMundo.c NMwiring.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/netmenu'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/plow'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM PlowCmd.c PlowJogs.c PlowMain.c PlowQueue.c PlowRandom.c PlowRules1.c PlowRules2.c PlowRules3.c PlowSearch.c PlowTech.c PlowTest.c PlowWidth.c PlowYank.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/plow'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/resis'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM ResMain.c ResJunct.c ResMakeRes.c ResSimple.c ResPrint.c ResReadSim.c ResRex.c ResBasic.c ResMerge.c ResChecks.c ResFract.c ResUtils.c ResDebug.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/resis'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/select'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM selCreate.c selDisplay.c selEnum.c selOps.c selUndo.c selUnselect.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/select'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/sim'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM SimDBstuff.c SimSelect.c SimRsim.c SimExtract.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/sim'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/textio'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM txCommands.c txInput.c txMain.c txMore.c txOutput.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/textio'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/tiles'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM tile.c search.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/tiles'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/utils'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6  -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -DX11 -DXLIB -DOGL -DNDEBUG -MM args.c child.c dqueue.c finddisp.c flock.c flsbuf.c fraction.c geometry.c getrect.c hash.c heap.c ihash.c list.c lookup.c lookupany.c lookupfull.c macros.c main.c malloc.c match.c maxrect.c netlist.c niceabort.c parser.c path.c pathvisit.c port.c printstuff.c signals.c stack.c strdup.c runstats.c set.c show.c tech.c touchtypes.c undo.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/utils'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/windows'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM windClient.c windCmdAM.c windCmdNR.c windCmdSZ.c windSend.c windDebug.c windDisp.c windMain.c windMove.c windSearch.c windTrans.c windView.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/windows'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/wiring'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM wireOps.c wireTech.c wireUndo.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/wiring'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/ext2sim'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM ext2sim.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/ext2sim'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/ext2spice'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM ext2spice.c ext2hier.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/ext2spice'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/calma'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM CalmaRead.c CalmaRdcl.c CalmaRdio.c CalmaRdpt.c CalmaWrite.c CalmaWriteZ.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/calma'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/cif'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM CIFgen.c CIFhier.c CIFmain.c CIFrdcl.c CIFrdpt.c CIFrdpoly.c CIFrdtech.c CIFrdutils.c CIFsee.c CIFtech.c CIFwrite.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/cif'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/plot'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM plotCmd.c plotGremln.c plotHP.c plotPS.c plotMain.c plotRutils.c plotVers.c plotPixels.c plotPNM.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/plot'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/lef'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM lefCmd.c lefTech.c lefWrite.c defWrite.c lefRead.c defRead.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/lef'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/garouter'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM gaChannel.c gaMain.c gaMaze.c gaSimple.c gaStem.c gaTest.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/garouter'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/grouter'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM grouteChan.c grouteCrss.c grouteDens.c grouteMain.c grouteMult.c grouteMaze.c groutePath.c groutePen.c grouteTest.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/grouter'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/irouter'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM irCommand.c irMain.c irRoute.c irTestCmd.c irUtils.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/irouter'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/mzrouter'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM mzBlock.c mzDebug.c mzEstimate.c mzXtndDown.c mzXtndLeft.c mzXtndRght.c mzXtndUp.c mzHint.c mzInit.c mzNumLine.c mzMain.c mzSearch.c mzStart.c mzSubrs.c mzTech.c mzTestCmd.c mzWalk.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/mzrouter'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/router'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM rtrCmd.c rtrMain.c rtrDcmpose.c rtrFdback.c rtrHazards.c rtrChannel.c rtrPaint.c rtrPin.c rtrSide.c rtrStem.c rtrTech.c rtrVia.c rtrTravers.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/router'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/gcr'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM gcrChannel.c gcrColl.c gcrDebug.c gcrEdge.c gcrFeas.c gcrFlags.c gcrInit.c gcrLib.c gcrRiver.c gcrRoute.c gcrShwFlgs.c gcrUnsplit.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/gcr'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -DMAGIC_DATE="\"`date`\"" -MM tclmagic.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/readline'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/readline'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/lisp'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM lispMain.c lispEval.c lispPrint.c lispParse.c lispA-Z.c lispGC.c lispFrame.c lispTrace.c lispMagic.c lispArith.c lispString.c lispIO.c  | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/lisp'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/magic'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -DMAGIC_DATE="\"`date`\"" -DCAD_DIR="/root/.cache/routeb-magic-8.3.306/install/lib" -MM magicTop.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/magic'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/net2ir'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DMAGIC_VERSION=\"`cat ../VERSION | cut -d. -f1-2`\" -DMAGIC_REVISION=\"`cat ../VERSION | cut -d. -f3`\" -DMAGIC_COMMIT=\"`git rev-parse HEAD`\" -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG -MM net2ir.c | \
+sed -e "/#/D" -e "/ \//s/ \/.*\.h//" -e "/  \\\/D" \
+> Depend
+fatal: not a git repository (or any of the parent directories): .git
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/net2ir'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+--- making modules
+for dir in bplane cmwind commands database dbwind debug drc extflat extract graphics netmenu plow resis select sim textio tiles utils windows wiring ext2sim ext2spice calma cif plot lef garouter grouter irouter mzrouter router gcr tcltk magic net2ir tcltk; do \
+	(cd $dir && make module) || exit 1; done
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/bplane'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/bplane'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/cmwind'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/cmwind'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/commands'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/commands'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/database'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/database'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/dbwind'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/dbwind'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/debug'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/debug'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/drc'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/drc'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/extflat'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/extflat'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/extract'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/extract'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/graphics'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/graphics'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/netmenu'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+--- linking libnetmenu.o
+rm -f libnetmenu.o
+/usr/bin/ld -r NMbutton.o NMcmdAK.o NMcmdLZ.o NMlabel.o NMmain.o NMnetlist.o NMshowpt.o NMshowcell.o NMundo.o NMwiring.o  -o libnetmenu.o 
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/netmenu'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/plow'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/plow'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/resis'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+--- linking libresis.o
+rm -f libresis.o
+/usr/bin/ld -r ResMain.o ResJunct.o ResMakeRes.o ResSimple.o ResPrint.o ResReadSim.o ResRex.o ResBasic.o ResMerge.o ResChecks.o ResFract.o ResUtils.o ResDebug.o  -o libresis.o 
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/resis'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/select'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/select'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/sim'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/sim'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/textio'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/textio'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/tiles'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/tiles'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/utils'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+--- linking libutils.o
+rm -f libutils.o
+/usr/bin/ld -r args.o child.o dqueue.o finddisp.o flock.o flsbuf.o fraction.o geometry.o getrect.o hash.o heap.o ihash.o list.o lookup.o lookupany.o lookupfull.o macros.o main.o malloc.o match.o maxrect.o netlist.o niceabort.o parser.o path.o pathvisit.o port.o printstuff.o signals.o stack.o strdup.o runstats.o set.o show.o tech.o touchtypes.o undo.o  -o libutils.o 
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/utils'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/windows'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Warning: File 'Depend' has modification time 1.1 s in the future
+make[2]: Nothing to be done for 'module'.
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/windows'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/wiring'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Warning: File 'Depend' has modification time 1.3 s in the future
+make[2]: Nothing to be done for 'module'.
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/wiring'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/ext2sim'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/ext2sim'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/ext2spice'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/ext2spice'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/calma'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/calma'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/cif'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/cif'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/plot'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/plot'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/lef'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/lef'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/garouter'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/garouter'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/grouter'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+--- linking libgrouter.o
+rm -f libgrouter.o
+/usr/bin/ld -r grouteChan.o grouteCrss.o grouteDens.o grouteMain.o grouteMult.o grouteMaze.o groutePath.o groutePen.o grouteTest.o  -o libgrouter.o 
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/grouter'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/irouter'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/irouter'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/mzrouter'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/mzrouter'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/router'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/router'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/gcr'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/gcr'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/magic'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/magic'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/net2ir'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/net2ir'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'module'.
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+--- making Tcl shared libraries
+for dir in magic net2ir tcltk; do \
+	(cd $dir && make tcl-main) || exit 1; done
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/magic'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+--- making magic Tcl library (tclmagic.so)
+rm -f tclmagic.so
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -o tclmagic.so -shared  \
+	../bplane/libbplane.o ../cmwind/libcmwind.o ../commands/libcommands.o ../database/libdatabase.o ../dbwind/libdbwind.o ../drc/libdrc.o ../debug/libdebug.o ../extract/libextract.o ../graphics/libgraphics.o ../select/libselect.o ../textio/libtextio.o ../tiles/libtiles.o ../windows/libwindows.o ../wiring/libwiring.o ../resis/libresis.o ../sim/libsim.o ../netmenu/libnetmenu.o ../plow/libplow.o ../utils/libutils.o ../ext2sim/libext2sim.o ../ext2spice/libext2spice.o ../calma/libcalma.o ../cif/libcif.o ../plot/libplot.o ../lef/liblef.o ../extflat/libextflat.o ../garouter/libgarouter.o 	../mzrouter/libmzrouter.o ../router/librouter.o 	../irouter/libirouter.o ../grouter/libgrouter.o 	../gcr/libgcr.o ../tcltk/libtcltk.o -lGLU \
+	-lc -lX11 -lGL    -lXext -lm  -lstdc++   -lm -lGLU  -lz  -L/usr/lib/x86_64-linux-gnu -ltkstub8.6 -L/usr/lib/x86_64-linux-gnu -ltclstub8.6 
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/magic'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/net2ir'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+echo "Nothing to do here"
+Nothing to do here
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/net2ir'
+make[2]: Entering directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+../rules.mak:24: warning: ignoring prerequisites on suffix rule definition
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\" -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG  magicexec.c \
+	-o magicexec  -L/usr/lib/x86_64-linux-gnu -ltk8.6 -L/usr/lib/x86_64-linux-gnu -ltcl8.6 -lz \
+	 -lX11 -lGL    -lXext -lm  -lstdc++ 
+gcc -g -m64 -fPIC -Wimplicit-int -fPIC  -I/usr/include/tcl8.6/tk-private/generic -I/usr/include/tcl8.6 -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib\" -DBIN_DIR=\"/root/.cache/routeb-magic-8.3.306/install/bin\" -DTCL_DIR=\"/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl\" -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_SYS_MMAN_H=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_PATHS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DHAVE_ZLIB=1 -DFILE_LOCKS=1 -DCALMA_MODULE=1 -DCIF_MODULE=1 -DPLOT_MODULE=1 -DLEF_MODULE=1 -DROUTE_MODULE=1 -DUSE_NEW_MACROS=1 -DHAVE_LIBGL=1 -DMAGIC_WRAPPER=1 -DTHREE_D=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DGCORE=\"no\" -DSHDLIB_EXT=\".so\" -DNDEBUG  magicdnull.c \
+	-o magicdnull  -L/usr/lib/x86_64-linux-gnu -ltcl8.6 -lz \
+	
+sed -e /MAGIC_VERSION/s%MAGIC_VERSION%`cat ../VERSION | cut -d. -f1-2`%g \
+    -e /MAGIC_REVISION/s%MAGIC_REVISION%`cat ../VERSION | cut -d. -f3`%g \
+    -e /MAGIC_COMMIT/s%MAGIC_COMMIT%`git rev-parse HEAD`%g \
+    magic.tcl.in > magic.tcl
+fatal: not a git repository (or any of the parent directories): .git
+sed -e /TCL_DIR/s%TCL_DIR%/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl%g \
+    -e /TCLLIB_DIR/s%TCLLIB_DIR%/usr/lib%g \
+    -e /WISH_EXE/s%WISH_EXE%/usr/bin/wish%g magic.sh.in > magic.sh
+sed -e /TCL_DIR/s%TCL_DIR%/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl%g \
+    ext2spice.sh.in > ext2spice.sh
+sed -e /TCL_DIR/s%TCL_DIR%/root/.cache/routeb-magic-8.3.306/install/lib/magic/tcl%g \
+    ext2sim.sh.in > ext2sim.sh
+make[2]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source/tcltk'
+make[1]: Leaving directory '/root/.cache/routeb-magic-8.3.306/source'

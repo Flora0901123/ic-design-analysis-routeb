@@ -1,0 +1,15 @@
+{
+  "status": "STATIC_CONTENT_AND_SHA_PASS",
+  "completion": 75,
+  "milestones": {
+    "done": 9,
+    "partial": 6,
+    "todo": 1
+  },
+  "evidence_links_verified": 26,
+  "duplicate_ids": false,
+  "protocol_records": 90,
+  "nano_compared_steps": 81,
+  "physical_sha_matches": 26,
+  "page_sha256": "5464ca8f4ef49656850d4eee42f404b504c5fe15e8883fd94415954a9807b487"
+}

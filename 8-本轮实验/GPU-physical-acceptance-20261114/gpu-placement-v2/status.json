@@ -1,0 +1,15 @@
+{
+  "status": "STANDARD_CELL_PLACEMENT_PASS",
+  "physical_signoff": false,
+  "returncode": 0,
+  "seconds": 649.9381981300002,
+  "input_floorplan_sha256": "91290fb3a9170a2dbe043f73c3965e4d7f8cf960b3037129a2bc00953ca49b2d",
+  "setup_slack_ns": -7.96,
+  "hold_slack_ns": 0.31,
+  "timing_stage": "PLACEMENT_ESTIMATED_RC",
+  "outputs": {
+    "openroad.log": "048429b89bdaca50ae16e0a6ce3f98dd04153c1c463d5c875831c3588f2f7e8b",
+    "placed.odb": "585075fd8efc11e717f5103e00eac8beb3a3c83f1fbbac97cef7b90f994d9912",
+    "placement.tcl": "2282e1c701e5c2de301c356b99b0d9206ddb8ec4f2e7259a2976afb5408b8c28"
+  }
+}

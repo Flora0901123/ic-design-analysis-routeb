@@ -1,0 +1,87 @@
+{
+  "status": "FAILED",
+  "scope": "STA tool source and build qualification only; no GPU timing acceptance",
+  "opensta_source_url": "https://github.com/The-OpenROAD-Project/OpenSTA.git",
+  "opensta_commit": "f8e13cbf12d02a07a2d1ec4a64f3e6985b747eab",
+  "records": [
+    {
+      "stage": "build-dependencies",
+      "command": [
+        "apt-get",
+        "install",
+        "-y",
+        "--no-install-recommends",
+        "tcl-dev",
+        "swig",
+        "libeigen3-dev",
+        "libfmt-dev",
+        "autoconf",
+        "automake",
+        "libtool"
+      ],
+      "seconds": 2.013454191001074,
+      "log_sha256": "d1d2d6a7ab7a39da9c96ffeeac5150fde8a6b48524f7a98d50f28609267f5714"
+    },
+    {
+      "stage": "cudd-autoreconf",
+      "command": [
+        "autoreconf",
+        "-fi"
+      ],
+      "seconds": 16.033409181000025,
+      "log_sha256": "a9636c9f7c461c6ce3cfad7ebe11b4711378f75bbb012d88ebb2fce88ee8b88e"
+    },
+    {
+      "stage": "cudd-configure",
+      "command": [
+        "./configure",
+        "--enable-shared=no",
+        "--enable-dddmp=no",
+        "--enable-obj=no",
+        "--prefix=/root/.cache/routeb-opensta-20261110/cudd-install"
+      ],
+      "seconds": 80.13888891100032,
+      "log_sha256": "328df39cc0a701a5c07a3bd15c901e2e00619c21155f80ccba4dad757055231b"
+    },
+    {
+      "stage": "cudd-build",
+      "command": [
+        "make",
+        "-j2"
+      ],
+      "seconds": 40.053140608999456,
+      "log_sha256": "bc541aa0999893b71507ba0cea6326883d0b050ff480d4477c3b54b1a28e9606"
+    },
+    {
+      "stage": "cudd-install",
+      "command": [
+        "make",
+        "install"
+      ],
+      "seconds": 2.0137449109988665,
+      "log_sha256": "eaa853111cdee337b731399a590ae4369dc97976a22ff8403e21dff6a4002362"
+    }
+  ],
+  "formal_promotion": "HOLD",
+  "PPA_signoff": false,
+  "stage": "opensta-configure",
+  "seconds": 220.84870649299955,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794313663.3628037,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 25027416254\nuser_usec 24630210002\nsystem_usec 397206252\nnice_usec 0\nnr_periods 148760\nnr_throttled 851\nthrottled_usec 6050713\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1358471168",
+      "memory.peak": "5584429056",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n63237\n72433\n72434"
+    }
+  },
+  "cudd_commit": "f54f533303640afd5dbe47a05ebeabb3066f2a25",
+  "cudd_source_url": "https://github.com/cuddorg/cudd.git",
+  "error": "AssertionError: ('opensta-configure', 1)"
+}

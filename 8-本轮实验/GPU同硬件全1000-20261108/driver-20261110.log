@@ -1,0 +1,49 @@
+{'validated_existing': 657}
+{'completed': 660, 'matches': 660}
+{'completed': 670, 'matches': 670}
+{'completed': 680, 'matches': 680}
+{'completed': 690, 'matches': 690}
+{'completed': 700, 'matches': 700}
+{'completed': 710, 'matches': 710}
+{'completed': 720, 'matches': 720}
+{'completed': 730, 'matches': 730}
+{'completed': 740, 'matches': 740}
+{'completed': 750, 'matches': 750}
+{'completed': 760, 'matches': 760}
+{'completed': 770, 'matches': 770}
+{'completed': 780, 'matches': 780}
+{'completed': 790, 'matches': 790}
+{'completed': 800, 'matches': 800}
+{'completed': 810, 'matches': 810}
+{'completed': 820, 'matches': 820}
+{'completed': 830, 'matches': 830}
+{'completed': 840, 'matches': 840}
+{'completed': 850, 'matches': 850}
+{'completed': 860, 'matches': 860}
+{'completed': 870, 'matches': 870}
+{'completed': 880, 'matches': 880}
+{'completed': 890, 'matches': 890}
+{'completed': 900, 'matches': 900}
+{'completed': 910, 'matches': 910}
+{'completed': 920, 'matches': 920}
+{'completed': 930, 'matches': 930}
+{'completed': 940, 'matches': 940}
+{'completed': 950, 'matches': 950}
+{'completed': 960, 'matches': 960}
+{'completed': 970, 'matches': 970}
+{'completed': 980, 'matches': 980}
+{'completed': 990, 'matches': 990}
+{'completed': 1000, 'matches': 1000}
+{
+  "goal_records": 1000,
+  "hardware_identity": "fresh macro-bound Vortex + actual fault adapters + reconstructed functional SRAM",
+  "formal_baseline": false,
+  "protocol_scope": "numeric/status replay; full seeded handshake/reset qualification remains separate",
+  "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "status": "SAME_HARDWARE_1000_NUMERIC_STATUS_PASS",
+  "driver": "isolated independent processes with unchanged target binary and byte-identical host compiler-library cache",
+  "workers": 2,
+  "host_cache_manifest_sha256": "1b7c62d5d3906dfcafa6252fe45e58ce385c85333d1bfd81d8fa90a5ac8f2f11",
+  "host_cache_is_not_target_speedup": true,
+  "elapsed_seconds": 7760.449074190999
+}

@@ -1,0 +1,8 @@
+{
+  "cpu_steps": 11,
+  "gpu_steps": 11,
+  "all_tokens_hidden_logits_identical": true,
+  "vortex_driver_simx_in_log": true,
+  "gpu_completion": true,
+  "gpu_log": "execute-resumed-1793261741110571503.log"
+}

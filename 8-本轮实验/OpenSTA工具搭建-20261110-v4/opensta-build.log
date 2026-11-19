@@ -1,0 +1,6 @@
+[  1%] Built target sta_swig_swig_compilation
+[ 97%] Built target OpenSTA
+[ 98%] Built target sta_swig
+[100%] Building CXX object CMakeFiles/sta.dir/app/Main.cc.o
+[100%] Linking CXX executable sta
+[100%] Built target sta

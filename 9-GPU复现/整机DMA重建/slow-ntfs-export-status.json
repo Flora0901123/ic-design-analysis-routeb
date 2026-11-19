@@ -1,0 +1,7 @@
+{
+  "status": "FAILED",
+  "reference_physical_identity": false,
+  "steps": [],
+  "error": "TimeoutExpired: Command '['/root/.cache/routeb-dma-rebuild/configure-fixed', '--xlen=32', '--tooldir=/tmp/routeb-dma-tools', '--osversion=ubuntu/focal', '--prefix=/root/.cache/routeb-dma-rebuild/install']' timed out after 179.99998427199995 seconds",
+  "seconds": 180.046517674
+}

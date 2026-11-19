@@ -1,0 +1,9 @@
+{
+  "cases": 100,
+  "seeds_per_case": 10,
+  "records_per_platform": 1000,
+  "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "source_sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f",
+  "script_sha256": "dd56a9aea4d205bfc9c52891ce06ebe6b17ec05f5df38f4e542c83440eef8289",
+  "scope": "one fresh complete baseline target execution per platform; protocol and performance gates separate"
+}

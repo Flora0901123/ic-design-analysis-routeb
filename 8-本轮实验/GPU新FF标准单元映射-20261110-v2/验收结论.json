@@ -1,0 +1,41 @@
+{
+  "status": "NEW_FF_GPU_STANDARD_CELL_MAPPING_INDEPENDENTLY_SEALED_NOT_PPA",
+  "sealed_at": "2026-11-10T12:25:27.127089+00:00",
+  "mapped_netlist_sha256": "b18dc63c5f260455448b3e1e2703a23262905ccb081440b16c7fdf47e7c4bbfb",
+  "independent_reparse_seconds": 127.60337264600093,
+  "synthesis_seconds": 1168.4815895299998,
+  "standard_cell_count": 1547376,
+  "library_cell_area_um2": 21095538.544001,
+  "library_cell_area_mm2": 21.095538544001,
+  "mapped_cell_types": 79,
+  "unresolved_leaf_types": 0,
+  "remaining_memories": 0,
+  "remaining_processes": 0,
+  "source_library_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "hierarchy_check": "PASS",
+  "four_state_preflight_seal": "8-本轮实验/GPU新物理入口实测-20261110-v2/验收结论.json",
+  "full_mapped_functional_equivalence": false,
+  "place_route_executed": false,
+  "STA_executed": false,
+  "power_energy_measured": false,
+  "original_physical_identity": false,
+  "physical_signoff": false,
+  "formal_promotion": "HOLD",
+  "limits": "Cell library area is synthesis area only, not routed die/core area. FF storage cost is retained; no original physical identity or resource eligibility claimed.",
+  "evidence_manifest_sha256": "94c21ac37e353757b7c20a11a083b36f87f81e785f03aa1f5760022ede48aa53",
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794313528.241024,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 24785204944\nuser_usec 24396213555\nsystem_usec 388991388\nnice_usec 0\nnr_periods 147309\nnr_throttled 851\nthrottled_usec 6050713\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1299988480",
+      "memory.peak": "5584429056",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n61436\n63237\n63893\n65230\n65231\n65454\n65455\n65458"
+    }
+  }
+}

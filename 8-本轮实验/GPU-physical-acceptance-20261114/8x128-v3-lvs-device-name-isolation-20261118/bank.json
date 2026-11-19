@@ -1,0 +1,5882 @@
+[
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_bd_sram__openram_dp_nand2_dec",
+      "sky130_fd_bd_sram__openram_dp_nand2_dec"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    6,
+    6
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vdd",
+        "B",
+        "A",
+        "Z",
+        "gnd"
+      ], [
+        "VDD",
+        "B",
+        "A",
+        "Z",
+        "GND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_pinv_dec",
+      "routeb_new_1w1r_8x128_pinv_dec"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 1],
+         ["sky130_fd_pr__pfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 1 ],
+         ["sky130_fd_pr__pfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "Z",
+        "A",
+        "vdd",
+        "gnd"
+      ], [
+        "Z",
+        "A",
+        "vdd",
+        "gnd"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_bd_sram__openram_dp_nand3_dec",
+      "sky130_fd_bd_sram__openram_dp_nand3_dec"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8", 3],
+         ["sky130_fd_pr__nfet_01v8", 3 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8", 3 ],
+         ["sky130_fd_pr__nfet_01v8", 3 ]
+       ]
+   ],
+   "nets": [
+    8,
+    8
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vdd",
+        "A",
+        "C",
+        "B",
+        "Z",
+        "gnd"
+      ], [
+        "VDD",
+        "A",
+        "C",
+        "B",
+        "Z",
+        "GND"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_and2_dec",
+      "routeb_new_1w1r_8x128_and2_dec"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 1],
+         ["routeb_new_1w1r_8x128_pinv_dec", 1 ]
+       ], [
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 1 ],
+         ["routeb_new_1w1r_8x128_pinv_dec", 1 ]
+       ]
+   ],
+   "nets": [
+    7,
+    6
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 1 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_and3_dec",
+      "routeb_new_1w1r_8x128_and3_dec"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 1],
+         ["routeb_new_1w1r_8x128_pinv_dec", 1 ]
+       ], [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 1 ],
+         ["routeb_new_1w1r_8x128_pinv_dec", 1 ]
+       ]
+   ],
+   "nets": [
+    8,
+    7
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "VDD", 1 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_pinv_dec_0",
+      "routeb_new_1w1r_8x128_pinv_dec_0"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "Z",
+        "A",
+        "vdd",
+        "gnd"
+      ], [
+        "Z",
+        "A",
+        "vdd",
+        "gnd"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_bd_sram__openram_dp_cell_replica",
+      "sky130_fd_bd_sram__openram_dp_cell_replica"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__special_nfet_latch", 10],
+         ["sky130_fd_pr__special_pfet_pass", 4 ]
+       ], [
+         ["sky130_fd_pr__special_nfet_latch", 8 ],
+         ["sky130_fd_pr__special_pfet_pass", 4 ]
+       ]
+   ],
+   "nets": [
+    11,
+    9
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "gnd",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 6 ],
+              [ "sky130_fd_pr__special_nfet_latch", "2", 4 ],
+              [ "sky130_fd_pr__special_nfet_latch", "4", 10 ]
+            ]
+          ],
+          [
+            "a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "GND",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "4", 8 ],
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 4 ],
+              [ "sky130_fd_pr__special_nfet_latch", "2", 2 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+      [
+        [
+          [
+            "sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 20 ],
+              [ "2", 20 ],
+              [ "4", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 20 ],
+              [ "2", 20 ],
+              [ "4", 20 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_bd_sram__openram_dp_cell_dummy",
+      "sky130_fd_bd_sram__openram_dp_cell_dummy"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__special_nfet_latch", 12 ]
+       ], [
+         ["sky130_fd_pr__special_nfet_latch", 10 ]
+       ]
+   ],
+   "nets": [
+    13,
+    11
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "gnd",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 8 ],
+              [ "sky130_fd_pr__special_nfet_latch", "2", 8 ],
+              [ "sky130_fd_pr__special_nfet_latch", "4", 12 ]
+            ]
+          ],
+          [
+            "a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "GND",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "2", 6 ],
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 6 ],
+              [ "sky130_fd_pr__special_nfet_latch", "4", 10 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+      [
+        [
+          [
+            "sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 28 ],
+              [ "2", 28 ],
+              [ "4", 28 ]
+            ]
+          ],
+          [
+            "sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 28 ],
+              [ "2", 28 ],
+              [ "4", 28 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_bd_sram__openram_dp_cell",
+      "sky130_fd_bd_sram__openram_dp_cell"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__special_nfet_latch", 10],
+         ["sky130_fd_pr__special_pfet_pass", 4 ]
+       ], [
+         ["sky130_fd_pr__special_nfet_latch", 8 ],
+         ["sky130_fd_pr__special_pfet_pass", 4 ]
+       ]
+   ],
+   "nets": [
+    12,
+    10
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "gnd",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 6 ],
+              [ "sky130_fd_pr__special_nfet_latch", "2", 4 ],
+              [ "sky130_fd_pr__special_nfet_latch", "4", 10 ]
+            ]
+          ],
+          [
+            "a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "GND",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "4", 8 ],
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 4 ],
+              [ "sky130_fd_pr__special_nfet_latch", "2", 2 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+      [
+        [
+          [
+            "sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 20 ],
+              [ "2", 20 ],
+              [ "4", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 20 ],
+              [ "2", 20 ],
+              [ "4", 20 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_hierarchical_predecode2x4",
+      "routeb_new_1w1r_8x128_hierarchical_predecode2x4"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_pinv_dec", 6],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 4 ]
+       ], [
+         ["routeb_new_1w1r_8x128_pinv_dec", 6 ],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 4 ]
+       ]
+   ],
+   "nets": [
+    16,
+    14
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq1",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 6 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 4 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_hierarchical_predecode3x8",
+      "routeb_new_1w1r_8x128_hierarchical_predecode3x8"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_pinv_dec", 11],
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 8 ]
+       ], [
+         ["routeb_new_1w1r_8x128_pinv_dec", 11 ],
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 8 ]
+       ]
+   ],
+   "nets": [
+    26,
+    24
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq2",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 3 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 8 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 11 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "VDD", 8 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_wordline_driver",
+      "routeb_new_1w1r_8x128_wordline_driver"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 1],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 1 ]
+       ], [
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 1 ],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 1 ]
+       ]
+   ],
+   "nets": [
+    7,
+    6
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 1 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_precharge_0",
+      "routeb_new_1w1r_8x128_precharge_0"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8", 3 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8", 3 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vdd",
+        "en_bar",
+        "bl",
+        "br"
+      ], [
+        "vdd",
+        "en_bar",
+        "bl",
+        "br"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_bd_sram__openram_write_driver",
+      "sky130_fd_bd_sram__openram_write_driver"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 9],
+         ["sky130_fd_pr__pfet_01v8", 7 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 9 ],
+         ["sky130_fd_pr__pfet_01v8", 7 ]
+       ]
+   ],
+   "nets": [
+    14,
+    13
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 4 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 3 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 3 ]
+            ]
+          ]
+        ], [
+          [
+            "VDD",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 7 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 7 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_bd_sram__openram_sense_amp",
+      "sky130_fd_bd_sram__openram_sense_amp"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8", 5],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8", 5 ],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ]
+   ],
+   "nets": [
+    10,
+    9
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq0",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 1 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "4", 5 ],
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 2 ]
+            ]
+          ]
+        ], [
+          [
+            "VDD",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 3 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 5 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_precharge_1",
+      "routeb_new_1w1r_8x128_precharge_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8", 3 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8", 3 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vdd",
+        "en_bar",
+        "bl",
+        "br"
+      ], [
+        "vdd",
+        "en_bar",
+        "bl",
+        "br"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_replica_column_0",
+      "routeb_new_1w1r_8x128_replica_column_0"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__special_nfet_latch", 784],
+         ["sky130_fd_pr__special_pfet_pass", 516 ]
+       ], [
+         ["sky130_fd_pr__special_nfet_latch", 784 ],
+         ["sky130_fd_pr__special_pfet_pass", 516 ]
+       ]
+   ],
+   "nets": [
+    399,
+    399
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "wl_0_0",
+        "wl_1_0",
+        "gnd",
+        "vdd",
+        "wl_0_26",
+        "wl_0_15",
+        "wl_0_4",
+        "wl_0_27",
+        "wl_0_16",
+        "wl_0_5",
+        "wl_0_28",
+        "wl_0_17",
+        "wl_0_6",
+        "wl_0_29",
+        "wl_0_18",
+        "wl_0_7",
+        "wl_0_120",
+        "wl_0_19",
+        "wl_0_8",
+        "wl_0_121",
+        "wl_0_9",
+        "wl_0_122",
+        "wl_0_123",
+        "wl_0_124",
+        "wl_0_110",
+        "wl_0_125",
+        "wl_0_100",
+        "wl_0_111",
+        "wl_0_126",
+        "wl_0_90",
+        "wl_0_101",
+        "wl_0_112",
+        "wl_0_127",
+        "wl_0_91",
+        "wl_0_80",
+        "wl_0_102",
+        "wl_0_113",
+        "wl_0_128",
+        "wl_0_92",
+        "wl_0_81",
+        "wl_0_70",
+        "wl_0_103",
+        "wl_0_114",
+        "wl_0_129",
+        "wl_0_93",
+        "wl_0_82",
+        "wl_0_71",
+        "wl_0_60",
+        "wl_0_104",
+        "wl_0_115",
+        "wl_0_94",
+        "wl_0_83",
+        "wl_0_72",
+        "wl_0_61",
+        "wl_0_50",
+        "wl_0_105",
+        "wl_0_116",
+        "wl_0_95",
+        "wl_0_84",
+        "wl_0_73",
+        "wl_0_62",
+        "wl_0_51",
+        "wl_0_40",
+        "wl_0_106",
+        "wl_0_117",
+        "wl_0_85",
+        "wl_0_74",
+        "wl_0_63",
+        "wl_0_52",
+        "wl_0_41",
+        "wl_0_30",
+        "wl_0_96",
+        "wl_0_107",
+        "wl_0_118",
+        "wl_0_86",
+        "wl_0_75",
+        "wl_0_64",
+        "wl_0_53",
+        "wl_0_42",
+        "wl_0_31",
+        "wl_0_97",
+        "wl_0_108",
+        "wl_0_119",
+        "wl_0_87",
+        "wl_0_76",
+        "wl_0_65",
+        "wl_0_54",
+        "wl_0_43",
+        "wl_0_32",
+        "wl_0_98",
+        "wl_0_109",
+        "wl_0_88",
+        "wl_0_77",
+        "wl_0_66",
+        "wl_0_55",
+        "wl_0_44",
+        "wl_0_33",
+        "wl_0_99",
+        "wl_0_89",
+        "wl_0_78",
+        "wl_0_67",
+        "wl_0_56",
+        "wl_0_45",
+        "wl_0_34",
+        "wl_0_79",
+        "wl_0_68",
+        "wl_0_57",
+        "wl_0_46",
+        "wl_0_35",
+        "wl_0_69",
+        "wl_0_58",
+        "wl_0_47",
+        "wl_0_36",
+        "wl_0_59",
+        "wl_0_48",
+        "wl_0_37",
+        "wl_0_49",
+        "wl_0_38",
+        "wl_0_39",
+        "wl_0_20",
+        "wl_0_21",
+        "wl_0_10",
+        "wl_0_22",
+        "wl_0_11",
+        "wl_0_23",
+        "wl_0_12",
+        "wl_0_1",
+        "wl_0_24",
+        "wl_0_13",
+        "wl_0_2",
+        "wl_0_25",
+        "wl_0_14",
+        "wl_0_3",
+        "wl_1_26",
+        "wl_1_15",
+        "wl_1_4",
+        "wl_1_27",
+        "wl_1_16",
+        "wl_1_5",
+        "wl_1_28",
+        "wl_1_17",
+        "wl_1_6",
+        "wl_1_29",
+        "wl_1_18",
+        "wl_1_7",
+        "wl_1_120",
+        "wl_1_19",
+        "wl_1_8",
+        "wl_1_121",
+        "wl_1_9",
+        "wl_1_122",
+        "wl_1_123",
+        "wl_1_124",
+        "wl_1_110",
+        "wl_1_125",
+        "wl_1_100",
+        "wl_1_111",
+        "wl_1_126",
+        "wl_1_90",
+        "wl_1_101",
+        "wl_1_112",
+        "wl_1_127",
+        "wl_1_91",
+        "wl_1_80",
+        "wl_1_102",
+        "wl_1_113",
+        "wl_1_128",
+        "wl_1_92",
+        "wl_1_81",
+        "wl_1_70",
+        "wl_1_103",
+        "wl_1_114",
+        "wl_1_129",
+        "wl_1_93",
+        "wl_1_82",
+        "wl_1_71",
+        "wl_1_60",
+        "wl_1_104",
+        "wl_1_115",
+        "wl_1_94",
+        "wl_1_83",
+        "wl_1_72",
+        "wl_1_61",
+        "wl_1_50",
+        "wl_1_105",
+        "wl_1_116",
+        "wl_1_95",
+        "wl_1_84",
+        "wl_1_73",
+        "wl_1_62",
+        "wl_1_51",
+        "wl_1_40",
+        "wl_1_106",
+        "wl_1_117",
+        "wl_1_85",
+        "wl_1_74",
+        "wl_1_63",
+        "wl_1_52",
+        "wl_1_41",
+        "wl_1_30",
+        "wl_1_96",
+        "wl_1_107",
+        "wl_1_118",
+        "wl_1_86",
+        "wl_1_75",
+        "wl_1_64",
+        "wl_1_53",
+        "wl_1_42",
+        "wl_1_31",
+        "wl_1_97",
+        "wl_1_108",
+        "wl_1_119",
+        "wl_1_87",
+        "wl_1_76",
+        "wl_1_65",
+        "wl_1_54",
+        "wl_1_43",
+        "wl_1_32",
+        "wl_1_98",
+        "wl_1_109",
+        "wl_1_88",
+        "wl_1_77",
+        "wl_1_66",
+        "wl_1_55",
+        "wl_1_44",
+        "wl_1_33",
+        "wl_1_99",
+        "wl_1_89",
+        "wl_1_78",
+        "wl_1_67",
+        "wl_1_56",
+        "wl_1_45",
+        "wl_1_34",
+        "wl_1_79",
+        "wl_1_68",
+        "wl_1_57",
+        "wl_1_46",
+        "wl_1_35",
+        "wl_1_69",
+        "wl_1_58",
+        "wl_1_47",
+        "wl_1_36",
+        "wl_1_59",
+        "wl_1_48",
+        "wl_1_37",
+        "wl_1_49",
+        "wl_1_38",
+        "wl_1_39",
+        "wl_1_20",
+        "wl_1_21",
+        "wl_1_10",
+        "wl_1_22",
+        "wl_1_11",
+        "wl_1_23",
+        "wl_1_12",
+        "wl_1_1",
+        "wl_1_24",
+        "wl_1_13",
+        "wl_1_2",
+        "wl_1_25",
+        "wl_1_14",
+        "wl_1_3",
+        "bl_1_0",
+        "br_1_0",
+        "bl_0_0",
+        "br_0_0"
+      ], [
+        "wl_0_0",
+        "wl_1_0",
+        "gnd",
+        "vdd",
+        "wl_0_26",
+        "wl_0_15",
+        "wl_0_4",
+        "wl_0_27",
+        "wl_0_16",
+        "wl_0_5",
+        "wl_0_28",
+        "wl_0_17",
+        "wl_0_6",
+        "wl_0_29",
+        "wl_0_18",
+        "wl_0_7",
+        "wl_0_120",
+        "wl_0_19",
+        "wl_0_8",
+        "wl_0_121",
+        "wl_0_9",
+        "wl_0_122",
+        "wl_0_123",
+        "wl_0_124",
+        "wl_0_110",
+        "wl_0_125",
+        "wl_0_100",
+        "wl_0_111",
+        "wl_0_126",
+        "wl_0_90",
+        "wl_0_101",
+        "wl_0_112",
+        "wl_0_127",
+        "wl_0_91",
+        "wl_0_80",
+        "wl_0_102",
+        "wl_0_113",
+        "wl_0_128",
+        "wl_0_92",
+        "wl_0_81",
+        "wl_0_70",
+        "wl_0_103",
+        "wl_0_114",
+        "wl_0_129",
+        "wl_0_93",
+        "wl_0_82",
+        "wl_0_71",
+        "wl_0_60",
+        "wl_0_104",
+        "wl_0_115",
+        "wl_0_94",
+        "wl_0_83",
+        "wl_0_72",
+        "wl_0_61",
+        "wl_0_50",
+        "wl_0_105",
+        "wl_0_116",
+        "wl_0_95",
+        "wl_0_84",
+        "wl_0_73",
+        "wl_0_62",
+        "wl_0_51",
+        "wl_0_40",
+        "wl_0_106",
+        "wl_0_117",
+        "wl_0_85",
+        "wl_0_74",
+        "wl_0_63",
+        "wl_0_52",
+        "wl_0_41",
+        "wl_0_30",
+        "wl_0_96",
+        "wl_0_107",
+        "wl_0_118",
+        "wl_0_86",
+        "wl_0_75",
+        "wl_0_64",
+        "wl_0_53",
+        "wl_0_42",
+        "wl_0_31",
+        "wl_0_97",
+        "wl_0_108",
+        "wl_0_119",
+        "wl_0_87",
+        "wl_0_76",
+        "wl_0_65",
+        "wl_0_54",
+        "wl_0_43",
+        "wl_0_32",
+        "wl_0_98",
+        "wl_0_109",
+        "wl_0_88",
+        "wl_0_77",
+        "wl_0_66",
+        "wl_0_55",
+        "wl_0_44",
+        "wl_0_33",
+        "wl_0_99",
+        "wl_0_89",
+        "wl_0_78",
+        "wl_0_67",
+        "wl_0_56",
+        "wl_0_45",
+        "wl_0_34",
+        "wl_0_79",
+        "wl_0_68",
+        "wl_0_57",
+        "wl_0_46",
+        "wl_0_35",
+        "wl_0_69",
+        "wl_0_58",
+        "wl_0_47",
+        "wl_0_36",
+        "wl_0_59",
+        "wl_0_48",
+        "wl_0_37",
+        "wl_0_49",
+        "wl_0_38",
+        "wl_0_39",
+        "wl_0_20",
+        "wl_0_21",
+        "wl_0_10",
+        "wl_0_22",
+        "wl_0_11",
+        "wl_0_23",
+        "wl_0_12",
+        "wl_0_1",
+        "wl_0_24",
+        "wl_0_13",
+        "wl_0_2",
+        "wl_0_25",
+        "wl_0_14",
+        "wl_0_3",
+        "wl_1_26",
+        "wl_1_15",
+        "wl_1_4",
+        "wl_1_27",
+        "wl_1_16",
+        "wl_1_5",
+        "wl_1_28",
+        "wl_1_17",
+        "wl_1_6",
+        "wl_1_29",
+        "wl_1_18",
+        "wl_1_7",
+        "wl_1_120",
+        "wl_1_19",
+        "wl_1_8",
+        "wl_1_121",
+        "wl_1_9",
+        "wl_1_122",
+        "wl_1_123",
+        "wl_1_124",
+        "wl_1_110",
+        "wl_1_125",
+        "wl_1_100",
+        "wl_1_111",
+        "wl_1_126",
+        "wl_1_90",
+        "wl_1_101",
+        "wl_1_112",
+        "wl_1_127",
+        "wl_1_91",
+        "wl_1_80",
+        "wl_1_102",
+        "wl_1_113",
+        "wl_1_128",
+        "wl_1_92",
+        "wl_1_81",
+        "wl_1_70",
+        "wl_1_103",
+        "wl_1_114",
+        "wl_1_129",
+        "wl_1_93",
+        "wl_1_82",
+        "wl_1_71",
+        "wl_1_60",
+        "wl_1_104",
+        "wl_1_115",
+        "wl_1_94",
+        "wl_1_83",
+        "wl_1_72",
+        "wl_1_61",
+        "wl_1_50",
+        "wl_1_105",
+        "wl_1_116",
+        "wl_1_95",
+        "wl_1_84",
+        "wl_1_73",
+        "wl_1_62",
+        "wl_1_51",
+        "wl_1_40",
+        "wl_1_106",
+        "wl_1_117",
+        "wl_1_85",
+        "wl_1_74",
+        "wl_1_63",
+        "wl_1_52",
+        "wl_1_41",
+        "wl_1_30",
+        "wl_1_96",
+        "wl_1_107",
+        "wl_1_118",
+        "wl_1_86",
+        "wl_1_75",
+        "wl_1_64",
+        "wl_1_53",
+        "wl_1_42",
+        "wl_1_31",
+        "wl_1_97",
+        "wl_1_108",
+        "wl_1_119",
+        "wl_1_87",
+        "wl_1_76",
+        "wl_1_65",
+        "wl_1_54",
+        "wl_1_43",
+        "wl_1_32",
+        "wl_1_98",
+        "wl_1_109",
+        "wl_1_88",
+        "wl_1_77",
+        "wl_1_66",
+        "wl_1_55",
+        "wl_1_44",
+        "wl_1_33",
+        "wl_1_99",
+        "wl_1_89",
+        "wl_1_78",
+        "wl_1_67",
+        "wl_1_56",
+        "wl_1_45",
+        "wl_1_34",
+        "wl_1_79",
+        "wl_1_68",
+        "wl_1_57",
+        "wl_1_46",
+        "wl_1_35",
+        "wl_1_69",
+        "wl_1_58",
+        "wl_1_47",
+        "wl_1_36",
+        "wl_1_59",
+        "wl_1_48",
+        "wl_1_37",
+        "wl_1_49",
+        "wl_1_38",
+        "wl_1_39",
+        "wl_1_20",
+        "wl_1_21",
+        "wl_1_10",
+        "wl_1_22",
+        "wl_1_11",
+        "wl_1_23",
+        "wl_1_12",
+        "wl_1_1",
+        "wl_1_24",
+        "wl_1_13",
+        "wl_1_2",
+        "wl_1_25",
+        "wl_1_14",
+        "wl_1_3",
+        "bl_1_0",
+        "br_1_0",
+        "bl_0_0",
+        "br_0_0"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_dummy_array",
+      "routeb_new_1w1r_8x128_dummy_array"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__special_nfet_latch", 96 ]
+       ], [
+         ["sky130_fd_pr__special_nfet_latch", 80 ]
+       ]
+   ],
+   "nets": [
+    83,
+    67
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_0/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_0/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_1/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_1/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_2/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_2/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_3/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_3/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_4/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_4/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_6/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_6/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_5/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_5/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_7/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_7/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "gnd",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 64 ],
+              [ "sky130_fd_pr__special_nfet_latch", "2", 64 ],
+              [ "sky130_fd_pr__special_nfet_latch", "4", 96 ]
+            ]
+          ]
+        ], [
+          [
+            "gnd",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "2", 48 ],
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 48 ],
+              [ "sky130_fd_pr__special_nfet_latch", "4", 80 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+      [
+        [
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_0/sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_0/sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_1/sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_1/sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_2/sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_2/sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_3/sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_3/sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_4/sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_4/sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_6/sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_6/sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_5/sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_5/sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_7/sky130_fd_pr__special_nfet_latch:2",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_dummy_7/sky130_fd_pr__special_nfet_latch:5",
+            [
+              [ "1", 224 ],
+              [ "2", 224 ],
+              [ "4", 224 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_replica_column",
+      "routeb_new_1w1r_8x128_replica_column"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__special_nfet_latch", 784],
+         ["sky130_fd_pr__special_pfet_pass", 516 ]
+       ], [
+         ["sky130_fd_pr__special_nfet_latch", 784 ],
+         ["sky130_fd_pr__special_pfet_pass", 516 ]
+       ]
+   ],
+   "nets": [
+    399,
+    399
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "wl_0_129",
+        "wl_1_129",
+        "gnd",
+        "vdd",
+        "wl_0_25",
+        "wl_0_14",
+        "wl_0_3",
+        "wl_0_26",
+        "wl_0_15",
+        "wl_0_4",
+        "wl_0_27",
+        "wl_0_16",
+        "wl_0_5",
+        "wl_0_28",
+        "wl_0_17",
+        "wl_0_6",
+        "wl_0_119",
+        "wl_0_18",
+        "wl_0_7",
+        "wl_0_120",
+        "wl_0_8",
+        "wl_0_121",
+        "wl_0_122",
+        "wl_0_123",
+        "wl_0_109",
+        "wl_0_124",
+        "wl_0_99",
+        "wl_0_110",
+        "wl_0_125",
+        "wl_0_89",
+        "wl_0_100",
+        "wl_0_111",
+        "wl_0_126",
+        "wl_0_90",
+        "wl_0_79",
+        "wl_0_101",
+        "wl_0_112",
+        "wl_0_127",
+        "wl_0_91",
+        "wl_0_80",
+        "wl_0_69",
+        "wl_0_102",
+        "wl_0_113",
+        "wl_0_128",
+        "wl_0_92",
+        "wl_0_81",
+        "wl_0_70",
+        "wl_0_59",
+        "wl_0_103",
+        "wl_0_114",
+        "wl_0_93",
+        "wl_0_82",
+        "wl_0_71",
+        "wl_0_60",
+        "wl_0_49",
+        "wl_0_104",
+        "wl_0_115",
+        "wl_0_94",
+        "wl_0_83",
+        "wl_0_72",
+        "wl_0_61",
+        "wl_0_50",
+        "wl_0_39",
+        "wl_0_105",
+        "wl_0_116",
+        "wl_0_95",
+        "wl_0_84",
+        "wl_0_73",
+        "wl_0_62",
+        "wl_0_51",
+        "wl_0_40",
+        "wl_0_29",
+        "wl_0_106",
+        "wl_0_117",
+        "wl_0_85",
+        "wl_0_74",
+        "wl_0_63",
+        "wl_0_52",
+        "wl_0_41",
+        "wl_0_30",
+        "wl_0_96",
+        "wl_0_107",
+        "wl_0_118",
+        "wl_0_86",
+        "wl_0_75",
+        "wl_0_64",
+        "wl_0_53",
+        "wl_0_42",
+        "wl_0_31",
+        "wl_0_97",
+        "wl_0_108",
+        "wl_0_87",
+        "wl_0_76",
+        "wl_0_65",
+        "wl_0_54",
+        "wl_0_43",
+        "wl_0_32",
+        "wl_0_98",
+        "wl_0_88",
+        "wl_0_77",
+        "wl_0_66",
+        "wl_0_55",
+        "wl_0_44",
+        "wl_0_33",
+        "wl_0_78",
+        "wl_0_67",
+        "wl_0_56",
+        "wl_0_45",
+        "wl_0_34",
+        "wl_0_68",
+        "wl_0_57",
+        "wl_0_46",
+        "wl_0_35",
+        "wl_0_58",
+        "wl_0_47",
+        "wl_0_36",
+        "wl_0_48",
+        "wl_0_37",
+        "wl_0_38",
+        "wl_0_19",
+        "wl_0_20",
+        "wl_0_9",
+        "wl_0_21",
+        "wl_0_10",
+        "wl_0_22",
+        "wl_0_11",
+        "wl_0_0",
+        "wl_0_23",
+        "wl_0_12",
+        "wl_0_1",
+        "wl_0_24",
+        "wl_0_13",
+        "wl_0_2",
+        "wl_1_25",
+        "wl_1_14",
+        "wl_1_3",
+        "wl_1_26",
+        "wl_1_15",
+        "wl_1_4",
+        "wl_1_27",
+        "wl_1_16",
+        "wl_1_5",
+        "wl_1_28",
+        "wl_1_17",
+        "wl_1_6",
+        "wl_1_119",
+        "wl_1_18",
+        "wl_1_7",
+        "wl_1_120",
+        "wl_1_8",
+        "wl_1_121",
+        "wl_1_122",
+        "wl_1_123",
+        "wl_1_109",
+        "wl_1_124",
+        "wl_1_99",
+        "wl_1_110",
+        "wl_1_125",
+        "wl_1_89",
+        "wl_1_100",
+        "wl_1_111",
+        "wl_1_126",
+        "wl_1_90",
+        "wl_1_79",
+        "wl_1_101",
+        "wl_1_112",
+        "wl_1_127",
+        "wl_1_91",
+        "wl_1_80",
+        "wl_1_69",
+        "wl_1_102",
+        "wl_1_113",
+        "wl_1_128",
+        "wl_1_92",
+        "wl_1_81",
+        "wl_1_70",
+        "wl_1_59",
+        "wl_1_103",
+        "wl_1_114",
+        "wl_1_93",
+        "wl_1_82",
+        "wl_1_71",
+        "wl_1_60",
+        "wl_1_49",
+        "wl_1_104",
+        "wl_1_115",
+        "wl_1_94",
+        "wl_1_83",
+        "wl_1_72",
+        "wl_1_61",
+        "wl_1_50",
+        "wl_1_39",
+        "wl_1_105",
+        "wl_1_116",
+        "wl_1_95",
+        "wl_1_84",
+        "wl_1_73",
+        "wl_1_62",
+        "wl_1_51",
+        "wl_1_40",
+        "wl_1_29",
+        "wl_1_106",
+        "wl_1_117",
+        "wl_1_85",
+        "wl_1_74",
+        "wl_1_63",
+        "wl_1_52",
+        "wl_1_41",
+        "wl_1_30",
+        "wl_1_96",
+        "wl_1_107",
+        "wl_1_118",
+        "wl_1_86",
+        "wl_1_75",
+        "wl_1_64",
+        "wl_1_53",
+        "wl_1_42",
+        "wl_1_31",
+        "wl_1_97",
+        "wl_1_108",
+        "wl_1_87",
+        "wl_1_76",
+        "wl_1_65",
+        "wl_1_54",
+        "wl_1_43",
+        "wl_1_32",
+        "wl_1_98",
+        "wl_1_88",
+        "wl_1_77",
+        "wl_1_66",
+        "wl_1_55",
+        "wl_1_44",
+        "wl_1_33",
+        "wl_1_78",
+        "wl_1_67",
+        "wl_1_56",
+        "wl_1_45",
+        "wl_1_34",
+        "wl_1_68",
+        "wl_1_57",
+        "wl_1_46",
+        "wl_1_35",
+        "wl_1_58",
+        "wl_1_47",
+        "wl_1_36",
+        "wl_1_48",
+        "wl_1_37",
+        "wl_1_38",
+        "wl_1_19",
+        "wl_1_20",
+        "wl_1_9",
+        "wl_1_21",
+        "wl_1_10",
+        "wl_1_22",
+        "wl_1_11",
+        "wl_1_0",
+        "wl_1_23",
+        "wl_1_12",
+        "wl_1_1",
+        "wl_1_24",
+        "wl_1_13",
+        "wl_1_2",
+        "bl_1_0",
+        "br_1_0",
+        "bl_0_0",
+        "br_0_0"
+      ], [
+        "wl_0_129",
+        "wl_1_129",
+        "gnd",
+        "vdd",
+        "wl_0_25",
+        "wl_0_14",
+        "wl_0_3",
+        "wl_0_26",
+        "wl_0_15",
+        "wl_0_4",
+        "wl_0_27",
+        "wl_0_16",
+        "wl_0_5",
+        "wl_0_28",
+        "wl_0_17",
+        "wl_0_6",
+        "wl_0_119",
+        "wl_0_18",
+        "wl_0_7",
+        "wl_0_120",
+        "wl_0_8",
+        "wl_0_121",
+        "wl_0_122",
+        "wl_0_123",
+        "wl_0_109",
+        "wl_0_124",
+        "wl_0_99",
+        "wl_0_110",
+        "wl_0_125",
+        "wl_0_89",
+        "wl_0_100",
+        "wl_0_111",
+        "wl_0_126",
+        "wl_0_90",
+        "wl_0_79",
+        "wl_0_101",
+        "wl_0_112",
+        "wl_0_127",
+        "wl_0_91",
+        "wl_0_80",
+        "wl_0_69",
+        "wl_0_102",
+        "wl_0_113",
+        "wl_0_128",
+        "wl_0_92",
+        "wl_0_81",
+        "wl_0_70",
+        "wl_0_59",
+        "wl_0_103",
+        "wl_0_114",
+        "wl_0_93",
+        "wl_0_82",
+        "wl_0_71",
+        "wl_0_60",
+        "wl_0_49",
+        "wl_0_104",
+        "wl_0_115",
+        "wl_0_94",
+        "wl_0_83",
+        "wl_0_72",
+        "wl_0_61",
+        "wl_0_50",
+        "wl_0_39",
+        "wl_0_105",
+        "wl_0_116",
+        "wl_0_95",
+        "wl_0_84",
+        "wl_0_73",
+        "wl_0_62",
+        "wl_0_51",
+        "wl_0_40",
+        "wl_0_29",
+        "wl_0_106",
+        "wl_0_117",
+        "wl_0_85",
+        "wl_0_74",
+        "wl_0_63",
+        "wl_0_52",
+        "wl_0_41",
+        "wl_0_30",
+        "wl_0_96",
+        "wl_0_107",
+        "wl_0_118",
+        "wl_0_86",
+        "wl_0_75",
+        "wl_0_64",
+        "wl_0_53",
+        "wl_0_42",
+        "wl_0_31",
+        "wl_0_97",
+        "wl_0_108",
+        "wl_0_87",
+        "wl_0_76",
+        "wl_0_65",
+        "wl_0_54",
+        "wl_0_43",
+        "wl_0_32",
+        "wl_0_98",
+        "wl_0_88",
+        "wl_0_77",
+        "wl_0_66",
+        "wl_0_55",
+        "wl_0_44",
+        "wl_0_33",
+        "wl_0_78",
+        "wl_0_67",
+        "wl_0_56",
+        "wl_0_45",
+        "wl_0_34",
+        "wl_0_68",
+        "wl_0_57",
+        "wl_0_46",
+        "wl_0_35",
+        "wl_0_58",
+        "wl_0_47",
+        "wl_0_36",
+        "wl_0_48",
+        "wl_0_37",
+        "wl_0_38",
+        "wl_0_19",
+        "wl_0_20",
+        "wl_0_9",
+        "wl_0_21",
+        "wl_0_10",
+        "wl_0_22",
+        "wl_0_11",
+        "wl_0_0",
+        "wl_0_23",
+        "wl_0_12",
+        "wl_0_1",
+        "wl_0_24",
+        "wl_0_13",
+        "wl_0_2",
+        "wl_1_25",
+        "wl_1_14",
+        "wl_1_3",
+        "wl_1_26",
+        "wl_1_15",
+        "wl_1_4",
+        "wl_1_27",
+        "wl_1_16",
+        "wl_1_5",
+        "wl_1_28",
+        "wl_1_17",
+        "wl_1_6",
+        "wl_1_119",
+        "wl_1_18",
+        "wl_1_7",
+        "wl_1_120",
+        "wl_1_8",
+        "wl_1_121",
+        "wl_1_122",
+        "wl_1_123",
+        "wl_1_109",
+        "wl_1_124",
+        "wl_1_99",
+        "wl_1_110",
+        "wl_1_125",
+        "wl_1_89",
+        "wl_1_100",
+        "wl_1_111",
+        "wl_1_126",
+        "wl_1_90",
+        "wl_1_79",
+        "wl_1_101",
+        "wl_1_112",
+        "wl_1_127",
+        "wl_1_91",
+        "wl_1_80",
+        "wl_1_69",
+        "wl_1_102",
+        "wl_1_113",
+        "wl_1_128",
+        "wl_1_92",
+        "wl_1_81",
+        "wl_1_70",
+        "wl_1_59",
+        "wl_1_103",
+        "wl_1_114",
+        "wl_1_93",
+        "wl_1_82",
+        "wl_1_71",
+        "wl_1_60",
+        "wl_1_49",
+        "wl_1_104",
+        "wl_1_115",
+        "wl_1_94",
+        "wl_1_83",
+        "wl_1_72",
+        "wl_1_61",
+        "wl_1_50",
+        "wl_1_39",
+        "wl_1_105",
+        "wl_1_116",
+        "wl_1_95",
+        "wl_1_84",
+        "wl_1_73",
+        "wl_1_62",
+        "wl_1_51",
+        "wl_1_40",
+        "wl_1_29",
+        "wl_1_106",
+        "wl_1_117",
+        "wl_1_85",
+        "wl_1_74",
+        "wl_1_63",
+        "wl_1_52",
+        "wl_1_41",
+        "wl_1_30",
+        "wl_1_96",
+        "wl_1_107",
+        "wl_1_118",
+        "wl_1_86",
+        "wl_1_75",
+        "wl_1_64",
+        "wl_1_53",
+        "wl_1_42",
+        "wl_1_31",
+        "wl_1_97",
+        "wl_1_108",
+        "wl_1_87",
+        "wl_1_76",
+        "wl_1_65",
+        "wl_1_54",
+        "wl_1_43",
+        "wl_1_32",
+        "wl_1_98",
+        "wl_1_88",
+        "wl_1_77",
+        "wl_1_66",
+        "wl_1_55",
+        "wl_1_44",
+        "wl_1_33",
+        "wl_1_78",
+        "wl_1_67",
+        "wl_1_56",
+        "wl_1_45",
+        "wl_1_34",
+        "wl_1_68",
+        "wl_1_57",
+        "wl_1_46",
+        "wl_1_35",
+        "wl_1_58",
+        "wl_1_47",
+        "wl_1_36",
+        "wl_1_48",
+        "wl_1_37",
+        "wl_1_38",
+        "wl_1_19",
+        "wl_1_20",
+        "wl_1_9",
+        "wl_1_21",
+        "wl_1_10",
+        "wl_1_22",
+        "wl_1_11",
+        "wl_1_0",
+        "wl_1_23",
+        "wl_1_12",
+        "wl_1_1",
+        "wl_1_24",
+        "wl_1_13",
+        "wl_1_2",
+        "bl_1_0",
+        "br_1_0",
+        "bl_0_0",
+        "br_0_0"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_bitcell_array",
+      "routeb_new_1w1r_8x128_bitcell_array"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__special_nfet_latch", 6192],
+         ["sky130_fd_pr__special_pfet_pass", 4096 ]
+       ], [
+         ["sky130_fd_pr__special_nfet_latch", 6160 ],
+         ["sky130_fd_pr__special_pfet_pass", 4096 ]
+       ]
+   ],
+   "nets": [
+    2377,
+    2338
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq190",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq99",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq446",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq382",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq318",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq510",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq254",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "gnd",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 2096 ],
+              [ "sky130_fd_pr__special_nfet_latch", "2", 48 ],
+              [ "sky130_fd_pr__special_nfet_latch", "4", 6192 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_639/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_639/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_255/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_255/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_256/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_256/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_0/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_0/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_767/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_767/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_383/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_383/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_768/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_768/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_384/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_384/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_511/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_511/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_512/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_512/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_895/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_895/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_896/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_896/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_127/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_127/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_128/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_128/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_640/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_640/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_1023/a_38_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_1023/a_400_n79#",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 2048 ],
+              [ "sky130_fd_pr__special_pfet_pass", "4", 4096 ]
+            ]
+          ],
+          [
+            "gnd",
+            [
+              [ "sky130_fd_pr__special_nfet_latch", "4", 6160 ],
+              [ "sky130_fd_pr__special_nfet_latch", "1|3", 2064 ],
+              [ "sky130_fd_pr__special_nfet_latch", "2", 16 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+      [
+        [
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_639/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_639/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_255/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_255/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_256/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_256/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_0/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_0/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_767/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_767/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_383/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_383/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_768/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_768/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_384/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_384/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_511/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_511/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_512/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_512/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_895/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_895/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_896/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_896/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_127/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_127/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_128/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_128/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_640/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_640/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_1023/sky130_fd_pr__special_nfet_latch:3",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ],
+          [
+            "sky130_fd_bd_sram__openram_dp_cell_1023/sky130_fd_pr__special_nfet_latch:7",
+            [
+              [ "1", 8336 ],
+              [ "2", 8336 ],
+              [ "4", 8336 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_hierarchical_decoder",
+      "routeb_new_1w1r_8x128_hierarchical_decoder"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 136],
+         ["routeb_new_1w1r_8x128_pinv_dec", 151],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 8 ]
+       ], [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 136 ],
+         ["routeb_new_1w1r_8x128_pinv_dec", 151 ],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 8 ]
+       ]
+   ],
+   "nets": [
+    314,
+    304
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq17",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq19",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq13",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 3 ]
+            ]
+          ],
+          [
+            "vdd_uq7",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq2",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq8",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq6",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq1",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq16",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq9",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 8 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 151 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 8 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "VDD", 136 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_wordline_driver_array",
+      "routeb_new_1w1r_8x128_wordline_driver_array"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 128],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 128 ]
+       ], [
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 128 ],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 128 ]
+       ]
+   ],
+   "nets": [
+    388,
+    387
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 128 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 128 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 128 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_and2_dec_0",
+      "routeb_new_1w1r_8x128_and2_dec_0"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 1],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 1 ]
+       ], [
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 1 ],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 1 ]
+       ]
+   ],
+   "nets": [
+    7,
+    6
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 1 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_precharge_array",
+      "routeb_new_1w1r_8x128_precharge_array"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_precharge_0", 9 ]
+       ], [
+         ["routeb_new_1w1r_8x128_precharge_0", 9 ]
+       ]
+   ],
+   "nets": [
+    20,
+    20
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "en_bar",
+        "vdd",
+        "bl_0",
+        "bl_1",
+        "bl_2",
+        "bl_3",
+        "bl_4",
+        "bl_6",
+        "bl_5",
+        "bl_7",
+        "bl_8",
+        "br_0",
+        "br_1",
+        "br_2",
+        "br_3",
+        "br_4",
+        "br_6",
+        "br_5",
+        "br_7",
+        "br_8"
+      ], [
+        "en_bar",
+        "vdd",
+        "bl_0",
+        "bl_1",
+        "bl_2",
+        "bl_3",
+        "bl_4",
+        "bl_6",
+        "bl_5",
+        "bl_7",
+        "bl_8",
+        "br_0",
+        "br_1",
+        "br_2",
+        "br_3",
+        "br_4",
+        "br_6",
+        "br_5",
+        "br_7",
+        "br_8"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_write_driver_array",
+      "routeb_new_1w1r_8x128_write_driver_array"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 72],
+         ["sky130_fd_pr__pfet_01v8", 56 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 72 ],
+         ["sky130_fd_pr__pfet_01v8", 56 ]
+       ]
+   ],
+   "nets": [
+    84,
+    83
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 32 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 32 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 24 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 24 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 56 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 56 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_sense_amp_array",
+      "routeb_new_1w1r_8x128_sense_amp_array"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8", 40],
+         ["sky130_fd_pr__nfet_01v8", 32 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8", 40 ],
+         ["sky130_fd_pr__nfet_01v8", 32 ]
+       ]
+   ],
+   "nets": [
+    52,
+    51
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "4", 40 ],
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 16 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 8 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 24 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 40 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_precharge_array_0",
+      "routeb_new_1w1r_8x128_precharge_array_0"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_precharge_1", 9 ]
+       ], [
+         ["routeb_new_1w1r_8x128_precharge_1", 9 ]
+       ]
+   ],
+   "nets": [
+    20,
+    20
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "en_bar",
+        "vdd",
+        "bl_1",
+        "bl_0",
+        "bl_2",
+        "bl_3",
+        "bl_4",
+        "bl_5",
+        "bl_6",
+        "bl_7",
+        "bl_8",
+        "br_1",
+        "br_0",
+        "br_2",
+        "br_3",
+        "br_4",
+        "br_5",
+        "br_6",
+        "br_7",
+        "br_8"
+      ], [
+        "en_bar",
+        "vdd",
+        "bl_1",
+        "bl_0",
+        "bl_2",
+        "bl_3",
+        "bl_4",
+        "bl_5",
+        "bl_6",
+        "bl_7",
+        "bl_8",
+        "br_1",
+        "br_0",
+        "br_2",
+        "br_3",
+        "br_4",
+        "br_5",
+        "br_6",
+        "br_7",
+        "br_8"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_replica_bitcell_array",
+      "routeb_new_1w1r_8x128_replica_bitcell_array"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_replica_column_0", 1],
+         ["sky130_fd_pr__special_nfet_latch", 6288],
+         ["routeb_new_1w1r_8x128_replica_column", 1],
+         ["sky130_fd_pr__special_pfet_pass", 4096 ]
+       ], [
+         ["routeb_new_1w1r_8x128_replica_column_0", 1 ],
+         ["sky130_fd_pr__special_nfet_latch", 6288 ],
+         ["routeb_new_1w1r_8x128_replica_column", 1 ],
+         ["sky130_fd_pr__special_pfet_pass", 4096 ]
+       ]
+   ],
+   "nets": [
+    2423,
+    2414
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq9",
+            [
+              [ "routeb_new_1w1r_8x128_replica_column_0", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq8",
+            [
+              [ "routeb_new_1w1r_8x128_replica_column", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq1",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq2",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq3",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq4",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq5",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq6",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ],
+          [
+            "vdd_uq7",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "4", 512 ],
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 256 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__special_pfet_pass", "1|3", 2048 ],
+              [ "sky130_fd_pr__special_pfet_pass", "4", 4096 ],
+              [ "routeb_new_1w1r_8x128_replica_column", "vdd", 1 ],
+              [ "routeb_new_1w1r_8x128_replica_column_0", "vdd", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_port_address_0",
+      "routeb_new_1w1r_8x128_port_address_0"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 136],
+         ["routeb_new_1w1r_8x128_pinv_dec", 151],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 137],
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 129 ]
+       ], [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 136 ],
+         ["routeb_new_1w1r_8x128_pinv_dec", 151 ],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 137 ],
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 129 ]
+       ]
+   ],
+   "nets": [
+    576,
+    563
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq18",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 3 ]
+            ]
+          ],
+          [
+            "vdd_uq6",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq11",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq7",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq9",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq8",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq13",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq19",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq21",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq3",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq1",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq24",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "B", 1 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 129 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 129 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 151 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 137 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "VDD", 136 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 129 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "B", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_port_data",
+      "routeb_new_1w1r_8x128_port_data"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_precharge_array", 1],
+         ["sky130_fd_pr__nfet_01v8", 72],
+         ["sky130_fd_pr__pfet_01v8", 56 ]
+       ], [
+         ["routeb_new_1w1r_8x128_precharge_array", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 72 ],
+         ["sky130_fd_pr__pfet_01v8", 56 ]
+       ]
+   ],
+   "nets": [
+    88,
+    86
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_precharge_array", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq1",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 24 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 24 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 32 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 32 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "routeb_new_1w1r_8x128_precharge_array", "vdd", 1 ],
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 56 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 56 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_port_data_0",
+      "routeb_new_1w1r_8x128_port_data_0"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8", 40],
+         ["sky130_fd_pr__nfet_01v8", 32],
+         ["routeb_new_1w1r_8x128_precharge_array_0", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8", 40 ],
+         ["sky130_fd_pr__nfet_01v8", 32 ],
+         ["routeb_new_1w1r_8x128_precharge_array_0", 1 ]
+       ]
+   ],
+   "nets": [
+    56,
+    54
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq1",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 8 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "4", 40 ],
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 16 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_precharge_array_0", "vdd", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "routeb_new_1w1r_8x128_precharge_array_0", "vdd", 1 ],
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 24 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 40 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_port_address",
+      "routeb_new_1w1r_8x128_port_address"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 136],
+         ["routeb_new_1w1r_8x128_pinv_dec", 151],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 137],
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 129 ]
+       ], [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 136 ],
+         ["routeb_new_1w1r_8x128_pinv_dec", 151 ],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 137 ],
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 129 ]
+       ]
+   ],
+   "nets": [
+    576,
+    563
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq18",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 3 ]
+            ]
+          ],
+          [
+            "vdd_uq6",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq11",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq7",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq9",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq8",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq13",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq19",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq21",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq3",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq1",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq24",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "B", 1 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 129 ]
+            ]
+          ],
+          [
+            "vdd_uq0",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 129 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 151 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 137 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "VDD", 136 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 129 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "B", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_capped_replica_bitcell_array",
+      "routeb_new_1w1r_8x128_capped_replica_bitcell_array"
+   ],
+   "devices": [
+       [
+         ["routeb_new_1w1r_8x128_replica_column_0", 1],
+         ["sky130_fd_pr__special_nfet_latch", 6288],
+         ["routeb_new_1w1r_8x128_replica_column", 1],
+         ["sky130_fd_pr__special_pfet_pass", 4096 ]
+       ], [
+         ["routeb_new_1w1r_8x128_replica_column_0", 1 ],
+         ["sky130_fd_pr__special_nfet_latch", 6288 ],
+         ["routeb_new_1w1r_8x128_replica_column", 1 ],
+         ["sky130_fd_pr__special_pfet_pass", 4096 ]
+       ]
+   ],
+   "nets": [
+    2412,
+    2412
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "rbl_bl_0_0",
+        "rbl_bl_1_0",
+        "rbl_br_0_0",
+        "rbl_br_1_0",
+        "rbl_bl_0_1",
+        "rbl_bl_1_1",
+        "rbl_br_0_1",
+        "rbl_br_1_1",
+        "bl_0_4",
+        "bl_0_1",
+        "bl_0_5",
+        "bl_0_0",
+        "bl_0_3",
+        "bl_0_2",
+        "bl_0_6",
+        "bl_0_7",
+        "br_0_1",
+        "br_0_3",
+        "br_0_6",
+        "br_0_7",
+        "br_0_4",
+        "br_0_0",
+        "br_0_5",
+        "br_0_2",
+        "vdd",
+        "rbl_wl_0_0",
+        "rbl_wl_1_1",
+        "gnd",
+        "wl_0_0",
+        "wl_1_0",
+        "wl_0_1",
+        "wl_1_1",
+        "wl_0_2",
+        "wl_1_2",
+        "wl_0_3",
+        "wl_1_3",
+        "wl_0_4",
+        "wl_1_4",
+        "wl_0_5",
+        "wl_1_5",
+        "wl_0_6",
+        "wl_1_6",
+        "wl_0_7",
+        "wl_1_7",
+        "wl_0_8",
+        "wl_1_8",
+        "wl_0_9",
+        "wl_1_9",
+        "wl_0_10",
+        "wl_1_10",
+        "wl_0_11",
+        "wl_1_11",
+        "wl_0_12",
+        "wl_1_12",
+        "wl_0_13",
+        "wl_1_13",
+        "wl_0_14",
+        "wl_1_14",
+        "wl_0_15",
+        "wl_1_15",
+        "wl_0_16",
+        "wl_1_16",
+        "wl_0_17",
+        "wl_1_17",
+        "wl_0_18",
+        "wl_1_18",
+        "wl_0_19",
+        "wl_1_19",
+        "wl_0_20",
+        "wl_1_20",
+        "wl_0_21",
+        "wl_1_21",
+        "wl_0_22",
+        "wl_1_22",
+        "wl_0_23",
+        "wl_1_23",
+        "wl_0_24",
+        "wl_1_24",
+        "wl_0_25",
+        "wl_1_25",
+        "wl_0_26",
+        "wl_1_26",
+        "wl_0_27",
+        "wl_1_27",
+        "wl_0_28",
+        "wl_1_28",
+        "wl_0_29",
+        "wl_1_29",
+        "wl_0_30",
+        "wl_1_30",
+        "wl_0_31",
+        "wl_1_31",
+        "wl_0_32",
+        "wl_1_32",
+        "wl_0_33",
+        "wl_1_33",
+        "wl_0_34",
+        "wl_1_34",
+        "wl_0_35",
+        "wl_1_35",
+        "wl_0_36",
+        "wl_1_36",
+        "wl_0_37",
+        "wl_1_37",
+        "wl_0_38",
+        "wl_1_38",
+        "wl_0_39",
+        "wl_1_39",
+        "wl_0_40",
+        "wl_1_40",
+        "wl_0_41",
+        "wl_1_41",
+        "wl_0_42",
+        "wl_1_42",
+        "wl_0_43",
+        "wl_1_43",
+        "wl_0_44",
+        "wl_1_44",
+        "wl_0_45",
+        "wl_1_45",
+        "wl_0_46",
+        "wl_1_46",
+        "wl_0_47",
+        "wl_1_47",
+        "wl_0_48",
+        "wl_1_48",
+        "wl_0_49",
+        "wl_1_49",
+        "wl_0_50",
+        "wl_1_50",
+        "wl_0_51",
+        "wl_1_51",
+        "wl_0_52",
+        "wl_1_52",
+        "wl_0_53",
+        "wl_1_53",
+        "wl_0_54",
+        "wl_1_54",
+        "wl_0_55",
+        "wl_1_55",
+        "wl_0_56",
+        "wl_1_56",
+        "wl_0_57",
+        "wl_1_57",
+        "wl_0_58",
+        "wl_1_58",
+        "wl_0_59",
+        "wl_1_59",
+        "wl_0_60",
+        "wl_1_60",
+        "wl_0_61",
+        "wl_1_61",
+        "wl_0_62",
+        "wl_1_62",
+        "wl_0_63",
+        "wl_1_63",
+        "wl_0_64",
+        "wl_1_64",
+        "wl_0_65",
+        "wl_1_65",
+        "wl_0_66",
+        "wl_1_66",
+        "wl_0_67",
+        "wl_1_67",
+        "wl_0_68",
+        "wl_1_68",
+        "wl_0_69",
+        "wl_1_69",
+        "wl_0_70",
+        "wl_1_70",
+        "wl_0_71",
+        "wl_1_71",
+        "wl_0_72",
+        "wl_1_72",
+        "wl_0_73",
+        "wl_1_73",
+        "wl_0_74",
+        "wl_1_74",
+        "wl_0_75",
+        "wl_1_75",
+        "wl_0_76",
+        "wl_1_76",
+        "wl_0_77",
+        "wl_1_77",
+        "wl_0_78",
+        "wl_1_78",
+        "wl_0_79",
+        "wl_1_79",
+        "wl_0_80",
+        "wl_1_80",
+        "wl_0_81",
+        "wl_1_81",
+        "wl_0_82",
+        "wl_1_82",
+        "wl_0_83",
+        "wl_1_83",
+        "wl_0_84",
+        "wl_1_84",
+        "wl_0_85",
+        "wl_1_85",
+        "wl_0_86",
+        "wl_1_86",
+        "wl_0_87",
+        "wl_1_87",
+        "wl_0_88",
+        "wl_1_88",
+        "wl_0_89",
+        "wl_1_89",
+        "wl_0_90",
+        "wl_1_90",
+        "wl_0_91",
+        "wl_1_91",
+        "wl_0_92",
+        "wl_1_92",
+        "wl_0_93",
+        "wl_1_93",
+        "wl_0_94",
+        "wl_1_94",
+        "wl_0_95",
+        "wl_1_95",
+        "wl_0_96",
+        "wl_1_96",
+        "wl_0_97",
+        "wl_1_97",
+        "wl_0_98",
+        "wl_1_98",
+        "wl_0_99",
+        "wl_1_99",
+        "wl_0_100",
+        "wl_1_100",
+        "wl_0_101",
+        "wl_1_101",
+        "wl_0_102",
+        "wl_1_102",
+        "wl_0_103",
+        "wl_1_103",
+        "wl_0_104",
+        "wl_1_104",
+        "wl_0_105",
+        "wl_1_105",
+        "wl_0_106",
+        "wl_1_106",
+        "wl_0_107",
+        "wl_1_107",
+        "wl_0_108",
+        "wl_1_108",
+        "wl_0_109",
+        "wl_1_109",
+        "wl_0_110",
+        "wl_1_110",
+        "wl_0_111",
+        "wl_1_111",
+        "wl_0_112",
+        "wl_1_112",
+        "wl_0_113",
+        "wl_1_113",
+        "wl_0_114",
+        "wl_1_114",
+        "wl_0_115",
+        "wl_1_115",
+        "wl_0_116",
+        "wl_1_116",
+        "wl_0_117",
+        "wl_1_117",
+        "wl_0_118",
+        "wl_1_118",
+        "wl_0_119",
+        "wl_1_119",
+        "wl_0_120",
+        "wl_1_120",
+        "wl_0_121",
+        "wl_1_121",
+        "wl_0_122",
+        "wl_1_122",
+        "wl_0_123",
+        "wl_1_123",
+        "wl_0_124",
+        "wl_1_124",
+        "wl_0_125",
+        "wl_1_125",
+        "wl_0_126",
+        "wl_1_126",
+        "wl_0_127",
+        "wl_1_127",
+        "bl_1_3",
+        "bl_1_2",
+        "bl_1_4",
+        "bl_1_0",
+        "bl_1_6",
+        "bl_1_1",
+        "bl_1_7",
+        "bl_1_5",
+        "br_1_6",
+        "br_1_0",
+        "br_1_4",
+        "br_1_3",
+        "br_1_2",
+        "br_1_7",
+        "br_1_1",
+        "br_1_5"
+      ], [
+        "rbl_bl_0_0",
+        "rbl_bl_1_0",
+        "rbl_br_0_0",
+        "rbl_br_1_0",
+        "rbl_bl_0_1",
+        "rbl_bl_1_1",
+        "rbl_br_0_1",
+        "rbl_br_1_1",
+        "bl_0_4",
+        "bl_0_1",
+        "bl_0_5",
+        "bl_0_0",
+        "bl_0_3",
+        "bl_0_2",
+        "bl_0_6",
+        "bl_0_7",
+        "br_0_1",
+        "br_0_3",
+        "br_0_6",
+        "br_0_7",
+        "br_0_4",
+        "br_0_0",
+        "br_0_5",
+        "br_0_2",
+        "vdd",
+        "rbl_wl_0_0",
+        "rbl_wl_1_1",
+        "gnd",
+        "wl_0_0",
+        "wl_1_0",
+        "wl_0_1",
+        "wl_1_1",
+        "wl_0_2",
+        "wl_1_2",
+        "wl_0_3",
+        "wl_1_3",
+        "wl_0_4",
+        "wl_1_4",
+        "wl_0_5",
+        "wl_1_5",
+        "wl_0_6",
+        "wl_1_6",
+        "wl_0_7",
+        "wl_1_7",
+        "wl_0_8",
+        "wl_1_8",
+        "wl_0_9",
+        "wl_1_9",
+        "wl_0_10",
+        "wl_1_10",
+        "wl_0_11",
+        "wl_1_11",
+        "wl_0_12",
+        "wl_1_12",
+        "wl_0_13",
+        "wl_1_13",
+        "wl_0_14",
+        "wl_1_14",
+        "wl_0_15",
+        "wl_1_15",
+        "wl_0_16",
+        "wl_1_16",
+        "wl_0_17",
+        "wl_1_17",
+        "wl_0_18",
+        "wl_1_18",
+        "wl_0_19",
+        "wl_1_19",
+        "wl_0_20",
+        "wl_1_20",
+        "wl_0_21",
+        "wl_1_21",
+        "wl_0_22",
+        "wl_1_22",
+        "wl_0_23",
+        "wl_1_23",
+        "wl_0_24",
+        "wl_1_24",
+        "wl_0_25",
+        "wl_1_25",
+        "wl_0_26",
+        "wl_1_26",
+        "wl_0_27",
+        "wl_1_27",
+        "wl_0_28",
+        "wl_1_28",
+        "wl_0_29",
+        "wl_1_29",
+        "wl_0_30",
+        "wl_1_30",
+        "wl_0_31",
+        "wl_1_31",
+        "wl_0_32",
+        "wl_1_32",
+        "wl_0_33",
+        "wl_1_33",
+        "wl_0_34",
+        "wl_1_34",
+        "wl_0_35",
+        "wl_1_35",
+        "wl_0_36",
+        "wl_1_36",
+        "wl_0_37",
+        "wl_1_37",
+        "wl_0_38",
+        "wl_1_38",
+        "wl_0_39",
+        "wl_1_39",
+        "wl_0_40",
+        "wl_1_40",
+        "wl_0_41",
+        "wl_1_41",
+        "wl_0_42",
+        "wl_1_42",
+        "wl_0_43",
+        "wl_1_43",
+        "wl_0_44",
+        "wl_1_44",
+        "wl_0_45",
+        "wl_1_45",
+        "wl_0_46",
+        "wl_1_46",
+        "wl_0_47",
+        "wl_1_47",
+        "wl_0_48",
+        "wl_1_48",
+        "wl_0_49",
+        "wl_1_49",
+        "wl_0_50",
+        "wl_1_50",
+        "wl_0_51",
+        "wl_1_51",
+        "wl_0_52",
+        "wl_1_52",
+        "wl_0_53",
+        "wl_1_53",
+        "wl_0_54",
+        "wl_1_54",
+        "wl_0_55",
+        "wl_1_55",
+        "wl_0_56",
+        "wl_1_56",
+        "wl_0_57",
+        "wl_1_57",
+        "wl_0_58",
+        "wl_1_58",
+        "wl_0_59",
+        "wl_1_59",
+        "wl_0_60",
+        "wl_1_60",
+        "wl_0_61",
+        "wl_1_61",
+        "wl_0_62",
+        "wl_1_62",
+        "wl_0_63",
+        "wl_1_63",
+        "wl_0_64",
+        "wl_1_64",
+        "wl_0_65",
+        "wl_1_65",
+        "wl_0_66",
+        "wl_1_66",
+        "wl_0_67",
+        "wl_1_67",
+        "wl_0_68",
+        "wl_1_68",
+        "wl_0_69",
+        "wl_1_69",
+        "wl_0_70",
+        "wl_1_70",
+        "wl_0_71",
+        "wl_1_71",
+        "wl_0_72",
+        "wl_1_72",
+        "wl_0_73",
+        "wl_1_73",
+        "wl_0_74",
+        "wl_1_74",
+        "wl_0_75",
+        "wl_1_75",
+        "wl_0_76",
+        "wl_1_76",
+        "wl_0_77",
+        "wl_1_77",
+        "wl_0_78",
+        "wl_1_78",
+        "wl_0_79",
+        "wl_1_79",
+        "wl_0_80",
+        "wl_1_80",
+        "wl_0_81",
+        "wl_1_81",
+        "wl_0_82",
+        "wl_1_82",
+        "wl_0_83",
+        "wl_1_83",
+        "wl_0_84",
+        "wl_1_84",
+        "wl_0_85",
+        "wl_1_85",
+        "wl_0_86",
+        "wl_1_86",
+        "wl_0_87",
+        "wl_1_87",
+        "wl_0_88",
+        "wl_1_88",
+        "wl_0_89",
+        "wl_1_89",
+        "wl_0_90",
+        "wl_1_90",
+        "wl_0_91",
+        "wl_1_91",
+        "wl_0_92",
+        "wl_1_92",
+        "wl_0_93",
+        "wl_1_93",
+        "wl_0_94",
+        "wl_1_94",
+        "wl_0_95",
+        "wl_1_95",
+        "wl_0_96",
+        "wl_1_96",
+        "wl_0_97",
+        "wl_1_97",
+        "wl_0_98",
+        "wl_1_98",
+        "wl_0_99",
+        "wl_1_99",
+        "wl_0_100",
+        "wl_1_100",
+        "wl_0_101",
+        "wl_1_101",
+        "wl_0_102",
+        "wl_1_102",
+        "wl_0_103",
+        "wl_1_103",
+        "wl_0_104",
+        "wl_1_104",
+        "wl_0_105",
+        "wl_1_105",
+        "wl_0_106",
+        "wl_1_106",
+        "wl_0_107",
+        "wl_1_107",
+        "wl_0_108",
+        "wl_1_108",
+        "wl_0_109",
+        "wl_1_109",
+        "wl_0_110",
+        "wl_1_110",
+        "wl_0_111",
+        "wl_1_111",
+        "wl_0_112",
+        "wl_1_112",
+        "wl_0_113",
+        "wl_1_113",
+        "wl_0_114",
+        "wl_1_114",
+        "wl_0_115",
+        "wl_1_115",
+        "wl_0_116",
+        "wl_1_116",
+        "wl_0_117",
+        "wl_1_117",
+        "wl_0_118",
+        "wl_1_118",
+        "wl_0_119",
+        "wl_1_119",
+        "wl_0_120",
+        "wl_1_120",
+        "wl_0_121",
+        "wl_1_121",
+        "wl_0_122",
+        "wl_1_122",
+        "wl_0_123",
+        "wl_1_123",
+        "wl_0_124",
+        "wl_1_124",
+        "wl_0_125",
+        "wl_1_125",
+        "wl_0_126",
+        "wl_1_126",
+        "wl_0_127",
+        "wl_1_127",
+        "bl_1_3",
+        "bl_1_2",
+        "bl_1_4",
+        "bl_1_0",
+        "bl_1_6",
+        "bl_1_1",
+        "bl_1_7",
+        "bl_1_5",
+        "br_1_6",
+        "br_1_0",
+        "br_1_4",
+        "br_1_3",
+        "br_1_2",
+        "br_1_7",
+        "br_1_1",
+        "br_1_5"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "routeb_new_1w1r_8x128_bank",
+      "routeb_new_1w1r_8x128_bank"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 272],
+         ["routeb_new_1w1r_8x128_pinv_dec", 302],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 274],
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 258],
+         ["routeb_new_1w1r_8x128_precharge_array", 1],
+         ["sky130_fd_pr__nfet_01v8", 104],
+         ["sky130_fd_pr__pfet_01v8", 96],
+         ["routeb_new_1w1r_8x128_precharge_array_0", 1],
+         ["routeb_new_1w1r_8x128_capped_replica_bitcell_array", 1 ]
+       ], [
+         ["sky130_fd_bd_sram__openram_dp_nand3_dec", 272 ],
+         ["routeb_new_1w1r_8x128_pinv_dec", 302 ],
+         ["sky130_fd_bd_sram__openram_dp_nand2_dec", 274 ],
+         ["routeb_new_1w1r_8x128_pinv_dec_0", 258 ],
+         ["routeb_new_1w1r_8x128_precharge_array", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 104 ],
+         ["sky130_fd_pr__pfet_01v8", 96 ],
+         ["routeb_new_1w1r_8x128_precharge_array_0", 1 ],
+         ["routeb_new_1w1r_8x128_capped_replica_bitcell_array", 1 ]
+       ]
+   ],
+   "nets": [
+    1298,
+    1264
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "vdd_uq43",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 3 ]
+            ]
+          ],
+          [
+            "vdd_uq44",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 3 ]
+            ]
+          ],
+          [
+            "vdd_uq2",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 129 ]
+            ]
+          ],
+          [
+            "vdd_uq7",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 129 ]
+            ]
+          ],
+          [
+            "vdd_uq3",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 129 ]
+            ]
+          ],
+          [
+            "vdd_uq6",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 129 ]
+            ]
+          ],
+          [
+            "vdd_uq15",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq20",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq25",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq30",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 2 ]
+            ]
+          ],
+          [
+            "vdd_uq22",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq23",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq32",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq33",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq21",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq24",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq31",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq34",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "vdd", 4 ]
+            ]
+          ],
+          [
+            "vdd_uq47",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq48",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq46",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq50",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq54",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 8 ]
+            ]
+          ],
+          [
+            "vdd_uq51",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "B", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq14",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "B", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq13",
+            [
+              [ "routeb_new_1w1r_8x128_precharge_array", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq52",
+            [
+              [ "routeb_new_1w1r_8x128_precharge_array_0", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd_uq5",
+            [
+              [ "routeb_new_1w1r_8x128_capped_replica_bitcell_array", "vdd", 1 ]
+            ]
+          ],
+          [
+            "vdd",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq9",
+            [
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq1",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq8",
+            [
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 128 ]
+            ]
+          ],
+          [
+            "vdd_uq11",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 24 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 24 ]
+            ]
+          ],
+          [
+            "vdd_uq12",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 32 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 32 ]
+            ]
+          ],
+          [
+            "vdd_uq53",
+            [
+              [ "sky130_fd_pr__pfet_01v8", "4", 40 ],
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 16 ]
+            ]
+          ]
+        ], [
+          [
+            "vdd",
+            [
+              [ "routeb_new_1w1r_8x128_capped_replica_bitcell_array", "vdd", 1 ],
+              [ "routeb_new_1w1r_8x128_precharge_array", "vdd", 1 ],
+              [ "sky130_fd_pr__pfet_01v8", "1|3", 80 ],
+              [ "sky130_fd_pr__pfet_01v8", "4", 96 ],
+              [ "routeb_new_1w1r_8x128_precharge_array_0", "vdd", 1 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec", "vdd", 302 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "VDD", 274 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand3_dec", "VDD", 272 ],
+              [ "routeb_new_1w1r_8x128_pinv_dec_0", "vdd", 258 ],
+              [ "sky130_fd_bd_sram__openram_dp_nand2_dec", "B", 2 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "vdd_uq43"
+      ], [
+        "(no matching pin)"
+      ]
+   ]
+  }
+]

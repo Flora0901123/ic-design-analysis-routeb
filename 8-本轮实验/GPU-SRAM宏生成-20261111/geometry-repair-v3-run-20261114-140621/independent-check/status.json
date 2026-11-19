@@ -1,0 +1,44 @@
+{
+  "status": "GENERATED_MACRO_MODELS_AND_VIEW_NAMES_PASS",
+  "physical_signoff": false,
+  "generation_status_sha256": "4aae6a1168d2ab4d41be9e5e5551ab173d59d5c87adb92baed747fc0810f748b",
+  "wrapper_sha256": "556f077d43bc7a68811e928cc334f4a8cdd67685f9a93716bab56b5ff61cbc5d",
+  "records": [
+    {
+      "shape": "20x64",
+      "transactions": 667,
+      "macro": "routeb_new_1w1r_20x64",
+      "log": "20x64-run.log",
+      "transcript_sha256": "2a8127b94f9a3b66321fcf6d193e08a77d9444de0646e22728a00ffba36e3312",
+      "model_sha256": "36de38f9ad43c2f279f79922fed5dc54229c315626cff87a93a5aec03ec9d2bf",
+      "bench_sha256": "557451230331810201c617fb1eb9375dffb00cfb0230ef3a02bdf593b574546b",
+      "vectors_sha256": "a63cc002f9149c3fdd043511e3492efdc73dbe9483746fb59962e5f1cb061cf3"
+    },
+    {
+      "shape": "8x128",
+      "transactions": 1035,
+      "macro": "routeb_new_1w1r_8x128",
+      "log": "8x128-run.log",
+      "transcript_sha256": "08cd45a912d3e5fecd44d9113d32e2ea8f10e7b7b47acdea55d07f8aceacb934",
+      "model_sha256": "f651f1bbad6bd6faac442b1924b2818d31139ccf080ec51d609fb78d40390641",
+      "bench_sha256": "42a704c394271e3704cbbab06d595b8ac42358d6d6ceeebe185769067ed9b7a7",
+      "vectors_sha256": "d6cb62b9a499433045453951c13cfa6157706dfe1f8266bf310a774679479a20"
+    }
+  ],
+  "total_transactions": 1702,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794644813.328079,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 10632500186\nuser_usec 10337051340\nsystem_usec 295448845\nnice_usec 0\nnr_periods 97701\nnr_throttled 542\nthrottled_usec 895702\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "1068347392",
+      "memory.peak": "1605996544",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "399\n26553\n26554\n26569\n26571\n26573\n26574\n26582\n26583\n26638\n26637\n26640\n26639\n26659\n26664\n26665"
+    }
+  }
+}

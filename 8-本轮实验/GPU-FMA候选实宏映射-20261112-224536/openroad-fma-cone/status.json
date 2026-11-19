@@ -1,0 +1,21 @@
+{
+  "status": "FMA_ALIGNMENT_TO_ACCUMULATION_CONE_MEASURED",
+  "clock_ns": 10,
+  "physical_signoff": false,
+  "results": {
+    "reference": {
+      "setup_slack_ns": -11.95,
+      "launch_pins": 436,
+      "capture_pins": 368,
+      "log_sha256": "12fef9d3981793ff9f1ca9f9c675b636280ec17d3def8d35a4ddd199a47fea92",
+      "netlist_sha256": "20b7317c54e7290627378943cc32c57c5bdea0d822065acdaf9ee3bde4512928"
+    },
+    "candidate": {
+      "setup_slack_ns": 1.58,
+      "launch_pins": 436,
+      "capture_pins": 368,
+      "log_sha256": "3d4901b38b32c253111a9925089e7b2c8e60f8e2d9031b926528109e0ad80e09",
+      "netlist_sha256": "c1bc75648643478770ce38d980dfbdb76db473abecf600dcc4f3f1fbc2cc60a5"
+    }
+  }
+}

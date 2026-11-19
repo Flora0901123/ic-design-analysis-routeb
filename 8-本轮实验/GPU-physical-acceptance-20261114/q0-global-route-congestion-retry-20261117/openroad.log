@@ -1,0 +1,88 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met4
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 0.6150
+[INFO GRT-0003] Macros: 20
+[INFO GRT-0004] Blockages: 733009
+[INFO GRT-0019] Found 6065 clock nets.
+[WARNING GRT-0281] Net part_zero_ has a large fanout of 3723 terminals.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 3723
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal    3694061       3694061          0.00%
+met2       Vertical      3268277       3268277          0.00%
+met3       Horizontal    2388132       2117682          11.32%
+met4       Vertical      1600874       1602790          -0.12%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0102] Start extra iteration 1/36
+[INFO GRT-0102] Start extra iteration 2/36
+[INFO GRT-0102] Start extra iteration 3/36
+[INFO GRT-0102] Start extra iteration 4/36
+[INFO GRT-0102] Start extra iteration 5/36
+[INFO GRT-0102] Start extra iteration 6/36
+[INFO GRT-0102] Start extra iteration 7/36
+[INFO GRT-0102] Start extra iteration 8/36
+[INFO GRT-0102] Start extra iteration 9/36
+[INFO GRT-0102] Start extra iteration 10/36
+[INFO GRT-0102] Start extra iteration 11/36
+[INFO GRT-0102] Start extra iteration 12/36
+[INFO GRT-0102] Start extra iteration 13/36
+[INFO GRT-0102] Start extra iteration 14/36
+[INFO GRT-0102] Start extra iteration 15/36
+[INFO GRT-0102] Start extra iteration 16/36
+[INFO GRT-0102] Start extra iteration 17/36
+[INFO GRT-0102] Start extra iteration 18/36
+[INFO GRT-0102] Start extra iteration 19/36
+[INFO GRT-0102] Start extra iteration 20/36
+[INFO GRT-0102] Start extra iteration 21/36
+[INFO GRT-0102] Start extra iteration 22/36
+[INFO GRT-0102] Start extra iteration 23/36
+[INFO GRT-0102] Start extra iteration 24/36
+[INFO GRT-0102] Start extra iteration 25/36
+[INFO GRT-0102] Start extra iteration 26/36
+[INFO GRT-0102] Start extra iteration 27/36
+[INFO GRT-0102] Start extra iteration 28/36
+[INFO GRT-0102] Start extra iteration 29/36
+[INFO GRT-0102] Start extra iteration 30/36
+[INFO GRT-0102] Start extra iteration 31/36
+[INFO GRT-0102] Start extra iteration 32/36
+[INFO GRT-0197] Via related to pin nodes: 1137747
+[INFO GRT-0198] Via related Steiner nodes: 39086
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 1504183
+[INFO GRT-0112] Final usage 3D: 7370342
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1           3694061       1271450           34.42%             0 /  0 /  0
+met2           3268277       1122377           34.34%             0 /  0 /  0
+met3           2117682        364539           17.21%             0 /  0 /  0
+met4           1602790         99427            6.20%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total         10682810       2857793           26.75%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 23735234 um
+[INFO GRT-0014] Routed nets: 195322
+[INFO GRT-0303] Global routing runtime = 00:07:06
+worst slack max -40.78
+worst slack min -3.26
+ROUTEB_GRT_COMPLETE

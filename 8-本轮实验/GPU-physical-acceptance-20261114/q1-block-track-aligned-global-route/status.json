@@ -1,0 +1,41 @@
+{
+  "global_route_pass": true,
+  "physical_signoff": false,
+  "source_cts_sha256": "2c951d5dfdb83db3eba81800904f960bf190a5a763958b33c718d9da3b75be62",
+  "source_io_sha256": "1a5ecc84618cb50b1c9d7c33231d024d2a53ef870fbae8bd1fefaacbb9b35ff2",
+  "pin_geometry": [
+    "ROUTEB_PIN_GEOMETRY_PASS moved=8056"
+  ],
+  "slacks_ns": [
+    [
+      "max",
+      "-10.63"
+    ],
+    [
+      "min",
+      "-0.33"
+    ]
+  ],
+  "outputs": {
+    "global-route.odb": "b18e43564542db2e5dc627bd256c9f574857c2788cd630502efe44f20c81753f",
+    "openroad.log": "428075fab107e9004f06c753a333099066ad80dbd5957af86de7358af015e916",
+    "q1.route.guide": "2644d9bda6b97a8ae3e237698cb24a8280e6894ab9208ba4f4be8bf5f304e712",
+    "run.tcl": "768984d2ab4f50d08d1678a8e35a3fb89affab1b2c3101e712cd01d36b11e8c8"
+  },
+  "elapsed_seconds": 165.97723657099982,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794755126.8207214,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 188740903\nuser_usec 161701841\nsystem_usec 27039062\nnice_usec 0\nnr_periods 2007\nnr_throttled 18\nthrottled_usec 31541\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "482414592",
+      "memory.peak": "3478929408",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "394"
+    }
+  }
+}

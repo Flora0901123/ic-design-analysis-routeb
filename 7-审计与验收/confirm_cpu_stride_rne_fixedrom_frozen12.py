@@ -1,0 +1,25 @@
+"""Twelve frozen questions for the fixed-ROM stride+RNE15 candidate, after finite-reset gate."""
+import argparse,json,pathlib,subprocess,sys,time,shutil,re
+from qualification_resource_guard import prepare,join,snapshot
+from seal_cpu_stride_rne_fixedrom_2x2 import sha,trace,parse
+prepare();join();R=pathlib.Path(__file__).resolve().parents[1]
+def main():
+    ap=argparse.ArgumentParser();ap.add_argument('sealed_2x2',type=pathlib.Path);ap.add_argument('reset_confirmation',type=pathlib.Path);a=ap.parse_args();pair=json.loads((a.sealed_2x2/'summary.json').read_text());repeat=json.loads((a.reset_confirmation/'status.json').read_text());assert pair['combination_ttft_two_percent_and_no_other_metric_regression'] and repeat['status']=='FINITE_FRESH_RESETS_3_PLUS_3_PASS' and repeat['ttft_two_percent_and_no_other_metric_regression']
+    base=pathlib.Path(next(r['work'] for r in pair['records'] if r['variant']=='baseline'));combo=next(r for r in pair['records'] if r['variant']=='stride_rne15');frozen=R/'8-本轮实验/Nano冻结问题双端验收-20261108';rows=json.loads((frozen/'completion.json').read_text())['records'];sessions=json.loads((R/'student-mini-v1-cpu-gpu/data/nano/sessions.json').read_text())['cpu']['sessions'];assert len(rows)==len(sessions)==12
+    out=R/'8-本轮实验'/('CPU-Nano固定ROM-组合冻结12题-'+str(time.time_ns()));out.mkdir();state={'status':'RUNNING','backend':'VexRiscv RTL / Verilator5.040','rom_capacity_bytes':131072,'simulator_sha256':pair['simulator_sha256'],'checkpoint_sha256':pair['checkpoint_sha256'],'candidate_source_sha256':combo['source_sha256'],'source_2x2':str(a.sealed_2x2),'reset_confirmation':str(a.reset_confirmation),'planned_questions':12,'records':[],'scope':'fresh candidate execution for all12 sealed frozen input images; historical tensor trace is correctness golden only, never a timing baseline','performance_comparison_to_historical_rom':False,'formal_promote':False,'physical_ppa':'HOLD'};start=time.monotonic()
+    def save():state['elapsed_seconds']=time.monotonic()-start;state['resources']=snapshot();(out/'status.json').write_text(json.dumps(state,ensure_ascii=False,indent=2))
+    save()
+    try:
+        for index,case in enumerate(sessions):
+            q=out/('%02d'%index);q.mkdir();runner=q/'runner.log'
+            with runner.open('w') as f:p=subprocess.run([sys.executable,str(R/'7-审计与验收/run_cpu_combo_fixedrom_frozen_case.py'),'--frozen-index',str(index),'--reuse-from',str(base)],stdout=f,stderr=subprocess.STDOUT)
+            assert p.returncode==0,'frozen runner failed, see '+str(runner)
+            result=json.loads(runner.read_text());work=pathlib.Path(result['out']);assert result['status']=='TRANSCRIPTS_COLLECTED' and result['candidate_sha256']==combo['source_sha256'] and result['simulator_sha256']==pair['simulator_sha256']
+            original=frozen/('%02d'%index)/'cpu-console.log';actual=work/'console-000.log';assert trace(actual)==trace(original)
+            data=parse(actual);assert data['tokens']==case['expected_tokens'];record=next(x for x in rows if x['index']==index);manifest=json.loads((work/'image/manifest.json').read_text());assert sha(work/'image/image.bin')==record['image_sha256']==manifest['image_sha256'] and manifest['contains_expected_tokens'] is False
+            for src,dest in [(actual,q/'console.log'),(work/'status.json',q/'case-status.json'),(work/'rtl-reuse.json',q/'rtl-reuse.json'),(work/'rom-policy.json',q/'rom-policy.json'),(work/'image/manifest.json',q/'image-manifest.json')]:shutil.copy2(src,dest)
+            state['records'].append({'index':index,'question':case['question'],'domain':case['domain'],'work':str(work),'tokens':data['tokens'],'steps':len(data['tokens']),'token_hidden_logits_bit_identical':True,'explicit_target_completion_seen':True,'frozen_image_sha256':manifest['image_sha256'],'console_sha256':sha(q/'console.log'),'candidate_source_sha256':result['candidate_sha256'],'bios_size_bytes':result['bios_size_bytes'],'target_counts':data['logical_counters'],'fresh_target_metrics_ineligible_for_historical_comparison':{k:data[k] for k in ['ttft_cycles','per_token_decode_cycles','session_cycles']}});save();print(json.dumps({'frozen_combo_passed':len(state['records']),'question':case['question']},ensure_ascii=False),flush=True)
+        total=sum(r['steps'] for r in state['records']);assert total==81;state.update(status='FROZEN_COMBO_FIXEDROM_12_PASS',total_steps=total,hidden_values_compared=total*16,logits_values_compared=total*256,all12_frozen_images_identical_to_sealed_fixtures=True,all_target_completions_seen=True)
+    except Exception as e:state.update(status='FAILED',error=repr(e))
+    save();evidence={p.relative_to(out).as_posix():sha(p) for p in out.rglob('*') if p.is_file()};(out/'evidence-sha256.json').write_text(json.dumps(evidence,ensure_ascii=False,indent=2));print(json.dumps({'out':str(out),**{k:v for k,v in state.items() if k!='records'}},ensure_ascii=False,indent=2));return 0 if state['status']=='FROZEN_COMBO_FIXEDROM_12_PASS' else 1
+if __name__=='__main__':raise SystemExit(main())

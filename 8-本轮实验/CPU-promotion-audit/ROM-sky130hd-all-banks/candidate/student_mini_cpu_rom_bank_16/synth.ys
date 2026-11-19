@@ -1,0 +1,7 @@
+read_verilog bank.v
+synth -top student_mini_cpu_rom_bank_16
+dfflibmap -liberty sky.lib
+abc -liberty sky.lib
+clean
+stat -liberty sky.lib
+write_verilog -noattr mapped.v

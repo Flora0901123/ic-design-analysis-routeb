@@ -1,0 +1,20 @@
+{
+  "status": "FAILED",
+  "scope": "host-only post-completion MPM observation; target RTL and kernel unchanged",
+  "error": "AssertionError: observer was not called exactly once",
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794148806.5337453,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 3767322598\nuser_usec 3590444674\nsystem_usec 176877924\nnice_usec 0\nnr_periods 42648\nnr_throttled 171\nthrottled_usec 3261894\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "569327616",
+      "memory.peak": "1597546496",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "883\n13749\n13780\n13811\n13812\n13841"
+    }
+  }
+}

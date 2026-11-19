@@ -1,0 +1,29 @@
+{
+  "source_receipt_sha256": "40d55496b2bdc51a6023772bf8a151f08b8349e49b38ec666f18e778bbca9875",
+  "run_tcl_sha256": "15c6c1e2f2b74b2d9046abe39fd2273bedb752eb5e393314713b528272f94506",
+  "physical_signoff": false,
+  "exit_code": "TIMEOUT",
+  "router_returned": false,
+  "router_drc_counts": [
+    109116
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1795011514.4278147,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 13434764658\nuser_usec 13359488684\nsystem_usec 75275973\nnice_usec 0\nnr_periods 72082\nnr_throttled 3533\nthrottled_usec 26617336\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "713617408",
+      "memory.peak": "5671968768",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "372\n429\n430\n912\n10872"
+    }
+  },
+  "elapsed_seconds": 7206.432512796,
+  "outputs": {
+    "openroad.log": "f4789932bbc42966e13dfd9c95e2a18594f68b10d8a956bc5db2b6bcd0263c05"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "status": "FINITE_FRESH_RESETS_3_PLUS_3_PASS",
+  "registration": "three independent fresh RTL resets per variant; interleaved order fixed before first reset",
+  "planned_repeats_per_variant": 3,
+  "primary_metric": "ttft_cycles",
+  "source_2x2": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/CPU-Nano固定ROM-StrideRNE2x2-1794284177187099883",
+  "records": [
+    {
+      "ttft_cycles": 3859315,
+      "per_token_decode_cycles": 831250.5,
+      "session_cycles": 7184546,
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "logical_counters": {
+        "instructions": 3987658,
+        "ibus_bytes": 2556800,
+        "dbus_bytes": 1045926,
+        "dma_bytes": 0
+      },
+      "variant": "baseline",
+      "run": 0,
+      "complete": true,
+      "full_token_hidden_logits_bit_identical": true,
+      "log_sha256": "95700f0929d7241b91f900a9c7b55c2fe5c0765e89d0386451346cd57c3ff3b1"
+    },
+    {
+      "ttft_cycles": 3681514,
+      "per_token_decode_cycles": 771051.75,
+      "session_cycles": 6765949,
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "logical_counters": {
+        "instructions": 3760500,
+        "ibus_bytes": 2377696,
+        "dbus_bytes": 973514,
+        "dma_bytes": 0
+      },
+      "variant": "stride_rne15",
+      "run": 0,
+      "complete": true,
+      "full_token_hidden_logits_bit_identical": true,
+      "log_sha256": "10618a1e37687fdd22f58acf814259d9080727efc53292c61a2ce8d28cec11ea"
+    },
+    {
+      "ttft_cycles": 3859315,
+      "per_token_decode_cycles": 831250.5,
+      "session_cycles": 7184546,
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "logical_counters": {
+        "instructions": 3987658,
+        "ibus_bytes": 2556800,
+        "dbus_bytes": 1045926,
+        "dma_bytes": 0
+      },
+      "variant": "baseline",
+      "run": 1,
+      "complete": true,
+      "full_token_hidden_logits_bit_identical": true,
+      "log_sha256": "c18aa626f6f595e9d2b31cd358c4a7ad9bcc9e7f45f6884da9481ba22a3cd025"
+    },
+    {
+      "ttft_cycles": 3681514,
+      "per_token_decode_cycles": 771051.75,
+      "session_cycles": 6765949,
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "logical_counters": {
+        "instructions": 3760500,
+        "ibus_bytes": 2377696,
+        "dbus_bytes": 973514,
+        "dma_bytes": 0
+      },
+      "variant": "stride_rne15",
+      "run": 1,
+      "complete": true,
+      "full_token_hidden_logits_bit_identical": true,
+      "log_sha256": "0b3f072fa7dc1bad6b342138f5220769a63259981ac1d43ebd5a90708a7d2550"
+    },
+    {
+      "ttft_cycles": 3859315,
+      "per_token_decode_cycles": 831250.5,
+      "session_cycles": 7184546,
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "logical_counters": {
+        "instructions": 3987658,
+        "ibus_bytes": 2556800,
+        "dbus_bytes": 1045926,
+        "dma_bytes": 0
+      },
+      "variant": "baseline",
+      "run": 2,
+      "complete": true,
+      "full_token_hidden_logits_bit_identical": true,
+      "log_sha256": "81e6c0958770a18cd054ea6b607f68bfd9101b9052d6c0ebf460b834aed23456"
+    },
+    {
+      "ttft_cycles": 3681514,
+      "per_token_decode_cycles": 771051.75,
+      "session_cycles": 6765949,
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "logical_counters": {
+        "instructions": 3760500,
+        "ibus_bytes": 2377696,
+        "dbus_bytes": 973514,
+        "dma_bytes": 0
+      },
+      "variant": "stride_rne15",
+      "run": 2,
+      "complete": true,
+      "full_token_hidden_logits_bit_identical": true,
+      "log_sha256": "b5e1fc518868518dd5cc28aed06b55bb5dc6c05af31aeeddb6c7a18052b5e92e"
+    }
+  ],
+  "resource_before": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794285753.9256191,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 3630332451\nuser_usec 3550680839\nsystem_usec 79651612\nnice_usec 0\nnr_periods 20866\nnr_throttled 446\nthrottled_usec 2937695\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "704479232",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n9758\n9841\n9895"
+    }
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794285992.2874043,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 4106394474\nuser_usec 4023255323\nsystem_usec 83139151\nnice_usec 0\nnr_periods 23450\nnr_throttled 446\nthrottled_usec 2937695\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "717250560",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n9895\n10293\n10371"
+    }
+  },
+  "metrics": {
+    "baseline": {
+      "ttft_cycles": {
+        "mean": 3859315,
+        "min": 3859315,
+        "max": 3859315,
+        "stdev": 0.0
+      },
+      "per_token_decode_cycles": {
+        "mean": 831250.5,
+        "min": 831250.5,
+        "max": 831250.5,
+        "stdev": 0.0
+      },
+      "session_cycles": {
+        "mean": 7184546,
+        "min": 7184546,
+        "max": 7184546,
+        "stdev": 0.0
+      }
+    },
+    "stride_rne15": {
+      "ttft_cycles": {
+        "mean": 3681514,
+        "min": 3681514,
+        "max": 3681514,
+        "stdev": 0.0
+      },
+      "per_token_decode_cycles": {
+        "mean": 771051.75,
+        "min": 771051.75,
+        "max": 771051.75,
+        "stdev": 0.0
+      },
+      "session_cycles": {
+        "mean": 6765949,
+        "min": 6765949,
+        "max": 6765949,
+        "stdev": 0.0
+      }
+    }
+  },
+  "improvement_percent": {
+    "ttft_cycles": 4.6070610976300195,
+    "per_token_decode_cycles": 7.241950531157575,
+    "session_cycles": 5.82635284122337
+  },
+  "ttft_two_percent_and_no_other_metric_regression": true,
+  "formal_promote": false,
+  "physical_ppa": "HOLD"
+}

@@ -1,0 +1,1 @@
+read -formal -sv litex_wishbone_csr_bridge.sv student_mini_wishbone_contract_harness.sv; prep -top student_mini_wishbone_contract_harness -flatten; async2sync; opt; sat -seq 32 -set-assumes -prove-asserts -dump_vcd model.vcd

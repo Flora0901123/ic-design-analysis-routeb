@@ -1,0 +1,92 @@
+{
+  "memory_bits": 398336,
+  "memory_kib": 48.625,
+  "logical_instances": 37,
+  "read_output_bits": 1744,
+  "ff_count_simple": 400080,
+  "read_mux2_count_structural": 396592,
+  "write_feedback_mux2_count_simple": 398336,
+  "output_hold_mux2_count_simple": 1744,
+  "cell_areas_um2": {
+    "dfxtp_1": 20.0192,
+    "mux2_1": 11.2608,
+    "dlxtp_1": 15.0144
+  },
+  "cell_lib_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "memory_ff_area_floor_um2": 8009281.536,
+  "simple_dff_mux_memory_area_um2": 16980445.593599997,
+  "memory_only_die_side_um_at_30pct_floor": 5166.972529441201,
+  "memory_only_die_side_um_at_30pct_simple": 7523.395863039508,
+  "scope": "Conservative structural count/area estimate, not synthesis or routed PPA. Excludes GPU logic, decode, clocks, buffering, routing and all physical closure overhead.",
+  "memory_partition_budget": [
+    {
+      "partition": "memory_group_0",
+      "instances": [
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_tags/tag_store/g_asic.dp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[0].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[13].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[2].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[6].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.g_cores[0].core.mem_unit.local_mem.g_data_store[0].lmem_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[0].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[4].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[1].bank/cache_data/g_data_slice[0].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[1].bank/cache_data/g_data_slice[4].data_store/g_asic.sp_ram_asic"
+      ],
+      "bits": 103424
+    },
+    {
+      "partition": "memory_group_1",
+      "instances": [
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[10].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[14].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[3].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[7].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.g_cores[0].core.mem_unit.local_mem.g_data_store[1].lmem_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[1].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[5].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[1].bank/cache_data/g_data_slice[1].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[1].bank/cache_data/g_data_slice[5].data_store/g_asic.sp_ram_asic"
+      ],
+      "bits": 98304
+    },
+    {
+      "partition": "memory_group_2",
+      "instances": [
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[11].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[15].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[4].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[8].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.g_cores[0].core.mem_unit.local_mem.g_data_store[2].lmem_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[2].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[6].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[1].bank/cache_data/g_data_slice[2].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[1].bank/cache_data/g_data_slice[6].data_store/g_asic.sp_ram_asic"
+      ],
+      "bits": 98304
+    },
+    {
+      "partition": "memory_group_3",
+      "instances": [
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[12].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[1].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[5].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.icache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[9].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.g_cores[0].core.mem_unit.local_mem.g_data_store[3].lmem_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[3].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[0].bank/cache_data/g_data_slice[7].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[1].bank/cache_data/g_data_slice[3].data_store/g_asic.sp_ram_asic",
+        "core/g_clusters[0].cluster.g_sockets[0].socket.dcache.g_cache_wrap[0].cache_wrap.g_cache.cache.g_banks[1].bank/cache_data/g_data_slice[7].data_store/g_asic.sp_ram_asic"
+      ],
+      "bits": 98304
+    }
+  ],
+  "partition_limit": "Budget groups only; no physical cut or clock/port-budget signoff yet.",
+  "raw_openram_instance_counts": {
+    "routeb_new_1w1r_20x64": 4,
+    "routeb_new_1w1r_32x256": 16,
+    "routeb_new_1w1r_8x1024": 16,
+    "routeb_new_1w1r_8x128": 128
+  },
+  "raw_openram_instances_total": 164
+}

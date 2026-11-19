@@ -1,0 +1,65 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[WARNING STA-0450] virtual clock io_clock can not be propagated.
+ROUTEB_PIN_GEOMETRY_PASS moved=8056
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0040] All shapes on net VSS are connected.
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met4
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 0.6150
+[INFO GRT-0003] Macros: 16
+[INFO GRT-0004] Blockages: 589398
+[INFO GRT-0019] Found 4837 clock nets.
+[WARNING GRT-0281] Net part_one_ has a large fanout of 2197 terminals.
+[WARNING GRT-0281] Net part_zero_ has a large fanout of 4123 terminals.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 4123
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal    3775447       3775447          0.00%
+met2       Vertical      3313406       3313406          0.00%
+met3       Horizontal    2412164       2412468          -0.01%
+met4       Vertical      1624813       1625309          -0.03%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0102] Start extra iteration 1/25
+[INFO GRT-0102] Start extra iteration 2/25
+[INFO GRT-0102] Start extra iteration 3/25
+[INFO GRT-0102] Start extra iteration 4/25
+[INFO GRT-0197] Via related to pin nodes: 1117404
+[INFO GRT-0198] Via related Steiner nodes: 34019
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 1449446
+[INFO GRT-0112] Final usage 3D: 7019482
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1           3775447       1099774           29.13%             0 /  0 /  0
+met2           3313406       1027578           31.01%             0 /  0 /  0
+met3           2412468        414631           17.19%             0 /  0 /  0
+met4           1625309        129161            7.95%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total         11126630       2671144           24.01%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 22140575 um
+[INFO GRT-0014] Routed nets: 194163
+[INFO GRT-0303] Global routing runtime = 00:01:37
+worst slack max -10.63
+worst slack min -0.33
+ROUTEB_GRT_COMPLETE

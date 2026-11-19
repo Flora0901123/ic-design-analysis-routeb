@@ -1,0 +1,12 @@
+{
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/data/golden/vectors.jsonl": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/gpu-topk全100案例-20261104T140209Z/student_mini_scalar.c": "729eb4aeabdab2d3ad1302eddfc46264ff4419f04c09c033c85d36f253152ee1",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/software/include/student_mini_scalar.h": "293c697925faaafabc729fd580a202f718b0f8d48b94226b0d26ad1683f3a688",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/integration/vortex/student_mini_host.inc": "3840d4974a1b454a4471af9e081aa40e4e3357d2f8affd90e8f173cf16a6f834",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/gpu/954dce45bd62b0573bd9890e84c6686b54ed63bdfe6c638f8b60dc80721d24f8/student_mini.cu": "48d68181bcd8cd0a8dfa0752c6e178e4c6dfb381ba1a3fdac3f1c26e8f6d7ae7",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/gpu/954dce45bd62b0573bd9890e84c6686b54ed63bdfe6c638f8b60dc80721d24f8/Makefile": "963b63fce9a56de398dc92130128507a532c685e0057738838ebc71dcff7e8f5",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/gpu-topk全100案例-20261104T140209Z/gpu-simx/input-images/fac132f8e335f1e97b669c4fcd74a5d0dc3f61d7ab8525f20a9f5c1c1bec454c/inputs.bin": "baafeaeb6b75e03a6df72a6841d043140154d74bfcbede6011eaf69948c83bf6",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime/libsimx.so": "ba063fd1ff5f246ab1999551ad30445fe3a5ae3e7add2679cc0f48b013ad373e",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime/libvortex-simx.so": "2b3d36ccbd12c031fc0273f4186e86523153fb70596cb496cd71a6116b209f48",
+  "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime/libvortex.so": "997e66b8a88dddb21160929d99b388cfb7566dd50e6a3997ef4d0757d2232d12"
+}

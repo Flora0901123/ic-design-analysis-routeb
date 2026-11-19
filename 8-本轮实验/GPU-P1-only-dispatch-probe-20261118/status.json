@@ -1,0 +1,53 @@
+{
+  "status": "P1_ONLY_POLICY_FOUR_RTLSIM_CONTROLS_MATCH",
+  "formal_promotion": "HOLD",
+  "records": [
+    {
+      "ordinal": 0,
+      "op": 1,
+      "selected": "rne",
+      "cycles": 93564,
+      "external_beats": 464,
+      "executable_sha256": "5dce4f7556fb6c00046a7b4257f02020eedec3bffcdcc411ae2ba08b3dfbb3eb",
+      "log_sha256": "d9689cf4875db7343b81513f9302fcf16f7e6e8ea3490ca70e0e97bfb7bed73b",
+      "reference_log_sha256": "a18e0cef764553313cb44c60d829b2d741169885705f798b3769510010baed03",
+      "seconds": 0.15347564199998942
+    },
+    {
+      "ordinal": 340,
+      "op": 2,
+      "selected": "baseline",
+      "cycles": 115350,
+      "external_beats": 461,
+      "executable_sha256": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+      "log_sha256": "2ff798febe1aeb7ed4bd2d47c6bc93713d773c2646f5a9ffe80f51cd86acfc3c",
+      "reference_log_sha256": "442cf5063fc9e9315f6a81ee3d6f72ae7ed7c1dac902703accbd3b7755055c50",
+      "seconds": 0.1928162730000622
+    },
+    {
+      "ordinal": 620,
+      "op": 2,
+      "selected": "baseline",
+      "cycles": 25414,
+      "external_beats": 334,
+      "executable_sha256": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+      "log_sha256": "b090a6b7009a061698fe1311ae83600583e4441b3be00bd1598edc20b70e3d30",
+      "reference_log_sha256": "1e17ddc474344a07c59cf526b46a151c1e74cdf3bdf971ddaf6d5ee5249a6dcb",
+      "seconds": 22.014775134000047
+    },
+    {
+      "ordinal": 660,
+      "op": 3,
+      "selected": "baseline",
+      "cycles": 193616,
+      "external_beats": 457,
+      "executable_sha256": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+      "log_sha256": "2f6878d908bd2cfe25a473afe0e9a2be631e247efca54c807c8f2ac2efc4ecdf",
+      "reference_log_sha256": "fcdebaa0945b8e72e4c595c7bde6e8cbdd06233a8fc01c38d2f97338e0bdea2a",
+      "seconds": 34.64037431700012
+    }
+  ],
+  "input_sha256": "baafeaeb6b75e03a6df72a6841d043140154d74bfcbede6011eaf69948c83bf6",
+  "script_sha256": "5c6bb0175b5967278153c73e232a8e061f8e36f0eeb84ba8c50ff29cb97279be",
+  "full_campaign_run": false
+}

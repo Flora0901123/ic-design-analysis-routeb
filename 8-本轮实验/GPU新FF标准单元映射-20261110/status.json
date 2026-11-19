@@ -1,0 +1,42 @@
+{
+  "status": "FAILED",
+  "scope": "new FF-backed GPU standard-cell synthesis only; not original physical identity or routed PPA",
+  "constraints": "shared2vCPU/8GiB; stop at6GiB group use or15min wall",
+  "formal_promotion": "HOLD",
+  "physical_signoff": false,
+  "source_bindings": {
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/ff-synthesis.tcl": "13f5dabc49a2f67619f1a59ad19d713fa9fe70c4e20ebdb2ce2a97dbf46e0af8",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/rtl/ff_memories.v": "e144902b66a85db99246484f50d304b4122085263e98e245cec9a4a50630d690",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/rtl/openram_blackboxes.v": "4461325980dec210cf549ad03b5c17a94b8e987c4b93d060f9444d8f0c20ae80",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/rtl/openram_wrappers.v": "556f077d43bc7a68811e928cc334f4a8cdd67685f9a93716bab56b5ff61cbc5d",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/gpu_fault_memory_adapter.sv": "5ef56b0c67bc08c9e3629b6bdbd0b0fe443f084a413075e9e0210f36ab402663",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/gpu_fault_physical_top.sv": "f844bc6ece4fa9364afd48459999f348771db37e8a29708060fb7c8c5754e255",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/gpu_status_command_adapter.sv": "97bb899ba7d7202031e906046d8b6aeb70200b346d791df82b322f10ae942021",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/openram-bindings.sv": "ce69ecec87e025d247ac78cdd5043c39db956da10f7c4c50340d5489a87776a9",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/project-banked.v": "bf356095e874aac7c5e102673b46f08bdecc480fa401a62ea7023f6b943c5810",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/project-physical.v": "ce93aaba3171155f57c42f73112eccd221a96d71444fef423e12d4f525033709",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/vortex_banked_large_sram_wrappers.sv": "ec85edb5b99cbcdad47ec94edcd72446d47ab7925205a2b375d26a540cd3c528",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/models/vortex_dp_80x64_w4.v": "5b229233daab7817b78c4c8d83eed4b68282de8792303a4612efa5b5d35076f2",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/models/vortex_sp_32x1024_w4.v": "9e770b8215f111b047fe0eb2ee10e8ede8245c375daadf311f2b868b6e06d8af",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/models/vortex_sp_32x256_w1.v": "018178236a0d17eaebfcca0cf9cf371a0fae003fb655b323b122f478060aaf97",
+    "8-本轮实验/GPU新FF标准单元映射-20261110/work/snapshot/models/vortex_sp_64x128_w8.v": "4347947a95a474b55819fe4d0c35804a6a20df7c65da5e81f44287fbac2ce717",
+    "8-本轮实验/GPU物理依赖公开来源核对-20261109/sky130_fd_sc_hd__tt_025C_1v80.lib": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9"
+  },
+  "seconds": 828.649288046001,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794311666.2331955,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 21371388109\nuser_usec 21053523596\nsystem_usec 317864513\nnice_usec 0\nnr_periods 127135\nnr_throttled 850\nthrottled_usec 5928829\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "811945984",
+      "memory.peak": "3661148160",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n48652\n51287\n51316"
+    }
+  },
+  "error": "AssertionError: ('yosys exit', 1)"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "FAILED_NOT_QUALIFIED",
+  "scope": "4 mapped memory shapes; zero-delay behavioral models derived from the bound Liberty, not transistor signoff or whole-GPU mapped equivalence",
+  "physical_signoff": false,
+  "formal_promotion": "HOLD",
+  "records": [
+    {
+      "shape": "vortex_dp_80x64_w4",
+      "records": 667,
+      "compile": {
+        "log": "vortex_dp_80x64_w4-compile.log",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seconds": 14.10771669099995
+      },
+      "run": {
+        "log": "vortex_dp_80x64_w4-run.log",
+        "log_sha256": "100f61a3b9a156337c70825aff3475ddf3ec31eca2c80c41ae82941143e0dcc0",
+        "seconds": 44.30117196199899
+      },
+      "compiled_simulation_sha256": "69727308861cdf9287a49daea81454c9ded224eb1b204312e9f6b1b99703675d"
+    }
+  ],
+  "stage": "vortex_sp_32x1024_w4-compile",
+  "seconds": 242.13520909900035,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794315190.0010448,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 26416534974\nuser_usec 25942005128\nsystem_usec 474529846\nnice_usec 0\nnr_periods 156460\nnr_throttled 919\nthrottled_usec 6078753\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "4211433472",
+      "memory.peak": "5584429056",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n72897\n76693\n76694\n76698\n80103\n80729\n80732\n81883\n81928\n81942\n81946\n81947\n81948\n81949\n81950\n81954\n81955\n81956\n81957\n82010\n82011\n82019\n82098\n82099\n82100\n82120\n82129\n82189\n82190\n82203\n82204\n82246\n82247\n82252\n82253\n82257\n82258\n82263\n82264\n82269\n82270\n82275\n82276\n82282\n82283\n82287\n82288\n82301\n82302\n82304\n82305\n82307\n82308\n82318\n82319\n82321\n82322\n82328\n82330\n82336\n82337\n82342\n82343\n82356\n82357\n82361\n82362\n82364\n82365\n82374\n82375"
+    }
+  },
+  "library_model_generation": {
+    "log": "library-model.log",
+    "log_sha256": "f88f606f826a3a2617ec51cf9929f9086e481d550fe93e6df2c27d6322b33636",
+    "seconds": 1.057584305999626
+  },
+  "error": "RuntimeError: vortex_sp_32x1024_w4-compile: bounded operation timeout"
+}

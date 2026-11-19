@@ -1,0 +1,48 @@
+{
+  "question": "根号3等于几?",
+  "unknown_characters": [
+    "根",
+    "号",
+    "3",
+    "?"
+  ],
+  "platforms": {
+    "cpu-vexriscv-rtl": {
+      "status": "TRANSCRIPTS_COLLECTED",
+      "evidence": "8-本轮实验/nano-baseline-1793256277077000207/status.json",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "reply": "我无法获知实时天气。"
+    },
+    "gpu-vortex-simx": {
+      "status": "TARGET_EXECUTED",
+      "evidence": "8-本轮实验/sqrt3-vortex-1793256475787480420/status.json",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "reply": "我无法获知实时天气。",
+      "stage": "complete"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "FAILED",
+  "scope": "generic command/memory skid adapters only; excludes Vortex core, fault extension and external DRAM",
+  "depth": 32,
+  "ports": 2,
+  "data_width": 512,
+  "address_width": 26,
+  "tag_width": 10,
+  "tools": {
+    "yosys": "Yosys 0.33 (git sha1 2584903a060)",
+    "z3": "Z3 version 4.8.12 - 64 bit"
+  },
+  "bindings": {
+    "shared/rtl/vortex_command_adapter.sv": "b6f5e100a52fd1c2de34b33e7454e24c0cfb2c5cd0722b9d57f87cd239015bb5",
+    "shared/rtl/vortex_memory_adapter.sv": "a9194cff7a6ae984b834c21a8bb7fa75042d4c78458e14431da9914ff5003514",
+    "shared/formal/student_mini_gpu_adapters_harness.sv": "094e8a487129ab872e205b886d9905429aecbbc82d716f21d77ecb434c3f2de2"
+  },
+  "records": [],
+  "error": "TimeoutExpired: Command '['yosys-smtbmc', '-s', 'z3', '-t', '32', '--noprogress', 'model.smt2']' timed out after 179.99995747999998 seconds"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "FAILED",
+  "scope": "Inductive safety of generic adapters, not whole GPU or fault extension; only the explicitly modeled safety properties",
+  "tools": "Yosys 0.33 (git sha1 2584903a060)",
+  "records": [],
+  "error": "TimeoutExpired: Command '['yosys', '-p', 'read -formal -sv vortex_command_adapter.sv vortex_memory_adapter.sv student_mini_gpu_adapters_harness.sv; prep -top student_mini_gpu_adapters_harness -flatten; chformal -cover -remove; opt_clean; sat -tempinduct -seq 4 -prove-asserts -set-assumes -verify -maxsteps 8 -timeout 120']' timed out after 149.99995958099998 seconds"
+}

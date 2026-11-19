@@ -1,0 +1,232 @@
+--- errors and warnings logged in file make.log
+make[1]: Entering directory '/root/.cache/routeb-netgen-1.5.323'
+--- making modules
+for dir in base tcltk; do \
+	(cd $dir && make module); done
+make[2]: Entering directory '/root/.cache/routeb-netgen-1.5.323/base'
+--- compiling base/actel.o
+rm -f actel.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c actel.c
+--- compiling base/ccode.o
+rm -f ccode.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c ccode.c
+--- compiling base/greedy.o
+rm -f greedy.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c greedy.c
+--- compiling base/ntk.o
+rm -f ntk.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c ntk.c
+ntk.c: In function ‘ReadNtk’:
+ntk.c:292:30: warning: ‘pin’ directive writing 3 bytes into a region of size between 0 and 255 [-Wformat-overflow=]
+  292 |           sprintf(name, "%s%spin%d", instancename, SEPARATOR, i+1);
+      |                              ^~~
+ntk.c:292:25: note: directive argument in the range [1, 101]
+  292 |           sprintf(name, "%s%spin%d", instancename, SEPARATOR, i+1);
+      |                         ^~~~~~~~~~~
+ntk.c:292:11: note: ‘sprintf’ output between 6 and 263 bytes into a destination of size 256
+  292 |           sprintf(name, "%s%spin%d", instancename, SEPARATOR, i+1);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--- compiling base/print.o
+rm -f print.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c print.c
+--- compiling base/actellib.o
+rm -f actellib.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c actellib.c
+--- compiling base/embed.o
+rm -f embed.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c embed.c
+--- compiling base/hash.o
+rm -f hash.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c hash.c
+--- compiling base/netfile.o
+rm -f netfile.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c netfile.c
+--- compiling base/objlist.o
+rm -f objlist.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c objlist.c
+--- compiling base/query.o
+rm -f query.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c query.c
+--- compiling base/anneal.o
+rm -f anneal.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c anneal.c
+--- compiling base/ext.o
+rm -f ext.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c ext.c
+--- compiling base/netcmp.o
+rm -f netcmp.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c netcmp.c
+--- compiling base/netgen.o
+rm -f netgen.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c netgen.c
+--- compiling base/pdutils.o
+rm -f pdutils.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c pdutils.c
+--- compiling base/random.o
+rm -f random.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c random.c
+--- compiling base/timing.o
+rm -f timing.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c timing.c
+--- compiling base/bottomup.o
+rm -f bottomup.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c bottomup.c
+--- compiling base/flatten.o
+rm -f flatten.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c flatten.c
+--- compiling base/place.o
+rm -f place.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c place.c
+--- compiling base/spice.o
+rm -f spice.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c spice.c
+spice.c: In function ‘ReadSpiceFile’:
+spice.c:1840:48: warning: ‘%s’ directive output may be truncated writing up to 255 bytes into a region of size 254 [-Wformat-truncation=]
+ 1840 |          snprintf(subcktname, MAX_STR_LEN-1, "/%s", instancename);
+      |                                                ^~   ~~~~~~~~~~~~
+spice.c:1840:10: note: ‘snprintf’ output between 2 and 257 bytes into a destination of size 255
+ 1840 |          snprintf(subcktname, MAX_STR_LEN-1, "/%s", instancename);
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1836:50: warning: ‘%s’ directive output may be truncated writing up to 255 bytes into a region of size 254 [-Wformat-truncation=]
+ 1836 |          snprintf(subcktname, MAX_STR_LEN-1, "%s:%s", scan->name, instancename);
+      |                                                  ^~               ~~~~~~~~~~~~
+spice.c:1836:10: note: ‘snprintf’ output 2 or more bytes (assuming 257) into a destination of size 255
+ 1836 |          snprintf(subcktname, MAX_STR_LEN-1, "%s:%s", scan->name, instancename);
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1865:31: warning: ‘%d’ directive writing between 1 and 10 bytes into a region of size 8 [-Wformat-overflow=]
+ 1865 |             sprintf(defport, "%d", i);
+      |                               ^~
+spice.c:1865:30: note: directive argument in the range [1, 2147483647]
+ 1865 |             sprintf(defport, "%d", i);
+      |                              ^~~~
+spice.c:1865:13: note: ‘sprintf’ output between 2 and 11 bytes into a destination of size 8
+ 1865 |             sprintf(defport, "%d", i);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1502:44: warning: ‘:’ directive output may be truncated writing 1 byte into a region of size between 0 and 255 [-Wformat-truncation=]
+ 1502 |       snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |                                            ^
+spice.c:1502:7: note: ‘snprintf’ output between 2 and 512 bytes into a destination of size 255
+ 1502 |       snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1419:46: warning: ‘:’ directive output may be truncated writing 1 byte into a region of size between 0 and 255 [-Wformat-truncation=]
+ 1419 |         snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |                                              ^
+spice.c:1419:9: note: ‘snprintf’ output between 2 and 512 bytes into a destination of size 255
+ 1419 |         snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1340:44: warning: ‘:’ directive output may be truncated writing 1 byte into a region of size between 0 and 255 [-Wformat-truncation=]
+ 1340 |       snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |                                            ^
+spice.c:1340:7: note: ‘snprintf’ output between 2 and 512 bytes into a destination of size 255
+ 1340 |       snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1282:46: warning: ‘:’ directive output may be truncated writing 1 byte into a region of size between 0 and 255 [-Wformat-truncation=]
+ 1282 |         snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |                                              ^
+spice.c:1282:9: note: ‘snprintf’ output between 2 and 512 bytes into a destination of size 255
+ 1282 |         snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1189:46: warning: ‘:’ directive output may be truncated writing 1 byte into a region of size between 0 and 255 [-Wformat-truncation=]
+ 1189 |         snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |                                              ^
+spice.c:1189:9: note: ‘snprintf’ output between 2 and 512 bytes into a destination of size 255
+ 1189 |         snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1098:44: warning: ‘:’ directive output may be truncated writing 1 byte into a region of size between 0 and 255 [-Wformat-truncation=]
+ 1098 |       snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |                                            ^
+spice.c:1098:7: note: ‘snprintf’ output between 2 and 512 bytes into a destination of size 255
+ 1098 |       snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:1025:44: warning: ‘:’ directive output may be truncated writing 1 byte into a region of size between 0 and 255 [-Wformat-truncation=]
+ 1025 |       snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |                                            ^
+spice.c:1025:7: note: ‘snprintf’ output between 2 and 512 bytes into a destination of size 255
+ 1025 |       snprintf(instname, MAX_STR_LEN-1, "%s:%s", model, inst);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spice.c:620:32: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  620 |              sprintf(pname, "%d", i);
+      |                                ^
+spice.c:620:14: note: ‘sprintf’ output between 2 and 11 bytes into a destination of size 10
+  620 |              sprintf(pname, "%d", i);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~
+--- compiling base/verilog.o
+rm -f verilog.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c verilog.c
+verilog.c: In function ‘ReadVerilogFile’:
+verilog.c:2720:34: warning: ‘%d’ directive writing between 1 and 11 bytes into a region of size between 0 and 255 [-Wformat-overflow=]
+ 2720 |             sprintf(locinst, "%s[%d]", instancename, i);
+      |                                  ^~
+verilog.c:2720:30: note: using the range [-2147483648, 2147483647] for directive argument
+ 2720 |             sprintf(locinst, "%s[%d]", instancename, i);
+      |                              ^~~~~~~~
+verilog.c:2720:13: note: ‘sprintf’ output between 4 and 269 bytes into a destination of size 256
+ 2720 |             sprintf(locinst, "%s[%d]", instancename, i);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+verilog.c:2087:65: warning: ‘%d’ directive output may be truncated writing between 1 and 11 bytes into a region of size between 0 and 255 [-Wformat-truncation=]
+ 2087 |                             snprintf(nodename, MAX_STR_LEN, "%s[%d]", noderoot, i);
+      |                                                                 ^~
+verilog.c:2087:61: note: using the range [-2147483648, 2147483647] for directive argument
+ 2087 |                             snprintf(nodename, MAX_STR_LEN, "%s[%d]", noderoot, i);
+      |                                                             ^~~~~~~~
+verilog.c:2087:29: note: ‘snprintf’ output between 4 and 269 bytes into a destination of size 256
+ 2087 |                             snprintf(nodename, MAX_STR_LEN, "%s[%d]", noderoot, i);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+verilog.c:2095:67: warning: ‘%d’ directive output may be truncated writing between 1 and 11 bytes into a region of size between 0 and 255 [-Wformat-truncation=]
+ 2095 |                             snprintf(assignname, MAX_STR_LEN, "%s[%d]", assignroot, j);
+      |                                                                   ^~
+verilog.c:2095:63: note: using the range [-2147483648, 2147483647] for directive argument
+ 2095 |                             snprintf(assignname, MAX_STR_LEN, "%s[%d]", assignroot, j);
+      |                                                               ^~~~~~~~
+verilog.c:2095:29: note: ‘snprintf’ output between 4 and 269 bytes into a destination of size 256
+ 2095 |                             snprintf(assignname, MAX_STR_LEN, "%s[%d]", assignroot, j);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--- compiling base/wombat.o
+rm -f wombat.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c wombat.c
+--- compiling base/xilinx.o
+rm -f xilinx.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c xilinx.c
+--- compiling base/xillib.o
+rm -f xillib.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c xillib.c
+--- linking libbase.o
+rm -f libbase.o
+/usr/bin/ld -r actel.o ccode.o greedy.o ntk.o print.o actellib.o embed.o hash.o netfile.o objlist.o query.o anneal.o ext.o netcmp.o netgen.o pdutils.o random.o timing.o bottomup.o flatten.o place.o spice.o verilog.o wombat.o xilinx.o xillib.o -o libbase.o 
+make[2]: Leaving directory '/root/.cache/routeb-netgen-1.5.323/base'
+make[2]: Entering directory '/root/.cache/routeb-netgen-1.5.323/tcltk'
+--- compiling tcltk/tclnetgen.o
+rm -f tclnetgen.o
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6  -I../base -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\"  -DUSE_TCL_STUBS -DUSE_TK_STUBS -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG -DNETGEN_DATE="\"`date`\""  -c tclnetgen.c
+--- linking libtcltk.o
+rm -f libtcltk.o
+/usr/bin/ld -r tclnetgen.o -o libtcltk.o 
+make[2]: Leaving directory '/root/.cache/routeb-netgen-1.5.323/tcltk'
+--- making Tcl shared-object libraries
+for dir in netgen python tcltk; do \
+	(cd $dir && make tcl-main); done
+make[2]: Entering directory '/root/.cache/routeb-netgen-1.5.323/netgen'
+--- making netgen Tcl library (tclnetgen.so)
+rm -f tclnetgen.so
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6   -I../base -I. -I..  -o tclnetgen.so -shared \
+	 ../base/libbase.o ../tcltk/libtcltk.o  \
+	-lc  -lm -L/usr/lib/x86_64-linux-gnu -ltclstub8.6 
+make[2]: Leaving directory '/root/.cache/routeb-netgen-1.5.323/netgen'
+make[2]: Entering directory '/root/.cache/routeb-netgen-1.5.323/python'
+sed -e '/SUBST_SCRIPT_DIR/s#SUBST_SCRIPT_DIR#/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/python#' \
+	lvs_manager.py.in > lvs_manager.py
+make[2]: Leaving directory '/root/.cache/routeb-netgen-1.5.323/python'
+make[2]: Entering directory '/root/.cache/routeb-netgen-1.5.323/tcltk'
+gcc -g -m64 -fPIC -fPIC  -I/usr/include/tcl8.6  -I../base -I. -I..  -DCAD_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib\" -DTCL_DIR=\"/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl\" -DPACKAGE_NAME=\"netgen\" -DPACKAGE_TARNAME=\"netgen\" -DPACKAGE_VERSION=\"1.3\" -DPACKAGE_STRING=\"netgen\ 1.3\" -DPACKAGE_BUGREPORT=\"eda-dev@opencircuitdesign.com\" -DPACKAGE_URL=\"\" -DNETGEN_VERSION=\"1.5\" -DNETGEN_REVISION=\"323\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_VOID_P=8 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DSTDC_HEADERS=1 -DHAVE_SETENV=1 -DHAVE_PUTENV=1 -DHAVE_DIRENT_H=1 -DHAVE_LIMITS_H=1 -DHAVE_VA_COPY=1 -DHAVE___VA_COPY=1 -DDBUG_OFF=1 -DTCL_NETGEN=1 -Dlinux=1 -DSYSV=1 -DISC=1 -DSHDLIB_EXT=\".so\" -DNDEBUG netgenexec.c \
+	-o netgenexec \
+	-L/usr/lib/x86_64-linux-gnu -ltcl8.6  -lm 
+sed -e 's%TCL_DIR%/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl%g' \
+    -e 's%SHDLIB_EXT%.so%g' \
+    netgen.tcl.in > netgen.tcl
+sed -e 's%TCL_DIR%/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/tcl%g' \
+    -e 's%PY_DIR%/root/.cache/routeb-netgen-1.5.323/install/lib/netgen/python%g' \
+    -e 's%TCLLIB_DIR%/usr/lib%g' \
+    -e 's%WISH_EXE%/usr/bin/wish%g' \
+    netgen.sh.in > netgen.sh
+make[2]: Leaving directory '/root/.cache/routeb-netgen-1.5.323/tcltk'
+make[1]: Leaving directory '/root/.cache/routeb-netgen-1.5.323'

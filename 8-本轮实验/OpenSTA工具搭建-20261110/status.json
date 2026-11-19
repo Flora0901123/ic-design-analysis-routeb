@@ -1,0 +1,81 @@
+{
+  "status": "FAILED",
+  "scope": "STA tool source and build qualification only; no GPU timing acceptance",
+  "opensta_source_url": "https://github.com/The-OpenROAD-Project/OpenSTA.git",
+  "opensta_commit": "f8e13cbf12d02a07a2d1ec4a64f3e6985b747eab",
+  "records": [
+    {
+      "stage": "package-index",
+      "command": [
+        "apt-get",
+        "update"
+      ],
+      "seconds": 42.049091623001004,
+      "log_sha256": "99e5584b616aa395468f4d8829760d05c738a4d5198118f4595d72d7df52c82c"
+    },
+    {
+      "stage": "build-dependencies",
+      "command": [
+        "apt-get",
+        "install",
+        "-y",
+        "--no-install-recommends",
+        "tcl-dev",
+        "swig",
+        "libeigen3-dev",
+        "libfmt-dev"
+      ],
+      "seconds": 26.03193141600059,
+      "log_sha256": "4bc3e7d06275562ecae5cf1366f255825db849e6642e046a31566609a2dcbe28"
+    },
+    {
+      "stage": "cudd-source",
+      "command": [
+        "git",
+        "clone",
+        "--depth",
+        "1",
+        "--branch",
+        "3.0.0",
+        "https://github.com/cuddorg/cudd.git",
+        "/root/.cache/routeb-opensta-20261110/cudd"
+      ],
+      "seconds": 4.024308476999067,
+      "log_sha256": "90690aa86ae950cf0d911fba69d15d5ca2bf891f412f069246bef5b79b55fa97"
+    },
+    {
+      "stage": "cudd-configure",
+      "command": [
+        "./configure",
+        "--enable-shared=no",
+        "--enable-dddmp=no",
+        "--enable-obj=no",
+        "--prefix=/root/.cache/routeb-opensta-20261110/cudd-install"
+      ],
+      "seconds": 66.05587190500046,
+      "log_sha256": "8e54102a29fac6cc2eb86577c2acc005870398aa3bd8bfa3648a191453cba367"
+    }
+  ],
+  "formal_promotion": "HOLD",
+  "PPA_signoff": false,
+  "stage": "cudd-build",
+  "seconds": 140.48688089000098,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794313424.3725114,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 24594900792\nuser_usec 24214467145\nsystem_usec 380433647\nnice_usec 0\nnr_periods 146170\nnr_throttled 851\nthrottled_usec 6050713\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "3215503360",
+      "memory.peak": "3767463936",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "4100\n29162\n59049\n61436\n61503\n61545\n61565"
+    }
+  },
+  "cudd_commit": "f54f533303640afd5dbe47a05ebeabb3066f2a25",
+  "cudd_source_url": "https://github.com/cuddorg/cudd.git",
+  "error": "AssertionError: ('cudd-build', 2)"
+}

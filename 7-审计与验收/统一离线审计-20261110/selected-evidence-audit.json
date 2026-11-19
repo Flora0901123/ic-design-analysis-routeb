@@ -1,0 +1,29 @@
+{
+  "status": "SELECTED_SEALED_EVIDENCE_PASS_WITH_OPEN_GATES",
+  "checked_at": "2026-11-10T12:45:06.747239+00:00",
+  "scope": "Offline selected evidence only; not all historical files, no fresh CPU/GPU execution or clean-environment replay",
+  "completion": 78.125,
+  "teacher_score": null,
+  "formal_promotion": "HOLD",
+  "physical_signoff": false,
+  "selected_evidence": {
+    "gpu_baseline_1000_sealed": true,
+    "gpu_candidate_1000_sealed": false,
+    "cpu_combo_reset3x2_frozen12": true,
+    "cpu_manifest_files": 286,
+    "ff_four_state_records": 5326,
+    "mapped_leaf_cells": 1547376,
+    "physical_exact_bindings": 32,
+    "physical_total_bindings": 50,
+    "report_consistency": "REPORT_DATA_LINK_AND_CLAIM_CONSISTENCY_PASS"
+  },
+  "open_gates": [
+    "完整1000条候选板尚未独立封存",
+    "原物理来源仍18项未匹配，新硬件单独验收",
+    "映射后整机等价、布局布线及提取后时序未闭环",
+    "功耗与能耗证据未完成",
+    "GPU Nano优化前后交互性能对照未完成",
+    "最终ZIP/CRC与完整干净环境复现未完成",
+    "正式优化晋升仍HOLD"
+  ]
+}

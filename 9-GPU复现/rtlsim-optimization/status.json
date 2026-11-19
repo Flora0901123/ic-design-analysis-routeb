@@ -1,0 +1,23 @@
+{
+  "status": "BUILT",
+  "verilator": "Verilator 5.050 2026-07-01 rev v5.050",
+  "formal_eligible": false,
+  "reason": "development RTL simulator; tool version differs from course lock; mapped physical/protocol qualification not yet established",
+  "command": [
+    "make",
+    "-j2",
+    "-C",
+    "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/native-gpu/a6e2b2f44258a0a7f694d57f18f00ea059d99b7767d103b29dbe9f2b4c5dac17/vortex-build/sw/runtime/rtlsim",
+    "DESTDIR=/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/rtlsim-optimization",
+    "CONFIGS=-DVX_CFG_NUM_CORES=1 -DVX_CFG_NUM_WARPS=2 -DVX_CFG_NUM_THREADS=4 -DVX_CFG_FPU_TYPE=STD",
+    "THREADS=2",
+    "PERF=1",
+    "VERILATOR_PATH=/tmp/routeb-verilator"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1094.2322702019999,
+  "artifacts": {
+    "librtlsim.so": "81028debeff2b9cd2ec1158701f868c27b681cb682b65fc3e997fee38bdc0e8c",
+    "libvortex-rtlsim.so": "83114d4ca894d95510bda45b1da3d872923f0fde534cc3f6c5eadf0b293a11cf"
+  }
+}

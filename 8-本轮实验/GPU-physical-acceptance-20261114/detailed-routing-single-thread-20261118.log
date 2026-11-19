@@ -1,0 +1,37 @@
+DRT START q3_UR
+q3_UR TIMEOUT ire length = 16534789 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 5732741 um.
+Total wire length on LAYER met2 = 6096145 um.
+Total wire length on LAYER met3 = 3066457 um.
+Total wire length on LAYER met4 = 1639445 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 551634.
+Up-via summary (total 551634):
+
+-------------------------
+ FR_MASTERSLICE         0
+            li1    197042
+           met1    310573
+           met2     32520
+           met3     11499
+           met4         0
+-------------------------
+               551634
+
+
+[INFO DRT-0195] Start 1st optimization iteration.
+    Completing 10% with 109116 violations.
+    elapsed time = 00:04:28, memory = 4268.56 (MB).
+    Completing 20% with 100407 violations.
+    elapsed time = 00:14:59, memory = 4268.57 (MB).
+    Completing 30% with 94086 violations.
+    elapsed time = 00:19:25, memory = 4268.57 (MB).
+    Completing 40% with 94086 violations.
+    elapsed time = 00:26:26, memory = 4268.57 (MB).
+    Completing 50% with 84131 violations.
+    elapsed time = 00:34:03, memory = 4268.57 (MB).
+    Completing 60% with 76977 violations.
+    elapsed time = 00:37:58, memory = 4268.57 (MB).
+
+DRT START q2_UL

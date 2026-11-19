@@ -1,0 +1,8 @@
+{
+  "shape": "20x64",
+  "results": [
+    "Total DRC errors found: 4",
+    "ROUTEB_DRC_DETAILS {Deep N-well spacing to N-well < 4.5um (nwell.7)} {{39580 39980 40320 40320} {20160 39898 20657 40320} {20160 40320 20657 40798} {40320 43846 40397 44746} {40320 41602 40480 42502}}"
+  ],
+  "physical_signoff": false
+}

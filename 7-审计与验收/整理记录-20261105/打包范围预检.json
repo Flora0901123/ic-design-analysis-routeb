@@ -1,0 +1,8 @@
+{
+  "status": "RANGE_CHECK_ONLY",
+  "files": 8369,
+  "bytes": 4311745192,
+  "archive_built": false,
+  "process_scripts_retained": true,
+  "note": "当前约4.02GiB范围含原始证据和构建产物；未生成新的重复压缩包，非最终合规或异机复现通过声明。工具、venv和下载缓存不放入阶段性包，但本机原文件保留。"
+}

@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "records": 1000,
+    "matching_parent_outputs": 1000,
+    "golden_matches": 970,
+    "failures": 0,
+    "unsupported": 30
+  },
+  "topk": {
+    "records": 1000,
+    "matching_parent_outputs": 1000,
+    "golden_matches": 970,
+    "failures": 0,
+    "unsupported": 30
+  },
+  "rne": {
+    "records": 1000,
+    "matching_parent_outputs": 1000,
+    "golden_matches": 970,
+    "failures": 0,
+    "unsupported": 30
+  },
+  "combined": {
+    "records": 1000,
+    "matching_parent_outputs": 1000,
+    "golden_matches": 970,
+    "failures": 0,
+    "unsupported": 30
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "status": "ADAPTER_MUTATION_REGRESSION_PASS",
+  "scope": "dynamic adapter RTL regression and test sensitivity, not formal proof or whole-GPU qualification",
+  "records": [
+    {
+      "name": "baseline",
+      "elapsed_seconds": 0.3764388299999837,
+      "accepted": true,
+      "exit_code": 0,
+      "outcome": "baseline passes",
+      "transcript_sha256": "7c65c4f736f5afb45fc94700d90f5f0085b54f4497498757bc367f7a19906600"
+    },
+    {
+      "name": "request-address",
+      "elapsed_seconds": 0.2797470440000325,
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "ed949ed9fc64f8dbee9eaefce3485e3c8a859d2481c97dad60157ca6349339ee"
+    },
+    {
+      "name": "request-data",
+      "elapsed_seconds": 0.2883604830000195,
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "ed949ed9fc64f8dbee9eaefce3485e3c8a859d2481c97dad60157ca6349339ee"
+    },
+    {
+      "name": "request-mask",
+      "elapsed_seconds": 0.3363583849999259,
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "ed949ed9fc64f8dbee9eaefce3485e3c8a859d2481c97dad60157ca6349339ee"
+    },
+    {
+      "name": "response-tag",
+      "elapsed_seconds": 0.23194807200002288,
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "100cadf929a99ed1bc0b75d256381383ab7d4de3cd54ef394b12dfbfdb61df31"
+    },
+    {
+      "name": "busy-start",
+      "elapsed_seconds": 0.2418915470000229,
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "a510ce2fd87cccccf55ecd7651398166b9b6ad3fc86a62918d4ca932dcf73aed"
+    },
+    {
+      "name": "unstable-response",
+      "elapsed_seconds": 0.3722976760000165,
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "9c11224a373801b5f2e89510694f90b1bd95f03cbde2d2092bd05e5d97a25184"
+    },
+    {
+      "name": "missing-fault",
+      "elapsed_seconds": 0.340330470999902,
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "ed2018e70c297712596afc2682f8f9351c40d78b084f2e641ee16bee92964674"
+    },
+    {
+      "name": "reset-not-flushed",
+      "elapsed_seconds": 0.3870091539999976,
+      "accepted": true,
+      "exit_code": 1,
+      "outcome": "mutation caught by assertion",
+      "transcript_sha256": "dba475bbcb9fc3696667852ccc7dab4dab680709c0f63a0a2ebc9514a9e7970e"
+    }
+  ],
+  "bindings": {
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_fault_memory_adapter.sv": "5ef56b0c67bc08c9e3629b6bdbd0b0fe443f084a413075e9e0210f36ab402663",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/student-mini/gpu_status_command_adapter.sv": "be1bfa47470ecf242547e7b3a497a6384e2b69e34d041904de04d0e194e1d131"
+  },
+  "testbench_sha256": "815e5efb6ed3bd40d9db7afc61a6f06c5fb264e5333027afa7290d6afcf18f1a",
+  "mutations_caught": 8
+}

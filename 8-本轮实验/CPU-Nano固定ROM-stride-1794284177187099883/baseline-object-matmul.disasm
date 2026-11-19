@@ -1,0 +1,148 @@
+
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-baseline-1794284177187099883/soc/software/bios/student_mini_native_nano.o:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+000009c8 <matmul>:
+     9c8:	fc010113          	addi	sp,sp,-64
+     9cc:	02912a23          	sw	s1,52(sp)
+     9d0:	00058493          	mv	s1,a1
+     9d4:	02812c23          	sw	s0,56(sp)
+     9d8:	00068593          	mv	a1,a3
+
+000009dc <.LVL153>:
+     9dc:	00050413          	mv	s0,a0
+     9e0:	00249493          	slli	s1,s1,0x2
+
+000009e4 <.LVL154>:
+     9e4:	00060513          	mv	a0,a2
+
+000009e8 <.LVL155>:
+     9e8:	00010613          	mv	a2,sp
+
+000009ec <.LVL156>:
+     9ec:	02112e23          	sw	ra,60(sp)
+     9f0:	03212823          	sw	s2,48(sp)
+     9f4:	03312623          	sw	s3,44(sp)
+     9f8:	03412423          	sw	s4,40(sp)
+     9fc:	03512223          	sw	s5,36(sp)
+     a00:	03612023          	sw	s6,32(sp)
+     a04:	01712e23          	sw	s7,28(sp)
+     a08:	00068913          	mv	s2,a3
+     a0c:	00070993          	mv	s3,a4
+     a10:	00078a13          	mv	s4,a5
+     a14:	00080a93          	mv	s5,a6
+     a18:	00940433          	add	s0,s0,s1
+
+00000a1c <.LVL157>:
+     a1c:	00000097          	auipc	ra,0x0
+			a1c: R_RISCV_CALL_PLT	quantize
+			a1c: R_RISCV_RELAX	*ABS*
+     a20:	000080e7          	jalr	ra # a1c <.LVL157>
+
+00000a24 <.LVL158>:
+     a24:	04c42583          	lw	a1,76(s0)
+     a28:	00000b93          	li	s7,0
+
+00000a2c <.LBB130>:
+     a2c:	00000493          	li	s1,0
+
+00000a30 <.LBE130>:
+     a30:	00000097          	auipc	ra,0x0
+			a30: R_RISCV_CALL_PLT	__mulsf3
+			a30: R_RISCV_RELAX	*ABS*
+     a34:	000080e7          	jalr	ra # a30 <.LBE130>
+
+00000a38 <.LVL159>:
+     a38:	00050b13          	mv	s6,a0
+
+00000a3c <.L102>:
+     a3c:	00042683          	lw	a3,0(s0)
+     a40:	00048793          	mv	a5,s1
+     a44:	00000613          	li	a2,0
+
+00000a48 <.LBE132>:
+     a48:	00000513          	li	a0,0
+
+00000a4c <.L104>:
+     a4c:	00c10733          	add	a4,sp,a2
+     a50:	00070583          	lb	a1,0(a4)
+     a54:	00078713          	mv	a4,a5
+     a58:	000a0463          	beqz	s4,a60 <.L103>
+			a58: R_RISCV_BRANCH	.L103
+     a5c:	01760733          	add	a4,a2,s7
+
+00000a60 <.L103>:
+     a60:	00e68733          	add	a4,a3,a4
+     a64:	00070703          	lb	a4,0(a4)
+     a68:	00160613          	addi	a2,a2,1
+
+00000a6c <.LVL162>:
+     a6c:	013787b3          	add	a5,a5,s3
+     a70:	02b70733          	mul	a4,a4,a1
+     a74:	00e50533          	add	a0,a0,a4
+
+00000a78 <.LVL163>:
+     a78:	fcc91ae3          	bne	s2,a2,a4c <.L104>
+			a78: R_RISCV_BRANCH	.L104
+
+00000a7c <.LBB134>:
+     a7c:	00000097          	auipc	ra,0x0
+			a7c: R_RISCV_CALL_PLT	__floatsisf
+			a7c: R_RISCV_RELAX	*ABS*
+     a80:	000080e7          	jalr	ra # a7c <.LBB134>
+
+00000a84 <.LVL165>:
+     a84:	000b0593          	mv	a1,s6
+     a88:	00000097          	auipc	ra,0x0
+			a88: R_RISCV_CALL_PLT	__mulsf3
+			a88: R_RISCV_RELAX	*ABS*
+     a8c:	000080e7          	jalr	ra # a88 <.LVL165+0x4>
+
+00000a90 <.LBB142>:
+     a90:	00000097          	auipc	ra,0x0
+			a90: R_RISCV_CALL_PLT	course_bf16_rne_bits
+			a90: R_RISCV_RELAX	*ABS*
+     a94:	000080e7          	jalr	ra # a90 <.LBB142>
+
+00000a98 <.LBB136>:
+     a98:	00249793          	slli	a5,s1,0x2
+     a9c:	00fa87b3          	add	a5,s5,a5
+
+00000aa0 <.LBB139>:
+     aa0:	01051513          	slli	a0,a0,0x10
+
+00000aa4 <.LBE139>:
+     aa4:	00a7a023          	sw	a0,0(a5)
+
+00000aa8 <.LBE131>:
+     aa8:	00148493          	addi	s1,s1,1
+     aac:	012b8bb3          	add	s7,s7,s2
+     ab0:	f89996e3          	bne	s3,s1,a3c <.L102>
+			ab0: R_RISCV_BRANCH	.L102
+
+00000ab4 <.LBE144>:
+     ab4:	03c12083          	lw	ra,60(sp)
+     ab8:	03812403          	lw	s0,56(sp)
+     abc:	03412483          	lw	s1,52(sp)
+
+00000ac0 <.LVL169>:
+     ac0:	03012903          	lw	s2,48(sp)
+
+00000ac4 <.LVL170>:
+     ac4:	02c12983          	lw	s3,44(sp)
+
+00000ac8 <.LVL171>:
+     ac8:	02812a03          	lw	s4,40(sp)
+
+00000acc <.LVL172>:
+     acc:	02412a83          	lw	s5,36(sp)
+
+00000ad0 <.LVL173>:
+     ad0:	02012b03          	lw	s6,32(sp)
+
+00000ad4 <.LVL174>:
+     ad4:	01c12b83          	lw	s7,28(sp)
+     ad8:	04010113          	addi	sp,sp,64
+     adc:	00008067          	ret

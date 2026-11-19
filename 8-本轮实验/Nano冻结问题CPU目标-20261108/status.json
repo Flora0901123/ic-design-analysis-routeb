@@ -1,0 +1,389 @@
+{
+  "status": "FROZEN_CPU_RTL_12_PASS",
+  "backend": "VexRiscv RTL",
+  "scope": "12 frozen questions, rebuilt BIOS/input and fresh target reset, guarded reuse of unchanged RTL",
+  "records": [
+    {
+      "index": 0,
+      "question": "你好呀",
+      "domain": "greeting",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_text": "你好！",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142281175779126",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/Nano冻结问题CPU目标-20261108/00/execute.log",
+      "log_sha256": "3101ba60727e1c6fb10ce4fd46c8cad4832f1f70c4fdbeae14d73bce90ffa54a",
+      "image_sha256": "8f27d85e2e1c9abd62415c42e7e65bdac3d34589de6c91a33a3e7240dd8606c0",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "64c77b061f7e84f9bd9451810f05f85f98284aed6b31aef8534077c3d6b6fc3c"
+    },
+    {
+      "index": 1,
+      "question": "早上好",
+      "domain": "greeting",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_text": "你好！",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142552487400936",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142552487400936/console-000.log",
+      "log_sha256": "22783e12466ed00538ce5e4e7becade30a4a61d1ff11240eeffc8b123882e02c",
+      "image_sha256": "7a231e329ed220b90d6ad8640d825e1a98e7c43de970d160a3ff266eb8861157",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "069acccd803cc74ba1d1f12c15108f9e9a1161a6e628c65dd072ec3f915a5b72"
+    },
+    {
+      "index": 2,
+      "question": "嗨",
+      "domain": "greeting",
+      "tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_tokens": [
+        23,
+        52,
+        109,
+        4
+      ],
+      "expected_text": "你好！",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142675715209697",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142675715209697/console-000.log",
+      "log_sha256": "4f805dc53d5623f470d421902dcc3c461965522d3ec7bfcb626da6873925a843",
+      "image_sha256": "916941cb2e26280e30be46a82e9769bdd68fa7a44d641171ee16af2da3b34fda",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "de9d7aab84b629e9e2ba1febfb9d0d9d66d57203c659428d96eae348348bd915"
+    },
+    {
+      "index": 3,
+      "question": "你叫什么",
+      "domain": "identity",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_text": "我是小助手。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142785494998510",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142785494998510/console-000.log",
+      "log_sha256": "88963451081f47726bcf85d3a15f09b9d6fe8328a7d054fd8545d73f86102e35",
+      "image_sha256": "4db433925cc2ba45974dbe54b5332d55754b96b2740051b0e9b642685c72dd78",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "67defbc3e5779e8e43d601e477d992e46373c7644294ac31a760236b07236e55"
+    },
+    {
+      "index": 4,
+      "question": "你是谁呀",
+      "domain": "identity",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_text": "我是小助手。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142926580339812",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794142926580339812/console-000.log",
+      "log_sha256": "633ea94f2a075de44e195138fa5895601f062e4b94e35a0bbfc68f1f2662258d",
+      "image_sha256": "018d6b5a10b135e4237572979d05b74b1e48f5d0da72d6d65de00580571f133f",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "f3b468511d8976a3d8f12e9e90eea73db3b6cf027865410cca6bb0b359e79b9d"
+    },
+    {
+      "index": 5,
+      "question": "介绍自己",
+      "domain": "identity",
+      "tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        73,
+        58,
+        30,
+        68,
+        8,
+        4
+      ],
+      "expected_text": "我是小助手。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794143067131109112",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794143067131109112/console-000.log",
+      "log_sha256": "ecaed85c628300983b837f05f5e09205e2d03d89d8338d47e70f35958db37f71",
+      "image_sha256": "949f39d138c41884a55b20aa5aec12eb214d29940ea3bfb3bb59f4439e24a47c",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "ea5670a81e324be298b79868f0a8c24d0d6376e1b51dac9c70b01460959009f7"
+    },
+    {
+      "index": 6,
+      "question": "今天天气怎么样？",
+      "domain": "weather",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_text": "我无法获知实时天气。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794143220069886911",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794143220069886911/console-000.log",
+      "log_sha256": "34aeb39b8fc505049d832068850ca839600185823c2d9ceb96b6afe9bc253544",
+      "image_sha256": "94d7434739bf16bc8c4e488804e5a92cc6a90a1bbf3dfcb2f57e79c2a7976d96",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "038af011b35e8bf2089a9308c67cd6c43015515273f2222214f88b5a06000cfa"
+    },
+    {
+      "index": 7,
+      "question": "今天会下雨吗？",
+      "domain": "weather",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_text": "我无法获知实时天气。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794144863068806451",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794144863068806451/console-000.log",
+      "log_sha256": "e6115fad57fb00683d5ba42a492b4b8a71d145369372638e9bb458e7f261913f",
+      "image_sha256": "2b9df4e33f76f4b72ebf4898ed5fab4bb4f126daa804f4c3ef1a18218100cae4",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "f04b72201e3fa094a6e8a899cfdd631b943d84dc3f1e0f2c2b4fdbc7082d45f2"
+    },
+    {
+      "index": 8,
+      "question": "现在冷不冷？",
+      "domain": "weather",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "expected_text": "我无法获知实时天气。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794145765300684381",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794145765300684381/console-000.log",
+      "log_sha256": "14dd77437d0e9e7664b4306219cb659ba3148c835e60f5f3b17520b07e7af067",
+      "image_sha256": "69ec337087c32a541cb484ea5469529803adc0754d7403774da493d72767aba2",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "e5177cf86e915e660c8f93d06b4bc2901f4c291c2a6ceab298a4c54f243c94a9"
+    },
+    {
+      "index": 9,
+      "question": "一加一等于几？",
+      "domain": "arithmetic",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_text": "等于二。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794145905464055655",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794145905464055655/console-000.log",
+      "log_sha256": "33d712cf4faf006d2993c039a332a6a5f83f7fc47055bd61557cb1584b7a203b",
+      "image_sha256": "6c51d6680ed34474bfe9a2267ecddeca2c492724faa857044ab1ee9d6067f5f5",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "3b0457b1e8958a23f6d67343d96720d59c24f2be59eb70e423f54d90f2d73b9c"
+    },
+    {
+      "index": 10,
+      "question": "1+1是多少？",
+      "domain": "arithmetic",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_text": "等于二。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794146020291586170",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794146020291586170/console-000.log",
+      "log_sha256": "795c54b5f138cdb849cd6e6d35bfed8f23224d563d83c149552e2deea9405aeb",
+      "image_sha256": "273538f160b6289b351f70f649d647df4e67690bb5fca590b4476cb5a385657f",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "a4ff0762d836161ae7064e3dc423afc5a5272105f0397827b0d298d232f4e3fe"
+    },
+    {
+      "index": 11,
+      "question": "一加一？",
+      "domain": "arithmetic",
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "expected_text": "等于二。",
+      "pass": true,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794146140838943172",
+      "log": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794146140838943172/console-000.log",
+      "log_sha256": "f637e0a5f681b0e7bf7fb030e87ba6118573afa34d09f1167780114cce054499",
+      "image_sha256": "666c39a97a385eb9e9bb7777eb4a33e5e79bdbf703fe7a1ae84c2447f6170c04",
+      "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+      "rtl_reuse_receipt_sha256": "7243513864e88c60c67b4a9bfeb3902f47f1ab653636993c22429eac311fa2db"
+    }
+  ],
+  "elapsed_seconds": 1514.7066755859998,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794146271.8906505,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 1615802165\nuser_usec 1514508084\nsystem_usec 101294080\nnice_usec 0\nnr_periods 15234\nnr_throttled 155\nthrottled_usec 1899443\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "521129984",
+      "memory.peak": "886992896",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "312\n412\n883\n8996\n9261\n9288\n9289\n9290"
+    }
+  }
+}

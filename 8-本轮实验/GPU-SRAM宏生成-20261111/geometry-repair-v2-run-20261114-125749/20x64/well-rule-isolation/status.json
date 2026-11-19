@@ -1,0 +1,14 @@
+{
+  "status": "MAGIC_DRC_STEP_SWEEP",
+  "results": {
+    "137": [
+      "Total DRC errors found: 1",
+      "ROUTEB_DRC_DETAILS {Deep N-well spacing to N-well < 4.5um (nwell.7)} {{40320 40320 40563 40556}}"
+    ],
+    "271": [
+      "Total DRC errors found: 1",
+      "ROUTEB_DRC_DETAILS {Deep N-well spacing to N-well < 4.5um (nwell.7)} {{40320 40320 40563 40556}}"
+    ]
+  },
+  "physical_signoff": false
+}

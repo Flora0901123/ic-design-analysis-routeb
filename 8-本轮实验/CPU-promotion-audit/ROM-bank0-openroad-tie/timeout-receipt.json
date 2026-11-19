@@ -1,0 +1,18 @@
+{
+  "status": "DETAIL_ROUTE_TIMEOUT",
+  "timeout_seconds": 200,
+  "role": "parent",
+  "log": {
+    "path": "8-\u672c\u8f6e\u5b9e\u9a8c/CPU-promotion-audit/ROM-bank0-openroad-tie/parent/openroad.log",
+    "sha256": "6da9786cc98d63c35a7f34ff475832e804a849bac5490127648a8db1d13d7f4e"
+  },
+  "route_tcl": {
+    "path": "8-\u672c\u8f6e\u5b9e\u9a8c/CPU-promotion-audit/ROM-bank0-openroad-tie/route.tcl",
+    "sha256": "606d254023bebfe75c4faa899eb573fff99e596aac586657eeb165b536c8c018"
+  },
+  "netlist_with_ties": {
+    "path": "8-\u672c\u8f6e\u5b9e\u9a8c/CPU-promotion-audit/ROM-bank0-openroad-tie/parent/bank-with-ties.v",
+    "sha256": "5ddd9c4c8138dc574f82e1a5d4c3b3ac26f483b4c134d38b78bfebefe2fe35a2"
+  },
+  "candidate_attempted": false
+}

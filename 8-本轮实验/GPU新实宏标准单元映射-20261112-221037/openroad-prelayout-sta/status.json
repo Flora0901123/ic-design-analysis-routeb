@@ -1,0 +1,14 @@
+{
+  "status": "OPENROAD_10NS_PRELAYOUT_STA_MEASURED",
+  "setup_worst_slack_ns": -326.54,
+  "hold_worst_slack_ns": 0.31,
+  "worst_path_start": "rst_ni",
+  "physical_signoff": false,
+  "clock_ns": 10,
+  "ideal_clocks": true,
+  "parasitics_extracted": false,
+  "log_sha256": "5470b2ea8d813d573460bda49a58925f962d55c45b21581cf69ae1d45137dc9c",
+  "sdc_sha256": "1a6b2394cf0d1640bfdc5751aed038079e5693f259c6591e909b2584193a79e7",
+  "netlist_sha256": "20b7317c54e7290627378943cc32c57c5bdea0d822065acdaf9ee3bde4512928",
+  "script_sha256": "5411fe767a913631cd806a8dae958c93d995b644a83daa172c8dbc823ade32cd"
+}

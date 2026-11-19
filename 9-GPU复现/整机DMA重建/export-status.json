@@ -1,0 +1,19 @@
+{
+  "status": "FRESH_ASIC_BOUNDARY_EXPORTED",
+  "reference_physical_identity": false,
+  "steps": [
+    {
+      "step": "configure",
+      "exit_code": 0,
+      "seconds": 7.540211791000001
+    },
+    {
+      "step": "export",
+      "exit_code": 0,
+      "seconds": 163.01526296600002
+    }
+  ],
+  "source_sha256": "f47d19dfa10c614035e848e4470b83d216bb2344d7df1f492d0cc85151646226",
+  "bytes": 3355263,
+  "seconds": 170.787420754
+}

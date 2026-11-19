@@ -1,0 +1,100 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: tech.lef, created 13 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file sky130.lef at line 2.
+
+[INFO ODB-0227] LEF file: sky130.lef, created 437 library cells
+[INFO ODB-0227] LEF file: 32x256.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 8x1024.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 8x128.lef, created 1 library cells
+[INFO ODB-0227] LEF file: 20x64.lef, created 1 library cells
+ROUTEB_FOUR_SRAM_VIEWS_OPENROAD_PASS
+ROUTEB_OPENROAD_LINKED_164_MACROS_PASS
+[WARNING IFP-0028] Core area lower left (20.000, 20.000) snapped to (20.240, 21.760).
+[INFO IFP-0001] Added 2925 rows of 17303 site unithd.
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 8000.000 8000.000 ) um
+[INFO IFP-0101] Core BBox: ( 20.240 21.760 ) ( 7979.620 7977.760 ) um
+[INFO IFP-0102] Core area:                     63324827.280 um^2
+[INFO IFP-0103] Total instances area:          24197660.738 um^2
+[INFO IFP-0104] Effective utilization:                0.382
+[INFO IFP-0105] Number of instances:                 449167
+ROUTEB_PREPLACEMENT_BEFORE
+worst slack max -326.61
+worst slack min 0.31
+[WARNING EST-0027] no estimated parasitics. Using wire load models.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +2.2% |       0 |   34185 |         36046 |    486672
+    final |     +2.2% |       0 |   34185 |         36046 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 224 slew violations.
+[INFO RSZ-0038] Inserted 34185 buffers in 36046 nets.
+ROUTEB_PREPLACEMENT_AFTER
+worst slack max -7.42
+worst slack min 0.31
+ROUTEB_FMA_CONE_START
+Startpoint: _574407_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _574151_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _574407_/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.27    0.27 v _574407_/Q (sky130_fd_sc_hd__dfxtp_1)
+   0.13    0.40 v gain23339/X (sky130_fd_sc_hd__buf_4)
+   0.12    0.52 v gain23338/X (sky130_fd_sc_hd__buf_12)
+   0.38    0.90 v _575784_/X (sky130_fd_sc_hd__maj3_1)
+   0.39    1.29 v _575785_/X (sky130_fd_sc_hd__maj3_1)
+   0.39    1.68 v _575786_/X (sky130_fd_sc_hd__maj3_1)
+   0.39    2.08 v _575787_/X (sky130_fd_sc_hd__maj3_1)
+   0.39    2.47 v _575788_/X (sky130_fd_sc_hd__maj3_1)
+   0.39    2.86 v _575789_/X (sky130_fd_sc_hd__maj3_1)
+   0.39    3.25 v _575790_/X (sky130_fd_sc_hd__maj3_1)
+   0.39    3.64 v _575791_/X (sky130_fd_sc_hd__maj3_1)
+   0.11    3.76 ^ _575792_/Y (sky130_fd_sc_hd__nand2b_1)
+   0.11    3.86 v _575802_/Y (sky130_fd_sc_hd__o41ai_2)
+   0.33    4.19 ^ _575817_/Y (sky130_fd_sc_hd__a221oi_2)
+   0.23    4.42 v _575845_/Y (sky130_fd_sc_hd__o221ai_1)
+   0.25    4.66 ^ _575875_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.13    4.79 v _575912_/Y (sky130_fd_sc_hd__o21ai_1)
+   0.27    5.06 v _575913_/X (sky130_fd_sc_hd__a41o_1)
+   0.21    5.28 ^ _575926_/Y (sky130_fd_sc_hd__a41oi_1)
+   0.14    5.41 v _575930_/Y (sky130_fd_sc_hd__o21ai_1)
+   0.39    5.81 v _575933_/X (sky130_fd_sc_hd__maj3_1)
+   0.37    6.18 v _575936_/X (sky130_fd_sc_hd__maj3_1)
+   0.13    6.31 v _575938_/Y (sky130_fd_sc_hd__xnor2_1)
+   0.08    6.39 ^ _575347_/Y (sky130_fd_sc_hd__inv_1)
+   0.12    6.51 v _575763_/Y (sky130_fd_sc_hd__o22ai_4)
+   0.18    6.68 ^ _573637_/Y (sky130_fd_sc_hd__nor2_1)
+   0.13    6.82 v _573640_/Y (sky130_fd_sc_hd__nand3_2)
+   0.20    7.02 ^ _573643_/Y (sky130_fd_sc_hd__nor2_1)
+   0.14    7.16 v _573645_/Y (sky130_fd_sc_hd__nand3_4)
+   0.34    7.50 ^ _573654_/Y (sky130_fd_sc_hd__nor3_1)
+   0.17    7.67 ^ gain290/X (sky130_fd_sc_hd__buf_12)
+   0.07    7.73 v _574055_/Y (sky130_fd_sc_hd__nand4_1)
+   0.15    7.89 v gain245/X (sky130_fd_sc_hd__buf_4)
+   0.13    8.02 v _569716_/X (sky130_fd_sc_hd__and2_0)
+   0.27    8.30 v _574073_/X (sky130_fd_sc_hd__mux2_1)
+   0.00    8.30 v _574151_/D (sky130_fd_sc_hd__dfxtp_1)
+           8.30   data arrival time
+
+  10.00   10.00   clock core_clock (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ _574151_/CLK (sky130_fd_sc_hd__dfxtp_1)
+  -0.12    9.88   library setup time
+           9.88   data required time
+---------------------------------------------------------
+           9.88   data required time
+          -8.30   data arrival time
+---------------------------------------------------------
+           1.58   slack (MET)
+
+
+ROUTEB_FMA_CONE_END

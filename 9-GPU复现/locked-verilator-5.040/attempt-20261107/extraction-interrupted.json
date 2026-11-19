@@ -1,0 +1,5 @@
+{
+  "status": "EXTRACTION_INTERRUPTED_FOR_IO_COST",
+  "reason": "NTFS extraction still blocked after 7 minutes; switch generated build cache to persistent WSL ext4, retain partial files and original logs",
+  "old_cache": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/locked-verilator-5.040/build-source"
+}

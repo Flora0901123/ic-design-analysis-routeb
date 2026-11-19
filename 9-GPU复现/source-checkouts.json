@@ -1,0 +1,47 @@
+[
+  {
+    "path": "vortex",
+    "commit": "b8c5a24336026d9d029a67197160eee6b017f262",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  },
+  {
+    "path": "vortex\\third_party\\cocogfx",
+    "commit": "b1befdb36df8af7ac9e2c96acaf81957aab5d107",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  },
+  {
+    "path": "vortex\\third_party\\cvfpu",
+    "commit": "79e453139072df42c9ec8f697132ba485d74e23d",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  },
+  {
+    "path": "vortex\\third_party\\cvfpu\\src\\common_cells",
+    "commit": "6aeee85d0a34fedc06c14f04fd6363c9f7b4eeea",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  },
+  {
+    "path": "vortex\\third_party\\cvfpu\\src\\fpu_div_sqrt_mvp",
+    "commit": "86e1f558b3c95e91577c41b2fc452c86b04e85ac",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  },
+  {
+    "path": "vortex\\third_party\\cvfpu\\tb\\flexfloat",
+    "commit": "28be2d4fbf41b38fc37763bb6e90a1c88f6aaa61",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  },
+  {
+    "path": "vortex\\third_party\\hardfloat",
+    "commit": "aaf5736dffa521603b681fd5853760c671446c85",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  },
+  {
+    "path": "vortex\\third_party\\ramulator",
+    "commit": "e62c84a6f0e06566ba6e182d308434b4532068a5",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  },
+  {
+    "path": "vortex\\third_party\\softfloat",
+    "commit": "b51ef8f3201669b2288104c28546fc72532a1ea4",
+    "checkout": "raw locked Git archive bytes, no checkout text conversion; symlinks recorded separately"
+  }
+]

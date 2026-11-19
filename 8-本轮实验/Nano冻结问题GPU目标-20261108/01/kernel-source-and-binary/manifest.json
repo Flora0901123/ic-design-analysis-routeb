@@ -1,0 +1,32 @@
+{
+  "status": "HOLD",
+  "target_execution": false,
+  "bindings": {
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/scripts/prepare_student_mini_native_gpu.py": "edd294dbb11987e36456a23785524daacecb874912cad2a4ba364ffff2952da1",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/scripts/preflight_student_mini_native_nano.py": "b0a2d48c0f95757c747b4aa1c7d81732d9d6b6663148c25f32c9f0176260d76e",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/software/student_mini_native_nano.c": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/software/include/student_mini_native_nano.h": "cb75b7dca7032cfafcdd4c3b9c8f5073d1dc168a57595f1cfc569af20536de4e",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/software/include/numeric_luts.h": "e1772efaff856eeccf195157bd7940fb965a9a7ffaac99cac4cb81c2db39da17",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/vortex/platform_full.cu": "a782df1ff5c418c2fbf7170f6841413a3228fe33498b943b62eeb6765684d62a",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/vortex/student_mini_native_host.inc": "95db47b940255336e334dbed8033d0b1035084aaa8b166e46f201c13cb63dc89",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/student-mini-v1-cpu-gpu/sources/integration/vortex/device_compat.cc": "bd9321e71ddad2c6932558fa5f22dac4d4ed3b88c3e03e64481d958099e23761",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/Nano\u51bb\u7ed3\u95ee\u9898GPU\u76ee\u6807-20261108/01/image/manifest.json": "dba0ac710a8a09e1caee7211cead72d46d626dcf4c2e95ca60bcfa357e2e3078",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/Nano\u51bb\u7ed3\u95ee\u9898GPU\u76ee\u6807-20261108/01/image/image.bin": "7a231e329ed220b90d6ad8640d825e1a98e7c43de970d160a3ff266eb8861157",
+    "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/Nano\u51bb\u7ed3\u95ee\u9898GPU\u76ee\u6807-20261108/01/image/student_mini_native_image.h": "e85d776c4e7797ae0d2b1627b0acd1ebeb2f741c4b5734db7b2a51f4e7912754"
+  },
+  "artifacts": {
+    "common.h": "f290466b1220bcaede6bafcd6861c2d1462884974833607048ddc77812e5196c",
+    "device_compat.cc": "bd9321e71ddad2c6932558fa5f22dac4d4ed3b88c3e03e64481d958099e23761",
+    "Makefile": "03259ee9a85614f37dc55bef1a6322db55549a2f278a0391d924442bef263b76",
+    "native_nano.cu": "61f634c1b9c7e47499fbb750fdadbed8a0a20b87b126b6dc89758d71bbed5937"
+  },
+  "image_directory": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/8-\u672c\u8f6e\u5b9e\u9a8c/Nano\u51bb\u7ed3\u95ee\u9898GPU\u76ee\u6807-20261108/01/image",
+  "input_only": true,
+  "config": {
+    "cores": 1,
+    "warps": 2,
+    "threads": 4,
+    "l2": false,
+    "fpu": "STD"
+  }
+}

@@ -1,0 +1,12 @@
+`verilator_config
+
+lint_off -rule BLKANDNBLK -file "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party/cvfpu/*"
+lint_off -rule UNOPTFLAT -file "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party/cvfpu/*"
+lint_off -file "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party/cvfpu/*"
+
+lint_off -file "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/hw/rtl/afu/opae/ccip/ccip_if_pkg.sv"
+lint_off -file "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/hw/rtl/afu/opae/local_mem_cfg_pkg.sv"
+
+lint_off -rule BLKANDNBLK -file "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party/hardfloat/*"
+lint_off -rule UNOPTFLAT -file "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party/hardfloat/*"
+lint_off -file "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/vortex/third_party/hardfloat/*"

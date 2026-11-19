@@ -1,0 +1,1856 @@
+{
+  "status": "FUNCTIONAL_STATUS_OBSERVED_FULL_DMA_EVENTS_PENDING",
+  "scope": "fresh reconstructed macro-bound GPU functional observation; post-error traffic/commit witnesses must be qualified separately",
+  "physical_reference_identity": false,
+  "formal_eligible": false,
+  "records": [
+    {
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "exit_code": 0,
+      "device_fault_observed": false,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 15.941726223999922,
+      "output": [
+        "STUDENT_GPU ordinal=0 status=0 primitive=0 bits=bc80,bd00,3d80,3d40,3d80,bda0,3dc0,0000 selected=0"
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "log_sha256": "a57a4dd5ec5e924c086ea11d5c03d914c2df34e78350af102d5626bc51f39438"
+    },
+    {
+      "ordinal": 290,
+      "case_id": "P1-MINI-30",
+      "seed": 1,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 10.965222361999622,
+      "output": [
+        "STUDENT_GPU ordinal=290 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "1414d776f6794898a18b63b7baf2cad0adf4f174be37481f89c478a7b5dbaede"
+    },
+    {
+      "ordinal": 291,
+      "case_id": "P1-MINI-30",
+      "seed": 2,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 10.553234539999721,
+      "output": [
+        "STUDENT_GPU ordinal=291 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "720713c643ed88adc95b847d83d08f30bb315edfcb6646cd5ebd575cfd4f64ba"
+    },
+    {
+      "ordinal": 292,
+      "case_id": "P1-MINI-30",
+      "seed": 3,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 10.717439740000373,
+      "output": [
+        "STUDENT_GPU ordinal=292 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "4e9042242e2c6019b8c886e963538214d4d19605a42957bfde833f29df7d36ef"
+    },
+    {
+      "ordinal": 293,
+      "case_id": "P1-MINI-30",
+      "seed": 4,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 10.129631616000097,
+      "output": [
+        "STUDENT_GPU ordinal=293 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "d472c42f5552e70596a031358ae39a91bbf0e61368903175ea8c24cb363dcdfd"
+    },
+    {
+      "ordinal": 294,
+      "case_id": "P1-MINI-30",
+      "seed": 5,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 11.002606787999866,
+      "output": [
+        "STUDENT_GPU ordinal=294 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "7390c8797ae7c35a4a1c3e6f03d5d3fe15ba9e092ea9d1432c5052d57e785187"
+    },
+    {
+      "ordinal": 295,
+      "case_id": "P1-MINI-30",
+      "seed": 6,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 10.959654154999953,
+      "output": [
+        "STUDENT_GPU ordinal=295 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "71b642bfb597d2af53e8a0e150c6a55dc9d55211266c3c90b7c795b44e9b7dd0"
+    },
+    {
+      "ordinal": 296,
+      "case_id": "P1-MINI-30",
+      "seed": 7,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 10.779487509999854,
+      "output": [
+        "STUDENT_GPU ordinal=296 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "8ff5d53a514c4c8d2a39ba40cc45eec9d0d35254906000692cc73d21d77d0268"
+    },
+    {
+      "ordinal": 297,
+      "case_id": "P1-MINI-30",
+      "seed": 8,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 10.72468197299986,
+      "output": [
+        "STUDENT_GPU ordinal=297 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "9daa8467de2d408fffec25c87f8b698adf00c81fbf2ae8915e3786b0b356db3b"
+    },
+    {
+      "ordinal": 298,
+      "case_id": "P1-MINI-30",
+      "seed": 9,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 11.435214888000246,
+      "output": [
+        "STUDENT_GPU ordinal=298 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "3bed65c1df63f2336f95a443000b0c70af4819bc2e29bf8b7e9ba4a446b7c766"
+    },
+    {
+      "ordinal": 299,
+      "case_id": "P1-MINI-30",
+      "seed": 10,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 10.946032297999864,
+      "output": [
+        "STUDENT_GPU ordinal=299 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "c766e4a20c8c8c56e1268808babc47308f42395b5d3981b0a445dc791b644a4c"
+    },
+    {
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "exit_code": 0,
+      "device_fault_observed": false,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 16.777673450999828,
+      "output": [
+        "STUDENT_GPU ordinal=330 status=0 primitive=0 bits=bde0,bd40,bd40,bde0,bda0,be00,3dc0,3da0 selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "log_sha256": "d578f10348404bdb08671818393aea26a9a8d40cb6e031c93368bb33760ef1b7"
+    },
+    {
+      "ordinal": 620,
+      "case_id": "P2-MINI-30",
+      "seed": 1,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 11.111722993000058,
+      "output": [
+        "STUDENT_GPU ordinal=620 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "1e17ddc474344a07c59cf526b46a151c1e74cdf3bdf971ddaf6d5ee5249a6dcb"
+    },
+    {
+      "ordinal": 621,
+      "case_id": "P2-MINI-30",
+      "seed": 2,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 8.867511182999806,
+      "output": [
+        "STUDENT_GPU ordinal=621 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "9e1a1ec3680dc8285ad28c8a6c320043bc7599795ff161788ee12eca817805cb"
+    },
+    {
+      "ordinal": 622,
+      "case_id": "P2-MINI-30",
+      "seed": 3,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 11.326930966999953,
+      "output": [
+        "STUDENT_GPU ordinal=622 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "8e7cc54d65a578983ce40c683f19a20ae45f74b016240795f07e340d4583e327"
+    },
+    {
+      "ordinal": 623,
+      "case_id": "P2-MINI-30",
+      "seed": 4,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.147690770000281,
+      "output": [
+        "STUDENT_GPU ordinal=623 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "4e3f3225b547afb6e8cee966bdd3a6f46d099ca4e5e97c312d185a103090c1c4"
+    },
+    {
+      "ordinal": 624,
+      "case_id": "P2-MINI-30",
+      "seed": 5,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.212510791000113,
+      "output": [
+        "STUDENT_GPU ordinal=624 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "26800cd30f26546f4b5ab10d310d98a778e58508e62d226a601d94db5364b7a5"
+    },
+    {
+      "ordinal": 625,
+      "case_id": "P2-MINI-30",
+      "seed": 6,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.675961211999947,
+      "output": [
+        "STUDENT_GPU ordinal=625 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "fc7672799127abd2c234fa2209dbb3dff20de326f0aaf8c1e8f90d99973c73ce"
+    },
+    {
+      "ordinal": 626,
+      "case_id": "P2-MINI-30",
+      "seed": 7,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 11.863851651000004,
+      "output": [
+        "STUDENT_GPU ordinal=626 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "3e6bdcb2a6b676f76ec431007bc27efdfb7226e774f5f63bfee1e94a3412ac05"
+    },
+    {
+      "ordinal": 627,
+      "case_id": "P2-MINI-30",
+      "seed": 8,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 11.259844547000284,
+      "output": [
+        "STUDENT_GPU ordinal=627 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "4a44e402d217831312ec3230ec90df86726e7d7f05860badc0a28eba734c242f"
+    },
+    {
+      "ordinal": 628,
+      "case_id": "P2-MINI-30",
+      "seed": 9,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 11.739481634000185,
+      "output": [
+        "STUDENT_GPU ordinal=628 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "565efdbab2fdcd58e30f9e6fee3aa1c4f7de07d5d2c42e950ba6056fdc41d325"
+    },
+    {
+      "ordinal": 629,
+      "case_id": "P2-MINI-30",
+      "seed": 10,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.766519485999652,
+      "output": [
+        "STUDENT_GPU ordinal=629 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "5dde6998ba4f11d3d24c7633c45ad77c1beff7f88e87c996a160d522e10014f6"
+    },
+    {
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "exit_code": 0,
+      "device_fault_observed": false,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 23.999061728000015,
+      "output": [
+        "STUDENT_GPU ordinal=660 status=0 primitive=0 bits=be71,bd24,3cb5,3ed6,3e3d,bd53,bec7,beed,3d42,be54,be74,3e61,3dbc,3cb9,bdcb,3e9c selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "log_sha256": "fcdebaa0945b8e72e4c595c7bde6e8cbdd06233a8fc01c38d2f97338e0bdea2a"
+    },
+    {
+      "ordinal": 950,
+      "case_id": "P3-MINI-30",
+      "seed": 1,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.688145705999887,
+      "output": [
+        "STUDENT_GPU ordinal=950 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "3f6a01bd3432a59af2b3f4852878d7db1ca5ff5c0a357c0a2ad9bb2da6229342"
+    },
+    {
+      "ordinal": 951,
+      "case_id": "P3-MINI-30",
+      "seed": 2,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 13.440498318999744,
+      "output": [
+        "STUDENT_GPU ordinal=951 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "e1f958ce2f40c04a47d1e820d20a22227fe94a9c229c5630b40ba375af7d38e4"
+    },
+    {
+      "ordinal": 952,
+      "case_id": "P3-MINI-30",
+      "seed": 3,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 13.43458548100034,
+      "output": [
+        "STUDENT_GPU ordinal=952 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "812de6f4ce364293c62647bacbd1d34efdca2c63fc478be0354a32f5e9b2488a"
+    },
+    {
+      "ordinal": 953,
+      "case_id": "P3-MINI-30",
+      "seed": 4,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.729168069000025,
+      "output": [
+        "STUDENT_GPU ordinal=953 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "c3e8ae6b46f7dddb0af7f0fe08137a6e17154eea9882ebd76e767b0a4bf4a258"
+    },
+    {
+      "ordinal": 954,
+      "case_id": "P3-MINI-30",
+      "seed": 5,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.531328022999787,
+      "output": [
+        "STUDENT_GPU ordinal=954 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "acf3856c38352a92362d48dacd611e165969b57414b6d487ed6b0c062bf68f82"
+    },
+    {
+      "ordinal": 955,
+      "case_id": "P3-MINI-30",
+      "seed": 6,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.701405416999933,
+      "output": [
+        "STUDENT_GPU ordinal=955 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "d2a665980e01e9cc425dba4ceac857bdca075c5b27ab1226486347b46b8033ba"
+    },
+    {
+      "ordinal": 956,
+      "case_id": "P3-MINI-30",
+      "seed": 7,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 11.783588718999908,
+      "output": [
+        "STUDENT_GPU ordinal=956 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "493544939ee4503ec011abf01d63c81db5a7b1b59d9a315044443d85dc8d0a15"
+    },
+    {
+      "ordinal": 957,
+      "case_id": "P3-MINI-30",
+      "seed": 8,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.267457511999964,
+      "output": [
+        "STUDENT_GPU ordinal=957 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "ffb5d472cc9e3b389a688a7cc237d68bf147e7a926ef4b54d0bb2dc97311d97a"
+    },
+    {
+      "ordinal": 958,
+      "case_id": "P3-MINI-30",
+      "seed": 9,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.5467271360003,
+      "output": [
+        "STUDENT_GPU ordinal=958 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "baed5479f34f54b287b148f3f43b740d6a9ee73650e2370578921d28b79da166"
+    },
+    {
+      "ordinal": 959,
+      "case_id": "P3-MINI-30",
+      "seed": 10,
+      "exit_code": 0,
+      "device_fault_observed": true,
+      "status_observation_ok": true,
+      "post_error_payload_and_commit_qualified": false,
+      "seconds": 12.224823493000258,
+      "output": [
+        "STUDENT_GPU ordinal=959 status=6 primitive=0 bits= selected="
+      ],
+      "device_status_reads": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "log_sha256": "38f781b730147f27ce78fc1b5b7f1b40191d0d13b999fb552b1216f8d8dbd68a"
+    }
+  ]
+}

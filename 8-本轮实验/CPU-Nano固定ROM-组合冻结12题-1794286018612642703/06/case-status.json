@@ -1,0 +1,139 @@
+{
+  "status": "TRANSCRIPTS_COLLECTED",
+  "experiment": "fixed-ROM combo frozen correctness",
+  "frozen_index": 6,
+  "performance_eligible": false,
+  "frozen_golden_log_sha256": "34aeb39b8fc505049d832068850ca839600185823c2d9ceb96b6afe9bc253544",
+  "fixed_rne_replacements": 2,
+  "dynamic_rne_preserved": true,
+  "variant": "stride_rne15",
+  "requested_variant": "stride_rne15",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "今天天气怎么样？",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "rom_capacity_bytes": 131072,
+  "resource_before": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794286775.8752992,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 5620318760\nuser_usec 5493349339\nsystem_usec 126969421\nnice_usec 0\nnr_periods 31917\nnr_throttled 507\nthrottled_usec 2965033\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "730988544",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n10519\n15396\n15474\n15524"
+    }
+  },
+  "comparison_policy": "same new128KiB model, frozen question image byte-identical to sealed fixture; historical trace is correctness golden only, never a performance baseline",
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "b3ccf5cb4f48245a32cb0a37995ad2cfce868f5c0408cb9c0fc2764f6658225b",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "verilator_path": "/root/.cache/routeb-protocol-tools/verilator-5.040/bin/verilator",
+  "verilator_launcher_sha256": "491c95e1a949a3df1f370c9d39318e159d08b246edf4363fb42d05ea88f74dbe",
+  "verilator_version": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "target_fp_flags": [
+    "-ffp-contract=off",
+    "-fno-fast-math"
+  ],
+  "build_jobs": 2,
+  "bios_size_bytes": 45996,
+  "bios_sha256": "2bef84831ecd5a507f924cf6fd2e5299de2b537fc643d42b39f11158f2ea1295",
+  "rom_init_words": 11499,
+  "simulator_sha256": "aab301bb8baa56545942c0e9188d1d26712fae494fbe7c81055d3fae39f224cf",
+  "rtl_sha256": "e7100993d05f8c46300bf53d7e0944231d51d10452e02ed67980f27d8fae4551",
+  "resource_after_build": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794286857.4281912,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 5782422277\nuser_usec 5649695469\nsystem_usec 132726808\nnice_usec 0\nnr_periods 32807\nnr_throttled 507\nthrottled_usec 2965033\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "770977792",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n10519\n15524\n15917\n16035"
+    }
+  },
+  "build_script_sha256": "9ffba769bf2532449c537639928165a5a1b520636c73881c8e317b844a1066e4",
+  "runs": [
+    {
+      "run": 0,
+      "complete": true,
+      "console_sha256": "292fa518ceb8d1b4dff3417ec76894b4f1f2fa1db5cea92a1b7e5b2ebee9ae66",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 4446863,
+      "per_token_decode_cycles": 876868,
+      "decode_intervals_cycles": [
+        782820,
+        803975,
+        821013,
+        839636,
+        865965,
+        887440,
+        908641,
+        932941,
+        951812,
+        974437
+      ],
+      "session_cycles": 13215771,
+      "operator_cycles": {
+        "1": 255003,
+        "2": 493350,
+        "3": 1869087
+      },
+      "token_hidden_logits_trace_sha256": "eba484a6d41f8f031b55ffe10c83c68d69c1645d804d186c567ca6d658f7073a",
+      "paired_token_hidden_logits_bit_identical": true,
+      "target_logical_counters": {
+        "instructions": 7293074,
+        "ibus_bytes": 4829504,
+        "dbus_bytes": 1821604,
+        "dma_bytes": 0
+      }
+    }
+  ],
+  "token_and_metrics_validation": "PASS",
+  "metrics_mean": {
+    "ttft_cycles": 4446863,
+    "per_token_decode_cycles": 876868,
+    "session_cycles": 13215771
+  },
+  "measurement_boundary": "mcycle around mini_native_generate; excludes boot, input transfer, host tokenization; EOS included in decode intervals",
+  "promotion": "NOT_EVALUATED",
+  "resource_final": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794286930.021825,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 5925445908\nuser_usec 5791841286\nsystem_usec 133604622\nnice_usec 0\nnr_periods 33583\nnr_throttled 507\nthrottled_usec 2965033\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "787873792",
+      "memory.peak": "1269800960",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "404\n4100\n10519\n15524\n16177\n16230\n16257\n16258\n16260"
+    }
+  }
+}

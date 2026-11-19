@@ -1,0 +1,64 @@
+{
+  "scope": "Read-only known roots and PATH; no disk-wide search",
+  "roots": {
+    "/opt": {
+      "exists": true,
+      "children": [
+        "sbt"
+      ]
+    },
+    "/root/.cache": {
+      "exists": true,
+      "children": [
+        "ccache",
+        "chipStar",
+        "motd.legal-displayed",
+        "pip",
+        "pocl",
+        "routeb-adapter-5040",
+        "routeb-dma-rebuild",
+        "routeb-gpu-protocol-20261108",
+        "routeb-host-o3-20261108",
+        "routeb-original-protocol",
+        "routeb-original-protocol-smt32",
+        "routeb-protocol-tools",
+        "routeb-verilator-5.040"
+      ]
+    },
+    "/home/camellia/socai/student-mini-v1-cpu-gpu": {
+      "exists": true,
+      "children": [
+        "MANIFEST.sha256",
+        "README.md",
+        "SPEC.json",
+        "data",
+        "evidence-index.json",
+        "physical",
+        "power",
+        "release.json",
+        "report.html",
+        "sources",
+        "verify_release.py"
+      ]
+    }
+  },
+  "executables": {
+    "python3": "/usr/bin/python3",
+    "openram": null,
+    "sram_compiler.py": null,
+    "ngspice": null,
+    "magic": null,
+    "netgen": null,
+    "klayout": null,
+    "openroad": null,
+    "yosys": "/usr/bin/yosys",
+    "nix": null
+  },
+  "environment": {
+    "OPENRAM_HOME": null,
+    "OPENRAM_TECH": null,
+    "OPENRAM_TECHDIR": null,
+    "SPICE_MODEL_DIR": null,
+    "PDK_ROOT": null
+  }
+}

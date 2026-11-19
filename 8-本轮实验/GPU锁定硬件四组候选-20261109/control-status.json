@@ -1,0 +1,574 @@
+{
+  "status": "LOCKED_SAME_MODEL_16_CONTROL_PASS",
+  "formal_performance_board": false,
+  "formal_promotion": "HOLD",
+  "tool": "same Verilator 5.040 production model",
+  "selected_ordinals": [
+    0,
+    100,
+    330,
+    660
+  ],
+  "seeds": [
+    1
+  ],
+  "records": [
+    {
+      "variant": "baseline",
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 8893,
+      "cycles": 95244,
+      "external_read_beats": 378,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 28544,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=8893, cycles=95244, IPC=0.093\n",
+        "4": "PERF: core0: dcache: reqs=868, miss_r=67 (hit=86%), miss_w=139 (hit=66%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=8893, cycles=95244, IPC=0.093\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=446 (r=378, w=68), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=8893, cycles=95244, IPC=0.093\n"
+      },
+      "seconds": 31.772660432999942,
+      "log_sha256": "4f5c17dba0de69880847ae46a2ebad5924dfea787c9644f1b028dd12e1df0919"
+    },
+    {
+      "variant": "topk",
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 8870,
+      "cycles": 94938,
+      "external_read_beats": 375,
+      "external_write_beats": 69,
+      "external_512bit_beat_bytes": 28416,
+      "write_byte_enable_bytes": 4416,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=8870, cycles=94938, IPC=0.093\n",
+        "4": "PERF: core0: dcache: reqs=853, miss_r=64 (hit=86%), miss_w=140 (hit=65%), evicts=69, bank_st=0 (utility=100%)\nPERF: instrs=8870, cycles=94938, IPC=0.093\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=444 (r=375, w=69), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=8870, cycles=94938, IPC=0.093\n"
+      },
+      "seconds": 29.841077094999946,
+      "log_sha256": "6789f0889edca33cbca079c10deb6c3cdcc7396cef2609b0c5da7566ac3c4a4c"
+    },
+    {
+      "variant": "rne",
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 8712,
+      "cycles": 93564,
+      "external_read_beats": 396,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 29696,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=8712, cycles=93564, IPC=0.093\n",
+        "4": "PERF: core0: dcache: reqs=818, miss_r=67 (hit=85%), miss_w=142 (hit=62%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=8712, cycles=93564, IPC=0.093\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=464 (r=396, w=68), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=8712, cycles=93564, IPC=0.093\n"
+      },
+      "seconds": 21.056641435000074,
+      "log_sha256": "fc051b78674d9dd4d2abee16fdcfea94e46fce5466d5f5cec5233fa2d9c625f3"
+    },
+    {
+      "variant": "combined",
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 8703,
+      "cycles": 93260,
+      "external_read_beats": 387,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 29120,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=8703, cycles=93260, IPC=0.093\n",
+        "4": "PERF: core0: dcache: reqs=820, miss_r=64 (hit=86%), miss_w=143 (hit=61%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=8703, cycles=93260, IPC=0.093\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=455 (r=387, w=68), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=8703, cycles=93260, IPC=0.093\n"
+      },
+      "seconds": 22.657398666000063,
+      "log_sha256": "e2ec9c7a9881c1af2dd68e41a14c11cab07a2214cf9a2e838f43bd1b6bfd7f97"
+    },
+    {
+      "variant": "baseline",
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 23733,
+      "cycles": 239990,
+      "external_read_beats": 425,
+      "external_write_beats": 74,
+      "external_512bit_beat_bytes": 31936,
+      "write_byte_enable_bytes": 4736,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=23733, cycles=239990, IPC=0.099\n",
+        "4": "PERF: core0: dcache: reqs=2479, miss_r=80 (hit=95%), miss_w=145 (hit=84%), evicts=74, bank_st=0 (utility=100%)\nPERF: instrs=23733, cycles=239990, IPC=0.099\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=499 (r=425, w=74), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=23733, cycles=239990, IPC=0.099\n"
+      },
+      "seconds": 57.39228539700002,
+      "log_sha256": "54f0e8ab5cd8bb036c5a57fbb1bfac23c4ec84bd5600d17c20d68944024c7572"
+    },
+    {
+      "variant": "topk",
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 23692,
+      "cycles": 238763,
+      "external_read_beats": 425,
+      "external_write_beats": 74,
+      "external_512bit_beat_bytes": 31936,
+      "write_byte_enable_bytes": 4736,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=23692, cycles=238763, IPC=0.099\n",
+        "4": "PERF: core0: dcache: reqs=2370, miss_r=77 (hit=95%), miss_w=145 (hit=83%), evicts=74, bank_st=0 (utility=100%)\nPERF: instrs=23692, cycles=238763, IPC=0.099\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=499 (r=425, w=74), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=23692, cycles=238763, IPC=0.099\n"
+      },
+      "seconds": 66.27852895599995,
+      "log_sha256": "cacebb314ceb48b8e7981624ec8d19da8946801c1f40ed2b8610952bd0529533"
+    },
+    {
+      "variant": "rne",
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 23363,
+      "cycles": 235274,
+      "external_read_beats": 443,
+      "external_write_beats": 74,
+      "external_512bit_beat_bytes": 33088,
+      "write_byte_enable_bytes": 4736,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=23363, cycles=235274, IPC=0.099\n",
+        "4": "PERF: core0: dcache: reqs=2426, miss_r=79 (hit=95%), miss_w=148 (hit=82%), evicts=74, bank_st=0 (utility=100%)\nPERF: instrs=23363, cycles=235274, IPC=0.099\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=517 (r=443, w=74), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=23363, cycles=235274, IPC=0.099\n"
+      },
+      "seconds": 56.32629484699987,
+      "log_sha256": "e41103549fb1a993629c99bb6f58547834bc24d9de6ef5ed4e8b820704d2ff77"
+    },
+    {
+      "variant": "combined",
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 23332,
+      "cycles": 233692,
+      "external_read_beats": 435,
+      "external_write_beats": 74,
+      "external_512bit_beat_bytes": 32576,
+      "write_byte_enable_bytes": 4736,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=23332, cycles=233692, IPC=0.100\n",
+        "4": "PERF: core0: dcache: reqs=2350, miss_r=77 (hit=95%), miss_w=149 (hit=81%), evicts=74, bank_st=0 (utility=100%)\nPERF: instrs=23332, cycles=233692, IPC=0.100\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=509 (r=435, w=74), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=23332, cycles=233692, IPC=0.100\n"
+      },
+      "seconds": 54.80959971800007,
+      "log_sha256": "6075145ccaae5ad534a67e215179106c99169aab957424067eadcf9af03f91a5"
+    },
+    {
+      "variant": "baseline",
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 9659,
+      "cycles": 102457,
+      "external_read_beats": 376,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 28416,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=9659, cycles=102457, IPC=0.094\n",
+        "4": "PERF: core0: dcache: reqs=866, miss_r=67 (hit=86%), miss_w=139 (hit=66%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=9659, cycles=102457, IPC=0.094\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=444 (r=376, w=68), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=9659, cycles=102457, IPC=0.094\n"
+      },
+      "seconds": 26.674967863999882,
+      "log_sha256": "24936614d64029ecb2167fa26dcb919a65a4098b2ee36352696333548ef73882"
+    },
+    {
+      "variant": "topk",
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 9636,
+      "cycles": 102200,
+      "external_read_beats": 374,
+      "external_write_beats": 69,
+      "external_512bit_beat_bytes": 28352,
+      "write_byte_enable_bytes": 4416,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=9636, cycles=102200, IPC=0.094\n",
+        "4": "PERF: core0: dcache: reqs=851, miss_r=64 (hit=86%), miss_w=140 (hit=65%), evicts=69, bank_st=0 (utility=100%)\nPERF: instrs=9636, cycles=102200, IPC=0.094\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=443 (r=374, w=69), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=9636, cycles=102200, IPC=0.094\n"
+      },
+      "seconds": 28.618370472999914,
+      "log_sha256": "ca746921f1c25fda740b31a2b8b3c15cfdb2ae42ce1f020e63901ff3ef0beaf8"
+    },
+    {
+      "variant": "rne",
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 9480,
+      "cycles": 100841,
+      "external_read_beats": 396,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 29696,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=9480, cycles=100841, IPC=0.094\n",
+        "4": "PERF: core0: dcache: reqs=817, miss_r=67 (hit=85%), miss_w=142 (hit=62%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=9480, cycles=100841, IPC=0.094\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=464 (r=396, w=68), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=9480, cycles=100841, IPC=0.094\n"
+      },
+      "seconds": 28.21833176700011,
+      "log_sha256": "0236f9faad0f60b91d114249d66202dd1a215f6d5670c170565b7c60e0693893"
+    },
+    {
+      "variant": "combined",
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 9468,
+      "cycles": 100503,
+      "external_read_beats": 387,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 29120,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=9468, cycles=100503, IPC=0.094\n",
+        "4": "PERF: core0: dcache: reqs=818, miss_r=64 (hit=86%), miss_w=143 (hit=61%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=9468, cycles=100503, IPC=0.094\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=455 (r=387, w=68), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=9468, cycles=100503, IPC=0.094\n"
+      },
+      "seconds": 29.08001206400013,
+      "log_sha256": "6f10e591577cd6aa8168591ae89446e7fae71336d5a8eaacd0e47e041377a7ad"
+    },
+    {
+      "variant": "baseline",
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 18818,
+      "cycles": 193616,
+      "external_read_beats": 396,
+      "external_write_beats": 61,
+      "external_512bit_beat_bytes": 29248,
+      "write_byte_enable_bytes": 3904,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=18818, cycles=193616, IPC=0.097\n",
+        "4": "PERF: core0: dcache: reqs=2517, miss_r=129 (hit=94%), miss_w=133 (hit=61%), evicts=61, bank_st=0 (utility=100%)\nPERF: instrs=18818, cycles=193616, IPC=0.097\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=457 (r=396, w=61), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=18818, cycles=193616, IPC=0.097\n"
+      },
+      "seconds": 44.49266214300019,
+      "log_sha256": "555a421202a42732c991f3aa76a34f8fe4b73a518e718d1c5721e85e1674d78a"
+    },
+    {
+      "variant": "topk",
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 18831,
+      "cycles": 193767,
+      "external_read_beats": 396,
+      "external_write_beats": 61,
+      "external_512bit_beat_bytes": 29248,
+      "write_byte_enable_bytes": 3904,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=18831, cycles=193767, IPC=0.097\n",
+        "4": "PERF: core0: dcache: reqs=2497, miss_r=130 (hit=94%), miss_w=132 (hit=61%), evicts=61, bank_st=0 (utility=100%)\nPERF: instrs=18831, cycles=193767, IPC=0.097\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=457 (r=396, w=61), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=18831, cycles=193767, IPC=0.097\n"
+      },
+      "seconds": 45.09140585299997,
+      "log_sha256": "bc58afb9123359c3ad383bb681604cd781dff714d2cee20e9fd18db8e1c7d459"
+    },
+    {
+      "variant": "rne",
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 18833,
+      "cycles": 194217,
+      "external_read_beats": 414,
+      "external_write_beats": 61,
+      "external_512bit_beat_bytes": 30400,
+      "write_byte_enable_bytes": 3904,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=18833, cycles=194217, IPC=0.097\n",
+        "4": "PERF: core0: dcache: reqs=2498, miss_r=131 (hit=94%), miss_w=131 (hit=61%), evicts=61, bank_st=0 (utility=100%)\nPERF: instrs=18833, cycles=194217, IPC=0.097\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=475 (r=414, w=61), lat=19.0 cyc, bank_st=0 (utility=100%)\nPERF: instrs=18833, cycles=194217, IPC=0.097\n"
+      },
+      "seconds": 45.28892606499994,
+      "log_sha256": "75e77a9c1f17915b4ac9e729aeb10518cd76db848822d4a8c4416d53a2802294"
+    },
+    {
+      "variant": "combined",
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 18817,
+      "cycles": 193864,
+      "external_read_beats": 406,
+      "external_write_beats": 61,
+      "external_512bit_beat_bytes": 29888,
+      "write_byte_enable_bytes": 3904,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=18817, cycles=193864, IPC=0.097\n",
+        "4": "PERF: core0: dcache: reqs=2478, miss_r=129 (hit=94%), miss_w=132 (hit=61%), evicts=61, bank_st=0 (utility=100%)\nPERF: instrs=18817, cycles=193864, IPC=0.097\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=467 (r=406, w=61), lat=19.0 cyc, bank_st=0 (utility=100%)\nPERF: instrs=18817, cycles=193864, IPC=0.097\n"
+      },
+      "seconds": 35.82767068600015,
+      "log_sha256": "25dc8a649ac734ba0f3f643119d008d20ba6dabf7325e0a03ff22e84349d4f3f"
+    }
+  ],
+  "bindings": {
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sim/rtlsim/processor.cpp": "52b85baac7b18410fa341bce414f8649a74707042d03f7bec78010db69071ca1",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline/student_mini": "3a8b6c79a58357b31ac33c913004e57ec2d3c2a221753cda23984c3c9f49a51d",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini": "ac77e0986b9dedde1ceb7f43ac83c720acec74f018a3e669bbc6159f90e4de06",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu": "73c82f0b3b1afcc5e06fe479e2a526296b116e69311052f31f648fe232bdcaba",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/rne/student_mini": "5dce4f7556fb6c00046a7b4257f02020eedec3bffcdcc411ae2ba08b3dfbb3eb",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/rne/student_mini.cu": "85dd107390eccb62c0417217bf3e59165363edfe1d41b2a1f58fa44122db48de",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/combined/student_mini": "9cd7b584b43d05d12ac7f5ca15a382b040b4f220780328dd7a33f7620e7358a9",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/combined/student_mini.cu": "62797d8a7851fbb025cbc9bde2acd48b39ea9a98c3a41b36dc1e19a610ee126d",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU单轮多类计数运行库-20261108/runtime/libvortex.so": "5ecc049752034fd2f6e3a28953c5965a403941f39f612da30a6c21bfd5c16907",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU单轮多类计数运行库-20261108/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU单轮多类计数运行库-20261108/runtime/libvortex-rtlsim.so": "9a55437cacc1e60a231dac5da1b9d07a455ba00797f1dd375f372e38642c5b35"
+  },
+  "software_lineage": [
+    {
+      "variant": "baseline",
+      "source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "executable_sha256": "3a8b6c79a58357b31ac33c913004e57ec2d3c2a221753cda23984c3c9f49a51d",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline",
+      "direct_parent_source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236"
+    },
+    {
+      "variant": "topk",
+      "source_sha256": "73c82f0b3b1afcc5e06fe479e2a526296b116e69311052f31f648fe232bdcaba",
+      "executable_sha256": "ac77e0986b9dedde1ceb7f43ac83c720acec74f018a3e669bbc6159f90e4de06",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk",
+      "direct_parent_source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236"
+    },
+    {
+      "variant": "rne",
+      "source_sha256": "85dd107390eccb62c0417217bf3e59165363edfe1d41b2a1f58fa44122db48de",
+      "executable_sha256": "5dce4f7556fb6c00046a7b4257f02020eedec3bffcdcc411ae2ba08b3dfbb3eb",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/rne",
+      "direct_parent_source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236"
+    },
+    {
+      "variant": "combined",
+      "source_sha256": "62797d8a7851fbb025cbc9bde2acd48b39ea9a98c3a41b36dc1e19a610ee126d",
+      "executable_sha256": "9cd7b584b43d05d12ac7f5ca15a382b040b4f220780328dd7a33f7620e7358a9",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "topk",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/combined",
+      "direct_parent_source_sha256": "73c82f0b3b1afcc5e06fe479e2a526296b116e69311052f31f648fe232bdcaba"
+    }
+  ],
+  "elapsed_seconds": 624.5654114490001,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794234834.3942826,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2533489069\nuser_usec 2497365994\nsystem_usec 36123074\nnice_usec 0\nnr_periods 15188\nnr_throttled 146\nthrottled_usec 166919\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "492142592",
+      "memory.peak": "1028210688",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "307\n4286\n7217\n7219"
+    }
+  },
+  "comparisons": [
+    {
+      "ordinal": 0,
+      "variant": "topk",
+      "cycle_reduction_pct": 0.32128008063500024,
+      "speedup": 1.0032231561650762,
+      "baseline_cycles": 95244,
+      "candidate_cycles": 94938,
+      "baseline_instructions": 8893,
+      "candidate_instructions": 8870,
+      "external_read_beats_delta": -3,
+      "external_write_beats_delta": 1
+    },
+    {
+      "ordinal": 0,
+      "variant": "rne",
+      "cycle_reduction_pct": 1.7638906387803965,
+      "speedup": 1.0179556239579326,
+      "baseline_cycles": 95244,
+      "candidate_cycles": 93564,
+      "baseline_instructions": 8893,
+      "candidate_instructions": 8712,
+      "external_read_beats_delta": 18,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 0,
+      "variant": "combined",
+      "cycle_reduction_pct": 2.083070849607327,
+      "speedup": 1.0212738580313103,
+      "baseline_cycles": 95244,
+      "candidate_cycles": 93260,
+      "baseline_instructions": 8893,
+      "candidate_instructions": 8703,
+      "external_read_beats_delta": 9,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 100,
+      "variant": "topk",
+      "cycle_reduction_pct": 0.5112713029709615,
+      "speedup": 1.0051389871965086,
+      "baseline_cycles": 239990,
+      "candidate_cycles": 238763,
+      "baseline_instructions": 23733,
+      "candidate_instructions": 23692,
+      "external_read_beats_delta": 0,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 100,
+      "variant": "rne",
+      "cycle_reduction_pct": 1.9650818784116009,
+      "speedup": 1.020044713823032,
+      "baseline_cycles": 239990,
+      "candidate_cycles": 235274,
+      "baseline_instructions": 23733,
+      "candidate_instructions": 23363,
+      "external_read_beats_delta": 18,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 100,
+      "variant": "combined",
+      "cycle_reduction_pct": 2.6242760115004815,
+      "speedup": 1.026950002567482,
+      "baseline_cycles": 239990,
+      "candidate_cycles": 233692,
+      "baseline_instructions": 23733,
+      "candidate_instructions": 23332,
+      "external_read_beats_delta": 10,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 330,
+      "variant": "topk",
+      "cycle_reduction_pct": 0.25083693647091065,
+      "speedup": 1.002514677103718,
+      "baseline_cycles": 102457,
+      "candidate_cycles": 102200,
+      "baseline_instructions": 9659,
+      "candidate_instructions": 9636,
+      "external_read_beats_delta": -2,
+      "external_write_beats_delta": 1
+    },
+    {
+      "ordinal": 330,
+      "variant": "rne",
+      "cycle_reduction_pct": 1.577247040221752,
+      "speedup": 1.0160252278339168,
+      "baseline_cycles": 102457,
+      "candidate_cycles": 100841,
+      "baseline_instructions": 9659,
+      "candidate_instructions": 9480,
+      "external_read_beats_delta": 20,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 330,
+      "variant": "combined",
+      "cycle_reduction_pct": 1.9071415325453644,
+      "speedup": 1.0194422057053023,
+      "baseline_cycles": 102457,
+      "candidate_cycles": 100503,
+      "baseline_instructions": 9659,
+      "candidate_instructions": 9468,
+      "external_read_beats_delta": 11,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 660,
+      "variant": "topk",
+      "cycle_reduction_pct": -0.07798942236179052,
+      "speedup": 0.9992207135373928,
+      "baseline_cycles": 193616,
+      "candidate_cycles": 193767,
+      "baseline_instructions": 18818,
+      "candidate_instructions": 18831,
+      "external_read_beats_delta": 0,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 660,
+      "variant": "rne",
+      "cycle_reduction_pct": -0.31040823072472357,
+      "speedup": 0.9969055232034271,
+      "baseline_cycles": 193616,
+      "candidate_cycles": 194217,
+      "baseline_instructions": 18818,
+      "candidate_instructions": 18833,
+      "external_read_beats_delta": 18,
+      "external_write_beats_delta": 0
+    },
+    {
+      "ordinal": 660,
+      "variant": "combined",
+      "cycle_reduction_pct": -0.12808858772002107,
+      "speedup": 0.9987207526926093,
+      "baseline_cycles": 193616,
+      "candidate_cycles": 193864,
+      "baseline_instructions": 18818,
+      "candidate_instructions": 18817,
+      "external_read_beats_delta": 10,
+      "external_write_beats_delta": 0
+    }
+  ]
+}

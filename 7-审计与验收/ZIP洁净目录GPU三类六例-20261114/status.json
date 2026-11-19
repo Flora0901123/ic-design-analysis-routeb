@@ -1,0 +1,64 @@
+{
+  "status": "ZIP_GPU_RTLSIM_P1_P2_P3_SIX_PASS",
+  "archive": "RouteB-\u672c\u673a\u9a8c\u6536\u5feb\u7167-20261114.zip",
+  "ordinals": [
+    0,
+    330,
+    660,
+    290,
+    620,
+    950
+  ],
+  "records": [
+    {
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "fault": false,
+      "cycles": 95244,
+      "instructions": 8893,
+      "log_sha256": "ae8615d0b346e72aacbb318b5493d8fc6e692e2579cb3e8f2413d98e886960d8"
+    },
+    {
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "fault": false,
+      "cycles": 102457,
+      "instructions": 9659,
+      "log_sha256": "886f51c113d336bff021814f798c9bf0ed5748ba35b40d658973f857cfe5a4f9"
+    },
+    {
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "fault": false,
+      "cycles": 193616,
+      "instructions": 18818,
+      "log_sha256": "5f973e9eb8026956692453bb97c224a2a40b8f7892a2a77d4cfed96715de739d"
+    },
+    {
+      "ordinal": 290,
+      "case_id": "P1-MINI-30",
+      "fault": true,
+      "cycles": 25370,
+      "instructions": 1774,
+      "log_sha256": "3246dcf23de1e2e75ef2119e826db2ff2a1e3684a8f0090795f2541e40ca172c"
+    },
+    {
+      "ordinal": 620,
+      "case_id": "P2-MINI-30",
+      "fault": true,
+      "cycles": 25414,
+      "instructions": 1777,
+      "log_sha256": "0e3b3f076be584a36e9e521b3e2d6aec9656819e4f3970c59ab6d053b1790d9b"
+    },
+    {
+      "ordinal": 950,
+      "case_id": "P3-MINI-30",
+      "fault": true,
+      "cycles": 26199,
+      "instructions": 1847,
+      "log_sha256": "aca2b917f564f5edaf6650e63920d74a6529eb119c622139b471afeda0d14522"
+    }
+  ],
+  "scope": "Same-host clean directory RTLSIM; preinstalled locked host toolchain",
+  "archive_sha256": "4f01d04c6770433b920ca68e383156f85925269f3e695531c6fce08babc94a5b"
+}

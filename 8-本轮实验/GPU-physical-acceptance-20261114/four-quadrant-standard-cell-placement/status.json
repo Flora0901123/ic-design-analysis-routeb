@@ -1,0 +1,28 @@
+{
+  "status": "QUADRANT_STANDARD_CELL_PLACEMENT_PASS",
+  "physical_signoff": false,
+  "input_floorplan_sha256": "0cebab5f941e857c84dff2e125ef3649849994ed273f2df7648edac9ae521871",
+  "estimated_setup_slack_ns": -11.04,
+  "estimated_hold_slack_ns": 0.31,
+  "elapsed_seconds": 598.009086101,
+  "outputs": {
+    "openroad.log": "518808880b95a19f4320010b7c1eb6f4d625fbe11f2dbcc7a709592fce22409c",
+    "placed.odb": "be1803876c7c1e418db9b3e307be95ca96b038e91c87e6661e0f7a6f39fd54a9",
+    "placement.tcl": "2282e1c701e5c2de301c356b99b0d9206ddb8ec4f2e7259a2976afb5408b8c28"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794732510.7578657,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 742863885\nuser_usec 688570404\nsystem_usec 54293480\nnice_usec 0\nnr_periods 6637\nnr_throttled 7\nthrottled_usec 9164\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "671342592",
+      "memory.peak": "6277410816",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "447"
+    }
+  }
+}

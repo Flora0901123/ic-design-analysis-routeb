@@ -1,0 +1,155 @@
+{
+  "status": "COMPLETE",
+  "formal_eligible": false,
+  "primary_operator": "p1",
+  "selected_ordinals": [
+    0,
+    100,
+    330,
+    660
+  ],
+  "selection_rule": "predeclared development probe: P1 minimum and random-maximum, P2/P3 minimum controls; seed 1 each",
+  "measurement_boundary": "whole one-case process command including bootstrap and heap initialization; final per-device RTL MPM report; not frozen weighted performance board",
+  "variants": {},
+  "records": [
+    {
+      "variant": "baseline",
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "instructions": 8893,
+      "cycles": 94890,
+      "golden_match": true,
+      "log": "baseline-0000.log",
+      "log_sha256": "a1dcb896a5be8eb40a165046bfe6a39c919f481de0cba711f196c1ebf51306d6",
+      "wall_seconds_diagnostic_only": 12.600428585999907
+    },
+    {
+      "variant": "topk",
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "instructions": 8870,
+      "cycles": 94380,
+      "golden_match": true,
+      "log": "topk-0000.log",
+      "log_sha256": "b4336ddbb2791a828c5308a5bd6d79dabb2aa0ff9b12cda60a7deae0e536f047",
+      "wall_seconds_diagnostic_only": 13.621244488000002
+    },
+    {
+      "variant": "baseline",
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "instructions": 23733,
+      "cycles": 239562,
+      "golden_match": true,
+      "log": "baseline-0100.log",
+      "log_sha256": "2e6f75afefa9db772ac5951afcaf32210a793b51595807e6fb92d21a35f3396d",
+      "wall_seconds_diagnostic_only": 14.352367842000149
+    },
+    {
+      "variant": "topk",
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "instructions": 23692,
+      "cycles": 238121,
+      "golden_match": true,
+      "log": "topk-0100.log",
+      "log_sha256": "fb31de78d62d2313afb5fef054ab88b5df71661fd764f4da7f8b44befc661266",
+      "wall_seconds_diagnostic_only": 12.600181293999867
+    },
+    {
+      "variant": "baseline",
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "instructions": 9659,
+      "cycles": 102107,
+      "golden_match": true,
+      "log": "baseline-0330.log",
+      "log_sha256": "bd18b721996bc8b112c6a65a6b48cba34b9f879873a40d5964858dbeef7a7076",
+      "wall_seconds_diagnostic_only": 11.572594497999944
+    },
+    {
+      "variant": "topk",
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "instructions": 9636,
+      "cycles": 101614,
+      "golden_match": true,
+      "log": "topk-0330.log",
+      "log_sha256": "3e85e5c5fa7714b11a1ffea04069f9b9339be6ed37cabd55fe574d4b20d86be5",
+      "wall_seconds_diagnostic_only": 15.55289920600012
+    },
+    {
+      "variant": "baseline",
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "instructions": 18818,
+      "cycles": 193233,
+      "golden_match": true,
+      "log": "baseline-0660.log",
+      "log_sha256": "8a947e2f9020f42348e5484b49ee8181843ecc6bb514f607f90587618346aba0",
+      "wall_seconds_diagnostic_only": 14.447319552000181
+    },
+    {
+      "variant": "topk",
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "instructions": 18831,
+      "cycles": 193192,
+      "golden_match": true,
+      "log": "topk-0660.log",
+      "log_sha256": "7f681d46f112f4eafad56baf91b28096cc69cfb8fb9e9d762ffa18eb70f1e8f1",
+      "wall_seconds_diagnostic_only": 13.104139629000201
+    }
+  ],
+  "comparison": [
+    {
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "baseline_cycles": 94890,
+      "topk_cycles": 94380,
+      "speedup": 1.005403687221869,
+      "cycle_reduction_pct": 0.5374644325007893,
+      "baseline_instructions": 8893,
+      "topk_instructions": 8870
+    },
+    {
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "baseline_cycles": 239562,
+      "topk_cycles": 238121,
+      "speedup": 1.006051545222807,
+      "cycle_reduction_pct": 0.6015144305023368,
+      "baseline_instructions": 23733,
+      "topk_instructions": 23692
+    },
+    {
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "baseline_cycles": 102107,
+      "topk_cycles": 101614,
+      "speedup": 1.0048516936642589,
+      "cycle_reduction_pct": 0.48282683851254005,
+      "baseline_instructions": 9659,
+      "topk_instructions": 9636
+    },
+    {
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "baseline_cycles": 193233,
+      "topk_cycles": 193192,
+      "speedup": 1.0002122241086588,
+      "cycle_reduction_pct": 0.021217907914283796,
+      "baseline_instructions": 18818,
+      "topk_instructions": 18831
+    }
+  ],
+  "promotion": "HOLD: diagnostic subset, version/physical/protocol/weights gates pending"
+}

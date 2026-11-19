@@ -1,0 +1,15 @@
+{
+  "status": "OPENROAD_LINKED_GPU_AND_164_SRAMS",
+  "physical_signoff": false,
+  "macro_counts": {
+    "sky130_sram_1kbyte_1rw1r_32x256_8": 16,
+    "sky130_sram_1kbyte_1rw1r_8x1024_8": 16,
+    "routeb_new_1w1r_8x128": 128,
+    "routeb_new_1w1r_20x64": 4
+  },
+  "netlist_sha256": "c1bc75648643478770ce38d980dfbdb76db473abecf600dcc4f3f1fbc2cc60a5",
+  "macro_library_receipt_sha256": "fd83765ff04bfc265cc4ebeb4cdaec937e9fe1b481c986d8a004b8c5a12e563b",
+  "tool_receipt_sha256": "aff7ab3e570a397eea95032c8b51ee3df38a5c089c9a7169e4e4d3d6c541cf1b",
+  "log_sha256": "3bd7ac38faf030a46834d75d69f52c13e66afe997e72587bd4b4f3858cd0125e",
+  "script_sha256": "a379fee05d5222fcfe7e19d6133a5f1adcd789f901da5cb09baeb49a82249f6f"
+}

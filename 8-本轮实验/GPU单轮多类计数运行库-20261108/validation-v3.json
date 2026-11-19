@@ -1,0 +1,85 @@
+{
+  "status": "POST_KERNEL_MULTICLASS_4_CONTROL_PASS",
+  "scope": "post-kernel report-only multi-class observation; target RTL/kernel unchanged",
+  "records": [
+    {
+      "ordinal": 0,
+      "one_kernel_launch": true,
+      "memory_requests": 446,
+      "memory_reads": 378,
+      "memory_writes": 68,
+      "dma_handshake_counts_match": true,
+      "target_counts_identical": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=8893, cycles=95244, IPC=0.093\n",
+        "4": "PERF: core0: dcache: reqs=868, miss_r=67 (hit=86%), miss_w=139 (hit=66%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=8893, cycles=95244, IPC=0.093\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=446 (r=378, w=68), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=8893, cycles=95244, IPC=0.093\n"
+      },
+      "seconds": 66.58304590700027,
+      "log_sha256": "ed8be706b9314a11076446a9875a0e2a816c0b0a9163786b0af3a0aa4eea5c4d"
+    },
+    {
+      "ordinal": 100,
+      "one_kernel_launch": true,
+      "memory_requests": 499,
+      "memory_reads": 425,
+      "memory_writes": 74,
+      "dma_handshake_counts_match": true,
+      "target_counts_identical": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=23733, cycles=239990, IPC=0.099\n",
+        "4": "PERF: core0: dcache: reqs=2479, miss_r=80 (hit=95%), miss_w=145 (hit=84%), evicts=74, bank_st=0 (utility=100%)\nPERF: instrs=23733, cycles=239990, IPC=0.099\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=499 (r=425, w=74), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=23733, cycles=239990, IPC=0.099\n"
+      },
+      "seconds": 76.96976855600042,
+      "log_sha256": "ea008687635968efe995be53b4c0ea545cbcbec852ed009d14e90ea36b4f4156"
+    },
+    {
+      "ordinal": 330,
+      "one_kernel_launch": true,
+      "memory_requests": 444,
+      "memory_reads": 376,
+      "memory_writes": 68,
+      "dma_handshake_counts_match": true,
+      "target_counts_identical": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=9659, cycles=102457, IPC=0.094\n",
+        "4": "PERF: core0: dcache: reqs=866, miss_r=67 (hit=86%), miss_w=139 (hit=66%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=9659, cycles=102457, IPC=0.094\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=444 (r=376, w=68), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=9659, cycles=102457, IPC=0.094\n"
+      },
+      "seconds": 39.974639609000405,
+      "log_sha256": "d30e7fd23aba9255820b457b5d17d4f41aa0846a26b4c417ddf64c7b1b12a660"
+    },
+    {
+      "ordinal": 660,
+      "one_kernel_launch": true,
+      "memory_requests": 457,
+      "memory_reads": 396,
+      "memory_writes": 61,
+      "dma_handshake_counts_match": true,
+      "target_counts_identical": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=18818, cycles=193616, IPC=0.097\n",
+        "4": "PERF: core0: dcache: reqs=2517, miss_r=129 (hit=94%), miss_w=133 (hit=61%), evicts=61, bank_st=0 (utility=100%)\nPERF: instrs=18818, cycles=193616, IPC=0.097\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=457 (r=396, w=61), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=18818, cycles=193616, IPC=0.097\n"
+      },
+      "seconds": 48.23803103799946,
+      "log_sha256": "2fc3c6c7bca6b8cf9ad41b2222eb89716821f5b599aa23168f9550e56004fb73"
+    }
+  ],
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794150340.6341271,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 4273280164\nuser_usec 4056196515\nsystem_usec 217083648\nnice_usec 0\nnr_periods 59147\nnr_throttled 171\nthrottled_usec 3261894\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "596881408",
+      "memory.peak": "1597546496",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "883\n16036\n16646\n16691"
+    }
+  }
+}

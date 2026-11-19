@@ -1,0 +1,15 @@
+{
+  "status": "LOCKED_16_AND_ROUTED_8_CONTROLS_SEALED",
+  "raw_ablation_controls": 16,
+  "routed_controls": 8,
+  "numeric_outputs_match": true,
+  "all_memory_counters_match_DMA_handshakes": true,
+  "P3_control_regression_removed_by_operator_dispatch": true,
+  "pure_TopK_P2_control_uses_baseline": true,
+  "raw_P3_combined_regression_pct": 0.12808858772002107,
+  "routed_P3_cycle_regression_pct": 0,
+  "formal_performance_board": false,
+  "teacher_physical_identity": false,
+  "formal_promotion": "HOLD",
+  "artifacts": 103
+}

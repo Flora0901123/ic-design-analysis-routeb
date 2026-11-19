@@ -1,0 +1,5 @@
+read_liberty -lib sky130.lib
+read_verilog mapped.v
+hierarchy -check -top vortex_physical_top
+check -assert
+tee -o independent-stat.json stat -json -liberty sky130.lib

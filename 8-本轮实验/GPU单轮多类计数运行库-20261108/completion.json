@@ -1,0 +1,26 @@
+{
+  "status": "POST_KERNEL_MULTICLASS_4_CONTROL_SEALED",
+  "controls": 4,
+  "kernel_launches_per_control": 1,
+  "mpm_classes": [
+    0,
+    4,
+    7
+  ],
+  "numeric_and_target_counts_identical": true,
+  "memory_counters_match_actual_DMA_handshakes": true,
+  "formal_performance_board": false,
+  "target_speedup_claim": false,
+  "parent_bindings": {
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sim/rtlsim/processor.cpp": "52b85baac7b18410fa341bce414f8649a74707042d03f7bec78010db69071ca1",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  },
+  "runtime_library_sha256": {
+    "librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1",
+    "libvortex-rtlsim.so": "9a55437cacc1e60a231dac5da1b9d07a455ba00797f1dd375f372e38642c5b35",
+    "libvortex.so": "5ecc049752034fd2f6e3a28953c5965a403941f39f612da30a6c21bfd5c16907"
+  },
+  "artifacts": 23
+}

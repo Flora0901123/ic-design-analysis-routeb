@@ -1,0 +1,13 @@
+{
+  "parent_source_sha256": "729eb4aeabdab2d3ad1302eddfc46264ff4419f04c09c033c85d36f253152ee1",
+  "candidate_sha256": "f8b40daf2dea9a52525e5101d3dcdb53a1d57560eb52f1dda485bdf70bd10a3b",
+  "change": "six fixed-32768 RNE calls replaced; final dynamic denominator and primitive witness unchanged",
+  "primary_operator": "p1",
+  "rtlsim_probe_ordinals": [
+    0,
+    100,
+    330,
+    660
+  ],
+  "formal_eligible": false
+}

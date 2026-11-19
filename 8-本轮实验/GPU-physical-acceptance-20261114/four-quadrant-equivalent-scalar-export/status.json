@@ -1,0 +1,20 @@
+{
+  "status": "FLATTENED_CONNECTIVITY_EQUIVALENCE_PASS",
+  "physical_signoff": false,
+  "source_placement_sha256": "be1803876c7c1e418db9b3e307be95ca96b038e91c87e6661e0f7a6f39fd54a9",
+  "initial_partition_sha256": "cb6e293eebc3ce202d18634bd9368513443cb849c53589d8f817adcc88eae958",
+  "flat_reference_sha256": "d31c309f2a8a69fa3fd2dc6231aeadab93a5190491911da444d36479a8d061a1",
+  "primitive_instances": 485236,
+  "electrical_nets_with_endpoints": 488558,
+  "connected_primitive_port_bits": 1745622,
+  "chip_top_port_bits": 2366,
+  "renamed_non_chip_bus_nets": 170239,
+  "outputs": {
+    "assignment.tsv": "8f78dbc26345701745b4dd84b5f3c2708be2c8441eb2d9815361e344846b55db",
+    "fixed-quad.v": "8a0df62cd84faa1499630b87d0120cc823a9ce80d16a91cc9124cb91b9f73494",
+    "renames.tsv": "a62dba3a88b643d0130bc7814a18fcfd2ea4fad781bfd3403a8e87ef38824c2e",
+    "scalar.log": "8a5bb3419bb0d045e1064825d2e80f1a3a0764e5898471fc54cfe66ae3bd5f93",
+    "scalar.tcl": "6cb97d621057ff35e5803ba55192493895f70ec0b59a73f26dfced95e5f0ac49"
+  },
+  "elapsed_seconds": 205.02475145199998
+}

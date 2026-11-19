@@ -1,0 +1,19 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+STUDENT_MINI_PHYSICAL_ONLY_REMOVED 0
+STUDENT_MINI_PARTITION_INSTANCES 185660 187844 65343 46389
+STUDENT_MINI_REFINE_MACRO_CONES moved=38413 threshold=2.5
+STUDENT_MINI_REFINE pass=1 candidates=3067 moves=642
+STUDENT_MINI_REFINE pass=2 candidates=1823 moves=216
+STUDENT_MINI_REFINE pass=3 candidates=1572 moves=29
+STUDENT_MINI_REFINE pass=4 candidates=1543 moves=0
+ROUTEB_HIGH_FANOUT_CACHE 24
+STUDENT_MINI_FEEDTHROUGH pass=1 moved=4
+STUDENT_MINI_FEEDTHROUGH pass=2 moved=0
+STUDENT_MINI_REFINED_INSTANCES 186143 184917 62055 52121 moves=39304 threshold=2.5
+STUDENT_MINI_CUT_NETS 13751
+[INFO PAR-0001] Writing partition to verilog.
+STUDENT_MINI_PARTITION_COMPLETE

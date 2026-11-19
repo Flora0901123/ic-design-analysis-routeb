@@ -1,0 +1,65 @@
+{
+  "status": "FRESH_RTL_PAIR_REPRODUCED",
+  "prompt": "一加一等于几",
+  "target": "VexRiscv RTL",
+  "records": [
+    {
+      "variant": "baseline",
+      "ttft_cycles": 3859315,
+      "per_token_decode_cycles": 831250.5,
+      "session_cycles": 7184546,
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "logical_counters": {
+        "instructions": 3987658,
+        "ibus_bytes": 2556800,
+        "dbus_bytes": 1045926,
+        "dma_bytes": 0
+      },
+      "log_sha256": "975acdfc2237636d49fcee5ca3ee96b7e16293826b5374e9e6e656c78f13a38f"
+    },
+    {
+      "variant": "stride_rne15",
+      "ttft_cycles": 3681514,
+      "per_token_decode_cycles": 771051.75,
+      "session_cycles": 6765949,
+      "tokens": [
+        92,
+        16,
+        15,
+        8,
+        4
+      ],
+      "logical_counters": {
+        "instructions": 3760500,
+        "ibus_bytes": 2377696,
+        "dbus_bytes": 973514,
+        "dma_bytes": 0
+      },
+      "log_sha256": "114b34f17c005f4e92e071295f5b4851b9a66236d4b7b11d5acbe2d95431d222"
+    }
+  ],
+  "seal_sha256": "2f60af2adb9a539b6df16da05c3c3577f9a46d96ff14a6dedc3650205c2447a0",
+  "replay_script_sha256": "fab15da6e86f2061365337f17ff90d32f1b6bffed4208b0eabd8d824f10bea30",
+  "target_clock_reference_hz": 100000000,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794469105.9311585,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 48922061\nuser_usec 47715544\nsystem_usec 1206517\nnice_usec 0\nnr_periods 702\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "13078528",
+      "memory.peak": "286035968",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "342"
+    }
+  }
+}

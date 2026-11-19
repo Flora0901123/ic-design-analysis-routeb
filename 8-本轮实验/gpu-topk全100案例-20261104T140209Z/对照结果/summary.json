@@ -1,0 +1,23 @@
+{
+  "parent": "8-本轮实验\\全100案例双后端-20261104T134332Z\\gpu-simx",
+  "candidate": "8-本轮实验\\gpu-topk全100案例-20261104T140209Z",
+  "records": 1000,
+  "matching_parent_outputs": 1000,
+  "golden_matches": 970,
+  "failures": 0,
+  "unsupported": 30,
+  "fully_matched_cases": 97,
+  "promotion": "HOLD",
+  "reason": "SimX functional only; RTLSIM performance, DMA/protocol, physical/source binding and frozen performance weights pending",
+  "experiment": {
+    "variant": "topk",
+    "parent_run": "8-本轮实验/全100案例双后端-20261104T134332Z/gpu-simx",
+    "baseline_sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f",
+    "candidate_sha256": "729eb4aeabdab2d3ad1302eddfc46264ff4419f04c09c033c85d36f253152ee1",
+    "golden_sha256": "b96fc48dc57b6792203c39682dc08c51c65187f03c2e8f54444f32892858b974",
+    "cases": 100,
+    "records": 1000,
+    "performance_eligible": false,
+    "only_change": "stable selection top-k sorting; no arithmetic, model or workload changes"
+  }
+}

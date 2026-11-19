@@ -1,0 +1,262 @@
+{
+  "status": "OPERATOR_DISPATCH_8_CONTROL_PASS",
+  "formal_performance_board": false,
+  "formal_promotion": "HOLD",
+  "tool": "same Verilator 5.040 production model",
+  "selected_ordinals": [
+    0,
+    100,
+    330,
+    660
+  ],
+  "seeds": [
+    1
+  ],
+  "records": [
+    {
+      "variant": "topk",
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 8893,
+      "cycles": 95244,
+      "external_read_beats": 378,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 28544,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=8893, cycles=95244, IPC=0.093\n",
+        "4": "PERF: core0: dcache: reqs=868, miss_r=67 (hit=86%), miss_w=139 (hit=66%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=8893, cycles=95244, IPC=0.093\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=446 (r=378, w=68), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=8893, cycles=95244, IPC=0.093\n"
+      },
+      "seconds": 26.451499755999976,
+      "log_sha256": "70bd2e99e6e9c7ff28ff930ff2f19d42a615313e3445907abfbed8a36edce94d"
+    },
+    {
+      "variant": "combined",
+      "ordinal": 0,
+      "case_id": "P1-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 8712,
+      "cycles": 93564,
+      "external_read_beats": 396,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 29696,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=8712, cycles=93564, IPC=0.093\n",
+        "4": "PERF: core0: dcache: reqs=818, miss_r=67 (hit=85%), miss_w=142 (hit=62%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=8712, cycles=93564, IPC=0.093\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=464 (r=396, w=68), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=8712, cycles=93564, IPC=0.093\n"
+      },
+      "seconds": 29.0551137450002,
+      "log_sha256": "b54ae27b3bd700a6b4898e7b53973f5fdba6ea9872df8516378734129ca11103"
+    },
+    {
+      "variant": "topk",
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 23692,
+      "cycles": 238763,
+      "external_read_beats": 425,
+      "external_write_beats": 74,
+      "external_512bit_beat_bytes": 31936,
+      "write_byte_enable_bytes": 4736,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=23692, cycles=238763, IPC=0.099\n",
+        "4": "PERF: core0: dcache: reqs=2370, miss_r=77 (hit=95%), miss_w=145 (hit=83%), evicts=74, bank_st=0 (utility=100%)\nPERF: instrs=23692, cycles=238763, IPC=0.099\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=499 (r=425, w=74), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=23692, cycles=238763, IPC=0.099\n"
+      },
+      "seconds": 58.541187849999915,
+      "log_sha256": "9237923d10bd8e384d2fbbb5761af2b67f7103eb9bddec5e26d27fd1285e83f7"
+    },
+    {
+      "variant": "combined",
+      "ordinal": 100,
+      "case_id": "P1-MINI-11",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 23332,
+      "cycles": 233692,
+      "external_read_beats": 435,
+      "external_write_beats": 74,
+      "external_512bit_beat_bytes": 32576,
+      "write_byte_enable_bytes": 4736,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=23332, cycles=233692, IPC=0.100\n",
+        "4": "PERF: core0: dcache: reqs=2350, miss_r=77 (hit=95%), miss_w=149 (hit=81%), evicts=74, bank_st=0 (utility=100%)\nPERF: instrs=23332, cycles=233692, IPC=0.100\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=509 (r=435, w=74), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=23332, cycles=233692, IPC=0.100\n"
+      },
+      "seconds": 58.84281205299976,
+      "log_sha256": "880df633b29b89a2b6f2e2f85e1ed3379db6d97acf4cdde85351071a330ead15"
+    },
+    {
+      "variant": "topk",
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 9659,
+      "cycles": 102457,
+      "external_read_beats": 376,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 28416,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=9659, cycles=102457, IPC=0.094\n",
+        "4": "PERF: core0: dcache: reqs=866, miss_r=67 (hit=86%), miss_w=139 (hit=66%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=9659, cycles=102457, IPC=0.094\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=444 (r=376, w=68), lat=19.2 cyc, bank_st=0 (utility=100%)\nPERF: instrs=9659, cycles=102457, IPC=0.094\n"
+      },
+      "seconds": 25.57793147600023,
+      "log_sha256": "99469da05be7e09a79a69787f5c321b7bb01a0fc1de6fafab9ae57f2ebb1ae7b"
+    },
+    {
+      "variant": "combined",
+      "ordinal": 330,
+      "case_id": "P2-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 9480,
+      "cycles": 100841,
+      "external_read_beats": 396,
+      "external_write_beats": 68,
+      "external_512bit_beat_bytes": 29696,
+      "write_byte_enable_bytes": 4352,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=9480, cycles=100841, IPC=0.094\n",
+        "4": "PERF: core0: dcache: reqs=817, miss_r=67 (hit=85%), miss_w=142 (hit=62%), evicts=68, bank_st=0 (utility=100%)\nPERF: instrs=9480, cycles=100841, IPC=0.094\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=464 (r=396, w=68), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=9480, cycles=100841, IPC=0.094\n"
+      },
+      "seconds": 32.07342400300013,
+      "log_sha256": "58f71631d78888e2dca6f9f13591fa68e68487b5777e13ed52035a96f45bcfb0"
+    },
+    {
+      "variant": "topk",
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 18818,
+      "cycles": 193616,
+      "external_read_beats": 396,
+      "external_write_beats": 61,
+      "external_512bit_beat_bytes": 29248,
+      "write_byte_enable_bytes": 3904,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=18818, cycles=193616, IPC=0.097\n",
+        "4": "PERF: core0: dcache: reqs=2517, miss_r=129 (hit=94%), miss_w=133 (hit=61%), evicts=61, bank_st=0 (utility=100%)\nPERF: instrs=18818, cycles=193616, IPC=0.097\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=457 (r=396, w=61), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=18818, cycles=193616, IPC=0.097\n"
+      },
+      "seconds": 46.05203820299994,
+      "log_sha256": "e43978e9e7044d8468d3f6bc79b957d3ed4b37978e5bbe4f73e661adba45522b"
+    },
+    {
+      "variant": "combined",
+      "ordinal": 660,
+      "case_id": "P3-MINI-01",
+      "seed": 1,
+      "golden_match": true,
+      "instructions": 18818,
+      "cycles": 193616,
+      "external_read_beats": 396,
+      "external_write_beats": 61,
+      "external_512bit_beat_bytes": 29248,
+      "write_byte_enable_bytes": 3904,
+      "memory_counters_equal_handshakes": true,
+      "raw_class_reports": {
+        "0": "PERF: instrs=18818, cycles=193616, IPC=0.097\n",
+        "4": "PERF: core0: dcache: reqs=2517, miss_r=129 (hit=94%), miss_w=133 (hit=61%), evicts=61, bank_st=0 (utility=100%)\nPERF: instrs=18818, cycles=193616, IPC=0.097\n",
+        "7": "PERF: core0: lmem: reqs=0, bank_stalls=0 (utility=0%)\nPERF: core0: coalescer: misses=0\nPERF: memory: reqs=457 (r=396, w=61), lat=19.1 cyc, bank_st=0 (utility=100%)\nPERF: instrs=18818, cycles=193616, IPC=0.097\n"
+      },
+      "seconds": 45.41056039199975,
+      "log_sha256": "5366ba9428e2aa6f7cfd6a56513717f15a8ffdafa4737ce53f41a8bc37fcb16c"
+    }
+  ],
+  "bindings": {
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini": "3c335b58e1d6a6f7265c0625d82b7cd86405cee635d406af89787ce354c1459a",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/sim/rtlsim/processor.cpp": "52b85baac7b18410fa341bce414f8649a74707042d03f7bec78010db69071ca1",
+    "/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/7-审计与验收/route_locked_gpu_candidate.py": "2a117b32da9b034f402cf7f28c8b613835c983bd7cf3c239bab28f2e4bdf90f2",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline/student_mini": "3a8b6c79a58357b31ac33c913004e57ec2d3c2a221753cda23984c3c9f49a51d",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline/student_mini.cu": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini": "ac77e0986b9dedde1ceb7f43ac83c720acec74f018a3e669bbc6159f90e4de06",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu": "73c82f0b3b1afcc5e06fe479e2a526296b116e69311052f31f648fe232bdcaba",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/rne/student_mini": "5dce4f7556fb6c00046a7b4257f02020eedec3bffcdcc411ae2ba08b3dfbb3eb",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/rne/student_mini.cu": "85dd107390eccb62c0417217bf3e59165363edfe1d41b2a1f58fa44122db48de",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/combined/student_mini": "9cd7b584b43d05d12ac7f5ca15a382b040b4f220780328dd7a33f7620e7358a9",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/combined/student_mini.cu": "62797d8a7851fbb025cbc9bde2acd48b39ea9a98c3a41b36dc1e19a610ee126d",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU单轮多类计数运行库-20261108/runtime/libvortex.so": "5ecc049752034fd2f6e3a28953c5965a403941f39f612da30a6c21bfd5c16907",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU单轮多类计数运行库-20261108/runtime/librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1",
+    "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU单轮多类计数运行库-20261108/runtime/libvortex-rtlsim.so": "9a55437cacc1e60a231dac5da1b9d07a455ba00797f1dd375f372e38642c5b35"
+  },
+  "software_lineage": [
+    {
+      "variant": "baseline",
+      "source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "executable_sha256": "3a8b6c79a58357b31ac33c913004e57ec2d3c2a221753cda23984c3c9f49a51d",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/baseline",
+      "direct_parent_source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236"
+    },
+    {
+      "variant": "topk",
+      "source_sha256": "73c82f0b3b1afcc5e06fe479e2a526296b116e69311052f31f648fe232bdcaba",
+      "executable_sha256": "ac77e0986b9dedde1ceb7f43ac83c720acec74f018a3e669bbc6159f90e4de06",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk",
+      "direct_parent_source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236"
+    },
+    {
+      "variant": "rne",
+      "source_sha256": "85dd107390eccb62c0417217bf3e59165363edfe1d41b2a1f58fa44122db48de",
+      "executable_sha256": "5dce4f7556fb6c00046a7b4257f02020eedec3bffcdcc411ae2ba08b3dfbb3eb",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "baseline",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/rne",
+      "direct_parent_source_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236"
+    },
+    {
+      "variant": "combined",
+      "source_sha256": "62797d8a7851fbb025cbc9bde2acd48b39ea9a98c3a41b36dc1e19a610ee126d",
+      "executable_sha256": "9cd7b584b43d05d12ac7f5ca15a382b040b4f220780328dd7a33f7620e7358a9",
+      "parent_baseline_sha256": "07fc640f95fd2edb1bd5601dc4451c78d5fa22c204ea20aa8955a17e5b9d6236",
+      "direct_parent": "topk",
+      "build_exit_code": 0,
+      "work": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/combined",
+      "direct_parent_source_sha256": "73c82f0b3b1afcc5e06fe479e2a526296b116e69311052f31f648fe232bdcaba"
+    }
+  ],
+  "elapsed_seconds": 322.78084745800015,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794235610.733184,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 3926436574\nuser_usec 3873133688\nsystem_usec 53302885\nnice_usec 0\nnr_periods 23600\nnr_throttled 146\nthrottled_usec 166919\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "498462720",
+      "memory.peak": "1028210688",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "307\n9977\n11177\n11178"
+    }
+  },
+  "scope": "P1 optimized; pure TopK P2/P3 baseline; combined P2 RNE and P3 baseline; descriptor-only routing"
+}

@@ -1,0 +1,744 @@
+Sat Nov 14 13:25:13 CST 2026: Starting GDS to MAG using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic
+
+Magic 8.3 revision 306 - Compiled on Thu Nov 12 13:42:28 CST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.291-63-ge829452
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 5.0
+Library name: DEFAULT.DB
+Reading "routeb_new_1w1r_20x64".
+Reading "routeb_new_1w1r_20x64_bank".
+Reading "routeb_new_1w1r_20x64_capped_replica_bitcell_array".
+Reading "routeb_new_1w1r_20x64_replica_bitcell_array".
+Reading "routeb_new_1w1r_20x64_bitcell_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Reading "routeb_new_1w1r_20x64_replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Reading "routeb_new_1w1r_20x64_replica_column_0".
+Reading "routeb_new_1w1r_20x64_dummy_array".
+Reading "routeb_new_1w1r_20x64_col_cap_array_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "routeb_new_1w1r_20x64_col_cap_array".
+Reading "routeb_new_1w1r_20x64_row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Reading "routeb_new_1w1r_20x64_row_cap_array_0".
+Reading "routeb_new_1w1r_20x64_contact_7".
+Saving contents of cell routeb_new_1w1r_20x64_contact_7
+Reading "routeb_new_1w1r_20x64_contact_8".
+Saving contents of cell routeb_new_1w1r_20x64_contact_8
+Reading "routeb_new_1w1r_20x64_port_data".
+Reading "routeb_new_1w1r_20x64_precharge_array".
+Reading "routeb_new_1w1r_20x64_precharge_0".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w0_550_sli_dli".
+Reading "routeb_new_1w1r_20x64_contact_11".
+Saving contents of cell routeb_new_1w1r_20x64_contact_11
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m1_w0_550_sli_dli
+Reading "routeb_new_1w1r_20x64_contact_15".
+Saving contents of cell routeb_new_1w1r_20x64_contact_15
+Reading "routeb_new_1w1r_20x64_contact_13".
+Saving contents of cell routeb_new_1w1r_20x64_contact_13
+Reading "routeb_new_1w1r_20x64_contact_18".
+Saving contents of cell routeb_new_1w1r_20x64_contact_18
+Reading "routeb_new_1w1r_20x64_contact_12".
+Saving contents of cell routeb_new_1w1r_20x64_contact_12
+Reading "routeb_new_1w1r_20x64_contact_23".
+Saving contents of cell routeb_new_1w1r_20x64_contact_23
+Reading "routeb_new_1w1r_20x64_contact_21".
+Saving contents of cell routeb_new_1w1r_20x64_contact_21
+Reading "routeb_new_1w1r_20x64_write_driver_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "routeb_new_1w1r_20x64_port_data_0".
+Reading "routeb_new_1w1r_20x64_precharge_array_0".
+Reading "routeb_new_1w1r_20x64_precharge_1".
+Reading "routeb_new_1w1r_20x64_sense_amp_array".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "routeb_new_1w1r_20x64_port_address".
+Reading "routeb_new_1w1r_20x64_hierarchical_decoder".
+Reading "routeb_new_1w1r_20x64_hierarchical_predecode2x4".
+Reading "routeb_new_1w1r_20x64_pinv_dec".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_360_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_contact_10".
+Saving contents of cell routeb_new_1w1r_20x64_contact_10
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w0_360_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_contact_14".
+Saving contents of cell routeb_new_1w1r_20x64_contact_14
+Reading "routeb_new_1w1r_20x64_and2_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "routeb_new_1w1r_20x64_contact_16".
+Saving contents of cell routeb_new_1w1r_20x64_contact_16
+Reading "routeb_new_1w1r_20x64_contact_19".
+Saving contents of cell routeb_new_1w1r_20x64_contact_19
+Reading "routeb_new_1w1r_20x64_contact_20".
+Saving contents of cell routeb_new_1w1r_20x64_contact_20
+Reading "routeb_new_1w1r_20x64_and3_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "routeb_new_1w1r_20x64_contact_22".
+Saving contents of cell routeb_new_1w1r_20x64_contact_22
+Reading "routeb_new_1w1r_20x64_wordline_driver_array".
+Reading "routeb_new_1w1r_20x64_wordline_driver".
+Reading "routeb_new_1w1r_20x64_pinv_dec_0".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w7_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m1_w7_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m1_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_and2_dec_0".
+Reading "routeb_new_1w1r_20x64_port_address_0".
+Reading "routeb_new_1w1r_20x64_control_logic_w".
+Reading "routeb_new_1w1r_20x64_dff_buf_array".
+Reading "routeb_new_1w1r_20x64_dff_buf_0".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "routeb_new_1w1r_20x64_pinv".
+Reading "routeb_new_1w1r_20x64_pmos_m2_w1_260_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m2_w1_260_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m2_w0_740_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m2_w0_740_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_contact_24".
+Saving contents of cell routeb_new_1w1r_20x64_contact_24
+Reading "routeb_new_1w1r_20x64_contact_25".
+Saving contents of cell routeb_new_1w1r_20x64_contact_25
+Reading "routeb_new_1w1r_20x64_pinv_0".
+Reading "routeb_new_1w1r_20x64_pmos_m3_w1_680_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m3_w1_680_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m3_w1_680_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m3_w1_680_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_pdriver_0".
+Reading "routeb_new_1w1r_20x64_pinv_4".
+Reading "routeb_new_1w1r_20x64_pinv_5".
+Reading "routeb_new_1w1r_20x64_pinv_6".
+Reading "routeb_new_1w1r_20x64_pmos_m3_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m3_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m3_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m3_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_pinv_7".
+Reading "routeb_new_1w1r_20x64_pmos_m9_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m9_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m9_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m9_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_pinv_8".
+Reading "routeb_new_1w1r_20x64_pmos_m26_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m26_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m26_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m26_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_pinv_13".
+Reading "routeb_new_1w1r_20x64_pand2".
+Reading "routeb_new_1w1r_20x64_pnand2".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sli_dactive".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w0_740_sli_dactive
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dli".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dli
+Reading "routeb_new_1w1r_20x64_pdriver".
+Reading "routeb_new_1w1r_20x64_pinv_1".
+Reading "routeb_new_1w1r_20x64_pmos_m7_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m7_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m7_w1_680_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m7_w1_680_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_pdriver_1".
+Reading "routeb_new_1w1r_20x64_pinv_9".
+Reading "routeb_new_1w1r_20x64_pmos_m4_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m4_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m4_w1_260_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m4_w1_260_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_pinv_10".
+Reading "routeb_new_1w1r_20x64_pmos_m12_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m12_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m12_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m12_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_pand3".
+Reading "routeb_new_1w1r_20x64_pnand3".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dactive".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dactive
+Reading "routeb_new_1w1r_20x64_pdriver_2".
+Reading "routeb_new_1w1r_20x64_pinv_11".
+Reading "routeb_new_1w1r_20x64_pmos_m16_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m16_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m16_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m16_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_delay_chain".
+Reading "routeb_new_1w1r_20x64_pinv_14".
+Reading "routeb_new_1w1r_20x64_pnand2_0".
+Reading "routeb_new_1w1r_20x64_pdriver_4".
+Reading "routeb_new_1w1r_20x64_contact_27".
+Saving contents of cell routeb_new_1w1r_20x64_contact_27
+Reading "routeb_new_1w1r_20x64_control_logic_r".
+Reading "routeb_new_1w1r_20x64_pand3_0".
+Reading "routeb_new_1w1r_20x64_pdriver_3".
+Reading "routeb_new_1w1r_20x64_pinv_12".
+Reading "routeb_new_1w1r_20x64_pmos_m11_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_pmos_m11_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_nmos_m11_w2_000_sli_dli_da_p".
+Saving contents of cell routeb_new_1w1r_20x64_nmos_m11_w2_000_sli_dli_da_p
+Reading "routeb_new_1w1r_20x64_row_addr_dff".
+Reading "routeb_new_1w1r_20x64_data_dff".
+Reading "routeb_new_1w1r_20x64_cr_1".
+Reading "routeb_new_1w1r_20x64_contact_33".
+Reading "routeb_new_1w1r_20x64_bank".
+Reading "routeb_new_1w1r_20x64_capped_replica_bitcell_array".
+Reading "routeb_new_1w1r_20x64_replica_bitcell_array".
+Reading "routeb_new_1w1r_20x64_bitcell_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Reading "routeb_new_1w1r_20x64_replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Reading "routeb_new_1w1r_20x64_replica_column_0".
+Reading "routeb_new_1w1r_20x64_dummy_array".
+Reading "routeb_new_1w1r_20x64_col_cap_array_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "routeb_new_1w1r_20x64_col_cap_array".
+Reading "routeb_new_1w1r_20x64_row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Reading "routeb_new_1w1r_20x64_row_cap_array_0".
+Reading "routeb_new_1w1r_20x64_contact_7".
+Reading "routeb_new_1w1r_20x64_contact_8".
+Reading "routeb_new_1w1r_20x64_port_data".
+Reading "routeb_new_1w1r_20x64_precharge_array".
+Reading "routeb_new_1w1r_20x64_precharge_0".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w0_550_sli_dli".
+Reading "routeb_new_1w1r_20x64_contact_11".
+Reading "routeb_new_1w1r_20x64_contact_15".
+Reading "routeb_new_1w1r_20x64_contact_13".
+Reading "routeb_new_1w1r_20x64_contact_18".
+Reading "routeb_new_1w1r_20x64_contact_12".
+Reading "routeb_new_1w1r_20x64_contact_23".
+Reading "routeb_new_1w1r_20x64_contact_21".
+Reading "routeb_new_1w1r_20x64_write_driver_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "routeb_new_1w1r_20x64_port_data_0".
+Reading "routeb_new_1w1r_20x64_precharge_array_0".
+Reading "routeb_new_1w1r_20x64_precharge_1".
+Reading "routeb_new_1w1r_20x64_sense_amp_array".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "routeb_new_1w1r_20x64_port_address".
+Reading "routeb_new_1w1r_20x64_hierarchical_decoder".
+Reading "routeb_new_1w1r_20x64_hierarchical_predecode2x4".
+Reading "routeb_new_1w1r_20x64_pinv_dec".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_360_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_contact_10".
+Reading "routeb_new_1w1r_20x64_contact_14".
+Reading "routeb_new_1w1r_20x64_and2_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "routeb_new_1w1r_20x64_contact_16".
+Reading "routeb_new_1w1r_20x64_contact_19".
+Reading "routeb_new_1w1r_20x64_contact_20".
+Reading "routeb_new_1w1r_20x64_and3_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "routeb_new_1w1r_20x64_contact_22".
+Reading "routeb_new_1w1r_20x64_wordline_driver_array".
+Reading "routeb_new_1w1r_20x64_wordline_driver".
+Reading "routeb_new_1w1r_20x64_pinv_dec_0".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w7_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_and2_dec_0".
+Reading "routeb_new_1w1r_20x64_port_address_0".
+Reading "routeb_new_1w1r_20x64_control_logic_w".
+Reading "routeb_new_1w1r_20x64_dff_buf_array".
+Reading "routeb_new_1w1r_20x64_dff_buf_0".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "routeb_new_1w1r_20x64_pinv".
+Reading "routeb_new_1w1r_20x64_pmos_m2_w1_260_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m2_w0_740_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_contact_24".
+Reading "routeb_new_1w1r_20x64_contact_25".
+Reading "routeb_new_1w1r_20x64_pinv_0".
+Reading "routeb_new_1w1r_20x64_pmos_m3_w1_680_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m3_w1_680_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pdriver_0".
+Reading "routeb_new_1w1r_20x64_pinv_4".
+Reading "routeb_new_1w1r_20x64_pinv_5".
+Reading "routeb_new_1w1r_20x64_pinv_6".
+Reading "routeb_new_1w1r_20x64_pmos_m3_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m3_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pinv_7".
+Reading "routeb_new_1w1r_20x64_pmos_m9_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m9_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pinv_8".
+Reading "routeb_new_1w1r_20x64_pmos_m26_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m26_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pinv_13".
+Reading "routeb_new_1w1r_20x64_pand2".
+Reading "routeb_new_1w1r_20x64_pnand2".
+Reading "routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sli_dactive".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dli".
+Reading "routeb_new_1w1r_20x64_pdriver".
+Reading "routeb_new_1w1r_20x64_pinv_1".
+Reading "routeb_new_1w1r_20x64_pmos_m7_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m7_w1_680_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pdriver_1".
+Reading "routeb_new_1w1r_20x64_pinv_9".
+Reading "routeb_new_1w1r_20x64_pmos_m4_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m4_w1_260_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pinv_10".
+Reading "routeb_new_1w1r_20x64_pmos_m12_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m12_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_pand3".
+Reading "routeb_new_1w1r_20x64_pnand3".
+Reading "routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dactive".
+Reading "routeb_new_1w1r_20x64_pdriver_2".
+Reading "routeb_new_1w1r_20x64_pinv_11".
+Reading "routeb_new_1w1r_20x64_pmos_m16_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m16_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_delay_chain".
+Reading "routeb_new_1w1r_20x64_pinv_14".
+Reading "routeb_new_1w1r_20x64_pnand2_0".
+Reading "routeb_new_1w1r_20x64_pdriver_4".
+Reading "routeb_new_1w1r_20x64_contact_27".
+Reading "routeb_new_1w1r_20x64_control_logic_r".
+Reading "routeb_new_1w1r_20x64_pand3_0".
+Reading "routeb_new_1w1r_20x64_pdriver_3".
+Reading "routeb_new_1w1r_20x64_pinv_12".
+Reading "routeb_new_1w1r_20x64_pmos_m11_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_nmos_m11_w2_000_sli_dli_da_p".
+Reading "routeb_new_1w1r_20x64_row_addr_dff".
+Reading "routeb_new_1w1r_20x64_data_dff".
+Reading "routeb_new_1w1r_20x64_cr_1".
+Reading "routeb_new_1w1r_20x64_contact_33".
+Finished reading gds routeb_new_1w1r_20x64.gds
+Finished loading cell routeb_new_1w1r_20x64
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m16_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_hierarchical_decoder'
+Writing 'routeb_new_1w1r_20x64_nmos_m2_w0_740_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_dummy_array'
+Writing 'routeb_new_1w1r_20x64_pinv_10'
+Writing 'routeb_new_1w1r_20x64_and2_dec'
+Writing 'routeb_new_1w1r_20x64_precharge_array_0'
+Writing 'routeb_new_1w1r_20x64_pand3_0'
+Writing 'routeb_new_1w1r_20x64_pinv_11'
+Writing 'routeb_new_1w1r_20x64_pinv_12'
+Writing 'routeb_new_1w1r_20x64_contact_7'
+Writing 'sky130_fd_bd_sram__openram_dp_cell'
+Writing 'routeb_new_1w1r_20x64_pmos_m11_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_nmos_m7_w1_680_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_13'
+Writing 'routeb_new_1w1r_20x64_pinv'
+Writing 'routeb_new_1w1r_20x64_contact_8'
+Writing 'routeb_new_1w1r_20x64_pinv_14'
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dli'
+Writing 'routeb_new_1w1r_20x64_pand2'
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w0_360_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pdriver_0'
+Writing 'routeb_new_1w1r_20x64_row_cap_array_0'
+Writing 'routeb_new_1w1r_20x64_pand3'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_cap_col'
+Writing 'routeb_new_1w1r_20x64_pdriver_1'
+Writing 'routeb_new_1w1r_20x64_dff_buf_0'
+Writing 'routeb_new_1w1r_20x64_port_data_0'
+Writing 'routeb_new_1w1r_20x64'
+Writing 'routeb_new_1w1r_20x64_pdriver_2'
+Writing 'sky130_fd_bd_sram__openram_dff'
+Writing 'routeb_new_1w1r_20x64_pdriver_3'
+Writing 'routeb_new_1w1r_20x64_row_cap_array'
+Writing 'routeb_new_1w1r_20x64_col_cap_array'
+Writing 'routeb_new_1w1r_20x64_pdriver_4'
+Writing 'routeb_new_1w1r_20x64_pmos_m12_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_cr_1'
+Writing 'routeb_new_1w1r_20x64_bitcell_array'
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w0_740_sactive_dactive'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_cap_row'
+Writing 'routeb_new_1w1r_20x64_capped_replica_bitcell_array'
+Writing 'routeb_new_1w1r_20x64_nmos_m3_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_0'
+Writing 'routeb_new_1w1r_20x64_nmos_m4_w1_260_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_nmos_m16_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_1'
+Writing 'routeb_new_1w1r_20x64_nmos_m3_w1_680_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_wordline_driver'
+Writing 'routeb_new_1w1r_20x64_nmos_m9_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m1_w7_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_precharge_0'
+Writing 'routeb_new_1w1r_20x64_bank'
+Writing 'routeb_new_1w1r_20x64_pmos_m2_w1_260_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_precharge_1'
+Writing 'routeb_new_1w1r_20x64_pinv_4'
+Writing 'routeb_new_1w1r_20x64_nmos_m11_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m7_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_5'
+Writing 'routeb_new_1w1r_20x64_port_data'
+Writing 'routeb_new_1w1r_20x64_pmos_m26_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_contact_20'
+Writing 'routeb_new_1w1r_20x64_pinv_6'
+Writing 'routeb_new_1w1r_20x64_port_address_0'
+Writing 'routeb_new_1w1r_20x64_contact_10'
+Writing 'routeb_new_1w1r_20x64_contact_21'
+Writing 'routeb_new_1w1r_20x64_pinv_7'
+Writing 'routeb_new_1w1r_20x64_hierarchical_predecode2x4'
+Writing 'routeb_new_1w1r_20x64_contact_33'
+Writing 'routeb_new_1w1r_20x64_contact_22'
+Writing 'sky130_fd_bd_sram__openram_dp_nand3_dec'
+Writing 'routeb_new_1w1r_20x64_contact_11'
+Writing 'routeb_new_1w1r_20x64_pinv_8'
+Writing 'routeb_new_1w1r_20x64_contact_23'
+Writing 'routeb_new_1w1r_20x64_contact_12'
+Writing 'routeb_new_1w1r_20x64_pinv_9'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_replica'
+Writing 'routeb_new_1w1r_20x64_contact_24'
+Writing 'routeb_new_1w1r_20x64_contact_13'
+Writing 'routeb_new_1w1r_20x64_replica_column_0'
+Writing 'routeb_new_1w1r_20x64_row_addr_dff'
+Writing 'routeb_new_1w1r_20x64_control_logic_r'
+Writing 'routeb_new_1w1r_20x64_delay_chain'
+Writing 'routeb_new_1w1r_20x64_pmos_m1_w1_120_sli_dli'
+Writing 'routeb_new_1w1r_20x64_contact_25'
+Writing 'routeb_new_1w1r_20x64_contact_14'
+Writing 'routeb_new_1w1r_20x64_nmos_m12_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pnand2'
+Writing 'routeb_new_1w1r_20x64_contact_15'
+Writing 'routeb_new_1w1r_20x64_contact_27'
+Writing 'routeb_new_1w1r_20x64_pnand3'
+Writing 'routeb_new_1w1r_20x64_dff_buf_array'
+Writing 'routeb_new_1w1r_20x64_wordline_driver_array'
+Writing 'routeb_new_1w1r_20x64_contact_16'
+Writing 'routeb_new_1w1r_20x64_sense_amp_array'
+Writing 'routeb_new_1w1r_20x64_write_driver_array'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_dummy'
+Writing 'routeb_new_1w1r_20x64_and2_dec_0'
+Writing 'routeb_new_1w1r_20x64_data_dff'
+Writing 'routeb_new_1w1r_20x64_and3_dec'
+Writing 'routeb_new_1w1r_20x64_pmos_m3_w2_000_sli_dli_da_p'
+Writing 'sky130_fd_bd_sram__openram_write_driver'
+Writing 'routeb_new_1w1r_20x64_contact_18'
+Writing 'routeb_new_1w1r_20x64_precharge_array'
+Writing 'routeb_new_1w1r_20x64_control_logic_w'
+Writing 'routeb_new_1w1r_20x64_contact_19'
+Writing 'routeb_new_1w1r_20x64_pdriver'
+Writing 'routeb_new_1w1r_20x64_pmos_m3_w1_680_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pmos_m1_w0_550_sli_dli'
+Writing 'routeb_new_1w1r_20x64_pmos_m9_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_replica_column'
+Writing 'sky130_fd_bd_sram__openram_dp_nand2_dec'
+Writing 'routeb_new_1w1r_20x64_nmos_m1_w0_740_sli_dactive'
+Writing 'routeb_new_1w1r_20x64_nmos_m26_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_dec_0'
+Writing 'routeb_new_1w1r_20x64_port_address'
+Writing 'routeb_new_1w1r_20x64_pnand2_0'
+Writing 'sky130_fd_bd_sram__openram_sense_amp'
+Writing 'routeb_new_1w1r_20x64_replica_bitcell_array'
+Writing 'routeb_new_1w1r_20x64_pmos_m4_w2_000_sli_dli_da_p'
+Writing 'routeb_new_1w1r_20x64_pinv_dec'
+Writing 'routeb_new_1w1r_20x64_col_cap_array_0'
+Annotating port orders from routeb_new_1w1r_20x64.sp
+Annotating cell routeb_new_1w1r_20x64_pinv_4
+Cell routeb_new_1w1r_20x64_pinv_4 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_7
+Cell routeb_new_1w1r_20x64_pinv_7 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_8
+Cell routeb_new_1w1r_20x64_pinv_8 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_5
+Cell routeb_new_1w1r_20x64_pinv_5 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_6
+Cell routeb_new_1w1r_20x64_pinv_6 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_0
+Cell routeb_new_1w1r_20x64_pdriver_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_1
+Cell routeb_new_1w1r_20x64_pinv_1 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver
+Cell routeb_new_1w1r_20x64_pdriver port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pnand2
+Cell routeb_new_1w1r_20x64_pnand2 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pand2
+Cell routeb_new_1w1r_20x64_pand2 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pnand2_0
+Cell routeb_new_1w1r_20x64_pnand2_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv
+Cell routeb_new_1w1r_20x64_pinv port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dff
+Cell sky130_fd_bd_sram__openram_dff port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_0
+Cell routeb_new_1w1r_20x64_pinv_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_dff_buf_0
+Cell routeb_new_1w1r_20x64_dff_buf_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_dff_buf_array
+Cell routeb_new_1w1r_20x64_dff_buf_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_13
+Cell routeb_new_1w1r_20x64_pinv_13 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_9
+Cell routeb_new_1w1r_20x64_pinv_9 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_4
+Cell routeb_new_1w1r_20x64_pdriver_4 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pnand3
+Cell routeb_new_1w1r_20x64_pnand3 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_11
+Cell routeb_new_1w1r_20x64_pinv_11 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_2
+Cell routeb_new_1w1r_20x64_pdriver_2 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pand3
+Cell routeb_new_1w1r_20x64_pand3 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_10
+Cell routeb_new_1w1r_20x64_pinv_10 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_1
+Cell routeb_new_1w1r_20x64_pdriver_1 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_14
+Cell routeb_new_1w1r_20x64_pinv_14 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_delay_chain
+Cell routeb_new_1w1r_20x64_delay_chain port order was modified.
+Annotating cell routeb_new_1w1r_20x64_control_logic_w
+Cell routeb_new_1w1r_20x64_control_logic_w port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_12
+Cell routeb_new_1w1r_20x64_pinv_12 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pdriver_3
+Cell routeb_new_1w1r_20x64_pdriver_3 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pand3_0
+Cell routeb_new_1w1r_20x64_pand3_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_control_logic_r
+Cell routeb_new_1w1r_20x64_control_logic_r port order was modified.
+Annotating cell routeb_new_1w1r_20x64_data_dff
+Cell routeb_new_1w1r_20x64_data_dff port order was modified.
+Annotating cell routeb_new_1w1r_20x64_row_addr_dff
+Cell routeb_new_1w1r_20x64_row_addr_dff port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_nand2_dec
+Cell sky130_fd_bd_sram__openram_dp_nand2_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_dec_0
+Cell routeb_new_1w1r_20x64_pinv_dec_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_and2_dec_0
+Cell routeb_new_1w1r_20x64_and2_dec_0 port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_nand3_dec
+Cell sky130_fd_bd_sram__openram_dp_nand3_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_pinv_dec
+Cell routeb_new_1w1r_20x64_pinv_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_and3_dec
+Cell routeb_new_1w1r_20x64_and3_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_and2_dec
+Cell routeb_new_1w1r_20x64_and2_dec port order was modified.
+Annotating cell routeb_new_1w1r_20x64_hierarchical_predecode2x4
+Annotating cell routeb_new_1w1r_20x64_hierarchical_decoder
+Annotating cell routeb_new_1w1r_20x64_wordline_driver
+Cell routeb_new_1w1r_20x64_wordline_driver port order was modified.
+Annotating cell routeb_new_1w1r_20x64_wordline_driver_array
+Cell routeb_new_1w1r_20x64_wordline_driver_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_port_address
+Cell routeb_new_1w1r_20x64_port_address port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_sense_amp
+Cell sky130_fd_bd_sram__openram_sense_amp port order was modified.
+Annotating cell routeb_new_1w1r_20x64_sense_amp_array
+Cell routeb_new_1w1r_20x64_sense_amp_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_precharge_1
+Cell routeb_new_1w1r_20x64_precharge_1 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_precharge_array_0
+Cell routeb_new_1w1r_20x64_precharge_array_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_port_data_0
+Cell routeb_new_1w1r_20x64_port_data_0 port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell_dummy
+Cell sky130_fd_bd_sram__openram_dp_cell_dummy port order was modified.
+Annotating cell routeb_new_1w1r_20x64_dummy_array
+Cell routeb_new_1w1r_20x64_dummy_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell
+Cell sky130_fd_bd_sram__openram_dp_cell port order was modified.
+Annotating cell routeb_new_1w1r_20x64_bitcell_array
+Cell routeb_new_1w1r_20x64_bitcell_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell_replica
+Cell sky130_fd_bd_sram__openram_dp_cell_replica port order was modified.
+Annotating cell routeb_new_1w1r_20x64_replica_column_0
+Cell routeb_new_1w1r_20x64_replica_column_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_replica_column
+Cell routeb_new_1w1r_20x64_replica_column port order was modified.
+Annotating cell routeb_new_1w1r_20x64_replica_bitcell_array
+Cell routeb_new_1w1r_20x64_replica_bitcell_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_capped_replica_bitcell_array
+Cell routeb_new_1w1r_20x64_capped_replica_bitcell_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_write_driver
+Cell sky130_fd_bd_sram__openram_write_driver port order was modified.
+Annotating cell routeb_new_1w1r_20x64_write_driver_array
+Cell routeb_new_1w1r_20x64_write_driver_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_precharge_0
+Cell routeb_new_1w1r_20x64_precharge_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_precharge_array
+Cell routeb_new_1w1r_20x64_precharge_array port order was modified.
+Annotating cell routeb_new_1w1r_20x64_port_data
+Cell routeb_new_1w1r_20x64_port_data port order was modified.
+Annotating cell routeb_new_1w1r_20x64_port_address_0
+Cell routeb_new_1w1r_20x64_port_address_0 port order was modified.
+Annotating cell routeb_new_1w1r_20x64_bank
+Cell routeb_new_1w1r_20x64_bank port order was modified.
+Annotating cell routeb_new_1w1r_20x64
+Cell routeb_new_1w1r_20x64 port order was modified.
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Extraction style is now "ngspice(si)"
+Processing routeb_new_1w1r_20x64_pinv_1
+Processing routeb_new_1w1r_20x64_pdriver
+Processing routeb_new_1w1r_20x64_pnand2
+Processing routeb_new_1w1r_20x64_pand2
+Processing routeb_new_1w1r_20x64_pinv_13
+Processing routeb_new_1w1r_20x64_pinv_8
+Processing routeb_new_1w1r_20x64_pinv_7
+Processing routeb_new_1w1r_20x64_pinv_6
+Processing routeb_new_1w1r_20x64_pinv_5
+Processing routeb_new_1w1r_20x64_pinv_4
+Processing routeb_new_1w1r_20x64_pdriver_0
+Processing routeb_new_1w1r_20x64_pinv_0
+Processing routeb_new_1w1r_20x64_pinv
+Processing sky130_fd_bd_sram__openram_dff
+Processing routeb_new_1w1r_20x64_dff_buf_0
+Processing routeb_new_1w1r_20x64_dff_buf_array
+Processing routeb_new_1w1r_20x64_pinv_11
+Processing routeb_new_1w1r_20x64_pdriver_2
+Processing routeb_new_1w1r_20x64_pnand3
+Processing routeb_new_1w1r_20x64_pand3
+Processing routeb_new_1w1r_20x64_pinv_9
+Processing routeb_new_1w1r_20x64_pdriver_4
+Processing routeb_new_1w1r_20x64_pnand2_0
+Processing routeb_new_1w1r_20x64_pinv_10
+Processing routeb_new_1w1r_20x64_pdriver_1
+Processing routeb_new_1w1r_20x64_pinv_14
+Processing routeb_new_1w1r_20x64_delay_chain
+Processing routeb_new_1w1r_20x64_control_logic_w
+Processing routeb_new_1w1r_20x64_row_addr_dff
+Processing routeb_new_1w1r_20x64_data_dff
+Processing routeb_new_1w1r_20x64_cr_1
+Processing routeb_new_1w1r_20x64_contact_33
+Processing routeb_new_1w1r_20x64_pinv_12
+Processing routeb_new_1w1r_20x64_pdriver_3
+Processing routeb_new_1w1r_20x64_pand3_0
+Processing routeb_new_1w1r_20x64_control_logic_r
+Processing routeb_new_1w1r_20x64_pinv_dec_0
+Processing sky130_fd_bd_sram__openram_dp_nand2_dec
+Processing routeb_new_1w1r_20x64_and2_dec_0
+Processing routeb_new_1w1r_20x64_wordline_driver
+Processing routeb_new_1w1r_20x64_wordline_driver_array
+Processing routeb_new_1w1r_20x64_pinv_dec
+Processing routeb_new_1w1r_20x64_and2_dec
+Processing routeb_new_1w1r_20x64_hierarchical_predecode2x4
+Processing sky130_fd_bd_sram__openram_dp_nand3_dec
+Processing routeb_new_1w1r_20x64_and3_dec
+Processing routeb_new_1w1r_20x64_hierarchical_decoder
+Processing routeb_new_1w1r_20x64_port_address_0
+Processing routeb_new_1w1r_20x64_port_address
+Processing sky130_fd_bd_sram__openram_sense_amp
+Processing routeb_new_1w1r_20x64_sense_amp_array
+Processing routeb_new_1w1r_20x64_precharge_1
+Processing routeb_new_1w1r_20x64_precharge_array_0
+Processing routeb_new_1w1r_20x64_port_data_0
+Processing sky130_fd_bd_sram__openram_write_driver
+Processing routeb_new_1w1r_20x64_write_driver_array
+Processing routeb_new_1w1r_20x64_precharge_0
+Processing routeb_new_1w1r_20x64_precharge_array
+Processing routeb_new_1w1r_20x64_port_data
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_row
+Processing routeb_new_1w1r_20x64_row_cap_array_0
+Processing routeb_new_1w1r_20x64_row_cap_array
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_col
+Processing routeb_new_1w1r_20x64_col_cap_array
+Processing routeb_new_1w1r_20x64_col_cap_array_0
+Processing sky130_fd_bd_sram__openram_dp_cell_dummy
+Processing routeb_new_1w1r_20x64_dummy_array
+Processing sky130_fd_bd_sram__openram_dp_cell_replica
+Processing routeb_new_1w1r_20x64_replica_column_0
+Processing routeb_new_1w1r_20x64_replica_column
+Processing sky130_fd_bd_sram__openram_dp_cell
+Processing routeb_new_1w1r_20x64_bitcell_array
+Processing routeb_new_1w1r_20x64_replica_bitcell_array
+Processing routeb_new_1w1r_20x64_capped_replica_bitcell_array
+Processing routeb_new_1w1r_20x64_bank
+Processing routeb_new_1w1r_20x64
+Extracting routeb_new_1w1r_20x64_pinv_1 into routeb_new_1w1r_20x64_pinv_1.ext:
+Extracting routeb_new_1w1r_20x64_pdriver into routeb_new_1w1r_20x64_pdriver.ext:
+Extracting routeb_new_1w1r_20x64_pnand2 into routeb_new_1w1r_20x64_pnand2.ext:
+Extracting routeb_new_1w1r_20x64_pand2 into routeb_new_1w1r_20x64_pand2.ext:
+Extracting routeb_new_1w1r_20x64_pinv_13 into routeb_new_1w1r_20x64_pinv_13.ext:
+Extracting routeb_new_1w1r_20x64_pinv_8 into routeb_new_1w1r_20x64_pinv_8.ext:
+Extracting routeb_new_1w1r_20x64_pinv_7 into routeb_new_1w1r_20x64_pinv_7.ext:
+Extracting routeb_new_1w1r_20x64_pinv_6 into routeb_new_1w1r_20x64_pinv_6.ext:
+Extracting routeb_new_1w1r_20x64_pinv_5 into routeb_new_1w1r_20x64_pinv_5.ext:
+Extracting routeb_new_1w1r_20x64_pinv_4 into routeb_new_1w1r_20x64_pinv_4.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_0 into routeb_new_1w1r_20x64_pdriver_0.ext:
+Extracting routeb_new_1w1r_20x64_pinv_0 into routeb_new_1w1r_20x64_pinv_0.ext:
+Extracting routeb_new_1w1r_20x64_pinv into routeb_new_1w1r_20x64_pinv.ext:
+Extracting sky130_fd_bd_sram__openram_dff into sky130_fd_bd_sram__openram_dff.ext:
+Extracting routeb_new_1w1r_20x64_dff_buf_0 into routeb_new_1w1r_20x64_dff_buf_0.ext:
+Extracting routeb_new_1w1r_20x64_dff_buf_array into routeb_new_1w1r_20x64_dff_buf_array.ext:
+Extracting routeb_new_1w1r_20x64_pinv_11 into routeb_new_1w1r_20x64_pinv_11.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_2 into routeb_new_1w1r_20x64_pdriver_2.ext:
+Extracting routeb_new_1w1r_20x64_pnand3 into routeb_new_1w1r_20x64_pnand3.ext:
+Extracting routeb_new_1w1r_20x64_pand3 into routeb_new_1w1r_20x64_pand3.ext:
+Extracting routeb_new_1w1r_20x64_pinv_9 into routeb_new_1w1r_20x64_pinv_9.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_4 into routeb_new_1w1r_20x64_pdriver_4.ext:
+Extracting routeb_new_1w1r_20x64_pnand2_0 into routeb_new_1w1r_20x64_pnand2_0.ext:
+Extracting routeb_new_1w1r_20x64_pinv_10 into routeb_new_1w1r_20x64_pinv_10.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_1 into routeb_new_1w1r_20x64_pdriver_1.ext:
+Extracting routeb_new_1w1r_20x64_pinv_14 into routeb_new_1w1r_20x64_pinv_14.ext:
+Extracting routeb_new_1w1r_20x64_delay_chain into routeb_new_1w1r_20x64_delay_chain.ext:
+Extracting routeb_new_1w1r_20x64_control_logic_w into routeb_new_1w1r_20x64_control_logic_w.ext:
+Extracting routeb_new_1w1r_20x64_row_addr_dff into routeb_new_1w1r_20x64_row_addr_dff.ext:
+Extracting routeb_new_1w1r_20x64_data_dff into routeb_new_1w1r_20x64_data_dff.ext:
+Extracting routeb_new_1w1r_20x64_cr_1 into routeb_new_1w1r_20x64_cr_1.ext:
+Extracting routeb_new_1w1r_20x64_contact_33 into routeb_new_1w1r_20x64_contact_33.ext:
+Extracting routeb_new_1w1r_20x64_pinv_12 into routeb_new_1w1r_20x64_pinv_12.ext:
+Extracting routeb_new_1w1r_20x64_pdriver_3 into routeb_new_1w1r_20x64_pdriver_3.ext:
+Extracting routeb_new_1w1r_20x64_pand3_0 into routeb_new_1w1r_20x64_pand3_0.ext:
+Extracting routeb_new_1w1r_20x64_control_logic_r into routeb_new_1w1r_20x64_control_logic_r.ext:
+Extracting routeb_new_1w1r_20x64_pinv_dec_0 into routeb_new_1w1r_20x64_pinv_dec_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand2_dec into sky130_fd_bd_sram__openram_dp_nand2_dec.ext:
+Extracting routeb_new_1w1r_20x64_and2_dec_0 into routeb_new_1w1r_20x64_and2_dec_0.ext:
+Extracting routeb_new_1w1r_20x64_wordline_driver into routeb_new_1w1r_20x64_wordline_driver.ext:
+Extracting routeb_new_1w1r_20x64_wordline_driver_array into routeb_new_1w1r_20x64_wordline_driver_array.ext:
+Extracting routeb_new_1w1r_20x64_pinv_dec into routeb_new_1w1r_20x64_pinv_dec.ext:
+Extracting routeb_new_1w1r_20x64_and2_dec into routeb_new_1w1r_20x64_and2_dec.ext:
+Extracting routeb_new_1w1r_20x64_hierarchical_predecode2x4 into routeb_new_1w1r_20x64_hierarchical_predecode2x4.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand3_dec into sky130_fd_bd_sram__openram_dp_nand3_dec.ext:
+Extracting routeb_new_1w1r_20x64_and3_dec into routeb_new_1w1r_20x64_and3_dec.ext:
+Extracting routeb_new_1w1r_20x64_hierarchical_decoder into routeb_new_1w1r_20x64_hierarchical_decoder.ext:
+Extracting routeb_new_1w1r_20x64_port_address_0 into routeb_new_1w1r_20x64_port_address_0.ext:
+Extracting routeb_new_1w1r_20x64_port_address into routeb_new_1w1r_20x64_port_address.ext:
+Extracting sky130_fd_bd_sram__openram_sense_amp into sky130_fd_bd_sram__openram_sense_amp.ext:
+Extracting routeb_new_1w1r_20x64_sense_amp_array into routeb_new_1w1r_20x64_sense_amp_array.ext:
+Extracting routeb_new_1w1r_20x64_precharge_1 into routeb_new_1w1r_20x64_precharge_1.ext:
+Extracting routeb_new_1w1r_20x64_precharge_array_0 into routeb_new_1w1r_20x64_precharge_array_0.ext:
+Extracting routeb_new_1w1r_20x64_port_data_0 into routeb_new_1w1r_20x64_port_data_0.ext:
+Extracting sky130_fd_bd_sram__openram_write_driver into sky130_fd_bd_sram__openram_write_driver.ext:
+Extracting routeb_new_1w1r_20x64_write_driver_array into routeb_new_1w1r_20x64_write_driver_array.ext:
+Extracting routeb_new_1w1r_20x64_precharge_0 into routeb_new_1w1r_20x64_precharge_0.ext:
+Extracting routeb_new_1w1r_20x64_precharge_array into routeb_new_1w1r_20x64_precharge_array.ext:
+Extracting routeb_new_1w1r_20x64_port_data into routeb_new_1w1r_20x64_port_data.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_row into sky130_fd_bd_sram__openram_dp_cell_cap_row.ext:
+Extracting routeb_new_1w1r_20x64_row_cap_array_0 into routeb_new_1w1r_20x64_row_cap_array_0.ext:
+Extracting routeb_new_1w1r_20x64_row_cap_array into routeb_new_1w1r_20x64_row_cap_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_col into sky130_fd_bd_sram__openram_dp_cell_cap_col.ext:
+Extracting routeb_new_1w1r_20x64_col_cap_array into routeb_new_1w1r_20x64_col_cap_array.ext:
+Extracting routeb_new_1w1r_20x64_col_cap_array_0 into routeb_new_1w1r_20x64_col_cap_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_dummy into sky130_fd_bd_sram__openram_dp_cell_dummy.ext:
+Extracting routeb_new_1w1r_20x64_dummy_array into routeb_new_1w1r_20x64_dummy_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_replica into sky130_fd_bd_sram__openram_dp_cell_replica.ext:
+sky130_fd_bd_sram__openram_dp_cell_replica: 3 warnings
+Extracting routeb_new_1w1r_20x64_replica_column_0 into routeb_new_1w1r_20x64_replica_column_0.ext:
+Extracting routeb_new_1w1r_20x64_replica_column into routeb_new_1w1r_20x64_replica_column.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell into sky130_fd_bd_sram__openram_dp_cell.ext:
+sky130_fd_bd_sram__openram_dp_cell: 2 warnings
+Extracting routeb_new_1w1r_20x64_bitcell_array into routeb_new_1w1r_20x64_bitcell_array.ext:
+Extracting routeb_new_1w1r_20x64_replica_bitcell_array into routeb_new_1w1r_20x64_replica_bitcell_array.ext:
+Extracting routeb_new_1w1r_20x64_capped_replica_bitcell_array into routeb_new_1w1r_20x64_capped_replica_bitcell_array.ext:
+Extracting routeb_new_1w1r_20x64_bank into routeb_new_1w1r_20x64_bank.ext:
+Extracting routeb_new_1w1r_20x64 into routeb_new_1w1r_20x64.ext:
+Created database crash recovery file /tmp//MAG579.nkl5od
+device missing 1 terminal;
+ connecting remainder to node vdd
+device missing 1 terminal;
+ connecting remainder to node a_38_133#
+device missing 1 terminal;
+ connecting remainder to node a_16_183#
+Finished extract
+exttospice finished.
+device missing 1 terminal;
+ connecting remainder to node vdd
+device missing 1 terminal;
+ connecting remainder to node a_38_133#
+device missing 1 terminal;
+ connecting remainder to node a_16_183#
+Finished ext2spice
+Sat Nov 14 13:35:25 CST 2026: Finished (0) GDS to MAG using Magic /root/.cache/routeb-magic-8.3.306/install/bin/magic

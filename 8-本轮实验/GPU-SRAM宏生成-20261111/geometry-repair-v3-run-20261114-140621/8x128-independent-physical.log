@@ -1,0 +1,3 @@
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+ERROR: file magic.py: line 385: routeb_new_1w1r_8x128	LVS mismatch (results in /tmp/routeb-sram-recheck-esjozx0j/temp/routeb_new_1w1r_8x128.lvs.report)
+{"status": "MACRO_DRC_OR_LVS_VIOLATIONS", "shape": "8x128", "layout_sha256": "5fa6b85418c2ad80738b64af004b7a99d75bccc6c9c76e446e95d254d885c699", "schematic_sha256": "b41abf3905876db69147703df88b9804e1e6753275f5f808fe950b8ea0491763", "magic_status_sha256": "18fa54a4463493cf07614dc311fb482f21cbfccc25264bd155a9fc51ae7a4fc9", "physical_signoff": false, "drc_errors": 0, "lvs_errors": 10, "seconds": 1093.2835969589996}

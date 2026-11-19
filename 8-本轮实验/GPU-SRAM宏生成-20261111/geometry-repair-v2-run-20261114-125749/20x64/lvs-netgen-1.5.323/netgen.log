@@ -1,0 +1,1724 @@
+Netgen 1.5.323 compiled on Sat Nov 14 14:21:53 CST 2026
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Generating JSON file result
+Reading netlist file layout.spice for layout.spice routeb_new_1w1r_20x64
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_nfet_latch
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_pfet_pass
+Creating placeholder cell definition.
+Reading netlist file schematic.sp for schematic.sp routeb_new_1w1r_20x64
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_nfet_latch
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__special_pfet_pass
+Creating placeholder cell definition.
+
+Reading setup file setup.tcl
+
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property as found for device sky130_fd_pr__nfet_01v8
+No property ad found for device sky130_fd_pr__nfet_01v8
+No property ps found for device sky130_fd_pr__nfet_01v8
+No property pd found for device sky130_fd_pr__nfet_01v8
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property as found for device sky130_fd_pr__pfet_01v8
+No property ad found for device sky130_fd_pr__pfet_01v8
+No property ps found for device sky130_fd_pr__pfet_01v8
+No property pd found for device sky130_fd_pr__pfet_01v8
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__special_pfet_pass pin 1 == 3
+No property mult found for device sky130_fd_pr__special_pfet_pass
+No property sa found for device sky130_fd_pr__special_pfet_pass
+No property sb found for device sky130_fd_pr__special_pfet_pass
+No property sd found for device sky130_fd_pr__special_pfet_pass
+No property nf found for device sky130_fd_pr__special_pfet_pass
+No property nrd found for device sky130_fd_pr__special_pfet_pass
+No property nrs found for device sky130_fd_pr__special_pfet_pass
+No property area found for device sky130_fd_pr__special_pfet_pass
+No property perim found for device sky130_fd_pr__special_pfet_pass
+No property topography found for device sky130_fd_pr__special_pfet_pass
+Model sky130_fd_pr__special_pfet_pass pin 1 == 3
+No property as found for device sky130_fd_pr__special_pfet_pass
+No property ad found for device sky130_fd_pr__special_pfet_pass
+No property ps found for device sky130_fd_pr__special_pfet_pass
+No property pd found for device sky130_fd_pr__special_pfet_pass
+No property mult found for device sky130_fd_pr__special_pfet_pass
+No property sa found for device sky130_fd_pr__special_pfet_pass
+No property sb found for device sky130_fd_pr__special_pfet_pass
+No property sd found for device sky130_fd_pr__special_pfet_pass
+No property nf found for device sky130_fd_pr__special_pfet_pass
+No property nrd found for device sky130_fd_pr__special_pfet_pass
+No property nrs found for device sky130_fd_pr__special_pfet_pass
+No property area found for device sky130_fd_pr__special_pfet_pass
+No property perim found for device sky130_fd_pr__special_pfet_pass
+No property topography found for device sky130_fd_pr__special_pfet_pass
+Model sky130_fd_pr__special_nfet_latch pin 1 == 3
+No property mult found for device sky130_fd_pr__special_nfet_latch
+No property sa found for device sky130_fd_pr__special_nfet_latch
+No property sb found for device sky130_fd_pr__special_nfet_latch
+No property sd found for device sky130_fd_pr__special_nfet_latch
+No property nf found for device sky130_fd_pr__special_nfet_latch
+No property nrd found for device sky130_fd_pr__special_nfet_latch
+No property nrs found for device sky130_fd_pr__special_nfet_latch
+No property area found for device sky130_fd_pr__special_nfet_latch
+No property perim found for device sky130_fd_pr__special_nfet_latch
+No property topography found for device sky130_fd_pr__special_nfet_latch
+Model sky130_fd_pr__special_nfet_latch pin 1 == 3
+No property as found for device sky130_fd_pr__special_nfet_latch
+No property ad found for device sky130_fd_pr__special_nfet_latch
+No property ps found for device sky130_fd_pr__special_nfet_latch
+No property pd found for device sky130_fd_pr__special_nfet_latch
+No property mult found for device sky130_fd_pr__special_nfet_latch
+No property sa found for device sky130_fd_pr__special_nfet_latch
+No property sb found for device sky130_fd_pr__special_nfet_latch
+No property sd found for device sky130_fd_pr__special_nfet_latch
+No property nf found for device sky130_fd_pr__special_nfet_latch
+No property nrd found for device sky130_fd_pr__special_nfet_latch
+No property nrs found for device sky130_fd_pr__special_nfet_latch
+No property area found for device sky130_fd_pr__special_nfet_latch
+No property perim found for device sky130_fd_pr__special_nfet_latch
+No property topography found for device sky130_fd_pr__special_nfet_latch
+Comparison output logged to file result.report
+Logging to file "result.report" enabled
+Circuit sky130_fd_pr__pfet_01v8 contains no devices.
+Circuit sky130_fd_pr__nfet_01v8 contains no devices.
+Circuit sky130_fd_pr__special_nfet_latch contains no devices.
+Circuit sky130_fd_pr__special_pfet_pass contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_nand2_dec'
+Circuit sky130_fd_bd_sram__openram_dp_nand2_dec contains 4 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 6 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_nand2_dec'
+Circuit sky130_fd_bd_sram__openram_dp_nand2_dec contains 4 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 6 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_dec'
+Circuit routeb_new_1w1r_20x64_pinv_dec contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_dec'
+Circuit routeb_new_1w1r_20x64_pinv_dec contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_pinv_dec routeb_new_1w1r_20x64_pinv_dec
+
+Flattening instances of routeb_new_1w1r_20x64_pinv_dec in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_pinv_dec in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell_dummy'
+Circuit sky130_fd_bd_sram__openram_dp_cell_dummy contains 12 device instances.
+  Class: sky130_fd_pr__special_nfet_latch instances:  12
+Circuit contains 13 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell_dummy'
+Circuit sky130_fd_bd_sram__openram_dp_cell_dummy contains 12 device instances.
+  Class: sky130_fd_pr__special_nfet_latch instances:  12
+Circuit contains 11 nets, and 1 disconnected pin.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell_dummy'
+Circuit sky130_fd_bd_sram__openram_dp_cell_dummy contains 12 device instances.
+  Class: sky130_fd_pr__special_nfet_latch instances:  12
+Circuit contains 13 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell_dummy'
+Circuit sky130_fd_bd_sram__openram_dp_cell_dummy contains 10 device instances.
+  Class: sky130_fd_pr__special_nfet_latch instances:  10
+Circuit contains 11 nets, and 1 disconnected pin.
+
+Circuit 1 contains 12 devices, Circuit 2 contains 10 devices. *** MISMATCH ***
+Circuit 1 contains 13 nets,    Circuit 2 contains 11 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_bd_sram__openram_dp_cell_dummy sky130_fd_bd_sram__openram_dp_cell_dummy
+
+Flattening instances of sky130_fd_bd_sram__openram_dp_cell_dummy in file layout.spice
+Flattening instances of sky130_fd_bd_sram__openram_dp_cell_dummy in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell_replica'
+Circuit sky130_fd_bd_sram__openram_dp_cell_replica contains 16 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:  12
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell_replica'
+Circuit sky130_fd_bd_sram__openram_dp_cell_replica contains 16 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:  12
+Circuit contains 9 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell_replica'
+Circuit sky130_fd_bd_sram__openram_dp_cell_replica contains 14 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:  10
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell_replica'
+Circuit sky130_fd_bd_sram__openram_dp_cell_replica contains 12 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:   8
+Circuit contains 9 nets.
+
+Circuit 1 contains 14 devices, Circuit 2 contains 12 devices. *** MISMATCH ***
+Circuit 1 contains 11 nets,    Circuit 2 contains 9 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_bd_sram__openram_dp_cell_replica sky130_fd_bd_sram__openram_dp_cell_replica
+
+Flattening instances of sky130_fd_bd_sram__openram_dp_cell_replica in file layout.spice
+Flattening instances of sky130_fd_bd_sram__openram_dp_cell_replica in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell'
+Circuit sky130_fd_bd_sram__openram_dp_cell contains 16 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:  12
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell'
+Circuit sky130_fd_bd_sram__openram_dp_cell contains 16 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:  12
+Circuit contains 10 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell'
+Circuit sky130_fd_bd_sram__openram_dp_cell contains 14 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:  10
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_cell'
+Circuit sky130_fd_bd_sram__openram_dp_cell contains 12 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances:   4
+  Class: sky130_fd_pr__special_nfet_latch instances:   8
+Circuit contains 10 nets.
+
+Circuit 1 contains 14 devices, Circuit 2 contains 12 devices. *** MISMATCH ***
+Circuit 1 contains 12 nets,    Circuit 2 contains 10 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_bd_sram__openram_dp_cell sky130_fd_bd_sram__openram_dp_cell
+
+Flattening instances of sky130_fd_bd_sram__openram_dp_cell in file layout.spice
+Flattening instances of sky130_fd_bd_sram__openram_dp_cell in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_and2_dec'
+Circuit routeb_new_1w1r_20x64_and2_dec contains 3 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_and2_dec'
+Circuit routeb_new_1w1r_20x64_and2_dec contains 3 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   1
+Circuit contains 6 nets.
+
+Circuit 1 contains 3 devices, Circuit 2 contains 3 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 6 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_and2_dec routeb_new_1w1r_20x64_and2_dec
+
+Flattening instances of routeb_new_1w1r_20x64_and2_dec in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_and2_dec in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dp_nand3_dec'
+Circuit sky130_fd_bd_sram__openram_dp_nand3_dec contains 6 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 8 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dp_nand3_dec'
+Circuit sky130_fd_bd_sram__openram_dp_nand3_dec contains 6 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 8 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 8 nets,    Circuit 2 contains 8 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_dec_0'
+Circuit routeb_new_1w1r_20x64_pinv_dec_0 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_dec_0'
+Circuit routeb_new_1w1r_20x64_pinv_dec_0 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_dummy_array'
+Circuit routeb_new_1w1r_20x64_dummy_array contains 240 device instances.
+  Class: sky130_fd_pr__special_nfet_latch instances: 240
+Circuit contains 203 nets, and 40 disconnected pins.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_dummy_array'
+Circuit routeb_new_1w1r_20x64_dummy_array contains 200 device instances.
+  Class: sky130_fd_pr__special_nfet_latch instances: 200
+Circuit contains 163 nets, and 1 disconnected pin.
+
+Circuit 1 contains 240 devices, Circuit 2 contains 200 devices. *** MISMATCH ***
+Circuit 1 contains 203 nets,    Circuit 2 contains 163 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_dummy_array routeb_new_1w1r_20x64_dummy_array
+
+Flattening instances of routeb_new_1w1r_20x64_dummy_array in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_dummy_array in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_replica_column'
+Circuit routeb_new_1w1r_20x64_replica_column contains 922 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 260
+  Class: sky130_fd_pr__special_nfet_latch instances: 662
+Circuit contains 207 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_replica_column'
+Circuit routeb_new_1w1r_20x64_replica_column contains 790 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 260
+  Class: sky130_fd_pr__special_nfet_latch instances: 530
+Circuit contains 207 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_replica_column'
+Circuit routeb_new_1w1r_20x64_replica_column contains 660 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 260
+  Class: sky130_fd_pr__special_nfet_latch instances: 400
+Circuit contains 207 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_replica_column'
+Circuit routeb_new_1w1r_20x64_replica_column contains 660 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 260
+  Class: sky130_fd_pr__special_nfet_latch instances: 400
+Circuit contains 207 nets.
+
+Circuit 1 contains 660 devices, Circuit 2 contains 660 devices.
+Circuit 1 contains 207 nets,    Circuit 2 contains 207 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_bitcell_array'
+Circuit routeb_new_1w1r_20x64_bitcell_array contains 17920 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 12800
+Circuit contains 2869 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_bitcell_array'
+Circuit routeb_new_1w1r_20x64_bitcell_array contains 15360 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 10240
+Circuit contains 2770 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_bitcell_array'
+Circuit routeb_new_1w1r_20x64_bitcell_array contains 12920 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 7800
+Circuit contains 2869 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_bitcell_array'
+Circuit routeb_new_1w1r_20x64_bitcell_array contains 12840 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 7720
+Circuit contains 2770 nets.
+
+Circuit 1 contains 12920 devices, Circuit 2 contains 12840 devices. *** MISMATCH ***
+Circuit 1 contains 2869 nets,    Circuit 2 contains 2770 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_bitcell_array routeb_new_1w1r_20x64_bitcell_array
+
+Flattening instances of routeb_new_1w1r_20x64_bitcell_array in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_bitcell_array in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_replica_column_0'
+Circuit routeb_new_1w1r_20x64_replica_column_0 contains 922 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 260
+  Class: sky130_fd_pr__special_nfet_latch instances: 662
+Circuit contains 207 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_replica_column_0'
+Circuit routeb_new_1w1r_20x64_replica_column_0 contains 790 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 260
+  Class: sky130_fd_pr__special_nfet_latch instances: 530
+Circuit contains 207 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_replica_column_0'
+Circuit routeb_new_1w1r_20x64_replica_column_0 contains 660 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 260
+  Class: sky130_fd_pr__special_nfet_latch instances: 400
+Circuit contains 207 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_replica_column_0'
+Circuit routeb_new_1w1r_20x64_replica_column_0 contains 660 device instances.
+  Class: sky130_fd_pr__special_pfet_pass instances: 260
+  Class: sky130_fd_pr__special_nfet_latch instances: 400
+Circuit contains 207 nets.
+
+Circuit 1 contains 660 devices, Circuit 2 contains 660 devices.
+Circuit 1 contains 207 nets,    Circuit 2 contains 207 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_precharge_0'
+Circuit routeb_new_1w1r_20x64_precharge_0 contains 3 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_precharge_0'
+Circuit routeb_new_1w1r_20x64_precharge_0 contains 3 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 4 nets.
+
+Circuit 1 contains 3 devices, Circuit 2 contains 3 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_write_driver'
+Circuit sky130_fd_bd_sram__openram_write_driver contains 16 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   7
+  Class: sky130_fd_pr__nfet_01v8 instances:   9
+Circuit contains 14 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_write_driver'
+Circuit sky130_fd_bd_sram__openram_write_driver contains 16 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   7
+  Class: sky130_fd_pr__nfet_01v8 instances:   9
+Circuit contains 13 nets.
+
+Circuit 1 contains 16 devices, Circuit 2 contains 16 devices.
+Circuit 1 contains 14 nets,    Circuit 2 contains 13 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_bd_sram__openram_write_driver sky130_fd_bd_sram__openram_write_driver
+
+Flattening instances of sky130_fd_bd_sram__openram_write_driver in file layout.spice
+Flattening instances of sky130_fd_bd_sram__openram_write_driver in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_precharge_1'
+Circuit routeb_new_1w1r_20x64_precharge_1 contains 3 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_precharge_1'
+Circuit routeb_new_1w1r_20x64_precharge_1 contains 3 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 4 nets.
+
+Circuit 1 contains 3 devices, Circuit 2 contains 3 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_sense_amp'
+Circuit sky130_fd_bd_sram__openram_sense_amp contains 9 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   5
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_sense_amp'
+Circuit sky130_fd_bd_sram__openram_sense_amp contains 9 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   5
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+Circuit contains 9 nets.
+
+Circuit 1 contains 9 devices, Circuit 2 contains 9 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 9 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_bd_sram__openram_sense_amp sky130_fd_bd_sram__openram_sense_amp
+
+Flattening instances of sky130_fd_bd_sram__openram_sense_amp in file layout.spice
+Flattening instances of sky130_fd_bd_sram__openram_sense_amp in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_hierarchical_predecode2x4'
+Circuit routeb_new_1w1r_20x64_hierarchical_predecode2x4 contains 16 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   6
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:   4
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+Circuit contains 16 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_hierarchical_predecode2x4'
+Circuit routeb_new_1w1r_20x64_hierarchical_predecode2x4 contains 16 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   6
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:   4
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   6
+Circuit contains 14 nets.
+
+Circuit 1 contains 16 devices, Circuit 2 contains 16 devices.
+Circuit 1 contains 16 nets,    Circuit 2 contains 14 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_hierarchical_predecode2x4 routeb_new_1w1r_20x64_hierarchical_predecode2x4
+
+Flattening instances of routeb_new_1w1r_20x64_hierarchical_predecode2x4 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_hierarchical_predecode2x4 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_and3_dec'
+Circuit routeb_new_1w1r_20x64_and3_dec contains 3 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 8 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_and3_dec'
+Circuit routeb_new_1w1r_20x64_and3_dec contains 3 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   1
+Circuit contains 7 nets.
+
+Circuit 1 contains 3 devices, Circuit 2 contains 3 devices.
+Circuit 1 contains 8 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_and3_dec routeb_new_1w1r_20x64_and3_dec
+
+Flattening instances of routeb_new_1w1r_20x64_and3_dec in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_and3_dec in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_wordline_driver'
+Circuit routeb_new_1w1r_20x64_wordline_driver contains 2 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:   1
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_wordline_driver'
+Circuit routeb_new_1w1r_20x64_wordline_driver contains 2 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:   1
+Circuit contains 6 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 6 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_wordline_driver routeb_new_1w1r_20x64_wordline_driver
+
+Flattening instances of routeb_new_1w1r_20x64_wordline_driver in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_wordline_driver in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_1'
+Circuit routeb_new_1w1r_20x64_pinv_1 contains 14 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   7
+  Class: sky130_fd_pr__nfet_01v8 instances:   7
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_1'
+Circuit routeb_new_1w1r_20x64_pinv_1 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_1'
+Circuit routeb_new_1w1r_20x64_pinv_1 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_1'
+Circuit routeb_new_1w1r_20x64_pinv_1 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_0'
+Circuit routeb_new_1w1r_20x64_pinv_0 contains 6 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_0'
+Circuit routeb_new_1w1r_20x64_pinv_0 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_0'
+Circuit routeb_new_1w1r_20x64_pinv_0 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_0'
+Circuit routeb_new_1w1r_20x64_pinv_0 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv'
+Circuit routeb_new_1w1r_20x64_pinv contains 4 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv'
+Circuit routeb_new_1w1r_20x64_pinv contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv'
+Circuit routeb_new_1w1r_20x64_pinv contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv'
+Circuit routeb_new_1w1r_20x64_pinv contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_bd_sram__openram_dff'
+Circuit sky130_fd_bd_sram__openram_dff contains 22 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:  11
+  Class: sky130_fd_pr__nfet_01v8 instances:  11
+Circuit contains 17 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_bd_sram__openram_dff'
+Circuit sky130_fd_bd_sram__openram_dff contains 22 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:  11
+  Class: sky130_fd_pr__nfet_01v8 instances:  11
+Circuit contains 17 nets.
+
+Circuit 1 contains 22 devices, Circuit 2 contains 22 devices.
+Circuit 1 contains 17 nets,    Circuit 2 contains 17 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_12'
+Circuit routeb_new_1w1r_20x64_pinv_12 contains 22 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:  11
+  Class: sky130_fd_pr__nfet_01v8 instances:  11
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_12'
+Circuit routeb_new_1w1r_20x64_pinv_12 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_12'
+Circuit routeb_new_1w1r_20x64_pinv_12 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_12'
+Circuit routeb_new_1w1r_20x64_pinv_12 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_11'
+Circuit routeb_new_1w1r_20x64_pinv_11 contains 32 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:  16
+  Class: sky130_fd_pr__nfet_01v8 instances:  16
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_11'
+Circuit routeb_new_1w1r_20x64_pinv_11 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_11'
+Circuit routeb_new_1w1r_20x64_pinv_11 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_11'
+Circuit routeb_new_1w1r_20x64_pinv_11 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_replica_bitcell_array'
+Circuit routeb_new_1w1r_20x64_replica_bitcell_array contains 13402 device instances.
+  Class: routeb_new_1w1r_20x64_replica_column instances:   1
+  Class: routeb_new_1w1r_20x64_replica_column_0 instances:   1
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 8280
+Circuit contains 2963 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_replica_bitcell_array'
+Circuit routeb_new_1w1r_20x64_replica_bitcell_array contains 13242 device instances.
+  Class: routeb_new_1w1r_20x64_replica_column instances:   1
+  Class: routeb_new_1w1r_20x64_replica_column_0 instances:   1
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 8120
+Circuit contains 2942 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_replica_bitcell_array'
+Circuit routeb_new_1w1r_20x64_replica_bitcell_array contains 13162 device instances.
+  Class: routeb_new_1w1r_20x64_replica_column instances:   1
+  Class: routeb_new_1w1r_20x64_replica_column_0 instances:   1
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 8040
+Circuit contains 2963 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_replica_bitcell_array'
+Circuit routeb_new_1w1r_20x64_replica_bitcell_array contains 13162 device instances.
+  Class: routeb_new_1w1r_20x64_replica_column instances:   1
+  Class: routeb_new_1w1r_20x64_replica_column_0 instances:   1
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 8040
+Circuit contains 2942 nets.
+
+Circuit 1 contains 13162 devices, Circuit 2 contains 13162 devices.
+Circuit 1 contains 2963 nets,    Circuit 2 contains 2942 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_replica_bitcell_array routeb_new_1w1r_20x64_replica_bitcell_array
+
+Flattening instances of routeb_new_1w1r_20x64_replica_bitcell_array in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_replica_bitcell_array in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_precharge_array'
+Circuit routeb_new_1w1r_20x64_precharge_array contains 21 device instances.
+  Class: routeb_new_1w1r_20x64_precharge_0 instances:  21
+Circuit contains 44 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_precharge_array'
+Circuit routeb_new_1w1r_20x64_precharge_array contains 21 device instances.
+  Class: routeb_new_1w1r_20x64_precharge_0 instances:  21
+Circuit contains 44 nets.
+
+Circuit 1 contains 21 devices, Circuit 2 contains 21 devices.
+Circuit 1 contains 44 nets,    Circuit 2 contains 44 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_write_driver_array'
+Circuit routeb_new_1w1r_20x64_write_driver_array contains 320 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances: 140
+  Class: sky130_fd_pr__nfet_01v8 instances: 180
+Circuit contains 204 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_write_driver_array'
+Circuit routeb_new_1w1r_20x64_write_driver_array contains 320 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances: 140
+  Class: sky130_fd_pr__nfet_01v8 instances: 180
+Circuit contains 203 nets.
+
+Circuit 1 contains 320 devices, Circuit 2 contains 320 devices.
+Circuit 1 contains 204 nets,    Circuit 2 contains 203 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_write_driver_array routeb_new_1w1r_20x64_write_driver_array
+
+Flattening instances of routeb_new_1w1r_20x64_write_driver_array in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_write_driver_array in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_precharge_array_0'
+Circuit routeb_new_1w1r_20x64_precharge_array_0 contains 21 device instances.
+  Class: routeb_new_1w1r_20x64_precharge_1 instances:  21
+Circuit contains 44 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_precharge_array_0'
+Circuit routeb_new_1w1r_20x64_precharge_array_0 contains 21 device instances.
+  Class: routeb_new_1w1r_20x64_precharge_1 instances:  21
+Circuit contains 44 nets.
+
+Circuit 1 contains 21 devices, Circuit 2 contains 21 devices.
+Circuit 1 contains 44 nets,    Circuit 2 contains 44 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_sense_amp_array'
+Circuit routeb_new_1w1r_20x64_sense_amp_array contains 180 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances: 100
+  Class: sky130_fd_pr__nfet_01v8 instances:  80
+Circuit contains 124 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_sense_amp_array'
+Circuit routeb_new_1w1r_20x64_sense_amp_array contains 180 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances: 100
+  Class: sky130_fd_pr__nfet_01v8 instances:  80
+Circuit contains 123 nets.
+
+Circuit 1 contains 180 devices, Circuit 2 contains 180 devices.
+Circuit 1 contains 124 nets,    Circuit 2 contains 123 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_sense_amp_array routeb_new_1w1r_20x64_sense_amp_array
+
+Flattening instances of routeb_new_1w1r_20x64_sense_amp_array in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_sense_amp_array in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_hierarchical_decoder'
+Circuit routeb_new_1w1r_20x64_hierarchical_decoder contains 240 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances:  64
+  Class: sky130_fd_pr__pfet_01v8 instances:  82
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:  12
+  Class: sky130_fd_pr__nfet_01v8 instances:  82
+Circuit contains 176 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_hierarchical_decoder'
+Circuit routeb_new_1w1r_20x64_hierarchical_decoder contains 240 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances:  64
+  Class: sky130_fd_pr__pfet_01v8 instances:  82
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:  12
+  Class: sky130_fd_pr__special_nfet_01v8 instances:  82
+Circuit contains 166 nets.
+
+Circuit 1 contains 240 devices, Circuit 2 contains 240 devices.
+Circuit 1 contains 176 nets,    Circuit 2 contains 166 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_hierarchical_decoder routeb_new_1w1r_20x64_hierarchical_decoder
+
+Flattening instances of routeb_new_1w1r_20x64_hierarchical_decoder in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_hierarchical_decoder in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_and2_dec_0'
+Circuit routeb_new_1w1r_20x64_and2_dec_0 contains 2 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:   1
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_and2_dec_0'
+Circuit routeb_new_1w1r_20x64_and2_dec_0 contains 2 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:   1
+Circuit contains 6 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 6 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_and2_dec_0 routeb_new_1w1r_20x64_and2_dec_0
+
+Flattening instances of routeb_new_1w1r_20x64_and2_dec_0 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_and2_dec_0 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_wordline_driver_array'
+Circuit routeb_new_1w1r_20x64_wordline_driver_array contains 128 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:  64
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:  64
+Circuit contains 196 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_wordline_driver_array'
+Circuit routeb_new_1w1r_20x64_wordline_driver_array contains 128 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:  64
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:  64
+Circuit contains 195 nets.
+
+Circuit 1 contains 128 devices, Circuit 2 contains 128 devices.
+Circuit 1 contains 196 nets,    Circuit 2 contains 195 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_wordline_driver_array routeb_new_1w1r_20x64_wordline_driver_array
+
+Flattening instances of routeb_new_1w1r_20x64_wordline_driver_array in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_wordline_driver_array in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_9'
+Circuit routeb_new_1w1r_20x64_pinv_9 contains 8 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   4
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_9'
+Circuit routeb_new_1w1r_20x64_pinv_9 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_9'
+Circuit routeb_new_1w1r_20x64_pinv_9 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_9'
+Circuit routeb_new_1w1r_20x64_pinv_9 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_10'
+Circuit routeb_new_1w1r_20x64_pinv_10 contains 24 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:  12
+  Class: sky130_fd_pr__nfet_01v8 instances:  12
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_10'
+Circuit routeb_new_1w1r_20x64_pinv_10 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_10'
+Circuit routeb_new_1w1r_20x64_pinv_10 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_10'
+Circuit routeb_new_1w1r_20x64_pinv_10 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_14'
+Circuit routeb_new_1w1r_20x64_pinv_14 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_14'
+Circuit routeb_new_1w1r_20x64_pinv_14 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_pinv_14 routeb_new_1w1r_20x64_pinv_14
+
+Flattening instances of routeb_new_1w1r_20x64_pinv_14 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_pinv_14 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_5'
+Circuit routeb_new_1w1r_20x64_pinv_5 contains 4 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_5'
+Circuit routeb_new_1w1r_20x64_pinv_5 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_5'
+Circuit routeb_new_1w1r_20x64_pinv_5 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_5'
+Circuit routeb_new_1w1r_20x64_pinv_5 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_4'
+Circuit routeb_new_1w1r_20x64_pinv_4 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_4'
+Circuit routeb_new_1w1r_20x64_pinv_4 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_pinv_4 routeb_new_1w1r_20x64_pinv_4
+
+Flattening instances of routeb_new_1w1r_20x64_pinv_4 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_pinv_4 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pdriver'
+Circuit routeb_new_1w1r_20x64_pdriver contains 1 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_1 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pdriver'
+Circuit routeb_new_1w1r_20x64_pdriver contains 1 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_1 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pnand2'
+Circuit routeb_new_1w1r_20x64_pnand2 contains 4 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pnand2'
+Circuit routeb_new_1w1r_20x64_pnand2 contains 4 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 6 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 6 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_pnand2 routeb_new_1w1r_20x64_pnand2
+
+Flattening instances of routeb_new_1w1r_20x64_pnand2 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_pnand2 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_dff_buf_0'
+Circuit routeb_new_1w1r_20x64_dff_buf_0 contains 3 device instances.
+  Class: sky130_fd_bd_sram__openram_dff instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv instances:   1
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_dff_buf_0'
+Circuit routeb_new_1w1r_20x64_dff_buf_0 contains 3 device instances.
+  Class: sky130_fd_bd_sram__openram_dff instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv instances:   1
+Circuit contains 7 nets.
+
+Circuit 1 contains 3 devices, Circuit 2 contains 3 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_7'
+Circuit routeb_new_1w1r_20x64_pinv_7 contains 18 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+  Class: sky130_fd_pr__nfet_01v8 instances:   9
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_7'
+Circuit routeb_new_1w1r_20x64_pinv_7 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_7'
+Circuit routeb_new_1w1r_20x64_pinv_7 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_7'
+Circuit routeb_new_1w1r_20x64_pinv_7 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_8'
+Circuit routeb_new_1w1r_20x64_pinv_8 contains 52 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+  Class: sky130_fd_pr__nfet_01v8 instances:  26
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_8'
+Circuit routeb_new_1w1r_20x64_pinv_8 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_8'
+Circuit routeb_new_1w1r_20x64_pinv_8 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_8'
+Circuit routeb_new_1w1r_20x64_pinv_8 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_6'
+Circuit routeb_new_1w1r_20x64_pinv_6 contains 6 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_6'
+Circuit routeb_new_1w1r_20x64_pinv_6 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_6'
+Circuit routeb_new_1w1r_20x64_pinv_6 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_6'
+Circuit routeb_new_1w1r_20x64_pinv_6 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pdriver_3'
+Circuit routeb_new_1w1r_20x64_pdriver_3 contains 1 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_12 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pdriver_3'
+Circuit routeb_new_1w1r_20x64_pdriver_3 contains 1 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_12 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pnand3'
+Circuit routeb_new_1w1r_20x64_pnand3 contains 6 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pnand3'
+Circuit routeb_new_1w1r_20x64_pnand3 contains 6 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 8 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 8 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_pnand3 routeb_new_1w1r_20x64_pnand3
+
+Flattening instances of routeb_new_1w1r_20x64_pnand3 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_pnand3 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pdriver_2'
+Circuit routeb_new_1w1r_20x64_pdriver_2 contains 1 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_11 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pdriver_2'
+Circuit routeb_new_1w1r_20x64_pdriver_2 contains 1 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_11 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_capped_replica_bitcell_array'
+Circuit routeb_new_1w1r_20x64_capped_replica_bitcell_array contains 13162 device instances.
+  Class: routeb_new_1w1r_20x64_replica_column instances:   1
+  Class: routeb_new_1w1r_20x64_replica_column_0 instances:   1
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 8040
+Circuit contains 2940 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_capped_replica_bitcell_array'
+Circuit routeb_new_1w1r_20x64_capped_replica_bitcell_array contains 13162 device instances.
+  Class: routeb_new_1w1r_20x64_replica_column instances:   1
+  Class: routeb_new_1w1r_20x64_replica_column_0 instances:   1
+  Class: sky130_fd_pr__special_pfet_pass instances: 5120
+  Class: sky130_fd_pr__special_nfet_latch instances: 8040
+Circuit contains 2940 nets.
+
+Circuit 1 contains 13162 devices, Circuit 2 contains 13162 devices.
+Circuit 1 contains 2940 nets,    Circuit 2 contains 2940 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_port_data'
+Circuit routeb_new_1w1r_20x64_port_data contains 321 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances: 140
+  Class: routeb_new_1w1r_20x64_precharge_array instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances: 180
+Circuit contains 208 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_port_data'
+Circuit routeb_new_1w1r_20x64_port_data contains 321 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances: 140
+  Class: routeb_new_1w1r_20x64_precharge_array instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances: 180
+Circuit contains 206 nets.
+
+Circuit 1 contains 321 devices, Circuit 2 contains 321 devices.
+Circuit 1 contains 208 nets,    Circuit 2 contains 206 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_port_data routeb_new_1w1r_20x64_port_data
+
+Flattening instances of routeb_new_1w1r_20x64_port_data in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_port_data in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_port_data_0'
+Circuit routeb_new_1w1r_20x64_port_data_0 contains 181 device instances.
+  Class: routeb_new_1w1r_20x64_precharge_array_0 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances: 100
+  Class: sky130_fd_pr__nfet_01v8 instances:  80
+Circuit contains 128 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_port_data_0'
+Circuit routeb_new_1w1r_20x64_port_data_0 contains 181 device instances.
+  Class: routeb_new_1w1r_20x64_precharge_array_0 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances: 100
+  Class: sky130_fd_pr__nfet_01v8 instances:  80
+Circuit contains 126 nets.
+
+Circuit 1 contains 181 devices, Circuit 2 contains 181 devices.
+Circuit 1 contains 128 nets,    Circuit 2 contains 126 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_port_data_0 routeb_new_1w1r_20x64_port_data_0
+
+Flattening instances of routeb_new_1w1r_20x64_port_data_0 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_port_data_0 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_port_address_0'
+Circuit routeb_new_1w1r_20x64_port_address_0 contains 370 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances:  64
+  Class: sky130_fd_pr__pfet_01v8 instances:  82
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:  77
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:  65
+  Class: sky130_fd_pr__nfet_01v8 instances:  82
+Circuit contains 310 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_port_address_0'
+Circuit routeb_new_1w1r_20x64_port_address_0 contains 370 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances:  64
+  Class: sky130_fd_pr__pfet_01v8 instances:  82
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:  77
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:  65
+  Class: sky130_fd_pr__special_nfet_01v8 instances:  82
+Circuit contains 297 nets.
+
+Circuit 1 contains 370 devices, Circuit 2 contains 370 devices.
+Circuit 1 contains 310 nets,    Circuit 2 contains 297 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_port_address_0 routeb_new_1w1r_20x64_port_address_0
+
+Flattening instances of routeb_new_1w1r_20x64_port_address_0 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_port_address_0 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_port_address'
+Circuit routeb_new_1w1r_20x64_port_address contains 370 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances:  64
+  Class: sky130_fd_pr__pfet_01v8 instances:  82
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:  77
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:  65
+  Class: sky130_fd_pr__nfet_01v8 instances:  82
+Circuit contains 310 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_port_address'
+Circuit routeb_new_1w1r_20x64_port_address contains 370 device instances.
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances:  64
+  Class: sky130_fd_pr__pfet_01v8 instances:  82
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances:  77
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances:  65
+  Class: sky130_fd_pr__special_nfet_01v8 instances:  82
+Circuit contains 297 nets.
+
+Circuit 1 contains 370 devices, Circuit 2 contains 370 devices.
+Circuit 1 contains 310 nets,    Circuit 2 contains 297 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_port_address routeb_new_1w1r_20x64_port_address
+
+Flattening instances of routeb_new_1w1r_20x64_port_address in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_port_address in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pnand2_0'
+Circuit routeb_new_1w1r_20x64_pnand2_0 contains 4 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 6 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pnand2_0'
+Circuit routeb_new_1w1r_20x64_pnand2_0 contains 4 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 6 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pdriver_1'
+Circuit routeb_new_1w1r_20x64_pdriver_1 contains 2 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_10 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   1
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pdriver_1'
+Circuit routeb_new_1w1r_20x64_pdriver_1 contains 2 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_10 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   1
+Circuit contains 5 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 5 nets,    Circuit 2 contains 5 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_delay_chain'
+Circuit routeb_new_1w1r_20x64_delay_chain contains 90 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:  45
+  Class: sky130_fd_pr__nfet_01v8 instances:  45
+Circuit contains 48 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_delay_chain'
+Circuit routeb_new_1w1r_20x64_delay_chain contains 90 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:  45
+  Class: sky130_fd_pr__special_nfet_01v8 instances:  45
+Circuit contains 48 nets.
+
+Circuit 1 contains 90 devices, Circuit 2 contains 90 devices.
+Circuit 1 contains 48 nets,    Circuit 2 contains 48 nets.
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_delay_chain routeb_new_1w1r_20x64_delay_chain
+
+Flattening instances of routeb_new_1w1r_20x64_delay_chain in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_delay_chain in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pdriver_4'
+Circuit routeb_new_1w1r_20x64_pdriver_4 contains 6 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pdriver_4'
+Circuit routeb_new_1w1r_20x64_pdriver_4 contains 6 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_pdriver_4 routeb_new_1w1r_20x64_pdriver_4
+
+Flattening instances of routeb_new_1w1r_20x64_pdriver_4 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_pdriver_4 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pand2'
+Circuit routeb_new_1w1r_20x64_pand2 contains 5 device instances.
+  Class: routeb_new_1w1r_20x64_pdriver instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pand2'
+Circuit routeb_new_1w1r_20x64_pand2 contains 5 device instances.
+  Class: routeb_new_1w1r_20x64_pdriver instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 5 devices, Circuit 2 contains 5 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_dff_buf_array'
+Circuit routeb_new_1w1r_20x64_dff_buf_array contains 1 device instances.
+  Class: routeb_new_1w1r_20x64_dff_buf_0 instances:   1
+Circuit contains 6 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_dff_buf_array'
+Circuit routeb_new_1w1r_20x64_dff_buf_array contains 1 device instances.
+  Class: routeb_new_1w1r_20x64_dff_buf_0 instances:   1
+Circuit contains 6 nets.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pdriver_0'
+Circuit routeb_new_1w1r_20x64_pdriver_0 contains 8 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pdriver_0'
+Circuit routeb_new_1w1r_20x64_pdriver_0 contains 8 device instances.
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   2
+Circuit contains 9 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 9 nets.
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_pdriver_0 routeb_new_1w1r_20x64_pdriver_0
+
+Flattening instances of routeb_new_1w1r_20x64_pdriver_0 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_pdriver_0 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pand3_0'
+Circuit routeb_new_1w1r_20x64_pand3_0 contains 7 device instances.
+  Class: routeb_new_1w1r_20x64_pdriver_3 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pand3_0'
+Circuit routeb_new_1w1r_20x64_pand3_0 contains 7 device instances.
+  Class: routeb_new_1w1r_20x64_pdriver_3 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 9 nets.
+
+Circuit 1 contains 7 devices, Circuit 2 contains 7 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 9 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pinv_13'
+Circuit routeb_new_1w1r_20x64_pinv_13 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pinv_13'
+Circuit routeb_new_1w1r_20x64_pinv_13 contains 2 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_pinv_13 routeb_new_1w1r_20x64_pinv_13
+
+Flattening instances of routeb_new_1w1r_20x64_pinv_13 in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_pinv_13 in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_pand3'
+Circuit routeb_new_1w1r_20x64_pand3 contains 7 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: routeb_new_1w1r_20x64_pdriver_2 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_pand3'
+Circuit routeb_new_1w1r_20x64_pand3 contains 7 device instances.
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: routeb_new_1w1r_20x64_pdriver_2 instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+Circuit contains 9 nets.
+
+Circuit 1 contains 7 devices, Circuit 2 contains 7 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 9 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_data_dff'
+Circuit routeb_new_1w1r_20x64_data_dff contains 20 device instances.
+  Class: sky130_fd_bd_sram__openram_dff instances:  20
+Circuit contains 43 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_data_dff'
+Circuit routeb_new_1w1r_20x64_data_dff contains 20 device instances.
+  Class: sky130_fd_bd_sram__openram_dff instances:  20
+Circuit contains 43 nets.
+
+Circuit 1 contains 20 devices, Circuit 2 contains 20 devices.
+Circuit 1 contains 43 nets,    Circuit 2 contains 43 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_bank'
+Circuit routeb_new_1w1r_20x64_bank contains 1243 device instances.
+  Class: routeb_new_1w1r_20x64_precharge_array_0 instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances: 128
+  Class: sky130_fd_pr__pfet_01v8 instances: 404
+  Class: routeb_new_1w1r_20x64_precharge_array instances:   1
+  Class: routeb_new_1w1r_20x64_capped_replica_bitcell_array instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances: 154
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances: 130
+  Class: sky130_fd_pr__nfet_01v8 instances: 424
+Circuit contains 958 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_bank'
+Circuit routeb_new_1w1r_20x64_bank contains 1243 device instances.
+  Class: routeb_new_1w1r_20x64_precharge_array_0 instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances: 128
+  Class: sky130_fd_pr__pfet_01v8 instances: 404
+  Class: routeb_new_1w1r_20x64_precharge_array instances:   1
+  Class: routeb_new_1w1r_20x64_capped_replica_bitcell_array instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances: 154
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances: 130
+  Class: sky130_fd_pr__nfet_01v8 instances: 260
+  Class: sky130_fd_pr__special_nfet_01v8 instances: 164
+Circuit contains 924 nets.
+
+Circuit 1 contains 1243 devices, Circuit 2 contains 1243 devices.
+Circuit 1 contains 958 nets,    Circuit 2 contains 924 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_bank routeb_new_1w1r_20x64_bank
+
+Flattening instances of routeb_new_1w1r_20x64_bank in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_bank in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_control_logic_r'
+Circuit routeb_new_1w1r_20x64_control_logic_r contains 112 device instances.
+  Class: routeb_new_1w1r_20x64_pand3_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pdriver_1 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:  50
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   1
+  Class: routeb_new_1w1r_20x64_pand2 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   1
+  Class: routeb_new_1w1r_20x64_dff_buf_array instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:  50
+  Class: routeb_new_1w1r_20x64_pnand2_0 instances:   1
+Circuit contains 70 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_control_logic_r'
+Circuit routeb_new_1w1r_20x64_control_logic_r contains 112 device instances.
+  Class: routeb_new_1w1r_20x64_pand3_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pdriver_1 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:  50
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   1
+  Class: routeb_new_1w1r_20x64_pand2 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   1
+  Class: routeb_new_1w1r_20x64_dff_buf_array instances:   1
+  Class: routeb_new_1w1r_20x64_pnand2_0 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:  50
+Circuit contains 68 nets.
+
+Circuit 1 contains 112 devices, Circuit 2 contains 112 devices.
+Circuit 1 contains 70 nets,    Circuit 2 contains 68 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_control_logic_r routeb_new_1w1r_20x64_control_logic_r
+
+Flattening instances of routeb_new_1w1r_20x64_control_logic_r in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_control_logic_r in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_control_logic_w'
+Circuit routeb_new_1w1r_20x64_control_logic_w contains 114 device instances.
+  Class: routeb_new_1w1r_20x64_pdriver_1 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   2
+  Class: routeb_new_1w1r_20x64_pand3 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:  51
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   1
+  Class: routeb_new_1w1r_20x64_pand2 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   1
+  Class: routeb_new_1w1r_20x64_dff_buf_array instances:   1
+  Class: sky130_fd_pr__nfet_01v8 instances:  51
+  Class: routeb_new_1w1r_20x64_pnand2_0 instances:   1
+Circuit contains 71 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_control_logic_w'
+Circuit routeb_new_1w1r_20x64_control_logic_w contains 114 device instances.
+  Class: routeb_new_1w1r_20x64_pdriver_1 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   2
+  Class: routeb_new_1w1r_20x64_pand3 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:  51
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   1
+  Class: routeb_new_1w1r_20x64_pand2 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   1
+  Class: routeb_new_1w1r_20x64_dff_buf_array instances:   1
+  Class: routeb_new_1w1r_20x64_pnand2_0 instances:   1
+  Class: sky130_fd_pr__special_nfet_01v8 instances:  51
+Circuit contains 69 nets.
+
+Circuit 1 contains 114 devices, Circuit 2 contains 114 devices.
+Circuit 1 contains 71 nets,    Circuit 2 contains 69 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits routeb_new_1w1r_20x64_control_logic_w routeb_new_1w1r_20x64_control_logic_w
+
+Flattening instances of routeb_new_1w1r_20x64_control_logic_w in file layout.spice
+Flattening instances of routeb_new_1w1r_20x64_control_logic_w in file schematic.sp
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64_row_addr_dff'
+Circuit routeb_new_1w1r_20x64_row_addr_dff contains 6 device instances.
+  Class: sky130_fd_bd_sram__openram_dff instances:   6
+Circuit contains 15 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64_row_addr_dff'
+Circuit routeb_new_1w1r_20x64_row_addr_dff contains 6 device instances.
+  Class: sky130_fd_bd_sram__openram_dff instances:   6
+Circuit contains 15 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 15 nets,    Circuit 2 contains 15 nets.
+
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64'
+Circuit routeb_new_1w1r_20x64 contains 1472 device instances.
+  Class: routeb_new_1w1r_20x64_pand3_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pdriver_1 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   2
+  Class: routeb_new_1w1r_20x64_data_dff instances:   1
+  Class: routeb_new_1w1r_20x64_precharge_array_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   4
+  Class: routeb_new_1w1r_20x64_pand3 instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances: 128
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8 instances: 505
+  Class: routeb_new_1w1r_20x64_row_addr_dff instances:   2
+  Class: routeb_new_1w1r_20x64_precharge_array instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   2
+  Class: routeb_new_1w1r_20x64_capped_replica_bitcell_array instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances: 154
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances: 130
+  Class: routeb_new_1w1r_20x64_pand2 instances:   4
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   2
+  Class: routeb_new_1w1r_20x64_dff_buf_array instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances: 525
+  Class: routeb_new_1w1r_20x64_pnand2_0 instances:   2
+Circuit contains 1079 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64'
+Circuit routeb_new_1w1r_20x64 contains 1472 device instances.
+  Class: routeb_new_1w1r_20x64_pand3_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pdriver_1 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   2
+  Class: routeb_new_1w1r_20x64_data_dff instances:   1
+  Class: routeb_new_1w1r_20x64_precharge_array_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   4
+  Class: routeb_new_1w1r_20x64_pand3 instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances: 128
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8 instances: 505
+  Class: routeb_new_1w1r_20x64_row_addr_dff instances:   2
+  Class: routeb_new_1w1r_20x64_precharge_array instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   2
+  Class: routeb_new_1w1r_20x64_capped_replica_bitcell_array instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances: 154
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances: 130
+  Class: routeb_new_1w1r_20x64_pand2 instances:   4
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   2
+  Class: routeb_new_1w1r_20x64_dff_buf_array instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances: 260
+  Class: routeb_new_1w1r_20x64_pnand2_0 instances:   2
+  Class: sky130_fd_pr__special_nfet_01v8 instances: 265
+Circuit contains 1081 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'routeb_new_1w1r_20x64'
+Circuit routeb_new_1w1r_20x64 contains 1471 device instances.
+  Class: routeb_new_1w1r_20x64_pand3_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pdriver_1 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   2
+  Class: routeb_new_1w1r_20x64_data_dff instances:   1
+  Class: routeb_new_1w1r_20x64_precharge_array_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   4
+  Class: routeb_new_1w1r_20x64_pand3 instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances: 128
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8 instances: 504
+  Class: routeb_new_1w1r_20x64_row_addr_dff instances:   2
+  Class: routeb_new_1w1r_20x64_precharge_array instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   2
+  Class: routeb_new_1w1r_20x64_capped_replica_bitcell_array instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances: 154
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances: 130
+  Class: routeb_new_1w1r_20x64_pand2 instances:   4
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   2
+  Class: routeb_new_1w1r_20x64_dff_buf_array instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances: 525
+  Class: routeb_new_1w1r_20x64_pnand2_0 instances:   2
+Circuit contains 1079 nets.
+Contents of circuit 2:  Circuit: 'routeb_new_1w1r_20x64'
+Circuit routeb_new_1w1r_20x64 contains 1472 device instances.
+  Class: routeb_new_1w1r_20x64_pand3_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pdriver_1 instances:   2
+  Class: routeb_new_1w1r_20x64_pinv_6 instances:   2
+  Class: routeb_new_1w1r_20x64_data_dff instances:   1
+  Class: routeb_new_1w1r_20x64_precharge_array_0 instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_5 instances:   4
+  Class: routeb_new_1w1r_20x64_pand3 instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand3_dec instances: 128
+  Class: routeb_new_1w1r_20x64_pinv_8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8 instances: 505
+  Class: routeb_new_1w1r_20x64_row_addr_dff instances:   2
+  Class: routeb_new_1w1r_20x64_precharge_array instances:   1
+  Class: routeb_new_1w1r_20x64_pinv_7 instances:   2
+  Class: routeb_new_1w1r_20x64_capped_replica_bitcell_array instances:   1
+  Class: sky130_fd_bd_sram__openram_dp_nand2_dec instances: 154
+  Class: routeb_new_1w1r_20x64_pinv_dec_0 instances: 130
+  Class: routeb_new_1w1r_20x64_pand2 instances:   4
+  Class: routeb_new_1w1r_20x64_pinv_9 instances:   2
+  Class: routeb_new_1w1r_20x64_dff_buf_array instances:   2
+  Class: sky130_fd_pr__nfet_01v8 instances: 260
+  Class: routeb_new_1w1r_20x64_pnand2_0 instances:   2
+  Class: sky130_fd_pr__special_nfet_01v8 instances: 265
+Circuit contains 1081 nets.
+
+Circuit 1 contains 1471 devices, Circuit 2 contains 1472 devices. *** MISMATCH ***
+Circuit 1 contains 1079 nets,    Circuit 2 contains 1081 nets. *** MISMATCH ***
+
+
+Final result: 
+Top level cell failed pin matching.
+
+Logging to file "result.report" disabled
+LVS Done.

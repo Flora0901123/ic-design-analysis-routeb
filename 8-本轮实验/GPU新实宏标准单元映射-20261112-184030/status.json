@@ -1,0 +1,51 @@
+{
+  "status": "FAILED",
+  "scope": "New GPU identity with real SRAM Liberty; post-map equivalence and physical checks pending",
+  "native_workspace": "/root/.cache/routeb-gpu-real-sram-map-20261112-184030",
+  "physical_signoff": false,
+  "formal_promotion": "HOLD",
+  "input_hashes": {
+    "8-本轮实验/GPU物理依赖公开来源核对-20261109/sky130_fd_sc_hd__tt_025C_1v80.lib": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/project-physical.v": "ce93aaba3171155f57c42f73112eccd221a96d71444fef423e12d4f525033709",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/gpu_fault_physical_top.sv": "f844bc6ece4fa9364afd48459999f348771db37e8a29708060fb7c8c5754e255",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/gpu_status_command_adapter.sv": "97bb899ba7d7202031e906046d8b6aeb70200b346d791df82b322f10ae942021",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/gpu_fault_memory_adapter.sv": "5ef56b0c67bc08c9e3629b6bdbd0b0fe443f084a413075e9e0210f36ab402663",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/snapshot/vortex_banked_large_sram_wrappers.sv": "ec85edb5b99cbcdad47ec94edcd72446d47ab7925205a2b375d26a540cd3c528",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/rtl/openram_wrappers.v": "556f077d43bc7a68811e928cc334f4a8cdd67685f9a93716bab56b5ff61cbc5d",
+    "8-本轮实验/GPU公开SRAM视图-20261111/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib": "f36f91f35700d936c1c82aeaffed0084b938aceed60551588ae9a02cbd706f56",
+    "8-本轮实验/GPU公开SRAM原版模型预检-20261111/32x256-adapter.sv": "05471e4a9e51713688ae8c6f747f9515072fd092c937b81fcb565a00724e6da5",
+    "8-本轮实验/GPU公开SRAM视图-20261111/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8_TT_1p8V_25C.lib": "7cd70c91074a336d3ca9182237be49e1f3339fba293381fd8153f7e2e95b2a89",
+    "8-本轮实验/GPU公开SRAM原版模型预检-20261111/8x1024-adapter.sv": "efbcba50181305b888921b44027a659fbaf610e936559050a75539bae2c2f594",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/8x128/routeb_new_1w1r_8x128_TT_1p8V_25C.lib": "656589955205efa2a989b8af308bfb63e4f200b7b629cec3848c6fde19033a85",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/20x64/routeb_new_1w1r_20x64_TT_1p8V_25C.lib": "51005e460c83663a624a5aab4da15f61daae18ac5a44760f06fdb0437833139d",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/independent-check/status.json": "5fd9fa2f1507d0198934a77d23d0423ca6b2919b7cce61282e25ef862733cc01",
+    "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/status.json": "f19436a52433d853cd5c429d899a95d01b42795a3a671e35e58b2e8c1bfd40fa",
+    "8-本轮实验/GPU公开SRAM原版模型预检-20261111/status.json": "1848d915a9801212e38906a6cf1fd3e9ee881c9a1270b899d87576e4464cf34e",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/resource-estimate.json": "58d9f0456bd1ae2c36765fd225361ae0c75768d975a7cbf87d4543baf5ab9ca5",
+    "8-本轮实验/GPU新身份物理输入准备-20261110/openram-preflight.ys": "abd50ed0c92b3ee2a41844ebefca9630fa3435c69e2d6d84a995c41b48ae6d99",
+    "7-审计与验收/run_new_gpu_real_sram_mapping.py": "29b802c8c8d71f9f8c08faa61ec9b541b5158c7f720a6bcb18e0db18e28dd1aa"
+  },
+  "seconds": 1803.010444774,
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794481683.4921052,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 2178883287\nuser_usec 2148134490\nsystem_usec 30748797\nnice_usec 0\nnr_periods 18030\nnr_throttled 3\nthrottled_usec 3574\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "48480256",
+      "memory.peak": "7132000256",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "297"
+    }
+  },
+  "expected_macros": {
+    "sky130_sram_1kbyte_1rw1r_32x256_8": 16,
+    "sky130_sram_1kbyte_1rw1r_8x1024_8": 16,
+    "routeb_new_1w1r_8x128": 128,
+    "routeb_new_1w1r_20x64": 4
+  },
+  "error": "RuntimeError: Time or 7 GiB early stop reached; see synthesis.log"
+}

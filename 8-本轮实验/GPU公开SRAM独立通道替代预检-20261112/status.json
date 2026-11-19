@@ -1,0 +1,40 @@
+{
+  "status": "PADDED_PUBLIC_SRAM_FOUR_STATE_PASS",
+  "physical_signoff": false,
+  "records": [
+    {
+      "shape": "20x64",
+      "public_macro": "sky130_sram_1kbyte_1rw1r_32x256_8",
+      "transactions": 667,
+      "sha256": {
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u89c6\u56fe-20261111/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.v": "88eaee9f0c480065545479143bfef1e3186a5d97e4a7f79b8c57ad57637cdfeb",
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u65b0\u8eab\u4efd\u7269\u7406\u8f93\u5165\u51c6\u5907-20261110/verification/tb_vortex_dp_80x64_w4_openram.sv": "557451230331810201c617fb1eb9375dffb00cfb0230ef3a02bdf593b574546b",
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u65b0\u8eab\u4efd\u7269\u7406\u8f93\u5165\u51c6\u5907-20261110/verification/vortex_dp_80x64_w4.vectors": "a63cc002f9149c3fdd043511e3492efdc73dbe9483746fb59962e5f1cb061cf3",
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u72ec\u7acb\u901a\u9053\u66ff\u4ee3\u9884\u68c0-20261112/20x64-adapter.v": "92b94e664b1f3181a967a8da21a74f3a3c4c239f78664260ffe6df03768afa83",
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u72ec\u7acb\u901a\u9053\u66ff\u4ee3\u9884\u68c0-20261112/20x64-run.log": "483d99082d082020cff8a599b7f281db485a65d88a2b8f2ffc7152de8416ee0e"
+      }
+    },
+    {
+      "shape": "8x128",
+      "public_macro": "sky130_sram_1kbyte_1rw1r_8x1024_8",
+      "transactions": 1035,
+      "sha256": {
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u89c6\u56fe-20261111/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.v": "2172abc41cd54fbf51fabdfafabe341f761cb2f43a65707fe99f74b8df54b8a7",
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u65b0\u8eab\u4efd\u7269\u7406\u8f93\u5165\u51c6\u5907-20261110/verification/tb_vortex_sp_64x128_w8_openram.sv": "42a704c394271e3704cbbab06d595b8ac42358d6d6ceeebe185769067ed9b7a7",
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u65b0\u8eab\u4efd\u7269\u7406\u8f93\u5165\u51c6\u5907-20261110/verification/vortex_sp_64x128_w8.vectors": "d6cb62b9a499433045453951c13cfa6157706dfe1f8266bf310a774679479a20",
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u72ec\u7acb\u901a\u9053\u66ff\u4ee3\u9884\u68c0-20261112/8x128-adapter.v": "318f84083b265ee10133de122b751e676de146d9431ef2123ca30e1d96628ff1",
+        "8-\u672c\u8f6e\u5b9e\u9a8c/GPU\u516c\u5f00SRAM\u72ec\u7acb\u901a\u9053\u66ff\u4ee3\u9884\u68c0-20261112/8x128-run.log": "1c6827358452febf7afb4ce0924c4d86aa696584f28a9d91895dd29070357eaa"
+      }
+    }
+  ],
+  "transactions": 1702,
+  "macro_counts": {
+    "32x256": 20,
+    "8x1024": 144
+  },
+  "macro_outline_area_mm2": {
+    "generated_mixed": 18.885837527999996,
+    "padded_public": 33.085597271999994
+  },
+  "scope": "verified wrapper simulation and sum of LEF macro outlines; no whole GPU timing or routing"
+}

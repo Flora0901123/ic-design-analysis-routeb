@@ -1,0 +1,3 @@
+Cloning SRAM library...
+fatal: not a git repository (or any of the parent directories): .git
+make: *** [Makefile:88: /root/.cache/routeb-openram-b2b069c/bitcells] Error 128

@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-04",
+  "scope": "fresh execution, frozen 100 cases x 10 seeds, baseline scalar; cached binaries/runtime reused with SHA checks",
+  "cpu": {
+    "status": "TARGET_EXECUTED",
+    "backend": "vexriscv-rtl",
+    "fresh_execution": true,
+    "records_expected": 1000,
+    "records_observed": 1000,
+    "numeric_matches": 1000,
+    "elapsed_seconds": 116.442231703,
+    "protocol_qualification": "PENDING_SEPARATE_RTL_ADAPTER_CHECKS",
+    "formal_baseline": false
+  },
+  "gpu": {
+    "status": "TARGET_EXECUTED",
+    "backend": "vortex-simx",
+    "fresh_execution": true,
+    "records_expected": 1000,
+    "performance_eligible": false,
+    "work": "/mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/student-mini-v1-cpu-gpu/sources/build/student-mini/gpu/6f151dd40a110180994d750f3b6a5bce9ab06d18b2b75d92010d8ab0514d85cf",
+    "stage": "execute",
+    "records_observed": 1000,
+    "numeric_matches": 970,
+    "numeric_failures": 0,
+    "unsupported_records": 30,
+    "elapsed_seconds": 156.368134381,
+    "formal_baseline": false,
+    "qualification": "Actual SimX full-output replay only; RTLSIM counters/protocol, physical, Nano and release gates remain mandatory"
+  },
+  "cpu_fully_matched_cases": 100,
+  "gpu_fully_matched_cases": 97,
+  "cpu_gpu_comparable_records": 970,
+  "cpu_gpu_record_mismatches": 0,
+  "gpu_unsupported_cases": [
+    "P1-MINI-30",
+    "P2-MINI-30",
+    "P3-MINI-30"
+  ],
+  "full_qualification": "HOLD: independent DMA/protocol RTL, resource and GPU RTLSIM performance gates remain",
+  "evidence": {
+    "cpu": "8-本轮实验\\全100案例双后端-20261104T134532Z\\cpu-rtl",
+    "gpu": "8-本轮实验\\全100案例双后端-20261104T134332Z\\gpu-simx"
+  }
+}

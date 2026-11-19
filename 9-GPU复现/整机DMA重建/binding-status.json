@@ -1,0 +1,54 @@
+{
+  "status": "FRESH_MACRO_BINDING_GENERATED",
+  "logical_shapes": [
+    {
+      "module": "VX_dp_ram_asic",
+      "macro_name": "vortex_dp_80x64_w4",
+      "data_width": 80,
+      "depth": 64,
+      "write_enable_width": 4,
+      "instance_count": 1,
+      "port_topology": "1r1w",
+      "physical_macro": true
+    },
+    {
+      "module": "VX_sp_ram_asic",
+      "macro_name": "vortex_sp_32x256_w1",
+      "data_width": 32,
+      "depth": 256,
+      "write_enable_width": 1,
+      "instance_count": 16,
+      "port_topology": "1r1w",
+      "physical_macro": true
+    },
+    {
+      "module": "VX_sp_ram_asic",
+      "macro_name": "vortex_sp_32x1024_w4",
+      "data_width": 32,
+      "depth": 1024,
+      "write_enable_width": 4,
+      "instance_count": 4,
+      "port_topology": "1r1w",
+      "physical_macro": true
+    },
+    {
+      "module": "VX_sp_ram_asic",
+      "macro_name": "vortex_sp_64x128_w8",
+      "data_width": 64,
+      "depth": 128,
+      "write_enable_width": 8,
+      "instance_count": 16,
+      "port_topology": "1r1w",
+      "physical_macro": true
+    }
+  ],
+  "physical_model_shapes": 4,
+  "reference_physical_identity": false,
+  "physical_evidence_complete": false,
+  "seconds": 28.394389525999998,
+  "artifacts": {
+    "macros-blackboxes.v": "f35b76cc55f25c8e9727829b64aed6d05059debec3bb912d16b60cb1244898ba",
+    "project-banked.v": "bf356095e874aac7c5e102673b46f08bdecc480fa401a62ea7023f6b943c5810",
+    "project-unmapped.v": "f47d19dfa10c614035e848e4470b83d216bb2344d7df1f492d0cc85151646226"
+  }
+}

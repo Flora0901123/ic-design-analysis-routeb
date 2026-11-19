@@ -1,0 +1,12 @@
+{
+  "status": "WRITE_CONTROL_ROUTE_GEOMETRY_DEVELOPMENT",
+  "physical_signoff": false,
+  "prior_recipe_sha256": "a7a66955e3681ea0045a50f9958a551375e4d593097140dacad06cade4d28981",
+  "openram_paths": [
+    {
+      "path": "compiler/modules/sram_1bank.py",
+      "original_sha256": "11d80874ebd9ae3db36b5d0b921efe287bfc8f493e7a7867f8ef5b449c7ac507",
+      "candidate_sha256": "ee47b920623dda2700a7e31d00f2b77a5d813897cb3a02c87eb489f9d7ad6bd8"
+    }
+  ]
+}

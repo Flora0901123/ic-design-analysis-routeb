@@ -1,0 +1,64 @@
+{
+  "inputs": {
+    "tech.lef": {
+      "path": "8-本轮实验/GPU-SRAM宏生成-20261111/run-20261112-175857/8x128-openroad-dbu2000/tech.lef",
+      "sha256": "5f5fe1e61dcb1c72c670574277604ee9a77e9b4351ba3c6c3278ab11299a0517"
+    },
+    "sky130.lef": {
+      "path": "9-GPU复现/downloads/openram-b2b069c/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef",
+      "sha256": "9cd94062fd5434f5e27314ef8e30aca831a9b78253f6a74bc932a63f858a136f"
+    },
+    "sky130.lib": {
+      "path": "9-GPU复现/downloads/openram-b2b069c/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+      "sha256": "8725d472becbb2d016ee59cdc0207e1102f24a5c6f5fb4ed194cecc278372575"
+    },
+    "32x256.lef": {
+      "path": "8-本轮实验/GPU公开SRAM视图-20261111/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8.lef",
+      "sha256": "f5389fa908c5876ef034c487b4363e755b3e13bf88ba924815c6fcea17965b92"
+    },
+    "32x256.lib": {
+      "path": "8-本轮实验/GPU公开SRAM视图-20261111/sky130_sram_1kbyte_1rw1r_32x256_8/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib",
+      "sha256": "f36f91f35700d936c1c82aeaffed0084b938aceed60551588ae9a02cbd706f56"
+    },
+    "8x1024.lef": {
+      "path": "8-本轮实验/GPU公开SRAM视图-20261111/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8.lef",
+      "sha256": "21335003e08e9bde67b8a9f43ac192361a62b10ac0aa46d0d62cba1815a35843"
+    },
+    "8x1024.lib": {
+      "path": "8-本轮实验/GPU公开SRAM视图-20261111/sky130_sram_1kbyte_1rw1r_8x1024_8/sky130_sram_1kbyte_1rw1r_8x1024_8_TT_1p8V_25C.lib",
+      "sha256": "7cd70c91074a336d3ca9182237be49e1f3339fba293381fd8153f7e2e95b2a89"
+    },
+    "8x128.lef": {
+      "path": "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3-run-20261114-140621/8x128/routeb_new_1w1r_8x128.lef",
+      "sha256": "fc215e2178c09c3ae50e664de873b3a742598573f7b128574f0c214f749fedcd"
+    },
+    "8x128.lib": {
+      "path": "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v3-run-20261114-140621/8x128/routeb_new_1w1r_8x128_TT_1p8V_25C.lib",
+      "sha256": "931569385cbc0d3b4d0c7ffb6c1978c9cb71742e0f7cb647504a376fca6a5dc6"
+    },
+    "20x64.lef": {
+      "path": "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v2-run-20261114-125749/20x64/routeb_new_1w1r_20x64.lef",
+      "sha256": "707ee900239ab88f7d7a961da0cbb512cd3936a87da4b04f6affa57177e55fc9"
+    },
+    "20x64.lib": {
+      "path": "8-本轮实验/GPU-SRAM宏生成-20261111/geometry-repair-v2-run-20261114-125749/20x64/routeb_new_1w1r_20x64_TT_1p8V_25C.lib",
+      "sha256": "2bf74107c944127389ec8fa00c8508eefc6750b04baff2507f34b87c6392b7cc"
+    },
+    "netlist.v": {
+      "path": "8-本轮实验/GPU-FMA候选实宏映射-20261112-224536/gpu-sram-mapped.v",
+      "sha256": "c1bc75648643478770ce38d980dfbdb76db473abecf600dcc4f3f1fbc2cc60a5"
+    },
+    "constraints.sdc": {
+      "path": "8-本轮实验/GPU新身份物理输入准备-20261110/constraint.sdc",
+      "sha256": "1a6b2394cf0d1640bfdc5751aed038079e5693f259c6591e909b2584193a79e7"
+    }
+  },
+  "openroad": {
+    "status": "OPENROAD_UBUNTU_2404_VERSION_PASS",
+    "version": "26Q2-1164-g08f67ee5ec",
+    "package_sha256": "f3f1eeaa18f327503f72cc45dcef5b1514ec2e89726ec53b4553bf4f951168a3",
+    "binary_sha256": "fcd7dcfc37d329bd43a7ede75805319a2e70e6879da11d42b4fd1c2e50e645c3",
+    "binary": "9-GPU复现/tools/openroad-08f67ee5ec/usr/bin/openroad",
+    "source": "https://vaultlink.precisioninno.com/"
+  }
+}

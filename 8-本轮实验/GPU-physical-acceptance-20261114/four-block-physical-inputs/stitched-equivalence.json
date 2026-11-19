@@ -1,0 +1,17 @@
+{
+  "status": "PREPARED_BLOCK_NETLISTS_STITCHED_EQUIVALENCE_PASS",
+  "physical_signoff": false,
+  "parent_equivalence_report_sha256": "5f7b618f0e5bcc835eba652d5a8a22c0c59eeebc305ffd1d284953c65dfd8991",
+  "equivalent_groups": 488558,
+  "instances": 485236,
+  "connected_primitive_terminals": 1745622,
+  "all_chip_terminals": 2366,
+  "inputs": {
+    "top.v": "aea878b5c3f4b4c1a99cbc4178af70467547dcdc9408b61c815f137c5fda3897",
+    "q0_LL/block.v": "e8f9bbb9d76016d4a2dacd4a79ae7a91de729b954f1d7e29f8219103f5719634",
+    "q1_LR/block.v": "2e4d119d5cdcf2e367f93e339223ec3c60eecff1ffe5573ca5b4017f46219958",
+    "q2_UL/block.v": "8ea707638dff436bd79e7fbe2993ebf782f1b11c0d400426ab7219958fa8d2a1",
+    "q3_UR/block.v": "f26af918de8cec88a50125913e5054fa840af30c71370eb6f3b565bfa79ea478"
+  },
+  "elapsed_seconds": 91.21801089999997
+}

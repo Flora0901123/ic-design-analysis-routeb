@@ -1,0 +1,15 @@
+{
+  "status": "MOVABLE_CPU_12_AND_ENTRY_SEALED",
+  "date": "2026-11-09",
+  "questions_passed": 12,
+  "total_token_hidden_logits_steps": 81,
+  "logical_target_counts_unchanged": true,
+  "private_old_build_module_dependencies": false,
+  "target_input_contains_expected_tokens": false,
+  "independent_entry_real_smoke_questions": 1,
+  "artifact_hashes": 372,
+  "full_clean_toolchain_install": false,
+  "different_computer": false,
+  "final_submission": false,
+  "scope": "same-host replay from copied binary/fixtures in clean directories; standalone entry works with standard Python and system Linux libraries"
+}

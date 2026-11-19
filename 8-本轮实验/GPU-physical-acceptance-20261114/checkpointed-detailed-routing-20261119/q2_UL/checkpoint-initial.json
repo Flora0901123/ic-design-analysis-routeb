@@ -1,0 +1,12 @@
+{
+  "status": "FIRST_DETAIL_ITERATION_CHECKPOINT_REOPENED",
+  "physical_signoff": false,
+  "router_drc": 151498,
+  "source_receipt_sha256": "7ac2a10af8f85b2491d59c2a6b9223d2dc98797a948352154ab04c89f2e012ce",
+  "checkpoint_sha256": "292f39d8a90bdd74599884249ae49064c3d13a29a36b1d222b091945af43d5a7",
+  "readback": [
+    "ROUTEB_CHECKPOINT_READBACK nets=69443 wired=68814 insts=66866"
+  ],
+  "log_sha256": "1e3e0646a7f59b5a1cbb9bfcf3df7e6b134788c1f0ecd5fd8fc17fdc903d4301",
+  "verification_script_sha256": "2bcb2d4d7c260cbc3d4c523a11641c138290e66d22510ff11c7e8b0bf6c2205d"
+}

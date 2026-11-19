@@ -1,0 +1,38 @@
+[2026-11-18 14:49:53.275111] WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+
+[2026-11-18 14:49:56.517208] |==============================================================================|
+[2026-11-18 14:49:56.523254] |=========                      OpenRAM v1.2.49                       =========|
+[2026-11-18 14:49:56.527898] |=========                                                            =========|
+[2026-11-18 14:49:56.532323] |=========               VLSI Design and Automation Lab               =========|
+[2026-11-18 14:49:56.534953] |=========        Computer Science and Engineering Department         =========|
+[2026-11-18 14:49:56.536920] |=========            University of California Santa Cruz             =========|
+[2026-11-18 14:49:56.539533] |=========                                                            =========|
+[2026-11-18 14:49:56.541880] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2026-11-18 14:49:56.547078] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2026-11-18 14:49:56.551181] |=========                See LICENSE for license info                =========|
+[2026-11-18 14:49:56.558722] |==============================================================================|
+[2026-11-18 14:49:56.561685] ** Start: 11/18/2026 14:49:56
+[2026-11-18 14:49:56.566980] Technology: sky130
+[2026-11-18 14:49:56.568990] Total size: 1024 bits
+[2026-11-18 14:49:56.571180] Word size: 8
+Words: 128
+Banks: 1
+[2026-11-18 14:49:56.573710] RW ports: 0
+R-only ports: 1
+W-only ports: 1
+[2026-11-18 14:49:56.576536] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2026-11-18 14:49:56.579312] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2026-11-18 14:49:56.581880] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2026-11-18 14:49:56.587262] Words per row: 1
+[2026-11-18 14:49:56.590330] Output files are: 
+[2026-11-18 14:49:56.593017] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.lvs
+[2026-11-18 14:49:56.595601] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.sp
+[2026-11-18 14:49:56.598715] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.v
+[2026-11-18 14:49:56.602312] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.lib
+[2026-11-18 14:49:56.604014] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.py
+[2026-11-18 14:49:56.605897] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.html
+[2026-11-18 14:49:56.608009] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.log
+[2026-11-18 14:49:56.610285] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.lef
+[2026-11-18 14:49:56.612201] /root/.cache/routeb-openram-b2b069c/run-20261118-144951/8x128/views/routeb_new_1w1r_8x128.gds
+[2026-11-18 14:50:02.491853] ** Submodules: 5.8 seconds
+[2026-11-18 14:50:02.508318] ** Placement: 0.0 seconds

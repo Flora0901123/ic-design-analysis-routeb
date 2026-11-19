@@ -1,0 +1,28 @@
+{
+  "status": "BASELINE_RUN_INCOMPLETE",
+  "question": "一加一等于几？",
+  "scope": "full-model locked baseline experiment, no per-token timing instrumentation",
+  "image_sha256": "6c51d6680ed34474bfe9a2267ecddeca2c492724faa857044ab1ee9d6067f5f5",
+  "host_sha256": "35fc43bf9f29814548e79d98cf66ea5dc5a252cc93e4c7d3786ce2ab7e23c131",
+  "rtlsim_libs": {
+    "libvortex.so": "997e66b8a88dddb21160929d99b388cfb7566dd50e6a3997ef4d0757d2232d12",
+    "libvortex-rtlsim.so": "9a55437cacc1e60a231dac5da1b9d07a455ba00797f1dd375f372e38642c5b35",
+    "librtlsim.so": "1a868cd647315fdb9c451db89be4a5b785a8dff13494fc39178893c403ea0fd1"
+  },
+  "physical_signoff": false,
+  "exit_code": -6,
+  "tokens": [],
+  "expected_tokens": [
+    92,
+    16,
+    15,
+    8,
+    4
+  ],
+  "performance_eligible": false,
+  "elapsed_seconds": 7254.13937152,
+  "perf_lines": [],
+  "outputs": {
+    "run.log": "7e75604f4abfda2244ce664e519399a560169d62ae400a481c28613bf816e614"
+  }
+}

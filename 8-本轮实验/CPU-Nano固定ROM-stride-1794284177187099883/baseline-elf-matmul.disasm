@@ -1,0 +1,72 @@
+
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-fixedrom-baseline-1794284177187099883/soc/software/bios/bios.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+000037b0 <matmul>:
+    37b0:	fc010113          	addi	sp,sp,-64
+    37b4:	02912a23          	sw	s1,52(sp)
+    37b8:	00058493          	mv	s1,a1
+    37bc:	02812c23          	sw	s0,56(sp)
+    37c0:	00068593          	mv	a1,a3
+    37c4:	00050413          	mv	s0,a0
+    37c8:	00249493          	slli	s1,s1,0x2
+    37cc:	00060513          	mv	a0,a2
+    37d0:	00010613          	mv	a2,sp
+    37d4:	02112e23          	sw	ra,60(sp)
+    37d8:	03212823          	sw	s2,48(sp)
+    37dc:	03312623          	sw	s3,44(sp)
+    37e0:	03412423          	sw	s4,40(sp)
+    37e4:	03512223          	sw	s5,36(sp)
+    37e8:	03612023          	sw	s6,32(sp)
+    37ec:	01712e23          	sw	s7,28(sp)
+    37f0:	00068913          	mv	s2,a3
+    37f4:	00070993          	mv	s3,a4
+    37f8:	00078a13          	mv	s4,a5
+    37fc:	00080a93          	mv	s5,a6
+    3800:	00940433          	add	s0,s0,s1
+    3804:	f94ff0ef          	jal	2f98 <quantize>
+    3808:	04c42583          	lw	a1,76(s0)
+    380c:	00000b93          	li	s7,0
+    3810:	00000493          	li	s1,0
+    3814:	1cd020ef          	jal	61e0 <__mulsf3>
+    3818:	00050b13          	mv	s6,a0
+    381c:	00042683          	lw	a3,0(s0)
+    3820:	00048793          	mv	a5,s1
+    3824:	00000613          	li	a2,0
+    3828:	00000513          	li	a0,0
+    382c:	00c10733          	add	a4,sp,a2
+    3830:	00070583          	lb	a1,0(a4)
+    3834:	00078713          	mv	a4,a5
+    3838:	000a0463          	beqz	s4,3840 <matmul+0x90>
+    383c:	01760733          	add	a4,a2,s7
+    3840:	00e68733          	add	a4,a3,a4
+    3844:	00070703          	lb	a4,0(a4)
+    3848:	00160613          	addi	a2,a2,1
+    384c:	013787b3          	add	a5,a5,s3
+    3850:	02b70733          	mul	a4,a4,a1
+    3854:	00e50533          	add	a0,a0,a4
+    3858:	fcc91ae3          	bne	s2,a2,382c <matmul+0x7c>
+    385c:	150030ef          	jal	69ac <__floatsisf>
+    3860:	000b0593          	mv	a1,s6
+    3864:	17d020ef          	jal	61e0 <__mulsf3>
+    3868:	5b5000ef          	jal	461c <course_bf16_rne_bits>
+    386c:	00249793          	slli	a5,s1,0x2
+    3870:	00fa87b3          	add	a5,s5,a5
+    3874:	01051513          	slli	a0,a0,0x10
+    3878:	00a7a023          	sw	a0,0(a5)
+    387c:	00148493          	addi	s1,s1,1
+    3880:	012b8bb3          	add	s7,s7,s2
+    3884:	f8999ce3          	bne	s3,s1,381c <matmul+0x6c>
+    3888:	03c12083          	lw	ra,60(sp)
+    388c:	03812403          	lw	s0,56(sp)
+    3890:	03412483          	lw	s1,52(sp)
+    3894:	03012903          	lw	s2,48(sp)
+    3898:	02c12983          	lw	s3,44(sp)
+    389c:	02812a03          	lw	s4,40(sp)
+    38a0:	02412a83          	lw	s5,36(sp)
+    38a4:	02012b03          	lw	s6,32(sp)
+    38a8:	01c12b83          	lw	s7,28(sp)
+    38ac:	04010113          	addi	sp,sp,64
+    38b0:	00008067          	ret

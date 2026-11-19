@@ -1,0 +1,24 @@
+{
+  "status": "FMA_ARITHMETIC_SAT_EQUIVALENT",
+  "physical_signoff": false,
+  "pipeline_registers_changed": false,
+  "original_sha256": "ce93aaba3171155f57c42f73112eccd221a96d71444fef423e12d4f525033709",
+  "candidate_sha256": "b03509698ed1c1d26836d61f21d3bf6fb71101dc89053f7ed2fad7cdd7858b4c",
+  "proofs": [
+    {
+      "width": 26,
+      "log": "proof-26.log",
+      "sha256": "27ed77fc3db2b1d132630ca2d5ac91f9620a9d6a8fbbee09c08efb4a167d8c2e"
+    },
+    {
+      "width": 52,
+      "log": "proof-52.log",
+      "sha256": "29d2caad8bd2ba8115cffc14d58fc7a5e8315a4684c7f20c9602ceb1f347dbc9"
+    },
+    {
+      "width": 110,
+      "log": "proof-110.log",
+      "sha256": "d2a959ca8b81878e62009e6c3c1bd54e7abdfc5124bb58dbb2c03ccb8d31ecee"
+    }
+  ]
+}

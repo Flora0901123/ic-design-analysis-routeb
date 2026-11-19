@@ -1,0 +1,388 @@
+{
+  "status": "PHYSICAL_IDENTITY_NOT_ESTABLISHED",
+  "critical_binding_checks": 50,
+  "exact_sha_matches": 12,
+  "missing_bound_files": 38,
+  "missing_whole_platform_producer_dependencies": [
+    "C:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\student-mini-v1-cpu-gpu\\sources\\scripts\\assemble_student_mini_gpu_counters.py",
+    "C:\\Users\\Camellia\\Desktop\\集成电路设计与分析-RouteB交付\\student-mini-v1-cpu-gpu\\sources\\grading\\evidence\\vortex-physical\\staged-openram-banked-manifest.json"
+  ],
+  "mapping_netlist_search": "No project-banked.v found in provided reference/teacher folder; WSL prior gpu-timing-boundary contains adapters and macro blackboxes only",
+  "reference_only_not_user_new_physical_execution": true,
+  "bindings": [
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+      "expected_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_dp_80x64_w4/vortex_dp_80x64_w4_TT_1p8V_25C.lib",
+      "expected_sha256": "f4742fb2e9c42f374b530881b53e96ed7a0f75e9cf9f50ca78f69bd249965886",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_128x128_w16/vortex_sp_128x128_w16_TT_1p8V_25C.lib",
+      "expected_sha256": "8b942ab557c8437788dc867f494ba31346ceef1e1182b3efe399018d15d46b5e",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x1024_w4/vortex_sp_32x1024_w4_TT_1p8V_25C.lib",
+      "expected_sha256": "05a9685f05b441f680ad062074d647241ca649a3c608e8951e9408a04e53519c",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x256_w1/vortex_sp_32x256_w1_TT_1p8V_25C.lib",
+      "expected_sha256": "bec3c12fae51e95a0c0615e3afd6cc12255bfa9db94d02ed2149f88bfcc2bd16",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_32x512_w4/vortex_sp_32x512_w4_TT_1p8V_25C.lib",
+      "expected_sha256": "8fde4c93af38d6f39ed947faea8496e4d90ee3c5374e1b7f537d483e1f9d43ad",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/openram/vortex-banked/vortex_sp_64x128_w8/vortex_sp_64x128_w8_TT_1p8V_25C.lib",
+      "expected_sha256": "993bc3b30374cd2c5aa3cfa3a57ad6a891e9ea197bb3f461daf353278830f7eb",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-b7ec62286c946774/6_final.v",
+      "expected_sha256": "1986b073afda29bed1003432daefb23c2595b6367156281050a462c5b5edde55",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-b7ec62286c946774/6_final.sdc",
+      "expected_sha256": "786307b748e83ada7928d8bfe38f19f483e70b868a798a2cd920d4b6a54496ec",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\top\\6_final.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q0/student-mini-gpu-block-final-1161c4163d2556ad/6_final.v",
+      "expected_sha256": "e76c47db887ce9b588e0b4c41ff48c4e592396ca98f9a98b6eb2e14183a52ce7",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q1/student-mini-gpu-block-final-e9f0cde51ef9dd12/6_final.v",
+      "expected_sha256": "1f6333af107ad1f2b274459ce8a0d5e50c326cbfdd1fa17c3c4b003996e72ea7",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q2/student-mini-gpu-block-final-940bd5533128d2b1/6_final.v",
+      "expected_sha256": "561f2c306203fc28e59fc55b55c9273f42dcfb4563dd7bb3fee6822716495a31",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\fullchip-sta\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q3/student-mini-gpu-block-final-189841ed9ce2e063/6_final.v",
+      "expected_sha256": "30cee57b8cd74ddffbd6b3e1c35d69c83ab29afd3eda5a798b2c6372211a8fdf",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/flat_3_place.v",
+      "expected_sha256": "e0564801e66a1c131dc0d5f887e52de64a5cde3a774838f9e54f3cb2990fdb69",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/part_fast28/quad.v",
+      "expected_sha256": "61f6382fbdb253a347488d718bc84cf89bb4392dd4688dadfa527a43e258e760",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/top.v",
+      "expected_sha256": "61aa93404b559374660d6a6f7b8a5e09aae4fb87b4430c9b6425f31cdadfa10f",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q0_LL/block.v",
+      "expected_sha256": "272eb5990d74d26690bf90e618ab1be59f33d6486a32e28d5a22c0ef08fc5fdf",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q0_LL/constraint.sdc",
+      "expected_sha256": "b6fdf5ceff4ba7c1dd1dbb82962bad24e1afe73c1e5c76ecccf17bc8082ba3a3",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q0_LL\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q1_LR/block.v",
+      "expected_sha256": "a628c19252152455effa910964005d858f190bdf1aa56b9a2446731542ad6faf",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q1_LR/constraint.sdc",
+      "expected_sha256": "096f82b35b6633252a66a1f2f554527a8b8ea14e2b0b40d5d63fe92ed813a1e1",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q1_LR\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q2_UL/block.v",
+      "expected_sha256": "78c4803d544316d65e44abee95349a4c9c8b1edae0eba73ed545fe689a53647e",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q2_UL/constraint.sdc",
+      "expected_sha256": "39d9cf930610b62408a26fdb39965e9923b20d6adf47b98e531caf5841a5afd4",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q2_UL\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q3_UR/block.v",
+      "expected_sha256": "87a42b1b2c04208091a84a1c95fcc58475a1c430ae2ff3a8418dcb2a64b41da1",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\partition\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/explore/gpu-quad2/blocks_final2/q3_UR/constraint.sdc",
+      "expected_sha256": "676823806f6075741a29fda40d531e9df87d1c7f961a0a9c11e5c31f0ba63eff",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q3_UR\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/top.v",
+      "expected_sha256": "81c048900358ca9c1bc1fd2099dc65b78bbb3801a808f275616376fd84604de3",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/constraint.sdc",
+      "expected_sha256": "7d899af1fc02af4b1134f009efa34fcd7977b21185d1c4b33a493ae54e819ae1",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q0.lef",
+      "expected_sha256": "390a12eca0c7f8eeed3a8676bba05194b43a3386246b3ff7899c19b785bd2262",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q1.lef",
+      "expected_sha256": "54d9b35d0fbd316edcb58c67740ace3cb1397504f8d611a6000d746e6be95aa3",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q2.lef",
+      "expected_sha256": "1e537dae0e0a2c04316e659068e946d09f7a80de4b41ef8b6746b61f091c270c",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\top\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-top-config/clean-20261014-i3/vortex_physical_top_q3.lef",
+      "expected_sha256": "8eac94b624766e146c73efab1bb74e6ebb24689f6282f644b54ddf0705d0e8c9",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q0_LL/block.v",
+      "expected_sha256": "272eb5990d74d26690bf90e618ab1be59f33d6486a32e28d5a22c0ef08fc5fdf",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q0_LL/constraint.sdc",
+      "expected_sha256": "b6fdf5ceff4ba7c1dd1dbb82962bad24e1afe73c1e5c76ecccf17bc8082ba3a3",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q0_LL\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_dp_80x64_w4.lef",
+      "expected_sha256": "3bfd53c64bf2118d65183d6f6de3ef565f34b0bba00f527d27790e49232a29ea",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_128x128_w16.lef",
+      "expected_sha256": "08fd2d8a20e17d9d6c65ca1361c139f672de3e24923142d71045892396d5ba0d",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x1024_w4.lef",
+      "expected_sha256": "081d85f5333715fc12b173c5cb2f093361b10f8d8eb347721c8178f1e2355f85",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x256_w1.lef",
+      "expected_sha256": "fd37d59f653cc2174c3c6995c44846b2559a8875d21df23c3b5fccbc87e8316c",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_32x512_w4.lef",
+      "expected_sha256": "707f052d54d4c4721ba87b543732b2fc5cb7c069074b737dcf104f354e5a542a",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q0\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-cut-synthesis/16976cb5ea94f48a8837952baf9d4aee788c5dff98c61c85e3a9be04af61ca0f/vortex_sp_64x128_w8.lef",
+      "expected_sha256": "abfd48d4bf5218229e180f54ed2ccf4c3cae899a5398332f6823a2af39fd4dca",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q1_LR/block.v",
+      "expected_sha256": "a628c19252152455effa910964005d858f190bdf1aa56b9a2446731542ad6faf",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q1_LR/constraint.sdc",
+      "expected_sha256": "096f82b35b6633252a66a1f2f554527a8b8ea14e2b0b40d5d63fe92ed813a1e1",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q1_LR\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-block-context/91bcb20ede62602eb17c0d9194becde741191330282fc3f84ac3dd23583426cf/vortex_physical_top_q1_inst.sdc",
+      "expected_sha256": "86a9395d7d2395dd2acd2f7b3393ed086774568accf456958ca083301d682bc9",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\vortex_physical_top_q1_inst.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q2_UL/block.v",
+      "expected_sha256": "78c4803d544316d65e44abee95349a4c9c8b1edae0eba73ed545fe689a53647e",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q2_UL/constraint.sdc",
+      "expected_sha256": "39d9cf930610b62408a26fdb39965e9923b20d6adf47b98e531caf5841a5afd4",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q2_UL\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-block-context/91bcb20ede62602eb17c0d9194becde741191330282fc3f84ac3dd23583426cf/vortex_physical_top_q2_inst.sdc",
+      "expected_sha256": "87c8e083c6bb759bb1c806ab6b07eea5a40c46a4acfc834dbbc006bb1815a923",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q2\\eco-context\\vortex_physical_top_q2_inst.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q3\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q3_UR/block.v",
+      "expected_sha256": "87a42b1b2c04208091a84a1c95fcc58475a1c430ae2ff3a8418dcb2a64b41da1",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q3\\completion.json",
+      "original_bound_path": "/mnt/c/Users/admin/Downloads/open-soc-ai-labs/build/student-mini/gpu-partition/4c30e4a61f2980527f94fc9f1a599533ed743c31a6bf71ebc7626050e5fd727b/q3_UR/constraint.sdc",
+      "expected_sha256": "676823806f6075741a29fda40d531e9df87d1c7f961a0a9c11e5c31f0ba63eff",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\partition\\q3_UR\\constraint.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-a674da82bde3113d/6_final.v",
+      "expected_sha256": "f861659e55732864c2d642064a4fecd3d95be7b6be84781c2ad1a67298f417c7",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top/student-mini-gpu-final-a674da82bde3113d/6_final.sdc",
+      "expected_sha256": "786307b748e83ada7928d8bfe38f19f483e70b868a798a2cd920d4b6a54496ec",
+      "matching_local_files": [
+        "6-源码引用\\原始参考包\\physical\\gpu\\top\\6_final.sdc"
+      ],
+      "status": "EXACT_SHA_MATCH"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q1/student-mini-gpu-block-final-e9f0cde51ef9dd12/6_final.v",
+      "expected_sha256": "2f3cf5a19cdb9783cd37e8da057b3616a2997e10ed39e337e11d11520cce3416",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    },
+    {
+      "reference_record": "6-源码引用\\原始参考包\\physical\\gpu\\vortex_physical_top_q1\\eco-context\\completion.json",
+      "original_bound_path": "/home/soclab/src/orfs-clean-aabf2a/flow/results/sky130hd/vortex_physical_top_q2/student-mini-gpu-block-final-940bd5533128d2b1/6_final.v",
+      "expected_sha256": "b5aa9fd0a5f047346f0965d61f12a00548724c06ef33dfe51db961a5866e3392",
+      "matching_local_files": [],
+      "status": "BOUND_FILE_NOT_IN_PROVIDED_REFERENCE"
+    }
+  ]
+}

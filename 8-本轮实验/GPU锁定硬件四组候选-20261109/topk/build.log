@@ -1,0 +1,71 @@
+Makefile:18: warning: overriding recipe for target '/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/kernel_compat/libvortex2.a'
+/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/source/tests/hip/common.mk:130: warning: ignoring old recipe for target '/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/kernel_compat/libvortex2.a'
+make: Warning: File '/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu' has modification time 2.5 s in the future
+CONFIGS="-DVX_CFG_FPU_TYPE=STD -DVX_CFG_NUM_CORES=1 -DVX_CFG_NUM_WARPS=2 -DVX_CFG_NUM_THREADS=4 -DVX_CFG_FPU_TYPE=STD"   make -C /root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/stub DESTDIR=/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime
+make[1]: Entering directory '/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/stub'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime/stub'
+HIP_CLANG_PATH=/root/.cache/routeb-dma-rebuild/locked-tools/llvm-vortex/bin LD_LIBRARY_PATH=/root/.cache/routeb-dma-rebuild/locked-tools/llvm-vortex/lib:/dev/shm/routeb-llvm-libs-20261108: /root/.cache/routeb-dma-rebuild/locked-tools/chipstar/bin/cucc -O2 -ffp-contract=off -fno-builtin -fno-builtin-abs -fno-builtin-labs -std=c++17 -DVX_CFG_FPU_TYPE=STD -DVX_CFG_NUM_CORES=1 -DVX_CFG_NUM_WARPS=2 -DVX_CFG_NUM_THREADS=4 -DVX_CFG_FPU_TYPE=STD --offload-pointer-width=32 --hip-path=/root/.cache/routeb-dma-rebuild/locked-tools/chipstar -L/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/lib -Wl,-rpath,/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/lib -Wl,-rpath-link,/root/.cache/routeb-dma-rebuild/platform-build/f9eb27a104966ea3ba5a4e8ac71f9cdaf57f4dc65875e5b9f04286dfe75329d3/vortex-build/sw/runtime -Wl,-rpath-link,/root/.cache/routeb-dma-rebuild/locked-tools/pocl/lib -Wl,-rpath-link,/root/.cache/routeb-dma-rebuild/locked-tools/llvm-vortex/lib -O2 -I. /mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu -o student_mini
+warning: cucc is a work-in-progress. It is incomplete and may behave incorrectly.
+Please, report issues at https://github.com/CHIP-SPV/chipStar/issues.
+In file included from <built-in>:2:
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/cuspv/cuda_runtime.h:817:4: warning: "cudaFreeAsync is mapped to hipFree" [-W#warnings]
+  817 |   #warning "cudaFreeAsync is mapped to hipFree"
+      |    ^
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/cuspv/cuda_runtime.h:868:4: warning: "cudaMallocAsync is mapped to hipMalloc" [-W#warnings]
+  868 |   #warning "cudaMallocAsync is mapped to hipMalloc"
+      |    ^
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/cuspv/cuda_runtime.h:1408:10: warning: 'hipGetTextureReference' is deprecated: This API is marked as deprecated and might not be supported in future releases. For more details please refer https://github.com/ROCm/HIP/blob/develop/docs/reference/deprecated_api_list.md [-Wdeprecated-declarations]
+ 1408 |   return hipGetTextureReference(texref, symbol);
+      |          ^
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/hip/hip_runtime_api.h:7506:1: note: 'hipGetTextureReference' has been explicitly marked deprecated here
+ 7506 | HIP_DEPRECATED(HIP_DEPRECATED_MSG)
+      | ^
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/hip/hip_runtime_api.h:680:44: note: expanded from macro 'HIP_DEPRECATED'
+  680 | #define HIP_DEPRECATED(msg) __attribute__((deprecated(msg)))
+      |                                            ^
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu:379:5: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  379 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_output);free(input);free(output);
+      |     ^~~~~~~~ ~~~
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu:379:19: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  379 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_output);free(input);free(output);
+      |                   ^~~~~~~~ ~~~~
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu:379:34: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  379 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_output);free(input);free(output);
+      |                                  ^~~~~~~~ ~~~~~~~~~~~~
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu:379:57: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  379 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_output);free(input);free(output);
+      |                                                         ^~~~~~~~ ~~~~~~~~~~~~~
+7 warnings generated when compiling for .
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/9-GPU复现/tools/llvm-vortex/bin/opt: WARNING: failed to create target machine for 'spirv32': unable to get target for 'spirv32', see --version and --triple.
+In file included from <built-in>:2:
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/cuspv/cuda_runtime.h:817:4: warning: "cudaFreeAsync is mapped to hipFree" [-W#warnings]
+  817 |   #warning "cudaFreeAsync is mapped to hipFree"
+      |    ^
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/cuspv/cuda_runtime.h:868:4: warning: "cudaMallocAsync is mapped to hipMalloc" [-W#warnings]
+  868 |   #warning "cudaMallocAsync is mapped to hipMalloc"
+      |    ^
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/cuspv/cuda_runtime.h:1408:10: warning: 'hipGetTextureReference' is deprecated: This API is marked as deprecated and might not be supported in future releases. For more details please refer https://github.com/ROCm/HIP/blob/develop/docs/reference/deprecated_api_list.md [-Wdeprecated-declarations]
+ 1408 |   return hipGetTextureReference(texref, symbol);
+      |          ^
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/hip/hip_runtime_api.h:7506:1: note: 'hipGetTextureReference' has been explicitly marked deprecated here
+ 7506 | HIP_DEPRECATED(HIP_DEPRECATED_MSG)
+      | ^
+/root/.cache/routeb-dma-rebuild/locked-tools/chipstar/include/hip/hip_runtime_api.h:680:44: note: expanded from macro 'HIP_DEPRECATED'
+  680 | #define HIP_DEPRECATED(msg) __attribute__((deprecated(msg)))
+      |                                            ^
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu:379:5: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  379 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_output);free(input);free(output);
+      |     ^~~~~~~~ ~~~
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu:379:19: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  379 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_output);free(input);free(output);
+      |                   ^~~~~~~~ ~~~~
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu:379:34: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  379 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_output);free(input);free(output);
+      |                                  ^~~~~~~~ ~~~~~~~~~~~~
+/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU锁定硬件四组候选-20261109/topk/student_mini.cu:379:57: warning: ignoring return value of type 'hipError_t' declared with 'nodiscard' attribute [-Wunused-value]
+  379 |     cudaFree(exp);cudaFree(silu);cudaFree(device_input);cudaFree(device_output);free(input);free(output);
+      |                                                         ^~~~~~~~ ~~~~~~~~~~~~~
+7 warnings generated when compiling for host.
+
+make: warning:  Clock skew detected.  Your build may be incomplete.

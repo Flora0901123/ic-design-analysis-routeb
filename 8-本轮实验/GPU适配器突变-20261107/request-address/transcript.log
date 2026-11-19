@@ -1,0 +1,12 @@
+ADAPTER_CASE ordinal=290 seed=1 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=291 seed=2 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=292 seed=3 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=293 seed=4 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=294 seed=5 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=295 seed=6 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=296 seed=7 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=297 seed=8 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=298 seed=9 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+ADAPTER_CASE ordinal=299 seed=10 mode=30 req_stall_setting=0 host_hold_setting=0 reset_setting=0 status=PASS scope=ADAPTER_ONLY
+FATAL: /mnt/c/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/GPU适配器协议-20261105/tb.sv:32: request changed during backpressure
+       Time: 3456  Scope: tb.transfer

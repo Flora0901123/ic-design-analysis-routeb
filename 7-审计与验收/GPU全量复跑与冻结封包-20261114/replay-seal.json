@@ -1,0 +1,7 @@
+{
+  "status": "CPU_GPU_REPLAY_EVIDENCE_SEALED",
+  "cpu_sha256": "3ee1ff7da17e114125e858b5988a55d3fbe7bb4cf5c3dcdb9742bd4a1adda679",
+  "gpu_relocated_sha256": "cb1076dffefd3721d0d53a06571f0c74c44f34385fa515e95a8ddd0f8656ff55",
+  "full_gpu_sha256": "979c0ec8dd4c97e2c4b16c44e1bcd847ec2dcf467596d579deb9f86980878891",
+  "physical_signoff": false
+}

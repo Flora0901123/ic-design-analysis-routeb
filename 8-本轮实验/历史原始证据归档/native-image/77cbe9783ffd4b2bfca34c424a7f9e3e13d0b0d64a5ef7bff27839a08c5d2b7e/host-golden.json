@@ -1,0 +1,14 @@
+{
+  "kind": "host-reference-only-never-target-input",
+  "tokens": [
+    92,
+    16,
+    15,
+    8,
+    4
+  ],
+  "text": "等于二。",
+  "token_sha256": "102ce9a7f7a75934d867dec8d8a566f515b939ed3f13f7c198597f7a5a3a0195",
+  "image_sha256": "96a3d5edba780ff4fb2cf52bb0a41c0a8baa099039ad08dd507995f86520fd4d",
+  "manifest_sha256": "67e0df1a9ed9e6fc49139445e9cd5638cb7b08c96459cd52392ae5812cf82b66"
+}

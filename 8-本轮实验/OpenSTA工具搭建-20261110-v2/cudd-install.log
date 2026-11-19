@@ -1,0 +1,29 @@
+make[1]: Entering directory '/root/.cache/routeb-opensta-20261110/cudd'
+ /usr/bin/mkdir -p '/root/.cache/routeb-opensta-20261110/cudd-install/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   cudd/libcudd.la '/root/.cache/routeb-opensta-20261110/cudd-install/lib'
+libtool: install: /usr/bin/install -c cudd/.libs/libcudd.lai /root/.cache/routeb-opensta-20261110/cudd-install/lib/libcudd.la
+libtool: install: /usr/bin/install -c cudd/.libs/libcudd.a /root/.cache/routeb-opensta-20261110/cudd-install/lib/libcudd.a
+libtool: install: chmod 644 /root/.cache/routeb-opensta-20261110/cudd-install/lib/libcudd.a
+libtool: install: ranlib /root/.cache/routeb-opensta-20261110/cudd-install/lib/libcudd.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/native/powershell:/mnt/c/Users/Camellia/.codex/tmp/arg0-windows/codex-arg0R3ZrdK:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/native/powershell:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/native/libheif/libheif/bin:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/native/jxrlib/jxrlib/bin:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/native/poppler/Library/bin:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/bin/override:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/intelFPGA/18.1/quartus/bin:/mnt/d/Program Files/MATLAB/R2025b/runtime/win64:/mnt/d/Program Files/MATLAB/R2025b/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Camellia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Camellia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Camellia/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Camellia/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Camellia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Camellia/AppData/Local/Microsoft/WinGet/Packages/Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe/typst-x86_64-pc-windows-msvc:/mnt/c/Users/Camellia/AppData/Local/Pandoc/:/mnt/c/Users/Camellia/AppData/Local/Microsoft/WinGet/Packages/SST.opencode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/iverilog/bin:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/bin/fallback:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/node/bin:/mnt/c/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt/dependencies/native/git/cmd:/mnt/c/Users/Camellia/AppData/Local/OpenAI/Codex/bin/8dbccda2214d0643:/mnt/c/Users/Camellia/AppData/Local/OpenAI/Codex/bin/f71a721e0e6193a9:/sbin" ldconfig -n /root/.cache/routeb-opensta-20261110/cudd-install/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /root/.cache/routeb-opensta-20261110/cudd-install/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/root/.cache/routeb-opensta-20261110/cudd-install/include'
+ /usr/bin/install -c -m 644 cudd/cudd.h '/root/.cache/routeb-opensta-20261110/cudd-install/include'
+make[1]: Leaving directory '/root/.cache/routeb-opensta-20261110/cudd'

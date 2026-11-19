@@ -1,0 +1,54 @@
+--- baseline/student_mini_native_nano.c
++++ stride_rne15/student_mini_native_nano.c
+@@ -23,6 +23,13 @@
+     if(r*2u>(uint64_t)d || (r*2u==(uint64_t)d && (q&1u))) ++q;
+     return n<0 ? -(int64_t)q : (int64_t)q;
+ }
++static int64_t rne15(int64_t n) {
++    /* B2: n/32768 RNE via shift+mask, bit-exact with rne_div(n,32768). */
++    uint64_t a=n<0 ? (uint64_t)(-(n+1))+1u : (uint64_t)n;
++    uint64_t q=a>>15, r=a&0x7fffu;
++    if(r>0x4000u || (r==0x4000u && (q&1u))) ++q;
++    return n<0 ? -(int64_t)q : (int64_t)q;
++}
+ static float quantize(const float *x, unsigned n, int8_t *out) {
+     float peak=0;
+     for(unsigned i=0;i<n;++i) { float a=x[i]<0 ? -x[i] : x[i]; if(a>peak) peak=a; }
+@@ -37,13 +44,24 @@
+                    unsigned in, unsigned out, unsigned transpose, float *y) {
+     int8_t a[16];
+     float s=quantize(x,in,a)*m->scale[id];
++    const int8_t *w=m->weight[id];
++    unsigned stride=transpose ? 1 : out;
+     for(unsigned j=0;j<out;++j) {
+         int32_t acc=0;
+-        for(unsigned k=0;k<in;++k)
+-            acc+=(int32_t)a[k]*m->weight[id][transpose ? j*in+k : k*out+j];
++        if(in) {
++            const int8_t *p=w+(transpose ? j*in : j);
++            unsigned k=0;
++            for(;;) {
++                acc+=(int32_t)a[k]*(*p);
++                ++k;
++                if(k==in) break;
++                p+=stride;
++            }
++        }
+         y[j]=rounded((float)acc*s);
+     }
+ }
++
+ static void norm(const mini_native_model *m, unsigned id, const float *x, float *y) {
+     float sum=0;
+     for(unsigned j=0;j<16;++j) sum+=x[j]*x[j];
+@@ -103,8 +121,8 @@
+             } else {
+                 int32_t next=maximum>score ? maximum : score;
+                 int32_t old=course_exp_neg_q15(maximum-next), added=course_exp_neg_q15(score-next);
+-                denominator=(int32_t)rne_div((int64_t)denominator*old,32768)+added;
+-                for(unsigned j=0;j<8;++j) numerator[j]=rne_div(numerator[j]*old,32768)+(int32_t)keys[token*12+j]*added;
++                denominator=(int32_t)rne15((int64_t)denominator*old)+added;
++                for(unsigned j=0;j<8;++j) numerator[j]=rne15(numerator[j]*old)+(int32_t)keys[token*12+j]*added;
+                 maximum=next;
+             }
+         }

@@ -1,0 +1,11 @@
+--- original/technology/sky130/tech/tech.py
++++ candidate/technology/sky130/tech/tech.py
+@@ -644,7 +644,7 @@
+ # m3.6 Minimum area of metal3
+ drc.add_layer("m3",
+               width=0.300,
+-              spacing=0.300,
++              spacing=0.400,
+               area=0.240)
+ # m3.4 Minimum enclosure around via2
+ drc.add_enclosure("m3",

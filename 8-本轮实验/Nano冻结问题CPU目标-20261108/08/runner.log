@@ -1,0 +1,65 @@
+{
+  "out": "/mnt/d/Users/Camellia/Desktop/集成电路设计与分析-RouteB交付/8-本轮实验/nano-baseline-1794145765300684381",
+  "status": "TRANSCRIPTS_COLLECTED",
+  "variant": "baseline",
+  "requested_variant": "baseline",
+  "selection_policy": "Nano Top-K defaults to verified baseline fallback; experimental candidates require explicit names",
+  "question": "现在冷不冷？",
+  "repeat_requested": 1,
+  "formal_baseline": false,
+  "checkpoint_sha256": "809472c0b65cab930dbf05254f23bf6dd4a13f3b6b6ee76f08e4c086a9446b74",
+  "baseline_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "candidate_sha256": "3d45d0a4587ebcc0489f97835dd874781648d9c4561bbe0e044ad8e197cbd1e6",
+  "primary_metric": "ttft",
+  "primary_metric_registration": "new experiments only, not retrospective registration of historical runs",
+  "python_executable": "/home/camellia/socai/student-mini-v1-cpu-gpu/sources/.venv/bin/python",
+  "runs": [
+    {
+      "run": 0,
+      "complete": true,
+      "console_sha256": "14dd77437d0e9e7664b4306219cb659ba3148c835e60f5f3b17520b07e7af067",
+      "tokens": [
+        67,
+        69,
+        84,
+        97,
+        90,
+        56,
+        71,
+        51,
+        82,
+        8,
+        4
+      ],
+      "token_match": true,
+      "ttft_cycles": 3853436,
+      "per_token_decode_cycles": 903905.4,
+      "decode_intervals_cycles": [
+        792041,
+        814667,
+        838474,
+        862283,
+        892046,
+        915196,
+        945132,
+        969645,
+        992306,
+        1017264
+      ],
+      "session_cycles": 12892719,
+      "operator_cycles": {
+        "1": 292660,
+        "2": 1043365,
+        "3": 1846189
+      }
+    }
+  ],
+  "token_and_metrics_validation": "PASS",
+  "metrics_mean": {
+    "ttft_cycles": 3853436,
+    "per_token_decode_cycles": 903905.4,
+    "session_cycles": 12892719
+  },
+  "measurement_boundary": "mcycle around mini_native_generate; excludes boot, input transfer, host tokenization; EOS included in decode intervals",
+  "promotion": "NOT_EVALUATED"
+}

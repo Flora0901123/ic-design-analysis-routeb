@@ -1,0 +1,58 @@
+{
+  "status": "FOUR_QUADRANT_MACRO_FLOORPLAN_PASS",
+  "physical_signoff": false,
+  "macro_instances": 164,
+  "macro_counts_by_quadrant": {
+    "1": 16,
+    "0": 20,
+    "2": 64,
+    "3": 64
+  },
+  "quadrant_order": [
+    "BL icache",
+    "BR local memory",
+    "TL dcache bank 0",
+    "TR dcache bank 1"
+  ],
+  "each_bbox_within_quadrant": true,
+  "overlapping_macros": 0,
+  "boundary_crossings": 0,
+  "dbu_per_um": 2000,
+  "die_um": [
+    8000,
+    8000
+  ],
+  "standard_cells_placed": false,
+  "source_plan": {
+    "path": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-physical-acceptance-20261114/gpu-floorplan/macros.tsv",
+    "sha256": "6297cb1c4f61e35d211b367fb5a86d4f12bd0509fcbb485f5610aa01b43318b0"
+  },
+  "parent_input_manifest": {
+    "path": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-physical-acceptance-20261114/gpu-floorplan/inputs.json",
+    "sha256": "4f5a2bd7121289c2ce8ac6c4dfcd0d4077e069b88d071e03ca7d7ceab991978f"
+  },
+  "tool_binary_sha256": "fcd7dcfc37d329bd43a7ede75805319a2e70e6879da11d42b4fd1c2e50e645c3",
+  "outputs": {
+    "openroad.log": "1316b59c9bf898f93df51e44178bf5e1eef75001bc36b4b05338b2714513edc9",
+    "placed-macros.tsv": "cb4d5c1de8a8bd63d2db9c08dcbefbe2d0df2679156baabfefd30c0e48f6bb22",
+    "plan.tsv": "98d7e2e6850b86bb3520f2e3c6f368db98e2e2a7a1caf5db830c990e65911093",
+    "quadrant-floorplan.odb": "0cebab5f941e857c84dff2e125ef3649849994ed273f2df7648edac9ae521871",
+    "quadrants.tcl": "62531340ddedf535c904be31d5b26b269882e2234dbcd39128848cf4ccdeb3ef"
+  },
+  "resources": {
+    "path": "/sys/fs/cgroup/routeb-course-qualification",
+    "observed_epoch": 1794731866.9609132,
+    "limits": {
+      "cpu.max": "200000 100000",
+      "cpu.stat": "usage_usec 21858246\nuser_usec 18361886\nsystem_usec 3496359\nnice_usec 0\nnr_periods 504\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "8589934592",
+      "memory.current": "575500288",
+      "memory.peak": "2825318400",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "memory.swap.max": "0",
+      "memory.swap.current": "0",
+      "cgroup.procs": "416"
+    }
+  },
+  "seconds": 40.813190369
+}

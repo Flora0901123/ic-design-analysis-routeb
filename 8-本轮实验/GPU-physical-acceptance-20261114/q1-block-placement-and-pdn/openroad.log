@@ -1,0 +1,177 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: ( 10.120 10.880 ) ( 3915.520 3914.080 ) um
+[INFO GPL-0036] Movable instances area:     2012667.808 um^2
+[INFO GPL-0037] Total instances area:       5285487.952 um^2
+[INFO GPL-0035] Pin density area adjust:    143847.201 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:            188121
+[INFO GPL-0007] Movable instances:              184901
+[INFO GPL-0008] Fixed instances:                    16
+[INFO GPL-0009] Dummy instances:                  3204
+[INFO GPL-0010] Number of nets:                 190221
+[INFO GPL-0011] Number of pins:                 665936
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 3925.640 3925.640 ) um
+[INFO GPL-0013] Core BBox: ( 10.120 10.880 ) ( 3915.520 3914.080 ) um
+[INFO GPL-0016] Core area:                  15243557.280 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                15243557.280 um^2
+[INFO GPL-0017] Fixed instances area:       4154522.016 um^2
+[INFO GPL-0018] Movable instances area:     2156515.009 um^2
+[INFO GPL-0019] Utilization:                    19.447 %
+[INFO GPL-0020] Standard cells area:        2156515.009 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 184901	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.01665503 HPWL: 63098824540
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.01002025 HPWL: 42672379532
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00149784 HPWL: 36152794101
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00069202 HPWL: 32067583663
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00024407 HPWL: 29169615320
+[InitialPlace]  Iter: 6 conjugate gradient residual: 0.00016178 HPWL: 27722737972
+[InitialPlace]  Iter: 7 conjugate gradient residual: 0.00017959 HPWL: 26767307864
+[InitialPlace]  Iter: 8 conjugate gradient residual: 0.00013438 HPWL: 26080393267
+[InitialPlace]  Iter: 9 conjugate gradient residual: 0.00012661 HPWL: 25546168952
+[InitialPlace]  Iter: 10 conjugate gradient residual: 0.00011288 HPWL: 25193880059
+[InitialPlace]  Iter: 11 conjugate gradient residual: 0.00008704 HPWL: 24947740267
+[InitialPlace]  Iter: 12 conjugate gradient residual: 0.00010164 HPWL: 24752891766
+[InitialPlace]  Iter: 13 conjugate gradient residual: 0.00008309 HPWL: 24555686147
+[InitialPlace]  Iter: 14 conjugate gradient residual: 0.00008901 HPWL: 24415203222
+[InitialPlace]  Iter: 15 conjugate gradient residual: 0.00007939 HPWL: 24269720651
+[InitialPlace]  Iter: 16 conjugate gradient residual: 0.00007434 HPWL: 24147738185
+[InitialPlace]  Iter: 17 conjugate gradient residual: 0.00008440 HPWL: 24043953195
+[InitialPlace]  Iter: 18 conjugate gradient residual: 0.00012503 HPWL: 23958386580
+[InitialPlace]  Iter: 19 conjugate gradient residual: 0.00007885 HPWL: 23823088699
+[InitialPlace]  Iter: 20 conjugate gradient residual: 0.00007872 HPWL: 23759581759
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.3000
+[INFO GPL-0024] Movable insts average area:     11.663 um^2
+[INFO GPL-0025] Ideal bin area:                 38.877 um^2
+[INFO GPL-0026] Ideal bin count:                392097
+[INFO GPL-0027] Total bin area:             15243557.280 um^2
+[INFO GPL-0028] Bin count (X, Y):         512 ,    512
+[INFO GPL-0029] Bin size (W * H):       7.628 *  7.623 um
+[INFO GPL-0030] Number of bins:                 262144
+[INFO GPL-0084] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9612 |  1.141532e+07 |   +0.00% |  6.88e-17 |      
+       10 |   0.9039 |  1.243589e+07 |   +8.94% |  8.14e-17 |      
+       20 |   0.8760 |  1.274773e+07 |   +2.51% |  1.23e-16 |      
+       30 |   0.8599 |  1.290912e+07 |   +1.27% |  1.92e-16 |      
+       40 |   0.8481 |  1.299458e+07 |   +0.66% |  3.07e-16 |      
+       50 |   0.8412 |  1.303591e+07 |   +0.32% |  4.95e-16 |      
+       60 |   0.8365 |  1.303648e+07 |   +0.00% |  8.06e-16 |      
+       70 |   0.8343 |  1.301724e+07 |   -0.15% |  1.31e-15 |      
+       80 |   0.8317 |  1.300074e+07 |   -0.13% |  2.14e-15 |      
+       90 |   0.8288 |  1.298239e+07 |   -0.14% |  3.48e-15 |      
+      100 |   0.8276 |  1.295731e+07 |   -0.19% |  5.67e-15 |      
+      110 |   0.8276 |  1.293550e+07 |   -0.17% |  9.24e-15 |      
+      120 |   0.8263 |  1.292018e+07 |   -0.12% |  1.50e-14 |      
+      130 |   0.8244 |  1.290154e+07 |   -0.14% |  2.45e-14 |      
+      140 |   0.8246 |  1.288168e+07 |   -0.15% |  3.99e-14 |      
+      150 |   0.8258 |  1.287813e+07 |   -0.03% |  6.50e-14 |      
+      160 |   0.8269 |  1.288430e+07 |   +0.05% |  1.06e-13 |      
+      170 |   0.8278 |  1.290379e+07 |   +0.15% |  1.71e-13 |      
+      180 |   0.8286 |  1.292107e+07 |   +0.13% |  2.78e-13 |      
+      190 |   0.8301 |  1.295243e+07 |   +0.24% |  4.50e-13 |      
+      200 |   0.8329 |  1.301827e+07 |   +0.51% |  7.24e-13 |      
+      210 |   0.8313 |  1.319390e+07 |   +1.35% |  1.14e-12 |      
+      220 |   0.8219 |  1.358152e+07 |   +2.94% |  1.71e-12 |      
+      230 |   0.8069 |  1.427237e+07 |   +5.09% |  2.42e-12 |      
+      240 |   0.7862 |  1.524537e+07 |   +6.82% |  3.19e-12 |      
+      250 |   0.7657 |  1.613922e+07 |   +5.86% |  4.25e-12 |      
+      260 |   0.7484 |  1.670038e+07 |   +3.48% |  6.10e-12 |      
+      270 |   0.7289 |  1.709284e+07 |   +2.35% |  9.08e-12 |      
+      280 |   0.6988 |  1.791321e+07 |   +4.80% |  1.26e-11 |      
+      290 |   0.6724 |  1.917186e+07 |   +7.03% |  1.55e-11 |      
+      300 |   0.6605 |  1.951312e+07 |   +1.78% |  2.25e-11 |      
+      310 |   0.6499 |  1.861715e+07 |   -4.59% |  3.67e-11 |      
+      320 |   0.6162 |  1.868540e+07 |   +0.37% |  5.80e-11 |      
+      330 |   0.5906 |  1.888854e+07 |   +1.09% |  8.77e-11 |      
+      340 |   0.5613 |  1.925064e+07 |   +1.92% |  1.32e-10 |      
+      350 |   0.5359 |  1.912437e+07 |   -0.66% |  1.97e-10 |      
+      360 |   0.5001 |  1.810354e+07 |   -5.34% |  3.22e-10 |      
+      370 |   0.4540 |  1.829005e+07 |   +1.03% |  4.95e-10 |      
+      380 |   0.4168 |  1.854218e+07 |   +1.38% |  7.39e-10 |      
+      390 |   0.3787 |  1.817183e+07 |   -2.00% |  1.19e-09 |      
+      400 |   0.3417 |  1.803959e+07 |   -0.73% |  1.77e-09 |      
+      410 |   0.3139 |  1.784741e+07 |   -1.07% |  2.56e-09 |      
+      420 |   0.2940 |  1.742774e+07 |   -2.35% |  3.77e-09 |      
+      430 |   0.2670 |  1.722525e+07 |   -1.16% |  5.55e-09 |      
+      440 |   0.2439 |  1.699446e+07 |   -1.34% |  8.18e-09 |      
+      450 |   0.2231 |  1.672891e+07 |   -1.56% |  1.20e-08 |      
+      460 |   0.2029 |  1.647757e+07 |   -1.50% |  1.77e-08 |      
+      470 |   0.1835 |  1.623419e+07 |   -1.48% |  2.61e-08 |      
+      480 |   0.1641 |  1.604658e+07 |   -1.16% |  3.85e-08 |      
+      490 |   0.1444 |  1.591120e+07 |   -0.84% |  5.67e-08 |      
+      500 |   0.1265 |  1.582023e+07 |   -0.57% |  8.36e-08 |      
+      510 |   0.1105 |  1.577403e+07 |   -0.29% |  1.23e-07 |      
+      518 |   0.0991 |  1.576333e+07 |          |  1.74e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 518
+[INFO GPL-1002] Placed Cell Area            2156515.0088
+[INFO GPL-1003] Available Free Area         11089035.2640
+[INFO GPL-1004] Minimum Feasible Density        0.2000 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.2161
+[INFO GPL-1008]     - For 80% usage of free space: 0.2431
+[INFO GPL-1009]     - For 50% usage of free space: 0.3889
+[INFO GPL-1014] Final placement area: 2156515.01 (+0.00%)
+[INFO DPL-0006] Core area: 15243557.28 um^2, Instances area: 2012667.81 um^2, Utilization: 13.2%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1101] Legalizing using diamond search.
+Movements Summary
+---------------------------------------
+Total cells:                  184901
+Diamond Move Success:         184901 (100.00%)
+Diamond Move Failure:              0
+Rip-up and replace Success:        0 (  0.00% of diamond failures)
+Rip-up and replace Failure:        0
+Total Placement Failures:          0
+---------------------------------------
+Placement Analysis
+---------------------------------
+total displacement     277105.9 u
+average displacement        1.5 u
+max displacement          463.7 u
+original HPWL        15765525.0 u
+legalized HPWL       15986720.0 u
+delta HPWL                    1 %
+
+ROUTEB_Q1_LEGAL_PLACEMENT
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[0\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[0\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[1\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[0\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[2\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[0\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[3\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[1\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[1\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[1\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[1\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[2\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[1\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[3\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[2\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[2\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[1\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[2\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[2\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[2\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[3\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[3\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[0\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[3\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[1\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[3\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[2\].u_raw.mem
+[INFO PDN-0001] Inserting grid: CORE_macro_grid_1 - core.g_clusters\[0\].cluster.g_sockets\[0\].socket.g_cores\[0\].core.mem_unit.local_mem.g_data_store\[3\].lmem_store.g_asic.sp_ram_asic.genblk1.g_vortex_sp_32x1024_w4.u_macro.g_slice\[3\].u_raw.mem
+[WARNING PDN-0110] No via inserted between met4 and met5 at (172.1600, 1043.6800) - (173.7600, 1044.6800) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (226.4400, 1043.6800) - (228.0400, 1044.6800) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (633.5400, 1043.6800) - (635.1400, 1044.6800) on VDD
+[WARNING PDN-0110] No via inserted between met4 and met5 at (742.1000, 1043.6800) - (743.7000, 1044.6800) on VDD
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0040] All shapes on net VSS are connected.
+ROUTEB_Q1_POWER_GRID_CHECKED
+worst slack max -12.56
+worst slack min -2.52
+ROUTEB_Q1_STAGE_COMPLETE

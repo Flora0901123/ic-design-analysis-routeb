@@ -1,0 +1,46 @@
+{
+  "status": "BOTH_LVS_COMPLETED_WITH_MISMATCH",
+  "physical_signoff": false,
+  "results": [
+    {
+      "shape": "20x64",
+      "status": "TOP_LEVEL_PIN_MISMATCH",
+      "physical_signoff": false,
+      "device_totals": [
+        1471,
+        1472
+      ],
+      "net_totals": [
+        1079,
+        1081
+      ],
+      "supply_related_pin_mismatches": [
+        "vccd1                                      |(no pin, node is clk_buf0)",
+        "(no pin, node is /routeb_new_1w1r_20x64_co |vccd1"
+      ],
+      "report_sha256": "f72c17414c12854ce93401dee09acc6267be38d8decebdef7e7ae507efd53448",
+      "report": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-SRAM\u5b8f\u751f\u6210-20261111/geometry-repair-v2-run-20261114-125749/20x64/lvs-netgen-1.5.323/result.report",
+      "well_rule_sweep": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-SRAM\u5b8f\u751f\u6210-20261111/geometry-repair-v2-run-20261114-125749/20x64/well-rule-isolation/status.json"
+    },
+    {
+      "shape": "8x128",
+      "status": "TOP_LEVEL_PIN_MISMATCH",
+      "physical_signoff": false,
+      "device_totals": [
+        1332,
+        1333
+      ],
+      "net_totals": [
+        1305,
+        1307
+      ],
+      "supply_related_pin_mismatches": [
+        "vccd1                                      |(no pin, node is bank_din0_7)",
+        "(no pin, node is vccd1)                    |vccd1"
+      ],
+      "report_sha256": "e663cb73ea2d360a4017dd1584bb6b73bf75e912d71d244b1dd9fec722f8f610",
+      "report": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-SRAM\u5b8f\u751f\u6210-20261111/geometry-repair-run-20261114-124447/8x128/lvs-netgen-1.5.323/result.report",
+      "well_rule_sweep": "8-\u672c\u8f6e\u5b9e\u9a8c/GPU-SRAM\u5b8f\u751f\u6210-20261111/geometry-repair-run-20261114-124447/8x128/well-rule-isolation/status.json"
+    }
+  ]
+}

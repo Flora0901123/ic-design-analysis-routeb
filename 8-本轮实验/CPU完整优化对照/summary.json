@@ -1,0 +1,47 @@
+{
+  "parent_run": "8-本轮实验\\20261029T053512179194Z-cpu-baseline",
+  "candidate_run": "8-本轮实验\\20261029T055241769167Z-cpu-topk",
+  "parent_source_sha256": "9df7244eb3077dca32dec59da773c26f8df2efc1824530144435ab6c0098e37f",
+  "candidate_source_sha256": "729eb4aeabdab2d3ad1302eddfc46264ff4419f04c09c033c85d36f253152ee1",
+  "records": 1000,
+  "numerically_matching": 1000,
+  "summary": [
+    {
+      "operator": "p1",
+      "records": 330,
+      "baseline_mean_cycles": 22915.18181818182,
+      "candidate_mean_cycles": 21417.918181818182,
+      "exploratory_equal_weight_geomean_ratio": 1.073982365177588,
+      "exploratory_gain_pct": 7.398236517758794,
+      "regressions_over_5pct": 0
+    },
+    {
+      "operator": "p2",
+      "records": 340,
+      "baseline_mean_cycles": 35706.92941176471,
+      "candidate_mean_cycles": 33501.42058823529,
+      "exploratory_equal_weight_geomean_ratio": 1.0621518719476999,
+      "exploratory_gain_pct": 6.215187194769989,
+      "regressions_over_5pct": 0
+    },
+    {
+      "operator": "p3",
+      "records": 330,
+      "baseline_mean_cycles": 80534.6606060606,
+      "candidate_mean_cycles": 78279.83333333333,
+      "exploratory_equal_weight_geomean_ratio": 1.0353998622041851,
+      "exploratory_gain_pct": 3.5399862204185117,
+      "regressions_over_5pct": 0
+    }
+  ],
+  "promotion": "HOLD_PENDING_GATES",
+  "formal_score": "NOT_EVALUATED",
+  "missing_gates": [
+    "teacher frozen performance weights not located in provided package",
+    "protocol/formal qualification",
+    "physical and source identity",
+    "resource constraints and side effects",
+    "Nano gain"
+  ],
+  "scope": "all supplied case/seed ratios equally weighted for exploration; includes error/protocol cases; not the official frozen performance board"
+}

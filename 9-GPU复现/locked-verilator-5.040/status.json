@@ -1,0 +1,48 @@
+{
+  "status": "INSTALLED",
+  "started_at": "2026-11-07T14:05:55.551088+00:00",
+  "source": {
+    "url": "https://codeload.github.com/verilator/verilator/tar.gz/refs/tags/v5.040",
+    "tag": "v5.040",
+    "sha256": "56c7c46314adfad06dd093b77823bfd9b49ebef72342549f790718199c3e8223",
+    "bytes": 35762924,
+    "source": "official verilator/verilator release tag"
+  },
+  "prefix": "/mnt/c/Users/Camellia/Desktop/\u96c6\u6210\u7535\u8def\u8bbe\u8ba1\u4e0e\u5206\u6790-RouteB\u4ea4\u4ed8/9-GPU\u590d\u73b0/tools/verilator-5.040",
+  "build_directory": "/root/.cache/routeb-verilator-5.040/verilator-5.040",
+  "pid": 930,
+  "stages": [
+    {
+      "stage": "autoconf",
+      "exit_code": 0,
+      "seconds": 5.059110623000038
+    },
+    {
+      "stage": "configure",
+      "exit_code": 0,
+      "seconds": 75.91274681100003
+    },
+    {
+      "stage": "build-opt",
+      "exit_code": 0,
+      "seconds": 207.89669220300004
+    },
+    {
+      "stage": "install-opt",
+      "exit_code": 0,
+      "seconds": 15.177553781000029
+    }
+  ],
+  "build_profile": "official optimized binary; debug and coverage binaries intentionally omitted to bound disk cost",
+  "scope": "locked tool build and standalone adapter regression; not whole GPU qualification",
+  "current_stage": "install-opt",
+  "elapsed_seconds": 312.154353167,
+  "updated_at": "2026-11-07T14:10:45.251439+00:00",
+  "stage_elapsed_seconds": 10.134793910999974,
+  "version": "Verilator 5.040 2025-08-30 rev UNKNOWN.REV",
+  "binaries": {
+    "verilator": "491c95e1a949a3df1f370c9d39318e159d08b246edf4363fb42d05ea88f74dbe",
+    "verilator_bin": "2b21379faf14b4557cb074d0f979cdfcdff96defad3440ef7bf8bbd649d94951"
+  },
+  "adapter_producer_exit_code": 0
+}
